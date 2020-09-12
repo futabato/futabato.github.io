@@ -21,24 +21,6 @@ plainwhite:
   social_links:
     twitter: 01futabato10
     github:  futabato
-    #linkedIn: 
-    #rss: rss
-    #dribbble: jekyll
-    #flickr:   jekyll
-    #instagram: jekyll
-    #pinterest: jekyll
-    #youtube: jekyll
-    #facebook: jekyll
-    #soundcloud: jekyll
-    #telegram: jekyll
-    #gitlab: jekyll
-
-    # Mastodon instances
-    # mastodon:
-    # - username: jekyll
-    #   instance: example.com
-    # - username: jekyll2
-    #   instance: example.com
 
 plugins:
   - jekyll-seo-tag
