@@ -22,6 +22,9 @@ plainwhite:
     twitter: 01futabato10
     github:  futabato
 
+header_pages:
+  - about.md
+
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
