@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: futabato.github.io
 date: 2020-09-13
 ---
