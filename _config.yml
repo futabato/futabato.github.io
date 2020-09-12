@@ -38,3 +38,7 @@ plainwhite:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-remote-theme
