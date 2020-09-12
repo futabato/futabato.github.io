@@ -1,5 +1,7 @@
 ---
-layout: home
+layout: posts
+title: futabato.github.io
+date: 2020-09-13
 ---
 
 # futabato.github.io  
