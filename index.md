@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 # futabato.github.io  
