@@ -1,6 +1,6 @@
-auto: true
-server: true
-markdown: kramdown
+#auto: true
+#server: true
+#markdown: kramdown
 remote_theme: samarsault/plainwhite-jekyll
 
 title: futabato.github.io
@@ -10,8 +10,8 @@ email: 01futabato10@gmail.com
 plainwhite:
   name: futabato
   date_format: "%b %-d, %Y"
-  sitemap: true
-  search: true
+  #sitemap: true
+  #search: true
   dark_mode: true
   portfolio_image: "assets/icon.jpg"
   html_lang: "ja"
