@@ -6,10 +6,10 @@ remote_theme: samarsault/plainwhite-jekyll
 title: futabato.github.io
 author: futabato
 email: 01futabato10@gmail.com
-description: Nice to meet you.
 
 plainwhite:
   name: futabato
+  tagline: Nice to meet you.
   date_format: "%b %-d, %Y"
   #sitemap: true
   #search: true
