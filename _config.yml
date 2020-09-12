@@ -6,6 +6,7 @@ remote_theme: samarsault/plainwhite-jekyll
 title: futabato.github.io
 author: futabato
 email: 01futabato10@gmail.com
+description: Nice to meet you.
 
 plainwhite:
   name: futabato
