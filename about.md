@@ -10,7 +10,7 @@ title: futabato.github.io
 - Profession: Student
 - Circle: IPFactory  
 - CTF team: [After_the_CM](https://ctftime.org/team/118161)  
-- Language: Python, C++  
+- Language: Python
 - Interest: Image Recognition
 
 ## Activity
@@ -26,6 +26,7 @@ title: futabato.github.io
 - [Twitter](https://twitter.com/01futabato10)  
 - [GitHub](https://github.com/futabato)  
 - [AtCoder](https://atcoder.jp/users/futabato)  
+- [Speaker Deck](https://speakerdeck.com/futabato)  
 
 
 ### Contact 
