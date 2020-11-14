@@ -1,6 +1,6 @@
 #auto: true
-#server: true
-#markdown: kramdown
+server: true
+markdown: kramdown
 remote_theme: samarsault/plainwhite-jekyll
 
 title: futabato.github.io
@@ -34,3 +34,4 @@ sass:
 plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-feed
