@@ -1,29 +1,34 @@
 ---
 layout: default
 title: futabato.github.io
-date: 2020-11-03
+date: 2020-11-20
 ---
 
 # futabato.github.io  
 
 ## About Me
+
 - Name: futabato  
-- Profession: Student
+- Profession: Student  
 - Circle: [IPFactory](https://ipfactory.github.io/)  
 - CTF team: [After_the_CM](https://ctftime.org/team/118161)  
 - Language: Python
 - Interest: Image Recognition, Object Detection  
 
 ## Activity
+
 ### 2019
+
 - StartupWeekendYokohama 10  
 - NRI Secure Netwars 2019  
 
 ### 2020
-- GCI2020 Summer 
+
+- GCI 2020Summer
 
 
 ## Links
+
 - [Twitter](https://twitter.com/01futabato10)  
 - [GitHub](https://github.com/futabato)  
 - [Speaker Deck](https://speakerdeck.com/futabato)  
@@ -31,6 +36,7 @@ date: 2020-11-03
 
 
 ### Contact 
+
 Email : 01futabato10@gmail.com  
 
 
