@@ -4,15 +4,15 @@ title: futabato.github.io
 date: 2020-11-20
 ---
 
-# futabato.github.io  
+# futabato.github.io
 
-## About Me
+## Profile
 
 - Name: futabato  
-- Profession: Student  
+- Occupation: Student  
 - Circle: [IPFactory](https://ipfactory.github.io/)  
 - CTF team: [After_the_CM](https://ctftime.org/team/118161)  
-- Language: Python
+- Language: Python  
 - Interest: Image Recognition, Object Detection  
 
 ## Activity
@@ -26,6 +26,7 @@ date: 2020-11-20
 
 - GCI 2020Summer
 
+### 2021
 
 ## Links
 
@@ -35,7 +36,7 @@ date: 2020-11-20
 - [AtCoder](https://atcoder.jp/users/futabato)  
 
 
-### Contact 
+### Contact
 
 Email : 01futabato10@gmail.com  
 
