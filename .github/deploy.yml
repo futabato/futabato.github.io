@@ -1,19 +1,21 @@
-name: github pages
+name: Deployment
 
-# masterブランチにプッシュしたときjobsに記述した操作を行う
 on:
-  push:
-    branches:
-      - master
+  pull_request:
+    branches: [master]
+
+defaults:
+  run:
+    working-directory: ./
 
 jobs:
   deploy:
-  name: Deploy (${{matrix.os}})
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [18]
-        os: [ubuntu-latest, windows-latest]
+    name: Deploy (${{matrix.os}})
+      runs-on: ubuntu-latest
+      strategy:
+        matrix:
+          node-version: [18]
+          os: [ubuntu-latest, windows-latest]
 
     steps:
       - name: Cancel Previous Runs
