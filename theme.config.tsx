@@ -6,7 +6,10 @@ const config: DocsThemeConfig = {
   project: {
     link: 'https://github.com/futabato',
   },
-  docsRepositoryBase: 'https://github.com/futabato',
+  docsRepositoryBase: 'https://github.com/futabato/futabato.github.io',
+  search: {placeholder: 'search'},
+  editLink: { component: undefined},
+  feedback: {content: undefined},
 }
 
 export default config

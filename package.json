@@ -1,7 +1,7 @@
 {
   "name": "nextra-docs-template",
-  "version": "0.0.1",
-  "description": "Nextra docs template",
+  "version": "0.0.2",
+  "description": "Nextra docs template editted by futabato",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,18 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shuding/nextra-docs-template.git"
+    "url": "git+https://github.com/futabato/futabato.github.io.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "futabato <01futabato10@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/futabato/futabato.github.io/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/futabato/futabato.github.io#readme",
   "dependencies": {
     "next": "^13.0.6",
-    "nextra": "latest",
     "nextra-theme-docs": "latest",
+    "nextra": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
