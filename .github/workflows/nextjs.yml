@@ -18,9 +18,11 @@ jobs:
         with:
           node-version: 18.x
 
-      - name: Install NPM packages
+      - name: Install pnpm
         run: npm install -g pnpm
-          pnpm i
+
+      - name: Install NPM packages
+        run: pnpm i
 
       - name: Build Next.js app
         run: pnpm build
