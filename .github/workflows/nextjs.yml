@@ -45,11 +45,13 @@ jobs:
         run: pnpm install
       - name: Build
         run: pnpm build
+      - name: Export
+        run: pnpm export
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           # Upload entire repository
-          path: ".next"
+          path: "out"
 
   # Deployment job
   deploy:
