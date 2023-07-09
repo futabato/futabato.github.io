@@ -1,6 +1,6 @@
 {
   "name": "nextra-docs-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nextra docs template editted by futabato",
   "homepagte": "https://futabato.github.io/",
   "scripts": {
@@ -8,7 +8,6 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "predeploy": "next build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
