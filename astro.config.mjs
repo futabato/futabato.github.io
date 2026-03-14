@@ -1,8 +1,8 @@
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: 'https://futabato.github.io',
+  site: "https://futabato.github.io",
   build: {
-    assets: '_assets',
+    assets: "_assets",
   },
 });
