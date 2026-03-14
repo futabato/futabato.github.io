@@ -39,7 +39,7 @@ const popupCount = 5;
 
   const titles = [
     'SYSTEM WARNING',
-    'ctOS ALERT',
+    'OS ALERT',
     'kernel32.dll',
     'CRITICAL',
     'glitch.sys',
@@ -49,7 +49,7 @@ const popupCount = 5;
     'svchost.exe',
     'FIREWALL',
     'ANOMALY',
-    'ctOS_scan.bin',
+    'OS_scan.bin',
   ];
 
   const icons = ['⚠', '☠', '⚡', '🔍', '🛡', '⛔', '📡', '🔓'];
@@ -59,14 +59,14 @@ const popupCount = 5;
   const messageGenerators: MessageGenerator[] = [
     () => `Unauthorized access detected at 0x${randomHex(8)}`,
     () => `Memory perturbation in sector ${randomInt(1, 99)}${pick(['A', 'B', 'C', 'G', 'F'])}`,
-    () => `Process ${pick(['ctOS_core', 'watcher', 'profiler', 'netmon', 'sniffer'])}.exe (PID ${randomInt(1000, 65535)}) not responding`,
+    () => `Process ${pick(['OS_core', 'watcher', 'profiler', 'netmon', 'sniffer'])}.exe (PID ${randomInt(1000, 65535)}) not responding`,
     () => `Adversarial noise injection at layer ${randomInt(1, 12)} — loss: ${(Math.random() * 2).toFixed(4)}`,
     () => `Signal integrity compromised — packet loss ${randomInt(12, 97)}%`,
     () => `Federated gradient aggregation anomaly in round ${randomInt(1, 500)}`,
     () => `Brute force attempt on port ${pick(['22', '443', '8080', '3389', '5432'])} — ${randomInt(100, 9999)} attempts`,
     () => `Suspicious connection from ${randomInt(1, 255)}.${randomInt(0, 255)}.${randomInt(0, 255)}.${randomInt(1, 254)}`,
     () => `Buffer overflow in 0x${randomHex(4)}${randomHex(4)} — stack trace dumped`,
-    () => `ctOS node ${pick(['ALPHA', 'BRAVO', 'DELTA', 'ECHO', 'FOXTROT'])}-${randomInt(1, 99)} offline`,
+    () => `OS node ${pick(['ALPHA', 'BRAVO', 'DELTA', 'ECHO', 'FOXTROT'])}-${randomInt(1, 99)} offline`,
     () => `Encryption key rotation failed — fallback to 0x${randomHex(6)}`,
     () => `Model accuracy dropped to ${(40 + Math.random() * 30).toFixed(1)}% — possible evasion attack`,
     () => `Scanning ${randomInt(1, 255)}.${randomInt(0, 255)}.${randomInt(0, 255)}.0/24 — ${randomInt(3, 28)} hosts found`,
