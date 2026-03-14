@@ -9,6 +9,21 @@
       "role": "Data Scientist",
       "company": "",
       "period": "Apr 2025 –"
+    },
+    {
+      "role": "Cybozu Labs Youth",
+      "company": "Cybozu Labs, Inc.",
+      "period": "Jun 2024 - Mar 2025"
+    },
+    {
+      "role": "SecHack365 Assistant",
+      "company": "NICT (National Institute of Information and Communications Technology)",
+      "period": "Jun 2023 - Mar 2025"
+    },
+    {
+      "role": "AI Engineer",
+      "company": "Matsuo Institute, Inc.",
+      "period": "Oct 2020 - Mar 2025"
     }
   ],
   "publications": [],
@@ -29,14 +44,14 @@
       "department": "Course of Information Security Science, Department of Data and Computational Sciences",
       "location": "Hyogo, Japan",
       "period": "Apr 2023 – Mar 2025",
-      "note": "Master's degree"
+      "note": "修士（情報科学）"
     },
     {
       "institution": "Information Science College",
       "department": "Department of Information Security",
       "location": "Kanagawa, Japan",
       "period": "Apr 2019 – Mar 2023",
-      "note": "Advanced Diploma (Applied Professional Post-Secondary Course (Technology))"
+      "note": "高度専門士"
     }
   ],
   "projects": [
@@ -60,6 +75,14 @@
     }
   ],
   "activities": [
+    {
+      "year": "2025",
+      "items": [
+        "Matsuo Institute LT #1 - Speaker",
+        "Digital Communication Seminar 2025 in Shizuoka (MIC) - Panelist",
+        "Matsuo-Iwasawa Lab - AI Engineering Practice Course"
+      ]
+    },
     {
       "year": "2024",
       "items": [
@@ -124,39 +147,50 @@
   ],
   "awards": [
     {
+      "name": "The 2025 IPSJ Yamashita SIG Research Award",
+      "detail": "情報処理学会2025年度山下記念研究賞 受賞"
+    },
+    {
+      "name": "Matsuo-Iwasawa Lab Practical AI Engineering Course 2025",
+      "detail": "松尾・岩澤研究室 実践AIエンジニアリング講座 優秀修了"
+    },
+    {
       "name": "Computer Security Symposium 2024 — CSS Student Paper Award",
-      "detail": "Won the CSS Student Paper Award"
+      "detail": "Computer Security Symposium 2024 CSS学生論文賞 受賞"
     },
     {
-      "name": "NFLabs. Cybersecurity Challenge for Students 2023",
-      "detail": "Won the Writeup Prize"
+      "name": "NFLabs. Cybersecurity Challenge for Students 2023 - Writeup Award",
+      "detail": "NFLabs. Cybersecurity Challenge for Students 2023 Writeup賞 受賞"
     },
     {
-      "name": "INCS-CoE C2C CTF 2023 Final",
-      "detail": "Won the \"Main Challenge - Hitachi Award\""
+      "name": "INCS-CoE C2C CTF 2023 Final - Hitachi Award",
+      "detail": "INCS-CoE C2C CTF 2023 Final \"Main Challenge - Hitachi Award\" 受賞"
     },
     {
-      "name": "MBSD Cybersecurity Challenges 2022",
-      "detail": "Won the 1st place as team IPFactory"
+      "name": "MBSD Cybersecurity Challenges 2022 - Won the 1st place",
+      "detail": "チームIPFactoryとして最優秀賞を獲得"
     },
     {
-      "name": "MBSD Cybersecurity Challenges 2021",
-      "detail": "Won the 3rd place as team After_the_CM"
+      "name": "MBSD Cybersecurity Challenges 2021 - Won the 3rd place",
+      "detail": "チームAfter_the_CMとして第3位入賞"
     }
   ],
   "achievements": [
     {
       "name": "High Achiever Awards, Foundation for Vocational and Career Education",
+      "detail": "一般財団法人 職業教育キャリア教育財団 優秀賞 受賞",
       "date": "2022"
     },
     {
       "name": "Learner Awards, Kanagawa Specialty Schools Association",
+      "detail": "一般社団法人神奈川県専修学校各種学校協会 学習者表彰 受賞",
       "date": "2020, 2021, 2022"
     }
   ],
   "scholarship": {
     "name": "Yukio Iwasaki Scholarship Foundation for IT Education and Research",
     "type": "Non-refundable scholarship",
-    "period": "Apr 2021 – Mar 2023"
+    "detail": "一般財団法人岩崎幸雄IT教育・研究奨学財団 奨学生",
+    "period": "Apr 2021 - Mar 2023"
   }
 }

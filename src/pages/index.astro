@@ -96,19 +96,32 @@ import data from '../data/portfolio.json';
       </div>
     </Section>
 
-    <!-- Achievements & Scholarship -->
+    <!-- Achievements -->
     <Section id="achievements">
       <GlitchText text="Achievements" />
       <div class="info-list">
-        {data.achievements.map((a) => (
+        {data.achievements.map((a: { name: string; date: string; detail?: string }) => (
           <div class="info-list__item">
             <div class="info-list__item-title">{a.name}</div>
-            <div class="info-list__item-detail">{a.date}</div>
+            <div class="info-list__item-detail">
+              {a.date}
+              {a.detail && <><br />{a.detail}</>}
+            </div>
           </div>
         ))}
+      </div>
+    </Section>
+
+    <!-- Scholarship -->
+    <Section id="scholarship">
+      <GlitchText text="Scholarship" />
+      <div class="info-list">
         <div class="info-list__item">
           <div class="info-list__item-title">{data.scholarship.name}</div>
-          <div class="info-list__item-detail">{data.scholarship.type} — {data.scholarship.period}</div>
+          <div class="info-list__item-detail">
+            {data.scholarship.type} — {data.scholarship.period}
+            {data.scholarship.detail && <><br />{data.scholarship.detail}</>}
+          </div>
         </div>
       </div>
     </Section>
