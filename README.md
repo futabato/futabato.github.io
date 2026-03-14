@@ -14,7 +14,7 @@ Astro + カスタム CSS で構築されたポートフォリオサイト
   "name": "futabato",
   "greeting": "Hi, there",
   "tagline": "Data Scientist",        // Hero のデコードアニメーションで表示
-  "bio": "Data Scientist interested in cybersecurity. ...",
+  "bio": "Data Scientist interested in CyberSecurity. ...",
 }
 ```
 
