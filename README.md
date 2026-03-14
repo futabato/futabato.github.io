@@ -1,6 +1,6 @@
 # futabato.github.io
 
-Adversarial Portfolio — Astro + カスタム CSS で構築されたポートフォリオサイト。
+Astro + カスタム CSS で構築されたポートフォリオサイト
 
 ## コンテンツの更新方法
 
