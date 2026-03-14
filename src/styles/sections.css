@@ -606,6 +606,223 @@
   color: var(--accent-ctos);
 }
 
+/* ===== OZ Love Machine color invasion (aggressive) ===== */
+
+/* ALL info-list items: border shifts amber → red */
+.info-list__item {
+  border-left-color: color-mix(
+    in srgb,
+    var(--accent-amber),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Card/window hover glow shifts ctOS green → red */
+.window:hover {
+  border-color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+  box-shadow:
+    0 0 8px color-mix(in srgb, rgba(21, 255, 0, 0.3), rgba(255, 0, 0, 0.4) calc(var(--oz-invasion) * 100%)),
+    0 0 24px color-mix(in srgb, rgba(21, 255, 0, 0.1), rgba(255, 0, 0, 0.15) calc(var(--oz-invasion) * 100%));
+}
+
+/* Window titlebar text shifts */
+.window__title {
+  color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Window titlebar border shifts */
+.window__titlebar {
+  border-bottom-color: color-mix(
+    in srgb,
+    rgba(21, 255, 0, 0.12),
+    rgba(255, 0, 0, 0.2) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Timeline nodes glow shifts green → red */
+.timeline-item::before {
+  background: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+  box-shadow: 0 0 8px color-mix(
+    in srgb,
+    rgba(21, 255, 0, 0.5),
+    rgba(255, 0, 0, 0.6) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Timeline line gradient shifts */
+.timeline::before {
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--accent-amber), var(--accent-red) calc(var(--oz-invasion) * 100%)),
+    color-mix(in srgb, var(--accent-ctos), var(--accent-red) calc(var(--oz-invasion) * 100%)),
+    color-mix(in srgb, var(--accent-blue), var(--accent-red) calc(var(--oz-invasion) * 100%))
+  );
+}
+
+/* Timeline content prefix > shifts */
+.timeline-item__content li::before {
+  color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Taskbar border shifts */
+.taskbar {
+  border-top-color: color-mix(
+    in srgb,
+    rgba(255, 176, 0, 0.2),
+    rgba(255, 0, 0, 0.3) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Taskbar logo shifts */
+.taskbar__logo {
+  color: color-mix(
+    in srgb,
+    var(--accent-amber),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+  border-color: color-mix(
+    in srgb,
+    rgba(255, 176, 0, 0.2),
+    rgba(255, 0, 0, 0.3) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Taskbar tab hover shifts */
+.taskbar__tab:hover {
+  color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Taskbar clock shifts to red */
+.taskbar__clock {
+  color: color-mix(
+    in srgb,
+    var(--accent-amber),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Hero tagline shifts */
+.hero__tagline {
+  color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Hero link buttons shift */
+.hero__links a {
+  border-color: color-mix(
+    in srgb,
+    var(--accent-amber),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+.hero__links a:hover {
+  background: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+  border-color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Card links shift */
+.card__links a {
+  color: color-mix(
+    in srgb,
+    var(--accent-blue),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Footer shifts */
+.footer {
+  border-top-color: color-mix(
+    in srgb,
+    rgba(255, 176, 0, 0.1),
+    rgba(255, 0, 0, 0.2) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+.footer__links a:hover {
+  color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+/* Screen tear shifts to red */
+.screen-tear {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    color-mix(in srgb, var(--accent-ctos), var(--accent-red) calc(var(--oz-invasion) * 100%)) 20%,
+    color-mix(in srgb, var(--accent-amber), var(--accent-red) calc(var(--oz-invasion) * 100%)) 50%,
+    color-mix(in srgb, var(--accent-blue), var(--accent-red) calc(var(--oz-invasion) * 100%)) 80%,
+    transparent 100%
+  );
+}
+
+/* Popup border & glow shifts to red */
+.popup {
+  border-color: color-mix(
+    in srgb,
+    rgba(21, 255, 0, 0.25),
+    rgba(255, 0, 0, 0.4) calc(var(--oz-invasion) * 100%)
+  );
+  box-shadow:
+    0 0 12px color-mix(in srgb, rgba(21, 255, 0, 0.12), rgba(255, 0, 0, 0.2) calc(var(--oz-invasion) * 100%)),
+    0 8px 32px rgba(0, 0, 0, 0.6);
+}
+
+.popup__ok {
+  color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+  border-color: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
+.popup__ok:hover {
+  background: color-mix(
+    in srgb,
+    var(--accent-ctos),
+    var(--accent-red) calc(var(--oz-invasion) * 100%)
+  );
+}
+
 /* ===== Spacer — taskbar is now at bottom ===== */
 .main-content {
   padding-bottom: var(--nav-height);

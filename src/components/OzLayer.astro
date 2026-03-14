@@ -1,0 +1,135 @@
+---
+/**
+ * Summer Wars "OZ" third layer — aggressive invasion.
+ * - Perspective grid that fades in at mid-scroll
+ * - Floating avatar silhouettes that multiply toward the end
+ * - Love Machine red invasion across all accent colors
+ * - Full-screen red wash + red scanlines
+ */
+---
+
+<!-- OZ perspective grid -->
+<div class="oz-grid" id="oz-grid" aria-hidden="true">
+  <div class="oz-grid__plane"></div>
+</div>
+
+<!-- Floating OZ avatars -->
+<div class="oz-avatars" id="oz-avatars" aria-hidden="true"></div>
+
+<!-- Love Machine red vignette overlay -->
+<div class="oz-lovemachine" id="oz-lovemachine" aria-hidden="true"></div>
+
+<!-- Love Machine red scanline wash -->
+<div class="oz-redwash" id="oz-redwash" aria-hidden="true"></div>
+
+<style>
+  /* ===== OZ Perspective Grid ===== */
+  .oz-grid {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0;
+    perspective: 600px;
+    overflow: hidden;
+  }
+
+  .oz-grid__plane {
+    position: absolute;
+    bottom: -40%;
+    left: -20%;
+    right: -20%;
+    height: 120%;
+    transform: rotateX(55deg);
+    background-image:
+      repeating-linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.08) 0px,
+        rgba(255, 255, 255, 0.08) 1px,
+        transparent 1px,
+        transparent 80px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.08) 0px,
+        rgba(255, 255, 255, 0.08) 1px,
+        transparent 1px,
+        transparent 80px
+      );
+    animation: oz-grid-scroll 8s linear infinite;
+  }
+
+  @keyframes oz-grid-scroll {
+    0% { background-position: 0 0; }
+    100% { background-position: 0 80px; }
+  }
+
+  /* ===== Floating Avatars ===== */
+  .oz-avatars {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+  }
+
+  .oz-avatar {
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0;
+    animation: oz-float 12s ease-in-out infinite;
+    transition: background 0.8s, box-shadow 0.8s, opacity 0.6s;
+  }
+
+  .oz-avatar--white { background: radial-gradient(circle at 35% 35%, #ffffff, #c0c0d0); }
+  .oz-avatar--blue { background: radial-gradient(circle at 35% 35%, #88bbff, #4477cc); }
+  .oz-avatar--pink { background: radial-gradient(circle at 35% 35%, #ff88bb, #cc4477); }
+  .oz-avatar--yellow { background: radial-gradient(circle at 35% 35%, #ffdd66, #ccaa33); }
+  .oz-avatar--green { background: radial-gradient(circle at 35% 35%, #88ffaa, #44cc66); }
+
+  .oz-avatar--absorbed {
+    background: radial-gradient(circle at 35% 35%, #ff2222, #880000) !important;
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.5);
+  }
+
+  @keyframes oz-float {
+    0%, 100% { transform: translateY(0) scale(1); }
+    25% { transform: translateY(-15px) scale(1.05); }
+    50% { transform: translateY(-5px) scale(0.97); }
+    75% { transform: translateY(-20px) scale(1.02); }
+  }
+
+  /* ===== Love Machine Vignette (strong) ===== */
+  .oz-lovemachine {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    opacity: 0;
+    background: radial-gradient(
+      ellipse at center,
+      transparent 20%,
+      rgba(180, 0, 0, 0.35) 100%
+    );
+  }
+
+  /* ===== Love Machine Red Wash (tints entire screen) ===== */
+  .oz-redwash {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 9993;
+    opacity: 0;
+    background: rgba(120, 0, 0, 0.08);
+    mix-blend-mode: multiply;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .oz-grid,
+    .oz-avatars,
+    .oz-lovemachine,
+    .oz-redwash {
+      display: none !important;
+    }
+  }
+</style>

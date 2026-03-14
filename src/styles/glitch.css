@@ -19,13 +19,13 @@
 }
 
 .glitch::before {
-  color: var(--accent-ctos);
+  color: color-mix(in srgb, var(--accent-ctos), var(--accent-red) calc(var(--oz-invasion) * 100%));
   animation: glitch-clip 3s infinite linear alternate-reverse;
   clip-path: inset(20% 0 60% 0);
 }
 
 .glitch::after {
-  color: var(--accent-amber);
+  color: color-mix(in srgb, var(--accent-amber), var(--accent-red) calc(var(--oz-invasion) * 100%));
   animation: glitch-clip-reverse 3s infinite linear alternate-reverse;
   clip-path: inset(60% 0 10% 0);
 }
@@ -59,8 +59,8 @@
     0deg,
     transparent,
     transparent 2px,
-    rgba(21, 255, 0, 0.03) 2px,
-    rgba(21, 255, 0, 0.03) 4px
+    color-mix(in srgb, rgba(21, 255, 0, 0.03), rgba(255, 0, 0, 0.04) calc(var(--oz-invasion) * 100%)) 2px,
+    color-mix(in srgb, rgba(21, 255, 0, 0.03), rgba(255, 0, 0, 0.04) calc(var(--oz-invasion) * 100%)) 4px
   );
   z-index: 2;
 }

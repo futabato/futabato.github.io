@@ -187,6 +187,134 @@ import data from '../data/portfolio.json';
       }
     }
 
+    // --- 0d. OZ Layer (Summer Wars — periodic Love Machine attacks) ---
+    if (!prefersReducedMotion) {
+      const ozGrid = document.getElementById('oz-grid');
+      const ozAvatars = document.getElementById('oz-avatars');
+      const ozLovemachine = document.getElementById('oz-lovemachine');
+      const ozRedwash = document.getElementById('oz-redwash');
+      const avatarVariants = ['white', 'blue', 'pink', 'yellow', 'green'];
+      const spawnedAvatars: HTMLDivElement[] = [];
+
+      // Invasion state — ratchets up, never goes back down
+      let invasionLevel = 0;    // 0..1
+      const MAX_ATTACKS = 5;
+      let attackCount = 0;
+
+      function randomBetween(min: number, max: number) {
+        return min + Math.random() * (max - min);
+      }
+
+      function spawnAvatar(absorbed: boolean) {
+        if (!ozAvatars) return;
+        const avatar = document.createElement('div');
+        const size = absorbed ? randomBetween(10, 36) : randomBetween(8, 28);
+        const variant = absorbed ? 'absorbed' : avatarVariants[Math.floor(Math.random() * avatarVariants.length)];
+        avatar.className = `oz-avatar oz-avatar--${variant}`;
+        avatar.style.width = `${size}px`;
+        avatar.style.height = `${size}px`;
+        avatar.style.left = `${randomBetween(3, 97)}%`;
+        avatar.style.top = `${randomBetween(3, 92)}%`;
+        avatar.style.animationDelay = `${randomBetween(0, 6)}s`;
+        avatar.style.animationDuration = `${randomBetween(6, 14)}s`;
+        requestAnimationFrame(() => {
+          avatar.style.opacity = `${randomBetween(0.2, absorbed ? 0.65 : 0.45)}`;
+        });
+        ozAvatars.appendChild(avatar);
+        spawnedAvatars.push(avatar);
+      }
+
+      function absorbAvatars() {
+        spawnedAvatars.forEach((av) => {
+          if (!av.classList.contains('oz-avatar--absorbed')) {
+            av.classList.remove(
+              'oz-avatar--white', 'oz-avatar--blue', 'oz-avatar--pink',
+              'oz-avatar--yellow', 'oz-avatar--green'
+            );
+            av.classList.add('oz-avatar--absorbed');
+            av.style.opacity = `${randomBetween(0.35, 0.65)}`;
+          }
+        });
+      }
+
+      function applyInvasion() {
+        document.documentElement.style.setProperty('--oz-invasion', `${invasionLevel}`);
+        if (ozGrid) ozGrid.style.opacity = `${Math.min(invasionLevel * 1.5, 0.8)}`;
+        if (ozLovemachine) ozLovemachine.style.opacity = `${invasionLevel}`;
+        if (ozRedwash) ozRedwash.style.opacity = `${Math.max(0, invasionLevel - 0.3)}`;
+      }
+
+      // Spawn initial peaceful OZ avatars after 8s
+      setTimeout(() => {
+        for (let i = 0; i < 10; i++) spawnAvatar(false);
+        if (ozGrid) {
+          ozGrid.style.opacity = '0.3';
+        }
+      }, 8000);
+
+      function loveMachineAttack() {
+        if (attackCount >= MAX_ATTACKS) return;
+        attackCount++;
+
+        // Ratchet up invasion level
+        invasionLevel = Math.min(attackCount / MAX_ATTACKS, 1);
+
+        // Flash effect — brief bright red flash
+        const flash = document.createElement('div');
+        flash.style.cssText = `
+          position: fixed; inset: 0; z-index: 9999;
+          background: rgba(255, 0, 0, 0.15);
+          pointer-events: none;
+          animation: lm-flash 0.4s ease-out forwards;
+        `;
+        document.body.appendChild(flash);
+        setTimeout(() => flash.remove(), 500);
+
+        // Screen shake
+        document.body.style.transition = 'transform 0.05s';
+        let shakeCount = 0;
+        const shakeInterval = setInterval(() => {
+          shakeCount++;
+          const x = (Math.random() - 0.5) * 6;
+          const y = (Math.random() - 0.5) * 6;
+          document.body.style.transform = `translate(${x}px, ${y}px)`;
+          if (shakeCount > 6) {
+            clearInterval(shakeInterval);
+            document.body.style.transform = '';
+          }
+        }, 50);
+
+        // Absorb some avatars + spawn red ones
+        absorbAvatars();
+        const redCount = 4 + Math.floor(Math.random() * 6);
+        for (let i = 0; i < redCount; i++) {
+          setTimeout(() => spawnAvatar(true), Math.random() * 800);
+        }
+
+        // Apply persistent color invasion
+        applyInvasion();
+
+        // Schedule next attack (if not maxed)
+        if (attackCount < MAX_ATTACKS) {
+          const nextDelay = 20000 + Math.random() * 25000; // 20–45s
+          setTimeout(loveMachineAttack, nextDelay);
+        }
+      }
+
+      // First attack after 25–40s
+      setTimeout(loveMachineAttack, 25000 + Math.random() * 15000);
+
+      // Inject flash keyframe
+      const style = document.createElement('style');
+      style.textContent = `
+        @keyframes lm-flash {
+          0% { opacity: 1; }
+          100% { opacity: 0; }
+        }
+      `;
+      document.head.appendChild(style);
+    }
+
     // --- 1. Scroll fade-in observer ---
     const observer = new IntersectionObserver(
       (entries) => {

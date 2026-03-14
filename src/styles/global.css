@@ -17,6 +17,8 @@
   --font-body: 'Inter', sans-serif;
   --max-width: 960px;
   --nav-height: 48px;
+  /* OZ invasion progress (0..1, set by JS) */
+  --oz-invasion: 0;
 }
 
 /* ===== Reset ===== */
