@@ -1,4 +1,5 @@
 ---
+import BootSequence from '../components/BootSequence.astro';
 import CircuitBackground from '../components/CircuitBackground.astro';
 import OzLayer from '../components/OzLayer.astro';
 
@@ -42,7 +43,16 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     />
   </head>
   <body>
-    <!--オタクくん、見てる～～～？-->
+    <!--
+      ソースコードまで見にきたの？ 暇なの？
+
+      ...まあ、こういう人は嫌いじゃないよ。
+      せっかくだからヒントをあげる。
+      タスクバーの futabato.exe、連打してみな。
+    -->
+
+    <!-- Boot sequence overlay -->
+    <BootSequence />
     <!-- SVG noise filter (referenced by NoiseOverlay) -->
     <svg style="position:absolute;width:0;height:0;" aria-hidden="true">
       <filter id="noise">
@@ -85,7 +95,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         'color: #888880; font-size: 11px; font-family: monospace;'
       );
       console.log(
-        '%cオタクくんならDevTools開くと思っていたよ。',
+        '%cオタクくんならDevTools開くと思っていたよ。\n' +
         'font-size: 13px; font-family: monospace;'
       );
     </script>
