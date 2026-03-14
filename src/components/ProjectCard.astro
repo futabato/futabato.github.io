@@ -11,12 +11,21 @@ interface Props {
 const { name, description, blog, repo } = Astro.props;
 ---
 
-<div class="card">
-  <NoiseOverlay />
-  <h3 class="card__title">{name}</h3>
-  <p class="card__desc">{description}</p>
-  <div class="card__links">
-    {repo && <a href={repo} target="_blank" rel="noopener noreferrer">[Repo]</a>}
-    {blog && <a href={blog} target="_blank" rel="noopener noreferrer">[Blog]</a>}
+<div class="window card">
+  <div class="window__titlebar">
+    <span class="window__title">{name}.exe</span>
+    <div class="window__controls">
+      <span class="window__btn window__btn--minimize">&#x2500;</span>
+      <span class="window__btn window__btn--maximize">&#x25A1;</span>
+      <span class="window__btn window__btn--close">&#x2715;</span>
+    </div>
+  </div>
+  <div class="window__body">
+    <NoiseOverlay />
+    <p class="card__desc">{description}</p>
+    <div class="card__links">
+      {repo && <a href={repo} target="_blank" rel="noopener noreferrer">[Repo]</a>}
+      {blog && <a href={blog} target="_blank" rel="noopener noreferrer">[Blog]</a>}
+    </div>
   </div>
 </div>

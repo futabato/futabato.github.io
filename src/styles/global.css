@@ -12,7 +12,7 @@
   --font-heading: 'JetBrains Mono', monospace;
   --font-body: 'Inter', sans-serif;
   --max-width: 960px;
-  --nav-height: 60px;
+  --nav-height: 48px;
 }
 
 /* ===== Reset ===== */
@@ -26,7 +26,6 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: var(--nav-height);
 }
 
 body {
@@ -87,5 +86,11 @@ img {
 
   html {
     scroll-behavior: auto;
+  }
+
+  .cursor-dot,
+  .screen-tear,
+  .popups-container {
+    display: none !important;
   }
 }

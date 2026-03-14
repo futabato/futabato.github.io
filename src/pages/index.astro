@@ -6,6 +6,7 @@ import Section from '../components/Section.astro';
 import GlitchText from '../components/GlitchText.astro';
 import ProjectCard from '../components/ProjectCard.astro';
 import TimelineItem from '../components/TimelineItem.astro';
+import GlitchPopup from '../components/GlitchPopup.astro';
 import Footer from '../components/Footer.astro';
 import data from '../data/portfolio.json';
 ---
@@ -98,8 +99,19 @@ import data from '../data/portfolio.json';
 
   <Footer />
 
-  <!-- Scroll fade-in observer -->
+  <!-- Glitch Popups -->
+  <GlitchPopup />
+
+  <!-- Screen tear lines -->
+  <div class="screen-tear" id="screen-tear-1" aria-hidden="true"></div>
+  <div class="screen-tear" id="screen-tear-2" aria-hidden="true"></div>
+
+  <!-- ===== All interactive JS ===== -->
   <script>
+    // --- Reduced motion check ---
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    // --- 1. Scroll fade-in observer ---
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -111,7 +123,129 @@ import data from '../data/portfolio.json';
       },
       { threshold: 0.1 }
     );
-
     document.querySelectorAll('.fade-in').forEach((el) => observer.observe(el));
+
+    // --- 2. Cursor trail ---
+    if (!prefersReducedMotion) {
+      const TRAIL_COUNT = 8;
+      const colors = ['#00ff41', '#b14aed', '#0ff', '#ff2d6b'];
+      const dots: HTMLDivElement[] = [];
+      const positions: { x: number; y: number }[] = [];
+
+      for (let i = 0; i < TRAIL_COUNT; i++) {
+        const dot = document.createElement('div');
+        dot.className = 'cursor-dot';
+        dot.style.background = colors[i % colors.length];
+        dot.style.width = `${6 - i * 0.5}px`;
+        dot.style.height = `${6 - i * 0.5}px`;
+        document.body.appendChild(dot);
+        dots.push(dot);
+        positions.push({ x: -100, y: -100 });
+      }
+
+      let mouseX = -100;
+      let mouseY = -100;
+
+      document.addEventListener('mousemove', (e) => {
+        mouseX = e.clientX;
+        mouseY = e.clientY;
+      });
+
+      function animateTrail() {
+        positions[0].x += (mouseX - positions[0].x) * 0.3;
+        positions[0].y += (mouseY - positions[0].y) * 0.3;
+
+        for (let i = 1; i < TRAIL_COUNT; i++) {
+          positions[i].x += (positions[i - 1].x - positions[i].x) * 0.25;
+          positions[i].y += (positions[i - 1].y - positions[i].y) * 0.25;
+        }
+
+        for (let i = 0; i < TRAIL_COUNT; i++) {
+          const dot = dots[i];
+          dot.style.left = `${positions[i].x}px`;
+          dot.style.top = `${positions[i].y}px`;
+          dot.style.opacity = `${1 - i / TRAIL_COUNT}`;
+        }
+
+        requestAnimationFrame(animateTrail);
+      }
+      requestAnimationFrame(animateTrail);
+    }
+
+    // --- 3. Screen tearing ---
+    if (!prefersReducedMotion) {
+      const tear1 = document.getElementById('screen-tear-1');
+      const tear2 = document.getElementById('screen-tear-2');
+
+      function triggerTear() {
+        const el = Math.random() > 0.5 ? tear1 : tear2;
+        if (!el) return;
+        el.style.top = `${Math.random() * 100}vh`;
+        el.classList.remove('screen-tear--active');
+        void el.offsetWidth; // reflow
+        el.classList.add('screen-tear--active');
+      }
+
+      function scheduleTear() {
+        const delay = 3000 + Math.random() * 6000;
+        setTimeout(() => {
+          triggerTear();
+          scheduleTear();
+        }, delay);
+      }
+      scheduleTear();
+    }
+
+    // --- 4. Random popups on scroll ---
+    if (!prefersReducedMotion) {
+      const popups = document.querySelectorAll<HTMLElement>('.popup');
+      const popupTriggered = new Set<number>();
+      const sectionEls = document.querySelectorAll<HTMLElement>('.section');
+      const sectionCount = sectionEls.length;
+
+      // Map each popup to a section index for triggering
+      const popupSectionMap: Map<number, number> = new Map();
+      popups.forEach((_, i) => {
+        popupSectionMap.set(i, Math.min(i, sectionCount - 1));
+      });
+
+      const popupObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const secIdx = Array.from(sectionEls).indexOf(entry.target as HTMLElement);
+
+            popupSectionMap.forEach((mappedSec, popupIdx) => {
+              if (mappedSec === secIdx && !popupTriggered.has(popupIdx)) {
+                popupTriggered.add(popupIdx);
+                const popup = popups[popupIdx];
+                if (!popup) return;
+
+                // Random position — avoid taskbar at bottom
+                const maxX = window.innerWidth - 300;
+                const maxY = window.innerHeight - 200;
+                popup.style.left = `${60 + Math.random() * Math.max(maxX - 60, 100)}px`;
+                popup.style.top = `${40 + Math.random() * Math.max(maxY - 40, 100)}px`;
+
+                setTimeout(() => {
+                  popup.classList.add('popup--visible');
+                }, 300 + Math.random() * 500);
+              }
+            });
+          });
+        },
+        { threshold: 0.3 }
+      );
+
+      sectionEls.forEach((sec) => popupObserver.observe(sec));
+
+      // Close popups on OK or X click
+      document.querySelectorAll('.popup__ok, .popup__close').forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+          const popup = (e.target as HTMLElement).closest('.popup');
+          if (popup) popup.classList.remove('popup--visible');
+        });
+      });
+    }
   </script>
 </BaseLayout>

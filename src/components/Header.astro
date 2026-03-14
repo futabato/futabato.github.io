@@ -8,17 +8,42 @@ const navItems = [
 ];
 ---
 
-<header class="header">
-  <a href="/" class="header__logo">futabato</a>
-  <input type="checkbox" id="nav-toggle" class="header__toggle" aria-label="Toggle navigation" />
-  <label for="nav-toggle" class="header__hamburger" aria-hidden="true">
+<header class="taskbar">
+  <div class="taskbar__start">
+    <a href="/" class="taskbar__logo">
+      <span class="taskbar__logo-icon">&#9654;</span>
+      futabato.exe
+    </a>
+  </div>
+  <nav class="taskbar__tabs">
+    {navItems.map((item) => (
+      <a href={item.href} class="taskbar__tab">{item.label}</a>
+    ))}
+  </nav>
+  <div class="taskbar__tray">
+    <span class="taskbar__clock" id="taskbar-clock"></span>
+  </div>
+  <!-- Mobile hamburger -->
+  <input type="checkbox" id="nav-toggle" class="taskbar__toggle" aria-label="Toggle navigation" />
+  <label for="nav-toggle" class="taskbar__hamburger" aria-hidden="true">
     <span></span>
     <span></span>
     <span></span>
   </label>
-  <nav class="header__nav">
+  <nav class="taskbar__mobile-nav">
     {navItems.map((item) => (
       <a href={item.href}>{item.label}</a>
     ))}
   </nav>
 </header>
+
+<script>
+  function updateClock() {
+    const el = document.getElementById('taskbar-clock');
+    if (!el) return;
+    const now = new Date();
+    el.textContent = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+  }
+  updateClock();
+  setInterval(updateClock, 10000);
+</script>

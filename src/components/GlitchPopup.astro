@@ -1,0 +1,29 @@
+---
+/**
+ * Random system-notification style popups that appear as you scroll.
+ * Each popup is hidden by default; JS randomizes position & triggers them.
+ */
+const popups = [
+  { title: 'SYSTEM WARNING', body: 'Unauthorized access detected at 0x7FF3A1B2', icon: '&#9888;' },
+  { title: 'kernel32.dll', body: 'Memory perturbation in sector 7G', icon: '&#9760;' },
+  { title: 'ALERT', body: 'Adversarial noise injection complete', icon: '&#9889;' },
+  { title: 'glitch.sys', body: 'Signal integrity compromised — RGB shift active', icon: '&#128737;' },
+  { title: 'NOTICE', body: 'Federated gradient aggregation anomaly', icon: '&#128270;' },
+];
+---
+
+<div class="popups-container" aria-hidden="true">
+  {popups.map((p, i) => (
+    <div class="popup" data-popup-index={i}>
+      <div class="popup__titlebar">
+        <span class="popup__icon" set:html={p.icon} />
+        <span class="popup__title">{p.title}</span>
+        <span class="popup__close">&#x2715;</span>
+      </div>
+      <div class="popup__body">
+        <p>{p.body}</p>
+        <button class="popup__ok">OK</button>
+      </div>
+    </div>
+  ))}
+</div>
