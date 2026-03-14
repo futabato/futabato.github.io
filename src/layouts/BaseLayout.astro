@@ -32,6 +32,19 @@ const { title, description = 'Adversarial Portfolio — futabato' } = Astro.prop
     </svg>
 
     <slot />
+
+    <!-- Film grain canvas -->
+    <canvas id="film-grain" aria-hidden="true"></canvas>
+
+    <!-- VHS tracking bands -->
+    <div class="vhs-tracking" id="vhs-tracking-1" aria-hidden="true"></div>
+    <div class="vhs-tracking" id="vhs-tracking-2" aria-hidden="true"></div>
+
+    <!-- VHS timestamp -->
+    <div class="vhs-timestamp" aria-hidden="true">
+      <div class="vhs-rec"><span class="vhs-rec__dot"></span> REC</div>
+      <div id="vhs-date"></div>
+    </div>
   </body>
 </html>
 

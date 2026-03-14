@@ -111,6 +111,82 @@ import data from '../data/portfolio.json';
     // --- Reduced motion check ---
     const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+    // --- 0. Film grain (canvas noise) ---
+    if (!prefersReducedMotion) {
+      const grainCanvas = document.getElementById('film-grain') as HTMLCanvasElement;
+      if (grainCanvas) {
+        const ctx = grainCanvas.getContext('2d');
+        function resizeGrain() {
+          // Render at half resolution for performance
+          grainCanvas.width = window.innerWidth / 2;
+          grainCanvas.height = window.innerHeight / 2;
+        }
+        resizeGrain();
+        window.addEventListener('resize', resizeGrain);
+
+        function drawGrain() {
+          if (!ctx) return;
+          const w = grainCanvas.width;
+          const h = grainCanvas.height;
+          const imageData = ctx.createImageData(w, h);
+          const data = imageData.data;
+          for (let i = 0; i < data.length; i += 4) {
+            const v = Math.random() * 255;
+            data[i] = v;
+            data[i + 1] = v;
+            data[i + 2] = v;
+            data[i + 3] = 255;
+          }
+          ctx.putImageData(imageData, 0, 0);
+          requestAnimationFrame(drawGrain);
+        }
+        drawGrain();
+      }
+    }
+
+    // --- 0b. VHS tracking bands ---
+    if (!prefersReducedMotion) {
+      const vhsBand1 = document.getElementById('vhs-tracking-1');
+      const vhsBand2 = document.getElementById('vhs-tracking-2');
+
+      function triggerVhsBand() {
+        const el = Math.random() > 0.5 ? vhsBand1 : vhsBand2;
+        if (!el) return;
+        el.style.top = `${Math.random() * 100}vh`;
+        el.classList.remove('vhs-tracking--active');
+        void el.offsetWidth;
+        el.classList.add('vhs-tracking--active');
+      }
+
+      function scheduleVhsBand() {
+        const delay = 2000 + Math.random() * 5000;
+        setTimeout(() => {
+          triggerVhsBand();
+          scheduleVhsBand();
+        }, delay);
+      }
+      scheduleVhsBand();
+    }
+
+    // --- 0c. VHS timestamp ---
+    {
+      const dateEl = document.getElementById('vhs-date');
+      if (dateEl) {
+        function updateVhsDate() {
+          const now = new Date();
+          const y = now.getFullYear();
+          const m = String(now.getMonth() + 1).padStart(2, '0');
+          const d = String(now.getDate()).padStart(2, '0');
+          const h = String(now.getHours()).padStart(2, '0');
+          const min = String(now.getMinutes()).padStart(2, '0');
+          const s = String(now.getSeconds()).padStart(2, '0');
+          dateEl!.textContent = `${y}.${m}.${d}  ${h}:${min}:${s}`;
+        }
+        updateVhsDate();
+        setInterval(updateVhsDate, 1000);
+      }
+    }
+
     // --- 1. Scroll fade-in observer ---
     const observer = new IntersectionObserver(
       (entries) => {
@@ -128,7 +204,7 @@ import data from '../data/portfolio.json';
     // --- 2. Cursor trail ---
     if (!prefersReducedMotion) {
       const TRAIL_COUNT = 8;
-      const colors = ['#00ff41', '#b14aed', '#0ff', '#ff2d6b'];
+      const colors = ['#ffb000', '#33ff33', '#ff6600', '#e0e060'];
       const dots: HTMLDivElement[] = [];
       const positions: { x: number; y: number }[] = [];
 

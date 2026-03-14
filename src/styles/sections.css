@@ -37,7 +37,7 @@
 
 .hero__tagline {
   font-size: clamp(1rem, 2.5vw, 1.25rem);
-  color: var(--accent-green);
+  color: var(--accent-amber);
   min-height: 1.5em;
 }
 
@@ -58,7 +58,7 @@
 
 .hero__links a {
   padding: 0.5rem 1.25rem;
-  border: 1px solid var(--accent-green);
+  border: 1px solid var(--accent-amber);
   border-radius: 4px;
   font-family: var(--font-heading);
   font-size: 0.85rem;
@@ -66,7 +66,7 @@
 }
 
 .hero__links a:hover {
-  background: var(--accent-green);
+  background: var(--accent-amber);
   color: var(--bg-primary);
 }
 
@@ -74,16 +74,16 @@
 .window {
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 176, 0, 0.1);
   background: var(--bg-card);
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .window:hover {
-  border-color: var(--accent-green);
+  border-color: var(--accent-amber);
   box-shadow:
-    0 0 8px rgba(0, 255, 65, 0.3),
-    0 0 24px rgba(0, 255, 65, 0.1);
+    0 0 8px rgba(255, 176, 0, 0.3),
+    0 0 24px rgba(255, 176, 0, 0.1);
   animation: perturbation 2s infinite;
 }
 
@@ -92,15 +92,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.4rem 0.75rem;
-  background: linear-gradient(90deg, #1e1e3a 0%, #2a2a4a 100%);
-  border-bottom: 1px solid rgba(0, 255, 65, 0.15);
+  background: linear-gradient(90deg, #1e1e10 0%, #2a2a18 100%);
+  border-bottom: 1px solid rgba(255, 176, 0, 0.15);
   user-select: none;
 }
 
 .window__title {
   font-family: var(--font-heading);
   font-size: 0.75rem;
-  color: var(--accent-green);
+  color: var(--accent-amber);
   letter-spacing: 0.03em;
 }
 
@@ -127,7 +127,7 @@
 }
 
 .window__btn--close:hover {
-  background: var(--accent-pink);
+  background: var(--accent-orange);
   color: #fff;
 }
 
@@ -165,11 +165,11 @@
 }
 
 .card__links a {
-  color: var(--accent-cyan);
+  color: var(--accent-green);
 }
 
 .card__links a:hover {
-  color: var(--accent-green);
+  color: var(--accent-amber);
 }
 
 /* ===== Timeline ===== */
@@ -187,9 +187,9 @@
   width: 2px;
   background: linear-gradient(
     to bottom,
-    var(--accent-green),
-    var(--accent-purple),
-    var(--accent-cyan)
+    var(--accent-amber),
+    var(--accent-orange),
+    var(--accent-green)
   );
 }
 
@@ -206,15 +206,15 @@
   top: 0.35rem;
   width: 10px;
   height: 10px;
-  background: var(--accent-green);
+  background: var(--accent-amber);
   border-radius: 50%;
-  box-shadow: 0 0 8px rgba(0, 255, 65, 0.5);
+  box-shadow: 0 0 8px rgba(255, 176, 0, 0.5);
 }
 
 .timeline-item__year {
   font-family: var(--font-heading);
   font-size: 0.85rem;
-  color: var(--accent-purple);
+  color: var(--accent-orange);
   margin-bottom: 0.5rem;
 }
 
@@ -230,7 +230,7 @@
 
 .timeline-item__content li::before {
   content: '> ';
-  color: var(--accent-green);
+  color: var(--accent-amber);
   font-family: var(--font-heading);
 }
 
@@ -245,7 +245,7 @@
   background: var(--bg-card);
   padding: 1rem 1.25rem;
   border-radius: 6px;
-  border-left: 3px solid var(--accent-purple);
+  border-left: 3px solid var(--accent-orange);
 }
 
 .info-list__item-title {
@@ -267,8 +267,8 @@
   left: 0;
   right: 0;
   height: var(--nav-height);
-  background: linear-gradient(180deg, #1a1a2e 0%, #0f0f1a 100%);
-  border-top: 1px solid rgba(0, 255, 65, 0.2);
+  background: linear-gradient(180deg, #1a1a10 0%, #0f0f08 100%);
+  border-top: 1px solid rgba(255, 176, 0, 0.2);
   z-index: 100;
   display: flex;
   align-items: center;
@@ -288,18 +288,18 @@
   font-family: var(--font-heading);
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--accent-green);
+  color: var(--accent-amber);
   padding: 0.4rem 0.75rem;
-  border: 1px solid rgba(0, 255, 65, 0.2);
+  border: 1px solid rgba(255, 176, 0, 0.2);
   border-radius: 4px;
-  background: rgba(0, 255, 65, 0.05);
+  background: rgba(255, 176, 0, 0.05);
   transition: background 0.2s, border-color 0.2s;
 }
 
 .taskbar__logo:hover {
-  background: rgba(0, 255, 65, 0.12);
-  border-color: var(--accent-green);
-  color: var(--accent-green);
+  background: rgba(255, 176, 0, 0.12);
+  border-color: var(--accent-amber);
+  color: var(--accent-amber);
 }
 
 .taskbar__logo-icon {
@@ -332,9 +332,9 @@
 }
 
 .taskbar__tab:hover {
-  background: rgba(0, 255, 65, 0.08);
-  color: var(--accent-green);
-  border-color: rgba(0, 255, 65, 0.15);
+  background: rgba(255, 176, 0, 0.08);
+  color: var(--accent-amber);
+  border-color: rgba(255, 176, 0, 0.15);
 }
 
 .taskbar__tray {
@@ -398,8 +398,8 @@
     bottom: var(--nav-height);
     left: 0;
     right: 0;
-    background: #0f0f1a;
-    border-top: 1px solid rgba(0, 255, 65, 0.15);
+    background: #0f0f08;
+    border-top: 1px solid rgba(255, 176, 0, 0.15);
     flex-direction: column;
     padding: 1rem;
     gap: 0.5rem;
@@ -416,8 +416,8 @@
   }
 
   .taskbar__mobile-nav a:hover {
-    background: rgba(0, 255, 65, 0.08);
-    color: var(--accent-green);
+    background: rgba(255, 176, 0, 0.08);
+    color: var(--accent-amber);
   }
 
   .taskbar__toggle:checked ~ .taskbar__mobile-nav {
@@ -448,11 +448,11 @@
 .popup {
   position: absolute;
   width: 280px;
-  background: #12122a;
-  border: 1px solid rgba(0, 255, 65, 0.3);
+  background: #14140c;
+  border: 1px solid rgba(255, 176, 0, 0.3);
   border-radius: 6px;
   box-shadow:
-    0 0 12px rgba(0, 255, 65, 0.15),
+    0 0 12px rgba(255, 176, 0, 0.15),
     0 8px 32px rgba(0, 0, 0, 0.6);
   opacity: 0;
   transform: scale(0.85) translateY(12px);
@@ -471,8 +471,8 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.35rem 0.6rem;
-  background: linear-gradient(90deg, #1e1e3a, #2a2a4a);
-  border-bottom: 1px solid rgba(0, 255, 65, 0.15);
+  background: linear-gradient(90deg, #1e1e10, #2a2a18);
+  border-bottom: 1px solid rgba(255, 176, 0, 0.15);
   border-radius: 6px 6px 0 0;
 }
 
@@ -483,7 +483,7 @@
 .popup__title {
   font-family: var(--font-heading);
   font-size: 0.7rem;
-  color: var(--accent-pink);
+  color: var(--accent-orange);
   flex: 1;
   letter-spacing: 0.05em;
 }
@@ -501,7 +501,7 @@
 }
 
 .popup__close:hover {
-  background: var(--accent-pink);
+  background: var(--accent-orange);
   color: #fff;
 }
 
@@ -523,15 +523,15 @@
   font-size: 0.7rem;
   padding: 0.3rem 1.5rem;
   background: transparent;
-  color: var(--accent-green);
-  border: 1px solid var(--accent-green);
+  color: var(--accent-amber);
+  border: 1px solid var(--accent-amber);
   border-radius: 3px;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
 }
 
 .popup__ok:hover {
-  background: var(--accent-green);
+  background: var(--accent-amber);
   color: var(--bg-primary);
 }
 
@@ -560,9 +560,9 @@
   background: linear-gradient(
     90deg,
     transparent 0%,
-    var(--accent-cyan) 20%,
-    var(--accent-pink) 50%,
-    var(--accent-green) 80%,
+    var(--accent-green) 20%,
+    var(--accent-amber) 50%,
+    var(--accent-orange) 80%,
     transparent 100%
   );
 }
@@ -582,7 +582,7 @@
   padding: 3rem 1.5rem;
   padding-bottom: calc(3rem + var(--nav-height));
   text-align: center;
-  border-top: 1px solid rgba(0, 255, 65, 0.1);
+  border-top: 1px solid rgba(255, 176, 0, 0.1);
   color: var(--text-secondary);
   font-size: 0.85rem;
 }
@@ -602,7 +602,7 @@
 }
 
 .footer__links a:hover {
-  color: var(--accent-green);
+  color: var(--accent-amber);
 }
 
 /* ===== Spacer — taskbar is now at bottom ===== */
