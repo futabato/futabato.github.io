@@ -1,4 +1,6 @@
 ---
+import CircuitBackground from '../components/CircuitBackground.astro';
+
 interface Props {
   title: string;
   description?: string;
@@ -30,6 +32,9 @@ const { title, description = 'Adversarial Portfolio — futabato' } = Astro.prop
         <feColorMatrix type="saturate" values="0" />
       </filter>
     </svg>
+
+    <!-- Watch Dogs inspired circuit board background -->
+    <CircuitBackground />
 
     <slot />
 

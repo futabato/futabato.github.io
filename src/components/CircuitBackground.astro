@@ -1,0 +1,110 @@
+---
+/**
+ * Watch Dogs inspired circuit board / hacker symbol background decoration.
+ * Renders as a fixed full-screen SVG pattern behind all content.
+ */
+---
+
+<div class="circuit-bg" aria-hidden="true">
+  <svg class="circuit-bg__svg" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+    <defs>
+      <!-- Circuit trace pattern tile -->
+      <pattern id="circuit-pattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+        <!-- Horizontal traces -->
+        <line x1="0" y1="40" x2="60" y2="40" stroke="currentColor" stroke-width="0.5" opacity="0.12" />
+        <line x1="80" y1="40" x2="140" y2="40" stroke="currentColor" stroke-width="0.5" opacity="0.08" />
+        <line x1="30" y1="100" x2="120" y2="100" stroke="currentColor" stroke-width="0.5" opacity="0.1" />
+        <line x1="140" y1="160" x2="200" y2="160" stroke="currentColor" stroke-width="0.5" opacity="0.08" />
+
+        <!-- Vertical traces -->
+        <line x1="60" y1="0" x2="60" y2="40" stroke="currentColor" stroke-width="0.5" opacity="0.1" />
+        <line x1="60" y1="40" x2="60" y2="80" stroke="currentColor" stroke-width="0.5" opacity="0.06" />
+        <line x1="140" y1="40" x2="140" y2="100" stroke="currentColor" stroke-width="0.5" opacity="0.08" />
+        <line x1="120" y1="100" x2="120" y2="160" stroke="currentColor" stroke-width="0.5" opacity="0.1" />
+        <line x1="30" y1="100" x2="30" y2="150" stroke="currentColor" stroke-width="0.5" opacity="0.06" />
+
+        <!-- Angled connector traces -->
+        <polyline points="60,40 75,55 80,55" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.1" />
+        <polyline points="140,100 155,85 170,85" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.08" />
+        <polyline points="120,160 105,175 80,175" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.06" />
+
+        <!-- Junction nodes (solder points) -->
+        <circle cx="60" cy="40" r="2" fill="currentColor" opacity="0.15" />
+        <circle cx="140" cy="40" r="1.5" fill="currentColor" opacity="0.1" />
+        <circle cx="120" cy="100" r="2" fill="currentColor" opacity="0.12" />
+        <circle cx="30" cy="100" r="1.5" fill="currentColor" opacity="0.08" />
+        <circle cx="140" cy="160" r="2" fill="currentColor" opacity="0.1" />
+
+        <!-- IC chip outlines -->
+        <rect x="70" y="50" width="16" height="10" rx="1" fill="none" stroke="currentColor" stroke-width="0.5" opacity="0.1" />
+        <line x1="72" y1="50" x2="72" y2="47" stroke="currentColor" stroke-width="0.4" opacity="0.08" />
+        <line x1="76" y1="50" x2="76" y2="47" stroke="currentColor" stroke-width="0.4" opacity="0.08" />
+        <line x1="80" y1="50" x2="80" y2="47" stroke="currentColor" stroke-width="0.4" opacity="0.08" />
+        <line x1="84" y1="50" x2="84" y2="47" stroke="currentColor" stroke-width="0.4" opacity="0.08" />
+
+        <!-- Hacker symbols -->
+        <text x="150" y="130" font-family="'JetBrains Mono', monospace" font-size="7" fill="currentColor" opacity="0.06">&lt;/&gt;</text>
+        <text x="10" y="70" font-family="'JetBrains Mono', monospace" font-size="6" fill="currentColor" opacity="0.05">[ ]</text>
+        <text x="160" y="30" font-family="'JetBrains Mono', monospace" font-size="6" fill="currentColor" opacity="0.05">0x</text>
+        <text x="5" y="180" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.04">{"{ }"}</text>
+        <text x="95" y="145" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.05">$_</text>
+      </pattern>
+
+      <!-- Secondary data-flow pattern -->
+      <pattern id="data-flow" x="0" y="0" width="300" height="300" patternUnits="userSpaceOnUse">
+        <!-- Data flow arrows / chevrons -->
+        <text x="50" y="60" font-family="'JetBrains Mono', monospace" font-size="8" fill="currentColor" opacity="0.04">&gt;&gt;&gt;</text>
+        <text x="200" y="150" font-family="'JetBrains Mono', monospace" font-size="8" fill="currentColor" opacity="0.04">&gt;&gt;&gt;</text>
+        <text x="120" y="250" font-family="'JetBrains Mono', monospace" font-size="8" fill="currentColor" opacity="0.03">&gt;&gt;&gt;</text>
+
+        <!-- Binary fragments -->
+        <text x="30" y="120" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.035">01101</text>
+        <text x="230" y="80" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.03">10010</text>
+        <text x="150" y="200" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.035">11001</text>
+        <text x="70" y="280" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.03">01110</text>
+
+        <!-- Hex addresses -->
+        <text x="10" y="200" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.04">0xDEAD</text>
+        <text x="250" y="240" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.03">0xBEEF</text>
+        <text x="180" y="40" font-family="'JetBrains Mono', monospace" font-size="5" fill="currentColor" opacity="0.035">0xC0DE</text>
+
+        <!-- ctOS-style brackets -->
+        <text x="100" y="100" font-family="'JetBrains Mono', monospace" font-size="7" fill="currentColor" opacity="0.04">[ ACCESS ]</text>
+        <text x="20" y="260" font-family="'JetBrains Mono', monospace" font-size="6" fill="currentColor" opacity="0.035">&lt;SCAN&gt;</text>
+      </pattern>
+    </defs>
+
+    <!-- Circuit layer -->
+    <rect width="100%" height="100%" fill="url(#circuit-pattern)" />
+    <!-- Data flow layer -->
+    <rect width="100%" height="100%" fill="url(#data-flow)" />
+  </svg>
+</div>
+
+<style>
+  .circuit-bg {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    color: var(--accent-amber);
+    overflow: hidden;
+  }
+
+  .circuit-bg__svg {
+    width: 100%;
+    height: 100%;
+    animation: circuit-drift 60s linear infinite;
+  }
+
+  @keyframes circuit-drift {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-200px, -200px); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .circuit-bg__svg {
+      animation: none;
+    }
+  }
+</style>

@@ -140,6 +140,8 @@ body::before {
 }
 
 .main-content {
+  position: relative;
+  z-index: 1;
   animation: crt-jitter 4s infinite;
 }
 
