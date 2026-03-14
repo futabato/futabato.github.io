@@ -1,0 +1,13 @@
+---
+interface Props {
+  text: string;
+  tag?: string;
+  class?: string;
+}
+
+const { text, tag: Tag = 'h2', class: className = '' } = Astro.props;
+---
+
+<Tag class={`glitch section__title ${className}`} data-text={text}>
+  {text}
+</Tag>

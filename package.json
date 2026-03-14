@@ -1,34 +1,18 @@
 {
-  "name": "nextra-docs-template",
-  "version": "0.0.3",
-  "description": "Nextra docs template editted by futabato",
-  "homepagte": "https://futabato.github.io/",
+  "name": "futabato-portfolio",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Adversarial Portfolio — futabato",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "export": "next export",
-    "deploy": "gh-pages -d build"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/futabato/futabato.github.io.git"
-  },
-  "author": "futabato <01futabato10@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/futabato/futabato.github.io/issues"
-  },
-  "homepage": "https://github.com/futabato/futabato.github.io#readme",
   "dependencies": {
-    "next": "^13.0.6",
-    "nextra-theme-docs": "latest",
-    "nextra": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "astro": "^5.5.2"
   },
-  "devDependencies": {
-    "@types/node": "18.11.10",
-    "typescript": "^4.9.3"
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "sharp"]
   }
 }

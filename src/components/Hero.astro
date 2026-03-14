@@ -1,0 +1,61 @@
+---
+import data from '../data/portfolio.json';
+---
+
+<section class="hero">
+  <p class="hero__greeting">{data.greeting}</p>
+  <h1 class="hero__name glitch" data-text={data.name}>{data.name}</h1>
+  <p class="hero__tagline decode-text" data-final={data.tagline}>&nbsp;</p>
+  <p class="hero__bio">
+    {data.bio}<br />
+    Lab: <a href={data.lab.url}>{data.lab.name}</a> &middot;
+    Circle: <a href={data.circle.url}>{data.circle.name}</a>
+  </p>
+  <div class="hero__links">
+    {data.links.slice(0, 4).map((link) => (
+      <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label}</a>
+    ))}
+  </div>
+</section>
+
+<script>
+  function decode(el: HTMLElement) {
+    const final = el.dataset.final || '';
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%&*!?<>';
+    const duration = 1500;
+    const steps = 30;
+    const interval = duration / steps;
+    let step = 0;
+
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) {
+      el.textContent = final;
+      return;
+    }
+
+    const timer = setInterval(() => {
+      step++;
+      const progress = step / steps;
+      let result = '';
+      for (let i = 0; i < final.length; i++) {
+        if (final[i] === ' ') {
+          result += ' ';
+        } else if (i < final.length * progress) {
+          result += final[i];
+        } else {
+          result += chars[Math.floor(Math.random() * chars.length)];
+        }
+      }
+      el.textContent = result;
+      if (step >= steps) {
+        clearInterval(timer);
+        el.textContent = final;
+      }
+    }, interval);
+  }
+
+  const tagline = document.querySelector<HTMLElement>('.decode-text');
+  if (tagline) {
+    decode(tagline);
+  }
+</script>

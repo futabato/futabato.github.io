@@ -1,0 +1,163 @@
+{
+  "name": "futabato",
+  "greeting": "Hi, there",
+  "tagline": "Security Researcher & Developer",
+  "bio": "2nd year graduate student in the master's program at University of Hyogo. Interested in cybersecurity.",
+  "lab": {
+    "name": "Network Security Laboratory",
+    "url": "https://secsyslab.github.io/welcome/"
+  },
+  "circle": {
+    "name": "IPFactory",
+    "url": "https://www.ipfactory.org/"
+  },
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/futabato" },
+    { "label": "Twitter", "url": "https://twitter.com/01futabato10" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/futabato/" },
+    { "label": "SpeakerDeck", "url": "https://speakerdeck.com/futabato" },
+    { "label": "Blog", "url": "https://01futabato10.hateblo.jp/" },
+    { "label": "AtCoder", "url": "https://atcoder.jp/users/futabato" },
+    { "label": "Wantedly", "url": "https://www.wantedly.com/id/futabato" }
+  ],
+  "education": [
+    {
+      "institution": "Graduate School of Information Science, University of Hyogo",
+      "department": "Course of Information Security Science, Department of Data and Computational Sciences",
+      "location": "Hyogo, Japan",
+      "period": "Apr 2023 –"
+    },
+    {
+      "institution": "Information Science College",
+      "department": "Department of Information Security",
+      "location": "Kanagawa, Japan",
+      "period": "Apr 2019 – Mar 2023",
+      "note": "Advanced Diploma (Applied Professional Post-Secondary Course (Technology))"
+    }
+  ],
+  "projects": [
+    {
+      "name": "FutabatedLearning",
+      "description": "Federated Learning Framework for security researcher",
+      "blog": "https://01futabato10.hateblo.jp/entry/2024/04/30/210546",
+      "repo": "https://github.com/futabato/FutabatedLearning"
+    },
+    {
+      "name": "Himawari",
+      "description": "Web Vulnerability Scanner",
+      "blog": "https://01futabato10.hateblo.jp/entry/2021/12/25/235919",
+      "repo": "https://github.com/After-the-CM/Himawari"
+    },
+    {
+      "name": "WAffle",
+      "description": "A Web Application Firewall using Signature and Character-level CNN",
+      "blog": "https://01futabato10.hateblo.jp/entry/2021/03/15/203958",
+      "repo": "https://github.com/futabato/WAffle"
+    }
+  ],
+  "activities": [
+    {
+      "year": "2024",
+      "items": [
+        "THE HACKATHON",
+        "NICT - SecHack365 Research Driven Course Assistant",
+        "Cybozu Labs - The 14th Cybozu Labs Youth",
+        "INCS-CoE C2C(Country-to-Country) CTF 2024 Final"
+      ]
+    },
+    {
+      "year": "2023",
+      "items": [
+        "NICT - SecHack365 Research Driven Course Assistant",
+        "MatsuoLab - Deep Learning Fundamental Course 2023",
+        "Mixi - Bug Shooting Challenge #9",
+        "INCS-CoE C2C(Country-to-Country) CTF 2023 Final",
+        "NARlabs - Cyber Blue Range Competition 2023",
+        "Short-term study abroad to the United States (Carnegie Mellon University, Microsoft Campus, Amazon Corporate Headquarters, AWS Skills Center Seattle)"
+      ]
+    },
+    {
+      "year": "2022",
+      "items": [
+        "MatsuoLab - Spring Seminar Image Recognition",
+        "NICT - SecHack365 Research Driven Course Trainee",
+        "Candle Star Sessions in Computer Security Symposium 2022",
+        "MBSD Cybersecurity Challenges 2022"
+      ]
+    },
+    {
+      "year": "2021",
+      "items": [
+        "Cyber Hacking Challenge LAC Cup 2021",
+        "Japan Ministry of Defense - Cyber Contest 2021",
+        "MatsuoLab - Deep Learning Intensive 2021 Summer Visual Recognition",
+        "Red Hat OpenShift I: Containers & Kubernetes",
+        "MBSD Cyber Security Challenges 2021"
+      ]
+    },
+    {
+      "year": "2020",
+      "items": [
+        "MatsuoLab - The University of Tokyo Chair for Global Consumer Intelligence 2020 Summer"
+      ]
+    },
+    {
+      "year": "2019",
+      "items": [
+        "Startup Weekend Yokohama 10",
+        "SANS Institute - NRI Secure NetWars 2019"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "IPA - Applied Information Technology Engineer Examination",
+      "date": "Dec 2022"
+    },
+    {
+      "name": "IPA - Fundamental Information Technology Engineer Examination",
+      "date": "Nov 2019"
+    },
+    {
+      "name": "IPA - Information Technology Passport Examination",
+      "date": "Jul 2019"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Computer Security Symposium 2024 — CSS Student Paper Award",
+      "detail": "Won the CSS Student Paper Award"
+    },
+    {
+      "name": "NFLabs. Cybersecurity Challenge for Students 2023",
+      "detail": "Won the Writeup Prize"
+    },
+    {
+      "name": "INCS-CoE C2C CTF 2023 Final",
+      "detail": "Won the \"Main Challenge - Hitachi Award\""
+    },
+    {
+      "name": "MBSD Cybersecurity Challenges 2022",
+      "detail": "Won the 1st place as team IPFactory"
+    },
+    {
+      "name": "MBSD Cybersecurity Challenges 2021",
+      "detail": "Won the 3rd place as team After_the_CM"
+    }
+  ],
+  "achievements": [
+    {
+      "name": "High Achiever Awards, Foundation for Vocational and Career Education",
+      "date": "2022"
+    },
+    {
+      "name": "Learner Awards, Kanagawa Specialty Schools Association",
+      "date": "2020, 2021, 2022"
+    }
+  ],
+  "scholarship": {
+    "name": "Yukio Iwasaki Scholarship Foundation for IT Education and Research",
+    "type": "Non-refundable scholarship",
+    "period": "Apr 2021 – Mar 2023"
+  }
+}

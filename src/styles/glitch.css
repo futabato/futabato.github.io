@@ -1,0 +1,115 @@
+/* ===== 1. Glitch Text ===== */
+.glitch {
+  position: relative;
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.glitch::before {
+  color: var(--accent-cyan);
+  animation: glitch-clip 3s infinite linear alternate-reverse;
+  clip-path: inset(20% 0 60% 0);
+}
+
+.glitch::after {
+  color: var(--accent-pink);
+  animation: glitch-clip-reverse 3s infinite linear alternate-reverse;
+  clip-path: inset(60% 0 10% 0);
+}
+
+@keyframes glitch-clip {
+  0% { clip-path: inset(40% 0 30% 0); transform: translate(-2px, 1px); }
+  20% { clip-path: inset(10% 0 70% 0); transform: translate(2px, -1px); }
+  40% { clip-path: inset(80% 0 5% 0); transform: translate(-1px, 2px); }
+  60% { clip-path: inset(20% 0 60% 0); transform: translate(1px, -2px); }
+  80% { clip-path: inset(50% 0 20% 0); transform: translate(-2px, 0); }
+  100% { clip-path: inset(30% 0 40% 0); transform: translate(0, 1px); }
+}
+
+@keyframes glitch-clip-reverse {
+  0% { clip-path: inset(60% 0 10% 0); transform: translate(2px, -1px); }
+  20% { clip-path: inset(30% 0 50% 0); transform: translate(-1px, 2px); }
+  40% { clip-path: inset(5% 0 80% 0); transform: translate(1px, -1px); }
+  60% { clip-path: inset(70% 0 15% 0); transform: translate(-2px, 1px); }
+  80% { clip-path: inset(15% 0 55% 0); transform: translate(0, -2px); }
+  100% { clip-path: inset(45% 0 25% 0); transform: translate(2px, 0); }
+}
+
+/* ===== 2. Noise / Scanline Overlay ===== */
+.noise-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 255, 65, 0.03) 2px,
+    rgba(0, 255, 65, 0.03) 4px
+  );
+  z-index: 2;
+}
+
+.card:hover .noise-overlay {
+  opacity: 1;
+}
+
+/* ===== 3. Perturbation (card glow) ===== */
+.card {
+  position: relative;
+  background: var(--bg-card);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+}
+
+.card:hover {
+  border-color: var(--accent-green);
+  box-shadow:
+    0 0 8px rgba(0, 255, 65, 0.3),
+    0 0 24px rgba(0, 255, 65, 0.1);
+  animation: perturbation 2s infinite;
+}
+
+@keyframes perturbation {
+  0%, 100% {
+    box-shadow:
+      0 0 8px rgba(0, 255, 65, 0.3),
+      0 0 24px rgba(0, 255, 65, 0.1);
+  }
+  33% {
+    box-shadow:
+      0 0 8px rgba(177, 74, 237, 0.4),
+      0 0 24px rgba(177, 74, 237, 0.15);
+  }
+  66% {
+    box-shadow:
+      0 0 8px rgba(0, 255, 255, 0.35),
+      0 0 24px rgba(0, 255, 255, 0.1);
+  }
+}
+
+/* ===== 4. Decode animation (JS-driven) ===== */
+.decode-text {
+  font-family: var(--font-heading);
+  white-space: nowrap;
+}
+
+/* ===== 5. Scroll fade-in — defined in global.css ===== */
