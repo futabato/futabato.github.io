@@ -37,7 +37,7 @@
 
 .hero__tagline {
   font-size: clamp(1rem, 2.5vw, 1.25rem);
-  color: var(--accent-amber);
+  color: var(--accent-ctos);
   min-height: 1.5em;
 }
 
@@ -62,28 +62,29 @@
   border-radius: 4px;
   font-family: var(--font-heading);
   font-size: 0.85rem;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
 }
 
 .hero__links a:hover {
-  background: var(--accent-amber);
+  background: var(--accent-ctos);
+  border-color: var(--accent-ctos);
   color: var(--bg-primary);
 }
 
-/* ===== OS Window Frame ===== */
+/* ===== OS Window Frame (ctOS hacking layer) ===== */
 .window {
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid rgba(255, 176, 0, 0.1);
+  border: 1px solid rgba(21, 255, 0, 0.08);
   background: var(--bg-card);
   transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .window:hover {
-  border-color: var(--accent-amber);
+  border-color: var(--accent-ctos);
   box-shadow:
-    0 0 8px rgba(255, 176, 0, 0.3),
-    0 0 24px rgba(255, 176, 0, 0.1);
+    0 0 8px rgba(21, 255, 0, 0.3),
+    0 0 24px rgba(21, 255, 0, 0.1);
   animation: perturbation 2s infinite;
 }
 
@@ -92,15 +93,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.4rem 0.75rem;
-  background: linear-gradient(90deg, #1e1e10 0%, #2a2a18 100%);
-  border-bottom: 1px solid rgba(255, 176, 0, 0.15);
+  background: linear-gradient(90deg, #0e0e14 0%, #1a1a22 100%);
+  border-bottom: 1px solid rgba(21, 255, 0, 0.12);
   user-select: none;
 }
 
 .window__title {
   font-family: var(--font-heading);
   font-size: 0.75rem;
-  color: var(--accent-amber);
+  color: var(--accent-ctos);
   letter-spacing: 0.03em;
 }
 
@@ -127,7 +128,7 @@
 }
 
 .window__btn--close:hover {
-  background: var(--accent-orange);
+  background: var(--accent-red);
   color: #fff;
 }
 
@@ -165,14 +166,14 @@
 }
 
 .card__links a {
-  color: var(--accent-green);
+  color: var(--accent-blue);
 }
 
 .card__links a:hover {
-  color: var(--accent-amber);
+  color: var(--accent-ctos);
 }
 
-/* ===== Timeline ===== */
+/* ===== Timeline (amber retro) ===== */
 .timeline {
   position: relative;
   padding-left: 2rem;
@@ -188,8 +189,8 @@
   background: linear-gradient(
     to bottom,
     var(--accent-amber),
-    var(--accent-orange),
-    var(--accent-green)
+    var(--accent-ctos),
+    var(--accent-blue)
   );
 }
 
@@ -206,15 +207,15 @@
   top: 0.35rem;
   width: 10px;
   height: 10px;
-  background: var(--accent-amber);
+  background: var(--accent-ctos);
   border-radius: 50%;
-  box-shadow: 0 0 8px rgba(255, 176, 0, 0.5);
+  box-shadow: 0 0 8px rgba(21, 255, 0, 0.5);
 }
 
 .timeline-item__year {
   font-family: var(--font-heading);
   font-size: 0.85rem;
-  color: var(--accent-orange);
+  color: var(--accent-amber);
   margin-bottom: 0.5rem;
 }
 
@@ -230,7 +231,7 @@
 
 .timeline-item__content li::before {
   content: '> ';
-  color: var(--accent-amber);
+  color: var(--accent-ctos);
   font-family: var(--font-heading);
 }
 
@@ -245,7 +246,7 @@
   background: var(--bg-card);
   padding: 1rem 1.25rem;
   border-radius: 6px;
-  border-left: 3px solid var(--accent-orange);
+  border-left: 3px solid var(--accent-amber);
 }
 
 .info-list__item-title {
@@ -260,14 +261,14 @@
   font-size: 0.85rem;
 }
 
-/* ===== Taskbar (Header) ===== */
+/* ===== Taskbar (amber retro layer) ===== */
 .taskbar {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
   height: var(--nav-height);
-  background: linear-gradient(180deg, #1a1a10 0%, #0f0f08 100%);
+  background: linear-gradient(180deg, #141414 0%, #0a0a08 100%);
   border-top: 1px solid rgba(255, 176, 0, 0.2);
   z-index: 100;
   display: flex;
@@ -293,13 +294,13 @@
   border: 1px solid rgba(255, 176, 0, 0.2);
   border-radius: 4px;
   background: rgba(255, 176, 0, 0.05);
-  transition: background 0.2s, border-color 0.2s;
+  transition: background 0.2s, border-color 0.2s, color 0.2s;
 }
 
 .taskbar__logo:hover {
-  background: rgba(255, 176, 0, 0.12);
-  border-color: var(--accent-amber);
-  color: var(--accent-amber);
+  background: rgba(21, 255, 0, 0.08);
+  border-color: var(--accent-ctos);
+  color: var(--accent-ctos);
 }
 
 .taskbar__logo-icon {
@@ -332,9 +333,9 @@
 }
 
 .taskbar__tab:hover {
-  background: rgba(255, 176, 0, 0.08);
-  color: var(--accent-amber);
-  border-color: rgba(255, 176, 0, 0.15);
+  background: rgba(21, 255, 0, 0.06);
+  color: var(--accent-ctos);
+  border-color: rgba(21, 255, 0, 0.12);
 }
 
 .taskbar__tray {
@@ -350,7 +351,7 @@
 .taskbar__clock {
   font-family: var(--font-heading);
   font-size: 0.75rem;
-  color: var(--text-secondary);
+  color: var(--accent-amber);
 }
 
 /* Taskbar mobile hamburger */
@@ -398,7 +399,7 @@
     bottom: var(--nav-height);
     left: 0;
     right: 0;
-    background: #0f0f08;
+    background: #0a0a08;
     border-top: 1px solid rgba(255, 176, 0, 0.15);
     flex-direction: column;
     padding: 1rem;
@@ -416,8 +417,8 @@
   }
 
   .taskbar__mobile-nav a:hover {
-    background: rgba(255, 176, 0, 0.08);
-    color: var(--accent-amber);
+    background: rgba(21, 255, 0, 0.06);
+    color: var(--accent-ctos);
   }
 
   .taskbar__toggle:checked ~ .taskbar__mobile-nav {
@@ -437,7 +438,7 @@
   }
 }
 
-/* ===== Popup Dialogs ===== */
+/* ===== Popup Dialogs (ctOS warning) ===== */
 .popups-container {
   position: fixed;
   inset: 0;
@@ -448,11 +449,11 @@
 .popup {
   position: absolute;
   width: 280px;
-  background: #14140c;
-  border: 1px solid rgba(255, 176, 0, 0.3);
+  background: #0c0c10;
+  border: 1px solid rgba(21, 255, 0, 0.25);
   border-radius: 6px;
   box-shadow:
-    0 0 12px rgba(255, 176, 0, 0.15),
+    0 0 12px rgba(21, 255, 0, 0.12),
     0 8px 32px rgba(0, 0, 0, 0.6);
   opacity: 0;
   transform: scale(0.85) translateY(12px);
@@ -471,8 +472,8 @@
   align-items: center;
   gap: 0.4rem;
   padding: 0.35rem 0.6rem;
-  background: linear-gradient(90deg, #1e1e10, #2a2a18);
-  border-bottom: 1px solid rgba(255, 176, 0, 0.15);
+  background: linear-gradient(90deg, #0e0e14, #1a1a22);
+  border-bottom: 1px solid rgba(21, 255, 0, 0.12);
   border-radius: 6px 6px 0 0;
 }
 
@@ -483,7 +484,7 @@
 .popup__title {
   font-family: var(--font-heading);
   font-size: 0.7rem;
-  color: var(--accent-orange);
+  color: var(--accent-red);
   flex: 1;
   letter-spacing: 0.05em;
 }
@@ -501,7 +502,7 @@
 }
 
 .popup__close:hover {
-  background: var(--accent-orange);
+  background: var(--accent-red);
   color: #fff;
 }
 
@@ -523,15 +524,15 @@
   font-size: 0.7rem;
   padding: 0.3rem 1.5rem;
   background: transparent;
-  color: var(--accent-amber);
-  border: 1px solid var(--accent-amber);
+  color: var(--accent-ctos);
+  border: 1px solid var(--accent-ctos);
   border-radius: 3px;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
 }
 
 .popup__ok:hover {
-  background: var(--accent-amber);
+  background: var(--accent-ctos);
   color: var(--bg-primary);
 }
 
@@ -548,7 +549,7 @@
   mix-blend-mode: screen;
 }
 
-/* ===== Screen Tearing ===== */
+/* ===== Screen Tearing (ctOS green + amber) ===== */
 .screen-tear {
   position: fixed;
   left: 0;
@@ -560,9 +561,9 @@
   background: linear-gradient(
     90deg,
     transparent 0%,
-    var(--accent-green) 20%,
+    var(--accent-ctos) 20%,
     var(--accent-amber) 50%,
-    var(--accent-orange) 80%,
+    var(--accent-blue) 80%,
     transparent 100%
   );
 }
@@ -602,7 +603,7 @@
 }
 
 .footer__links a:hover {
-  color: var(--accent-amber);
+  color: var(--accent-ctos);
 }
 
 /* ===== Spacer — taskbar is now at bottom ===== */

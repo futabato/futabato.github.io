@@ -1,14 +1,18 @@
 /* ===== CSS Variables ===== */
 :root {
-  --bg-primary: #0c0c08;
-  --bg-card: #1a1a10;
-  --bg-card-hover: #24241a;
+  --bg-primary: #0a0a08;
+  --bg-card: #141418;
+  --bg-card-hover: #1c1c22;
+  /* Retro layer (VHS / warm) */
   --accent-amber: #ffb000;
-  --accent-green: #33ff33;
   --accent-orange: #ff6600;
-  --accent-yellow: #e0e060;
-  --text-primary: #d8d8c0;
-  --text-secondary: #888870;
+  /* ctOS layer (hacking / cold) */
+  --accent-ctos: #15ff00;
+  --accent-blue: #0051ff;
+  --accent-red: #ff0000;
+  /* Text */
+  --text-primary: #d0d0c8;
+  --text-secondary: #888880;
   --font-heading: 'JetBrains Mono', monospace;
   --font-body: 'Inter', sans-serif;
   --max-width: 960px;
@@ -45,7 +49,7 @@ a {
 }
 
 a:hover {
-  color: var(--accent-green);
+  color: var(--accent-ctos);
 }
 
 ul {
@@ -145,7 +149,7 @@ body::before {
   animation: crt-jitter 4s infinite;
 }
 
-/* ===== VHS timestamp overlay ===== */
+/* ===== VHS timestamp overlay (retro amber) ===== */
 .vhs-timestamp {
   position: fixed;
   bottom: calc(var(--nav-height) + 16px);
@@ -169,10 +173,10 @@ body::before {
 .vhs-rec__dot {
   width: 8px;
   height: 8px;
-  background: #ff3333;
+  background: var(--accent-red);
   border-radius: 50%;
   animation: rec-blink 1.2s infinite;
-  box-shadow: 0 0 4px rgba(255, 51, 51, 0.6);
+  box-shadow: 0 0 4px rgba(255, 0, 0, 0.6);
 }
 
 @keyframes rec-blink {
