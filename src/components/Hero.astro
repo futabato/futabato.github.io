@@ -7,9 +7,11 @@ import data from '../data/portfolio.json';
   <h1 class="hero__name glitch" data-text={data.name}>{data.name}</h1>
   <p class="hero__tagline decode-text" data-final={data.tagline}>&nbsp;</p>
   <p class="hero__bio">
-    {data.bio}<br />
-    Lab: <a href={data.lab.url}>{data.lab.name}</a> &middot;
-    Circle: <a href={data.circle.url}>{data.circle.name}</a>
+    {data.bio}
+    {data.affiliations.length > 0 && <br />}
+    {data.affiliations.map((a, i) => (
+      <>{i > 0 && <span> &middot; </span>}{a.label}: <a href={a.url}>{a.name}</a></>
+    ))}
   </p>
   <div class="hero__links">
     {data.links.slice(0, 4).map((link) => (

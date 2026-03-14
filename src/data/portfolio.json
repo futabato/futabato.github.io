@@ -1,16 +1,9 @@
 {
   "name": "futabato",
-  "greeting": "Hi, there",
-  "tagline": "Security Researcher & Developer",
-  "bio": "2nd year graduate student in the master's program at University of Hyogo. Interested in cybersecurity.",
-  "lab": {
-    "name": "Network Security Laboratory",
-    "url": "https://secsyslab.github.io/welcome/"
-  },
-  "circle": {
-    "name": "IPFactory",
-    "url": "https://www.ipfactory.org/"
-  },
+  "greeting": "> Access granted.",
+  "tagline": "Data Scientist",
+  "bio": "Data Scientist interested in cybersecurity.",
+  "affiliations": [],
   "links": [
     { "label": "GitHub", "url": "https://github.com/futabato" },
     { "label": "Twitter", "url": "https://twitter.com/01futabato10" },
@@ -25,7 +18,8 @@
       "institution": "Graduate School of Information Science, University of Hyogo",
       "department": "Course of Information Security Science, Department of Data and Computational Sciences",
       "location": "Hyogo, Japan",
-      "period": "Apr 2023 –"
+      "period": "Apr 2023 – Mar 2025",
+      "note": "Master's degree"
     },
     {
       "institution": "Information Science College",

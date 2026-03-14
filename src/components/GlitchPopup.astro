@@ -1,29 +1,86 @@
 ---
 /**
  * Random system-notification style popups that appear as you scroll.
- * Each popup is hidden by default; JS randomizes position & triggers them.
+ * Title and body are randomized by JS at display time.
  */
-const popups = [
-  { title: 'SYSTEM WARNING', body: 'Unauthorized access detected at 0x7FF3A1B2', icon: '&#9888;' },
-  { title: 'kernel32.dll', body: 'Memory perturbation in sector 7G', icon: '&#9760;' },
-  { title: 'ALERT', body: 'Adversarial noise injection complete', icon: '&#9889;' },
-  { title: 'glitch.sys', body: 'Signal integrity compromised — RGB shift active', icon: '&#128737;' },
-  { title: 'NOTICE', body: 'Federated gradient aggregation anomaly', icon: '&#128270;' },
-];
+const popupCount = 5;
 ---
 
 <div class="popups-container" aria-hidden="true">
-  {popups.map((p, i) => (
+  {Array.from({ length: popupCount }).map((_, i) => (
     <div class="popup" data-popup-index={i}>
       <div class="popup__titlebar">
-        <span class="popup__icon" set:html={p.icon} />
-        <span class="popup__title">{p.title}</span>
+        <span class="popup__icon"></span>
+        <span class="popup__title"></span>
         <span class="popup__close">&#x2715;</span>
       </div>
       <div class="popup__body">
-        <p>{p.body}</p>
+        <p class="popup__message"></p>
         <button class="popup__ok">OK</button>
       </div>
     </div>
   ))}
 </div>
+
+<script>
+  function randomHex(len: number): string {
+    return Array.from({ length: len }, () =>
+      Math.floor(Math.random() * 16).toString(16).toUpperCase()
+    ).join('');
+  }
+
+  function randomInt(min: number, max: number): number {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+  function pick<T>(arr: T[]): T {
+    return arr[Math.floor(Math.random() * arr.length)];
+  }
+
+  const titles = [
+    'SYSTEM WARNING',
+    'ctOS ALERT',
+    'kernel32.dll',
+    'CRITICAL',
+    'glitch.sys',
+    'NOTICE',
+    'ACCESS LOG',
+    'INTRUSION',
+    'svchost.exe',
+    'FIREWALL',
+    'ANOMALY',
+    'ctOS_scan.bin',
+  ];
+
+  const icons = ['⚠', '☠', '⚡', '🔍', '🛡', '⛔', '📡', '🔓'];
+
+  type MessageGenerator = () => string;
+
+  const messageGenerators: MessageGenerator[] = [
+    () => `Unauthorized access detected at 0x${randomHex(8)}`,
+    () => `Memory perturbation in sector ${randomInt(1, 99)}${pick(['A', 'B', 'C', 'G', 'F'])}`,
+    () => `Process ${pick(['ctOS_core', 'watcher', 'profiler', 'netmon', 'sniffer'])}.exe (PID ${randomInt(1000, 65535)}) not responding`,
+    () => `Adversarial noise injection at layer ${randomInt(1, 12)} — loss: ${(Math.random() * 2).toFixed(4)}`,
+    () => `Signal integrity compromised — packet loss ${randomInt(12, 97)}%`,
+    () => `Federated gradient aggregation anomaly in round ${randomInt(1, 500)}`,
+    () => `Brute force attempt on port ${pick(['22', '443', '8080', '3389', '5432'])} — ${randomInt(100, 9999)} attempts`,
+    () => `Suspicious connection from ${randomInt(1, 255)}.${randomInt(0, 255)}.${randomInt(0, 255)}.${randomInt(1, 254)}`,
+    () => `Buffer overflow in 0x${randomHex(4)}${randomHex(4)} — stack trace dumped`,
+    () => `ctOS node ${pick(['ALPHA', 'BRAVO', 'DELTA', 'ECHO', 'FOXTROT'])}-${randomInt(1, 99)} offline`,
+    () => `Encryption key rotation failed — fallback to 0x${randomHex(6)}`,
+    () => `Model accuracy dropped to ${(40 + Math.random() * 30).toFixed(1)}% — possible evasion attack`,
+    () => `Scanning ${randomInt(1, 255)}.${randomInt(0, 255)}.${randomInt(0, 255)}.0/24 — ${randomInt(3, 28)} hosts found`,
+    () => `DLL injection detected in thread ${randomInt(1000, 9999)}`,
+    () => `Firewall rule #${randomInt(100, 999)} violated — action: ${pick(['BLOCK', 'LOG', 'ALERT'])}`,
+  ];
+
+  // Populate each popup with random content
+  document.querySelectorAll<HTMLElement>('.popup').forEach((popup) => {
+    const icon = popup.querySelector('.popup__icon');
+    const title = popup.querySelector('.popup__title');
+    const msg = popup.querySelector('.popup__message');
+    if (icon) icon.textContent = pick(icons);
+    if (title) title.textContent = pick(titles);
+    if (msg) msg.textContent = pick(messageGenerators)();
+  });
+</script>
