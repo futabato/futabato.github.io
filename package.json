@@ -2,7 +2,7 @@
   "name": "futabato-portfolio",
   "type": "module",
   "version": "1.0.0",
-  "description": "Adversarial Portfolio — futabato",
+  "description": "futabato",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
