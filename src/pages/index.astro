@@ -16,7 +16,24 @@ import data from '../data/portfolio.json';
   <main class="main-content">
     <Hero />
 
-    <!-- About / Education -->
+    <!-- Experience -->
+    {data.experience.length > 0 && (
+      <Section id="experience">
+        <GlitchText text="Experience" />
+        <div class="info-list">
+          {data.experience.map((exp) => (
+            <div class="info-list__item">
+              <div class="info-list__item-title">{exp.role}</div>
+              <div class="info-list__item-detail">
+                {exp.company && <>{exp.company} — </>}{exp.period}
+              </div>
+            </div>
+          ))}
+        </div>
+      </Section>
+    )}
+
+    <!-- Education -->
     <Section id="about">
       <GlitchText text="Education" />
       <div class="info-list">
@@ -92,6 +109,40 @@ import data from '../data/portfolio.json';
         <div class="info-list__item">
           <div class="info-list__item-title">{data.scholarship.name}</div>
           <div class="info-list__item-detail">{data.scholarship.type} — {data.scholarship.period}</div>
+        </div>
+      </div>
+    </Section>
+
+    <!-- Publications -->
+    {data.publications.length > 0 && (
+      <Section id="publications">
+        <GlitchText text="Publications" />
+        <div class="info-list">
+          {data.publications.map((pub: { title: string; authors: string; venue: string; year: string; url?: string }) => (
+            <div class="info-list__item">
+              <div class="info-list__item-title">
+                {pub.url ? <a href={pub.url} target="_blank" rel="noopener noreferrer">{pub.title}</a> : pub.title}
+              </div>
+              <div class="info-list__item-detail">
+                {pub.authors}<br />
+                {pub.venue}, {pub.year}
+              </div>
+            </div>
+          ))}
+        </div>
+      </Section>
+    )}
+
+    <!-- Contact -->
+    <Section id="contact">
+      <GlitchText text="Contact" />
+      <div class="contact-section">
+        <p class="contact-section__message">{data.contact.message}</p>
+        <div class="contact-section__actions">
+          <a href={`mailto:${data.contact.email}`} class="contact-section__email">{data.contact.email}</a>
+          <button class="contact-section__copy" data-email={data.contact.email} aria-label="Copy email address">
+            <span class="contact-section__copy-label">Copy</span>
+          </button>
         </div>
       </div>
     </Section>
@@ -314,6 +365,36 @@ import data from '../data/portfolio.json';
       `;
       document.head.appendChild(style);
     }
+
+    // --- 0e. Copy email to clipboard ---
+    document.querySelectorAll<HTMLButtonElement>('.contact-section__copy').forEach((btn) => {
+      btn.addEventListener('click', async () => {
+        const email = btn.dataset.email;
+        if (!email) return;
+        try {
+          await navigator.clipboard.writeText(email);
+          const label = btn.querySelector('.contact-section__copy-label');
+          if (label) {
+            label.textContent = 'Copied!';
+            btn.classList.add('contact-section__copy--done');
+            setTimeout(() => {
+              label.textContent = 'Copy';
+              btn.classList.remove('contact-section__copy--done');
+            }, 2000);
+          }
+        } catch {
+          // Fallback: select text in the email link
+          const emailLink = btn.parentElement?.querySelector('.contact-section__email');
+          if (emailLink) {
+            const range = document.createRange();
+            range.selectNodeContents(emailLink);
+            const sel = window.getSelection();
+            sel?.removeAllRanges();
+            sel?.addRange(range);
+          }
+        }
+      });
+    });
 
     // --- 1. Scroll fade-in observer ---
     const observer = new IntersectionObserver(

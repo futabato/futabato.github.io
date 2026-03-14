@@ -1,19 +1,19 @@
 ---
 const navItems = [
-  { label: 'About', href: '#about' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Projects', href: '#projects' },
   { label: 'Activities', href: '#activities' },
   { label: 'Awards', href: '#awards' },
-  { label: 'Contact', href: 'mailto:01futabato10@gmail.com' },
+  { label: 'Contact', href: '#contact' },
 ];
 ---
 
 <header class="taskbar">
   <div class="taskbar__start">
-    <a href="/" class="taskbar__logo">
+    <button class="taskbar__logo" id="logo-btn" type="button">
       <span class="taskbar__logo-icon">&#9654;</span>
       futabato.exe
-    </a>
+    </button>
   </div>
   <nav class="taskbar__tabs">
     {navItems.map((item) => (
@@ -37,7 +37,68 @@ const navItems = [
   </nav>
 </header>
 
+<!-- BSOD overlay -->
+<div class="bsod" id="bsod" aria-hidden="true">
+  <div class="bsod__content">
+    <div class="bsod__frown">:(</div>
+    <div class="bsod__title">futabato.exe has crashed</div>
+    <div class="bsod__detail">
+      A fatal exception 0x00000DEA has occurred at 0028:C0034B03.<br />
+      The current application will be terminated.<br /><br />
+      * Press any key to restart futabato.exe<br />
+      * Press CTRL+ALT+DEL to reboot your experience<br /><br />
+      <span class="bsod__collecting">Collecting error info... <span id="bsod-pct">0</span>%</span>
+    </div>
+  </div>
+</div>
+
+<style>
+  .bsod {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: #0078d7;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    cursor: pointer;
+  }
+
+  .bsod--active {
+    display: flex;
+  }
+
+  .bsod__content {
+    max-width: 640px;
+    color: #fff;
+    font-family: 'Segoe UI', var(--font-body);
+  }
+
+  .bsod__frown {
+    font-size: clamp(4rem, 10vw, 8rem);
+    font-weight: 100;
+    margin-bottom: 1rem;
+  }
+
+  .bsod__title {
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
+    margin-bottom: 1.5rem;
+  }
+
+  .bsod__detail {
+    font-size: clamp(0.75rem, 1.8vw, 0.95rem);
+    line-height: 1.8;
+    opacity: 0.85;
+  }
+
+  .bsod__collecting {
+    font-family: var(--font-heading);
+  }
+</style>
+
 <script>
+  // Clock
   function updateClock() {
     const el = document.getElementById('taskbar-clock');
     if (!el) return;
@@ -46,4 +107,65 @@ const navItems = [
   }
   updateClock();
   setInterval(updateClock, 10000);
+
+  // BSOD Easter Egg — rapid clicks on logo
+  const logoBtn = document.getElementById('logo-btn');
+  const bsod = document.getElementById('bsod');
+  let clickCount = 0;
+  let clickTimer: ReturnType<typeof setTimeout> | null = null;
+  const CLICK_THRESHOLD = 5;
+  const CLICK_WINDOW = 2000;
+
+  if (logoBtn && bsod) {
+    logoBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      clickCount++;
+
+      if (clickTimer) clearTimeout(clickTimer);
+      clickTimer = setTimeout(() => { clickCount = 0; }, CLICK_WINDOW);
+
+      if (clickCount >= CLICK_THRESHOLD) {
+        clickCount = 0;
+        triggerBsod();
+      }
+    });
+
+    // Dismiss BSOD on click or keypress (only after lock period)
+    let bsodLocked = false;
+
+    function dismissBsod() {
+      if (bsodLocked) return;
+      bsod.classList.remove('bsod--active');
+      document.removeEventListener('keydown', dismissBsod);
+    }
+
+    bsod.addEventListener('click', dismissBsod);
+
+    function triggerBsod() {
+      bsod.classList.add('bsod--active');
+      bsodLocked = true;
+
+      // Lock dismissal for 2 seconds
+      setTimeout(() => {
+        bsodLocked = false;
+        document.addEventListener('keydown', dismissBsod);
+      }, 2000);
+
+      // Animate percentage counter
+      const pctEl = document.getElementById('bsod-pct');
+      if (pctEl) {
+        let pct = 0;
+        pctEl.textContent = '0';
+        const interval = setInterval(() => {
+          pct += Math.floor(Math.random() * 15) + 1;
+          if (pct > 100) pct = 100;
+          pctEl.textContent = `${pct}`;
+          if (pct >= 100) {
+            clearInterval(interval);
+            setTimeout(dismissBsod, 1200);
+          }
+        }, 300);
+      }
+    }
+  }
 </script>

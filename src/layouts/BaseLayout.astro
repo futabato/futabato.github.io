@@ -26,6 +26,7 @@ const { title, description = 'Adversarial Portfolio — futabato' } = Astro.prop
     />
   </head>
   <body>
+    <!--オタクくん、見てる～～～？-->
     <!-- SVG noise filter (referenced by NoiseOverlay) -->
     <svg style="position:absolute;width:0;height:0;" aria-hidden="true">
       <filter id="noise">
@@ -54,6 +55,29 @@ const { title, description = 'Adversarial Portfolio — futabato' } = Astro.prop
       <div class="vhs-rec"><span class="vhs-rec__dot"></span> REC</div>
       <div id="vhs-date"></div>
     </div>
+    <!-- Console Easter Egg -->
+    <script>
+      console.log(
+        '%cIntrusion detected.',
+        'color: #ff0000; font-size: 14px; font-weight: bold; font-family: monospace;'
+      );
+      console.log(
+        '%cYour session has been logged.\n' +
+        'IP: ' + Math.floor(Math.random()*255) + '.' + Math.floor(Math.random()*255) + '.' + Math.floor(Math.random()*255) + '.' + Math.floor(Math.random()*255) + '\n' +
+        'Fingerprint: 0x' + Array.from({length:12}, () => Math.floor(Math.random()*16).toString(16)).join('').toUpperCase() + '\n' +
+        'Timestamp: ' + new Date().toISOString(),
+        'color: #888880; font-size: 11px; font-family: monospace;'
+      );
+      console.log(
+        '%cWe are watching.',
+        'color: #15ff00; font-size: 16px; font-family: monospace; font-weight: bold;'
+      );
+      console.log(
+        '%cオタクくん、DevTools 開いちゃったね。\n' +
+        'やっていることはすべてお見通しだよ。',
+        'color: #ffb000; font-size: 13px; font-family: monospace;'
+      );
+    </script>
   </body>
 </html>
 

@@ -4,6 +4,18 @@
   "tagline": "Data Scientist",
   "bio": "Data Scientist interested in cybersecurity.",
   "affiliations": [],
+  "experience": [
+    {
+      "role": "Data Scientist",
+      "company": "",
+      "period": "Apr 2025 –"
+    }
+  ],
+  "publications": [],
+  "contact": {
+    "email": "01futabato10@gmail.com",
+    "message": "Feel free to reach out for research collaboration, CTF, or just to say hi."
+  },
   "links": [
     { "label": "GitHub", "url": "https://github.com/futabato" },
     { "label": "Twitter", "url": "https://twitter.com/01futabato10" },

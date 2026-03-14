@@ -823,6 +823,63 @@
   );
 }
 
+/* ===== Contact ===== */
+.contact-section {
+  text-align: center;
+}
+
+.contact-section__message {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.contact-section__actions {
+  display: inline-flex;
+  align-items: stretch;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid var(--accent-amber);
+}
+
+.contact-section__email {
+  display: inline-block;
+  font-family: var(--font-heading);
+  font-size: 0.9rem;
+  padding: 0.6rem 1.25rem;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-section__email:hover {
+  background: rgba(255, 176, 0, 0.08);
+  color: var(--accent-amber);
+}
+
+.contact-section__copy {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  padding: 0 1rem;
+  background: transparent;
+  color: var(--text-secondary);
+  border: none;
+  border-left: 1px solid var(--accent-amber);
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-section__copy:hover {
+  background: var(--accent-ctos);
+  color: var(--bg-primary);
+}
+
+.contact-section__copy--done {
+  background: var(--accent-ctos);
+  color: var(--bg-primary);
+}
+
 /* ===== Spacer — taskbar is now at bottom ===== */
 .main-content {
   padding-bottom: var(--nav-height);
