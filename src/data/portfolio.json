@@ -14,16 +14,14 @@
   "publications": [],
   "contact": {
     "email": "01futabato10@gmail.com",
-    "message": "Feel free to reach out for research collaboration, CTF, or just to say hi."
+    "message": "Feel free to reach out about data science, security, or anything interesting."
   },
   "links": [
     { "label": "GitHub", "url": "https://github.com/futabato" },
     { "label": "Twitter", "url": "https://twitter.com/01futabato10" },
     { "label": "LinkedIn", "url": "https://linkedin.com/in/futabato/" },
     { "label": "SpeakerDeck", "url": "https://speakerdeck.com/futabato" },
-    { "label": "Blog", "url": "https://01futabato10.hateblo.jp/" },
-    { "label": "AtCoder", "url": "https://atcoder.jp/users/futabato" },
-    { "label": "Wantedly", "url": "https://www.wantedly.com/id/futabato" }
+    { "label": "Blog", "url": "https://01futabato10.hateblo.jp/" }
   ],
   "education": [
     {
