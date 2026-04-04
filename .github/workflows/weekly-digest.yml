@@ -1,9 +1,9 @@
-name: Weekly AI Security Digest
+name: Daily AI Security Digest
 
 on:
   schedule:
-    # 毎週月曜 9:00 JST (日曜 24:00 UTC)
-    - cron: "0 0 * * 1"
+    # 毎日 9:00 JST (0:00 UTC)
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 permissions:
@@ -44,5 +44,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/rss/ scripts/archive/ manual_picks.yaml
-          git diff --staged --quiet || git commit -m "digest: $(date +%Y-W%V)"
+          git diff --staged --quiet || git commit -m "digest: $(date +%Y-%m-%d)"
           git push

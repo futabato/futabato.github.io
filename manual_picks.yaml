@@ -7,7 +7,7 @@
 #   3. 処理済みのエントリは自動で consumed: true に更新される
 #
 # モバイルからの追加:
-#   - GitHub Issueに「pick: URL」と書くだけでもOK（Issue連携あり）
+#   - GitHub Issueに「pick: URL」と書くだけでもOK
 #   - またはこのファイルをGitHub Web UIから直接編集
 
 picks:
