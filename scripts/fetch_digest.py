@@ -539,18 +539,19 @@ def main():
 
     log.info("=== AI Security Daily Digest ===")
 
-    # 1. RSS自動収集
-    articles = fetch_all_feeds(config, days_back=1)
+    # 1. RSS自動収集 → フィルタリング + 上限
+    auto_articles = fetch_all_feeds(config, days_back=1)
+    auto_articles = filter_articles(auto_articles, config)
 
-    # 2. 手動キュレーション（自動収集と統合）
+    # 2. 手動キュレーション（フィルタ・上限なしで全件追加）
     manual_picks = load_manual_picks()
     issue_picks = load_issue_picks()
     all_picks = manual_picks + issue_picks
     manual_articles = fetch_manual_articles(all_picks)
-    articles = articles + manual_articles
 
-    # 3. フィルタリング + 上限（手動・自動を区別せず日付順）
-    articles = filter_articles(articles, config)
+    # 3. 統合（手動 + 自動、日付順）
+    articles = manual_articles + auto_articles
+    articles.sort(key=lambda x: x["published"], reverse=True)
 
     if not articles:
         log.info("No articles found today. Skipping digest generation.")
