@@ -49,7 +49,44 @@ feeds:
     url: "https://www.microsoft.com/en-us/security/blog/feed/"
     category: "vendor"
 
-  # --- 政策・ガバナンス ---
+  # --- 日本語ソース ---
+  - name: "piyolog"
+    url: "https://piyolog.hatenadiary.jp/rss"
+    category: "news"
+
+  - name: "Security NEXT"
+    url: "https://www.security-next.com/feed"
+    category: "news"
+
+  - name: "サイバーセキュリティ.com"
+    url: "https://cybersecurity-jp.com/news/feed"
+    category: "news"
+
+  - name: "徳丸浩の日記"
+    url: "https://blog.tokumaru.org/feeds/posts/default"
+    category: "news"
+
+  - name: "セキュリティのアレ"
+    url: "https://www.tsujileaks.com/?feed=podcast"
+    category: "news"
+
+  - name: "JPCERT/CC"
+    url: "https://www.jpcert.or.jp/rss/jpcert.rdf"
+    category: "policy"
+
+  - name: "IPA セキュリティセンター"
+    url: "https://www.ipa.go.jp/security/rss/alert.rdf"
+    category: "policy"
+
+  - name: "デジタル庁"
+    url: "https://www.digital.go.jp/rss/news.xml"
+    category: "policy"
+
+  - name: "総務省"
+    url: "https://www.soumu.go.jp/news.rdf"
+    category: "policy"
+
+  # --- 政策・ガバナンス（海外） ---
   - name: "NIST Cybersecurity"
     url: "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml"
     category: "policy"
@@ -73,6 +110,13 @@ keywords:
     - "red teaming"
     - "AI agent"
     - "agentic"
+    - "agentic AI"
+    - "agent security"
+    - "agent sandbox"
+    - "tool use"
+    - "function calling"
+    - "MCP server"
+    - "model context protocol"
     - "AI alignment"
     - "AISI"
     - "AI governance"
@@ -86,6 +130,35 @@ keywords:
     - "AI vulnerability"
     - "GenAI"
     - "generative AI"
+    - "RAG"
+    - "retrieval augmented generation"
+    - "chain of thought"
+    - "reasoning model"
+    - "multi-agent"
+    - "computer use"
+    - "code execution"
+    - "indirect prompt injection"
+    - "data exfiltration"
+    - "guardrail"
+    - "RLHF"
+    - "OWASP LLM"
+    # 日本語キーワード
+    - "生成AI"
+    - "大規模言語モデル"
+    - "プロンプトインジェクション"
+    - "敵対的攻撃"
+    - "AIエージェント"
+    - "ディープフェイク"
+    - "AIガバナンス"
+    - "レッドチーミング"
+    - "AIの安全性"
+    - "機械学習セキュリティ"
+    - "AIリスク"
+    - "ガードレール"
+    - "ツール呼び出し"
+    - "マルチエージェント"
+    - "自律型AI"
+    - "AI規制"
 
   # AIとセキュリティの両方を含む場合も採用
   compound:
@@ -97,9 +170,23 @@ keywords:
       - "GPT"
       - "Claude"
       - "Gemini"
+      - "Llama"
+      - "Qwen"
+      - "DeepSeek"
+      - "Mistral"
       - "AI model"
       - "ML model"
       - "language model"
+      - "LLM"
+      - "agent"
+      - "chatbot"
+      - "copilot"
+      - "人工知能"
+      - "機械学習"
+      - "深層学習"
+      - "言語モデル"
+      - "エージェント"
+      - "チャットボット"
     security_terms:
       - "security"
       - "vulnerability"
@@ -111,6 +198,13 @@ keywords:
       - "malicious"
       - "adversarial"
       - "breach"
+      - "セキュリティ"
+      - "脆弱性"
+      - "攻撃"
+      - "脅威"
+      - "安全性"
+      - "悪用"
+      - "不正アクセス"
 
 # 出力設定
 output:
