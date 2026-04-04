@@ -148,6 +148,10 @@ pnpm preview    # ビルド結果のプレビュー
 
 `master` ブランチに push すると GitHub Actions (`.github/workflows/deploy.yml`) が自動で GitHub Pages にデプロイします。
 
+## AI Security Weekly Digest
+
+AIセキュリティの週次ダイジェストを自動生成・RSS 配信しています。詳細は [scripts/README.md](scripts/README.md) を参照してください。
+
 ## License
 
 This project is licensed under the MIT License.
