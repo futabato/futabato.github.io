@@ -150,7 +150,7 @@ pnpm preview    # ビルド結果のプレビュー
 
 ## AI Security Weekly Digest
 
-AIセキュリティの週次ダイジェストを自動生成・RSS 配信しています。詳細は [scripts/README.md](scripts/README.md) を参照してください。
+AIセキュリティの日次ダイジェストを自動生成・RSS 配信しています。詳細は [scripts/README.md](scripts/README.md) を参照してください。
 
 ## License
 
