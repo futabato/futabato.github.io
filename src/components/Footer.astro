@@ -6,7 +6,9 @@ const year = new Date().getFullYear();
 <footer class="footer">
   <div class="footer__links">
     {data.links.map((link) => (
-      <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label}</a>
+      link.url.startsWith('/')
+        ? <a href={link.url}>{link.label}</a>
+        : <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label}</a>
     ))}
   </div>
   <p>&copy; {year} {data.name}. All rights reserved.</p>

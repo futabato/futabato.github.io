@@ -14,8 +14,10 @@ import data from '../data/portfolio.json';
     ))}
   </p>
   <div class="hero__links">
-    {data.links.slice(0, 4).map((link) => (
-      <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label}</a>
+    {data.links.map((link) => (
+      link.url.startsWith('/')
+        ? <a href={link.url}>{link.label}</a>
+        : <a href={link.url} target="_blank" rel="noopener noreferrer">{link.label}</a>
     ))}
   </div>
 </section>
