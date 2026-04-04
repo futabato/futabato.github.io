@@ -1,0 +1,95 @@
+name: Process Pick Issues
+
+on:
+  # 週次ダイジェスト実行の直前に動かす
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process-picks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Extract picks from labeled issues
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+
+            // "pick" ラベルの open Issue を取得
+            const issues = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: 'pick',
+              state: 'open',
+              per_page: 50,
+            });
+
+            const picks = [];
+            for (const issue of issues.data) {
+              // Issue bodyからURLを抽出
+              const body = issue.body || '';
+
+              // テンプレート形式: "### URL\n\nhttps://..."
+              const urlMatch = body.match(/### URL\s*\n\s*(https?:\/\/[^\s\n]+)/);
+              // またはプレーンURL
+              const plainUrl = body.match(/(https?:\/\/[^\s\n]+)/);
+              const url = urlMatch ? urlMatch[1] : (plainUrl ? plainUrl[1] : null);
+
+              if (!url) continue;
+
+              const noteMatch = body.match(/### メモ[^\n]*\n\s*([^\n#]+)/);
+              const tagsMatch = body.match(/### タグ[^\n]*\n\s*([^\n#]+)/);
+
+              picks.push({
+                url: url.trim(),
+                note: noteMatch ? noteMatch[1].trim() : '',
+                tags: tagsMatch
+                  ? tagsMatch[1].split(',').map(t => t.trim()).filter(Boolean)
+                  : ['curated'],
+                issue_number: issue.number,
+              });
+
+              // Issue をクローズ
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed',
+                state_reason: 'completed',
+              });
+
+              // 処理済みコメントを追加
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `✅ ダイジェストに追加しました（次回配信に含まれます）`,
+              });
+            }
+
+            if (picks.length > 0) {
+              const dir = '.issue_picks';
+              fs.mkdirSync(dir, { recursive: true });
+              fs.writeFileSync(
+                path.join(dir, 'picks.json'),
+                JSON.stringify(picks, null, 2)
+              );
+              console.log(`Processed ${picks.length} pick(s) from issues`);
+            } else {
+              console.log('No pick issues found');
+            }
+
+      - name: Upload issue picks
+        if: hashFiles('.issue_picks/picks.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: issue-picks
+          path: .issue_picks/
+          retention-days: 1

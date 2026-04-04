@@ -1,0 +1,48 @@
+name: Weekly AI Security Digest
+
+on:
+  schedule:
+    # 毎週月曜 9:00 JST (日曜 24:00 UTC)
+    - cron: "0 0 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  # Step 1: GitHub IssueからURLを抽出
+  process-picks:
+    uses: ./.github/workflows/process-picks.yml
+
+  # Step 2: ダイジェスト生成 → public/rss/ に出力
+  build-digest:
+    needs: process-picks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Download issue picks
+        uses: actions/download-artifact@v4
+        with:
+          name: issue-picks
+          path: .issue_picks/
+        continue-on-error: true
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Generate digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: uv run scripts/fetch_digest.py
+
+      - name: Commit digest files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/rss/ scripts/archive/ manual_picks.yaml
+          git diff --staged --quiet || git commit -m "digest: $(date +%Y-W%V)"
+          git push

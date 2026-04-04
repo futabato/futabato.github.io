@@ -1,0 +1,127 @@
+# AI Security Weekly Digest - Configuration
+# ソースRSSフィードとフィルタリング設定
+
+feeds:
+  # --- 速報・技術層 ---
+  - name: "arXiv cs.CR (Cryptography and Security)"
+    url: "https://rss.arxiv.org/rss/cs.CR"
+    category: "research"
+
+  - name: "arXiv cs.AI (Artificial Intelligence)"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+    category: "research"
+
+  - name: "arXiv cs.CL (Computation and Language)"
+    url: "https://rss.arxiv.org/rss/cs.CL"
+    category: "research"
+
+  # --- セキュリティニュース ---
+  - name: "The Hacker News"
+    url: "https://feeds.feedburner.com/TheHackersNews"
+    category: "news"
+
+  - name: "Bleeping Computer"
+    url: "https://www.bleepingcomputer.com/feed/"
+    category: "news"
+
+  - name: "The Record by Recorded Future"
+    url: "https://therecord.media/feed"
+    category: "news"
+
+  - name: "Krebs on Security"
+    url: "https://krebsonsecurity.com/feed/"
+    category: "news"
+
+  # --- AI/ML専門 ---
+  - name: "Simon Willison's Weblog"
+    url: "https://simonwillison.net/atom/everything/"
+    category: "ai_commentary"
+
+  - name: "AI Snake Oil"
+    url: "https://www.aisnakeoil.com/feed"
+    category: "ai_commentary"
+
+  - name: "Google Online Security Blog"
+    url: "https://security.googleblog.com/feeds/posts/default"
+    category: "vendor"
+
+  - name: "Microsoft Security Blog"
+    url: "https://www.microsoft.com/en-us/security/blog/feed/"
+    category: "vendor"
+
+  # --- 政策・ガバナンス ---
+  - name: "NIST Cybersecurity"
+    url: "https://www.nist.gov/blogs/cybersecurity-insights/rss.xml"
+    category: "policy"
+
+  - name: "CISA Alerts"
+    url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    category: "policy"
+
+# AI セキュリティ関連のフィルタリングキーワード
+# タイトルまたは本文にいずれかが含まれる記事を抽出
+keywords:
+  primary:  # いずれか1つで採用
+    - "AI security"
+    - "AI safety"
+    - "LLM"
+    - "large language model"
+    - "prompt injection"
+    - "jailbreak"
+    - "adversarial attack"
+    - "model evaluation"
+    - "red teaming"
+    - "AI agent"
+    - "agentic"
+    - "AI alignment"
+    - "AISI"
+    - "AI governance"
+    - "frontier model"
+    - "foundation model"
+    - "machine learning security"
+    - "deepfake"
+    - "AI regulation"
+    - "model safety"
+    - "sandbagging"
+    - "AI vulnerability"
+    - "GenAI"
+    - "generative AI"
+
+  # AIとセキュリティの両方を含む場合も採用
+  compound:
+    ai_terms:
+      - "AI"
+      - "artificial intelligence"
+      - "neural network"
+      - "machine learning"
+      - "GPT"
+      - "Claude"
+      - "Gemini"
+      - "AI model"
+      - "ML model"
+      - "language model"
+    security_terms:
+      - "security"
+      - "vulnerability"
+      - "exploit"
+      - "attack"
+      - "threat"
+      - "risk"
+      - "safety"
+      - "malicious"
+      - "adversarial"
+      - "breach"
+
+# 出力設定
+output:
+  feed_title: "AI Security Weekly Digest"
+  feed_description: "AIセキュリティに関する週次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約"
+  feed_url: "https://futabato.github.io/rss/feed.xml"
+  site_url: "https://futabato.github.io/rss/"
+  language: "ja"
+  max_items_per_digest: 20
+
+# Anthropic API設定
+anthropic:
+  model: "claude-sonnet-4-6"
+  max_tokens_per_summary: 300

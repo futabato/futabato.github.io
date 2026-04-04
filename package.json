@@ -30,6 +30,10 @@
   "lint-staged": {
     "*.{js,ts,mjs,json}": [
       "biome check --write --no-errors-on-unmatched"
+    ],
+    "*.py": [
+      "uv run ruff format",
+      "uv run ruff check --fix"
     ]
   }
 }

@@ -1,0 +1,25 @@
+# 手動キュレーション: 気になった記事のURLをここに追加
+# GitHub Actions実行時に自動でfetch → 要約 → RSSに含まれます
+#
+# 使い方:
+#   1. URLとメモを追加してcommit & push
+#   2. 次回のGitHub Actions実行時に処理される
+#   3. 処理済みのエントリは自動で consumed: true に更新される
+#
+# モバイルからの追加:
+#   - GitHub Issueに「pick: URL」と書くだけでもOK（Issue連携あり）
+#   - またはこのファイルをGitHub Web UIから直接編集
+
+picks:
+  # --- 記入例 ---
+  # - url: "https://x.com/example/status/123456789"
+  #   note: "LLMエージェントのサンドボックス回避に関する議論スレッド"
+  #   tags: ["agent-security", "evaluation"]
+
+  # - url: "https://arxiv.org/abs/2603.15457"
+  #   note: "evaluator-discrimination問題の論文"
+
+  # - url: "https://example.com/blog/ai-safety-update"
+  #   note: ""
+
+  # --- ここから追加 ---

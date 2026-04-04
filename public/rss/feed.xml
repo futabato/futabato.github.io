@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AI Security Weekly Digest</title>
+  <subtitle>AIセキュリティに関する週次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
+  <id>https://futabato.github.io/rss/</id>
+  <updated>2026-04-05T00:00:00Z</updated>
+  <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
+  <link rel="alternate" href="https://futabato.github.io/rss/"/>
+  <author>
+    <name>AI Security Digest Bot</name>
+  </author>
+</feed>

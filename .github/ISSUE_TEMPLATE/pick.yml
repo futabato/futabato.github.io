@@ -1,0 +1,28 @@
+name: "📌 Pick: 記事を追加"
+description: "気になった記事のURLを投稿（モバイルからも可）"
+title: "pick: "
+labels: ["pick"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: "記事・ツイート・論文などのURL"
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: メモ（任意）
+      description: "一言コメントや文脈"
+      placeholder: "LLMエージェントのサンドボックス回避手法の新しい分類"
+    validations:
+      required: false
+  - type: input
+    id: tags
+    attributes:
+      label: タグ（任意、カンマ区切り）
+      placeholder: "agent-security, evaluation"
+    validations:
+      required: false
