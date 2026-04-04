@@ -43,7 +43,9 @@ Atom フィード + HTML ページを生成 → GitHub Pages で配信
 
 ### GitHub Issue (モバイル対応)
 
-[Issue テンプレート](../../issues/new?template=pick.yml) から URL を投稿するだけ。`pick` ラベルが付き、次回のダイジェスト実行時に自動で取り込まれます。
+[Issue テンプレート](../../issues/new?template=pick.yml) から URL を投稿するだけ。`pick` ラベルが付き、次回のダイジェスト実行時に自動で取り込まれます。Issue は処理後に自動クローズされます。
+
+> **Note**: 手動ピックも自動収集と同様にキーワードフィルタリングと上限 (5件/日) の対象です。AIセキュリティに関連しない記事や、上限を超えた分はダイジェストに含まれません。
 
 ### manual_picks.yaml
 
@@ -69,7 +71,7 @@ public/rss/
   index.html            # Web ページ (自動生成)
 .github/
   workflows/
-    weekly-digest.yml   # 日次実行ワークフロー
+    daily-digest.yml    # 日次実行ワークフロー
     process-picks.yml   # Issue → picks 抽出
   ISSUE_TEMPLATE/
     pick.yml            # 手動ピック用テンプレート
