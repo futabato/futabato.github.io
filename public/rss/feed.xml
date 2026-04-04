@@ -3,10 +3,35 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-05T00:00:00Z</updated>
+  <updated>2026-04-04T23:28:19Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
+  <entry>
+    <title>Axios npm hack used fake Teams error fix to hijack maintainer account</title>
+    <link href="https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/" rel="alternate"/>
+    <id>urn:ai-security-digest:68cabf3e4ea0703a</id>
+    <published>2026-04-04T20:30:42Z</published>
+    <updated>2026-04-04T20:30:42Z</updated>
+    <content type="html">&lt;p&gt;The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been conducte&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="news"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Vulnerability Research Is Cooked</title>
+    <link href="https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:3bda934596581d60</id>
+    <published>2026-04-03T23:59:08Z</published>
+    <updated>2026-04-03T23:59:08Z</updated>
+    <content type="html">&lt;p&gt;&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;&amp;lt;a href=&amp;quot;https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/&amp;quot;&amp;gt;Vulnerability Research Is Cooked&amp;lt;/a&amp;gt;&amp;lt;/strong&amp;gt;&amp;lt;/p&amp;gt;
+Thomas Ptacek&amp;#x27;s take on the sudden and enormous impact t&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;ai_commentary&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="ai_commentary"/>
+    <source>
+      <title>Simon Willison's Weblog</title>
+    </source>
+  </entry>
 </feed>

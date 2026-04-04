@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
+    "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
+    "source": "Bleeping Computer",
+    "published": "2026-04-04T20:30:42+00:00",
+    "summary_ja": "The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been conducte",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "title": "Vulnerability Research Is Cooked",
+    "link": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-03T23:59:08+00:00",
+    "summary_ja": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/\">Vulnerability Research Is Cooked</a></strong></p>\nThomas Ptacek's take on the sudden and enormous impact t",
+    "tags": [
+      "ai_commentary"
+    ]
+  }
+]
