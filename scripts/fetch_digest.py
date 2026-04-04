@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-AI Security Weekly Digest
+AI Security Daily Digest
 - RSSフィードから記事を自動収集
 - AIセキュリティ関連記事をフィルタリング
 - Anthropic Claude APIで日本語要約を生成
@@ -226,10 +226,9 @@ def fetch_manual_articles(picks: list[dict]) -> list[dict]:
                         "link": url,
                         "summary": summary[:1000] or pick.get("note", ""),
                         "published": datetime.now(UTC),
-                        "source_name": f"📌 {source_name}",
+                        "source_name": source_name,
                         "category": "curated",
                         "tags": pick.get("tags", ["curated"]),
-                        "is_manual_pick": True,
                     }
                 )
 
@@ -243,10 +242,9 @@ def fetch_manual_articles(picks: list[dict]) -> list[dict]:
                             "link": url,
                             "summary": pick.get("note", ""),
                             "published": datetime.now(UTC),
-                            "source_name": "📌 Manual Pick",
+                            "source_name": "Manual Pick",
                             "category": "curated",
                             "tags": pick.get("tags", ["curated"]),
-                            "is_manual_pick": True,
                         }
                     )
 
@@ -426,7 +424,7 @@ def generate_atom_feed(articles: list[dict], config: dict) -> str:
         SubElement(entry, "published").text = pub
         SubElement(entry, "updated").text = pub
 
-        # 要約をコンテンツとして（XSS対策でエスケープ）
+        # HTMLエスケープして要約とメタ情報をcontentに含める
         esc = html_mod.escape
         summary_text = esc(article.get("ai_summary", article["summary"][:200]))
         content = SubElement(entry, "content")
@@ -460,7 +458,7 @@ def generate_atom_feed(articles: list[dict], config: dict) -> str:
 def generate_index_html(articles: list[dict], config: dict) -> str:
     """GitHub Pages用のHTMLインデックス"""
     out = config["output"]
-    week = datetime.now(JST).strftime("%Y年%m月%d日週")
+    today = datetime.now(JST).strftime("%Y年%m月%d日")
 
     esc = html_mod.escape
     rows = ""
@@ -468,9 +466,8 @@ def generate_index_html(articles: list[dict], config: dict) -> str:
         tags = " ".join(f'<span class="tag">{esc(t)}</span>' for t in a.get("tags", []))
         summary = esc(a.get("ai_summary", a["summary"][:150]))
         date_str = a["published"].strftime("%m/%d")
-        curated_class = " curated" if a.get("is_manual_pick") else ""
         rows += f"""
-        <article class="entry{curated_class}">
+        <article class="entry">
           <div class="meta">
             <time>{date_str}</time>
             <span class="source">{esc(a["source_name"])}</span>
@@ -525,12 +522,12 @@ def generate_index_html(articles: list[dict], config: dict) -> str:
   </nav>
   <header>
     <h1>{out["feed_title"]}</h1>
-    <p>{week} | {len(articles)}件の記事（自動収集 + 手動キュレーション）</p>
+    <p>{today} | {len(articles)}件の記事</p>
   </header>
   <main>{rows}
   </main>
   <footer>
-    <a href="/">futabato.github.io</a> | Auto-generated weekly
+    <a href="/">futabato.github.io</a> | Auto-generated daily
   </footer>
 </body>
 </html>"""
@@ -540,25 +537,23 @@ def generate_index_html(articles: list[dict], config: dict) -> str:
 def main():
     config = load_config()
 
-    log.info("=== AI Security Weekly Digest ===")
+    log.info("=== AI Security Daily Digest ===")
 
     # 1. RSS自動収集
-    articles = fetch_all_feeds(config, days_back=7)
+    articles = fetch_all_feeds(config, days_back=1)
 
-    # 2. フィルタリング（自動収集分のみ）
-    articles = filter_articles(articles, config)
-
-    # 3. 手動キュレーション（フィルタ不要、そのまま追加）
+    # 2. 手動キュレーション（自動収集と統合）
     manual_picks = load_manual_picks()
     issue_picks = load_issue_picks()
     all_picks = manual_picks + issue_picks
     manual_articles = fetch_manual_articles(all_picks)
+    articles = articles + manual_articles
 
-    # 手動ピックを先頭に配置（📌マーク付き）
-    articles = manual_articles + articles
+    # 3. フィルタリング + 上限（手動・自動を区別せず日付順）
+    articles = filter_articles(articles, config)
 
     if not articles:
-        log.info("No articles found this week. Skipping digest generation.")
+        log.info("No articles found today. Skipping digest generation.")
         return
 
     # 4. LLM要約
@@ -578,9 +573,9 @@ def main():
     INDEX_OUTPUT.write_text(html, encoding="utf-8")
     log.info(f"Index HTML written: {INDEX_OUTPUT}")
 
-    # アーカイブ（週ごと）
-    week_label = datetime.now(JST).strftime("%Y-W%V")
-    archive_path = ARCHIVE_DIR / f"digest-{week_label}.json"
+    # アーカイブ保存（次回以降の重複排除や分析用）
+    date_label = datetime.now(JST).strftime("%Y-%m-%d")
+    archive_path = ARCHIVE_DIR / f"digest-{date_label}.json"
     archive_data = [
         {
             "title": a["title"],

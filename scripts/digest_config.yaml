@@ -208,12 +208,12 @@ keywords:
 
 # 出力設定
 output:
-  feed_title: "AI Security Weekly Digest"
-  feed_description: "AIセキュリティに関する週次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約"
+  feed_title: "AI Security Daily Digest"
+  feed_description: "AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約"
   feed_url: "https://futabato.github.io/rss/feed.xml"
   site_url: "https://futabato.github.io/rss/"
   language: "ja"
-  max_items_per_digest: 20
+  max_items_per_digest: 5
 
 # Anthropic API設定
 anthropic:
