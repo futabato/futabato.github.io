@@ -136,7 +136,6 @@ keywords:
     - "reasoning model"
     - "multi-agent"
     - "computer use"
-    - "code execution"
     - "indirect prompt injection"
     - "data exfiltration"
     - "guardrail"
@@ -220,4 +219,3 @@ output:
 # Anthropic API設定
 anthropic:
   model: "claude-sonnet-4-6"
-  max_tokens_per_summary: 300
