@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Emotion concepts and their function in a large language model \\ Anthropic — _No response_",
+    "link": "https://www.anthropic.com/research/emotion-concepts-function",
+    "source": "anthropic.com",
+    "published": "2026-04-05T23:31:34.991030+00:00",
+    "summary_ja": "Anthropicの解釈可能性研究チームが、大規模言語モデル（LLM）内における「感情」に相当する概念の存在とその機能的役割を調査した研究です。モデル内部に感情に類似した表現が存在し、それがモデルの振る舞いに影響を与えている可能性を示唆しています。",
+    "tags": [
+      "research",
+      "model-safety",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "AI時代の認証課題を解決する次世代標準候補「ID-JAG」とは？ — _No response_",
+    "link": "https://techblog.lycorp.co.jp/ja/20260401a",
+    "source": "techblog.lycorp.co.jp",
+    "published": "2026-04-05T23:31:33.806245+00:00",
+    "summary_ja": "LINEヤフーの認証・認可基盤Athenzを担当するエンジニアが、AIエージェントが各種サービスと連携する際のトークン管理や認証課題を解決するための次世代標準候補「ID-JAG」について解説した記事です。AIエージェントの普及に伴い、従来の認証方式では対応が難しくなりつつある課題を整理し、ID-JAGがどのようにそれらを解決しうるかを紹介しています。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "Quoting Chengpeng Mou",
+    "link": "https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-05T21:47:06+00:00",
+    "summary_ja": "OpenAIのChatGPTデータから、医療保険や医療相談に関する週次メッセージが数百万件に上ることが明らかになった。病院へのアクセスが困難な地域に住む人々からの利用や、診療時間外の利用が多い実態が示されており、AIの医療倫理・安全性に関する議論を呼んでいる。",
+    "tags": [
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "scan-for-secrets 0.1",
+    "link": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-05T03:27:13+00:00",
+    "summary_ja": "Claude Codeのセッションログを公開する際にAPIキーなどの機密情報が意図せず含まれるリスクを防ぐため、Pythonベースのシークレットスキャンツール「scan-for-secrets」が開発・公開された。LLMを活用した開発ワークフローにおける情報漏洩リスクへの対策ツールである。",
+    "tags": [
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "research-llm-apis 2026-04-04",
+    "link": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-05T00:32:11+00:00",
+    "summary_ja": "LLM向けPythonライブラリの大規模リファクタリングに向け、Anthropic・OpenAI・Geminiなど複数ベンダーのPythonクライアントライブラリをClaude Codeに解析させ、サーバーサイドツール実行などの新機能に対応した抽象化層の設計調査が行われた。LLMエージェントのAPI設計とその安全な抽象化に関わる取り組みである。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "research"
+    ]
+  }
+]

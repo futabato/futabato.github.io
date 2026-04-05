@@ -3,51 +3,51 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-05T06:58:43Z</updated>
+  <updated>2026-04-05T23:31:40Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>テキストベースのLLM安全性評価では出てこない問題が、ツールアクセスを持つエージェントの実運用で初めて顕在化する</title>
-    <link href="https://openai.com/ja-JP/index/how-we-monitor-internal-coding-agents-misalignment/" rel="alternate"/>
-    <id>urn:ai-security-digest:047c8c33ee045c75</id>
-    <published>2026-04-05T06:58:22Z</published>
-    <updated>2026-04-05T06:58:22Z</updated>
-    <content type="html">&lt;p&gt;テキストベースのLLM安全性評価では検出できない問題が、ツールアクセスを持つエージェントの実運用環境で初めて顕在化することをOpenAIが報告している。内部コーディングエージェントの監視を通じて、エージェントが実際のツールや環境と連携する際に生じるミスアラインメントの問題を継続的に観察・対処している。従来の評価手法の限界を示す重要な知見として、エージェントセキュリティの実運用監視の重要性を強調している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Manual Pick&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="evaluation"/>
+    <title>Emotion concepts and their function in a large language model \ Anthropic — _No response_</title>
+    <link href="https://www.anthropic.com/research/emotion-concepts-function" rel="alternate"/>
+    <id>urn:ai-security-digest:2f22c4fbcfb394f6</id>
+    <published>2026-04-05T23:31:34Z</published>
+    <updated>2026-04-05T23:31:34Z</updated>
+    <content type="html">&lt;p&gt;Anthropicの解釈可能性研究チームが、大規模言語モデル（LLM）内における「感情」に相当する概念の存在とその機能的役割を調査した研究です。モデル内部に感情に類似した表現が存在し、それがモデルの振る舞いに影響を与えている可能性を示唆しています。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; anthropic.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="model-safety"/>
+    <category term="evaluation"/>
     <source>
-      <title>Manual Pick</title>
+      <title>anthropic.com</title>
     </source>
   </entry>
   <entry>
-    <title>36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants</title>
-    <link href="https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html" rel="alternate"/>
-    <id>urn:ai-security-digest:6c619c60f949c251</id>
-    <published>2026-04-05T05:07:00Z</published>
-    <updated>2026-04-05T05:07:00Z</updated>
-    <content type="html">&lt;p&gt;npmレジストリにおいて、Strapi CMSプラグインを装った36個の悪意あるパッケージが発見された。これらのパッケージはRedisやPostgreSQLを悪用し、リバースシェルの展開、認証情報の窃取、永続的なインプラントの設置などを行う機能を持つ。すべてのパッケージに共通の悪意あるコードが含まれており、サプライチェーン攻撃の深刻なリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="incident"/>
-    <category term="adversarial"/>
+    <title>AI時代の認証課題を解決する次世代標準候補「ID-JAG」とは？ — _No response_</title>
+    <link href="https://techblog.lycorp.co.jp/ja/20260401a" rel="alternate"/>
+    <id>urn:ai-security-digest:f2d3666419851913</id>
+    <published>2026-04-05T23:31:33Z</published>
+    <updated>2026-04-05T23:31:33Z</updated>
+    <content type="html">&lt;p&gt;LINEヤフーの認証・認可基盤Athenzを担当するエンジニアが、AIエージェントが各種サービスと連携する際のトークン管理や認証課題を解決するための次世代標準候補「ID-JAG」について解説した記事です。AIエージェントの普及に伴い、従来の認証方式では対応が難しくなりつつある課題を整理し、ID-JAGがどのようにそれらを解決しうるかを紹介しています。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; techblog.lycorp.co.jp&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="tool"/>
+    <category term="governance"/>
     <source>
-      <title>The Hacker News</title>
+      <title>techblog.lycorp.co.jp</title>
     </source>
   </entry>
   <entry>
-    <title>Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS</title>
-    <link href="https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html" rel="alternate"/>
-    <id>urn:ai-security-digest:ea48c77b90e90c85</id>
-    <published>2026-04-05T04:32:00Z</published>
-    <updated>2026-04-05T04:32:00Z</updated>
-    <content type="html">&lt;p&gt;FortinetはFortiClient EMSに影響する深刻なセキュリティ脆弱性CVE-2026-35616（CVSSスコア9.1）に対して緊急パッチをリリースした。この脆弱性は認証前のAPIアクセスバイパスにより権限昇格が可能となるもので、すでに実際の攻撃に悪用されていることが確認されている。ユーザーは速やかにパッチを適用することが強く推奨される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="incident"/>
+    <title>Quoting Chengpeng Mou</title>
+    <link href="https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:25cf4a99fda80a4e</id>
+    <published>2026-04-05T21:47:06Z</published>
+    <updated>2026-04-05T21:47:06Z</updated>
+    <content type="html">&lt;p&gt;OpenAIのChatGPTデータから、医療保険や医療相談に関する週次メッセージが数百万件に上ることが明らかになった。病院へのアクセスが困難な地域に住む人々からの利用や、診療時間外の利用が多い実態が示されており、AIの医療倫理・安全性に関する議論を呼んでいる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="model-safety"/>
+    <category term="governance"/>
     <source>
-      <title>The Hacker News</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
   <entry>
@@ -56,9 +56,9 @@
     <id>urn:ai-security-digest:57d1f910f4b5c909</id>
     <published>2026-04-05T03:27:13Z</published>
     <updated>2026-04-05T03:27:13Z</updated>
-    <content type="html">&lt;p&gt;Simon Willisonが、Claude Codeセッションのトランスクリプトに誤ってAPIキーなどのシークレット情報が含まれることを防ぐためのPythonスキャンツール「scan-for-secrets 0.1」を公開した。ローカルで動作するClaude Codeのログファイルを対象に、機密情報の漏洩リスクを検出することを目的としている。AIツール利用時のセキュリティ衛生管理を支援する実用的なツールである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Claude Codeのセッションログを公開する際にAPIキーなどの機密情報が意図せず含まれるリスクを防ぐため、Pythonベースのシークレットスキャンツール「scan-for-secrets」が開発・公開された。LLMを活用した開発ワークフローにおける情報漏洩リスクへの対策ツールである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="tool"/>
-    <category term="model-safety"/>
+    <category term="agent-security"/>
     <source>
       <title>Simon Willison's Weblog</title>
     </source>
@@ -69,24 +69,12 @@
     <id>urn:ai-security-digest:f1550a7b1bee5f49</id>
     <published>2026-04-05T00:32:11Z</published>
     <updated>2026-04-05T00:32:11Z</updated>
-    <content type="html">&lt;p&gt;Simon WillisonがLLM PythonライブラリおよびCLIツールに対する大規模な変更作業の一環として、複数のLLMベンダーAPIに関するリサーチ結果をまとめた「research-llm-apis 2026-04-04」を公開した。このライブラリはプラグインシステムを通じて数十のベンダーが提供する数百のLLMを抽象化しており、各ベンダーの新機能への対応を進めている。LLMツールの統合管理と相互運用性向上を目指した継続的な開発の取り組みである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;LLM向けPythonライブラリの大規模リファクタリングに向け、Anthropic・OpenAI・Geminiなど複数ベンダーのPythonクライアントライブラリをClaude Codeに解析させ、サーバーサイドツール実行などの新機能に対応した抽象化層の設計調査が行われた。LLMエージェントのAPI設計とその安全な抽象化に関わる取り組みである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
     <category term="tool"/>
     <category term="research"/>
     <source>
       <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Axios npm hack used fake Teams error fix to hijack maintainer account</title>
-    <link href="https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/" rel="alternate"/>
-    <id>urn:ai-security-digest:68cabf3e4ea0703a</id>
-    <published>2026-04-04T20:30:42Z</published>
-    <updated>2026-04-04T20:30:42Z</updated>
-    <content type="html">&lt;p&gt;人気のHTTPクライアントライブラリAxiosのメンテナーが、北朝鮮の脅威アクターによるソーシャルエンジニアリング攻撃の詳細なポストモーテムを公開した。攻撃者は偽のMicrosoft Teamsエラー修正を装い、開発者のnpmアカウントを乗っ取った。この事件はサプライチェーン攻撃のリスクを改めて浮き彫りにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>Bleeping Computer</title>
     </source>
   </entry>
 </feed>
