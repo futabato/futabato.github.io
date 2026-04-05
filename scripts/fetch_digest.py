@@ -51,6 +51,14 @@ def load_config() -> dict:
         return yaml.safe_load(f)
 
 
+# ── HTML除去 ──
+def strip_html(text: str) -> str:
+    """HTMLタグを除去してプレーンテキストを返す"""
+    clean = re.sub(r"<[^>]+>", "", text)
+    clean = html_mod.unescape(clean)
+    return re.sub(r"\s+", " ", clean).strip()
+
+
 # ── フィード収集 ──
 def fetch_all_feeds(config: dict, days_back: int = 7) -> list[dict]:
     """全ソースからRSSエントリを取得し、直近N日分をフィルタ"""
@@ -76,7 +84,7 @@ def fetch_all_feeds(config: dict, days_back: int = 7) -> list[dict]:
                     {
                         "title": entry.get("title", ""),
                         "link": entry.get("link", ""),
-                        "summary": entry.get("summary", "")[:1000],
+                        "summary": strip_html(entry.get("summary", ""))[:1000],
                         "published": published or datetime.now(UTC),
                         "source_name": source["name"],
                         "category": source["category"],
