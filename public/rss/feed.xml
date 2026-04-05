@@ -3,21 +3,35 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-05T06:55:54Z</updated>
+  <updated>2026-04-05T06:58:43Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
+    <title>テキストベースのLLM安全性評価では出てこない問題が、ツールアクセスを持つエージェントの実運用で初めて顕在化する</title>
+    <link href="https://openai.com/ja-JP/index/how-we-monitor-internal-coding-agents-misalignment/" rel="alternate"/>
+    <id>urn:ai-security-digest:047c8c33ee045c75</id>
+    <published>2026-04-05T06:58:22Z</published>
+    <updated>2026-04-05T06:58:22Z</updated>
+    <content type="html">&lt;p&gt;テキストベースのLLM安全性評価では検出できない問題が、ツールアクセスを持つエージェントの実運用環境で初めて顕在化することをOpenAIが報告している。内部コーディングエージェントの監視を通じて、エージェントが実際のツールや環境と連携する際に生じるミスアラインメントの問題を継続的に観察・対処している。従来の評価手法の限界を示す重要な知見として、エージェントセキュリティの実運用監視の重要性を強調している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Manual Pick&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="evaluation"/>
+    <category term="model-safety"/>
+    <source>
+      <title>Manual Pick</title>
+    </source>
+  </entry>
+  <entry>
     <title>36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants</title>
     <link href="https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html" rel="alternate"/>
     <id>urn:ai-security-digest:6c619c60f949c251</id>
     <published>2026-04-05T05:07:00Z</published>
     <updated>2026-04-05T05:07:00Z</updated>
-    <content type="html">&lt;p&gt;セキュリティ研究者が、Strapi CMSプラグインを装った36個の悪意あるnpmパッケージを発見した。これらのパッケージはRedisやPostgreSQLを悪用し、リバースシェルの展開、認証情報の窃取、持続的なインプラントのインストールなど複数の攻撃ペイロードを含んでいた。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
+    <content type="html">&lt;p&gt;npmレジストリにおいて、Strapi CMSプラグインを装った36個の悪意あるパッケージが発見された。これらのパッケージはRedisやPostgreSQLを悪用し、リバースシェルの展開、認証情報の窃取、永続的なインプラントの設置などを行う機能を持つ。すべてのパッケージに共通の悪意あるコードが含まれており、サプライチェーン攻撃の深刻なリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
+    <category term="incident"/>
     <category term="adversarial"/>
     <source>
       <title>The Hacker News</title>
@@ -29,7 +43,7 @@
     <id>urn:ai-security-digest:ea48c77b90e90c85</id>
     <published>2026-04-05T04:32:00Z</published>
     <updated>2026-04-05T04:32:00Z</updated>
-    <content type="html">&lt;p&gt;FortinetはFortiClient EMSに存在するCVSSスコア9.1の深刻な脆弱性CVE-2026-35616に対して緊急パッチをリリースした。この脆弱性は認証前のAPIアクセスバイパスによる権限昇格を引き起こすもので、すでに野外での悪用が確認されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;FortinetはFortiClient EMSに影響する深刻なセキュリティ脆弱性CVE-2026-35616（CVSSスコア9.1）に対して緊急パッチをリリースした。この脆弱性は認証前のAPIアクセスバイパスにより権限昇格が可能となるもので、すでに実際の攻撃に悪用されていることが確認されている。ユーザーは速やかにパッチを適用することが強く推奨される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
     <category term="incident"/>
     <source>
@@ -42,9 +56,9 @@
     <id>urn:ai-security-digest:57d1f910f4b5c909</id>
     <published>2026-04-05T03:27:13Z</published>
     <updated>2026-04-05T03:27:13Z</updated>
-    <content type="html">&lt;p&gt;Simon WillisonがPython製のシークレットスキャンツール「scan-for-secrets 0.1」を公開した。Claude CodeセッションのログファイルにAPIキーなどの機密情報が誤って含まれていないかを確認するために開発されたツールで、ローカルでの安全なトランスクリプト公開を支援する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;Simon Willisonが、Claude Codeセッションのトランスクリプトに誤ってAPIキーなどのシークレット情報が含まれることを防ぐためのPythonスキャンツール「scan-for-secrets 0.1」を公開した。ローカルで動作するClaude Codeのログファイルを対象に、機密情報の漏洩リスクを検出することを目的としている。AIツール利用時のセキュリティ衛生管理を支援する実用的なツールである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="tool"/>
-    <category term="research"/>
+    <category term="model-safety"/>
     <source>
       <title>Simon Willison's Weblog</title>
     </source>
@@ -55,9 +69,9 @@
     <id>urn:ai-security-digest:f1550a7b1bee5f49</id>
     <published>2026-04-05T00:32:11Z</published>
     <updated>2026-04-05T00:32:11Z</updated>
-    <content type="html">&lt;p&gt;Simon WillisonがPython製LLMライブラリおよびCLIツールの大規模な改修に向けた調査結果「research-llm-apis 2026-04-04」を公開した。複数のベンダーが新機能を追加する中、LLMの抽象化レイヤーをアップデートするための調査・研究の成果をまとめたものである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <content type="html">&lt;p&gt;Simon WillisonがLLM PythonライブラリおよびCLIツールに対する大規模な変更作業の一環として、複数のLLMベンダーAPIに関するリサーチ結果をまとめた「research-llm-apis 2026-04-04」を公開した。このライブラリはプラグインシステムを通じて数十のベンダーが提供する数百のLLMを抽象化しており、各ベンダーの新機能への対応を進めている。LLMツールの統合管理と相互運用性向上を目指した継続的な開発の取り組みである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="tool"/>
+    <category term="research"/>
     <source>
       <title>Simon Willison's Weblog</title>
     </source>
@@ -68,9 +82,9 @@
     <id>urn:ai-security-digest:68cabf3e4ea0703a</id>
     <published>2026-04-04T20:30:42Z</published>
     <updated>2026-04-04T20:30:42Z</updated>
-    <content type="html">&lt;p&gt;人気HTTPクライアントライブラリAxiosのnpmアカウントがハッキングされた事件について、メンテナーが詳細なポストモーテムを公開した。北朝鮮の脅威アクターによるものとみられるソーシャルエンジニアリング攻撃が使われ、偽のMicrosoft Teamsエラー修正を装って開発者アカウントが乗っ取られた。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <content type="html">&lt;p&gt;人気のHTTPクライアントライブラリAxiosのメンテナーが、北朝鮮の脅威アクターによるソーシャルエンジニアリング攻撃の詳細なポストモーテムを公開した。攻撃者は偽のMicrosoft Teamsエラー修正を装い、開発者のnpmアカウントを乗っ取った。この事件はサプライチェーン攻撃のリスクを改めて浮き彫りにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
-    <category term="adversarial"/>
+    <category term="vulnerability"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
