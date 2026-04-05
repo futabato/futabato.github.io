@@ -1,5 +1,35 @@
 [
   {
+    "title": "36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants",
+    "link": "https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html",
+    "source": "The Hacker News",
+    "published": "2026-04-05T05:07:00+00:00",
+    "summary_ja": "Cybersecurity researchers have discovered 36 malicious packages in the npm registry that are disguised as Strapi CMS plugins but come with different payloads to facilitate Redis and PostgreSQL exploit",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "title": "Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS",
+    "link": "https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html",
+    "source": "The Hacker News",
+    "published": "2026-04-05T04:32:00+00:00",
+    "summary_ja": "Fortinet has released out-of-band patches for a critical security flaw impacting FortiClient EMS that it said has been exploited in the&nbsp;wild.\nThe&nbsp;vulnerability, tracked&nbsp;as CVE-2026-3561",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "title": "research-llm-apis 2026-04-04",
+    "link": "https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-05T00:32:11+00:00",
+    "summary_ja": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/research-llm-apis/releases/tag/2026-04-04\">research-llm-apis 2026-04-04</a></p>\n    <p>I'm working on a <a href=\"https://github.com/simo",
+    "tags": [
+      "ai_commentary"
+    ]
+  },
+  {
     "title": "Axios npm hack used fake Teams error fix to hijack maintainer account",
     "link": "https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/",
     "source": "Bleeping Computer",
@@ -7,16 +37,6 @@
     "summary_ja": "The maintainers of the popular Axios HTTP client have published a detailed post-mortem describing how one of its developers was targeted by a social engineering campaign believed to have been conducte",
     "tags": [
       "news"
-    ]
-  },
-  {
-    "title": "Vulnerability Research Is Cooked",
-    "link": "https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/#atom-everything",
-    "source": "Simon Willison's Weblog",
-    "published": "2026-04-03T23:59:08+00:00",
-    "summary_ja": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/03/30/vulnerability-research-is-cooked/\">Vulnerability Research Is Cooked</a></strong></p>\nThomas Ptacek's take on the sudden and enormous impact t",
-    "tags": [
-      "ai_commentary"
     ]
   }
 ]
