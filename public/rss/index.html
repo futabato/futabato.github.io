@@ -43,7 +43,7 @@
   </nav>
   <header>
     <h1>AI Security Daily Digest</h1>
-    <p>2026年04月05日 | 4件の記事</p>
+    <p>2026年04月05日 | 5件の記事</p>
   </header>
   <main>
         <article class="entry">
@@ -52,8 +52,8 @@
             <span class="source">The Hacker News</span>
           </div>
           <h3><a href="https://thehackernews.com/2026/04/36-malicious-npm-packages-exploited.html" target="_blank" rel="noopener">36 Malicious npm Packages Exploited Redis, PostgreSQL to Deploy Persistent Implants</a></h3>
-          <p>セキュリティ研究者が、Strapi CMSプラグインに偽装した36件の悪意あるnpmパッケージを発見した。これらのパッケージはRedisやPostgreSQLを悪用し、リバースシェルの展開、認証情報の窃取、永続的なインプラントの設置などを行う機能を持つ。各パッケージには異なるペイロードが含まれており、開発者を標的にした高度な攻撃であることが示されている。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span></div>
+          <p>セキュリティ研究者が、Strapi CMSプラグインを装った36個の悪意あるnpmパッケージを発見した。これらのパッケージはRedisやPostgreSQLを悪用し、リバースシェルの展開、認証情報の窃取、持続的なインプラントのインストールなど複数の攻撃ペイロードを含んでいた。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span></div>
         </article>
         <article class="entry">
           <div class="meta">
@@ -61,7 +61,7 @@
             <span class="source">The Hacker News</span>
           </div>
           <h3><a href="https://thehackernews.com/2026/04/fortinet-patches-actively-exploited-cve.html" target="_blank" rel="noopener">Fortinet Patches Actively Exploited CVE-2026-35616 in FortiClient EMS</a></h3>
-          <p>FortinetはFortiClient EMSに影響を与える深刻なセキュリティ脆弱性（CVE-2026-35616、CVSSスコア9.1）に対して緊急パッチをリリースした。この脆弱性は認証前APIアクセスバイパスによる権限昇格を引き起こすもので、すでに野外での悪用が確認されている。ユーザーには速やかなパッチ適用が推奨される。</p>
+          <p>FortinetはFortiClient EMSに存在するCVSSスコア9.1の深刻な脆弱性CVE-2026-35616に対して緊急パッチをリリースした。この脆弱性は認証前のAPIアクセスバイパスによる権限昇格を引き起こすもので、すでに野外での悪用が確認されている。</p>
           <div class="tags"><span class="tag">vulnerability</span> <span class="tag">incident</span></div>
         </article>
         <article class="entry">
@@ -69,9 +69,18 @@
             <time>04/05</time>
             <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything" target="_blank" rel="noopener">research-llm-apis 2026-04-04</a></h3>
-          <p>Simon WillisonがLLM PythonライブラリおよびCLIツールに対する大規模な変更に取り組んでいることを発表した。research-llm-apisの2026年4月4日リリースとして公開されており、複数のLLM APIを抽象化して扱うための機能強化が進められている。詳細はGitHubのissueおよびリリースページで確認できる。</p>
+          <h3><a href="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything" target="_blank" rel="noopener">scan-for-secrets 0.1</a></h3>
+          <p>Simon WillisonがPython製のシークレットスキャンツール「scan-for-secrets 0.1」を公開した。Claude CodeセッションのログファイルにAPIキーなどの機密情報が誤って含まれていないかを確認するために開発されたツールで、ローカルでの安全なトランスクリプト公開を支援する。</p>
           <div class="tags"><span class="tag">tool</span> <span class="tag">research</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>04/05</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
+          </div>
+          <h3><a href="https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything" target="_blank" rel="noopener">research-llm-apis 2026-04-04</a></h3>
+          <p>Simon WillisonがPython製LLMライブラリおよびCLIツールの大規模な改修に向けた調査結果「research-llm-apis 2026-04-04」を公開した。複数のベンダーが新機能を追加する中、LLMの抽象化レイヤーをアップデートするための調査・研究の成果をまとめたものである。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">tool</span></div>
         </article>
         <article class="entry">
           <div class="meta">
@@ -79,7 +88,7 @@
             <span class="source">Bleeping Computer</span>
           </div>
           <h3><a href="https://www.bleepingcomputer.com/news/security/axios-npm-hack-used-fake-teams-error-fix-to-hijack-maintainer-account/" target="_blank" rel="noopener">Axios npm hack used fake Teams error fix to hijack maintainer account</a></h3>
-          <p>人気HTTPクライアントライブラリAxiosのメンテナーが、北朝鮮の脅威アクターによるソーシャルエンジニアリング攻撃の標的となりnpmアカウントを乗っ取られた事件の詳細なポストモーテムが公開された。攻撃者は偽のMicrosoft Teamsエラー修正を装って開発者を騙し、メンテナーアカウントへのアクセスを奪取したとされる。このインシデントはオープンソースサプライチェーンに対する国家レベルの脅威を改めて示している。</p>
+          <p>人気HTTPクライアントライブラリAxiosのnpmアカウントがハッキングされた事件について、メンテナーが詳細なポストモーテムを公開した。北朝鮮の脅威アクターによるものとみられるソーシャルエンジニアリング攻撃が使われ、偽のMicrosoft Teamsエラー修正を装って開発者アカウントが乗っ取られた。</p>
           <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span></div>
         </article>
   </main>
