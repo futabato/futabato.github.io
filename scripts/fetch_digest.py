@@ -15,7 +15,6 @@ import logging
 import os
 import re
 import socket
-import time
 from datetime import UTC, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -117,8 +116,8 @@ def matches_keywords(text: str, config: dict) -> bool:
     return False
 
 
-def filter_articles(articles: list[dict], config: dict) -> list[dict]:
-    """AIセキュリティ関連の記事のみ抽出"""
+def keyword_filter(articles: list[dict], config: dict) -> list[dict]:
+    """キーワードで粗くフィルタリング（LLM選別の前段）"""
     filtered = []
     seen_links = set()
     for a in articles:
@@ -132,9 +131,10 @@ def filter_articles(articles: list[dict], config: dict) -> list[dict]:
     # 日付の新しい順にソート
     filtered.sort(key=lambda x: x["published"], reverse=True)
 
-    max_items = config["output"].get("max_items_per_digest", 20)
-    filtered = filtered[:max_items]
-    log.info(f"Filtered articles: {len(filtered)}")
+    # LLM選別用に広めに候補を残す
+    max_candidates = config["output"].get("max_candidates", 15)
+    filtered = filtered[:max_candidates]
+    log.info(f"Keyword-filtered candidates: {len(filtered)}")
     return filtered
 
 
@@ -305,39 +305,123 @@ def load_issue_picks() -> list[dict]:
     return picks
 
 
-# ── LLM要約 ──
-def summarize_with_claude(articles: list[dict], config: dict) -> list[dict]:
-    """Anthropic Claude APIで記事を日本語要約"""
+# ── LLM選別 + 要約 ──
+def select_and_summarize(articles: list[dict], config: dict) -> list[dict]:
+    """Claude APIでAIセキュリティ記事を選別し、日本語要約を生成する。
+
+    キーワードフィルタ済みの候補から、LLMが関連度・話題性・重要度を
+    総合的に判断して上位N件を選び、同時に要約とタグ付けを行う。
+    """
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
-        log.warning("ANTHROPIC_API_KEY not set. Skipping summarization.")
+        log.warning("ANTHROPIC_API_KEY not set. Skipping LLM selection.")
+        for a in articles:
+            a["ai_summary"] = a["summary"][:200]
+            a["tags"] = [a["category"]]
+        return articles
+
+    max_items = config["output"].get("max_items_per_digest", 5)
+    model = config["anthropic"]["model"]
+
+    entries_text = "\n\n".join(
+        f"[{i + 1}] Title: {a['title']}\nSource: {a['source_name']}\nURL: {a['link']}\nExcerpt: {a['summary'][:500]}"
+        for i, a in enumerate(articles)
+    )
+
+    prompt = f"""あなたはAIセキュリティの専門キュレーターです。
+以下の{len(articles)}件の候補記事から、AIセキュリティに関連する記事を最大{max_items}件選んでください。
+
+## 選定基準（優先度順）
+1. **AIセキュリティとの関連度**: AI・LLM・エージェントのセキュリティ、安全性、脆弱性に直接関わる記事を最優先
+2. **政策・規制動向**: AI規制、ガバナンス、安全性基準に関する政府・国際機関の動向は高優先
+3. **話題性・重要度**: 業界で広く議論されている話題、重大なインシデント、画期的な研究を優先
+4. **新規性**: 新しい攻撃手法、防御手法、評価手法など、新しい知見を優先
+
+## 除外基準
+- AIに無関係な一般的なセキュリティニュース（従来型の脆弱性パッチ、ネットワーク機器のCVEなど）
+- AIに言及していないサプライチェーン攻撃や一般的なマルウェアニュース
+
+## 候補記事
+
+{entries_text}
+
+## 出力形式
+選んだ記事のみ、以下のJSON形式で返してください。JSON以外のテキストは含めないでください。
+[
+  {{
+    "index": 1,
+    "summary_ja": "2-3文の日本語要約",
+    "tags": ["タグ1", "タグ2"]
+  }}
+]
+
+タグは以下から選択: research, vulnerability, policy, tool, incident, governance,
+evaluation, agent-security, model-safety, adversarial, regulation"""
+
+    try:
+        with httpx.Client(
+            base_url="https://api.anthropic.com",
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            timeout=90.0,
+        ) as client:
+            resp = client.post(
+                "/v1/messages",
+                json={
+                    "model": model,
+                    "max_tokens": 4000,
+                    "messages": [{"role": "user", "content": prompt}],
+                },
+            )
+            if resp.status_code != 200:
+                log.warning(f"API error {resp.status_code}: {resp.text[:500]}")
+            resp.raise_for_status()
+            data = resp.json()
+            text = "".join(block.get("text", "") for block in data.get("content", []))
+
+            text = re.sub(r"```json|```", "", text).strip()
+            selections = json.loads(text)
+
+            selected = []
+            for item in selections:
+                idx = item["index"] - 1
+                if 0 <= idx < len(articles):
+                    a = articles[idx]
+                    a["ai_summary"] = item["summary_ja"]
+                    a["tags"] = item.get("tags", [a["category"]])
+                    selected.append(a)
+
+            log.info(f"LLM selected {len(selected)} articles from {len(articles)} candidates")
+            return selected
+
+    except Exception as e:
+        log.warning(f"LLM selection failed: {e}")
+        # フォールバック: キーワードフィルタの上位をそのまま使う
+        for a in articles[:max_items]:
+            a.setdefault("ai_summary", a["summary"][:200])
+            a.setdefault("tags", [a["category"]])
+        return articles[:max_items]
+
+
+def summarize_only(articles: list[dict], config: dict) -> list[dict]:
+    """手動ピック用: 選別せず全件を要約のみ行う"""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
         for a in articles:
             a["ai_summary"] = a["summary"][:200]
             a["tags"] = [a["category"]]
         return articles
 
     model = config["anthropic"]["model"]
+    entries_text = "\n\n".join(
+        f"[{i + 1}] Title: {a['title']}\nSource: {a['source_name']}\nURL: {a['link']}\nExcerpt: {a['summary'][:500]}"
+        for i, a in enumerate(articles)
+    )
 
-    with httpx.Client(
-        base_url="https://api.anthropic.com",
-        headers={
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json",
-        },
-        timeout=60.0,
-    ) as client:
-        # バッチで要約（API呼び出し回数を抑制）
-        batch_size = 5
-        for i in range(0, len(articles), batch_size):
-            batch = articles[i : i + batch_size]
-            entries_text = "\n\n".join(
-                f"[{j + 1}] Title: {a['title']}\nSource: {a['source_name']}\n"
-                f"URL: {a['link']}\nExcerpt: {a['summary'][:300]}"
-                for j, a in enumerate(batch)
-            )
-
-            prompt = f"""以下の{len(batch)}件のAIセキュリティ関連記事について、それぞれ日本語で要約してください。
+    prompt = f"""以下の{len(articles)}件の記事について、それぞれ日本語で要約してください。
 
 {entries_text}
 
@@ -347,47 +431,50 @@ def summarize_with_claude(articles: list[dict], config: dict) -> list[dict]:
     "index": 1,
     "summary_ja": "2-3文の日本語要約",
     "tags": ["タグ1", "タグ2"]
-  }},
-  ...
+  }}
 ]
 
 タグは以下から選択: research, vulnerability, policy, tool, incident, governance,
 evaluation, agent-security, model-safety, adversarial, regulation"""
 
-            try:
-                resp = client.post(
-                    "/v1/messages",
-                    json={
-                        "model": model,
-                        "max_tokens": 2000,
-                        "messages": [{"role": "user", "content": prompt}],
-                    },
-                )
-                if resp.status_code != 200:
-                    log.warning(f"API error {resp.status_code}: {resp.text[:500]}")
-                resp.raise_for_status()
-                data = resp.json()
-                text = "".join(block.get("text", "") for block in data.get("content", []))
+    try:
+        with httpx.Client(
+            base_url="https://api.anthropic.com",
+            headers={
+                "x-api-key": api_key,
+                "anthropic-version": "2023-06-01",
+                "content-type": "application/json",
+            },
+            timeout=90.0,
+        ) as client:
+            resp = client.post(
+                "/v1/messages",
+                json={
+                    "model": model,
+                    "max_tokens": 2000,
+                    "messages": [{"role": "user", "content": prompt}],
+                },
+            )
+            if resp.status_code != 200:
+                log.warning(f"API error {resp.status_code}: {resp.text[:500]}")
+            resp.raise_for_status()
+            data = resp.json()
+            text = "".join(block.get("text", "") for block in data.get("content", []))
 
-                # JSONパース
-                text = re.sub(r"```json|```", "", text).strip()
-                summaries = json.loads(text)
+            text = re.sub(r"```json|```", "", text).strip()
+            summaries = json.loads(text)
 
-                for item in summaries:
-                    idx = item["index"] - 1
-                    if 0 <= idx < len(batch):
-                        batch[idx]["ai_summary"] = item["summary_ja"]
-                        batch[idx]["tags"] = item.get("tags", [batch[idx]["category"]])
+            for item in summaries:
+                idx = item["index"] - 1
+                if 0 <= idx < len(articles):
+                    articles[idx]["ai_summary"] = item["summary_ja"]
+                    articles[idx]["tags"] = item.get("tags", [articles[idx]["category"]])
 
-            except Exception as e:
-                log.warning(f"Summarization failed for batch {i}: {e}")
-                for a in batch:
-                    a.setdefault("ai_summary", a["summary"][:200])
-                    a.setdefault("tags", [a["category"]])
-
-            # レート制限対策
-            if i + batch_size < len(articles):
-                time.sleep(2)
+    except Exception as e:
+        log.warning(f"Summarization failed: {e}")
+        for a in articles:
+            a.setdefault("ai_summary", a["summary"][:200])
+            a.setdefault("tags", [a["category"]])
 
     return articles
 
@@ -549,26 +636,28 @@ def main():
 
     log.info("=== AI Security Daily Digest ===")
 
-    # 1. RSS自動収集 → フィルタリング + 上限
+    # 1. RSS自動収集 → キーワードで粗くフィルタ
     auto_articles = fetch_all_feeds(config, days_back=1)
-    auto_articles = filter_articles(auto_articles, config)
+    candidates = keyword_filter(auto_articles, config)
 
-    # 2. 手動キュレーション（フィルタ・上限なしで全件追加）
+    # 2. LLMで選別 + 要約（関連度・話題性・重要度で判断）
+    auto_selected = select_and_summarize(candidates, config)
+
+    # 3. 手動キュレーション（選別なし、要約のみ）
     manual_picks = load_manual_picks()
     issue_picks = load_issue_picks()
     all_picks = manual_picks + issue_picks
     manual_articles = fetch_manual_articles(all_picks)
+    if manual_articles:
+        manual_articles = summarize_only(manual_articles, config)
 
-    # 3. 統合（手動 + 自動、日付順）
-    articles = manual_articles + auto_articles
+    # 4. 統合（手動 + 自動、日付順）
+    articles = manual_articles + auto_selected
     articles.sort(key=lambda x: x["published"], reverse=True)
 
     if not articles:
         log.info("No articles found today. Skipping digest generation.")
         return
-
-    # 4. LLM要約
-    articles = summarize_with_claude(articles, config)
 
     # 5. 出力
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

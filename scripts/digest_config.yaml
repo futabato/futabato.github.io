@@ -214,6 +214,7 @@ output:
   feed_url: "https://futabato.github.io/rss/feed.xml"
   site_url: "https://futabato.github.io/rss/"
   language: "ja"
+  max_candidates: 15
   max_items_per_digest: 5
 
 # Anthropic API設定
