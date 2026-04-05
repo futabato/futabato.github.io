@@ -9,6 +9,8 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
+  id-token: write
 
 jobs:
   # Step 1: GitHub IssueからURLを抽出
@@ -19,6 +21,8 @@ jobs:
   build-digest:
     needs: process-picks
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -40,9 +44,21 @@ jobs:
         run: uv run scripts/fetch_digest.py
 
       - name: Commit digest files
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/rss/ scripts/archive/ manual_picks.yaml
-          git diff --staged --quiet || git commit -m "digest: $(date +%Y-%m-%d)"
-          git push
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "digest: $(date +%Y-%m-%d)"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+  # Step 3: 変更があればデプロイ
+  deploy:
+    needs: build-digest
+    if: needs.build-digest.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
