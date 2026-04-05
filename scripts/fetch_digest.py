@@ -355,6 +355,8 @@ evaluation, agent-security, model-safety, adversarial, regulation"""
                         "messages": [{"role": "user", "content": prompt}],
                     },
                 )
+                if resp.status_code != 200:
+                    log.warning(f"API error {resp.status_code}: {resp.text[:500]}")
                 resp.raise_for_status()
                 data = resp.json()
                 text = "".join(block.get("text", "") for block in data.get("content", []))
