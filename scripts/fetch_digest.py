@@ -24,6 +24,7 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 import feedparser
 import httpx
 import yaml
+from claude_client import ClaudeClient
 
 # ── ロギング設定 ──
 logging.basicConfig(
@@ -305,6 +306,24 @@ def load_issue_picks() -> list[dict]:
     return picks
 
 
+# ── LLM共通 ──
+TAGS_INSTRUCTION = """タグは以下から選択: research, vulnerability, policy, tool, incident, governance,
+evaluation, agent-security, model-safety, adversarial, regulation"""
+
+
+def _format_entries(articles: list[dict]) -> str:
+    return "\n\n".join(
+        f"[{i + 1}] Title: {a['title']}\nSource: {a['source_name']}\nURL: {a['link']}\nExcerpt: {a['summary'][:500]}"
+        for i, a in enumerate(articles)
+    )
+
+
+def _apply_fallback(articles: list[dict]) -> None:
+    for a in articles:
+        a.setdefault("ai_summary", a["summary"][:200])
+        a.setdefault("tags", [a["category"]])
+
+
 # ── LLM選別 + 要約 ──
 def select_and_summarize(articles: list[dict], config: dict) -> list[dict]:
     """Claude APIでAIセキュリティ記事を選別し、日本語要約を生成する。
@@ -312,21 +331,12 @@ def select_and_summarize(articles: list[dict], config: dict) -> list[dict]:
     キーワードフィルタ済みの候補から、LLMが関連度・話題性・重要度を
     総合的に判断して上位N件を選び、同時に要約とタグ付けを行う。
     """
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
+    if not os.environ.get("ANTHROPIC_API_KEY"):
         log.warning("ANTHROPIC_API_KEY not set. Skipping LLM selection.")
-        for a in articles:
-            a["ai_summary"] = a["summary"][:200]
-            a["tags"] = [a["category"]]
+        _apply_fallback(articles)
         return articles
 
     max_items = config["output"].get("max_items_per_digest", 5)
-    model = config["anthropic"]["model"]
-
-    entries_text = "\n\n".join(
-        f"[{i + 1}] Title: {a['title']}\nSource: {a['source_name']}\nURL: {a['link']}\nExcerpt: {a['summary'][:500]}"
-        for i, a in enumerate(articles)
-    )
 
     prompt = f"""あなたはAIセキュリティの専門キュレーターです。
 以下の{len(articles)}件の候補記事から、AIセキュリティに関連する記事を最大{max_items}件選んでください。
@@ -343,7 +353,7 @@ def select_and_summarize(articles: list[dict], config: dict) -> list[dict]:
 
 ## 候補記事
 
-{entries_text}
+{_format_entries(articles)}
 
 ## 出力形式
 選んだ記事のみ、以下のJSON形式で返してください。JSON以外のテキストは含めないでください。
@@ -355,75 +365,44 @@ def select_and_summarize(articles: list[dict], config: dict) -> list[dict]:
   }}
 ]
 
-タグは以下から選択: research, vulnerability, policy, tool, incident, governance,
-evaluation, agent-security, model-safety, adversarial, regulation"""
+{TAGS_INSTRUCTION}"""
 
     try:
-        with httpx.Client(
-            base_url="https://api.anthropic.com",
-            headers={
-                "x-api-key": api_key,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            timeout=90.0,
-        ) as client:
-            resp = client.post(
-                "/v1/messages",
-                json={
-                    "model": model,
-                    "max_tokens": 4000,
-                    "messages": [{"role": "user", "content": prompt}],
-                },
-            )
-            if resp.status_code != 200:
-                log.warning(f"API error {resp.status_code}: {resp.text[:500]}")
-            resp.raise_for_status()
-            data = resp.json()
-            text = "".join(block.get("text", "") for block in data.get("content", []))
+        with ClaudeClient(config["anthropic"]["model"]) as client:
+            selections = client.request(prompt)
 
-            text = re.sub(r"```json|```", "", text).strip()
-            selections = json.loads(text)
+        selected = []
+        for item in selections:
+            idx = item["index"] - 1
+            if 0 <= idx < len(articles):
+                a = articles[idx]
+                a["ai_summary"] = item["summary_ja"]
+                a["tags"] = item.get("tags", [a["category"]])
+                selected.append(a)
 
-            selected = []
-            for item in selections:
-                idx = item["index"] - 1
-                if 0 <= idx < len(articles):
-                    a = articles[idx]
-                    a["ai_summary"] = item["summary_ja"]
-                    a["tags"] = item.get("tags", [a["category"]])
-                    selected.append(a)
+        if not selected:
+            log.warning("LLM returned 0 articles. Falling back to keyword-filtered top results.")
+            _apply_fallback(articles[:max_items])
+            return articles[:max_items]
 
-            log.info(f"LLM selected {len(selected)} articles from {len(articles)} candidates")
-            return selected
+        log.info(f"LLM selected {len(selected)} articles from {len(articles)} candidates")
+        return selected
 
     except Exception as e:
         log.warning(f"LLM selection failed: {e}")
-        # フォールバック: キーワードフィルタの上位をそのまま使う
-        for a in articles[:max_items]:
-            a.setdefault("ai_summary", a["summary"][:200])
-            a.setdefault("tags", [a["category"]])
+        _apply_fallback(articles[:max_items])
         return articles[:max_items]
 
 
 def summarize_only(articles: list[dict], config: dict) -> list[dict]:
     """手動ピック用: 選別せず全件を要約のみ行う"""
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        for a in articles:
-            a["ai_summary"] = a["summary"][:200]
-            a["tags"] = [a["category"]]
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        _apply_fallback(articles)
         return articles
-
-    model = config["anthropic"]["model"]
-    entries_text = "\n\n".join(
-        f"[{i + 1}] Title: {a['title']}\nSource: {a['source_name']}\nURL: {a['link']}\nExcerpt: {a['summary'][:500]}"
-        for i, a in enumerate(articles)
-    )
 
     prompt = f"""以下の{len(articles)}件の記事について、それぞれ日本語で要約してください。
 
-{entries_text}
+{_format_entries(articles)}
 
 以下のJSON形式で返してください。JSON以外のテキストは含めないでください。
 [
@@ -434,47 +413,21 @@ def summarize_only(articles: list[dict], config: dict) -> list[dict]:
   }}
 ]
 
-タグは以下から選択: research, vulnerability, policy, tool, incident, governance,
-evaluation, agent-security, model-safety, adversarial, regulation"""
+{TAGS_INSTRUCTION}"""
 
     try:
-        with httpx.Client(
-            base_url="https://api.anthropic.com",
-            headers={
-                "x-api-key": api_key,
-                "anthropic-version": "2023-06-01",
-                "content-type": "application/json",
-            },
-            timeout=90.0,
-        ) as client:
-            resp = client.post(
-                "/v1/messages",
-                json={
-                    "model": model,
-                    "max_tokens": 2000,
-                    "messages": [{"role": "user", "content": prompt}],
-                },
-            )
-            if resp.status_code != 200:
-                log.warning(f"API error {resp.status_code}: {resp.text[:500]}")
-            resp.raise_for_status()
-            data = resp.json()
-            text = "".join(block.get("text", "") for block in data.get("content", []))
+        with ClaudeClient(config["anthropic"]["model"]) as client:
+            summaries = client.request(prompt, max_tokens=2000)
 
-            text = re.sub(r"```json|```", "", text).strip()
-            summaries = json.loads(text)
-
-            for item in summaries:
-                idx = item["index"] - 1
-                if 0 <= idx < len(articles):
-                    articles[idx]["ai_summary"] = item["summary_ja"]
-                    articles[idx]["tags"] = item.get("tags", [articles[idx]["category"]])
+        for item in summaries:
+            idx = item["index"] - 1
+            if 0 <= idx < len(articles):
+                articles[idx]["ai_summary"] = item["summary_ja"]
+                articles[idx]["tags"] = item.get("tags", [articles[idx]["category"]])
 
     except Exception as e:
         log.warning(f"Summarization failed: {e}")
-        for a in articles:
-            a.setdefault("ai_summary", a["summary"][:200])
-            a.setdefault("tags", [a["category"]])
+        _apply_fallback(articles)
 
     return articles
 
@@ -597,7 +550,6 @@ def generate_index_html(articles: list[dict], config: dict) -> str:
     .feed-link {{ color: var(--accent); text-decoration: none; font-size: 0.85rem; }}
     .feed-link:hover {{ text-decoration: underline; }}
     .entry {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem; margin-bottom: 1rem; }}
-    .entry.curated {{ border-left: 3px solid var(--green); }}
     .entry .meta {{ display: flex; gap: 1rem; color: var(--muted); font-size: 0.8rem; margin-bottom: 0.5rem; }}
     .entry h3 {{ font-size: 1rem; margin-bottom: 0.5rem; }}
     .entry h3 a {{ color: var(--accent); text-decoration: none; }}
