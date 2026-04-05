@@ -1,7 +1,7 @@
 name: Process Pick Issues
 
 on:
-  # 週次ダイジェスト実行の直前に動かす
+  # 日次ダイジェスト実行の直前に動かす
   workflow_call:
   workflow_dispatch:
 

@@ -494,7 +494,7 @@ def generate_index_html(articles: list[dict], config: dict) -> str:
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{out["feed_title"]} | futabato</title>
   <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="feed.xml">
-  <meta name="description" content="AIセキュリティに関する週次ニュースダイジェスト">
+  <meta name="description" content="AIセキュリティに関する日次ニュースダイジェスト">
   <style>
     :root {{ --bg: #0d1117; --fg: #e6edf3; --muted: #8b949e; --accent: #58a6ff; --green: #3fb950; --card: #161b22; --border: #30363d; --tag-bg: #1f2937; }}
     * {{ margin: 0; padding: 0; box-sizing: border-box; }}
