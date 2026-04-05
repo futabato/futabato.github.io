@@ -93,3 +93,4 @@ jobs:
           name: issue-picks
           path: .issue_picks/
           retention-days: 1
+          include-hidden-files: true
