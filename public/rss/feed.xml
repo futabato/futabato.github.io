@@ -3,78 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-05T23:31:40Z</updated>
+  <updated>2026-04-06T23:33:36Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Emotion concepts and their function in a large language model \ Anthropic — _No response_</title>
-    <link href="https://www.anthropic.com/research/emotion-concepts-function" rel="alternate"/>
-    <id>urn:ai-security-digest:2f22c4fbcfb394f6</id>
-    <published>2026-04-05T23:31:34Z</published>
-    <updated>2026-04-05T23:31:34Z</updated>
-    <content type="html">&lt;p&gt;Anthropicの解釈可能性研究チームが、大規模言語モデル（LLM）内における「感情」に相当する概念の存在とその機能的役割を調査した研究です。モデル内部に感情に類似した表現が存在し、それがモデルの振る舞いに影響を与えている可能性を示唆しています。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; anthropic.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Inside an AI‑enabled device code phishing campaign</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/" rel="alternate"/>
+    <id>urn:ai-security-digest:127370928355023a</id>
+    <published>2026-04-06T16:34:17Z</published>
+    <updated>2026-04-06T16:34:17Z</updated>
+    <content type="html">&lt;p&gt;脅威アクターがAIと自動化を活用したデバイスコードフィッシングキャンペーンを展開している。AIによりオンデマンドで認証コードを生成することで成功率を高め、侵害後の持続的なアクセスを維持する新手法が報告された。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <category term="tool"/>
+    <source>
+      <title>Microsoft Security Blog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More</title>
+    <link href="https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html" rel="alternate"/>
+    <id>urn:ai-security-digest:2611bf1c3fbf84d1</id>
+    <published>2026-04-06T12:46:00Z</published>
+    <updated>2026-04-06T12:46:00Z</updated>
+    <content type="html">&lt;p&gt;週次セキュリティ総括として、Axiosへのハック、ChromeゼロデイやFortinet悪用など複数の重大インシデントを網羅。AI関連の脅威を含む最新のセキュリティ動向を俯瞰できる内容となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="vulnerability"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers</title>
+    <link href="https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html" rel="alternate"/>
+    <id>urn:ai-security-digest:35768df7e6244a52</id>
+    <published>2026-04-06T11:45:00Z</published>
+    <updated>2026-04-06T11:45:00Z</updated>
+    <content type="html">&lt;p&gt;2026年3月、LiteLLMを標的としたサプライチェーン攻撃により、開発者マシン上のAIエージェントを含む認証情報が大規模に窃取された。ローカルAIエージェントが新たな攻撃対象となることを示す実例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="agent-security"/>
+    <category term="vulnerability"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Backdoor Attacks on Decentralised Post-Training</title>
+    <link href="https://arxiv.org/abs/2604.02372" rel="alternate"/>
+    <id>urn:ai-security-digest:8dabdea157f823bf</id>
+    <published>2026-04-06T04:00:00Z</published>
+    <updated>2026-04-06T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;大規模言語モデルの分散型後学習（ポストトレーニング）がバックドア攻撃や汚染攻撃に対して脆弱であることを示した研究。パイプライン並列処理における堅牢性の問題を新たに明らかにしており、LLMのサプライチェーンセキュリティ上の重要な知見を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="adversarial"/>
     <category term="model-safety"/>
-    <category term="evaluation"/>
     <source>
-      <title>anthropic.com</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>AI時代の認証課題を解決する次世代標準候補「ID-JAG」とは？ — _No response_</title>
-    <link href="https://techblog.lycorp.co.jp/ja/20260401a" rel="alternate"/>
-    <id>urn:ai-security-digest:f2d3666419851913</id>
-    <published>2026-04-05T23:31:33Z</published>
-    <updated>2026-04-05T23:31:33Z</updated>
-    <content type="html">&lt;p&gt;LINEヤフーの認証・認可基盤Athenzを担当するエンジニアが、AIエージェントが各種サービスと連携する際のトークン管理や認証課題を解決するための次世代標準候補「ID-JAG」について解説した記事です。AIエージェントの普及に伴い、従来の認証方式では対応が難しくなりつつある課題を整理し、ID-JAGがどのようにそれらを解決しうるかを紹介しています。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; techblog.lycorp.co.jp&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="tool"/>
-    <category term="governance"/>
-    <source>
-      <title>techblog.lycorp.co.jp</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Quoting Chengpeng Mou</title>
-    <link href="https://simonwillison.net/2026/Apr/5/chengpeng-mou/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:25cf4a99fda80a4e</id>
-    <published>2026-04-05T21:47:06Z</published>
-    <updated>2026-04-05T21:47:06Z</updated>
-    <content type="html">&lt;p&gt;OpenAIのChatGPTデータから、医療保険や医療相談に関する週次メッセージが数百万件に上ることが明らかになった。病院へのアクセスが困難な地域に住む人々からの利用や、診療時間外の利用が多い実態が示されており、AIの医療倫理・安全性に関する議論を呼んでいる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="governance"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>scan-for-secrets 0.1</title>
-    <link href="https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:57d1f910f4b5c909</id>
-    <published>2026-04-05T03:27:13Z</published>
-    <updated>2026-04-05T03:27:13Z</updated>
-    <content type="html">&lt;p&gt;Claude Codeのセッションログを公開する際にAPIキーなどの機密情報が意図せず含まれるリスクを防ぐため、Pythonベースのシークレットスキャンツール「scan-for-secrets」が開発・公開された。LLMを活用した開発ワークフローにおける情報漏洩リスクへの対策ツールである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="agent-security"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>research-llm-apis 2026-04-04</title>
-    <link href="https://simonwillison.net/2026/Apr/5/research-llm-apis/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:f1550a7b1bee5f49</id>
-    <published>2026-04-05T00:32:11Z</published>
-    <updated>2026-04-05T00:32:11Z</updated>
-    <content type="html">&lt;p&gt;LLM向けPythonライブラリの大規模リファクタリングに向け、Anthropic・OpenAI・Geminiなど複数ベンダーのPythonクライアントライブラリをClaude Codeに解析させ、サーバーサイドツール実行などの新機能に対応した抽象化層の設計調査が行われた。LLMエージェントのAPI設計とその安全な抽象化に関わる取り組みである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="tool"/>
+    <title>Evolution and Perspectives of the Keep IT Secure Ecosystem:A Six-Year Analysis of Cybersecurity Experts Supporting Belgian SMEs</title>
+    <link href="https://arxiv.org/abs/2604.02425" rel="alternate"/>
+    <id>urn:ai-security-digest:87e21392bf46f0ec</id>
+    <published>2026-04-06T04:00:00Z</published>
+    <updated>2026-04-06T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;ベルギーの中小企業を対象とした6年間のサイバーセキュリティ支援エコシステムの分析で、AI駆動型脅威の増大を背景に中小企業の対策強化の重要性を論じている。AI脅威への対応を含む政策・実践面での示唆を含む研究。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="governance"/>
+    <category term="policy"/>
     <source>
-      <title>Simon Willison's Weblog</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

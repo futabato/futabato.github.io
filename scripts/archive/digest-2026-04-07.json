@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Inside an AI‑enabled device code phishing campaign",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/06/ai-enabled-device-code-phishing-campaign-april-2026/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-04-06T16:34:17+00:00",
+    "summary_ja": "脅威アクターがAIと自動化を活用したデバイスコードフィッシングキャンペーンを展開している。AIによりオンデマンドで認証コードを生成することで成功率を高め、侵害後の持続的なアクセスを維持する新手法が報告された。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "tool"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: Axios Hack, Chrome 0-Day, Fortinet Exploits, Paragon Spyware and More",
+    "link": "https://thehackernews.com/2026/04/weekly-recap-axios-hack-chrome-0-day.html",
+    "source": "The Hacker News",
+    "published": "2026-04-06T12:46:00+00:00",
+    "summary_ja": "週次セキュリティ総括として、Axiosへのハック、ChromeゼロデイやFortinet悪用など複数の重大インシデントを網羅。AI関連の脅威を含む最新のセキュリティ動向を俯瞰できる内容となっている。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "How LiteLLM Turned Developer Machines Into Credential Vaults for Attackers",
+    "link": "https://thehackernews.com/2026/04/how-litellm-turned-developer-machines.html",
+    "source": "The Hacker News",
+    "published": "2026-04-06T11:45:00+00:00",
+    "summary_ja": "2026年3月、LiteLLMを標的としたサプライチェーン攻撃により、開発者マシン上のAIエージェントを含む認証情報が大規模に窃取された。ローカルAIエージェントが新たな攻撃対象となることを示す実例として注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Backdoor Attacks on Decentralised Post-Training",
+    "link": "https://arxiv.org/abs/2604.02372",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-06T04:00:00+00:00",
+    "summary_ja": "大規模言語モデルの分散型後学習（ポストトレーニング）がバックドア攻撃や汚染攻撃に対して脆弱であることを示した研究。パイプライン並列処理における堅牢性の問題を新たに明らかにしており、LLMのサプライチェーンセキュリティ上の重要な知見を提供する。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Evolution and Perspectives of the Keep IT Secure Ecosystem:A Six-Year Analysis of Cybersecurity Experts Supporting Belgian SMEs",
+    "link": "https://arxiv.org/abs/2604.02425",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-06T04:00:00+00:00",
+    "summary_ja": "ベルギーの中小企業を対象とした6年間のサイバーセキュリティ支援エコシステムの分析で、AI駆動型脅威の増大を背景に中小企業の対策強化の重要性を論じている。AI脅威への対応を含む政策・実践面での示唆を含む研究。",
+    "tags": [
+      "research",
+      "governance",
+      "policy"
+    ]
+  }
+]
