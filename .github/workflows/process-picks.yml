@@ -47,10 +47,11 @@ jobs:
               const noteMatch = body.match(/### メモ[^\n]*\n\s*([^\n#]+)/);
               const tagsMatch = body.match(/### タグ[^\n]*\n\s*([^\n#]+)/);
 
+              const rawNote = noteMatch ? noteMatch[1].trim() : '';
               picks.push({
                 url: url.trim(),
-                note: noteMatch ? noteMatch[1].trim() : '',
-                tags: tagsMatch
+                note: rawNote === '_No response_' ? '' : rawNote,
+                tags: (tagsMatch && tagsMatch[1].trim() !== '_No response_')
                   ? tagsMatch[1].split(',').map(t => t.trim()).filter(Boolean)
                   : ['curated'],
                 issue_number: issue.number,
