@@ -243,19 +243,18 @@ def fetch_manual_articles(picks: list[dict]) -> list[dict]:
 
             except Exception as e:
                 log.warning(f"Failed to fetch manual pick {url}: {e}")
-                # フェッチ失敗でもnoteがあれば記事として追加
-                if pick.get("note"):
-                    articles.append(
-                        {
-                            "title": pick["note"],
-                            "link": url,
-                            "summary": pick.get("note", ""),
-                            "published": datetime.now(UTC),
-                            "source_name": "Manual Pick",
-                            "category": "curated",
-                            "tags": pick.get("tags", ["curated"]),
-                        }
-                    )
+                # フェッチ失敗でもURLとnoteで記事を追加（手動ピックは必ず含める）
+                articles.append(
+                    {
+                        "title": pick.get("note") or url,
+                        "link": url,
+                        "summary": pick.get("note", ""),
+                        "published": datetime.now(UTC),
+                        "source_name": "Manual Pick",
+                        "category": "curated",
+                        "tags": pick.get("tags", ["curated"]),
+                    }
+                )
 
     log.info(f"Manual picks loaded: {len(articles)}")
     return articles
