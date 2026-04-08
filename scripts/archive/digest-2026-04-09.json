@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Meta's new model is Muse Spark, and meta.ai chat has some interesting tools",
+    "link": "https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-08T23:07:44+00:00",
+    "summary_ja": "MetaがLlama 4以来初となる新モデル「Muse Spark」を発表した。オープンウェイトではなくホステッド型で、APIは一部ユーザー向けのプレビュー段階。Opus 4.6やGemini 3.1 Pro、GPT 5.4と競合するベンチマーク性能を示しているとされる。",
+    "tags": [
+      "evaluation",
+      "research",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Is a $30,000 GPU Good at Password Cracking?",
+    "link": "https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/",
+    "source": "Bleeping Computer",
+    "published": "2026-04-08T14:00:10+00:00",
+    "summary_ja": "3万ドルのAI用高性能GPUがパスワードクラッキングにおいてコンシューマー向けGPUを上回らないことを検証した記事。攻撃者が高価なAIハードウェアを必要としない理由を分析しており、AIハードウェアの実際の攻撃用途を評価する上で示唆に富む内容。",
+    "tags": [
+      "research",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
+    "link": "https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html",
+    "source": "The Hacker News",
+    "published": "2026-04-08T11:30:00+00:00",
+    "summary_ja": "企業IAM（Identity and Access Management）環境の複雑化に伴い、可視化できないID活動（Identity Dark Matter）が増加しており、攻撃対象領域が拡大していることを解説した記事。機械IDや自律システムを含むアイデンティティの断片化がセキュリティリスクを高めている。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems",
+    "link": "https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html",
+    "source": "The Hacker News",
+    "published": "2026-04-08T09:16:00+00:00",
+    "summary_ja": "AnthropicはClaude Mythosモデルを活用した新サイバーセキュリティイニシアチブ「Project Glasswing」を発表し、AWS・Apple・Cisco・CrowdStrikeなど主要企業と連携して大規模なゼロデイ脆弱性の発見・修正に取り組む。AIを用いた脆弱性探索の新たな活用例として業界から注目されている。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "model-safety",
+      "research"
+    ]
+  },
+  {
+    "title": "N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust",
+    "link": "https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html",
+    "source": "The Hacker News",
+    "published": "2026-04-08T07:47:00+00:00",
+    "summary_ja": "北朝鮮系ハッカーグループ「Contagious Interview」がnpm・PyPI・Go・Rust・PHPなど複数のエコシステムに1,700以上の悪意あるパッケージを拡散させていることが判明。正規の開発者ツールに偽装したマルウェアローダーを仕込む手口で、AIモデルの学習データや開発ツールのサプライチェーンへの影響も懸念される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  }
+]

@@ -3,105 +3,79 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-07T23:35:27Z</updated>
+  <updated>2026-04-08T23:35:57Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438</title>
-    <link href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438" rel="alternate"/>
-    <id>urn:ai-security-digest:9ddf3541eadf0fb9</id>
-    <published>2026-04-07T23:35:18Z</published>
-    <updated>2026-04-07T23:35:18Z</updated>
-    <content type="html">&lt;p&gt;本論文はSSRNに掲載された学術研究論文であり、AIまたは関連技術に関する政策・規制・安全性などのテーマを扱っていると考えられる。具体的な内容はエクスサーから確認できないが、学術的観点からAIガバナンスや安全性に関する分析・提言が含まれている可能性が高い。詳細な要約のためには論文本文へのアクセスが必要である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Manual Pick&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Meta's new model is Muse Spark, and meta.ai chat has some interesting tools</title>
+    <link href="https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:5e9b7b2c0bac8937</id>
+    <published>2026-04-08T23:07:44Z</published>
+    <updated>2026-04-08T23:07:44Z</updated>
+    <content type="html">&lt;p&gt;MetaがLlama 4以来初となる新モデル「Muse Spark」を発表した。オープンウェイトではなくホステッド型で、APIは一部ユーザー向けのプレビュー段階。Opus 4.6やGemini 3.1 Pro、GPT 5.4と競合するベンチマーク性能を示しているとされる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="evaluation"/>
     <category term="research"/>
-    <category term="policy"/>
-    <category term="governance"/>
-    <source>
-      <title>Manual Pick</title>
-    </source>
-  </entry>
-  <entry>
-    <title>https://openai.com/index/introducing-openai-safety-fellowship/</title>
-    <link href="https://openai.com/index/introducing-openai-safety-fellowship/" rel="alternate"/>
-    <id>urn:ai-security-digest:8b2b471103716bea</id>
-    <published>2026-04-07T23:35:18Z</published>
-    <updated>2026-04-07T23:35:18Z</updated>
-    <content type="html">&lt;p&gt;OpenAIは「OpenAI Safety Fellowship」を新たに発表した。このフェローシップは、AIの安全性研究に取り組む研究者や専門家を支援するプログラムであり、安全なAI開発の推進を目的としている。フェロー候補者はOpenAIのチームと協力しながら、AIシステムの安全性に関する重要な課題に取り組む機会を得る。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Manual Pick&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="model-safety"/>
-    <category term="governance"/>
-    <category term="research"/>
-    <source>
-      <title>Manual Pick</title>
-    </source>
-  </entry>
-  <entry>
-    <title>GLM-5.1: Towards Long-Horizon Tasks</title>
-    <link href="https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:a76d763a82ff4ac4</id>
-    <published>2026-04-07T21:25:14Z</published>
-    <updated>2026-04-07T21:25:14Z</updated>
-    <content type="html">&lt;p&gt;中国のAIラボZ.aiが、754Bパラメータ・MITライセンスの大規模モデル「GLM-5.1」をリリースした。OpenRouter経由でアクセス可能であり、長期タスク処理能力を特徴とする。オープンな大規模モデルの登場はAIセキュリティおよびリスク評価の観点からも継続的な注目が必要。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="research"/>
     <source>
       <title>Simon Willison's Weblog</title>
     </source>
   </entry>
   <entry>
-    <title>Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me</title>
-    <link href="https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:455223126134bacc</id>
-    <published>2026-04-07T20:52:54Z</published>
-    <updated>2026-04-07T20:52:54Z</updated>
-    <content type="html">&lt;p&gt;AnthropicはClaude Mythosの最新モデルを一般公開せず、「Project Glasswing」として限定的なセキュリティ研究者にのみ提供することを発表した。同モデルはサイバーセキュリティ研究能力が非常に高く、すでに数千件の高深刻度脆弱性を発見しており、業界全体が準備を整えるまで公開を制限する必要があると判断された。AIの能力が安全性上の懸念を生む事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="governance"/>
-    <category term="policy"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Max severity Flowise RCE vulnerability now exploited in attacks</title>
-    <link href="https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/" rel="alternate"/>
-    <id>urn:ai-security-digest:9b8945e4ee562d45</id>
-    <published>2026-04-07T17:02:05Z</published>
-    <updated>2026-04-07T17:02:05Z</updated>
-    <content type="html">&lt;p&gt;LLMアプリやエージェントシステム構築用オープンソースプラットフォーム「Flowise」において、最大深刻度のRCE脆弱性（CVE-2025-59528）が実際の攻撃に悪用されていることが確認された。攻撃者はこの脆弱性を利用して任意のコードを実行できる。AIエージェント開発基盤を狙った脆弱性悪用として警戒が必要。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="incident"/>
+    <title>Is a $30,000 GPU Good at Password Cracking?</title>
+    <link href="https://www.bleepingcomputer.com/news/security/is-a-30-000-gpu-good-at-password-cracking/" rel="alternate"/>
+    <id>urn:ai-security-digest:dd8352ddbf4eb5bc</id>
+    <published>2026-04-08T14:00:10Z</published>
+    <updated>2026-04-08T14:00:10Z</updated>
+    <content type="html">&lt;p&gt;3万ドルのAI用高性能GPUがパスワードクラッキングにおいてコンシューマー向けGPUを上回らないことを検証した記事。攻撃者が高価なAIハードウェアを必要としない理由を分析しており、AIハードウェアの実際の攻撃用途を評価する上で示唆に富む内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="evaluation"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk</title>
-    <link href="https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html" rel="alternate"/>
-    <id>urn:ai-security-digest:ef6163fa1720db91</id>
-    <published>2026-04-07T16:29:00Z</published>
-    <updated>2026-04-07T16:29:00Z</updated>
-    <content type="html">&lt;p&gt;2026年の脅威環境においてAIがエンタープライズのアイデンティティギャップを悪用するリスクが高まっているとして、CISOや組織向けにアイデンティティ管理の強化を呼びかけるウェビナーが案内されている。Ponemon Instituteの調査によれば、多くの企業内アプリが集中型IDシステムから切り離されており、AIによる悪用リスクが増大している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
-    <category term="governance"/>
+    <title>Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)</title>
+    <link href="https://thehackernews.com/2026/04/shrinking-iam-attack-surface-through.html" rel="alternate"/>
+    <id>urn:ai-security-digest:119a7d5f49b95184</id>
+    <published>2026-04-08T11:30:00Z</published>
+    <updated>2026-04-08T11:30:00Z</updated>
+    <content type="html">&lt;p&gt;企業IAM（Identity and Access Management）環境の複雑化に伴い、可視化できないID活動（Identity Dark Matter）が増加しており、攻撃対象領域が拡大していることを解説した記事。機械IDや自律システムを含むアイデンティティの断片化がセキュリティリスクを高めている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
     <category term="tool"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign</title>
-    <link href="https://thehackernews.com/2026/04/over-1000-exposed-comfyui-instances.html" rel="alternate"/>
-    <id>urn:ai-security-digest:6e3d72f05d8399ad</id>
-    <published>2026-04-07T12:46:00Z</published>
-    <updated>2026-04-07T12:46:00Z</updated>
-    <content type="html">&lt;p&gt;インターネットに公開されたComfyUI（人気の画像生成AIプラットフォーム）インスタンス1,000件以上が、暗号通貨マイニングとプロキシボットネットのキャンペーンに標的にされた。攻撃者はComfyUI-Manager経由で悪意あるノードを自動インストールするPythonスキャナーを使用しており、AIツールのインフラを悪用した新たな脅威として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
+    <title>Anthropic's Claude Mythos Finds Thousands of Zero-Day Flaws Across Major Systems</title>
+    <link href="https://thehackernews.com/2026/04/anthropics-claude-mythos-finds.html" rel="alternate"/>
+    <id>urn:ai-security-digest:4ad28f84ee160a81</id>
+    <published>2026-04-08T09:16:00Z</published>
+    <updated>2026-04-08T09:16:00Z</updated>
+    <content type="html">&lt;p&gt;AnthropicはClaude Mythosモデルを活用した新サイバーセキュリティイニシアチブ「Project Glasswing」を発表し、AWS・Apple・Cisco・CrowdStrikeなど主要企業と連携して大規模なゼロデイ脆弱性の発見・修正に取り組む。AIを用いた脆弱性探索の新たな活用例として業界から注目されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
     <category term="vulnerability"/>
+    <category term="model-safety"/>
+    <category term="research"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>N. Korean Hackers Spread 1,700 Malicious Packages Across npm, PyPI, Go, Rust</title>
+    <link href="https://thehackernews.com/2026/04/n-korean-hackers-spread-1700-malicious.html" rel="alternate"/>
+    <id>urn:ai-security-digest:dd7601c31a1ceda0</id>
+    <published>2026-04-08T07:47:00Z</published>
+    <updated>2026-04-08T07:47:00Z</updated>
+    <content type="html">&lt;p&gt;北朝鮮系ハッカーグループ「Contagious Interview」がnpm・PyPI・Go・Rust・PHPなど複数のエコシステムに1,700以上の悪意あるパッケージを拡散させていることが判明。正規の開発者ツールに偽装したマルウェアローダーを仕込む手口で、AIモデルの学習データや開発ツールのサプライチェーンへの影響も懸念される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
     <category term="adversarial"/>
+    <category term="vulnerability"/>
     <source>
       <title>The Hacker News</title>
     </source>
