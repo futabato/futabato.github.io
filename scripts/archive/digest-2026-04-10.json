@@ -1,0 +1,27 @@
+[
+  {
+    "title": "The agentic SOC—Rethinking SecOps for the next decade",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/09/the-agentic-soc-rethinking-secops-for-the-next-decade/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-04-09T19:00:00+00:00",
+    "summary_ja": "Microsoftがエージェント型SOC（セキュリティオペレーションセンター）の未来像を提示。自律型AIエージェントがマシンスピードで防御を担い、人間はリスク判断や意思決定に集中するという次世代SecOpsのあり方を論じている。AIエージェントをセキュリティ運用に統合する際のアーキテクチャと考え方を示す重要な論考。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "The Hidden Security Risks of Shadow AI in Enterprises",
+    "link": "https://thehackernews.com/2026/04/the-hidden-security-risks-of-shadow-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-04-09T11:31:00+00:00",
+    "summary_ja": "企業内で従業員がIT・セキュリティチームの承認なしにAIツールを導入する「シャドーAI」のリスクを解説。セキュリティチームの可視性の外でAIが稼働することで、データ漏洩や統制バイパスなど新たな盲点が生まれると警告している。エンタープライズにおけるAIガバナンスの重要性を訴える内容。",
+    "tags": [
+      "governance",
+      "model-safety",
+      "regulation",
+      "incident"
+    ]
+  }
+]
