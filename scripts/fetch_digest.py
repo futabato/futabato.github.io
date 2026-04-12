@@ -41,6 +41,7 @@ OUTPUT_DIR = ROOT / "public" / "rss"
 FEED_OUTPUT = OUTPUT_DIR / "feed.xml"
 INDEX_OUTPUT = OUTPUT_DIR / "index.html"
 ARCHIVE_DIR = SCRIPTS_DIR / "archive"
+PUBLIC_ARCHIVE_DIR = OUTPUT_DIR / "archives"
 MANUAL_PICKS_PATH = ROOT / "manual_picks.yaml"
 ISSUE_PICKS_DIR = ROOT / ".issue_picks"
 JST = timezone(timedelta(hours=9))
@@ -431,6 +432,25 @@ def summarize_only(articles: list[dict], config: dict) -> list[dict]:
     return articles
 
 
+# ── 公開用アーカイブ ──
+def publish_archives(config: dict) -> None:
+    """scripts/archive/ の全JSONを public/rss/archives/ にコピーし、日付インデックスを生成"""
+    PUBLIC_ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+
+    dates = []
+    for src in sorted(ARCHIVE_DIR.glob("digest-*.json")):
+        # digest-2026-04-05.json → 2026-04-05
+        date_str = src.stem.replace("digest-", "")
+        dates.append(date_str)
+        dst = PUBLIC_ARCHIVE_DIR / f"{date_str}.json"
+        dst.write_text(src.read_text(encoding="utf-8"), encoding="utf-8")
+
+    # 日付インデックス（新しい順）
+    index_path = PUBLIC_ARCHIVE_DIR / "index.json"
+    index_path.write_text(json.dumps(sorted(dates, reverse=True), ensure_ascii=False), encoding="utf-8")
+    log.info(f"Published {len(dates)} archives to {PUBLIC_ARCHIVE_DIR}")
+
+
 # ── Atomフィード生成 ──
 def generate_atom_feed(articles: list[dict], config: dict) -> str:
     """Atom 1.0フィードXMLを生成"""
@@ -548,6 +568,11 @@ def generate_index_html(articles: list[dict], config: dict) -> str:
     .header-links {{ display: flex; gap: 1rem; }}
     .feed-link {{ color: var(--accent); text-decoration: none; font-size: 0.85rem; }}
     .feed-link:hover {{ text-decoration: underline; }}
+    .date-nav {{ display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; }}
+    .date-nav button {{ background: var(--card); border: 1px solid var(--border); color: var(--fg); padding: 0.4rem 0.8rem; border-radius: 4px; cursor: pointer; font-size: 0.85rem; }}
+    .date-nav button:hover {{ border-color: var(--accent); }}
+    .date-nav button:disabled {{ opacity: 0.3; cursor: default; border-color: var(--border); }}
+    .date-nav .current-date {{ color: var(--fg); font-size: 0.95rem; font-family: 'Courier New', monospace; }}
     .entry {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem; margin-bottom: 1rem; }}
     .entry .meta {{ display: flex; gap: 1rem; color: var(--muted); font-size: 0.8rem; margin-bottom: 0.5rem; }}
     .entry h3 {{ font-size: 1rem; margin-bottom: 0.5rem; }}
@@ -556,6 +581,7 @@ def generate_index_html(articles: list[dict], config: dict) -> str:
     .entry p {{ color: var(--muted); font-size: 0.9rem; line-height: 1.5; }}
     .tags {{ margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 0.4rem; }}
     .tag {{ background: var(--tag-bg); color: var(--accent); padding: 0.15rem 0.5rem; border-radius: 4px; font-size: 0.75rem; }}
+    .empty {{ color: var(--muted); text-align: center; padding: 2rem; }}
     footer {{ margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.8rem; text-align: center; }}
     footer a {{ color: var(--muted); }}
   </style>
@@ -570,13 +596,123 @@ def generate_index_html(articles: list[dict], config: dict) -> str:
   </nav>
   <header>
     <h1>{out["feed_title"]}</h1>
-    <p>{today} | {len(articles)}件の記事</p>
   </header>
-  <main>{rows}
+  <div class="date-nav">
+    <button id="prev-btn">&larr;</button>
+    <span class="current-date" id="current-date">{today}</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">{len(articles)}件</span>
+    <button id="next-btn">&rarr;</button>
+  </div>
+  <main id="articles">{rows}
   </main>
   <footer>
     <a href="/">futabato.github.io</a> | Auto-generated daily
   </footer>
+  <script>
+    (function() {{
+      let dates = [];
+      let currentIdx = 0;
+
+      const main = document.getElementById('articles');
+      const dateEl = document.getElementById('current-date');
+      const countEl = document.getElementById('article-count');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+
+      function escapeHtml(s) {{
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+      }}
+
+      function renderArticles(items) {{
+        if (!items || items.length === 0) {{
+          main.innerHTML = '<p class="empty">この日の記事はありません</p>';
+          countEl.textContent = '0件';
+          return;
+        }}
+        countEl.textContent = items.length + '件';
+        main.innerHTML = items.map(function(a) {{
+          const pub = new Date(a.published);
+          const mm = String(pub.getMonth() + 1).padStart(2, '0');
+          const dd = String(pub.getDate()).padStart(2, '0');
+          const tags = (a.tags || []).map(function(t) {{
+            return '<span class="tag">' + escapeHtml(t) + '</span>';
+          }}).join(' ');
+          return '<article class="entry">'
+            + '<div class="meta"><time>' + mm + '/' + dd + '</time>'
+            + '<span class="source">' + escapeHtml(a.source) + '</span></div>'
+            + '<h3><a href="' + escapeHtml(a.link) + '" target="_blank" rel="noopener">'
+            + escapeHtml(a.title) + '</a></h3>'
+            + '<p>' + escapeHtml(a.summary_ja || '') + '</p>'
+            + '<div class="tags">' + tags + '</div>'
+            + '</article>';
+        }}).join('');
+      }}
+
+      function updateButtons() {{
+        prevBtn.disabled = currentIdx >= dates.length - 1;
+        nextBtn.disabled = currentIdx <= 0;
+      }}
+
+      function loadDate(dateStr) {{
+        const url = 'archives/' + dateStr + '.json';
+        dateEl.textContent = dateStr;
+        countEl.textContent = '...';
+        const params = new URLSearchParams(window.location.search);
+        if (dateStr === dates[0]) {{
+          params.delete('date');
+        }} else {{
+          params.set('date', dateStr);
+        }}
+        const qs = params.toString();
+        history.replaceState(null, '', qs ? '?' + qs : window.location.pathname);
+
+        fetch(url)
+          .then(function(r) {{ return r.ok ? r.json() : []; }})
+          .then(renderArticles)
+          .catch(function() {{ renderArticles([]); }});
+      }}
+
+      function navigate(delta) {{
+        const newIdx = currentIdx + delta;
+        if (newIdx < 0 || newIdx >= dates.length) return;
+        currentIdx = newIdx;
+        updateButtons();
+        loadDate(dates[currentIdx]);
+      }}
+
+      prevBtn.addEventListener('click', function() {{ navigate(1); }});
+      nextBtn.addEventListener('click', function() {{ navigate(-1); }});
+
+      // キーボードナビゲーション
+      document.addEventListener('keydown', function(e) {{
+        if (e.key === 'ArrowLeft') navigate(1);
+        if (e.key === 'ArrowRight') navigate(-1);
+      }});
+
+      // 初期化: アーカイブ一覧を取得
+      fetch('archives/index.json')
+        .then(function(r) {{ return r.json(); }})
+        .then(function(d) {{
+          dates = d;
+          const params = new URLSearchParams(window.location.search);
+          const requested = params.get('date');
+          if (requested && dates.indexOf(requested) !== -1) {{
+            currentIdx = dates.indexOf(requested);
+            loadDate(requested);
+          }} else {{
+            currentIdx = 0;
+          }}
+          updateButtons();
+        }})
+        .catch(function() {{
+          // index.json が取得できない場合はナビゲーション無効化
+          prevBtn.disabled = true;
+          nextBtn.disabled = true;
+        }});
+    }})();
+  </script>
 </body>
 </html>"""
 
@@ -640,6 +776,9 @@ def main():
     ]
     archive_path.write_text(json.dumps(archive_data, ensure_ascii=False, indent=2), encoding="utf-8")
     log.info(f"Archive written: {archive_path}")
+
+    # 公開用アーカイブ（GitHub Pages から配信）
+    publish_archives(config)
 
     # 手動ピックを処理済みに
     mark_picks_consumed()
