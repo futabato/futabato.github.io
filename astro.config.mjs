@@ -5,4 +5,7 @@ export default defineConfig({
   build: {
     assets: "_assets",
   },
+  redirects: {
+    "/rss": "/rss/index.html",
+  },
 });

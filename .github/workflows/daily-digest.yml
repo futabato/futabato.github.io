@@ -48,7 +48,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add public/rss/ scripts/archive/ manual_picks.yaml
+          git add public/rss/ public/rss/archives/ scripts/archive/ manual_picks.yaml
           if git diff --staged --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
