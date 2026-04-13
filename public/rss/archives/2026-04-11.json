@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Florida investigates OpenAI for role ChatGPT may have played in deadly shooting",
+    "link": "https://therecord.media/florida-investigates-openai-chatgpt-deadly-shooting",
+    "source": "The Record by Recorded Future",
+    "published": "2026-04-10T14:07:00+00:00",
+    "summary_ja": "フロリダ州当局が、銃撃事件の犯人が犯行直前にChatGPTと繰り返しやり取りしていたとされる件についてOpenAIの関与を調査している。被害者家族もOpenAIを提訴する方針を示しており、LLMの安全性と社会的影響に関する規制・責任問題が改めて問われている。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "Browser Extensions Are the New AI Consumption Channel That No One Is Talking About",
+    "link": "https://thehackernews.com/2026/04/browser-extensions-are-new-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-04-10T11:00:00+00:00",
+    "summary_ja": "AIブラウザ拡張機能が新たなAIセキュリティの盲点として浮上している。LayerXの調査レポートによれば、生成AIのシャドーIT対策が議論される一方で、AIブラウザ拡張機能が最も危険な未管理の脅威サーフェスになっていると警告している。",
+    "tags": [
+      "vulnerability",
+      "tool",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Label Leakage Attacks in Machine Unlearning: A Parameter and Inversion-Based Approach",
+    "link": "https://arxiv.org/abs/2604.07386",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-10T04:00:00+00:00",
+    "summary_ja": "機械学習における「忘れる権利」（マシンアンラーニング）の脆弱性に関する研究。アンラーニング処理において、削除対象データのラベル情報が漏洩するリスクをパラメータ解析と逆算手法により明らかにし、顔認識など実用AIシステムへのプライバシーリスクを示している。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "RefineRAG: Word-Level Poisoning Attacks via Retriever-Guided Text Refinement",
+    "link": "https://arxiv.org/abs/2604.07403",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-10T04:00:00+00:00",
+    "summary_ja": "RAG（検索拡張生成）システムに対する新たな知識ポイズニング攻撃フレームワーク「RefineRAG」を提案した研究。既存手法と異なりワードレベルの精緻な改ざんにより検出を回避しつつLLMの出力を操作できることを示しており、RAGシステムの重大な脆弱性を浮き彫りにしている。",
+    "tags": [
+      "research",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Private Seeds, Public LLMs: Realistic and Privacy-Preserving Synthetic Data Generation",
+    "link": "https://arxiv.org/abs/2604.07486",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-10T04:00:00+00:00",
+    "summary_ja": "プライバシーを保護しながら合成データを生成するフレームワーク「RPSG」を提案した研究。LLMを活用しつつ差分プライバシー（DP）などの形式的プライバシー保護機構を組み合わせることで、プライベートテキストの実用的な合成レプリカ生成を実現する手法を示している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "tool"
+    ]
+  }
+]

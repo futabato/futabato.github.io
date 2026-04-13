@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Critical Marimo pre-auth RCE flaw now under active exploitation",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/",
+    "source": "Bleeping Computer",
+    "published": "2026-04-12T14:20:31+00:00",
+    "summary_ja": "PythonベースのリアクティブノートブックフレームワークであるMarimoに、認証不要でリモートコード実行が可能な深刻な脆弱性が発見され、現在活発に悪用されている。この脆弱性はクレデンシャル窃取に利用されており、AIや機械学習の開発環境として広く使われるツールへの攻撃として注目される。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "title": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438",
+    "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6372438",
+    "source": "Manual Pick",
+    "published": "2026-04-07T23:35:18.830844+00:00",
+    "summary_ja": "本論文はSSRNに掲載された学術研究論文であり、AIまたは関連技術に関する政策・規制・安全性などのテーマを扱っていると考えられる。具体的な内容はエクスサーから確認できないが、学術的観点からAIガバナンスや安全性に関する分析・提言が含まれている可能性が高い。詳細な要約のためには論文本文へのアクセスが必要である。",
+    "tags": [
+      "research",
+      "policy",
+      "governance"
+    ]
+  },
+  {
+    "title": "https://openai.com/index/introducing-openai-safety-fellowship/",
+    "link": "https://openai.com/index/introducing-openai-safety-fellowship/",
+    "source": "Manual Pick",
+    "published": "2026-04-07T23:35:18.687857+00:00",
+    "summary_ja": "OpenAIは「OpenAI Safety Fellowship」を新たに発表した。このフェローシップは、AIの安全性研究に取り組む研究者や専門家を支援するプログラムであり、安全なAI開発の推進を目的としている。フェロー候補者はOpenAIのチームと協力しながら、AIシステムの安全性に関する重要な課題に取り組む機会を得る。",
+    "tags": [
+      "model-safety",
+      "governance",
+      "research"
+    ]
+  },
+  {
+    "title": "GLM-5.1: Towards Long-Horizon Tasks",
+    "link": "https://simonwillison.net/2026/Apr/7/glm-51/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-07T21:25:14+00:00",
+    "summary_ja": "中国のAIラボZ.aiが、754Bパラメータ・MITライセンスの大規模モデル「GLM-5.1」をリリースした。OpenRouter経由でアクセス可能であり、長期タスク処理能力を特徴とする。オープンな大規模モデルの登場はAIセキュリティおよびリスク評価の観点からも継続的な注目が必要。",
+    "tags": [
+      "model-safety",
+      "research"
+    ]
+  },
+  {
+    "title": "Anthropic's Project Glasswing - restricting Claude Mythos to security researchers - sounds necessary to me",
+    "link": "https://simonwillison.net/2026/Apr/7/project-glasswing/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-07T20:52:54+00:00",
+    "summary_ja": "AnthropicはClaude Mythosの最新モデルを一般公開せず、「Project Glasswing」として限定的なセキュリティ研究者にのみ提供することを発表した。同モデルはサイバーセキュリティ研究能力が非常に高く、すでに数千件の高深刻度脆弱性を発見しており、業界全体が準備を整えるまで公開を制限する必要があると判断された。AIの能力が安全性上の懸念を生む事例として注目される。",
+    "tags": [
+      "model-safety",
+      "governance",
+      "policy"
+    ]
+  },
+  {
+    "title": "Max severity Flowise RCE vulnerability now exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/max-severity-flowise-rce-vulnerability-now-exploited-in-attacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-04-07T17:02:05+00:00",
+    "summary_ja": "LLMアプリやエージェントシステム構築用オープンソースプラットフォーム「Flowise」において、最大深刻度のRCE脆弱性（CVE-2025-59528）が実際の攻撃に悪用されていることが確認された。攻撃者はこの脆弱性を利用して任意のコードを実行できる。AIエージェント開発基盤を狙った脆弱性悪用として警戒が必要。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "incident"
+    ]
+  },
+  {
+    "title": "[Webinar] How to Close Identity Gaps in 2026 Before AI Exploits Enterprise Risk",
+    "link": "https://thehackernews.com/2026/04/webinar-how-to-close-identity-gaps-in.html",
+    "source": "The Hacker News",
+    "published": "2026-04-07T16:29:00+00:00",
+    "summary_ja": "2026年の脅威環境においてAIがエンタープライズのアイデンティティギャップを悪用するリスクが高まっているとして、CISOや組織向けにアイデンティティ管理の強化を呼びかけるウェビナーが案内されている。Ponemon Instituteの調査によれば、多くの企業内アプリが集中型IDシステムから切り離されており、AIによる悪用リスクが増大している。",
+    "tags": [
+      "adversarial",
+      "governance",
+      "tool"
+    ]
+  },
+  {
+    "title": "Over 1,000 Exposed ComfyUI Instances Targeted in Cryptomining Botnet Campaign",
+    "link": "https://thehackernews.com/2026/04/over-1000-exposed-comfyui-instances.html",
+    "source": "The Hacker News",
+    "published": "2026-04-07T12:46:00+00:00",
+    "summary_ja": "インターネットに公開されたComfyUI（人気の画像生成AIプラットフォーム）インスタンス1,000件以上が、暗号通貨マイニングとプロキシボットネットのキャンペーンに標的にされた。攻撃者はComfyUI-Manager経由で悪意あるノードを自動インストールするPythonスキャナーを使用しており、AIツールのインフラを悪用した新たな脅威として注目される。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  }
+]
