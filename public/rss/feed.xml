@@ -3,23 +3,96 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-13T00:38:06Z</updated>
+  <updated>2026-04-13T23:40:18Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Critical Marimo pre-auth RCE flaw now under active exploitation</title>
-    <link href="https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/" rel="alternate"/>
-    <id>urn:ai-security-digest:30aef2bba1238c35</id>
-    <published>2026-04-12T14:20:31Z</published>
-    <updated>2026-04-12T14:20:31Z</updated>
-    <content type="html">&lt;p&gt;PythonベースのリアクティブノートブックフレームワークであるMarimoに、認証不要でリモートコード実行が可能な深刻な脆弱性が発見され、現在活発に悪用されている。この脆弱性はクレデンシャル窃取に利用されており、AIや機械学習の開発環境として広く使われるツールへの攻撃として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
+    <title>[2604.05589] Foundations for Agentic AI Investigations from the Forensic Analysis of OpenClaw — https://github.com/jgru/forensic-analysis-of-openclaw</title>
+    <link href="https://arxiv.org/abs/2604.05589" rel="alternate"/>
+    <id>urn:ai-security-digest:f17636e28185ff4e</id>
+    <published>2026-04-13T23:40:14Z</published>
+    <updated>2026-04-13T23:40:14Z</updated>
+    <content type="html">&lt;p&gt;本論文は、エージェント型AIシステムの法科学的調査（フォレンジック分析）の基盤を構築することを目的としており、OpenClawと呼ばれるエージェントAIフレームワークの分析を通じてその手法を検討している。エージェントAIが自律的に行動する環境において、インシデント調査や証拠収集に必要な技術的基礎を提供することを目指している。GitHubリポジトリ（jgru/forensic-analysis-of-openclaw）も公開されており、実践的なツールや分析手法の共有も行われている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="tool"/>
     <category term="incident"/>
     <source>
+      <title>arXiv</title>
+    </source>
+  </entry>
+  <entry>
+    <title>OpenAI rotates macOS certs after Axios attack hit code-signing workflow</title>
+    <link href="https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/" rel="alternate"/>
+    <id>urn:ai-security-digest:cad9400150d21f1c</id>
+    <published>2026-04-13T17:39:10Z</published>
+    <updated>2026-04-13T17:39:10Z</updated>
+    <content type="html">&lt;p&gt;OpenAIはGitHub Actionsのワークフローが悪意あるAxiosパッケージを実行するサプライチェーン攻撃を受け、macOSアプリのコード署名証明書を更新・ローテーションした。ユーザーデータや内部システムへの影響はなかったとしているが、AI企業のソフトウェア開発パイプラインを狙った攻撃として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="vulnerability"/>
+    <source>
       <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Your MTTD Looks Great. Your Post-Alert Gap Doesn't</title>
+    <link href="https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html" rel="alternate"/>
+    <id>urn:ai-security-digest:72c59f7c36dd9490</id>
+    <published>2026-04-13T11:41:00Z</published>
+    <updated>2026-04-13T11:41:00Z</updated>
+    <content type="html">&lt;p&gt;AnthropicのMythosプレビューモデルが全主要OSとブラウザのゼロデイ脆弱性を自律的に発見・悪用したため、Anthropicは同モデルを制限した。類似能力の普及まで数週間〜数ヶ月との警告もあり、AIの攻撃的能力の急速な進化が業界に衝撃を与えている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="vulnerability"/>
+    <category term="model-safety"/>
+    <category term="agent-security"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident</title>
+    <link href="https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html" rel="alternate"/>
+    <id>urn:ai-security-digest:58fb044e431d1978</id>
+    <published>2026-04-13T06:50:00Z</published>
+    <updated>2026-04-13T06:50:00Z</updated>
+    <content type="html">&lt;p&gt;記事[3]と同一インシデントをThe Hacker Newsが報道。OpenAIはmacOSアプリ署名に使用するGitHub Actionsワークフローが3月31日に悪意あるAxiosライブラリをダウンロードしたことを認め、証明書を失効・再発行した。ユーザーデータへの侵害はなかったと説明している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="vulnerability"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Self-Sovereign Agent</title>
+    <link href="https://arxiv.org/abs/2604.08551" rel="alternate"/>
+    <id>urn:ai-security-digest:7b50e1a9c60d3a48</id>
+    <published>2026-04-13T04:00:00Z</published>
+    <updated>2026-04-13T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;人間の関与なしに自律的に経済的持続・拡張が可能な「自己主権エージェント」の可能性を分析した研究。LLMとエージェントフレームワークの進化により、開発者制御ツールからより自律的なデジタルアクターへの移行リスクと技術的障壁を検討している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="governance"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Semantic Intent Fragmentation: A Single-Shot Compositional Attack on Multi-Agent AI Pipelines</title>
+    <link href="https://arxiv.org/abs/2604.08608" rel="alternate"/>
+    <id>urn:ai-security-digest:05b48d37c8a4f339</id>
+    <published>2026-04-13T04:00:00Z</published>
+    <updated>2026-04-13T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;マルチエージェントAIパイプラインに対する新たな攻撃クラス「Semantic Intent Fragmentation（SIF）」を提案した研究。単一の正当に見えるリクエストがオーケストレーターによってサブタスクに分解される際、各サブタスクは無害でも全体としてセキュリティポリシーを違反する構成的攻撃手法であり、現行の安全機構を回避できる点が重大な脅威となる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="agent-security"/>
+    <category term="vulnerability"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

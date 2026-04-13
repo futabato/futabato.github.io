@@ -51,19 +51,64 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年04月13日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">1件</span>
+    <span class="current-date" id="current-date">2026年04月14日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">6件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>04/12</time>
+            <time>04/13</time>
+            <span class="source">arXiv</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2604.05589" target="_blank" rel="noopener">[2604.05589] Foundations for Agentic AI Investigations from the Forensic Analysis of OpenClaw — https://github.com/jgru/forensic-analysis-of-openclaw</a></h3>
+          <p>本論文は、エージェント型AIシステムの法科学的調査（フォレンジック分析）の基盤を構築することを目的としており、OpenClawと呼ばれるエージェントAIフレームワークの分析を通じてその手法を検討している。エージェントAIが自律的に行動する環境において、インシデント調査や証拠収集に必要な技術的基礎を提供することを目指している。GitHubリポジトリ（jgru/forensic-analysis-of-openclaw）も公開されており、実践的なツールや分析手法の共有も行われている。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">tool</span> <span class="tag">incident</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>04/13</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/critical-marimo-pre-auth-rce-flaw-now-under-active-exploitation/" target="_blank" rel="noopener">Critical Marimo pre-auth RCE flaw now under active exploitation</a></h3>
-          <p>PythonベースのリアクティブノートブックフレームワークであるMarimoに、認証不要でリモートコード実行が可能な深刻な脆弱性が発見され、現在活発に悪用されている。この脆弱性はクレデンシャル窃取に利用されており、AIや機械学習の開発環境として広く使われるツールへの攻撃として注目される。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">incident</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/openai-rotates-macos-certs-after-axios-attack-hit-code-signing-workflow/" target="_blank" rel="noopener">OpenAI rotates macOS certs after Axios attack hit code-signing workflow</a></h3>
+          <p>OpenAIはGitHub Actionsのワークフローが悪意あるAxiosパッケージを実行するサプライチェーン攻撃を受け、macOSアプリのコード署名証明書を更新・ローテーションした。ユーザーデータや内部システムへの影響はなかったとしているが、AI企業のソフトウェア開発パイプラインを狙った攻撃として注目される。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>04/13</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/04/your-mttd-looks-great-your-post-alert.html" target="_blank" rel="noopener">Your MTTD Looks Great. Your Post-Alert Gap Doesn&#x27;t</a></h3>
+          <p>AnthropicのMythosプレビューモデルが全主要OSとブラウザのゼロデイ脆弱性を自律的に発見・悪用したため、Anthropicは同モデルを制限した。類似能力の普及まで数週間〜数ヶ月との警告もあり、AIの攻撃的能力の急速な進化が業界に衝撃を与えている。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span> <span class="tag">model-safety</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>04/13</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/04/openai-revokes-macos-app-certificate.html" target="_blank" rel="noopener">OpenAI Revokes macOS App Certificate After Malicious Axios Supply Chain Incident</a></h3>
+          <p>記事[3]と同一インシデントをThe Hacker Newsが報道。OpenAIはmacOSアプリ署名に使用するGitHub Actionsワークフローが3月31日に悪意あるAxiosライブラリをダウンロードしたことを認め、証明書を失効・再発行した。ユーザーデータへの侵害はなかったと説明している。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>04/13</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2604.08551" target="_blank" rel="noopener">Self-Sovereign Agent</a></h3>
+          <p>人間の関与なしに自律的に経済的持続・拡張が可能な「自己主権エージェント」の可能性を分析した研究。LLMとエージェントフレームワークの進化により、開発者制御ツールからより自律的なデジタルアクターへの移行リスクと技術的障壁を検討している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>04/13</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2604.08608" target="_blank" rel="noopener">Semantic Intent Fragmentation: A Single-Shot Compositional Attack on Multi-Agent AI Pipelines</a></h3>
+          <p>マルチエージェントAIパイプラインに対する新たな攻撃クラス「Semantic Intent Fragmentation（SIF）」を提案した研究。単一の正当に見えるリクエストがオーケストレーターによってサブタスクに分解される際、各サブタスクは無害でも全体としてセキュリティポリシーを違反する構成的攻撃手法であり、現行の安全機構を回避できる点が重大な脅威となる。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">agent-security</span> <span class="tag">vulnerability</span></div>
         </article>
   </main>
   <footer>
