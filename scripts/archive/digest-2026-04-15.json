@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Trusted access for the next era of cyber defense",
+    "link": "https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-14T21:23:59+00:00",
+    "summary_ja": "OpenAIがサイバー防衛向けに特化したモデル「GPT-5.4-Cyber」を発表した。防御的なサイバーセキュリティユースケースを支援するためにファインチューニングされており、Trusted Accessプログラムの拡張とともに、AIを活用したサイバー防御の新たな時代を切り開く取り組みとして注目される。",
+    "tags": [
+      "tool",
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "Cybersecurity Looks Like Proof of Work Now",
+    "link": "https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-14T19:41:48+00:00",
+    "summary_ja": "英国AI安全機関（AISI）がAnthropicのClaude Mythosのサイバー能力を独自評価し、セキュリティ脆弱性の発見において非常に高い有効性を確認した。使用トークン量（コスト）が増えるほど性能が向上するという経済的インセンティブ構造が明らかになり、AIによるサイバーセキュリティの「プルーフ・オブ・ワーク」化が議論されている。",
+    "tags": [
+      "evaluation",
+      "model-safety",
+      "adversarial",
+      "research"
+    ]
+  },
+  {
+    "title": "AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud",
+    "link": "https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html",
+    "source": "The Hacker News",
+    "published": "2026-04-14T14:30:00+00:00",
+    "summary_ja": "AIが生成したコンテンツを悪用し、GoogleのDiscoverフィードに偽のニュース記事を流入させてスケアウェアや詐欺へ誘導する「Pushpaganda」と呼ばれる新たな広告詐欺キャンペーンが発覚した。SEOポイズニングとAI生成コンテンツを組み合わせた手口は、AIの悪用による新たな脅威ベクターとして警戒が必要だ。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "tool"
+    ]
+  },
+  {
+    "title": "Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)",
+    "link": "https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html",
+    "source": "The Hacker News",
+    "published": "2026-04-14T10:00:00+00:00",
+    "summary_ja": "OX Securityが250組織・2億1600万件のセキュリティ調査結果を分析した結果、クリティカルリスクが前年比約400%増加していることが判明した。AI支援による開発速度の向上が高影響度の脆弱性密度を急増させる「velocity gap」を生み出しており、AIが開発・セキュリティ両面に与える影響が浮き彫りになった。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "ADAM: A Systematic Data Extraction Attack on Agent Memory via Adaptive Querying",
+    "link": "https://arxiv.org/abs/2604.09747",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-14T04:00:00+00:00",
+    "summary_ja": "LLMエージェントのメモリモジュールやRAGメカニズムを標的とした新たなデータ抽出攻撃手法「ADAM」が研究者により発表された。適応的クエリを通じてエージェントの記憶から機密情報を系統的に窃取できることが示され、LLMエージェントのプライバシーおよびセキュリティに対する重大な脆弱性として警鐘を鳴らしている。",
+    "tags": [
+      "research",
+      "agent-security",
+      "vulnerability",
+      "adversarial"
+    ]
+  }
+]
