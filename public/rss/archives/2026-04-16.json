@@ -1,0 +1,74 @@
+[
+  {
+    "title": "[2604.11790] ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection",
+    "link": "https://arxiv.org/abs/2604.11790",
+    "source": "arXiv",
+    "published": "2026-04-15T23:39:53.005295+00:00",
+    "summary_ja": "本論文では、ツール拡張型LLMエージェントを間接プロンプトインジェクション攻撃から保護するランタイムセキュリティフレームワーク「ClawGuard」を提案している。間接プロンプトインジェクションは、外部ツールや取得データを通じて悪意ある指示をエージェントに埋め込む攻撃手法であり、ClawGuardはその実行時検出・防御を目的としている。LLMエージェントの実用化が進む中で、ツール連携時のセキュリティリスクに対処する重要な研究である。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Incident response for AI: Same fire, different fuel",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-04-15T16:00:45+00:00",
+    "summary_ja": "AIの普及によりインシデントレスポンス（IR）の様相が変化していることを解説したMicrosoftのブログ記事。従来のIR手法が引き続き有効な部分と、AI固有のテレメトリ・ツール・スキルが新たに必要となる領域を整理し、AIシステムに対応したIRの実践的アプローチを提示している。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams",
+    "link": "https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html",
+    "source": "The Hacker News",
+    "published": "2026-04-15T04:30:00+00:00",
+    "summary_ja": "OpenAIが防御的サイバーセキュリティ用途に特化したモデル「GPT-5.4-Cyber」を発表した。セキュリティチームへの拡張アクセスを提供し、脅威の発見・修正を加速することを目的としており、Anthropicの新モデル「Mythos」公開直後のリリースとなっている。",
+    "tags": [
+      "tool",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents",
+    "link": "https://arxiv.org/abs/2604.11839",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-15T04:00:00+00:00",
+    "summary_ja": "自律型AIエージェントにおける「ケイパビリティ過剰プロビジョニング問題」を指摘した研究論文。タスクの種類に関わらず全ツールへのアクセスが許可されるデフォルト設定（15倍の過剰付与）を問題視し、静的サンドボックスを超えた動的なケイパビリティガバナンスアーキテクチャを提案している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "SIR-Bench: Evaluating Investigation Depth in Security Incident Response Agents",
+    "link": "https://arxiv.org/abs/2604.12040",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-15T04:00:00+00:00",
+    "summary_ja": "自律型セキュリティインシデントレスポンスエージェントを評価するベンチマーク「SIR-Bench」を提案した研究論文。794件のテストケースを用い、単なるアラートの繰り返しではなく実際の法科学的調査能力を測定できる設計となっており、AIエージェントの実用的な評価基盤を提供する。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Can we Watermark Low-Entropy LLM Outputs?",
+    "link": "https://arxiv.org/abs/2604.12051",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-15T04:00:00+00:00",
+    "summary_ja": "低エントロピーなLLM出力に対する証明可能な透かし（ウォーターマーク）技術を研究した論文。出力分布を変えずにウォーターマークを埋め込む「検出不可能な透かし」スキームを検討し、攻撃者による除去に対する耐性を理論的に分析している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "adversarial"
+    ]
+  }
+]

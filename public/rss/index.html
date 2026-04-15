@@ -51,55 +51,64 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年04月15日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年04月16日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">6件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>04/14</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
+            <time>04/15</time>
+            <span class="source">arXiv</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Apr/14/trusted-access-openai/#atom-everything" target="_blank" rel="noopener">Trusted access for the next era of cyber defense</a></h3>
-          <p>OpenAIがサイバー防衛向けに特化したモデル「GPT-5.4-Cyber」を発表した。防御的なサイバーセキュリティユースケースを支援するためにファインチューニングされており、Trusted Accessプログラムの拡張とともに、AIを活用したサイバー防御の新たな時代を切り開く取り組みとして注目される。</p>
-          <div class="tags"><span class="tag">tool</span> <span class="tag">model-safety</span> <span class="tag">governance</span></div>
+          <h3><a href="https://arxiv.org/abs/2604.11790" target="_blank" rel="noopener">[2604.11790] ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection</a></h3>
+          <p>本論文では、ツール拡張型LLMエージェントを間接プロンプトインジェクション攻撃から保護するランタイムセキュリティフレームワーク「ClawGuard」を提案している。間接プロンプトインジェクションは、外部ツールや取得データを通じて悪意ある指示をエージェントに埋め込む攻撃手法であり、ClawGuardはその実行時検出・防御を目的としている。LLMエージェントの実用化が進む中で、ツール連携時のセキュリティリスクに対処する重要な研究である。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">vulnerability</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/14</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
+            <time>04/15</time>
+            <span class="source">Microsoft Security Blog</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Apr/14/cybersecurity-proof-of-work/#atom-everything" target="_blank" rel="noopener">Cybersecurity Looks Like Proof of Work Now</a></h3>
-          <p>英国AI安全機関（AISI）がAnthropicのClaude Mythosのサイバー能力を独自評価し、セキュリティ脆弱性の発見において非常に高い有効性を確認した。使用トークン量（コスト）が増えるほど性能が向上するという経済的インセンティブ構造が明らかになり、AIによるサイバーセキュリティの「プルーフ・オブ・ワーク」化が議論されている。</p>
-          <div class="tags"><span class="tag">evaluation</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span> <span class="tag">research</span></div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/" target="_blank" rel="noopener">Incident response for AI: Same fire, different fuel</a></h3>
+          <p>AIの普及によりインシデントレスポンス（IR）の様相が変化していることを解説したMicrosoftのブログ記事。従来のIR手法が引き続き有効な部分と、AI固有のテレメトリ・ツール・スキルが新たに必要となる領域を整理し、AIシステムに対応したIRの実践的アプローチを提示している。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">tool</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/14</time>
+            <time>04/15</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/04/ai-driven-pushpaganda-scam-exploits.html" target="_blank" rel="noopener">AI-Driven Pushpaganda Scam Exploits Google Discover to Spread Scareware and Ad Fraud</a></h3>
-          <p>AIが生成したコンテンツを悪用し、GoogleのDiscoverフィードに偽のニュース記事を流入させてスケアウェアや詐欺へ誘導する「Pushpaganda」と呼ばれる新たな広告詐欺キャンペーンが発覚した。SEOポイズニングとAI生成コンテンツを組み合わせた手口は、AIの悪用による新たな脅威ベクターとして警戒が必要だ。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">tool</span></div>
+          <h3><a href="https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html" target="_blank" rel="noopener">OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams</a></h3>
+          <p>OpenAIが防御的サイバーセキュリティ用途に特化したモデル「GPT-5.4-Cyber」を発表した。セキュリティチームへの拡張アクセスを提供し、脅威の発見・修正を加速することを目的としており、Anthropicの新モデル「Mythos」公開直後のリリースとなっている。</p>
+          <div class="tags"><span class="tag">tool</span> <span class="tag">model-safety</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/14</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/04/analysis-of-216m-security-findings.html" target="_blank" rel="noopener">Analysis of 216M Security Findings Shows a 4x Increase In Critical Risk (2026 Report)</a></h3>
-          <p>OX Securityが250組織・2億1600万件のセキュリティ調査結果を分析した結果、クリティカルリスクが前年比約400%増加していることが判明した。AI支援による開発速度の向上が高影響度の脆弱性密度を急増させる「velocity gap」を生み出しており、AIが開発・セキュリティ両面に与える影響が浮き彫りになった。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>04/14</time>
+            <time>04/15</time>
             <span class="source">arXiv cs.CR (Cryptography and Security)</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.09747" target="_blank" rel="noopener">ADAM: A Systematic Data Extraction Attack on Agent Memory via Adaptive Querying</a></h3>
-          <p>LLMエージェントのメモリモジュールやRAGメカニズムを標的とした新たなデータ抽出攻撃手法「ADAM」が研究者により発表された。適応的クエリを通じてエージェントの記憶から機密情報を系統的に窃取できることが示され、LLMエージェントのプライバシーおよびセキュリティに対する重大な脆弱性として警鐘を鳴らしている。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://arxiv.org/abs/2604.11839" target="_blank" rel="noopener">Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents</a></h3>
+          <p>自律型AIエージェントにおける「ケイパビリティ過剰プロビジョニング問題」を指摘した研究論文。タスクの種類に関わらず全ツールへのアクセスが許可されるデフォルト設定（15倍の過剰付与）を問題視し、静的サンドボックスを超えた動的なケイパビリティガバナンスアーキテクチャを提案している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">vulnerability</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>04/15</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2604.12040" target="_blank" rel="noopener">SIR-Bench: Evaluating Investigation Depth in Security Incident Response Agents</a></h3>
+          <p>自律型セキュリティインシデントレスポンスエージェントを評価するベンチマーク「SIR-Bench」を提案した研究論文。794件のテストケースを用い、単なるアラートの繰り返しではなく実際の法科学的調査能力を測定できる設計となっており、AIエージェントの実用的な評価基盤を提供する。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>04/15</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2604.12051" target="_blank" rel="noopener">Can we Watermark Low-Entropy LLM Outputs?</a></h3>
+          <p>低エントロピーなLLM出力に対する証明可能な透かし（ウォーターマーク）技術を研究した論文。出力分布を変えずにウォーターマークを埋め込む「検出不可能な透かし」スキームを検討し、攻撃者による除去に対する耐性を理論的に分析している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
         </article>
   </main>
   <footer>
