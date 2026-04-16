@@ -1,0 +1,58 @@
+[
+  {
+    "title": "llm-anthropic 0.25",
+    "link": "https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-16T20:37:12+00:00",
+    "summary_ja": "AnthropicのLLMプラグイン「llm-anthropic」のバージョン0.25がリリースされ、新モデルclaude-opus-4.7への対応や拡張思考（thinking）機能の強化が含まれる。AIツールのアップデートとして、エージェント利用環境におけるモデル設定・制御の変化を把握する上で参考となる情報。",
+    "tags": [
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Google expands Gemini AI use to fight malicious ads on its platform",
+    "link": "https://www.bleepingcomputer.com/news/google/google-expands-gemini-ai-use-to-fight-malicious-ads-on-its-platform/",
+    "source": "Bleeping Computer",
+    "published": "2026-04-16T15:24:14+00:00",
+    "summary_ja": "GoogleがGemini AIモデルを活用して、広告プラットフォーム上の悪意ある広告の検出・ブロックを強化していると発表した。詐欺師や脅威アクターが検出回避のための手口を進化させる中、AIによる防御の応用事例として重要な動向である。",
+    "tags": [
+      "tool",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Dissecting Sapphire Sleet’s macOS intrusion from lure to compromise",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-04-16T15:00:00+00:00",
+    "summary_ja": "Microsoftのセキュリティ研究チームが、北朝鮮の脅威アクター「Sapphire Sleet」によるmacOSへの高度な侵入キャンペーンを詳細に分析した。ソーシャルエンジニアリングとユーザー操作を悪用してmacOSのセキュリティ保護を回避し、資格情報や暗号資産を窃取する手口が明らかにされている。",
+    "tags": [
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "New ATHR vishing platform uses AI voice agents for automated attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-04-16T14:09:11+00:00",
+    "summary_ja": "ATHRと呼ばれる新たなサイバー犯罪プラットフォームが、AIボイスエージェントを活用した完全自動化の音声フィッシング（ビッシング）攻撃を実行可能にしている。人間のオペレーターとAIエージェントを組み合わせたソーシャルエンジニアリングにより、資格情報を自動的に窃取する。AIを攻撃インフラに組み込んだ新しい脅威モデルとして注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment",
+    "link": "https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html",
+    "source": "The Hacker News",
+    "published": "2026-04-16T11:55:00+00:00",
+    "summary_ja": "2024年のクラウド侵害の68%が、サービスアカウントや忘れられたAPIキーなど管理されていない非人間IDによるものだったと報告されている。AIエージェント接続やOAuthグラントを含む大量の自動化資格情報が放置されるリスクを指摘し、その検出・排除の重要性を訴えるウェビナーの案内。",
+    "tags": [
+      "agent-security",
+      "vulnerability"
+    ]
+  }
+]

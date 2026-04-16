@@ -51,64 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年04月16日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">6件</span>
+    <span class="current-date" id="current-date">2026年04月17日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>04/15</time>
-            <span class="source">arXiv</span>
+            <time>04/16</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.11790" target="_blank" rel="noopener">[2604.11790] ClawGuard: A Runtime Security Framework for Tool-Augmented LLM Agents Against Indirect Prompt Injection</a></h3>
-          <p>本論文では、ツール拡張型LLMエージェントを間接プロンプトインジェクション攻撃から保護するランタイムセキュリティフレームワーク「ClawGuard」を提案している。間接プロンプトインジェクションは、外部ツールや取得データを通じて悪意ある指示をエージェントに埋め込む攻撃手法であり、ClawGuardはその実行時検出・防御を目的としている。LLMエージェントの実用化が進む中で、ツール連携時のセキュリティリスクに対処する重要な研究である。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">vulnerability</span></div>
+          <h3><a href="https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything" target="_blank" rel="noopener">llm-anthropic 0.25</a></h3>
+          <p>AnthropicのLLMプラグイン「llm-anthropic」のバージョン0.25がリリースされ、新モデルclaude-opus-4.7への対応や拡張思考（thinking）機能の強化が含まれる。AIツールのアップデートとして、エージェント利用環境におけるモデル設定・制御の変化を把握する上で参考となる情報。</p>
+          <div class="tags"><span class="tag">tool</span> <span class="tag">agent-security</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/15</time>
-            <span class="source">Microsoft Security Blog</span>
+            <time>04/16</time>
+            <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/" target="_blank" rel="noopener">Incident response for AI: Same fire, different fuel</a></h3>
-          <p>AIの普及によりインシデントレスポンス（IR）の様相が変化していることを解説したMicrosoftのブログ記事。従来のIR手法が引き続き有効な部分と、AI固有のテレメトリ・ツール・スキルが新たに必要となる領域を整理し、AIシステムに対応したIRの実践的アプローチを提示している。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">tool</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>04/15</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/04/openai-launches-gpt-54-cyber-with.html" target="_blank" rel="noopener">OpenAI Launches GPT-5.4-Cyber with Expanded Access for Security Teams</a></h3>
-          <p>OpenAIが防御的サイバーセキュリティ用途に特化したモデル「GPT-5.4-Cyber」を発表した。セキュリティチームへの拡張アクセスを提供し、脅威の発見・修正を加速することを目的としており、Anthropicの新モデル「Mythos」公開直後のリリースとなっている。</p>
+          <h3><a href="https://www.bleepingcomputer.com/news/google/google-expands-gemini-ai-use-to-fight-malicious-ads-on-its-platform/" target="_blank" rel="noopener">Google expands Gemini AI use to fight malicious ads on its platform</a></h3>
+          <p>GoogleがGemini AIモデルを活用して、広告プラットフォーム上の悪意ある広告の検出・ブロックを強化していると発表した。詐欺師や脅威アクターが検出回避のための手口を進化させる中、AIによる防御の応用事例として重要な動向である。</p>
           <div class="tags"><span class="tag">tool</span> <span class="tag">model-safety</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/15</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>04/16</time>
+            <span class="source">Microsoft Security Blog</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.11839" target="_blank" rel="noopener">Beyond Static Sandboxing: Learned Capability Governance for Autonomous AI Agents</a></h3>
-          <p>自律型AIエージェントにおける「ケイパビリティ過剰プロビジョニング問題」を指摘した研究論文。タスクの種類に関わらず全ツールへのアクセスが許可されるデフォルト設定（15倍の過剰付与）を問題視し、静的サンドボックスを超えた動的なケイパビリティガバナンスアーキテクチャを提案している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">vulnerability</span></div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/" target="_blank" rel="noopener">Dissecting Sapphire Sleet’s macOS intrusion from lure to compromise</a></h3>
+          <p>Microsoftのセキュリティ研究チームが、北朝鮮の脅威アクター「Sapphire Sleet」によるmacOSへの高度な侵入キャンペーンを詳細に分析した。ソーシャルエンジニアリングとユーザー操作を悪用してmacOSのセキュリティ保護を回避し、資格情報や暗号資産を窃取する手口が明らかにされている。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/15</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>04/16</time>
+            <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.12040" target="_blank" rel="noopener">SIR-Bench: Evaluating Investigation Depth in Security Incident Response Agents</a></h3>
-          <p>自律型セキュリティインシデントレスポンスエージェントを評価するベンチマーク「SIR-Bench」を提案した研究論文。794件のテストケースを用い、単なるアラートの繰り返しではなく実際の法科学的調査能力を測定できる設計となっており、AIエージェントの実用的な評価基盤を提供する。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">agent-security</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/" target="_blank" rel="noopener">New ATHR vishing platform uses AI voice agents for automated attacks</a></h3>
+          <p>ATHRと呼ばれる新たなサイバー犯罪プラットフォームが、AIボイスエージェントを活用した完全自動化の音声フィッシング（ビッシング）攻撃を実行可能にしている。人間のオペレーターとAIエージェントを組み合わせたソーシャルエンジニアリングにより、資格情報を自動的に窃取する。AIを攻撃インフラに組み込んだ新しい脅威モデルとして注目される。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/15</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>04/16</time>
+            <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.12051" target="_blank" rel="noopener">Can we Watermark Low-Entropy LLM Outputs?</a></h3>
-          <p>低エントロピーなLLM出力に対する証明可能な透かし（ウォーターマーク）技術を研究した論文。出力分布を変えずにウォーターマークを埋め込む「検出不可能な透かし」スキームを検討し、攻撃者による除去に対する耐性を理論的に分析している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" target="_blank" rel="noopener">[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment</a></h3>
+          <p>2024年のクラウド侵害の68%が、サービスアカウントや忘れられたAPIキーなど管理されていない非人間IDによるものだったと報告されている。AIエージェント接続やOAuthグラントを含む大量の自動化資格情報が放置されるリスクを指摘し、その検出・排除の重要性を訴えるウェビナーの案内。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">vulnerability</span></div>
         </article>
   </main>
   <footer>
