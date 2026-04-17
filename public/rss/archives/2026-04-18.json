@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Challenges and Future Directions in Agentic Reverse Engineering Systems",
+    "link": "https://arxiv.org/abs/2604.14317",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-17T04:00:00+00:00",
+    "summary_ja": "LLMをベースとしたエージェントシステムがバイナリのリバースエンジニアリングなど複雑なセキュリティタスクに活用されているが、難読化・タイミング・独自アーキテクチャを含む現実的なシナリオでは依然として限界があることを論じた研究。エージェント型セキュリティシステムの課題と今後の方向性を体系的に整理している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Robustness Analysis of Machine Learning Models for IoT Intrusion Detection Under Data Poisoning Attacks",
+    "link": "https://arxiv.org/abs/2604.14444",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-17T04:00:00+00:00",
+    "summary_ja": "IoT環境における機械学習ベースの侵入検知システムがデータポイズニング攻撃に対してどれほど脆弱かを評価した研究。ランダムフォレスト、勾配ブースティング、ロジスティック回帰、深層ニューラルネットワークの4種類の分類器を複数のポイズニング手法で検証し、モデルの堅牢性を分析している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "evaluation",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "NeuroTrace: Inference Provenance-Based Detection of Adversarial Examples",
+    "link": "https://arxiv.org/abs/2604.14457",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-17T04:00:00+00:00",
+    "summary_ja": "深層ニューラルネットワーク（DNN）における敵対的サンプルの検出を目的とした新フレームワーク「NeuroTrace」を提案した研究。推論時のクロスレイヤー情報フローと実行構造を活用することで、既存の層ローカル信号に依存した手法では捉えきれない悪意ある入力操作を検知する手法を提示している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety",
+      "tool"
+    ]
+  },
+  {
+    "title": "CBCL: Safe Self-Extending Agent Communication",
+    "link": "https://arxiv.org/abs/2604.14512",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-17T04:00:00+00:00",
+    "summary_ja": "異種エージェント間の通信を安全に拡張するエージェント通信言語「CBCL」を提案した研究。実行時の言語拡張を含むすべてのメッセージを検証可能な複雑度クラスに制約することで、表現力と安全性を両立するエージェント通信の安全設計を実現している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Anomaly Detection in IEC-61850 GOOSE Networks: Evaluating Unsupervised and Temporal Learning for Real-Time Intrusion Detection",
+    "link": "https://arxiv.org/abs/2604.14233",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-17T04:00:00+00:00",
+    "summary_ja": "スマートグリッドの変電所で使用されるIEC-61850 GOOSEプロトコルにおける異常検知を、教師なし学習と時系列モデリングで実現する手法を評価した研究。リプレイ攻撃や偽装攻撃などに対し、4ms以下の厳格な遅延制約下でリアルタイム侵入検知が可能かを検証している。",
+    "tags": [
+      "research",
+      "evaluation",
+      "adversarial"
+    ]
+  }
+]

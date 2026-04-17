@@ -3,76 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-16T23:38:01Z</updated>
+  <updated>2026-04-17T23:37:01Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>llm-anthropic 0.25</title>
-    <link href="https://simonwillison.net/2026/Apr/16/llm-anthropic/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:e68bca815842db18</id>
-    <published>2026-04-16T20:37:12Z</published>
-    <updated>2026-04-16T20:37:12Z</updated>
-    <content type="html">&lt;p&gt;AnthropicのLLMプラグイン「llm-anthropic」のバージョン0.25がリリースされ、新モデルclaude-opus-4.7への対応や拡張思考（thinking）機能の強化が含まれる。AIツールのアップデートとして、エージェント利用環境におけるモデル設定・制御の変化を把握する上で参考となる情報。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
+    <title>Challenges and Future Directions in Agentic Reverse Engineering Systems</title>
+    <link href="https://arxiv.org/abs/2604.14317" rel="alternate"/>
+    <id>urn:ai-security-digest:9b0818ddf29d7274</id>
+    <published>2026-04-17T04:00:00Z</published>
+    <updated>2026-04-17T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMをベースとしたエージェントシステムがバイナリのリバースエンジニアリングなど複雑なセキュリティタスクに活用されているが、難読化・タイミング・独自アーキテクチャを含む現実的なシナリオでは依然として限界があることを論じた研究。エージェント型セキュリティシステムの課題と今後の方向性を体系的に整理している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="agent-security"/>
+    <category term="evaluation"/>
     <source>
-      <title>Simon Willison's Weblog</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>Google expands Gemini AI use to fight malicious ads on its platform</title>
-    <link href="https://www.bleepingcomputer.com/news/google/google-expands-gemini-ai-use-to-fight-malicious-ads-on-its-platform/" rel="alternate"/>
-    <id>urn:ai-security-digest:7e0c95d6ead8f2be</id>
-    <published>2026-04-16T15:24:14Z</published>
-    <updated>2026-04-16T15:24:14Z</updated>
-    <content type="html">&lt;p&gt;GoogleがGemini AIモデルを活用して、広告プラットフォーム上の悪意ある広告の検出・ブロックを強化していると発表した。詐欺師や脅威アクターが検出回避のための手口を進化させる中、AIによる防御の応用事例として重要な動向である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="model-safety"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Dissecting Sapphire Sleet’s macOS intrusion from lure to compromise</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/04/16/dissecting-sapphire-sleets-macos-intrusion-from-lure-to-compromise/" rel="alternate"/>
-    <id>urn:ai-security-digest:7fd226ac04a75770</id>
-    <published>2026-04-16T15:00:00Z</published>
-    <updated>2026-04-16T15:00:00Z</updated>
-    <content type="html">&lt;p&gt;Microsoftのセキュリティ研究チームが、北朝鮮の脅威アクター「Sapphire Sleet」によるmacOSへの高度な侵入キャンペーンを詳細に分析した。ソーシャルエンジニアリングとユーザー操作を悪用してmacOSのセキュリティ保護を回避し、資格情報や暗号資産を窃取する手口が明らかにされている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
+    <title>Robustness Analysis of Machine Learning Models for IoT Intrusion Detection Under Data Poisoning Attacks</title>
+    <link href="https://arxiv.org/abs/2604.14444" rel="alternate"/>
+    <id>urn:ai-security-digest:f72a14b02fec9ab7</id>
+    <published>2026-04-17T04:00:00Z</published>
+    <updated>2026-04-17T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;IoT環境における機械学習ベースの侵入検知システムがデータポイズニング攻撃に対してどれほど脆弱かを評価した研究。ランダムフォレスト、勾配ブースティング、ロジスティック回帰、深層ニューラルネットワークの4種類の分類器を複数のポイズニング手法で検証し、モデルの堅牢性を分析している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="adversarial"/>
-    <source>
-      <title>Microsoft Security Blog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>New ATHR vishing platform uses AI voice agents for automated attacks</title>
-    <link href="https://www.bleepingcomputer.com/news/security/new-athr-vishing-platform-uses-ai-voice-agents-for-automated-attacks/" rel="alternate"/>
-    <id>urn:ai-security-digest:fe558fe7481c9a16</id>
-    <published>2026-04-16T14:09:11Z</published>
-    <updated>2026-04-16T14:09:11Z</updated>
-    <content type="html">&lt;p&gt;ATHRと呼ばれる新たなサイバー犯罪プラットフォームが、AIボイスエージェントを活用した完全自動化の音声フィッシング（ビッシング）攻撃を実行可能にしている。人間のオペレーターとAIエージェントを組み合わせたソーシャルエンジニアリングにより、資格情報を自動的に窃取する。AIを攻撃インフラに組み込んだ新しい脅威モデルとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>[Webinar] Find and Eliminate Orphaned Non-Human Identities in Your Environment</title>
-    <link href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" rel="alternate"/>
-    <id>urn:ai-security-digest:03d03a98cd841106</id>
-    <published>2026-04-16T11:55:00Z</published>
-    <updated>2026-04-16T11:55:00Z</updated>
-    <content type="html">&lt;p&gt;2024年のクラウド侵害の68%が、サービスアカウントや忘れられたAPIキーなど管理されていない非人間IDによるものだったと報告されている。AIエージェント接続やOAuthグラントを含む大量の自動化資格情報が放置されるリスクを指摘し、その検出・排除の重要性を訴えるウェビナーの案内。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
+    <category term="evaluation"/>
     <category term="vulnerability"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>NeuroTrace: Inference Provenance-Based Detection of Adversarial Examples</title>
+    <link href="https://arxiv.org/abs/2604.14457" rel="alternate"/>
+    <id>urn:ai-security-digest:e990979d66b484d2</id>
+    <published>2026-04-17T04:00:00Z</published>
+    <updated>2026-04-17T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;深層ニューラルネットワーク（DNN）における敵対的サンプルの検出を目的とした新フレームワーク「NeuroTrace」を提案した研究。推論時のクロスレイヤー情報フローと実行構造を活用することで、既存の層ローカル信号に依存した手法では捉えきれない悪意ある入力操作を検知する手法を提示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <category term="tool"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>CBCL: Safe Self-Extending Agent Communication</title>
+    <link href="https://arxiv.org/abs/2604.14512" rel="alternate"/>
+    <id>urn:ai-security-digest:0029ea0df6d394ab</id>
+    <published>2026-04-17T04:00:00Z</published>
+    <updated>2026-04-17T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;異種エージェント間の通信を安全に拡張するエージェント通信言語「CBCL」を提案した研究。実行時の言語拡張を含むすべてのメッセージを検証可能な複雑度クラスに制約することで、表現力と安全性を両立するエージェント通信の安全設計を実現している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Anomaly Detection in IEC-61850 GOOSE Networks: Evaluating Unsupervised and Temporal Learning for Real-Time Intrusion Detection</title>
+    <link href="https://arxiv.org/abs/2604.14233" rel="alternate"/>
+    <id>urn:ai-security-digest:934f97d0abc26cac</id>
+    <published>2026-04-17T04:00:00Z</published>
+    <updated>2026-04-17T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;スマートグリッドの変電所で使用されるIEC-61850 GOOSEプロトコルにおける異常検知を、教師なし学習と時系列モデリングで実現する手法を評価した研究。リプレイ攻撃や偽装攻撃などに対し、4ms以下の厳格な遅延制約下でリアルタイム侵入検知が可能かを検証している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>
