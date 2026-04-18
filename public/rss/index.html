@@ -51,55 +51,46 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年04月18日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年04月19日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">4件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>04/17</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>04/18</time>
+            <span class="source">schneier.com</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.14317" target="_blank" rel="noopener">Challenges and Future Directions in Agentic Reverse Engineering Systems</a></h3>
-          <p>LLMをベースとしたエージェントシステムがバイナリのリバースエンジニアリングなど複雑なセキュリティタスクに活用されているが、難読化・タイミング・独自アーキテクチャを含む現実的なシナリオでは依然として限界があることを論じた研究。エージェント型セキュリティシステムの課題と今後の方向性を体系的に整理している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">evaluation</span></div>
+          <h3><a href="https://www.schneier.com/blog/archives/2026/04/mythos-and-cybersecurity.html" target="_blank" rel="noopener">Mythos and Cybersecurity - Schneier on Security</a></h3>
+          <p>Anthropicはソフトウェアの脆弱性発見・悪用に非常に高い能力を持つAIモデル「Claude Mythos Preview」を発表したが、危険性が高いとして一般公開を見送った。代わりに「Project Glasswing」と呼ばれる取り組みのもと、Microsoft、Apple、AWSなどの重要インフラ関連の約50組織に限定してアクセスを提供している。Schneierのブログはこの発表に伴う懸念事項について取り上げている。</p>
+          <div class="tags"><span class="tag">model-safety</span> <span class="tag">vulnerability</span> <span class="tag">governance</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/17</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>04/18</time>
+            <span class="source">Microsoft Security Blog</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.14444" target="_blank" rel="noopener">Robustness Analysis of Machine Learning Models for IoT Intrusion Detection Under Data Poisoning Attacks</a></h3>
-          <p>IoT環境における機械学習ベースの侵入検知システムがデータポイズニング攻撃に対してどれほど脆弱かを評価した研究。ランダムフォレスト、勾配ブースティング、ロジスティック回帰、深層ニューラルネットワークの4種類の分類器を複数のポイズニング手法で検証し、モデルの堅牢性を分析している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">evaluation</span> <span class="tag">vulnerability</span></div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/04/18/crosstenant-helpdesk-impersonation-data-exfiltration-human-operated-intrusion-playbook/" target="_blank" rel="noopener">Cross‑tenant helpdesk impersonation to data exfiltration: A human-operated intrusion playbook</a></h3>
+          <p>脅威アクターがMicrosoft Teamsの外部コラボレーション機能を悪用し、ITヘルプデスクスタッフになりすましてユーザーにリモートアクセスを許可させる攻撃手法が確認された。攻撃者は正規ツールや標準的な管理プロトコルを利用して横断移動とデータ窃取を行い、通常のITサポート活動を装う。Microsoft Defenderがこの活動をTeams・エンドポイント・IDテレメトリにわたって検出する手法が解説されている。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/17</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>04/18</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.14457" target="_blank" rel="noopener">NeuroTrace: Inference Provenance-Based Detection of Adversarial Examples</a></h3>
-          <p>深層ニューラルネットワーク（DNN）における敵対的サンプルの検出を目的とした新フレームワーク「NeuroTrace」を提案した研究。推論時のクロスレイヤー情報フローと実行構造を活用することで、既存の層ローカル信号に依存した手法では捉えきれない悪意ある入力操作を検知する手法を提示している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span> <span class="tag">tool</span></div>
+          <h3><a href="https://simonwillison.net/2026/Apr/18/extract-system-prompts/#atom-everything" target="_blank" rel="noopener">Claude system prompts as a git timeline</a></h3>
+          <p>AnthropicがClaudeのシステムプロンプトを公開しており、研究者がそのページをモデルごとに分割したファイルとしてGitのコミット履歴形式に変換する取り組みが紹介されている。これにより、Claudeのシステムプロンプトの変遷をGitHubのコミットビューで時系列に追跡できるようになった。LLMの安全性設計や指示内容の透明性に関心を持つ研究者にとって有益なツールである。</p>
+          <div class="tags"><span class="tag">tool</span> <span class="tag">model-safety</span> <span class="tag">research</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>04/17</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>04/18</time>
+            <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2604.14512" target="_blank" rel="noopener">CBCL: Safe Self-Extending Agent Communication</a></h3>
-          <p>異種エージェント間の通信を安全に拡張するエージェント通信言語「CBCL」を提案した研究。実行時の言語拡張を含むすべてのメッセージを検証可能な複雑度クラスに制約することで、表現力と安全性を両立するエージェント通信の安全設計を実現している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>04/17</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2604.14233" target="_blank" rel="noopener">Anomaly Detection in IEC-61850 GOOSE Networks: Evaluating Unsupervised and Temporal Learning for Real-Time Intrusion Detection</a></h3>
-          <p>スマートグリッドの変電所で使用されるIEC-61850 GOOSEプロトコルにおける異常検知を、教師なし学習と時系列モデリングで実現する手法を評価した研究。リプレイ攻撃や偽装攻撃などに対し、4ms以下の厳格な遅延制約下でリアルタイム侵入検知が可能かを検証している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://thehackernews.com/2026/04/webinar-find-and-eliminate-orphaned-non.html" target="_blank" rel="noopener">[Webinar] Eliminate Ghost Identities Before They Expose Your Enterprise Data</a></h3>
+          <p>2024年のクラウド侵害の68%が、サービスアカウントや忘れられたAPIキーなど管理されていない非人間アイデンティティに起因していたことが報告されている。組織内の従業員1人あたり40〜50件の自動化資格情報（AIエージェント接続やOAuthグラントを含む）が存在し、プロジェクト終了や退職後も放置されることが多い。こうした「ゴーストアイデンティティ」の特定と排除に関するウェビナーが案内されている。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">vulnerability</span> <span class="tag">governance</span></div>
         </article>
   </main>
   <footer>
