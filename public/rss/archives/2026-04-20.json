@@ -1,0 +1,35 @@
+[
+  {
+    "title": "BSides Tokyo",
+    "link": "https://bsides.tokyo/en/#schedule",
+    "source": "bsides.tokyo",
+    "published": "2026-04-19T23:33:53.612984+00:00",
+    "summary_ja": "「BSides Tokyo」は、東京で開催されるセキュリティコミュニティ主導のカンファレンスです。スケジュールページが公開されており、セキュリティ研究者や専門家による講演やセッションが予定されています。詳細なコンテンツの抜粋は提供されていませんが、情報セキュリティに関する幅広いトピックが扱われる見込みです。",
+    "tags": [
+      "vulnerability",
+      "research"
+    ]
+  },
+  {
+    "title": "GitHub - kyegomez/OpenMythos: A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature. · GitHub",
+    "link": "https://github.com/kyegomez/OpenMythos",
+    "source": "GitHub",
+    "published": "2026-04-19T23:33:53.192659+00:00",
+    "summary_ja": "「OpenMythos」は、Anthropicが開発したClaudeのMythosアーキテクチャを、公開されている研究文献をもとにゼロから理論的に再構築したプロジェクトです。GitHubユーザーkyegomezによって公開されており、Claudeの内部アーキテクチャの仕組みを推測・解明しようとする試みです。AIモデルのアーキテクチャ理解や透明性の向上に貢献することを目的としています。",
+    "tags": [
+      "research",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Headless everything for personal AI",
+    "link": "https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-19T21:46:38+00:00",
+    "summary_ja": "個人AIエージェントの普及に伴い、ヘッドレスサービス（APIベースのインターフェース）が主流になりつつあるというトレンドを解説。AIエージェントがGUIではなくAPIを通じてサービスを利用する形態が広がり、SalesforceなどもAPIファーストのアプローチを採用し始めている。エージェントのアクセス設計はセキュリティ観点からも重要な潮流となっている。",
+    "tags": [
+      "agent-security",
+      "tool"
+    ]
+  }
+]
