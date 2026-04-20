@@ -3,49 +3,107 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-19T23:34:00Z</updated>
+  <updated>2026-04-20T23:42:27Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>BSides Tokyo</title>
-    <link href="https://bsides.tokyo/en/#schedule" rel="alternate"/>
-    <id>urn:ai-security-digest:a2a9e8941d7f374f</id>
-    <published>2026-04-19T23:33:53Z</published>
-    <updated>2026-04-19T23:33:53Z</updated>
-    <content type="html">&lt;p&gt;「BSides Tokyo」は、東京で開催されるセキュリティコミュニティ主導のカンファレンスです。スケジュールページが公開されており、セキュリティ研究者や専門家による講演やセッションが予定されています。詳細なコンテンツの抜粋は提供されていませんが、情報セキュリティに関する幅広いトピックが扱われる見込みです。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; bsides.tokyo&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
+    <title>4社に1社が機密データの保護を社員の手作業に依存。ネクストモード、独自調査レポート「生成AI利用とセキュリティ統制の現在地」を公開。 | ネクストモード株式会社のプレスリリース</title>
+    <link href="https://prtimes.jp/main/html/rd/p/000000032.000078770.html" rel="alternate"/>
+    <id>urn:ai-security-digest:de05dedc978d5bd3</id>
+    <published>2026-04-20T23:42:22Z</published>
+    <updated>2026-04-20T23:42:22Z</updated>
+    <content type="html">&lt;p&gt;ネクストモード株式会社は、企業における生成AI利用とセキュリティ統制の実態を調査したレポートを公開した。調査によると、4社に1社が機密データの保護を社員の手作業に依存しており、組織的・技術的なセキュリティ統制が十分に整備されていない現状が明らかになった。生成AIの業務利用が拡大する中、データ保護体制の整備が急務であることを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; prtimes.jp&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="governance"/>
+    <category term="policy"/>
     <source>
-      <title>bsides.tokyo</title>
+      <title>prtimes.jp</title>
     </source>
   </entry>
   <entry>
-    <title>GitHub - kyegomez/OpenMythos: A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature. · GitHub</title>
-    <link href="https://github.com/kyegomez/OpenMythos" rel="alternate"/>
-    <id>urn:ai-security-digest:b67e452f3657ef19</id>
-    <published>2026-04-19T23:33:53Z</published>
-    <updated>2026-04-19T23:33:53Z</updated>
-    <content type="html">&lt;p&gt;「OpenMythos」は、Anthropicが開発したClaudeのMythosアーキテクチャを、公開されている研究文献をもとにゼロから理論的に再構築したプロジェクトです。GitHubユーザーkyegomezによって公開されており、Claudeの内部アーキテクチャの仕組みを推測・解明しようとする試みです。AIモデルのアーキテクチャ理解や透明性の向上に貢献することを目的としています。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; GitHub&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>https://x.com/i/status/2045989546014449794</title>
+    <link href="https://x.com/i/status/2045989546014449794" rel="alternate"/>
+    <id>urn:ai-security-digest:2c953ea5e77915db</id>
+    <published>2026-04-20T23:42:22Z</published>
+    <updated>2026-04-20T23:42:22Z</updated>
+    <content type="html">&lt;p&gt;このXの投稿についてはコンテンツの詳細が取得できないため、要約を提供することができません。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; X (Twitter)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</content>
+    <source>
+      <title>X (Twitter)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain</title>
+    <link href="https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html" rel="alternate"/>
+    <id>urn:ai-security-digest:79b5ec9293d536df</id>
+    <published>2026-04-20T10:42:00Z</published>
+    <updated>2026-04-20T10:42:00Z</updated>
+    <content type="html">&lt;p&gt;AnthropicのModel Context Protocol（MCP）のアーキテクチャに「設計上の欠陥」として機能するクリティカルな脆弱性が発見された。この欠陥により、脆弱なMCP実装を実行するシステム上でリモートコード実行（RCE）が可能となり、AIサプライチェーン全体に連鎖的な影響を与える可能性がある。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>LogJack: Indirect Prompt Injection Through Cloud Logs Against LLM Debugging Agents</title>
+    <link href="https://arxiv.org/abs/2604.15368" rel="alternate"/>
+    <id>urn:ai-security-digest:dd6577ad36e40253</id>
+    <published>2026-04-20T04:00:00Z</published>
+    <updated>2026-04-20T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;クラウドログを消費してコマンドを実行するLLMデバッグエージェントが、ログコンテンツを介した間接プロンプトインジェクション攻撃に脆弱であることを示す研究。「LogJack」と名付けられたベンチマークを構築し、8つの基盤モデルに対して5種類のクラウドログカテゴリにわたる42のペイロードで評価を実施した。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="adversarial"/>
+    <category term="agent-security"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>LinuxArena: A Control Setting for AI Agents in Live Production Software Environments</title>
+    <link href="https://arxiv.org/abs/2604.15384" rel="alternate"/>
+    <id>urn:ai-security-digest:48e03bb24ba4bdf3</id>
+    <published>2026-04-20T04:00:00Z</published>
+    <updated>2026-04-20T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;AIエージェントが実際の本番ソフトウェア環境で動作する際の安全性を評価するベンチマーク「LinuxArena」を紹介する研究。1,671件の正規タスクに加え、データ窃取やバックドア設置といった安全上の失敗を表す184件のサイドタスクを含み、エージェントの制御・安全性評価において最大規模の設定を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
+    <category term="agent-security"/>
     <category term="model-safety"/>
     <source>
-      <title>GitHub</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>Headless everything for personal AI</title>
-    <link href="https://simonwillison.net/2026/Apr/19/headless-everything/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:55e625e03c8e56a9</id>
-    <published>2026-04-19T21:46:38Z</published>
-    <updated>2026-04-19T21:46:38Z</updated>
-    <content type="html">&lt;p&gt;個人AIエージェントの普及に伴い、ヘッドレスサービス（APIベースのインターフェース）が主流になりつつあるというトレンドを解説。AIエージェントがGUIではなくAPIを通じてサービスを利用する形態が広がり、SalesforceなどもAPIファーストのアプローチを採用し始めている。エージェントのアクセス設計はセキュリティ観点からも重要な潮流となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>HarmfulSkillBench: How Do Harmful Skills Weaponize Your Agents?</title>
+    <link href="https://arxiv.org/abs/2604.15415" rel="alternate"/>
+    <id>urn:ai-security-digest:79eca0f9b5057aed</id>
+    <published>2026-04-20T04:00:00Z</published>
+    <updated>2026-04-20T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMエージェントが依存するオープンスキルエコシステム（ClawHubやSkills.Restなど）において、サイバー攻撃・詐欺・プライバシー侵害などの有害行為に悪用可能なスキルが存在するリスクを調査した研究。既存研究がスキル内の脆弱性（プロンプトインジェクションなど）に集中している一方、有害スキルそのものの兵器化という重大な研究ギャップを指摘する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="agent-security"/>
-    <category term="tool"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
     <source>
-      <title>Simon Willison's Weblog</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>SoK: Security of Autonomous LLM Agents in Agentic Commerce</title>
+    <link href="https://arxiv.org/abs/2604.15367" rel="alternate"/>
+    <id>urn:ai-security-digest:4af896bfb51c4e2c</id>
+    <published>2026-04-20T04:00:00Z</published>
+    <updated>2026-04-20T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;自律型LLMエージェントがオンチェーン・オフチェーン環境での取引や資産管理を行う「エージェントコマース」領域におけるセキュリティを体系的に整理したSoK（Systematization of Knowledge）論文。ERC-8004やAP2などの新興プロトコルを対象に、攻撃面・信頼モデル・防御手法を包括的に分析している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

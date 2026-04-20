@@ -1,0 +1,84 @@
+[
+  {
+    "title": "4社に1社が機密データの保護を社員の手作業に依存。ネクストモード、独自調査レポート「生成AI利用とセキュリティ統制の現在地」を公開。 | ネクストモード株式会社のプレスリリース",
+    "link": "https://prtimes.jp/main/html/rd/p/000000032.000078770.html",
+    "source": "prtimes.jp",
+    "published": "2026-04-20T23:42:22.625337+00:00",
+    "summary_ja": "ネクストモード株式会社は、企業における生成AI利用とセキュリティ統制の実態を調査したレポートを公開した。調査によると、4社に1社が機密データの保護を社員の手作業に依存しており、組織的・技術的なセキュリティ統制が十分に整備されていない現状が明らかになった。生成AIの業務利用が拡大する中、データ保護体制の整備が急務であることを示している。",
+    "tags": [
+      "research",
+      "governance",
+      "policy"
+    ]
+  },
+  {
+    "title": "https://x.com/i/status/2045989546014449794",
+    "link": "https://x.com/i/status/2045989546014449794",
+    "source": "X (Twitter)",
+    "published": "2026-04-20T23:42:22.062051+00:00",
+    "summary_ja": "このXの投稿についてはコンテンツの詳細が取得できないため、要約を提供することができません。",
+    "tags": []
+  },
+  {
+    "title": "Anthropic MCP Design Vulnerability Enables RCE, Threatening AI Supply Chain",
+    "link": "https://thehackernews.com/2026/04/anthropic-mcp-design-vulnerability.html",
+    "source": "The Hacker News",
+    "published": "2026-04-20T10:42:00+00:00",
+    "summary_ja": "AnthropicのModel Context Protocol（MCP）のアーキテクチャに「設計上の欠陥」として機能するクリティカルな脆弱性が発見された。この欠陥により、脆弱なMCP実装を実行するシステム上でリモートコード実行（RCE）が可能となり、AIサプライチェーン全体に連鎖的な影響を与える可能性がある。",
+    "tags": [
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "LogJack: Indirect Prompt Injection Through Cloud Logs Against LLM Debugging Agents",
+    "link": "https://arxiv.org/abs/2604.15368",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-20T04:00:00+00:00",
+    "summary_ja": "クラウドログを消費してコマンドを実行するLLMデバッグエージェントが、ログコンテンツを介した間接プロンプトインジェクション攻撃に脆弱であることを示す研究。「LogJack」と名付けられたベンチマークを構築し、8つの基盤モデルに対して5種類のクラウドログカテゴリにわたる42のペイロードで評価を実施した。",
+    "tags": [
+      "research",
+      "adversarial",
+      "agent-security",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "LinuxArena: A Control Setting for AI Agents in Live Production Software Environments",
+    "link": "https://arxiv.org/abs/2604.15384",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-20T04:00:00+00:00",
+    "summary_ja": "AIエージェントが実際の本番ソフトウェア環境で動作する際の安全性を評価するベンチマーク「LinuxArena」を紹介する研究。1,671件の正規タスクに加え、データ窃取やバックドア設置といった安全上の失敗を表す184件のサイドタスクを含み、エージェントの制御・安全性評価において最大規模の設定を提供する。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "HarmfulSkillBench: How Do Harmful Skills Weaponize Your Agents?",
+    "link": "https://arxiv.org/abs/2604.15415",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-20T04:00:00+00:00",
+    "summary_ja": "LLMエージェントが依存するオープンスキルエコシステム（ClawHubやSkills.Restなど）において、サイバー攻撃・詐欺・プライバシー侵害などの有害行為に悪用可能なスキルが存在するリスクを調査した研究。既存研究がスキル内の脆弱性（プロンプトインジェクションなど）に集中している一方、有害スキルそのものの兵器化という重大な研究ギャップを指摘する。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "SoK: Security of Autonomous LLM Agents in Agentic Commerce",
+    "link": "https://arxiv.org/abs/2604.15367",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-20T04:00:00+00:00",
+    "summary_ja": "自律型LLMエージェントがオンチェーン・オフチェーン環境での取引や資産管理を行う「エージェントコマース」領域におけるセキュリティを体系的に整理したSoK（Systematization of Knowledge）論文。ERC-8004やAP2などの新興プロトコルを対象に、攻撃面・信頼モデル・防御手法を包括的に分析している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial"
+    ]
+  }
+]
