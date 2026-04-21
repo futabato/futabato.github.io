@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Quoting Andreas Påhlsson-Notini",
+    "link": "https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-21T16:39:33+00:00",
+    "summary_ja": "AIエージェントが「人間的すぎる」という問題点を指摘した考察記事。厳密さや忍耐力の欠如、困難なタスクに直面した際に現実と「交渉」しようとする傾向など、現在のAIエージェント実装の根本的な課題が議論されている。エージェントの信頼性とセキュリティ設計に関わる重要な視点を提供している。",
+    "tags": [
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Detection strategies across cloud and identities against infiltrating IT workers",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/21/detection-strategies-cloud-identities-against-infiltrating-it-workers/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-04-21T16:03:09+00:00",
+    "summary_ja": "Microsoftが、リモートワーク普及に伴うIT職員への「なりすまし」攻撃に対するクラウドおよびアイデンティティ管理の検知戦略を解説した。オンライン身元確認の脆弱性を突いた侵入型ITワーカー問題への対策として、クラウド環境でのセキュリティ検知手法が詳述されている。",
+    "tags": [
+      "tool",
+      "incident"
+    ]
+  },
+  {
+    "title": "scosman/pelicans_riding_bicycles",
+    "link": "https://simonwillison.net/2026/Apr/21/scosman/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-21T15:54:43+00:00",
+    "summary_ja": "開発者がAIの学習データセットを意図的に汚染する「トレーニングデータポイズニング」の事例を紹介した記事。ペリカンが自転車に乗る画像を大量に生成・公開することで、将来のAIモデルの訓練データに影響を与えようとする試みが紹介されており、データポイズニングの現実的なリスクを示している。",
+    "tags": [
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Cloud platform Vercel says company breached through third-party AI tool",
+    "link": "https://therecord.media/cloud-platform-vercel-says-company-breached-through-ai-tool",
+    "source": "The Record by Recorded Future",
+    "published": "2026-04-21T13:10:00+00:00",
+    "summary_ja": "クラウドプラットフォームのVercelが、サードパーティのAIツールを経由した不正アクセス被害を公表した。一部の顧客のVercel認証情報が侵害されたとして、影響を受けたユーザーへの通知が行われている。AIツールがサプライチェーン攻撃の侵入経路となった事例として注目される。",
+    "tags": [
+      "incident",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "NGate Campaign Targets Brazil, Trojanizes HandyPay to Steal NFC Data and PINs",
+    "link": "https://thehackernews.com/2026/04/ngate-campaign-targets-brazil.html",
+    "source": "The Hacker News",
+    "published": "2026-04-21T12:45:00+00:00",
+    "summary_ja": "AndroidマルウェアNGateの新亜種が発見され、正規のNFCリレーアプリ「HandyPay」をトロイの木馬化してNFCデータやPINの窃取に悪用されていることが判明した。ESETの研究者によると、悪意あるコードの一部はAIによって生成されたと見られており、AIを活用したマルウェア開発の新たな脅威として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  }
+]
