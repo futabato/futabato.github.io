@@ -1,0 +1,50 @@
+[
+  {
+    "title": "GitHub - openai/privacy-filter: OpenAI Privacy Filter · GitHub — https://huggingface.co/openai/privacy-filter",
+    "link": "https://github.com/openai/privacy-filter",
+    "source": "GitHub",
+    "published": "2026-04-22T23:43:12.760727+00:00",
+    "summary_ja": "OpenAIがGitHub上で公開しているプライバシーフィルタープロジェクトです。このツールは、テキストデータからプライバシーに関わる個人情報を検出・除去するためのオープンソースのフィルタリング機能を提供します。コントリビューターがアカウントを作成して開発に参加できるよう公開されています。",
+    "tags": [
+      "tool",
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "AI-powered defense for an AI-accelerated threat landscape",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-04-22T17:00:00+00:00",
+    "summary_ja": "MicrosoftはAnthropicなどの業界パートナーと連携し、AIを活用した脅威への防御をAI技術で強化する取り組みを発表した。AI主導の脅威発見を大規模な保護へと転換するプラットフォームと専門知識の統合が主眼となっている。",
+    "tags": [
+      "tool",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Toxic Combinations: When Cross-App Permissions Stack into Risk",
+    "link": "https://thehackernews.com/2026/04/toxic-combinations-when-cross-app.html",
+    "source": "The Hacker News",
+    "published": "2026-04-22T10:41:36+00:00",
+    "summary_ja": "AIエージェント向けSNS「Moltbook」でデータベースが無防備に公開され、35,000件のメールアドレスと150万件のエージェントAPIトークンが流出した。プライベートメッセージにはOpenAI APIキーなどの第三者認証情報が平文で含まれており、クロスアプリ権限の組み合わせによるリスクが浮き彫りになった。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Cohere AI Terrarium Sandbox Flaw Enables Root Code Execution, Container Escape",
+    "link": "https://thehackernews.com/2026/04/cohere-ai-terrarium-sandbox-flaw.html",
+    "source": "The Hacker News",
+    "published": "2026-04-22T07:16:00+00:00",
+    "summary_ja": "CohereのAIサンドボックス「Terrarium」において、JavaScriptのプロトタイプチェーン操作によりコンテナエスケープとホスト上でのroot権限によるコード実行が可能な重大な脆弱性（CVE-2026-5752、CVSSスコア9.3）が発見された。AIコード実行環境の隔離機能に対する深刻なリスクを示している。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  }
+]
