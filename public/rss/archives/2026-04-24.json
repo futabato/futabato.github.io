@@ -1,0 +1,75 @@
+[
+  {
+    "title": "Google bets $32B on AI agent cyber force as security arms race escalates | ZDNET",
+    "link": "https://www.zdnet.com/article/google-deploys-ai-agent-cyber-force-as-security-arms-race-escalates/",
+    "source": "zdnet.com",
+    "published": "2026-04-23T23:42:37.578271+00:00",
+    "summary_ja": "Googleはセキュリティ企業Wizを320億ドルで買収し、AIエージェントを活用したサイバーセキュリティ強化に乗り出している。人間の対応速度を超えるスピードでサイバー攻撃に対処するため、AIエージェントによる自律的な防衛体制の構築を目指している。サイバーセキュリティ分野でのAI活用競争が激化する中、Googleはこの大型投資によって業界をリードしようとしている。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "AI threats in the wild: The current state of prompt injections on the web",
+    "link": "http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html",
+    "source": "Google Online Security Blog",
+    "published": "2026-04-23T21:38:00+00:00",
+    "summary_ja": "Googleの脅威インテリジェンスチームが、間接プロンプトインジェクション（IPI）の実際の脅威状況を調査・報告している。AIエージェントを標的とする主要な攻撃ベクターとして注目されているIPIが、実際にどの程度脅威アクターに悪用されているかを分析したもの。AIセキュリティコミュニティにとって最優先課題の一つとして位置づけられている。",
+    "tags": [
+      "research",
+      "adversarial",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "A pelican for GPT-5.5 via the semi-official Codex backdoor API",
+    "link": "https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-23T19:59:47+00:00",
+    "summary_ja": "OpenAIがGPT-5.5をリリースし、CodexおよびChatGPTの有料ユーザーへの展開を開始した。注目すべき点として、APIリリースが意図的に遅延されており、OpenAIがパートナーと異なる安全対策の検討を進めていることが明かされている。APIデプロイメントには追加の安全策が必要との判断が示されている。",
+    "tags": [
+      "model-safety",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories",
+    "link": "https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html",
+    "source": "The Hacker News",
+    "published": "2026-04-23T13:17:00+00:00",
+    "summary_ja": "複数のセキュリティインシデントをまとめたブリーフィングで、サプライチェーン攻撃やLiving off the Land（LotL）手法の悪用など幅広い脅威動向を紹介している。AIスピードで進化する自動攻撃やパッケージへのバックドア埋め込みなど、現代のセキュリティ課題が概観されている。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed",
+    "link": "https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html",
+    "source": "The Hacker News",
+    "published": "2026-04-23T12:03:00+00:00",
+    "summary_ja": "AIによる自動化された脆弱性悪用が加速し、攻撃者が脆弱性発見から悪用までの時間を極限まで短縮している「Collapsing Exploit Window」問題を取り上げたウェビナー告知。AIを活用した自動エクスプロイトへの対策について議論されており、AIが攻撃側に与えるインパクトの深刻さを示している。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "research"
+    ]
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Alerts",
+    "published": "2026-04-23T12:00:00+00:00",
+    "summary_ja": "CISAがCVE-2026-39987「Marimo リモートコード実行脆弱性」をKnown Exploited Vulnerabilities（KEV）カタログに追加した。MarimoはPythonベースのAI・データサイエンス向けインタラクティブノートブックツールであり、AIツールのサプライチェーンセキュリティに関わるリスクとして注目される。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "tool"
+    ]
+  }
+]
