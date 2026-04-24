@@ -3,95 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-23T23:42:41Z</updated>
+  <updated>2026-04-24T23:37:15Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Google bets $32B on AI agent cyber force as security arms race escalates | ZDNET</title>
-    <link href="https://www.zdnet.com/article/google-deploys-ai-agent-cyber-force-as-security-arms-race-escalates/" rel="alternate"/>
-    <id>urn:ai-security-digest:157c645f8c56f1b9</id>
-    <published>2026-04-23T23:42:37Z</published>
-    <updated>2026-04-23T23:42:37Z</updated>
-    <content type="html">&lt;p&gt;Googleはセキュリティ企業Wizを320億ドルで買収し、AIエージェントを活用したサイバーセキュリティ強化に乗り出している。人間の対応速度を超えるスピードでサイバー攻撃に対処するため、AIエージェントによる自律的な防衛体制の構築を目指している。サイバーセキュリティ分野でのAI活用競争が激化する中、Googleはこの大型投資によって業界をリードしようとしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; zdnet.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="tool"/>
+    <title>Pentagon grapples with securing AI as it moves toward autonomous warfare</title>
+    <link href="https://therecord.media/pentagon-grapples-with-securing-ai-as-it-moves-towards-autonomous-warfare" rel="alternate"/>
+    <id>urn:ai-security-digest:27791ba573023234</id>
+    <published>2026-04-24T17:14:00Z</published>
+    <updated>2026-04-24T17:14:00Z</updated>
+    <content type="html">&lt;p&gt;米国防総省は自律型兵器システムの導入が現代戦争に「不可欠」になりつつある中、AIの安全性確保に取り組んでいる。統合参謀本部議長がヴァンダービルト大学のサミットで自律型戦闘システムにおけるAIセキュリティの課題について言及した。軍事AI分野でのガバナンスと安全性確保が急務となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="policy"/>
     <category term="governance"/>
-    <source>
-      <title>zdnet.com</title>
-    </source>
-  </entry>
-  <entry>
-    <title>AI threats in the wild: The current state of prompt injections on the web</title>
-    <link href="http://security.googleblog.com/2026/04/ai-threats-in-wild-current-state-of.html" rel="alternate"/>
-    <id>urn:ai-security-digest:649e6c03e59ceef7</id>
-    <published>2026-04-23T21:38:00Z</published>
-    <updated>2026-04-23T21:38:00Z</updated>
-    <content type="html">&lt;p&gt;Googleの脅威インテリジェンスチームが、間接プロンプトインジェクション（IPI）の実際の脅威状況を調査・報告している。AIエージェントを標的とする主要な攻撃ベクターとして注目されているIPIが、実際にどの程度脅威アクターに悪用されているかを分析したもの。AIセキュリティコミュニティにとって最優先課題の一つとして位置づけられている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Google Online Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
     <category term="agent-security"/>
-    <category term="vulnerability"/>
     <source>
-      <title>Google Online Security Blog</title>
+      <title>The Record by Recorded Future</title>
     </source>
   </entry>
   <entry>
-    <title>A pelican for GPT-5.5 via the semi-official Codex backdoor API</title>
-    <link href="https://simonwillison.net/2026/Apr/23/gpt-5-5/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:6db84ae4c270dda6</id>
-    <published>2026-04-23T19:59:47Z</published>
-    <updated>2026-04-23T19:59:47Z</updated>
-    <content type="html">&lt;p&gt;OpenAIがGPT-5.5をリリースし、CodexおよびChatGPTの有料ユーザーへの展開を開始した。注目すべき点として、APIリリースが意図的に遅延されており、OpenAIがパートナーと異なる安全対策の検討を進めていることが明かされている。APIデプロイメントには追加の安全策が必要との判断が示されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Bridging the AI Agent Authority Gap: Continuous Observability as the Decision Engine</title>
+    <link href="https://thehackernews.com/2026/04/bridging-ai-agent-authority-gap.html" rel="alternate"/>
+    <id>urn:ai-security-digest:37f4b3daf4d70942</id>
+    <published>2026-04-24T11:49:00Z</published>
+    <updated>2026-04-24T11:49:00Z</updated>
+    <content type="html">&lt;p&gt;エンタープライズ環境においてAIエージェントが「委任された行為者」として機能する構造的なセキュリティギャップについて論じた記事。エージェントの権限管理を適切に行うための継続的な観測可能性（Observability）をソリューションとして提唱している。AIエージェントのガバナンスと権限制御は新たなセキュリティ課題として注目されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="governance"/>
+    <category term="tool"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>LMDeploy CVE-2026-33626 Flaw Exploited Within 13 Hours of Disclosure</title>
+    <link href="https://thehackernews.com/2026/04/lmdeploy-cve-2026-33626-flaw-exploited.html" rel="alternate"/>
+    <id>urn:ai-security-digest:a7af71ea4aa1d6d4</id>
+    <published>2026-04-24T07:24:00Z</published>
+    <updated>2026-04-24T07:24:00Z</updated>
+    <content type="html">&lt;p&gt;LLMのデプロイ・圧縮・配信を行うオープンソースツールキット「LMDeploy」に高深刻度のSSRF脆弱性（CVE-2026-33626、CVSSスコア7.5）が発見され、公開からわずか13時間以内に実際の攻撃に悪用された。LLM基盤インフラの脆弱性が極めて短時間で標的にされることを示す重大インシデントである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="incident"/>
     <category term="model-safety"/>
-    <category term="tool"/>
-    <category term="governance"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>ThreatsDay Bulletin: $290M DeFi Hack, macOS LotL Abuse, ProxySmart SIM Farms +25 New Stories</title>
-    <link href="https://thehackernews.com/2026/04/threatsday-bulletin-290m-defi-hack.html" rel="alternate"/>
-    <id>urn:ai-security-digest:3994189809d809c1</id>
-    <published>2026-04-23T13:17:00Z</published>
-    <updated>2026-04-23T13:17:00Z</updated>
-    <content type="html">&lt;p&gt;複数のセキュリティインシデントをまとめたブリーフィングで、サプライチェーン攻撃やLiving off the Land（LotL）手法の悪用など幅広い脅威動向を紹介している。AIスピードで進化する自動攻撃やパッケージへのバックドア埋め込みなど、現代のセキュリティ課題が概観されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="adversarial"/>
-    <category term="vulnerability"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>[Webinar] Mythos Reality Check: Beating Automated Exploitation at AI Speed</title>
-    <link href="https://thehackernews.com/2026/04/webinar-mythos-reality-check-beating.html" rel="alternate"/>
-    <id>urn:ai-security-digest:9e2a7771ec61279c</id>
-    <published>2026-04-23T12:03:00Z</published>
-    <updated>2026-04-23T12:03:00Z</updated>
-    <content type="html">&lt;p&gt;AIによる自動化された脆弱性悪用が加速し、攻撃者が脆弱性発見から悪用までの時間を極限まで短縮している「Collapsing Exploit Window」問題を取り上げたウェビナー告知。AIを活用した自動エクスプロイトへの対策について議論されており、AIが攻撃側に与えるインパクトの深刻さを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
-    <category term="vulnerability"/>
+    <title>Towards a Systematic Risk Assessment of Deep Neural Network Limitations in Autonomous Driving Perception</title>
+    <link href="https://arxiv.org/abs/2604.20895" rel="alternate"/>
+    <id>urn:ai-security-digest:cc9d7e6b34c00c22</id>
+    <published>2026-04-24T04:00:00Z</published>
+    <updated>2026-04-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;自律走行システムに用いられる深層ニューラルネットワーク（DNN）のリスクを体系的に評価するフレームワークを提案した研究。汎化能力の欠如、説明可能性の不足、ロバスト性の低さなどの限界が自律走行の安全性・セキュリティに与えるリスクを分析している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="evaluation"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
-    <link href="https://www.cisa.gov/news-events/alerts/2026/04/23/cisa-adds-one-known-exploited-vulnerability-catalog" rel="alternate"/>
-    <id>urn:ai-security-digest:a3bc277e4f823a10</id>
-    <published>2026-04-23T12:00:00Z</published>
-    <updated>2026-04-23T12:00:00Z</updated>
-    <content type="html">&lt;p&gt;CISAがCVE-2026-39987「Marimo リモートコード実行脆弱性」をKnown Exploited Vulnerabilities（KEV）カタログに追加した。MarimoはPythonベースのAI・データサイエンス向けインタラクティブノートブックツールであり、AIツールのサプライチェーンセキュリティに関わるリスクとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; CISA Alerts&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="incident"/>
-    <category term="tool"/>
+    <title>Sensitivity Uncertainty Alignment in Large Language Models</title>
+    <link href="https://arxiv.org/abs/2604.20903" rel="alternate"/>
+    <id>urn:ai-security-digest:85bd61a858af1aef</id>
+    <published>2026-04-24T04:00:00Z</published>
+    <updated>2026-04-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;大規模言語モデル（LLM）が敵対的入力や曖昧な入力に対して失敗するメカニズムを分析する「感度不確実性アライメント（SUA）」フレームワークを提案した研究。予測の不安定性とモデルの不確実性の乖離がミスキャリブレーションを引き起こすと論じており、LLMの堅牢性向上に向けた新たな評価指標を定義している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <category term="evaluation"/>
     <source>
-      <title>CISA Alerts</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>
