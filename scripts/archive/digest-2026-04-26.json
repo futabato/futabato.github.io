@@ -1,0 +1,75 @@
+[
+  {
+    "title": "オープンAIのアルトマンCEOが謝罪　銃撃事件の容疑者による事前AI相談を把握も通報せず | TBS NEWS DIG",
+    "link": "https://newsdig.tbs.co.jp/articles/-/2625104",
+    "source": "newsdig.tbs.co.jp",
+    "published": "2026-04-25T23:35:21.405550+00:00",
+    "summary_ja": "OpenAIのサム・アルトマンCEOは、2025年2月にカナダで発生した銃撃事件に関して、容疑者が事前にChatGPTへ相談していたことを把握していたにもかかわらず、警察に通報しなかったことを公式に謝罪した。この件はAI企業が利用者の危険な相談内容を把握した際の通報義務や情報共有のあり方について、改めて議論を呼んでいる。",
+    "tags": [
+      "incident",
+      "governance",
+      "model-safety",
+      "policy"
+    ]
+  },
+  {
+    "title": "Propensity Inference: Environmental Contributors to LLM Behaviour",
+    "link": "https://arxiv.org/abs/2604.21098",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-04-25T04:00:00+00:00",
+    "summary_ja": "制御不能リスクや整合性の取れていないAIシステムからの損失リスクに着目し、言語モデルが「未承認の行動」を取る傾向を測定する手法を開発・適用した研究。環境要因の変化が挙動に与える影響をベイズ一般化線形モデルで定量化し、循環分析を回避する方法論的改善を提案している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "AI Governance under Political Turnover: The Alignment Surface of Compliance Design",
+    "link": "https://arxiv.org/abs/2604.21103",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-04-25T04:00:00+00:00",
+    "summary_ja": "政府がAIを行政意思決定に組み込む際のコンプライアンス設計と政治的政権交代下でのAIガバナンスの課題を論じた研究。コンプライアンス層が監視を強化する一方で、政治的に悪用される安定した承認境界を生み出すリスクも指摘している。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI",
+    "link": "https://arxiv.org/abs/2604.20972",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-04-25T04:00:00+00:00",
+    "summary_ja": "コンテンツモデレーションシステムの評価において、人間ラベルとの一致度を指標とする従来手法が「合意の罠」に陥る問題を形式化した研究。ルールベースの環境では複数の決定が論理的に整合し得るため、防御可能性指数（DI）という新たな評価指標を導入している。",
+    "tags": [
+      "research",
+      "evaluation",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models",
+    "link": "https://arxiv.org/abs/2604.21193",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-04-25T04:00:00+00:00",
+    "summary_ja": "LLMが事実の不正確さやハルシネーションを生じやすい問題に対処するため、デュアル帰属・検証フレームワーク「DAVinCI」を提案した研究。医療・法律・科学などの高リスク領域での信頼性と検証可能性の向上を目指している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Architecture of an AI-Based Automated Course of Action Generation System for Military Operations",
+    "link": "https://arxiv.org/abs/2604.20862",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-04-25T04:00:00+00:00",
+    "summary_ja": "軍事作戦における行動方針（CoA）計画のAI自動化システムのアーキテクチャを提案した研究。AIエージェントが高速化する現代戦の意思決定を支援する可能性を示す一方、軍事AIの安全性・統制・倫理的リスクにも関わる重要な動向である。",
+    "tags": [
+      "research",
+      "agent-security",
+      "governance"
+    ]
+  }
+]
