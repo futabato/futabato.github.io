@@ -3,95 +3,37 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-25T23:35:25Z</updated>
+  <updated>2026-04-26T23:36:31Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>オープンAIのアルトマンCEOが謝罪　銃撃事件の容疑者による事前AI相談を把握も通報せず | TBS NEWS DIG</title>
-    <link href="https://newsdig.tbs.co.jp/articles/-/2625104" rel="alternate"/>
-    <id>urn:ai-security-digest:ad3239995ca16549</id>
-    <published>2026-04-25T23:35:21Z</published>
-    <updated>2026-04-25T23:35:21Z</updated>
-    <content type="html">&lt;p&gt;OpenAIのサム・アルトマンCEOは、2025年2月にカナダで発生した銃撃事件に関して、容疑者が事前にChatGPTへ相談していたことを把握していたにもかかわらず、警察に通報しなかったことを公式に謝罪した。この件はAI企業が利用者の危険な相談内容を把握した際の通報義務や情報共有のあり方について、改めて議論を呼んでいる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; newsdig.tbs.co.jp&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="governance"/>
-    <category term="model-safety"/>
+    <title>政府、最新AI「Claude Mythos」に官民連携対応、日銀・メガバンク首脳と緊急会合（ビジネス＋IT） - Yahoo!ニュース</title>
+    <link href="https://news.yahoo.co.jp/articles/f7af7bc6873ab3c416801a6cdc857ccf4934d5ef" rel="alternate"/>
+    <id>urn:ai-security-digest:381574d0d9d22b22</id>
+    <published>2026-04-26T23:36:28Z</published>
+    <updated>2026-04-26T23:36:28Z</updated>
+    <content type="html">&lt;p&gt;米Anthropicが開発した最新AIモデル「Claude Mythos」によるサイバー攻撃の脅威に対応するため、片山さつき金融担当相は4月24日、日本銀行の植田総裁およびメガバンク首脳と緊急会合を開催した。政府は官民連携でAIを悪用したサイバー攻撃への対策強化を図る方針を示した。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; news.yahoo.co.jp&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
     <category term="policy"/>
-    <source>
-      <title>newsdig.tbs.co.jp</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Propensity Inference: Environmental Contributors to LLM Behaviour</title>
-    <link href="https://arxiv.org/abs/2604.21098" rel="alternate"/>
-    <id>urn:ai-security-digest:5dc7903d3d5067ca</id>
-    <published>2026-04-25T04:00:00Z</published>
-    <updated>2026-04-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;制御不能リスクや整合性の取れていないAIシステムからの損失リスクに着目し、言語モデルが「未承認の行動」を取る傾向を測定する手法を開発・適用した研究。環境要因の変化が挙動に与える影響をベイズ一般化線形モデルで定量化し、循環分析を回避する方法論的改善を提案している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
     <category term="model-safety"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>AI Governance under Political Turnover: The Alignment Surface of Compliance Design</title>
-    <link href="https://arxiv.org/abs/2604.21103" rel="alternate"/>
-    <id>urn:ai-security-digest:673f1629b5678c73</id>
-    <published>2026-04-25T04:00:00Z</published>
-    <updated>2026-04-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;政府がAIを行政意思決定に組み込む際のコンプライアンス設計と政治的政権交代下でのAIガバナンスの課題を論じた研究。コンプライアンス層が監視を強化する一方で、政治的に悪用される安定した承認境界を生み出すリスクも指摘している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
     <category term="governance"/>
     <category term="regulation"/>
     <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
+      <title>news.yahoo.co.jp</title>
     </source>
   </entry>
   <entry>
-    <title>Escaping the Agreement Trap: Defensibility Signals for Evaluating Rule-Governed AI</title>
-    <link href="https://arxiv.org/abs/2604.20972" rel="alternate"/>
-    <id>urn:ai-security-digest:b8852b1e7eaade26</id>
-    <published>2026-04-25T04:00:00Z</published>
-    <updated>2026-04-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;コンテンツモデレーションシステムの評価において、人間ラベルとの一致度を指標とする従来手法が「合意の罠」に陥る問題を形式化した研究。ルールベースの環境では複数の決定が論理的に整合し得るため、防御可能性指数（DI）という新たな評価指標を導入している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="evaluation"/>
-    <category term="model-safety"/>
+    <title>American utility firm Itron discloses breach of internal IT network</title>
+    <link href="https://www.bleepingcomputer.com/news/security/american-utility-firm-itron-discloses-breach-of-internal-it-network/" rel="alternate"/>
+    <id>urn:ai-security-digest:4279beb58d72651b</id>
+    <published>2026-04-26T14:22:34Z</published>
+    <updated>2026-04-26T14:22:34Z</updated>
+    <content type="html">&lt;p&gt;Itron, Inc. has disclosed, via an 8-K filing with the U.S. Securities and Exchange Commission (SEC), a cybersecurity incident in which an unauthorized third party accessed certain internal systems. [.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="news"/>
     <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Trust but Verify: Introducing DAVinCI -- A Framework for Dual Attribution and Verification in Claim Inference for Language Models</title>
-    <link href="https://arxiv.org/abs/2604.21193" rel="alternate"/>
-    <id>urn:ai-security-digest:a346590d877212ce</id>
-    <published>2026-04-25T04:00:00Z</published>
-    <updated>2026-04-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMが事実の不正確さやハルシネーションを生じやすい問題に対処するため、デュアル帰属・検証フレームワーク「DAVinCI」を提案した研究。医療・法律・科学などの高リスク領域での信頼性と検証可能性の向上を目指している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Architecture of an AI-Based Automated Course of Action Generation System for Military Operations</title>
-    <link href="https://arxiv.org/abs/2604.20862" rel="alternate"/>
-    <id>urn:ai-security-digest:ddf3e229bf92cd59</id>
-    <published>2026-04-25T04:00:00Z</published>
-    <updated>2026-04-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;軍事作戦における行動方針（CoA）計画のAI自動化システムのアーキテクチャを提案した研究。AIエージェントが高速化する現代戦の意思決定を支援する可能性を示す一方、軍事AIの安全性・統制・倫理的リスクにも関わる重要な動向である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
 </feed>
