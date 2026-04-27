@@ -1,0 +1,98 @@
+[
+  {
+    "title": "[2604.15579] Symbolic Guardrails for Domain-Specific Agents: Stronger Safety and Security Guarantees Without Sacrificing Utility",
+    "link": "https://arxiv.org/abs/2604.15579",
+    "source": "arXiv",
+    "published": "2026-04-27T23:51:57.673113+00:00",
+    "summary_ja": "本論文は、ドメイン特化型AIエージェントに対してシンボリック（記号論理ベース）のガードレールを導入することで、ユーティリティを損なわずに安全性とセキュリティを強化する手法を提案している。特定領域のエージェントにおける安全保証の課題に取り組み、より堅牢なセーフガード機構の実現を目指した研究である。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "https://mp.weixin.qq.com/s/GKj12mcSveZkIb-0JSVDpA",
+    "link": "https://mp.weixin.qq.com/s/GKj12mcSveZkIb-0JSVDpA",
+    "source": "mp.weixin.qq.com",
+    "published": "2026-04-27T23:51:57.461488+00:00",
+    "summary_ja": "該当記事はWeChat（微信）の公式アカウント記事であるが、抜粋が提供されておらず、内容の詳細を確認することができない。",
+    "tags": []
+  },
+  {
+    "title": "U.S. Cyber Agency Doesn’t Have Access To Advanced AI Hacking Tools",
+    "link": "https://www.forbes.com/sites/thomasbrewster/2026/04/27/us-cyber-agency-doesnt-have-access-to-advanced-ai-hacking-tools/",
+    "source": "forbes.com",
+    "published": "2026-04-27T23:51:56.261006+00:00",
+    "summary_ja": "米国のサイバーセキュリティ・インフラセキュリティ庁（CISA）のスタッフは、AnthropicやOpenAIの最新AIモデルへのアクセスができない状態にあることが明らかになった。この制限により、重要インフラの保護に必要な高度なAIハッキングツールの活用が妨げられており、サイバー防衛能力に支障をきたしているとされる。",
+    "tags": [
+      "policy",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know",
+    "link": "https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/",
+    "source": "Bleeping Computer",
+    "published": "2026-04-27T13:00:09+00:00",
+    "summary_ja": "わずか3秒の音声データで声を複製できるディープフェイク音声攻撃が急速に進化しており、既存の防御手段を上回るペースで普及している。従業員を騙して送金させる詐欺に悪用されており、セキュリティリーダーが対策を急ぐ必要性が高まっている。",
+    "tags": [
+      "adversarial",
+      "incident",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side",
+    "link": "https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html",
+    "source": "The Hacker News",
+    "published": "2026-04-27T11:58:00+00:00",
+    "summary_ja": "AnthropicのClaude Mythosがサイバーセキュリティに特化したAIシステムとして脆弱性を大規模に発見できることが明らかになり、業界に大きな議論を呼んでいる。脆弱性の発見速度に対し、組織側の検証・優先順位付け・修復対応が追いつかないというギャップが深刻な問題として浮上している。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "tool",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Sovereign Agentic Loops: Decoupling AI Reasoning from Execution in Real-World Systems",
+    "link": "https://arxiv.org/abs/2604.22136",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-27T04:00:00+00:00",
+    "summary_ja": "LLMエージェントがAPIを通じて実システムを直接変更する構造は安全上のリスクをはらんでおり、モデル出力を実行レイヤーに直接渡す設計の危険性を論じた研究。構造化された「意図」を介してモデルの推論と実行を分離するSovereign Agentic Loops（SAL）アーキテクチャを提案している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning",
+    "link": "https://arxiv.org/abs/2604.22191",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-27T04:00:00+00:00",
+    "summary_ja": "エージェント型ワークフローでLLMが処理した法的保護コンテキストが強化学習によるファインチューニングに不正利用されていないかを監査する手法「Behavioral Canaries」を提案した研究。標準的な監査手法がRL訓練モデルに対して無効であるという課題を解決する新しいアプローチを示している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "evaluation",
+      "governance"
+    ]
+  },
+  {
+    "title": "Who Audits the Auditor? Tamper-Proof Fraud Detection with Blockchain-Anchored Explainable ML",
+    "link": "https://arxiv.org/abs/2604.22096",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-27T04:00:00+00:00",
+    "summary_ja": "企業の不正検知においてML予測とブロックチェーンを組み合わせ、監査ログの改ざんや内部者による不正を防ぐ耐タンパー性フレームワークを提案した研究。「監査者を誰が監査するか」という根本的な信頼の問題に、説明可能なMLとブロックチェーン技術で対応している。",
+    "tags": [
+      "research",
+      "tool",
+      "governance",
+      "evaluation"
+    ]
+  }
+]
