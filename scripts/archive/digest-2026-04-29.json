@@ -1,0 +1,72 @@
+[
+  {
+    "title": "国内外の生成AIセキュリティの最新動向 &amp; AIガードレール製品「chakoshi」のご紹介 / Latest Trends in Generative AI Security (Domestic &amp; International) &amp; Introduction to AI Guardrail Product &quot;chakoshi&quot; - Speaker Deck",
+    "link": "https://speakerdeck.com/nttcom/latest-trends-in-generative-ai-security-domestic-and-international-and-introduction-to-ai-guardrail-product-chakoshi",
+    "source": "speakerdeck.com",
+    "published": "2026-04-28T23:53:31.312614+00:00",
+    "summary_ja": "2026年4月にNTTコムが社内セミナーで発表した、生成AIセキュリティ・安全性に関する資料。国内外の生成AIセキュリティの最新動向を整理するとともに、NTTドコモビジネスが提供するAIガードレール製品「chakoshi」を紹介している。プロンプトインジェクションなどのAIリスクに対応するためのガードレール技術や安全対策の実装について解説している。",
+    "tags": [
+      "model-safety",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "Quoting OpenAI Codex base_instructions",
+    "link": "https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-28T22:02:53+00:00",
+    "summary_ja": "OpenAIのCodexツール（GPT-5.5）のシステムプロンプト（base_instructions）の一部が公開・引用された。ゴブリンやアライグマなど特定の動物・架空生物について言及を禁じる記述など、LLMのシステムプロンプト設計の実態が明らかになっており、プロンプトエンジニアリングとLLMの安全設計の観点から注目される。",
+    "tags": [
+      "model-safety",
+      "tool",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/",
+    "source": "Bleeping Computer",
+    "published": "2026-04-28T21:07:23+00:00",
+    "summary_ja": "オープンソースのLLMゲートウェイ「LiteLLM」において、認証不要のSQLインジェクション脆弱性（CVE-2026-42208）が発見され、既に悪用が確認されている。攻撃者はこの脆弱性を利用してLLMゲートウェイに保存された機密情報にアクセスできる。AIインフラを狙った重大な脆弱性として早急なパッチ適用が求められる。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html",
+    "source": "The Hacker News",
+    "published": "2026-04-28T11:18:00+00:00",
+    "summary_ja": "Hugging FaceのオープンソースロボティクスプラットフォームLeRobotに、未認証でリモートコード実行が可能な重大な脆弱性（CVE-2026-25874、CVSSスコア9.3）が発見された。信頼されていないデータのデシリアライゼーションに起因するもので、GitHubで約2.4万スターを持つ広く使われているプラットフォームへの影響が懸念される。",
+    "tags": [
+      "vulnerability",
+      "tool"
+    ]
+  },
+  {
+    "title": "After Mythos: New Playbooks For a Zero-Window Era",
+    "link": "https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html",
+    "source": "The Hacker News",
+    "published": "2026-04-28T10:30:00+00:00",
+    "summary_ja": "AnthropicのClaudeモデル（Mythos）とProject Glasswingが、脆弱性の発見と悪用を高速化できることを示し、パッチ適用の猶予時間（エクスプロイトウィンドウ）が急速に縮小しつつあると指摘している。AIによる攻撃の自動化が進む中、従来のパッチ優先戦略の限界とNDR（ネットワーク検知・応答）の重要性を論じている。",
+    "tags": [
+      "adversarial",
+      "model-safety",
+      "research"
+    ]
+  },
+  {
+    "title": "Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover",
+    "link": "https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html",
+    "source": "The Hacker News",
+    "published": "2026-04-28T06:37:00+00:00",
+    "summary_ja": "Microsoft Entra ID内のAIエージェント向けに導入された管理者ロール「Agent ID Administrator」に、特権昇格およびサービスプリンシパル乗っ取りを可能にする脆弱性が発見され、Microsoftがパッチを適用した。AIエージェントのアイデンティティ管理基盤における設計上のリスクを示す事例として注目される。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "incident"
+    ]
+  }
+]

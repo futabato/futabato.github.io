@@ -3,123 +3,92 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-27T23:52:04Z</updated>
+  <updated>2026-04-28T23:53:35Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>[2604.15579] Symbolic Guardrails for Domain-Specific Agents: Stronger Safety and Security Guarantees Without Sacrificing Utility</title>
-    <link href="https://arxiv.org/abs/2604.15579" rel="alternate"/>
-    <id>urn:ai-security-digest:9e467e4b95e5690f</id>
-    <published>2026-04-27T23:51:57Z</published>
-    <updated>2026-04-27T23:51:57Z</updated>
-    <content type="html">&lt;p&gt;本論文は、ドメイン特化型AIエージェントに対してシンボリック（記号論理ベース）のガードレールを導入することで、ユーティリティを損なわずに安全性とセキュリティを強化する手法を提案している。特定領域のエージェントにおける安全保証の課題に取り組み、より堅牢なセーフガード機構の実現を目指した研究である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
+    <title>国内外の生成AIセキュリティの最新動向 &amp;amp; AIガードレール製品「chakoshi」のご紹介 / Latest Trends in Generative AI Security (Domestic &amp;amp; International) &amp;amp; Introduction to AI Guardrail Product &amp;quot;chakoshi&amp;quot; - Speaker Deck</title>
+    <link href="https://speakerdeck.com/nttcom/latest-trends-in-generative-ai-security-domestic-and-international-and-introduction-to-ai-guardrail-product-chakoshi" rel="alternate"/>
+    <id>urn:ai-security-digest:d984114733bac592</id>
+    <published>2026-04-28T23:53:31Z</published>
+    <updated>2026-04-28T23:53:31Z</updated>
+    <content type="html">&lt;p&gt;2026年4月にNTTコムが社内セミナーで発表した、生成AIセキュリティ・安全性に関する資料。国内外の生成AIセキュリティの最新動向を整理するとともに、NTTドコモビジネスが提供するAIガードレール製品「chakoshi」を紹介している。プロンプトインジェクションなどのAIリスクに対応するためのガードレール技術や安全対策の実装について解説している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; speakerdeck.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
     <category term="model-safety"/>
-    <category term="governance"/>
-    <source>
-      <title>arXiv</title>
-    </source>
-  </entry>
-  <entry>
-    <title>https://mp.weixin.qq.com/s/GKj12mcSveZkIb-0JSVDpA</title>
-    <link href="https://mp.weixin.qq.com/s/GKj12mcSveZkIb-0JSVDpA" rel="alternate"/>
-    <id>urn:ai-security-digest:e3d0e0bc6d6eb8ed</id>
-    <published>2026-04-27T23:51:57Z</published>
-    <updated>2026-04-27T23:51:57Z</updated>
-    <content type="html">&lt;p&gt;該当記事はWeChat（微信）の公式アカウント記事であるが、抜粋が提供されておらず、内容の詳細を確認することができない。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; mp.weixin.qq.com&lt;/p&gt;&lt;p&gt;&lt;/p&gt;</content>
-    <source>
-      <title>mp.weixin.qq.com</title>
-    </source>
-  </entry>
-  <entry>
-    <title>U.S. Cyber Agency Doesn’t Have Access To Advanced AI Hacking Tools</title>
-    <link href="https://www.forbes.com/sites/thomasbrewster/2026/04/27/us-cyber-agency-doesnt-have-access-to-advanced-ai-hacking-tools/" rel="alternate"/>
-    <id>urn:ai-security-digest:eaca4944243cd299</id>
-    <published>2026-04-27T23:51:56Z</published>
-    <updated>2026-04-27T23:51:56Z</updated>
-    <content type="html">&lt;p&gt;米国のサイバーセキュリティ・インフラセキュリティ庁（CISA）のスタッフは、AnthropicやOpenAIの最新AIモデルへのアクセスができない状態にあることが明らかになった。この制限により、重要インフラの保護に必要な高度なAIハッキングツールの活用が妨げられており、サイバー防衛能力に支障をきたしているとされる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; forbes.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
     <category term="tool"/>
     <category term="governance"/>
     <source>
-      <title>forbes.com</title>
+      <title>speakerdeck.com</title>
     </source>
   </entry>
   <entry>
-    <title>Deepfake Voice Attacks are Outpacing Defenses: What Security Leaders Should Know</title>
-    <link href="https://www.bleepingcomputer.com/news/security/deepfake-voice-attacks-are-outpacing-defenses-what-security-leaders-should-know/" rel="alternate"/>
-    <id>urn:ai-security-digest:bbf92600f12e1ad6</id>
-    <published>2026-04-27T13:00:09Z</published>
-    <updated>2026-04-27T13:00:09Z</updated>
-    <content type="html">&lt;p&gt;わずか3秒の音声データで声を複製できるディープフェイク音声攻撃が急速に進化しており、既存の防御手段を上回るペースで普及している。従業員を騙して送金させる詐欺に悪用されており、セキュリティリーダーが対策を急ぐ必要性が高まっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
-    <category term="incident"/>
+    <title>Quoting OpenAI Codex base_instructions</title>
+    <link href="https://simonwillison.net/2026/Apr/28/openai-codex/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:b200fc08cb865f20</id>
+    <published>2026-04-28T22:02:53Z</published>
+    <updated>2026-04-28T22:02:53Z</updated>
+    <content type="html">&lt;p&gt;OpenAIのCodexツール（GPT-5.5）のシステムプロンプト（base_instructions）の一部が公開・引用された。ゴブリンやアライグマなど特定の動物・架空生物について言及を禁じる記述など、LLMのシステムプロンプト設計の実態が明らかになっており、プロンプトエンジニアリングとLLMの安全設計の観点から注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="model-safety"/>
+    <category term="tool"/>
+    <category term="adversarial"/>
+    <source>
+      <title>Simon Willison's Weblog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Hackers are exploiting a critical LiteLLM pre-auth SQLi flaw</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/" rel="alternate"/>
+    <id>urn:ai-security-digest:4d2f994efa6be65a</id>
+    <published>2026-04-28T21:07:23Z</published>
+    <updated>2026-04-28T21:07:23Z</updated>
+    <content type="html">&lt;p&gt;オープンソースのLLMゲートウェイ「LiteLLM」において、認証不要のSQLインジェクション脆弱性（CVE-2026-42208）が発見され、既に悪用が確認されている。攻撃者はこの脆弱性を利用してLLMゲートウェイに保存された機密情報にアクセスできる。AIインフラを狙った重大な脆弱性として早急なパッチ適用が求められる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="incident"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Mythos Changed the Math on Vulnerability Discovery. Most Teams Aren't Ready for the Remediation Side</title>
-    <link href="https://thehackernews.com/2026/04/mythos-changed-math-on-vulnerability.html" rel="alternate"/>
-    <id>urn:ai-security-digest:070e48890236d159</id>
-    <published>2026-04-27T11:58:00Z</published>
-    <updated>2026-04-27T11:58:00Z</updated>
-    <content type="html">&lt;p&gt;AnthropicのClaude Mythosがサイバーセキュリティに特化したAIシステムとして脆弱性を大規模に発見できることが明らかになり、業界に大きな議論を呼んでいる。脆弱性の発見速度に対し、組織側の検証・優先順位付け・修復対応が追いつかないというギャップが深刻な問題として浮上している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <title>Critical Unpatched Flaw Leaves Hugging Face LeRobot Open to Unauthenticated RCE</title>
+    <link href="https://thehackernews.com/2026/04/critical-cve-2026-25874-leaves-hugging.html" rel="alternate"/>
+    <id>urn:ai-security-digest:9f92ed805b9cbfc7</id>
+    <published>2026-04-28T11:18:00Z</published>
+    <updated>2026-04-28T11:18:00Z</updated>
+    <content type="html">&lt;p&gt;Hugging FaceのオープンソースロボティクスプラットフォームLeRobotに、未認証でリモートコード実行が可能な重大な脆弱性（CVE-2026-25874、CVSSスコア9.3）が発見された。信頼されていないデータのデシリアライゼーションに起因するもので、GitHubで約2.4万スターを持つ広く使われているプラットフォームへの影響が懸念される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
     <category term="tool"/>
-    <category term="model-safety"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Sovereign Agentic Loops: Decoupling AI Reasoning from Execution in Real-World Systems</title>
-    <link href="https://arxiv.org/abs/2604.22136" rel="alternate"/>
-    <id>urn:ai-security-digest:11a1c41add92e9a3</id>
-    <published>2026-04-27T04:00:00Z</published>
-    <updated>2026-04-27T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMエージェントがAPIを通じて実システムを直接変更する構造は安全上のリスクをはらんでおり、モデル出力を実行レイヤーに直接渡す設計の危険性を論じた研究。構造化された「意図」を介してモデルの推論と実行を分離するSovereign Agentic Loops（SAL）アーキテクチャを提案している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
+    <title>After Mythos: New Playbooks For a Zero-Window Era</title>
+    <link href="https://thehackernews.com/2026/04/after-mythos-new-playbooks-for-zero.html" rel="alternate"/>
+    <id>urn:ai-security-digest:7bce9c98f5c12b49</id>
+    <published>2026-04-28T10:30:00Z</published>
+    <updated>2026-04-28T10:30:00Z</updated>
+    <content type="html">&lt;p&gt;AnthropicのClaudeモデル（Mythos）とProject Glasswingが、脆弱性の発見と悪用を高速化できることを示し、パッチ適用の猶予時間（エクスプロイトウィンドウ）が急速に縮小しつつあると指摘している。AIによる攻撃の自動化が進む中、従来のパッチ優先戦略の限界とNDR（ネットワーク検知・応答）の重要性を論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="adversarial"/>
     <category term="model-safety"/>
+    <category term="research"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Behavioral Canaries: Auditing Private Retrieved Context Usage in RL Fine-Tuning</title>
-    <link href="https://arxiv.org/abs/2604.22191" rel="alternate"/>
-    <id>urn:ai-security-digest:0296ea1b7455308e</id>
-    <published>2026-04-27T04:00:00Z</published>
-    <updated>2026-04-27T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;エージェント型ワークフローでLLMが処理した法的保護コンテキストが強化学習によるファインチューニングに不正利用されていないかを監査する手法「Behavioral Canaries」を提案した研究。標準的な監査手法がRL訓練モデルに対して無効であるという課題を解決する新しいアプローチを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <title>Microsoft Patches Entra ID Role Flaw That Enabled Service Principal Takeover</title>
+    <link href="https://thehackernews.com/2026/04/microsoft-patches-entra-id-role-flaw.html" rel="alternate"/>
+    <id>urn:ai-security-digest:d827c41da181d211</id>
+    <published>2026-04-28T06:37:00Z</published>
+    <updated>2026-04-28T06:37:00Z</updated>
+    <content type="html">&lt;p&gt;Microsoft Entra ID内のAIエージェント向けに導入された管理者ロール「Agent ID Administrator」に、特権昇格およびサービスプリンシパル乗っ取りを可能にする脆弱性が発見され、Microsoftがパッチを適用した。AIエージェントのアイデンティティ管理基盤における設計上のリスクを示す事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
     <category term="agent-security"/>
-    <category term="evaluation"/>
-    <category term="governance"/>
+    <category term="incident"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Who Audits the Auditor? Tamper-Proof Fraud Detection with Blockchain-Anchored Explainable ML</title>
-    <link href="https://arxiv.org/abs/2604.22096" rel="alternate"/>
-    <id>urn:ai-security-digest:5502f5eb45a72792</id>
-    <published>2026-04-27T04:00:00Z</published>
-    <updated>2026-04-27T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;企業の不正検知においてML予測とブロックチェーンを組み合わせ、監査ログの改ざんや内部者による不正を防ぐ耐タンパー性フレームワークを提案した研究。「監査者を誰が監査するか」という根本的な信頼の問題に、説明可能なMLとブロックチェーン技術で対応している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="tool"/>
-    <category term="governance"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
 </feed>
