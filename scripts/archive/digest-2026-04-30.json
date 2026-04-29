@@ -1,0 +1,73 @@
+[
+  {
+    "title": "https://openai.com/index/cybersecurity-in-the-intelligence-age/",
+    "link": "https://openai.com/index/cybersecurity-in-the-intelligence-age/",
+    "source": "Manual Pick",
+    "published": "2026-04-29T23:53:04.353307+00:00",
+    "summary_ja": "OpenAIはインテリジェンス時代におけるサイバーセキュリティの重要性について論じており、AIがサイバー防衛の強化に貢献できる可能性を強調している。AIを活用した脅威検出や対応能力の向上を目指しつつ、悪意ある行為者によるAIの悪用リスクにも対処する必要性を訴えている。安全なAI開発と政府・民間セクターとの連携を通じて、サイバーセキュリティの未来を形成していく方針を示している。",
+    "tags": [
+      "policy",
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs",
+    "link": "https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-04-29T14:43:00+00:00",
+    "summary_ja": "北朝鮮（DPRK）によるサイバー攻撃の新たな手口として、AnthropicのClaude OpusというLLMを悪用してnpmパッケージに悪意あるコードを挿入する手法が発見された。AIを活用したマルウェア埋め込みと偽企業・RATを組み合わせたサプライチェーン攻撃で、AIがサイバー攻撃の実行ツールとして利用される新たな事例として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure",
+    "link": "https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html",
+    "source": "The Hacker News",
+    "published": "2026-04-29T05:34:00+00:00",
+    "summary_ja": "LLMプロキシライブラリであるLiteLLMにCVSSスコア9.3の深刻なSQLインジェクション脆弱性（CVE-2026-42208）が発見され、公開からわずか36時間以内に実際の攻撃に悪用された。AI基盤ソフトウェアのセキュリティリスクの高さと、開示後の迅速なパッチ適用の重要性を示す事例。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "Semantic Denial of Service in LLM-controlled robots",
+    "link": "https://arxiv.org/abs/2604.24790",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-29T04:00:00+00:00",
+    "summary_ja": "LLM制御ロボットに対する新たな攻撃手法「セマンティック・サービス拒否攻撃」を実証した研究。1〜5トークンの安全性に配慮したフレーズを音声チャネルに注入するだけで、ジェイルブレイクなしにロボットの動作を停止・妨害できることを示し、LLM搭載エージェントの可用性への脅威を明らかにした。",
+    "tags": [
+      "research",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "V.O.I.C.E (Voice, Ownership, Identity, Control, Expression): Risk Taxonomy of Synthetic Voice Generation From Empirical Data",
+    "link": "https://arxiv.org/abs/2604.24794",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-29T04:00:00+00:00",
+    "summary_ja": "急速に普及する音声生成AIモデルに関するリスク分類体系「V.O.I.C.E」を提案した研究。569件のインシデントデータをもとに、無断収集・再利用・音声合成がもたらすプライバシー・セキュリティ・ガバナンス上のリスクを体系的に整理し、既存の脅威モデルの空白を埋めることを目的としている。",
+    "tags": [
+      "research",
+      "governance",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "A Comparative Evaluation of AI Agent Security Guardrails",
+    "link": "https://arxiv.org/abs/2604.24826",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-04-29T04:00:00+00:00",
+    "summary_ja": "AIエージェント向けセキュリティガードレールの比較評価レポートで、AWS Bedrock Guardrails・Azure Content Safety・Lakera Guardを対象にベンチマーク評価を実施。命令オーバーライドや間接インジェクション、ツール悪用などエージェント特有のリスクに対する検知能力を人間のアノテーションを正解として評価しており、エージェントセキュリティの実用的な知見を提供する。",
+    "tags": [
+      "evaluation",
+      "agent-security",
+      "research"
+    ]
+  }
+]
