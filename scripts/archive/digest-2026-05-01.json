@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Codex CLI 0.128.0 adds /goal",
+    "link": "https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-30T23:23:17+00:00",
+    "summary_ja": "OpenAIのCodex CLI 0.128.0にて、AIコーディングエージェントが目標達成まで自律的にループし続ける「/goal」機能が追加された。この機能はプロンプトインジェクションを通じて実装されており、エージェントが設定されたトークン予算内で継続的に動作するアーキテクチャはエージェントセキュリティの観点から注目に値する。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "research"
+    ]
+  },
+  {
+    "title": "Our evaluation of OpenAI's GPT-5.5 cyber capabilities",
+    "link": "https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-04-30T23:03:24+00:00",
+    "summary_ja": "英国のAIセキュリティ研究所がOpenAIのGPT-5.5のサイバー能力を評価し、セキュリティ脆弱性の発見においてAnthropicのClaude Mythosと同等の能力を持つことを確認した。GPT-5.5は現在一般公開されており、AIモデルのサイバー攻撃能力に関する重要な評価結果として注目される。",
+    "tags": [
+      "evaluation",
+      "research",
+      "model-safety",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials",
+    "link": "https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html",
+    "source": "The Hacker News",
+    "published": "2026-04-30T16:31:00+00:00",
+    "summary_ja": "AIおよび機械学習で広く利用されるPythonパッケージ「PyTorch Lightning」がサプライチェーン攻撃の標的となり、悪意のあるバージョン2.6.2および2.6.3がPyPIに公開されてクレデンシャル窃取が行われた。AI開発エコシステムを標的としたサプライチェーン攻撃として、AI開発者への直接的なリスクを示す事例である。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  }
+]

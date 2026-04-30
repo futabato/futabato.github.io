@@ -3,93 +3,53 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-04-29T23:53:09Z</updated>
+  <updated>2026-04-30T23:51:15Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>https://openai.com/index/cybersecurity-in-the-intelligence-age/</title>
-    <link href="https://openai.com/index/cybersecurity-in-the-intelligence-age/" rel="alternate"/>
-    <id>urn:ai-security-digest:b1f1a12372d426e4</id>
-    <published>2026-04-29T23:53:04Z</published>
-    <updated>2026-04-29T23:53:04Z</updated>
-    <content type="html">&lt;p&gt;OpenAIはインテリジェンス時代におけるサイバーセキュリティの重要性について論じており、AIがサイバー防衛の強化に貢献できる可能性を強調している。AIを活用した脅威検出や対応能力の向上を目指しつつ、悪意ある行為者によるAIの悪用リスクにも対処する必要性を訴えている。安全なAI開発と政府・民間セクターとの連携を通じて、サイバーセキュリティの未来を形成していく方針を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Manual Pick&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="model-safety"/>
-    <category term="governance"/>
-    <source>
-      <title>Manual Pick</title>
-    </source>
-  </entry>
-  <entry>
-    <title>New Wave of DPRK Attacks Uses AI-Inserted npm Malware, Fake Firms, and RATs</title>
-    <link href="https://thehackernews.com/2026/04/new-wave-of-dprk-attacks-uses-ai.html" rel="alternate"/>
-    <id>urn:ai-security-digest:b4eb38e56e6bf050</id>
-    <published>2026-04-29T14:43:00Z</published>
-    <updated>2026-04-29T14:43:00Z</updated>
-    <content type="html">&lt;p&gt;北朝鮮（DPRK）によるサイバー攻撃の新たな手口として、AnthropicのClaude OpusというLLMを悪用してnpmパッケージに悪意あるコードを挿入する手法が発見された。AIを活用したマルウェア埋め込みと偽企業・RATを組み合わせたサプライチェーン攻撃で、AIがサイバー攻撃の実行ツールとして利用される新たな事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="adversarial"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>LiteLLM CVE-2026-42208 SQL Injection Exploited within 36 Hours of Disclosure</title>
-    <link href="https://thehackernews.com/2026/04/litellm-cve-2026-42208-sql-injection.html" rel="alternate"/>
-    <id>urn:ai-security-digest:224f620bcb737f36</id>
-    <published>2026-04-29T05:34:00Z</published>
-    <updated>2026-04-29T05:34:00Z</updated>
-    <content type="html">&lt;p&gt;LLMプロキシライブラリであるLiteLLMにCVSSスコア9.3の深刻なSQLインジェクション脆弱性（CVE-2026-42208）が発見され、公開からわずか36時間以内に実際の攻撃に悪用された。AI基盤ソフトウェアのセキュリティリスクの高さと、開示後の迅速なパッチ適用の重要性を示す事例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="incident"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Semantic Denial of Service in LLM-controlled robots</title>
-    <link href="https://arxiv.org/abs/2604.24790" rel="alternate"/>
-    <id>urn:ai-security-digest:203cde979e873b25</id>
-    <published>2026-04-29T04:00:00Z</published>
-    <updated>2026-04-29T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLM制御ロボットに対する新たな攻撃手法「セマンティック・サービス拒否攻撃」を実証した研究。1〜5トークンの安全性に配慮したフレーズを音声チャネルに注入するだけで、ジェイルブレイクなしにロボットの動作を停止・妨害できることを示し、LLM搭載エージェントの可用性への脅威を明らかにした。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
+    <title>Codex CLI 0.128.0 adds /goal</title>
+    <link href="https://simonwillison.net/2026/Apr/30/codex-goals/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:3a5b18b2ae174af0</id>
+    <published>2026-04-30T23:23:17Z</published>
+    <updated>2026-04-30T23:23:17Z</updated>
+    <content type="html">&lt;p&gt;OpenAIのCodex CLI 0.128.0にて、AIコーディングエージェントが目標達成まで自律的にループし続ける「/goal」機能が追加された。この機能はプロンプトインジェクションを通じて実装されており、エージェントが設定されたトークン予算内で継続的に動作するアーキテクチャはエージェントセキュリティの観点から注目に値する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="agent-security"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>V.O.I.C.E (Voice, Ownership, Identity, Control, Expression): Risk Taxonomy of Synthetic Voice Generation From Empirical Data</title>
-    <link href="https://arxiv.org/abs/2604.24794" rel="alternate"/>
-    <id>urn:ai-security-digest:7fc65cbea59da2df</id>
-    <published>2026-04-29T04:00:00Z</published>
-    <updated>2026-04-29T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;急速に普及する音声生成AIモデルに関するリスク分類体系「V.O.I.C.E」を提案した研究。569件のインシデントデータをもとに、無断収集・再利用・音声合成がもたらすプライバシー・セキュリティ・ガバナンス上のリスクを体系的に整理し、既存の脅威モデルの空白を埋めることを目的としている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
     <category term="research"/>
-    <category term="governance"/>
-    <category term="model-safety"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
   <entry>
-    <title>A Comparative Evaluation of AI Agent Security Guardrails</title>
-    <link href="https://arxiv.org/abs/2604.24826" rel="alternate"/>
-    <id>urn:ai-security-digest:6780b66577be5bb0</id>
-    <published>2026-04-29T04:00:00Z</published>
-    <updated>2026-04-29T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;AIエージェント向けセキュリティガードレールの比較評価レポートで、AWS Bedrock Guardrails・Azure Content Safety・Lakera Guardを対象にベンチマーク評価を実施。命令オーバーライドや間接インジェクション、ツール悪用などエージェント特有のリスクに対する検知能力を人間のアノテーションを正解として評価しており、エージェントセキュリティの実用的な知見を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Our evaluation of OpenAI's GPT-5.5 cyber capabilities</title>
+    <link href="https://simonwillison.net/2026/Apr/30/gpt-55-cyber-capabilities/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:2689fb473ab44ee1</id>
+    <published>2026-04-30T23:03:24Z</published>
+    <updated>2026-04-30T23:03:24Z</updated>
+    <content type="html">&lt;p&gt;英国のAIセキュリティ研究所がOpenAIのGPT-5.5のサイバー能力を評価し、セキュリティ脆弱性の発見においてAnthropicのClaude Mythosと同等の能力を持つことを確認した。GPT-5.5は現在一般公開されており、AIモデルのサイバー攻撃能力に関する重要な評価結果として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="evaluation"/>
-    <category term="agent-security"/>
     <category term="research"/>
+    <category term="model-safety"/>
+    <category term="vulnerability"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>Simon Willison's Weblog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>PyTorch Lightning and Intercom-client Hit in Supply Chain Attacks to Steal Credentials</title>
+    <link href="https://thehackernews.com/2026/04/pytorch-lightning-compromised-in-pypi.html" rel="alternate"/>
+    <id>urn:ai-security-digest:31bd688d7cff32ca</id>
+    <published>2026-04-30T16:31:00Z</published>
+    <updated>2026-04-30T16:31:00Z</updated>
+    <content type="html">&lt;p&gt;AIおよび機械学習で広く利用されるPythonパッケージ「PyTorch Lightning」がサプライチェーン攻撃の標的となり、悪意のあるバージョン2.6.2および2.6.3がPyPIに公開されてクレデンシャル窃取が行われた。AI開発エコシステムを標的としたサプライチェーン攻撃として、AI開発者への直接的なリスクを示す事例である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="vulnerability"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Hacker News</title>
     </source>
   </entry>
 </feed>
