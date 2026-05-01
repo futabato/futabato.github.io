@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Anthropic Unveils Claude Security to Counter AI-Powered Exploit Surge - SecurityWeek",
+    "link": "https://www.securityweek.com/anthropic-unveils-claude-security-to-counter-ai-powered-exploit-surge/",
+    "source": "securityweek.com",
+    "published": "2026-05-01T23:49:23.871140+00:00",
+    "summary_ja": "AnthropicはAIを悪用したサイバー攻撃の急増に対抗するため、セキュリティ特化型AIソリューション「Claude Security」を発表した。AIによる脆弱性の即時悪用を可能にする新たな脅威「Mythos」の登場により、防御側が攻撃に追いつくことが困難になっている。Claude Securityはこうした状況においてセキュリティ担当者を支援することを目的としている。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-01T15:00:00+00:00",
+    "summary_ja": "MicrosoftはセキュリティエージェントAgent 365の一般提供開始を発表し、OpenClawやClaude Codeなどのローカルエージェントを含むシャドーAIエージェントの検出・管理機能のプレビューも公開した。エンタープライズ環境における管理外AIエージェントのガバナンス強化を目的としている。",
+    "tags": [
+      "tool",
+      "agent-security",
+      "governance"
+    ]
+  },
+  {
+    "title": "British cyber agency warns of looming ‘patch wave’ as AI speeds flaw discovery",
+    "link": "https://therecord.media/british-cyber-ai-patch-wave",
+    "source": "The Record by Recorded Future",
+    "published": "2026-05-01T13:30:00+00:00",
+    "summary_ja": "英国のサイバーセキュリティ機関（NCSC）は、AIが脆弱性の発見を加速させることで、緊急パッチ適用の波が押し寄せるリスクについて警告を発した。AIによる脆弱性発見の高速化が、組織のパッチ管理に新たな課題をもたらすとしている。",
+    "tags": [
+      "policy",
+      "vulnerability",
+      "governance"
+    ]
+  },
+  {
+    "title": "Careful Adoption of Agentic AI Services",
+    "link": "https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services",
+    "source": "CISA Alerts",
+    "published": "2026-05-01T12:00:00+00:00",
+    "summary_ja": "CISAがオーストラリアのサイバーセキュリティセンター（ASD's ACSC）など国際パートナーと共同で、エージェント型AIシステムの安全な導入に関するガイダンスを公開した。エージェントAIに特有のセキュリティリスクと課題を整理し、設計・展開・運用における具体的な対策手順を提供している。",
+    "tags": [
+      "policy",
+      "agent-security",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "Agent Name Service (ANS): A Proof-of-Concept Trust Layer for Secure AI Agent Discovery, Identity, and Governance in Kubernetes",
+    "link": "https://arxiv.org/abs/2604.26997",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-01T04:00:00+00:00",
+    "summary_ja": "自律型AIエージェントエコシステムにおけるセキュアな発見・認証・ポリシーガバナンスを実現するための「Agent Name Service（ANS）」のプルーフオブコンセプトを提案した研究論文。DNS方式にインスパイアされたトラストレイヤーにより、AIエージェントのアイデンティティ検証やケイパビリティ証明を実現する。",
+    "tags": [
+      "research",
+      "agent-security",
+      "governance"
+    ]
+  },
+  {
+    "title": "C8s: A Confidential Kubernetes Architecture",
+    "link": "https://arxiv.org/abs/2604.26974",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-01T04:00:00+00:00",
+    "summary_ja": "Kubernetes環境向けの機密コンピューティングアーキテクチャ「C8s」を提案した研究論文。AMD SEV-SNPやIntel TDX、NVIDIA Confidential Computingなどのハードウェアベースの信頼実行環境（TEE）を活用し、インフラ事業者からのクラスター機密性・完全性・検証可能性を暗号的に保証する。",
+    "tags": [
+      "research",
+      "tool"
+    ]
+  }
+]
