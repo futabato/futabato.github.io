@@ -1,0 +1,80 @@
+[
+  {
+    "title": "How I Found Open-Source 0-days with an LLM Multi-Agent Workflow - Your site",
+    "link": "https://blog.cykor.kr/2026/02/How-I-Found-Open-Source-0-days-with-an-LLM-Multi-Agent-Workflow",
+    "source": "blog.cykor.kr",
+    "published": "2026-05-02T23:40:09.611736+00:00",
+    "summary_ja": "Hyunseo Shinによる記事で、LLMマルチエージェントワークフローを活用してオープンソースソフトウェアのゼロデイ脆弱性を発見した手法について解説している。AIエージェントを組み合わせた自動化されたセキュリティ調査アプローチにより、従来の手動解析では見落とされがちな脆弱性を効率的に特定することに成功したとされる。LLMをセキュリティリサーチに応用した実践的な事例として注目される内容である。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "Indirect Prompt Injection in the Wild: An Empirical Study of Prevalence, Techniques, and Objectives",
+    "link": "https://arxiv.org/abs/2604.27202",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-02T04:00:00+00:00",
+    "summary_ja": "LLMがウェブコンテンツを閲覧・取得・要約・操作するシステムに統合されるにつれ、間接プロンプトインジェクション攻撃の実態を実証的に調査した研究。実環境におけるこの攻撃の普及状況、使用技術、攻撃目的を分析し、現実世界での脅威レベルを明らかにしている。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Secret Stealing Attacks on Local LLM Fine-Tuning through Supply-Chain Model Code Backdoors",
+    "link": "https://arxiv.org/abs/2604.27426",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-02T04:00:00+00:00",
+    "summary_ja": "ローカルLLMファインチューニングのサプライチェーンにおけるバックドア攻撃を通じて、学習データ内のAPIキーや個人情報などの秘密情報を窃取する新たな攻撃手法を提案した研究。「ローカルオフラインファインチューニングは安全」という一般的な認識を覆す重大な脅威を指摘している。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Security Attack and Defense Strategies for Autonomous Agent Frameworks: A Layered Review with OpenClaw as a Case Study",
+    "link": "https://arxiv.org/abs/2604.27464",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-02T04:00:00+00:00",
+    "summary_ja": "LLMを基盤とした自律エージェントフレームワークのセキュリティリスクを体系的にレビューし、攻撃・防御戦略をレイヤー別に整理した研究。OpenClawをケーススタディとして、従来のプロンプトレベルを超えた複雑なセキュリティ課題を分析している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Membership Inference Attacks Against Video Large Language Models",
+    "link": "https://arxiv.org/abs/2604.27002",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-02T04:00:00+00:00",
+    "summary_ja": "VideoLLM（動画大規模言語モデル）を対象としたメンバーシップ推論攻撃の研究で、学習データに特定の動画が使用されたかどうかを外部から特定できるかを検証した。テキスト・画像モデルでは研究が進んでいたが、VideoLLM特有のプライバシーリスクを新たに示した。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "An Empirical Security Evaluation of LLM-Generated Cryptographic Rust Code",
+    "link": "https://arxiv.org/abs/2604.27001",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-02T04:00:00+00:00",
+    "summary_ja": "LLMが生成した暗号化Rustコードのセキュリティを実証的に評価した研究。Gemini 2.5 Pro、GPT-4o、DeepSeek Coderの3モデルで240件のコードサンプルを分析し、LLMが生成するセキュリティクリティカルなコードに潜む脆弱性のリスクを明らかにしている。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "evaluation",
+      "model-safety"
+    ]
+  }
+]

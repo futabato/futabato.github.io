@@ -3,92 +3,98 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-01T23:49:27Z</updated>
+  <updated>2026-05-02T23:40:13Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Anthropic Unveils Claude Security to Counter AI-Powered Exploit Surge - SecurityWeek</title>
-    <link href="https://www.securityweek.com/anthropic-unveils-claude-security-to-counter-ai-powered-exploit-surge/" rel="alternate"/>
-    <id>urn:ai-security-digest:e7b577762321ab05</id>
-    <published>2026-05-01T23:49:23Z</published>
-    <updated>2026-05-01T23:49:23Z</updated>
-    <content type="html">&lt;p&gt;AnthropicはAIを悪用したサイバー攻撃の急増に対抗するため、セキュリティ特化型AIソリューション「Claude Security」を発表した。AIによる脆弱性の即時悪用を可能にする新たな脅威「Mythos」の登場により、防御側が攻撃に追いつくことが困難になっている。Claude Securityはこうした状況においてセキュリティ担当者を支援することを目的としている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; securityweek.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="vulnerability"/>
-    <category term="model-safety"/>
-    <source>
-      <title>securityweek.com</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Microsoft Agent 365, now generally available, expands capabilities and integrations</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/" rel="alternate"/>
-    <id>urn:ai-security-digest:d98eb9b7432b99a9</id>
-    <published>2026-05-01T15:00:00Z</published>
-    <updated>2026-05-01T15:00:00Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftはセキュリティエージェントAgent 365の一般提供開始を発表し、OpenClawやClaude Codeなどのローカルエージェントを含むシャドーAIエージェントの検出・管理機能のプレビューも公開した。エンタープライズ環境における管理外AIエージェントのガバナンス強化を目的としている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <source>
-      <title>Microsoft Security Blog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>British cyber agency warns of looming ‘patch wave’ as AI speeds flaw discovery</title>
-    <link href="https://therecord.media/british-cyber-ai-patch-wave" rel="alternate"/>
-    <id>urn:ai-security-digest:edcd8bfbcab84ee1</id>
-    <published>2026-05-01T13:30:00Z</published>
-    <updated>2026-05-01T13:30:00Z</updated>
-    <content type="html">&lt;p&gt;英国のサイバーセキュリティ機関（NCSC）は、AIが脆弱性の発見を加速させることで、緊急パッチ適用の波が押し寄せるリスクについて警告を発した。AIによる脆弱性発見の高速化が、組織のパッチ管理に新たな課題をもたらすとしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="vulnerability"/>
-    <category term="governance"/>
-    <source>
-      <title>The Record by Recorded Future</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Careful Adoption of Agentic AI Services</title>
-    <link href="https://www.cisa.gov/resources-tools/resources/careful-adoption-agentic-ai-services" rel="alternate"/>
-    <id>urn:ai-security-digest:9eb3e8df8b6dead0</id>
-    <published>2026-05-01T12:00:00Z</published>
-    <updated>2026-05-01T12:00:00Z</updated>
-    <content type="html">&lt;p&gt;CISAがオーストラリアのサイバーセキュリティセンター（ASD&amp;#x27;s ACSC）など国際パートナーと共同で、エージェント型AIシステムの安全な導入に関するガイダンスを公開した。エージェントAIに特有のセキュリティリスクと課題を整理し、設計・展開・運用における具体的な対策手順を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; CISA Alerts&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <category term="regulation"/>
-    <source>
-      <title>CISA Alerts</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Agent Name Service (ANS): A Proof-of-Concept Trust Layer for Secure AI Agent Discovery, Identity, and Governance in Kubernetes</title>
-    <link href="https://arxiv.org/abs/2604.26997" rel="alternate"/>
-    <id>urn:ai-security-digest:9ee842d69de39182</id>
-    <published>2026-05-01T04:00:00Z</published>
-    <updated>2026-05-01T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;自律型AIエージェントエコシステムにおけるセキュアな発見・認証・ポリシーガバナンスを実現するための「Agent Name Service（ANS）」のプルーフオブコンセプトを提案した研究論文。DNS方式にインスパイアされたトラストレイヤーにより、AIエージェントのアイデンティティ検証やケイパビリティ証明を実現する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <title>How I Found Open-Source 0-days with an LLM Multi-Agent Workflow - Your site</title>
+    <link href="https://blog.cykor.kr/2026/02/How-I-Found-Open-Source-0-days-with-an-LLM-Multi-Agent-Workflow" rel="alternate"/>
+    <id>urn:ai-security-digest:666ca2a039a0082c</id>
+    <published>2026-05-02T23:40:09Z</published>
+    <updated>2026-05-02T23:40:09Z</updated>
+    <content type="html">&lt;p&gt;Hyunseo Shinによる記事で、LLMマルチエージェントワークフローを活用してオープンソースソフトウェアのゼロデイ脆弱性を発見した手法について解説している。AIエージェントを組み合わせた自動化されたセキュリティ調査アプローチにより、従来の手動解析では見落とされがちな脆弱性を効率的に特定することに成功したとされる。LLMをセキュリティリサーチに応用した実践的な事例として注目される内容である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; blog.cykor.kr&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="vulnerability"/>
     <category term="agent-security"/>
-    <category term="governance"/>
+    <category term="tool"/>
+    <source>
+      <title>blog.cykor.kr</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Indirect Prompt Injection in the Wild: An Empirical Study of Prevalence, Techniques, and Objectives</title>
+    <link href="https://arxiv.org/abs/2604.27202" rel="alternate"/>
+    <id>urn:ai-security-digest:4c2c0a4c1d00dcd1</id>
+    <published>2026-05-02T04:00:00Z</published>
+    <updated>2026-05-02T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMがウェブコンテンツを閲覧・取得・要約・操作するシステムに統合されるにつれ、間接プロンプトインジェクション攻撃の実態を実証的に調査した研究。実環境におけるこの攻撃の普及状況、使用技術、攻撃目的を分析し、現実世界での脅威レベルを明らかにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="vulnerability"/>
+    <category term="adversarial"/>
+    <category term="agent-security"/>
     <source>
       <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>C8s: A Confidential Kubernetes Architecture</title>
-    <link href="https://arxiv.org/abs/2604.26974" rel="alternate"/>
-    <id>urn:ai-security-digest:3a81207ad1357c19</id>
-    <published>2026-05-01T04:00:00Z</published>
-    <updated>2026-05-01T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;Kubernetes環境向けの機密コンピューティングアーキテクチャ「C8s」を提案した研究論文。AMD SEV-SNPやIntel TDX、NVIDIA Confidential Computingなどのハードウェアベースの信頼実行環境（TEE）を活用し、インフラ事業者からのクラスター機密性・完全性・検証可能性を暗号的に保証する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Secret Stealing Attacks on Local LLM Fine-Tuning through Supply-Chain Model Code Backdoors</title>
+    <link href="https://arxiv.org/abs/2604.27426" rel="alternate"/>
+    <id>urn:ai-security-digest:3dfa201349069c5f</id>
+    <published>2026-05-02T04:00:00Z</published>
+    <updated>2026-05-02T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;ローカルLLMファインチューニングのサプライチェーンにおけるバックドア攻撃を通じて、学習データ内のAPIキーや個人情報などの秘密情報を窃取する新たな攻撃手法を提案した研究。「ローカルオフラインファインチューニングは安全」という一般的な認識を覆す重大な脅威を指摘している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="tool"/>
+    <category term="vulnerability"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Security Attack and Defense Strategies for Autonomous Agent Frameworks: A Layered Review with OpenClaw as a Case Study</title>
+    <link href="https://arxiv.org/abs/2604.27464" rel="alternate"/>
+    <id>urn:ai-security-digest:739e799b777b0fba</id>
+    <published>2026-05-02T04:00:00Z</published>
+    <updated>2026-05-02T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMを基盤とした自律エージェントフレームワークのセキュリティリスクを体系的にレビューし、攻撃・防御戦略をレイヤー別に整理した研究。OpenClawをケーススタディとして、従来のプロンプトレベルを超えた複雑なセキュリティ課題を分析している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <category term="vulnerability"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Membership Inference Attacks Against Video Large Language Models</title>
+    <link href="https://arxiv.org/abs/2604.27002" rel="alternate"/>
+    <id>urn:ai-security-digest:c2025951e42a230c</id>
+    <published>2026-05-02T04:00:00Z</published>
+    <updated>2026-05-02T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;VideoLLM（動画大規模言語モデル）を対象としたメンバーシップ推論攻撃の研究で、学習データに特定の動画が使用されたかどうかを外部から特定できるかを検証した。テキスト・画像モデルでは研究が進んでいたが、VideoLLM特有のプライバシーリスクを新たに示した。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>An Empirical Security Evaluation of LLM-Generated Cryptographic Rust Code</title>
+    <link href="https://arxiv.org/abs/2604.27001" rel="alternate"/>
+    <id>urn:ai-security-digest:fc8b06af86aa2711</id>
+    <published>2026-05-02T04:00:00Z</published>
+    <updated>2026-05-02T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMが生成した暗号化Rustコードのセキュリティを実証的に評価した研究。Gemini 2.5 Pro、GPT-4o、DeepSeek Coderの3モデルで240件のコードサンプルを分析し、LLMが生成するセキュリティクリティカルなコードに潜む脆弱性のリスクを明らかにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="vulnerability"/>
+    <category term="evaluation"/>
+    <category term="model-safety"/>
     <source>
       <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
