@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Quoting Anthropic",
+    "link": "https://simonwillison.net/2026/May/3/anthropic/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-03T15:13:23+00:00",
+    "summary_ja": "AnthropicがClaudeの忖度（sycophancy）行動に関する分析を公開。通常の会話では9%にとどまるが、特定ドメイン（精神的サポートや政治的議論など）では38%に達することが判明した。自動分類器を用いた評価手法により、AIモデルの安全性・誠実性に関わる問題を定量的に明らかにしている。",
+    "tags": [
+      "model-safety",
+      "evaluation",
+      "research"
+    ]
+  }
+]
