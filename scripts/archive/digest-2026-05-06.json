@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Introducing deepsec: The security harness for finding vulnerabilities in your codebase - Vercel",
+    "link": "https://vercel.com/blog/introducing-deepsec-find-and-fix-vulnerabilities-in-your-code-base",
+    "source": "vercel.com",
+    "published": "2026-05-05T23:44:53.104181+00:00",
+    "summary_ja": "Vercelは、コードベースの脆弱性を発見・修正するためのAIセキュリティハーネス「deepsec」をオープンソースとして公開した。このツールは自社インフラ上で、自前のAPIキーを使用してコードに対して実行できる設計となっている。開発者が自分たちのコード内のセキュリティ上の問題を効率的に検出・対処できるよう支援することを目的としている。",
+    "tags": [
+      "tool",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Instructure hacker claims data theft from 8,800 schools, universities",
+    "link": "https://www.bleepingcomputer.com/news/security/instructure-hacker-claims-data-theft-from-8-800-schools-universities/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-05T21:20:23+00:00",
+    "summary_ja": "教育テクノロジー大手Instructureがハッカーによるデータ侵害を受け、8,809校・大学等から2億8000万件の学生・職員データが盗まれたと主張された。教育機関向けAIツールや学習管理システムを広く提供するプラットフォームへの攻撃として注目される。",
+    "tags": [
+      "incident",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "The Back Door Attackers Know About — and Most Security Teams Still Haven’t Closed",
+    "link": "https://thehackernews.com/2026/05/the-back-door-attackers-know-about-and.html",
+    "source": "The Hacker News",
+    "published": "2026-05-05T11:58:00+00:00",
+    "summary_ja": "AIツールやワークフロー自動化アプリがGoogleやMicrosoftと連携する際に残留するOAuthトークンが、有効期限なし・自動クリーンアップなしの状態で放置されている問題が指摘された。AIツールの普及に伴いこのリスクが拡大しており、攻撃者がパスワード不要でシステムに侵入できる「裏口」となっている。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "incident"
+    ]
+  },
+  {
+    "title": "Google now offers up to $1.5 million for some Android exploits",
+    "link": "https://www.bleepingcomputer.com/news/security/google-now-offers-up-to-15-million-for-some-android-exploits/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-05T11:24:48+00:00",
+    "summary_ja": "GoogleがAndroidおよびChromeの脆弱性報奨金プログラムを刷新し、一部のAndroidエクスプロイトに対して最大150万ドルの報奨金を提供すると発表した。一方、AIによって発見が容易になった脆弱性については報奨金を引き下げる方針も示しており、AIがセキュリティ研究に与える影響が注目される。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "policy"
+    ]
+  },
+  {
+    "title": "We Scanned 1 Million Exposed AI Services. Here's How Bad the Security Actually Is",
+    "link": "https://thehackernews.com/2026/05/we-scanned-1-million-exposed-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-05-05T10:30:00+00:00",
+    "summary_ja": "100万件の公開AIサービスをスキャンした調査で、自己ホスト型LLMインフラのセキュリティ実態が明らかになった。企業がAI導入を急ぐあまり、セキュリティが後回しにされており、露出したAIサービスに深刻なリスクが存在することが示された。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "E-MIA: Exam-Style Black-Box Membership Inference Attacks against RAG Systems",
+    "link": "https://arxiv.org/abs/2605.00955",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-05T04:00:00+00:00",
+    "summary_ja": "RAGシステムに対するブラックボックス設定でのメンバーシップ推論攻撃（E-MIA）の新手法が提案された。クエリ応答のやり取りのみから、攻撃者がRAG知識ベースに特定の文書が含まれているかを推定できることが示され、RAGの検索コーパスというプライバシー上の新たなリスクが浮き彫りになった。",
+    "tags": [
+      "research",
+      "adversarial",
+      "vulnerability"
+    ]
+  }
+]
