@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Tune In: The Future of AI-Powered Vulnerability Discovery",
+    "link": "https://www.crowdstrike.com/en-us/blog/tune-in-future-of-ai-powered-vulnerability-discovery/",
+    "source": "crowdstrike.com",
+    "published": "2026-05-06T23:47:31.347001+00:00",
+    "summary_ja": "CrowdStrikeの「Adversary Universe」ポッドキャストのエピソードで、AIが脆弱性リサーチをいかに加速させているかを探求している。AIを活用した脆弱性発見の未来と、それがセキュリティ分野に与える影響について議論している。AIの進化により、脆弱性の発見・分析プロセスが大きく変わりつつあることが示唆されている。",
+    "tags": [
+      "vulnerability",
+      "research",
+      "tool"
+    ]
+  },
+  {
+    "title": "​​Microsoft named an overall leader in KuppingerCole Analyst’s 2026 Emerging AI Security Operations Center (SOC) report ​​",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/microsoft-named-an-overall-leader-in-kuppingercole-analysts-2026-emerging-ai-security-operations-center-soc-report/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-06T16:00:00+00:00",
+    "summary_ja": "MicrosoftがKuppingerCole Analysts社の2026年版「Emerging AI Security Operations Center（SOC）レポート」においてOverall LeaderおよびMarket Leaderに選出された。AIと自動化をサイバーセキュリティの中核と位置づけるMicrosoftのAI駆動型SOCへの取り組みが高く評価されている。",
+    "tags": [
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "Live blog: Code w/ Claude 2026",
+    "link": "https://simonwillison.net/2026/May/6/code-w-claude-2026/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-06T15:58:27+00:00",
+    "summary_ja": "AnthropicのCode w/ Claude 2026イベントに関するライブブログ。Claude CodeなどのLLMベースのコーディングエージェントの最新動向が紹介されており、AIエージェントのソフトウェア開発への統合加速という業界トレンドを把握できる内容となっている。",
+    "tags": [
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "ClickFix campaign uses fake macOS utilities lures to deliver infostealers",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/06/clickfix-campaign-uses-fake-macos-utilities-lures-deliver-infostealers/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-06T15:20:32+00:00",
+    "summary_ja": "macOSユーザーを標的にしたClickFixキャンペーンで、偽のユーティリティツールを装って悪意あるターミナルコマンドを実行させる手口が確認された。認証情報やウォレット情報などを窃取するインフォスティーラーを配布しており、従来型の防御機構を回避する巧妙な手法が用いられている。",
+    "tags": [
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+    "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-06T14:24:08+00:00",
+    "summary_ja": "Simon WillisonがAIコーディングツールに関するポッドキャストを通じて、バイブコーディングとエージェント型エンジニアリングが自身の実務の中で収束しつつあるという新たな気づきを共有。AIエージェントの自律的なコード生成がもたらすセキュリティ上のリスクや制御の難しさについて考察している。",
+    "tags": [
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Your AI Agents Are Already Inside the Perimeter. Do You Know What They're Doing?",
+    "link": "https://thehackernews.com/2026/05/your-ai-agents-are-already-inside.html",
+    "source": "The Hacker News",
+    "published": "2026-05-06T10:57:00+00:00",
+    "summary_ja": "企業へのAIエージェント導入がガバナンスポリシーの成熟度を上回るスピードで進んでいることをGartnerが指摘。AIエージェントがすでに企業の内部ネットワークに展開されている中、その行動監視や制御の仕組みが追いついていないリスクを警告している。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "regulation"
+    ]
+  }
+]
