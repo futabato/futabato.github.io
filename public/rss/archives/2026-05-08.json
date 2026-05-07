@@ -1,0 +1,63 @@
+[
+  {
+    "title": "When prompts become shells: RCE vulnerabilities in AI agent frameworks",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/07/prompts-become-shells-rce-vulnerabilities-ai-agent-frameworks/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-07T20:22:39+00:00",
+    "summary_ja": "MicrosoftのセキュリティブログがAIエージェントフレームワークにおけるプロンプトインジェクションの脆弱性を詳細に解説。プロンプトの悪用がリモートコード実行（RCE）につながる仕組みと、その影響範囲・対策を明らかにしている。AIエージェントの普及に伴い、特に注目すべき新たな攻撃ベクターとして業界に警鐘を鳴らしている。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+    "link": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-07T17:56:25+00:00",
+    "summary_ja": "MozillaがAnthropicの最新モデル「Claude Mythos Preview」を活用し、Firefoxの脆弱性を数百件発見・修正したプロセスを詳報。従来AIによるセキュリティバグ報告は精度が低く嫌われがちだったが、今回は高品質な成果を上げたと評価されている。AIを活用したセキュリティ強化の実践的な成功事例として注目される。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "model-safety",
+      "research"
+    ]
+  },
+  {
+    "title": "The Browser Is Breaking Your DLP: How Data Slips Past Modern Controls",
+    "link": "https://www.bleepingcomputer.com/news/security/the-browser-is-breaking-your-dlp-how-data-slips-past-modern-controls/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-07T14:01:11+00:00",
+    "summary_ja": "ブラウザ上でのAIプロンプト入力やコピー＆ペーストなどの操作が、従来のDLP（データ損失防止）コントロールをすり抜けるリスクを解説した記事。現代の業務がブラウザ中心に移行する中で、AIツールへのデータ入力が新たなデータ漏洩経路となっている点を指摘。AIの業務利用拡大に伴うセキュリティギャップに警鐘を鳴らしている。",
+    "tags": [
+      "vulnerability",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+    "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+    "source": "The Hacker News",
+    "published": "2026-05-07T13:50:00+00:00",
+    "summary_ja": "2026年のサイバー攻撃ではAIを駆使した高度なフィッシングメールにより、従来の教育だけでは見破れない「最初の1クリック」感染が急増していると警告するウェビナー告知記事。AIが攻撃者のソーシャルエンジニアリングを強化している現状を解説しており、AI悪用による脅威拡大の動向として関連性がある。",
+    "tags": [
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Fake Claude AI website delivers new 'Beagle' Windows malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-claude-ai-website-delivers-new-beagle-windows-malware/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-07T10:02:35+00:00",
+    "summary_ja": "Claude AIの偽サイトが「Claude-Pro Relay」と称する悪意あるインストーラーを配布し、未知のWindowsバックドア「Beagle」を感染させるキャンペーンが確認された。AIブランドへの信頼を悪用したフィッシング・マルウェア配布の事例であり、AIツールの普及に便乗した新たな脅威として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
