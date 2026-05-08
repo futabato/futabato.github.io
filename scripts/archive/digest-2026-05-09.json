@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Why More Analysts Won’t Solve Your SOC’s Alert Problem",
+    "link": "https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-08T14:02:12+00:00",
+    "summary_ja": "SOCチームのアラート過多問題に対し、AIを活用してアナリストが脅威調査を効率化する方法をProphet Securityが解説。攻撃者の行動速度が人間のアナリスト対応能力を上回る現状において、AIによるトリアージ支援の重要性を論じている。",
+    "tags": [
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "One Click, Total Shutdown: The \"Patient Zero\" Webinar on Killing Stealth Breaches",
+    "link": "https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html",
+    "source": "The Hacker News",
+    "published": "2026-05-08T14:01:00+00:00",
+    "summary_ja": "2026年において攻撃者がAIを活用し、フィッシングなど初期感染の手口を従来より検知困難にしている実態を紹介するウェビナー告知記事。AI生成の巧妙なソーシャルエンジニアリング攻撃への対策として、初動封じ込め計画の重要性を強調している。",
+    "tags": [
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog",
+    "source": "CISA Alerts",
+    "published": "2026-05-08T12:00:00+00:00",
+    "summary_ja": "CISAはBerriAI LiteLLMにおけるSQLインジェクション脆弱性（CVE-2026-42208）を既知悪用脆弱性カタログに追加した。LLMプロキシ・ゲートウェイとして広く使用されるLiteLLMへの攻撃は、AI基盤インフラに対する重大なリスクをもたらす。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "SecureMCP: A Policy-Enforced LLM Data Access Framework for AIoT Systems via Model Context Protocol",
+    "link": "https://arxiv.org/abs/2605.05260",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-08T04:00:00+00:00",
+    "summary_ja": "AIoTシステムにおいてLLMが生成するSQLクエリへのプロンプトインジェクション攻撃リスクに対処するため、MCP（Model Context Protocol）経由でポリシー強制型のデータアクセス制御フレームワーク「SecureMCP」を提案した研究。きめ細かなロールベースアクセス制御により、LLMによる不正クエリ実行を防止する。",
+    "tags": [
+      "research",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Dynamic Authorization for Knowledge-Base Agents in 6G",
+    "link": "https://arxiv.org/abs/2605.05269",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-08T04:00:00+00:00",
+    "summary_ja": "6Gアーキテクチャにおけるマルチエージェントシステム（MAS）の分散環境で、自律エージェントが共有ナレッジベースに安全にアクセスするための動的認可フレームワークを提案した研究。ゼロトラスト原則を適用し、従来のRBACでは対応困難なエージェント固有のアクセス制御を実現する。",
+    "tags": [
+      "research",
+      "agent-security",
+      "governance"
+    ]
+  }
+]
