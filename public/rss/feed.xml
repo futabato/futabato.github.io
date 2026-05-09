@@ -3,78 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-08T23:54:53Z</updated>
+  <updated>2026-05-09T23:44:00Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Why More Analysts Won’t Solve Your SOC’s Alert Problem</title>
-    <link href="https://www.bleepingcomputer.com/news/security/why-more-analysts-wont-solve-your-socs-alert-problem/" rel="alternate"/>
-    <id>urn:ai-security-digest:d65a7069c50486b5</id>
-    <published>2026-05-08T14:02:12Z</published>
-    <updated>2026-05-08T14:02:12Z</updated>
-    <content type="html">&lt;p&gt;SOCチームのアラート過多問題に対し、AIを活用してアナリストが脅威調査を効率化する方法をProphet Securityが解説。攻撃者の行動速度が人間のアナリスト対応能力を上回る現状において、AIによるトリアージ支援の重要性を論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="agent-security"/>
+    <title>Fake OpenAI repository on Hugging Face pushes infostealer malware</title>
+    <link href="https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/" rel="alternate"/>
+    <id>urn:ai-security-digest:08421650b8c15ac1</id>
+    <published>2026-05-09T14:26:03Z</published>
+    <updated>2026-05-09T14:26:03Z</updated>
+    <content type="html">&lt;p&gt;Hugging Face上に偽のOpenAIリポジトリが作成され、プラットフォームのトレンドリストに掲載されるほどの注目を集めた。このリポジトリは「Privacy Filter」プロジェクトを装い、Windowsユーザーに情報窃取マルウェアを配布していた。AIプラットフォームを悪用したサプライチェーン攻撃の新たな事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="vulnerability"/>
+    <category term="adversarial"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>One Click, Total Shutdown: The &quot;Patient Zero&quot; Webinar on Killing Stealth Breaches</title>
-    <link href="https://thehackernews.com/2026/05/one-click-total-shutdown-patient-zero.html" rel="alternate"/>
-    <id>urn:ai-security-digest:2c15c7bc80aed80c</id>
-    <published>2026-05-08T14:01:00Z</published>
-    <updated>2026-05-08T14:01:00Z</updated>
-    <content type="html">&lt;p&gt;2026年において攻撃者がAIを活用し、フィッシングなど初期感染の手口を従来より検知困難にしている実態を紹介するウェビナー告知記事。AI生成の巧妙なソーシャルエンジニアリング攻撃への対策として、初動封じ込め計画の重要性を強調している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>CISA Adds One Known Exploited Vulnerability to Catalog</title>
-    <link href="https://www.cisa.gov/news-events/alerts/2026/05/08/cisa-adds-one-known-exploited-vulnerability-catalog" rel="alternate"/>
-    <id>urn:ai-security-digest:602ea85607361819</id>
-    <published>2026-05-08T12:00:00Z</published>
-    <updated>2026-05-08T12:00:00Z</updated>
-    <content type="html">&lt;p&gt;CISAはBerriAI LiteLLMにおけるSQLインジェクション脆弱性（CVE-2026-42208）を既知悪用脆弱性カタログに追加した。LLMプロキシ・ゲートウェイとして広く使用されるLiteLLMへの攻撃は、AI基盤インフラに対する重大なリスクをもたらす。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; CISA Alerts&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="tool"/>
-    <source>
-      <title>CISA Alerts</title>
-    </source>
-  </entry>
-  <entry>
-    <title>SecureMCP: A Policy-Enforced LLM Data Access Framework for AIoT Systems via Model Context Protocol</title>
-    <link href="https://arxiv.org/abs/2605.05260" rel="alternate"/>
-    <id>urn:ai-security-digest:03ee064d79c697f9</id>
-    <published>2026-05-08T04:00:00Z</published>
-    <updated>2026-05-08T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;AIoTシステムにおいてLLMが生成するSQLクエリへのプロンプトインジェクション攻撃リスクに対処するため、MCP（Model Context Protocol）経由でポリシー強制型のデータアクセス制御フレームワーク「SecureMCP」を提案した研究。きめ細かなロールベースアクセス制御により、LLMによる不正クエリ実行を防止する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems</title>
+    <link href="https://arxiv.org/abs/2605.05379" rel="alternate"/>
+    <id>urn:ai-security-digest:546bd84147e13a04</id>
+    <published>2026-05-09T04:00:00Z</published>
+    <updated>2026-05-09T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;エンタープライズ向けエージェントシステムにおいて、アクセス制御が正しく実施されていても、認可境界外の重要な証拠を参照せずに「完全に見える」回答を生成してしまう問題を取り上げている。この失敗モードを定量的に測定するベンチマーク「Partial Evidence Bench」を提案しており、エージェントセキュリティの評価に貢献する研究である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="adversarial"/>
+    <category term="evaluation"/>
     <category term="agent-security"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
   <entry>
-    <title>Dynamic Authorization for Knowledge-Base Agents in 6G</title>
-    <link href="https://arxiv.org/abs/2605.05269" rel="alternate"/>
-    <id>urn:ai-security-digest:f0b3cf289acda7fb</id>
-    <published>2026-05-08T04:00:00Z</published>
-    <updated>2026-05-08T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;6Gアーキテクチャにおけるマルチエージェントシステム（MAS）の分散環境で、自律エージェントが共有ナレッジベースに安全にアクセスするための動的認可フレームワークを提案した研究。ゼロトラスト原則を適用し、従来のRBACでは対応困難なエージェント固有のアクセス制御を実現する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <title>The Geopolitics of AI Safety: A Causal Analysis of Regional LLM Bias</title>
+    <link href="https://arxiv.org/abs/2605.05427" rel="alternate"/>
+    <id>urn:ai-security-digest:565bac7579deacc6</id>
+    <published>2026-05-09T04:00:00Z</published>
+    <updated>2026-05-09T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMが世界規模のソフトウェアシステムに統合される中、地域・人口統計によって安全ガードレールの公平性が異なるという問題を分析している。確率的グラフィカルモデル（PGM）を用いた因果的フレームワークによりLLMの安全機構を監査する手法を提案し、地政学的バイアスの是正に向けた知見を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="governance"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Authorization Propagation in Multi-Agent AI Systems: Identity Governance as Infrastructure</title>
+    <link href="https://arxiv.org/abs/2605.05440" rel="alternate"/>
+    <id>urn:ai-security-digest:c0cafed6ec7efd12</id>
+    <published>2026-05-09T04:00:00Z</published>
+    <updated>2026-05-09T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;マルチエージェントAIシステムにおけるセキュリティ上の課題として、プロンプトインジェクションとは異なる「認可伝播」問題を提起している。非人間のプリンシパルがデータ取得・タスク委譲・結果統合を行う際に認可の不変条件を維持することの困難さを論じ、アイデンティティガバナンスをインフラとして捉える新たな視点を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
     <category term="agent-security"/>
     <category term="governance"/>
+    <category term="vulnerability"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Understanding Annotator Safety Policy with Interpretability</title>
+    <link href="https://arxiv.org/abs/2605.05329" rel="alternate"/>
+    <id>urn:ai-security-digest:e9997dc6edc7be8b</id>
+    <published>2026-05-09T04:00:00Z</published>
+    <updated>2026-05-09T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;AIの安全性ポリシーにおけるアノテーターの意見不一致の原因（運用上の失敗、ポリシーの曖昧さ、価値観の多様性）を解釈可能性の手法を用いて分析した研究。安全なAI出力の基準策定とデータアノテーションの品質向上に向けた重要な知見を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
 </feed>

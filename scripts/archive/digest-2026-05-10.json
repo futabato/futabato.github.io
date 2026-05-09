@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Fake OpenAI repository on Hugging Face pushes infostealer malware",
+    "link": "https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-09T14:26:03+00:00",
+    "summary_ja": "Hugging Face上に偽のOpenAIリポジトリが作成され、プラットフォームのトレンドリストに掲載されるほどの注目を集めた。このリポジトリは「Privacy Filter」プロジェクトを装い、Windowsユーザーに情報窃取マルウェアを配布していた。AIプラットフォームを悪用したサプライチェーン攻撃の新たな事例として注目される。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems",
+    "link": "https://arxiv.org/abs/2605.05379",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-09T04:00:00+00:00",
+    "summary_ja": "エンタープライズ向けエージェントシステムにおいて、アクセス制御が正しく実施されていても、認可境界外の重要な証拠を参照せずに「完全に見える」回答を生成してしまう問題を取り上げている。この失敗モードを定量的に測定するベンチマーク「Partial Evidence Bench」を提案しており、エージェントセキュリティの評価に貢献する研究である。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "The Geopolitics of AI Safety: A Causal Analysis of Regional LLM Bias",
+    "link": "https://arxiv.org/abs/2605.05427",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-09T04:00:00+00:00",
+    "summary_ja": "LLMが世界規模のソフトウェアシステムに統合される中、地域・人口統計によって安全ガードレールの公平性が異なるという問題を分析している。確率的グラフィカルモデル（PGM）を用いた因果的フレームワークによりLLMの安全機構を監査する手法を提案し、地政学的バイアスの是正に向けた知見を提供する。",
+    "tags": [
+      "research",
+      "model-safety",
+      "governance",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Authorization Propagation in Multi-Agent AI Systems: Identity Governance as Infrastructure",
+    "link": "https://arxiv.org/abs/2605.05440",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-09T04:00:00+00:00",
+    "summary_ja": "マルチエージェントAIシステムにおけるセキュリティ上の課題として、プロンプトインジェクションとは異なる「認可伝播」問題を提起している。非人間のプリンシパルがデータ取得・タスク委譲・結果統合を行う際に認可の不変条件を維持することの困難さを論じ、アイデンティティガバナンスをインフラとして捉える新たな視点を提供する。",
+    "tags": [
+      "research",
+      "agent-security",
+      "governance",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Understanding Annotator Safety Policy with Interpretability",
+    "link": "https://arxiv.org/abs/2605.05329",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-09T04:00:00+00:00",
+    "summary_ja": "AIの安全性ポリシーにおけるアノテーターの意見不一致の原因（運用上の失敗、ポリシーの曖昧さ、価値観の多様性）を解釈可能性の手法を用いて分析した研究。安全なAI出力の基準策定とデータアノテーションの品質向上に向けた重要な知見を提供する。",
+    "tags": [
+      "research",
+      "model-safety",
+      "evaluation"
+    ]
+  }
+]
