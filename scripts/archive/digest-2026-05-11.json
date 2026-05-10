@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview - Mozilla Hacks - the Web developer blog",
+    "link": "https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/",
+    "source": "hacks.mozilla.org",
+    "published": "2026-05-10T23:50:00.830519+00:00",
+    "summary_ja": "MozillaはClaudeのMythosプレビューを活用してFirefoxのセキュリティ強化に取り組んでいる舞台裏を公開した。エージェント型のハーネスが実際のバグを再現し、誤検知を排除できるようになった新たな詳細が明らかにされた。AIを用いた自動化アプローチによりFirefoxの脆弱性発見プロセスが大幅に改善されていることが示されている。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "Hackers abuse Google ads, Claude.ai chats to push Mac malware",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-10T17:52:15+00:00",
+    "summary_ja": "攻撃者がGoogle広告と正規のClaude.ai共有チャットを悪用し、Macマルウェアを配布するマルバタイジングキャンペーンが進行中。「Claude mac download」を検索したユーザーが偽の広告からマルウェアインストール手順に誘導される。AIサービスのブランドを悪用した新たな攻撃手法として注目される。",
+    "tags": [
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak",
+    "link": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html",
+    "source": "The Hacker News",
+    "published": "2026-05-10T12:41:00+00:00",
+    "summary_ja": "ローカルLLM実行環境Ollamaに重大な境界外読み取り脆弱性（CVE-2026-7482、CVSSスコア9.1）が発見された。未認証のリモート攻撃者がプロセスメモリ全体を窃取できる可能性があり、世界30万台以上のサーバーに影響するとされる。「Bleeding Llama」と命名されたこの脆弱性はCyeraによって報告された。",
+    "tags": [
+      "vulnerability",
+      "research"
+    ]
+  }
+]

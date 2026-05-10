@@ -3,82 +3,51 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-09T23:44:00Z</updated>
+  <updated>2026-05-10T23:50:04Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Fake OpenAI repository on Hugging Face pushes infostealer malware</title>
-    <link href="https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/" rel="alternate"/>
-    <id>urn:ai-security-digest:08421650b8c15ac1</id>
-    <published>2026-05-09T14:26:03Z</published>
-    <updated>2026-05-09T14:26:03Z</updated>
-    <content type="html">&lt;p&gt;Hugging Face上に偽のOpenAIリポジトリが作成され、プラットフォームのトレンドリストに掲載されるほどの注目を集めた。このリポジトリは「Privacy Filter」プロジェクトを装い、Windowsユーザーに情報窃取マルウェアを配布していた。AIプラットフォームを悪用したサプライチェーン攻撃の新たな事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
+    <title>Behind the Scenes Hardening Firefox with Claude Mythos Preview - Mozilla Hacks - the Web developer blog</title>
+    <link href="https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/" rel="alternate"/>
+    <id>urn:ai-security-digest:de4ab85f24d2c0f3</id>
+    <published>2026-05-10T23:50:00Z</published>
+    <updated>2026-05-10T23:50:00Z</updated>
+    <content type="html">&lt;p&gt;MozillaはClaudeのMythosプレビューを活用してFirefoxのセキュリティ強化に取り組んでいる舞台裏を公開した。エージェント型のハーネスが実際のバグを再現し、誤検知を排除できるようになった新たな詳細が明らかにされた。AIを用いた自動化アプローチによりFirefoxの脆弱性発見プロセスが大幅に改善されていることが示されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; hacks.mozilla.org&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="tool"/>
+    <source>
+      <title>hacks.mozilla.org</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Hackers abuse Google ads, Claude.ai chats to push Mac malware</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/" rel="alternate"/>
+    <id>urn:ai-security-digest:b72e557552efd429</id>
+    <published>2026-05-10T17:52:15Z</published>
+    <updated>2026-05-10T17:52:15Z</updated>
+    <content type="html">&lt;p&gt;攻撃者がGoogle広告と正規のClaude.ai共有チャットを悪用し、Macマルウェアを配布するマルバタイジングキャンペーンが進行中。「Claude mac download」を検索したユーザーが偽の広告からマルウェアインストール手順に誘導される。AIサービスのブランドを悪用した新たな攻撃手法として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
     <category term="adversarial"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems</title>
-    <link href="https://arxiv.org/abs/2605.05379" rel="alternate"/>
-    <id>urn:ai-security-digest:546bd84147e13a04</id>
-    <published>2026-05-09T04:00:00Z</published>
-    <updated>2026-05-09T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;エンタープライズ向けエージェントシステムにおいて、アクセス制御が正しく実施されていても、認可境界外の重要な証拠を参照せずに「完全に見える」回答を生成してしまう問題を取り上げている。この失敗モードを定量的に測定するベンチマーク「Partial Evidence Bench」を提案しており、エージェントセキュリティの評価に貢献する研究である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="evaluation"/>
-    <category term="agent-security"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>The Geopolitics of AI Safety: A Causal Analysis of Regional LLM Bias</title>
-    <link href="https://arxiv.org/abs/2605.05427" rel="alternate"/>
-    <id>urn:ai-security-digest:565bac7579deacc6</id>
-    <published>2026-05-09T04:00:00Z</published>
-    <updated>2026-05-09T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMが世界規模のソフトウェアシステムに統合される中、地域・人口統計によって安全ガードレールの公平性が異なるという問題を分析している。確率的グラフィカルモデル（PGM）を用いた因果的フレームワークによりLLMの安全機構を監査する手法を提案し、地政学的バイアスの是正に向けた知見を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="governance"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Authorization Propagation in Multi-Agent AI Systems: Identity Governance as Infrastructure</title>
-    <link href="https://arxiv.org/abs/2605.05440" rel="alternate"/>
-    <id>urn:ai-security-digest:c0cafed6ec7efd12</id>
-    <published>2026-05-09T04:00:00Z</published>
-    <updated>2026-05-09T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;マルチエージェントAIシステムにおけるセキュリティ上の課題として、プロンプトインジェクションとは異なる「認可伝播」問題を提起している。非人間のプリンシパルがデータ取得・タスク委譲・結果統合を行う際に認可の不変条件を維持することの困難さを論じ、アイデンティティガバナンスをインフラとして捉える新たな視点を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="governance"/>
+    <title>Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak</title>
+    <link href="https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html" rel="alternate"/>
+    <id>urn:ai-security-digest:c84897c4060cb4fe</id>
+    <published>2026-05-10T12:41:00Z</published>
+    <updated>2026-05-10T12:41:00Z</updated>
+    <content type="html">&lt;p&gt;ローカルLLM実行環境Ollamaに重大な境界外読み取り脆弱性（CVE-2026-7482、CVSSスコア9.1）が発見された。未認証のリモート攻撃者がプロセスメモリ全体を窃取できる可能性があり、世界30万台以上のサーバーに影響するとされる。「Bleeding Llama」と命名されたこの脆弱性はCyeraによって報告された。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Understanding Annotator Safety Policy with Interpretability</title>
-    <link href="https://arxiv.org/abs/2605.05329" rel="alternate"/>
-    <id>urn:ai-security-digest:e9997dc6edc7be8b</id>
-    <published>2026-05-09T04:00:00Z</published>
-    <updated>2026-05-09T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;AIの安全性ポリシーにおけるアノテーターの意見不一致の原因（運用上の失敗、ポリシーの曖昧さ、価値観の多様性）を解釈可能性の手法を用いて分析した研究。安全なAI出力の基準策定とデータアノテーションの品質向上に向けた重要な知見を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
     <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
 </feed>

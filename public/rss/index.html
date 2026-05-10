@@ -51,55 +51,37 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年05月10日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年05月11日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">3件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>05/09</time>
+            <time>05/10</time>
+            <span class="source">hacks.mozilla.org</span>
+          </div>
+          <h3><a href="https://hacks.mozilla.org/2026/05/behind-the-scenes-hardening-firefox/" target="_blank" rel="noopener">Behind the Scenes Hardening Firefox with Claude Mythos Preview - Mozilla Hacks - the Web developer blog</a></h3>
+          <p>MozillaはClaudeのMythosプレビューを活用してFirefoxのセキュリティ強化に取り組んでいる舞台裏を公開した。エージェント型のハーネスが実際のバグを再現し、誤検知を排除できるようになった新たな詳細が明らかにされた。AIを用いた自動化アプローチによりFirefoxの脆弱性発見プロセスが大幅に改善されていることが示されている。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">tool</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/10</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/fake-openai-repository-on-hugging-face-pushes-infostealer-malware/" target="_blank" rel="noopener">Fake OpenAI repository on Hugging Face pushes infostealer malware</a></h3>
-          <p>Hugging Face上に偽のOpenAIリポジトリが作成され、プラットフォームのトレンドリストに掲載されるほどの注目を集めた。このリポジトリは「Privacy Filter」プロジェクトを装い、Windowsユーザーに情報窃取マルウェアを配布していた。AIプラットフォームを悪用したサプライチェーン攻撃の新たな事例として注目される。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-claudeai-chats-to-push-mac-malware/" target="_blank" rel="noopener">Hackers abuse Google ads, Claude.ai chats to push Mac malware</a></h3>
+          <p>攻撃者がGoogle広告と正規のClaude.ai共有チャットを悪用し、Macマルウェアを配布するマルバタイジングキャンペーンが進行中。「Claude mac download」を検索したユーザーが偽の広告からマルウェアインストール手順に誘導される。AIサービスのブランドを悪用した新たな攻撃手法として注目される。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>05/09</time>
-            <span class="source">arXiv cs.AI (Artificial Intelligence)</span>
+            <time>05/10</time>
+            <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2605.05379" target="_blank" rel="noopener">Partial Evidence Bench: Benchmarking Authorization-Limited Evidence in Agentic Systems</a></h3>
-          <p>エンタープライズ向けエージェントシステムにおいて、アクセス制御が正しく実施されていても、認可境界外の重要な証拠を参照せずに「完全に見える」回答を生成してしまう問題を取り上げている。この失敗モードを定量的に測定するベンチマーク「Partial Evidence Bench」を提案しており、エージェントセキュリティの評価に貢献する研究である。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">agent-security</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/09</time>
-            <span class="source">arXiv cs.AI (Artificial Intelligence)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2605.05427" target="_blank" rel="noopener">The Geopolitics of AI Safety: A Causal Analysis of Regional LLM Bias</a></h3>
-          <p>LLMが世界規模のソフトウェアシステムに統合される中、地域・人口統計によって安全ガードレールの公平性が異なるという問題を分析している。確率的グラフィカルモデル（PGM）を用いた因果的フレームワークによりLLMの安全機構を監査する手法を提案し、地政学的バイアスの是正に向けた知見を提供する。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">governance</span> <span class="tag">evaluation</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/09</time>
-            <span class="source">arXiv cs.AI (Artificial Intelligence)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2605.05440" target="_blank" rel="noopener">Authorization Propagation in Multi-Agent AI Systems: Identity Governance as Infrastructure</a></h3>
-          <p>マルチエージェントAIシステムにおけるセキュリティ上の課題として、プロンプトインジェクションとは異なる「認可伝播」問題を提起している。非人間のプリンシパルがデータ取得・タスク委譲・結果統合を行う際に認可の不変条件を維持することの困難さを論じ、アイデンティティガバナンスをインフラとして捉える新たな視点を提供する。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">vulnerability</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/09</time>
-            <span class="source">arXiv cs.AI (Artificial Intelligence)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2605.05329" target="_blank" rel="noopener">Understanding Annotator Safety Policy with Interpretability</a></h3>
-          <p>AIの安全性ポリシーにおけるアノテーターの意見不一致の原因（運用上の失敗、ポリシーの曖昧さ、価値観の多様性）を解釈可能性の手法を用いて分析した研究。安全なAI出力の基準策定とデータアノテーションの品質向上に向けた重要な知見を提供する。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">evaluation</span></div>
+          <h3><a href="https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html" target="_blank" rel="noopener">Ollama Out-of-Bounds Read Vulnerability Allows Remote Process Memory Leak</a></h3>
+          <p>ローカルLLM実行環境Ollamaに重大な境界外読み取り脆弱性（CVE-2026-7482、CVSSスコア9.1）が発見された。未認証のリモート攻撃者がプロセスメモリ全体を窃取できる可能性があり、世界30万台以上のサーバーに影響するとされる。「Bleeding Llama」と命名されたこの脆弱性はCyeraによって報告された。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">research</span></div>
         </article>
   </main>
   <footer>
