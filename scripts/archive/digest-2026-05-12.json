@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Mythos finds a curl vulnerability | daniel.haxx.se",
+    "link": "https://daniel.haxx.se/blog/2026/05/11/mythos-finds-a-curl-vulnerability/",
+    "source": "daniel.haxx.se",
+    "published": "2026-05-11T23:55:52.228466+00:00",
+    "summary_ja": "Anthropicの新AIモデル「Mythos」がcurlのソースコードに脆弱性を発見したことをcurl開発者のDaniel Stenbergが報告している。MythosはセキュリティホールをAIが高精度で発見できるとして公開が見送られていたモデルであり、実際にcurlにおいて1件の脆弱性を検出したことが確認された。",
+    "tags": [
+      "vulnerability",
+      "research",
+      "model-safety",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure Boot",
+    "link": "https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/",
+    "source": "raelize.com",
+    "published": "2026-05-11T23:55:52.094745+00:00",
+    "summary_ja": "Raelizeは、Anthropicの大規模言語モデル「Claude」にセキュアブートをバイパスするためのグリッチ（電圧/クロック改ざん）攻撃スキルを与える実験「AI-FI」について報告している。組み込みデバイスのセキュリティ研究の文脈で、AIを活用してハードウェアレベルの攻撃手法を自動化・支援する可能性を探っている。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Ransomware: AI changes the writer. It doesn&#x27;t change the math. | SOPHOS",
+    "link": "https://www.sophos.com/en-us/blog/sophos-ransomware-ai",
+    "source": "sophos.com",
+    "published": "2026-05-11T23:55:51.873916+00:00",
+    "summary_ja": "SophosはAIがランサムウェアの攻撃手法を変えても、データの振る舞いという本質的な数学的パターンは変わらないと主張している。多くのエンドポイント保護製品がランサムウェアを通常のマルウェアと同様に扱っている問題を指摘し、攻撃者ではなくデータの動きを監視するアプローチの重要性を解説している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "第303回 スッスッスッスッ！スペシャル！",
+    "link": "https://www.tsujileaks.com/?p=2286",
+    "source": "セキュリティのアレ",
+    "published": "2026-05-11T23:00:28+00:00",
+    "summary_ja": "セキュリティポッドキャスト「セキュリティのアレ」の第303回。Claude Mythosの話題や、クラウドを悪用した攻撃手法「Living off the Cloud」、Discordの招待リンクを悪用した攻撃など、AIおよびクラウドセキュリティに関連する複数のトピックを取り上げている。",
+    "tags": [
+      "tool",
+      "adversarial",
+      "incident"
+    ]
+  },
+  {
+    "title": "Hackers Used AI to Develop First Known Zero-Day 2FA Bypass for Mass Exploitation",
+    "link": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html",
+    "source": "The Hacker News",
+    "published": "2026-05-11T15:45:00+00:00",
+    "summary_ja": "Googleは、未知の脅威アクターがAIシステムを用いて開発したゼロデイエクスプロイトを使用していたことを公表した。これはAIが実際の攻撃において脆弱性発見とエクスプロイト生成に悪用された初めての事例とされる。サイバー犯罪者がAIを攻撃的なツールとして活用する新たな脅威の段階を示している。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Google: Hackers used AI to develop zero-day exploit for web admin tool",
+    "link": "https://www.bleepingcomputer.com/news/security/google-hackers-used-ai-to-develop-zero-day-exploit-for-web-admin-tool/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-11T13:02:30+00:00",
+    "summary_ja": "Google Threat Intelligence Group（GTIG）の研究者が、人気のオープンソースWebアドミンツールを標的としたゼロデイエクスプロイトがAIによって生成された可能性が高いと報告した。AIを用いた脆弱性開発が実際の攻撃で確認された初のケースとして業界に衝撃を与えている。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Fake OpenAI Privacy Filter Repo Hits #1 on Hugging Face, Draws 244K Downloads",
+    "link": "https://thehackernews.com/2026/05/fake-openai-privacy-filter-repo-hits-1.html",
+    "source": "The Hacker News",
+    "published": "2026-05-11T07:05:00+00:00",
+    "summary_ja": "OpenAIのPrivacy Filterモデルになりすました悪意あるHugging Faceリポジトリがトレンド1位を獲得し、244,000件ものダウンロードを記録した。このリポジトリはWindowsユーザーにRust製の情報窃取マルウェアを配布するサプライチェーン攻撃であり、AIモデル配布プラットフォームのセキュリティリスクを浮き彫りにした。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Evaluating Prompt Injection Defenses for Educational LLM Tutors: Security-Usability-Latency Trade-offs",
+    "link": "https://arxiv.org/abs/2605.06669",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-11T04:00:00+00:00",
+    "summary_ja": "教育用LLMチューターにおけるプロンプトインジェクション防御手法を評価した研究論文。決定論的フィルタを含む多層セーフガードパイプラインを評価し、adversarialロバスト性・良性タスクの使いやすさ・レスポンスレイテンシの間に明確なトレードオフが存在することを示した。",
+    "tags": [
+      "research",
+      "evaluation",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
