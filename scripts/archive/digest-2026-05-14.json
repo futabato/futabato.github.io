@@ -1,0 +1,83 @@
+[
+  {
+    "title": "GPT-5.5-Cyber is here. What it means for defenders operating at the frontier. | SOPHOS",
+    "link": "https://www.sophos.com/en-us/blog/sophos-chatgpt-cyber",
+    "source": "sophos.com",
+    "published": "2026-05-13T23:54:41.874390+00:00",
+    "summary_ja": "SophosはOpenAIの「Trusted Access for Cyber」プログラムのメンバーとして、新たに公開されたGPT-5.5-Cyberモデルを活用し、セキュリティ運用の強化を図っています。同社はすでに半数以上のケースを人間の介入なしに解決するエージェント型SOCと、AIが生成するゼロデイ攻撃を阻止するために設計されたエンドポイントアーキテクチャを運用しており、これらにGPT-5.5-Cyberを組み合わせることで防御能力をさらに高めようとしています。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "A note on patch Tuesday",
+    "link": "https://www.microsoft.com/en-us/msrc/blog/2026/05/a-note-on-patch-tuesday",
+    "source": "microsoft.com",
+    "published": "2026-05-13T23:54:41.633838+00:00",
+    "summary_ja": "MicrosoftのMSRCブログによる「Patch Tuesday」に関する注記です。記事の本文は提供されていませんが、マイクロソフトの定例セキュリティパッチ更新（Patch Tuesday）に関連する情報や変更点についての説明が含まれているものと考えられます。",
+    "tags": [
+      "vulnerability",
+      "policy"
+    ]
+  },
+  {
+    "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
+    "link": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+    "source": "The Hacker News",
+    "published": "2026-05-13T13:46:02+00:00",
+    "summary_ja": "MicrosoftはMDASH（Multi-model Agentic Scanning Harness）と呼ばれるAI駆動の脆弱性発見・修正システムを発表した。複数のAIエージェントを組み合わせてスケールで脆弱性を検出する設計で、Patch Tuesdayで修正された16件のWindowsの脆弱性をこのシステムが発見した。現在は限定プレビューとして一部顧客でテスト中。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Microsoft on pace to break annual vulnerability record as AI-driven patch wave takes hold",
+    "link": "https://therecord.media/microsoft-on-pace-to-break-annual-vulnerability-record-ai",
+    "source": "The Record by Recorded Future",
+    "published": "2026-05-13T12:54:00+00:00",
+    "summary_ja": "2026年5ヶ月間でMicrosoftはすでに500件以上の脆弱性にパッチを適用しており、AI駆動の脆弱性発見により年間パッチ数が過去最高記録を更新するペースとなっている。AIが脆弱性発見のスケールと速度を大幅に変えつつあることを示している。",
+    "tags": [
+      "vulnerability",
+      "tool",
+      "research"
+    ]
+  },
+  {
+    "title": "Android Adds Intrusion Logging for Sophisticated Spyware Forensics",
+    "link": "https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html",
+    "source": "The Hacker News",
+    "published": "2026-05-13T06:55:42+00:00",
+    "summary_ja": "GoogleはAndroidに「Intrusion Logging」と呼ばれるオプトイン型の侵入ログ機能を追加した。高度なスパイウェア攻撃のフォレンジック調査を支援するためにプライバシーに配慮した形で端末ログを永続保存するもので、Advanced Protection Modeの一部として提供される。",
+    "tags": [
+      "tool",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "CSP Allow-list Experiment",
+    "link": "https://simonwillison.net/2026/May/13/csp-allow/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-13T04:50:45+00:00",
+    "summary_ja": "CSPで保護されたサンドボックスiframe内でアプリを動作させ、CSPエラーをインターセプトしてユーザーがドメインをホワイトリストに追加できるようにする実験的ツール。GPT-5.5を活用して構築されており、AIを用いたセキュリティツール開発の事例として注目される。",
+    "tags": [
+      "tool",
+      "research"
+    ]
+  },
+  {
+    "title": "PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks",
+    "link": "https://arxiv.org/abs/2605.10977",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-13T04:00:00+00:00",
+    "summary_ja": "LLM生成テキストの検出に向けた電子透かし（ウォーターマーク）手法PASAを提案する研究。言い換えなどのセマンティック不変攻撃に対して脆弱な既存手法の課題を解決し、埋め込み空間で意味レベルのウォーターマークを埋め込む堅牢なアルゴリズムを実現した。LLM生成コンテンツの責任ある展開に寄与する新技術。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
