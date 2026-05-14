@@ -1,0 +1,59 @@
+[
+  {
+    "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
+    "link": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-14T22:50:36+00:00",
+    "summary_ja": "ハッカーグループ「TeamPCP」がMistral AIのソースコードリポジトリを入手したと主張し、買い手が見つからない場合はリークすると脅迫している。AIスタートアップを標的にしたサイバー攻撃として注目される事案。",
+    "tags": [
+      "incident",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "OpenAI asks macOS users to update after TanStack npm supply chain attack",
+    "link": "https://therecord.media/openai-asks-macos-users-to-update-tanstack-npm",
+    "source": "The Record by Recorded Future",
+    "published": "2026-05-14T20:26:00+00:00",
+    "summary_ja": "TanStackのnpmパッケージを利用したサプライチェーン攻撃が拡大しており、OpenAIを含む複数のAI企業関連のnpmおよびPyPIパッケージに影響が及んでいる。OpenAIはmacOSユーザーにアップデートを呼びかけている。",
+    "tags": [
+      "incident",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "OpenAI confirms security breach in TanStack supply chain attack",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-14T19:07:24+00:00",
+    "summary_ja": "OpenAIは、TanStackサプライチェーン攻撃によって従業員2名のデバイスが侵害されたことを公式に認めた。同社はコード署名証明書のローテーションなど、セキュリティ対策を実施している。",
+    "tags": [
+      "incident",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Defense in depth for autonomous AI agents",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-14T16:00:00+00:00",
+    "summary_ja": "Microsoftが自律型AIエージェントに対する多層防御（Defense in Depth）のアプローチを解説。アプリケーション層の設計、アイデンティティ管理、人間による監視をエージェントセキュリティの中核に据える重要性を説いている。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "research"
+    ]
+  },
+  {
+    "title": "When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-14T14:20:55+00:00",
+    "summary_ja": "MicrosoftがKubernetes上のクラウドネイティブAIアプリケーションにおける設定ミスの危険性を報告。UIの露出、脆弱な認証、リスクのあるデフォルト設定がRCEやデータ漏洩につながる可能性を指摘している。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "research"
+    ]
+  }
+]

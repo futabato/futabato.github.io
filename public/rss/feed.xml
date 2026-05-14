@@ -3,105 +3,77 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-13T23:54:48Z</updated>
+  <updated>2026-05-14T23:55:15Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>GPT-5.5-Cyber is here. What it means for defenders operating at the frontier. | SOPHOS</title>
-    <link href="https://www.sophos.com/en-us/blog/sophos-chatgpt-cyber" rel="alternate"/>
-    <id>urn:ai-security-digest:9a1be4ca89fe9f1f</id>
-    <published>2026-05-13T23:54:41Z</published>
-    <updated>2026-05-13T23:54:41Z</updated>
-    <content type="html">&lt;p&gt;SophosはOpenAIの「Trusted Access for Cyber」プログラムのメンバーとして、新たに公開されたGPT-5.5-Cyberモデルを活用し、セキュリティ運用の強化を図っています。同社はすでに半数以上のケースを人間の介入なしに解決するエージェント型SOCと、AIが生成するゼロデイ攻撃を阻止するために設計されたエンドポイントアーキテクチャを運用しており、これらにGPT-5.5-Cyberを組み合わせることで防御能力をさらに高めようとしています。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; sophos.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="tool"/>
-    <category term="model-safety"/>
+    <title>TeamPCP hackers advertise Mistral AI code repos for sale</title>
+    <link href="https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/" rel="alternate"/>
+    <id>urn:ai-security-digest:642776f2920f2f75</id>
+    <published>2026-05-14T22:50:36Z</published>
+    <updated>2026-05-14T22:50:36Z</updated>
+    <content type="html">&lt;p&gt;ハッカーグループ「TeamPCP」がMistral AIのソースコードリポジトリを入手したと主張し、買い手が見つからない場合はリークすると脅迫している。AIスタートアップを標的にしたサイバー攻撃として注目される事案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="vulnerability"/>
     <source>
-      <title>sophos.com</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>A note on patch Tuesday</title>
-    <link href="https://www.microsoft.com/en-us/msrc/blog/2026/05/a-note-on-patch-tuesday" rel="alternate"/>
-    <id>urn:ai-security-digest:68be14f69a6c294d</id>
-    <published>2026-05-13T23:54:41Z</published>
-    <updated>2026-05-13T23:54:41Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftのMSRCブログによる「Patch Tuesday」に関する注記です。記事の本文は提供されていませんが、マイクロソフトの定例セキュリティパッチ更新（Patch Tuesday）に関連する情報や変更点についての説明が含まれているものと考えられます。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; microsoft.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
+    <title>OpenAI asks macOS users to update after TanStack npm supply chain attack</title>
+    <link href="https://therecord.media/openai-asks-macos-users-to-update-tanstack-npm" rel="alternate"/>
+    <id>urn:ai-security-digest:9a1a72799f11f909</id>
+    <published>2026-05-14T20:26:00Z</published>
+    <updated>2026-05-14T20:26:00Z</updated>
+    <content type="html">&lt;p&gt;TanStackのnpmパッケージを利用したサプライチェーン攻撃が拡大しており、OpenAIを含む複数のAI企業関連のnpmおよびPyPIパッケージに影響が及んでいる。OpenAIはmacOSユーザーにアップデートを呼びかけている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
     <category term="vulnerability"/>
-    <category term="policy"/>
-    <source>
-      <title>microsoft.com</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday</title>
-    <link href="https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html" rel="alternate"/>
-    <id>urn:ai-security-digest:417ed0237deba98b</id>
-    <published>2026-05-13T13:46:02Z</published>
-    <updated>2026-05-13T13:46:02Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftはMDASH（Multi-model Agentic Scanning Harness）と呼ばれるAI駆動の脆弱性発見・修正システムを発表した。複数のAIエージェントを組み合わせてスケールで脆弱性を検出する設計で、Patch Tuesdayで修正された16件のWindowsの脆弱性をこのシステムが発見した。現在は限定プレビューとして一部顧客でテスト中。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Microsoft on pace to break annual vulnerability record as AI-driven patch wave takes hold</title>
-    <link href="https://therecord.media/microsoft-on-pace-to-break-annual-vulnerability-record-ai" rel="alternate"/>
-    <id>urn:ai-security-digest:ee307965a59a2309</id>
-    <published>2026-05-13T12:54:00Z</published>
-    <updated>2026-05-13T12:54:00Z</updated>
-    <content type="html">&lt;p&gt;2026年5ヶ月間でMicrosoftはすでに500件以上の脆弱性にパッチを適用しており、AI駆動の脆弱性発見により年間パッチ数が過去最高記録を更新するペースとなっている。AIが脆弱性発見のスケールと速度を大幅に変えつつあることを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="tool"/>
-    <category term="research"/>
     <source>
       <title>The Record by Recorded Future</title>
     </source>
   </entry>
   <entry>
-    <title>Android Adds Intrusion Logging for Sophisticated Spyware Forensics</title>
-    <link href="https://thehackernews.com/2026/05/android-adds-intrusion-logging-for.html" rel="alternate"/>
-    <id>urn:ai-security-digest:0c6fb55ad8b86011</id>
-    <published>2026-05-13T06:55:42Z</published>
-    <updated>2026-05-13T06:55:42Z</updated>
-    <content type="html">&lt;p&gt;GoogleはAndroidに「Intrusion Logging」と呼ばれるオプトイン型の侵入ログ機能を追加した。高度なスパイウェア攻撃のフォレンジック調査を支援するためにプライバシーに配慮した形で端末ログを永続保存するもので、Advanced Protection Modeの一部として提供される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
+    <title>OpenAI confirms security breach in TanStack supply chain attack</title>
+    <link href="https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/" rel="alternate"/>
+    <id>urn:ai-security-digest:22f033ba062e3ccc</id>
+    <published>2026-05-14T19:07:24Z</published>
+    <updated>2026-05-14T19:07:24Z</updated>
+    <content type="html">&lt;p&gt;OpenAIは、TanStackサプライチェーン攻撃によって従業員2名のデバイスが侵害されたことを公式に認めた。同社はコード署名証明書のローテーションなど、セキュリティ対策を実施している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
     <category term="vulnerability"/>
     <source>
-      <title>The Hacker News</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>CSP Allow-list Experiment</title>
-    <link href="https://simonwillison.net/2026/May/13/csp-allow/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:0b61ddc929ed2668</id>
-    <published>2026-05-13T04:50:45Z</published>
-    <updated>2026-05-13T04:50:45Z</updated>
-    <content type="html">&lt;p&gt;CSPで保護されたサンドボックスiframe内でアプリを動作させ、CSPエラーをインターセプトしてユーザーがドメインをホワイトリストに追加できるようにする実験的ツール。GPT-5.5を活用して構築されており、AIを用いたセキュリティツール開発の事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
+    <title>Defense in depth for autonomous AI agents</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/05/14/defense-in-depth-autonomous-ai-agents/" rel="alternate"/>
+    <id>urn:ai-security-digest:914b56ff4b5994a1</id>
+    <published>2026-05-14T16:00:00Z</published>
+    <updated>2026-05-14T16:00:00Z</updated>
+    <content type="html">&lt;p&gt;Microsoftが自律型AIエージェントに対する多層防御（Defense in Depth）のアプローチを解説。アプリケーション層の設計、アイデンティティ管理、人間による監視をエージェントセキュリティの中核に据える重要性を説いている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="governance"/>
     <category term="research"/>
     <source>
-      <title>Simon Willison's Weblog</title>
+      <title>Microsoft Security Blog</title>
     </source>
   </entry>
   <entry>
-    <title>PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks</title>
-    <link href="https://arxiv.org/abs/2605.10977" rel="alternate"/>
-    <id>urn:ai-security-digest:294115936e13b602</id>
-    <published>2026-05-13T04:00:00Z</published>
-    <updated>2026-05-13T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLM生成テキストの検出に向けた電子透かし（ウォーターマーク）手法PASAを提案する研究。言い換えなどのセマンティック不変攻撃に対して脆弱な既存手法の課題を解決し、埋め込み空間で意味レベルのウォーターマークを埋め込む堅牢なアルゴリズムを実現した。LLM生成コンテンツの責任ある展開に寄与する新技術。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>When configuration becomes a vulnerability: Exploitable misconfigurations in AI apps</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/05/14/configuration-becomes-vulnerability-exploitable-misconfigurations-ai-apps/" rel="alternate"/>
+    <id>urn:ai-security-digest:049340aa2b80e948</id>
+    <published>2026-05-14T14:20:55Z</published>
+    <updated>2026-05-14T14:20:55Z</updated>
+    <content type="html">&lt;p&gt;MicrosoftがKubernetes上のクラウドネイティブAIアプリケーションにおける設定ミスの危険性を報告。UIの露出、脆弱な認証、リスクのあるデフォルト設定がRCEやデータ漏洩につながる可能性を指摘している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
     <category term="research"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>Microsoft Security Blog</title>
     </source>
   </entry>
 </feed>
