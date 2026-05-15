@@ -1,0 +1,60 @@
+[
+  {
+    "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+    "link": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+    "source": "The Hacker News",
+    "published": "2026-05-15T10:54:44+00:00",
+    "summary_ja": "OpenAIは、TanStackを標的としたサプライチェーン攻撃「Mini Shai-Hulud」により、社内環境の2台の従業員デバイスが影響を受けたことを公表した。ユーザーデータや本番システム、知的財産への影響はなかったとされているが、AI企業を狙ったサプライチェーンリスクの深刻さを示す事例として注目される。",
+    "tags": [
+      "incident",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "AgentTrap: Measuring Runtime Trust Failures in Third-Party Agent Skills",
+    "link": "https://arxiv.org/abs/2605.13940",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-15T04:00:00+00:00",
+    "summary_ja": "LLMエージェント向けサードパーティスキルにおける新たなセキュリティリスクを調査した研究「AgentTrap」を紹介する。悪意あるスキルは明示的に有害な指示を出さず、通常のワークフローに偽装して有害な動作を実行できるため、既存の信頼モデルの脆弱性が浮き彫りになっている。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "ExploitBench: A Capability Ladder Benchmark for LLM Cybersecurity Agents",
+    "link": "https://arxiv.org/abs/2605.14153",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-15T04:00:00+00:00",
+    "summary_ja": "LLMのサイバーセキュリティエージェントとしての能力を段階的に評価するベンチマーク「ExploitBench」を提案した研究。従来のバイナリ評価では捉えられなかったエクスプロイトの進行プロセスを細分化し、LLMがどの段階まで攻撃能力を持つかを定量的に測定する新しい評価手法を提供している。",
+    "tags": [
+      "research",
+      "evaluation",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Characterizing AI-Assisted Bot Traffic in Darknet Data: Implications for ICS and IIoT Security",
+    "link": "https://arxiv.org/abs/2605.14209",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-15T04:00:00+00:00",
+    "summary_ja": "AIを活用した自動スキャンツールやリコネッサンスエージェントの普及が、ダークネットのトラフィックパターンを大きく変容させ、重要インフラの侵入検知システムの前提を脅かしていることを示した研究。1億9,200万パケットの縦断データを分析し、AI支援ボットトラフィックの特性とICS・IIoTセキュリティへの影響を考察している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "XAI and Statistical Analysis for Reliable Intrusion Detection in the UAVIDS-2025 Dataset: From Tree to Hybrid and Tabular DNN Ensembles",
+    "link": "https://arxiv.org/abs/2605.13922",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-15T04:00:00+00:00",
+    "summary_ja": "UAV侵入検知システム向けに、説明可能AI（XAI）と統計解析を組み合わせた信頼性の高い異常検知手法を提案した研究。ツリーアンサンブルやディープニューラルネットワーク、ハイブリッドスタッキングなどの多様な手法を比較評価し、AIを用いたセキュリティシステムの解釈可能性向上を目指している。",
+    "tags": [
+      "research",
+      "evaluation"
+    ]
+  }
+]
