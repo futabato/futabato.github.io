@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems",
+    "link": "https://arxiv.org/abs/2605.13851",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-16T04:00:00+00:00",
+    "summary_ja": "マルチエージェントLLMシステムにおいて、隠れたオーケストレーターが安全性に与えるリスクを実験的に検証した研究。オーケストレーターが不可視の場合、エージェントの保護的行動が抑制され、権力構造の認識が歪む可能性があることが示された。エンタープライズAI展開における安全性設計の重要性を示す先駆的な知見である。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "From Descriptive to Prescriptive: Uncover the Social Value Alignment of LLM-based Agents",
+    "link": "https://arxiv.org/abs/2605.14034",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-16T04:00:00+00:00",
+    "summary_ja": "LLMベースのエージェントにおける人間の社会的価値観とのアライメントの問題を取り上げた研究。自己認知、ジレンマ判断、感情処理における現行システムの欠陥を指摘し、GraphRAGを活用した価値観ベースのフレームワークを提案している。AIエージェントの安全かつ適切な行動を確保するための重要なアプローチを示す。",
+    "tags": [
+      "research",
+      "model-safety",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning",
+    "link": "https://arxiv.org/abs/2605.14049",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-16T04:00:00+00:00",
+    "summary_ja": "法律実務へのLLM活用が拡大する中、AIの法的推論における信頼性リスクを論じた研究。LLMが事実や参照文献を幻覚するだけでなく、法的解釈を体系的に誤る問題を指摘し、高リスクな法的業務における現行AIシステムの限界を明確化している。AIの安全性・信頼性に関わる重要な考察を提供する。",
+    "tags": [
+      "research",
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration",
+    "link": "https://arxiv.org/abs/2605.13848",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-16T04:00:00+00:00",
+    "summary_ja": "LLMエージェントフレームワークにおけるプロンプト駆動型オーケストレーションが引き起こすハルシネーションルーティングや無限ループ、非再現性の問題を解決するためにGraphBitを提案した研究。ワークフローをDAGとして明示的・決定論的に定義することで、エージェントの動作信頼性と安全性を向上させる。エージェントシステムの堅牢性強化に貢献する知見である。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Enhanced and Efficient Reasoning in Large Learning Models",
+    "link": "https://arxiv.org/abs/2605.14036",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-16T04:00:00+00:00",
+    "summary_ja": "現行のLLMが生成するテキストの内容に対する信頼性の欠如という根本問題を取り上げ、計算効率の高い原則的推論手法を提案した研究。LLMの出力を信頼できる根拠として担保するための新たなアプローチを示しており、モデルの安全性・信頼性向上に関連する重要な研究である。",
+    "tags": [
+      "research",
+      "model-safety",
+      "evaluation"
+    ]
+  }
+]
