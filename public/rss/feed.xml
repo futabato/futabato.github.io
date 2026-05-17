@@ -3,80 +3,24 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-16T23:51:04Z</updated>
+  <updated>2026-05-17T23:55:46Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Invisible Orchestrators Suppress Protective Behavior and Dissociate Power-Holders: Safety Risks in Multi-Agent LLM Systems</title>
-    <link href="https://arxiv.org/abs/2605.13851" rel="alternate"/>
-    <id>urn:ai-security-digest:3f03a7b43ae70a66</id>
-    <published>2026-05-16T04:00:00Z</published>
-    <updated>2026-05-16T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;マルチエージェントLLMシステムにおいて、隠れたオーケストレーターが安全性に与えるリスクを実験的に検証した研究。オーケストレーターが不可視の場合、エージェントの保護的行動が抑制され、権力構造の認識が歪む可能性があることが示された。エンタープライズAI展開における安全性設計の重要性を示す先駆的な知見である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>From Descriptive to Prescriptive: Uncover the Social Value Alignment of LLM-based Agents</title>
-    <link href="https://arxiv.org/abs/2605.14034" rel="alternate"/>
-    <id>urn:ai-security-digest:5ca2ad49e4d8722c</id>
-    <published>2026-05-16T04:00:00Z</published>
-    <updated>2026-05-16T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMベースのエージェントにおける人間の社会的価値観とのアライメントの問題を取り上げた研究。自己認知、ジレンマ判断、感情処理における現行システムの欠陥を指摘し、GraphRAGを活用した価値観ベースのフレームワークを提案している。AIエージェントの安全かつ適切な行動を確保するための重要なアプローチを示す。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="agent-security"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Bridging Legal Interpretation and Formal Logic: Faithfulness, Assumption, and the Future of AI Legal Reasoning</title>
-    <link href="https://arxiv.org/abs/2605.14049" rel="alternate"/>
-    <id>urn:ai-security-digest:49f828fa86d0ad1d</id>
-    <published>2026-05-16T04:00:00Z</published>
-    <updated>2026-05-16T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;法律実務へのLLM活用が拡大する中、AIの法的推論における信頼性リスクを論じた研究。LLMが事実や参照文献を幻覚するだけでなく、法的解釈を体系的に誤る問題を指摘し、高リスクな法的業務における現行AIシステムの限界を明確化している。AIの安全性・信頼性に関わる重要な考察を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
+    <title>GDS weighs in on the NHS's decision to retreat from Open Source</title>
+    <link href="https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:60bfff81ace8cd26</id>
+    <published>2026-05-17T15:59:41Z</published>
+    <updated>2026-05-17T15:59:41Z</updated>
+    <content type="html">&lt;p&gt;英国政府デジタルサービス（GDS）が、NHSのオープンソースリポジトリ閉鎖決定に対して見解を示した。脆弱性報告への対応としてコードを非公開にすることは得策ではなく、「デフォルト公開」を維持すべきとの勧告を発表しており、公共部門におけるAIとオープンコードの脆弱性リスク管理のあり方が議論されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="policy"/>
     <category term="governance"/>
+    <category term="vulnerability"/>
     <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>GraphBit: A Graph-based Agentic Framework for Non-Linear Agent Orchestration</title>
-    <link href="https://arxiv.org/abs/2605.13848" rel="alternate"/>
-    <id>urn:ai-security-digest:1709c2dd10a06ada</id>
-    <published>2026-05-16T04:00:00Z</published>
-    <updated>2026-05-16T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMエージェントフレームワークにおけるプロンプト駆動型オーケストレーションが引き起こすハルシネーションルーティングや無限ループ、非再現性の問題を解決するためにGraphBitを提案した研究。ワークフローをDAGとして明示的・決定論的に定義することで、エージェントの動作信頼性と安全性を向上させる。エージェントシステムの堅牢性強化に貢献する知見である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Enhanced and Efficient Reasoning in Large Learning Models</title>
-    <link href="https://arxiv.org/abs/2605.14036" rel="alternate"/>
-    <id>urn:ai-security-digest:6e3cb176f91eb225</id>
-    <published>2026-05-16T04:00:00Z</published>
-    <updated>2026-05-16T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;現行のLLMが生成するテキストの内容に対する信頼性の欠如という根本問題を取り上げ、計算効率の高い原則的推論手法を提案した研究。LLMの出力を信頼できる根拠として担保するための新たなアプローチを示しており、モデルの安全性・信頼性向上に関連する重要な研究である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
 </feed>
