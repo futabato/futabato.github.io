@@ -1,0 +1,63 @@
+[
+  {
+    "title": "5 Steps to Managing Shadow AI Tools Without Slowing Down Employees",
+    "link": "https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-18T18:45:35+00:00",
+    "summary_ja": "従業員がセキュリティレビューなしに業務でシャドーAIツールを使用するリスクが増大している。Adaptive Securityが、従業員の生産性を損なわずに実践的なAIガバナンスを構築するための5つのステップを解説している。",
+    "tags": [
+      "governance",
+      "tool",
+      "policy"
+    ]
+  },
+  {
+    "title": "Experts warn of privacy risks as AI firms looks to connect to financial accounts",
+    "link": "https://therecord.media/experts-warn-of-privacy-cyber-risks-ai-finance",
+    "source": "The Record by Recorded Future",
+    "published": "2026-05-18T16:10:00+00:00",
+    "summary_ja": "OpenAIがChatGPTに全金融口座を連携できる新機能を発表したことを受け、専門家がプライバシーおよびサイバーセキュリティリスクへの懸念を表明している。AIが機密性の高い財務データにアクセスすることで生じる新たな攻撃対象領域について警告している。",
+    "tags": [
+      "model-safety",
+      "incident",
+      "governance"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More",
+    "link": "https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html",
+    "source": "The Hacker News",
+    "published": "2026-05-18T13:50:17+00:00",
+    "summary_ja": "週次セキュリティレポートの中で、偽のAIモデルページを悪用したインフォスティーラー配布キャンペーンが取り上げられている。AIリポジトリを装った攻撃手法が新たな脅威ベクターとして確認されており、サプライチェーン全体へのリスクが強調されている。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "第304回 Tomorrow Never Knows！スペシャル！",
+    "link": "https://www.tsujileaks.com/?p=2292",
+    "source": "セキュリティのアレ",
+    "published": "2026-05-18T11:00:41+00:00",
+    "summary_ja": "金融庁によるAI脅威に対するサイバーセキュリティ強化に向けた官民連携会議の開催、MozillaがClaudeを活用してFirefoxを堅牢化した事例、MicrosoftのマルチモデルAIセキュリティシステムなど、AIセキュリティに関する複数の重要トピックがまとめられている。",
+    "tags": [
+      "policy",
+      "regulation",
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "Enabling Adversarial Robustness in AI Models through Kubeflow MLOps",
+    "link": "https://arxiv.org/abs/2605.15249",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-18T04:00:00+00:00",
+    "summary_ja": "Kubernetesクラスタ上にデプロイされたAIモデルを保護するセキュリティアーキテクチャを提案した研究論文。KubeflowベースのMLOpsを活用して敵対的攻撃に対するロバスト性を自動的に検出・強化する仕組みを実装している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
