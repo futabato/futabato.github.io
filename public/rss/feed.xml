@@ -3,81 +3,38 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-19T00:03:58Z</updated>
+  <updated>2026-05-20T00:01:23Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>5 Steps to Managing Shadow AI Tools Without Slowing Down Employees</title>
-    <link href="https://www.bleepingcomputer.com/news/security/5-steps-to-managing-shadow-ai-tools-without-slowing-down-employees/" rel="alternate"/>
-    <id>urn:ai-security-digest:db502acc19cc2030</id>
-    <published>2026-05-18T18:45:35Z</published>
-    <updated>2026-05-18T18:45:35Z</updated>
-    <content type="html">&lt;p&gt;従業員がセキュリティレビューなしに業務でシャドーAIツールを使用するリスクが増大している。Adaptive Securityが、従業員の生産性を損なわずに実践的なAIガバナンスを構築するための5つのステップを解説している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="governance"/>
-    <category term="tool"/>
-    <category term="policy"/>
+    <title>Max-severity flaw in ChromaDB for AI apps allows server hijacking</title>
+    <link href="https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/" rel="alternate"/>
+    <id>urn:ai-security-digest:e36bd5ee339b87ec</id>
+    <published>2026-05-19T22:25:49Z</published>
+    <updated>2026-05-19T22:25:49Z</updated>
+    <content type="html">&lt;p&gt;AIアプリケーション向けベクトルデータベースであるChromaDBの最新Python FastAPIバージョンに最大深刻度の脆弱性が発見された。認証なしの攻撃者が公開サーバー上で任意コードを実行でき、サーバーの完全乗っ取りが可能となる。AIアプリケーションのインフラを標的とした重大なセキュリティリスクとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="incident"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Experts warn of privacy risks as AI firms looks to connect to financial accounts</title>
-    <link href="https://therecord.media/experts-warn-of-privacy-cyber-risks-ai-finance" rel="alternate"/>
-    <id>urn:ai-security-digest:6037b93f4e7e75c5</id>
-    <published>2026-05-18T16:10:00Z</published>
-    <updated>2026-05-18T16:10:00Z</updated>
-    <content type="html">&lt;p&gt;OpenAIがChatGPTに全金融口座を連携できる新機能を発表したことを受け、専門家がプライバシーおよびサイバーセキュリティリスクへの懸念を表明している。AIが機密性の高い財務データにアクセスすることで生じる新たな攻撃対象領域について警告している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="incident"/>
+    <title>UK regulator to require tech firms to tackle deepfakes, non-consensual intimate images</title>
+    <link href="https://therecord.media/uk-regulator-to-require-tech-firms-to-tackle-deepfakes-nudification-ai" rel="alternate"/>
+    <id>urn:ai-security-digest:b072b8e51395b8b9</id>
+    <published>2026-05-19T16:57:00Z</published>
+    <updated>2026-05-19T16:57:00Z</updated>
+    <content type="html">&lt;p&gt;英国の規制当局が、テック企業に対してディープフェイクや非合意の性的画像（ヌーディフィケーションAI）への対策を義務付ける方針を発表した。「女性と少女をオンラインでより適切に保護する緊急の必要性」を理由としており、AI生成コンテンツの悪用に対する規制強化の動きとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="regulation"/>
+    <category term="policy"/>
     <category term="governance"/>
+    <category term="model-safety"/>
     <source>
       <title>The Record by Recorded Future</title>
-    </source>
-  </entry>
-  <entry>
-    <title>⚡ Weekly Recap: Exchange 0-Day, npm Worm, Fake AI Repo, Cisco Exploit and More</title>
-    <link href="https://thehackernews.com/2026/05/weekly-recap-exchange-0-day-npm-worm.html" rel="alternate"/>
-    <id>urn:ai-security-digest:20ab6bdc785d6d93</id>
-    <published>2026-05-18T13:50:17Z</published>
-    <updated>2026-05-18T13:50:17Z</updated>
-    <content type="html">&lt;p&gt;週次セキュリティレポートの中で、偽のAIモデルページを悪用したインフォスティーラー配布キャンペーンが取り上げられている。AIリポジトリを装った攻撃手法が新たな脅威ベクターとして確認されており、サプライチェーン全体へのリスクが強調されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="vulnerability"/>
-    <category term="model-safety"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>第304回 Tomorrow Never Knows！スペシャル！</title>
-    <link href="https://www.tsujileaks.com/?p=2292" rel="alternate"/>
-    <id>urn:ai-security-digest:e4f8c20025d97d66</id>
-    <published>2026-05-18T11:00:41Z</published>
-    <updated>2026-05-18T11:00:41Z</updated>
-    <content type="html">&lt;p&gt;金融庁によるAI脅威に対するサイバーセキュリティ強化に向けた官民連携会議の開催、MozillaがClaudeを活用してFirefoxを堅牢化した事例、MicrosoftのマルチモデルAIセキュリティシステムなど、AIセキュリティに関する複数の重要トピックがまとめられている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; セキュリティのアレ&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="regulation"/>
-    <category term="agent-security"/>
-    <category term="tool"/>
-    <source>
-      <title>セキュリティのアレ</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Enabling Adversarial Robustness in AI Models through Kubeflow MLOps</title>
-    <link href="https://arxiv.org/abs/2605.15249" rel="alternate"/>
-    <id>urn:ai-security-digest:bdaa47494cf423a6</id>
-    <published>2026-05-18T04:00:00Z</published>
-    <updated>2026-05-18T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;Kubernetesクラスタ上にデプロイされたAIモデルを保護するセキュリティアーキテクチャを提案した研究論文。KubeflowベースのMLOpsを活用して敵対的攻撃に対するロバスト性を自動的に検出・強化する仕組みを実装している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

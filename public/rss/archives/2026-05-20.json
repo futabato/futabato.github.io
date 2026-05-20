@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Max-severity flaw in ChromaDB for AI apps allows server hijacking",
+    "link": "https://www.bleepingcomputer.com/news/security/max-severity-flaw-in-chromadb-for-ai-apps-allows-server-hijacking/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-19T22:25:49+00:00",
+    "summary_ja": "AIアプリケーション向けベクトルデータベースであるChromaDBの最新Python FastAPIバージョンに最大深刻度の脆弱性が発見された。認証なしの攻撃者が公開サーバー上で任意コードを実行でき、サーバーの完全乗っ取りが可能となる。AIアプリケーションのインフラを標的とした重大なセキュリティリスクとして注目される。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "UK regulator to require tech firms to tackle deepfakes, non-consensual intimate images",
+    "link": "https://therecord.media/uk-regulator-to-require-tech-firms-to-tackle-deepfakes-nudification-ai",
+    "source": "The Record by Recorded Future",
+    "published": "2026-05-19T16:57:00+00:00",
+    "summary_ja": "英国の規制当局が、テック企業に対してディープフェイクや非合意の性的画像（ヌーディフィケーションAI）への対策を義務付ける方針を発表した。「女性と少女をオンラインでより適切に保護する緊急の必要性」を理由としており、AI生成コンテンツの悪用に対する規制強化の動きとして注目される。",
+    "tags": [
+      "regulation",
+      "policy",
+      "governance",
+      "model-safety"
+    ]
+  }
+]
