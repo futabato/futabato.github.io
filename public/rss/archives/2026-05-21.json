@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-20T17:48:44+00:00",
+    "summary_ja": "npmの「@antv」パッケージが侵害され、「Mini Shai-Hulud」と呼ばれるマルウェアがCI/CDパイプラインの認証情報を窃取する攻撃が確認された。GitHub・AWS・Kubernetes・Vaultなど広範なプラットフォームの認証情報が標的となっており、npm installの実行時にマルウェアが起動する仕組みとなっている。AIエージェントやLLMのCI/CD環境にも影響しうるサプライチェーンリスクとして注意が必要。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development",
+    "link": "https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html",
+    "source": "The Hacker News",
+    "published": "2026-05-20T17:06:54+00:00",
+    "summary_ja": "MicrosoftはAIエージェントの開発時におけるセキュリティテストを支援するオープンソースツール「RAMPART」と「Clarity」を公開した。RAMPARTはPytestネイティブのフレームワークで、AIエージェントの安全性・セキュリティテストを体系的に実施できる。エンタープライズ環境でAIエージェントが広く普及する中、開発ワークフローに安全性を組み込む取り組みとして注目される。",
+    "tags": [
+      "tool",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-20T15:00:00+00:00",
+    "summary_ja": "MicrosoftはAIエージェントのセキュリティ確保を目的としたオープンソースツール「RAMPART」と「Clarity」の詳細を公式ブログで解説した。現代のAIシステムはメール操作やコード実行など能動的な行動を取るようになっており、従来とは異なるセキュリティリスクをはらんでいる。これらのツールは開発ワークフローに安全性テストを統合することを目指している。",
+    "tags": [
+      "tool",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Agent AI is Coming. Are You Ready?",
+    "link": "https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html",
+    "source": "The Hacker News",
+    "published": "2026-05-20T11:58:00+00:00",
+    "summary_ja": "Orchid Securityが2026年の調査結果として、エンタープライズにおけるAgent AI導入が急速に進む一方、アイデンティティ管理の「ダークマター」（未管理の認証情報・権限）が全体の57%を占めることを明らかにした。AIエージェントの普及がアイデンティティセキュリティの課題を深刻化させており、企業の準備不足が浮き彫りになっている。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "research"
+    ]
+  },
+  {
+    "title": "Typosquatting Is No Longer a User Problem. It's a Supply Chain Problem",
+    "link": "https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html",
+    "source": "The Hacker News",
+    "published": "2026-05-20T10:30:00+00:00",
+    "summary_ja": "AIが生成したタイポスクワッティングドメインが正規のサードパーティスクリプト内に埋め込まれ、サプライチェーン攻撃の手法として進化していることを解説した記事。従来のユーザーミスではなく、AIを活用した高度な偽装ドメインが既存のセキュリティスタックでは検出困難であることを指摘している。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "research"
+    ]
+  }
+]
