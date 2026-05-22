@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Datasette Agent",
+    "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-21T19:52:19+00:00",
+    "summary_ja": "Simon WillisonがDatasette向けのAIアシスタント「Datasette Agent」の初リリースを発表した。LLMライブラリとDatasetteを組み合わせ、データへの自然言語による質問やチャート生成が可能なエージェント機能を提供する。AIエージェントの実装・拡張性の観点から注目される新ツールである。",
+    "tags": [
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "What’s new in Microsoft Security: May 2026",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-21T16:00:00+00:00",
+    "summary_ja": "Microsoftセキュリティの2026年5月版アップデートが公開された。AI導入加速に伴い、拡大するエコシステム全体での可視性・制御・保護の強化が図られている。AIセキュリティを含む包括的なセキュリティ機能の最新動向が紹介されている。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Do AI Risks Require Extraordinary Government Intervention?",
+    "link": "https://www.normaltech.ai/p/do-ai-risks-require-extraordinary",
+    "source": "AI Snake Oil",
+    "published": "2026-05-21T13:19:41+00:00",
+    "summary_ja": "AIリスクに対して政府による特別な介入が必要かどうかを論じた記事。AIガバナンスの難しい課題を丁寧に検討することの重要性を訴えており、過度な規制と過小な規制のバランスについて考察している。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Alerts",
+    "published": "2026-05-21T12:00:00+00:00",
+    "summary_ja": "CISAがLangflow（AIアプリ開発フレームワーク）のオリジン検証エラー脆弱性（CVE-2025-34291）を含む2件の脆弱性をKEVカタログに追加した。LangflowはAI/LLMエージェント構築に広く使われるツールであり、積極的な悪用が確認されている点で注目される。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "incident"
+    ]
+  },
+  {
+    "title": "ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories",
+    "link": "https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html",
+    "source": "The Hacker News",
+    "published": "2026-05-21T11:52:14+00:00",
+    "summary_ja": "今週のセキュリティ脅威まとめとして、Linuxルートキット、ルーターゼロデイ、AIを悪用した侵入など25件の新たな脅威が紹介されている。攻撃者が信頼された既存コンポーネントやAIを活用した手口を使う傾向が強まっていると警告している。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "agent-security"
+    ]
+  }
+]

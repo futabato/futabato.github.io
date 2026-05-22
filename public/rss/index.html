@@ -51,55 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年05月21日</span>
+    <span class="current-date" id="current-date">2026年05月22日</span>
     <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>05/20</time>
+            <time>05/21</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
+          </div>
+          <h3><a href="https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything" target="_blank" rel="noopener">Datasette Agent</a></h3>
+          <p>Simon WillisonがDatasette向けのAIアシスタント「Datasette Agent」の初リリースを発表した。LLMライブラリとDatasetteを組み合わせ、データへの自然言語による質問やチャート生成が可能なエージェント機能を提供する。AIエージェントの実装・拡張性の観点から注目される新ツールである。</p>
+          <div class="tags"><span class="tag">tool</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/21</time>
             <span class="source">Microsoft Security Blog</span>
           </div>
-          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/05/20/mini-shai-hulud-compromised-antv-npm-packages-enable-ci-cd-credential-theft/" target="_blank" rel="noopener">Mini Shai Hulud: Compromised @antv npm packages enable CI/CD credential theft</a></h3>
-          <p>npmの「@antv」パッケージが侵害され、「Mini Shai-Hulud」と呼ばれるマルウェアがCI/CDパイプラインの認証情報を窃取する攻撃が確認された。GitHub・AWS・Kubernetes・Vaultなど広範なプラットフォームの認証情報が標的となっており、npm installの実行時にマルウェアが起動する仕組みとなっている。AIエージェントやLLMのCI/CD環境にも影響しうるサプライチェーンリスクとして注意が必要。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span> <span class="tag">agent-security</span></div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/05/21/whats-new-in-microsoft-security-may-2026/" target="_blank" rel="noopener">What’s new in Microsoft Security: May 2026</a></h3>
+          <p>Microsoftセキュリティの2026年5月版アップデートが公開された。AI導入加速に伴い、拡大するエコシステム全体での可視性・制御・保護の強化が図られている。AIセキュリティを含む包括的なセキュリティ機能の最新動向が紹介されている。</p>
+          <div class="tags"><span class="tag">tool</span> <span class="tag">vulnerability</span> <span class="tag">model-safety</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>05/20</time>
+            <time>05/21</time>
+            <span class="source">AI Snake Oil</span>
+          </div>
+          <h3><a href="https://www.normaltech.ai/p/do-ai-risks-require-extraordinary" target="_blank" rel="noopener">Do AI Risks Require Extraordinary Government Intervention?</a></h3>
+          <p>AIリスクに対して政府による特別な介入が必要かどうかを論じた記事。AIガバナンスの難しい課題を丁寧に検討することの重要性を訴えており、過度な規制と過小な規制のバランスについて考察している。</p>
+          <div class="tags"><span class="tag">policy</span> <span class="tag">governance</span> <span class="tag">regulation</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/21</time>
+            <span class="source">CISA Alerts</span>
+          </div>
+          <h3><a href="https://www.cisa.gov/news-events/alerts/2026/05/21/cisa-adds-two-known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA Adds Two Known Exploited Vulnerabilities to Catalog</a></h3>
+          <p>CISAがLangflow（AIアプリ開発フレームワーク）のオリジン検証エラー脆弱性（CVE-2025-34291）を含む2件の脆弱性をKEVカタログに追加した。LangflowはAI/LLMエージェント構築に広く使われるツールであり、積極的な悪用が確認されている点で注目される。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">incident</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/21</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/05/microsoft-open-sources-rampart-and.html" target="_blank" rel="noopener">Microsoft Open-Sources RAMPART and Clarity to Secure AI Agents During Development</a></h3>
-          <p>MicrosoftはAIエージェントの開発時におけるセキュリティテストを支援するオープンソースツール「RAMPART」と「Clarity」を公開した。RAMPARTはPytestネイティブのフレームワークで、AIエージェントの安全性・セキュリティテストを体系的に実施できる。エンタープライズ環境でAIエージェントが広く普及する中、開発ワークフローに安全性を組み込む取り組みとして注目される。</p>
-          <div class="tags"><span class="tag">tool</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/20</time>
-            <span class="source">Microsoft Security Blog</span>
-          </div>
-          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/" target="_blank" rel="noopener">Introducing RAMPART and Clarity: Open source tools to bring safety into Agent development workflow</a></h3>
-          <p>MicrosoftはAIエージェントのセキュリティ確保を目的としたオープンソースツール「RAMPART」と「Clarity」の詳細を公式ブログで解説した。現代のAIシステムはメール操作やコード実行など能動的な行動を取るようになっており、従来とは異なるセキュリティリスクをはらんでいる。これらのツールは開発ワークフローに安全性テストを統合することを目指している。</p>
-          <div class="tags"><span class="tag">tool</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/20</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/05/agent-ai-is-coming-are-you-ready.html" target="_blank" rel="noopener">Agent AI is Coming. Are You Ready?</a></h3>
-          <p>Orchid Securityが2026年の調査結果として、エンタープライズにおけるAgent AI導入が急速に進む一方、アイデンティティ管理の「ダークマター」（未管理の認証情報・権限）が全体の57%を占めることを明らかにした。AIエージェントの普及がアイデンティティセキュリティの課題を深刻化させており、企業の準備不足が浮き彫りになっている。</p>
-          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">research</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/20</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/05/typosquatting-is-no-longer-user-problem.html" target="_blank" rel="noopener">Typosquatting Is No Longer a User Problem. It&#x27;s a Supply Chain Problem</a></h3>
-          <p>AIが生成したタイポスクワッティングドメインが正規のサードパーティスクリプト内に埋め込まれ、サプライチェーン攻撃の手法として進化していることを解説した記事。従来のユーザーミスではなく、AIを活用した高度な偽装ドメインが既存のセキュリティスタックでは検出困難であることを指摘している。</p>
-          <div class="tags"><span class="tag">adversarial</span> <span class="tag">vulnerability</span> <span class="tag">research</span></div>
+          <h3><a href="https://thehackernews.com/2026/05/threatsday-bulletin-linux-rootkits.html" target="_blank" rel="noopener">ThreatsDay Bulletin: Linux Rootkits, Router 0-Day, AI Intrusions, Scam Kits and 25 New Stories</a></h3>
+          <p>今週のセキュリティ脅威まとめとして、Linuxルートキット、ルーターゼロデイ、AIを悪用した侵入など25件の新たな脅威が紹介されている。攻撃者が信頼された既存コンポーネントやAIを活用した手口を使う傾向が強まっていると警告している。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">agent-security</span></div>
         </article>
   </main>
   <footer>
