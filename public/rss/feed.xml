@@ -3,95 +3,67 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-23T00:04:36Z</updated>
+  <updated>2026-05-23T23:54:54Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>「フロンティアAIによる脅威変化を踏まえた金融機関等の短期的な対応」に係る要請について：金融庁 — https://www.fsa.go.jp/news/r7/sonota/20260522-5/01.pdf</title>
-    <link href="https://www.fsa.go.jp/news/r7/sonota/20260522-5/20260522.html" rel="alternate"/>
-    <id>urn:ai-security-digest:a9e93e2a8d11ba5d</id>
-    <published>2026-05-23T00:04:31Z</published>
-    <updated>2026-05-23T00:04:31Z</updated>
-    <content type="html">&lt;p&gt;金融庁は、フロンティアAI（高度な汎用AI）の急速な発展に伴い、金融機関等が直面するサイバーセキュリティ上の脅威の変化を踏まえ、金融機関に対して短期的な対応を求める要請を行った。具体的には、AIを悪用したフィッシングや詐欺、自動化されたサイバー攻撃等のリスクへの備えとして、態勢整備やリスク評価の実施を促している。金融機関はAIによる脅威の高度化を認識し、セキュリティ対策の強化および従業員教育等の取り組みを迅速に進めることが求められている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; fsa.go.jp&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="regulation"/>
-    <category term="governance"/>
-    <category term="model-safety"/>
-    <source>
-      <title>fsa.go.jp</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Microsoft Security success stories: How St. Luke’s and ManpowerGroup are securing AI foundations</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-security-success-stories-how-st-lukes-and-manpowergroup-are-securing-ai-foundations/" rel="alternate"/>
-    <id>urn:ai-security-digest:452e196a4fada829</id>
-    <published>2026-05-22T16:00:00Z</published>
-    <updated>2026-05-22T16:00:00Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftがSt. LukeおよびManpowerGroupの事例を通じて、企業がAI基盤をどのようにセキュアに運用しているかを紹介。ガバナンス、ID管理、クラウドセキュリティを統合してAI成長を支えるセキュリティ設計の実践例を共有しており、企業規模でのAIセキュリティ実装の参考事例となる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="governance"/>
+    <title>Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software</title>
+    <link href="https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html" rel="alternate"/>
+    <id>urn:ai-security-digest:1463dcbfcb358003</id>
+    <published>2026-05-23T11:55:35Z</published>
+    <updated>2026-05-23T11:55:35Z</updated>
+    <content type="html">&lt;p&gt;AnthropicのProject Glasswingが、AIを活用したセキュリティ取り組み「Claude Mythos」を通じて、世界的に重要なソフトウェアに存在する高・クリティカル深刻度の脆弱性を1万件以上発見したと発表した。AIが防御的なセキュリティ目的で大規模に活用される事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="tool"/>
-    <category term="agent-security"/>
+    <category term="vulnerability"/>
+    <category term="model-safety"/>
     <source>
-      <title>Microsoft Security Blog</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>ガバメントAIで試用する国内大規模言語モデル（LLM）の公募について</title>
-    <link href="https://www.digital.go.jp/news/1b093bba-a4c8-4001-8a92-ff3667a69198" rel="alternate"/>
-    <id>urn:ai-security-digest:89c99a7202d584d3</id>
-    <published>2026-05-22T05:59:04Z</published>
-    <updated>2026-05-22T05:59:04Z</updated>
-    <content type="html">&lt;p&gt;日本のデジタル庁が、政府業務で試用する国内大規模言語モデル（LLM）の公募を開始したことを発表。政府のAI活用における国産LLMの採用・評価プロセスに関する政策動向であり、ガバメントAIのガバナンスや安全性確保の観点で注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; デジタル庁&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="governance"/>
-    <category term="regulation"/>
-    <source>
-      <title>デジタル庁</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Autonomous LLM Agents &amp; CTFs: A Second Look</title>
-    <link href="https://arxiv.org/abs/2605.21497" rel="alternate"/>
-    <id>urn:ai-security-digest:6000435aafcfbe3a</id>
-    <published>2026-05-22T04:00:00Z</published>
-    <updated>2026-05-22T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMエージェントによる攻撃的セキュリティタスク（CTFチャレンジ）の自動化能力を再検証した研究。14種の脆弱性クラスにわたる30のWebベースCTFで複数のエージェントアーキテクチャを構築・評価し、既存研究の「人間レベルの成功率」という主張を批判的に見直している。LLMエージェントのオフェンシブセキュリティへの応用可能性と限界を明らかにする重要な評価研究。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs</title>
+    <link href="https://arxiv.org/abs/2605.21602" rel="alternate"/>
+    <id>urn:ai-security-digest:c1d5ca202a63fedf</id>
+    <published>2026-05-23T04:00:00Z</published>
+    <updated>2026-05-23T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMの安全性・アライメント失敗が分布外（OOD）状況で発生しやすい問題に着目し、それを検出するためのモニタリングパイプラインを系統的に評価するベンチマーク「MOOD」を提案した研究。LLMの安全監視機能の有効性を測る新たな評価基盤として重要性が高い。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="agent-security"/>
     <category term="evaluation"/>
+    <category term="model-safety"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
   <entry>
-    <title>Frequency-Domain Regularized Adversarial Alignment for Transferable Attacks against Closed-Source MLLMs</title>
-    <link href="https://arxiv.org/abs/2605.21541" rel="alternate"/>
-    <id>urn:ai-security-digest:a1befde52c0e5188</id>
-    <published>2026-05-22T04:00:00Z</published>
-    <updated>2026-05-22T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;オープンソースのサロゲートエンコーダで最適化した敵対的摂動をクローズドソースのマルチモーダルLLM（MLLM）に転移させる攻撃手法に関する研究。周波数領域の正則化を用いて、モデル間で共有される本質的な視覚的焦点に摂動を整合させることで、転移可能な標的型攻撃の精度を向上させる手法を提案している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Latent-space Attacks for Refusal Evasion in Language Models</title>
+    <link href="https://arxiv.org/abs/2605.21706" rel="alternate"/>
+    <id>urn:ai-security-digest:a9ca9185f19b589f</id>
+    <published>2026-05-23T04:00:00Z</published>
+    <updated>2026-05-23T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;安全性調整済みの言語モデルに対し、内部表現（潜在空間）を操作することで拒否動作を抑制する攻撃手法を分析した研究。既存の「拒否方向アブレーション」手法を理論的に体系化し、リフューザル回避攻撃のメカニズムを解明する新知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
     <category term="adversarial"/>
     <category term="model-safety"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
   <entry>
-    <title>Adversarial Reframing: A Framework for Targeted Generation in Language Models</title>
-    <link href="https://arxiv.org/abs/2605.21674" rel="alternate"/>
-    <id>urn:ai-security-digest:747034da23c447f6</id>
-    <published>2026-05-22T04:00:00Z</published>
-    <updated>2026-05-22T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMのジェイルブレイク攻撃に関する新たなフレームワーク「THREAT」を提案した研究。複数のLLMを協調させた反復探索ループにより、安全フィルタを回避するテキストプロンプトを自動生成する手法を非凸最適化問題として定式化している。LLMの安全性フィルタの脆弱性を体系的に明らかにする重要な研究。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct</title>
+    <link href="https://arxiv.org/abs/2605.21778" rel="alternate"/>
+    <id>urn:ai-security-digest:46de188e4f3bcedb</id>
+    <published>2026-05-23T04:00:00Z</published>
+    <updated>2026-05-23T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;AIのお世辞（sycophancy）という概念が研究者・企業・政策立案者間で定義が一貫しておらず混乱を招いている問題を指摘し、分類体系と専門家調査を通じてその概念を整理した研究。LLMの安全性・信頼性評価における重要な基盤整備として位置づけられる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="adversarial"/>
+    <category term="evaluation"/>
     <category term="model-safety"/>
+    <category term="governance"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
 </feed>

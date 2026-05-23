@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Claude Mythos AI Finds 10,000 High-Severity Flaws in Widely Used Software",
+    "link": "https://thehackernews.com/2026/05/claude-mythos-ai-finds-10000-high.html",
+    "source": "The Hacker News",
+    "published": "2026-05-23T11:55:35+00:00",
+    "summary_ja": "AnthropicのProject Glasswingが、AIを活用したセキュリティ取り組み「Claude Mythos」を通じて、世界的に重要なソフトウェアに存在する高・クリティカル深刻度の脆弱性を1万件以上発見したと発表した。AIが防御的なセキュリティ目的で大規模に活用される事例として注目される。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Benchmarking and Improving Monitors for Out-Of-Distribution Alignment Failure in LLMs",
+    "link": "https://arxiv.org/abs/2605.21602",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-23T04:00:00+00:00",
+    "summary_ja": "LLMの安全性・アライメント失敗が分布外（OOD）状況で発生しやすい問題に着目し、それを検出するためのモニタリングパイプラインを系統的に評価するベンチマーク「MOOD」を提案した研究。LLMの安全監視機能の有効性を測る新たな評価基盤として重要性が高い。",
+    "tags": [
+      "research",
+      "evaluation",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Latent-space Attacks for Refusal Evasion in Language Models",
+    "link": "https://arxiv.org/abs/2605.21706",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-23T04:00:00+00:00",
+    "summary_ja": "安全性調整済みの言語モデルに対し、内部表現（潜在空間）を操作することで拒否動作を抑制する攻撃手法を分析した研究。既存の「拒否方向アブレーション」手法を理論的に体系化し、リフューザル回避攻撃のメカニズムを解明する新知見を提供している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "What Counts as AI Sycophancy? A Taxonomy and Expert Survey of a Fragmented Construct",
+    "link": "https://arxiv.org/abs/2605.21778",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-05-23T04:00:00+00:00",
+    "summary_ja": "AIのお世辞（sycophancy）という概念が研究者・企業・政策立案者間で定義が一貫しておらず混乱を招いている問題を指摘し、分類体系と専門家調査を通じてその概念を整理した研究。LLMの安全性・信頼性評価における重要な基盤整備として位置づけられる。",
+    "tags": [
+      "research",
+      "evaluation",
+      "model-safety",
+      "governance"
+    ]
+  }
+]
