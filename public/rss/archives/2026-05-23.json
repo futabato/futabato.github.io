@@ -1,0 +1,75 @@
+[
+  {
+    "title": "「フロンティアAIによる脅威変化を踏まえた金融機関等の短期的な対応」に係る要請について：金融庁 — https://www.fsa.go.jp/news/r7/sonota/20260522-5/01.pdf",
+    "link": "https://www.fsa.go.jp/news/r7/sonota/20260522-5/20260522.html",
+    "source": "fsa.go.jp",
+    "published": "2026-05-23T00:04:31.742836+00:00",
+    "summary_ja": "金融庁は、フロンティアAI（高度な汎用AI）の急速な発展に伴い、金融機関等が直面するサイバーセキュリティ上の脅威の変化を踏まえ、金融機関に対して短期的な対応を求める要請を行った。具体的には、AIを悪用したフィッシングや詐欺、自動化されたサイバー攻撃等のリスクへの備えとして、態勢整備やリスク評価の実施を促している。金融機関はAIによる脅威の高度化を認識し、セキュリティ対策の強化および従業員教育等の取り組みを迅速に進めることが求められている。",
+    "tags": [
+      "policy",
+      "regulation",
+      "governance",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Microsoft Security success stories: How St. Luke’s and ManpowerGroup are securing AI foundations",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/05/22/microsoft-security-success-stories-how-st-lukes-and-manpowergroup-are-securing-ai-foundations/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-05-22T16:00:00+00:00",
+    "summary_ja": "MicrosoftがSt. LukeおよびManpowerGroupの事例を通じて、企業がAI基盤をどのようにセキュアに運用しているかを紹介。ガバナンス、ID管理、クラウドセキュリティを統合してAI成長を支えるセキュリティ設計の実践例を共有しており、企業規模でのAIセキュリティ実装の参考事例となる。",
+    "tags": [
+      "governance",
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "ガバメントAIで試用する国内大規模言語モデル（LLM）の公募について",
+    "link": "https://www.digital.go.jp/news/1b093bba-a4c8-4001-8a92-ff3667a69198",
+    "source": "デジタル庁",
+    "published": "2026-05-22T05:59:04+00:00",
+    "summary_ja": "日本のデジタル庁が、政府業務で試用する国内大規模言語モデル（LLM）の公募を開始したことを発表。政府のAI活用における国産LLMの採用・評価プロセスに関する政策動向であり、ガバメントAIのガバナンスや安全性確保の観点で注目される。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "Autonomous LLM Agents & CTFs: A Second Look",
+    "link": "https://arxiv.org/abs/2605.21497",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-22T04:00:00+00:00",
+    "summary_ja": "LLMエージェントによる攻撃的セキュリティタスク（CTFチャレンジ）の自動化能力を再検証した研究。14種の脆弱性クラスにわたる30のWebベースCTFで複数のエージェントアーキテクチャを構築・評価し、既存研究の「人間レベルの成功率」という主張を批判的に見直している。LLMエージェントのオフェンシブセキュリティへの応用可能性と限界を明らかにする重要な評価研究。",
+    "tags": [
+      "research",
+      "agent-security",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Frequency-Domain Regularized Adversarial Alignment for Transferable Attacks against Closed-Source MLLMs",
+    "link": "https://arxiv.org/abs/2605.21541",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-22T04:00:00+00:00",
+    "summary_ja": "オープンソースのサロゲートエンコーダで最適化した敵対的摂動をクローズドソースのマルチモーダルLLM（MLLM）に転移させる攻撃手法に関する研究。周波数領域の正則化を用いて、モデル間で共有される本質的な視覚的焦点に摂動を整合させることで、転移可能な標的型攻撃の精度を向上させる手法を提案している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Adversarial Reframing: A Framework for Targeted Generation in Language Models",
+    "link": "https://arxiv.org/abs/2605.21674",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-22T04:00:00+00:00",
+    "summary_ja": "LLMのジェイルブレイク攻撃に関する新たなフレームワーク「THREAT」を提案した研究。複数のLLMを協調させた反復探索ループにより、安全フィルタを回避するテキストプロンプトを自動生成する手法を非凸最適化問題として定式化している。LLMの安全性フィルタの脆弱性を体系的に明らかにする重要な研究。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
