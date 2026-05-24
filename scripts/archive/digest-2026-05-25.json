@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Quoting Armin Ronacher",
+    "link": "https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-24T18:46:53+00:00",
+    "summary_ja": "The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clan",
+    "tags": [
+      "ai_commentary"
+    ]
+  },
+  {
+    "title": "Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign",
+    "link": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-24T14:12:32+00:00",
+    "summary_ja": "A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]",
+    "tags": [
+      "news"
+    ]
+  }
+]
