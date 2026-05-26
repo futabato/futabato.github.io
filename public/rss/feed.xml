@@ -3,34 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-24T23:59:47Z</updated>
+  <updated>2026-05-26T00:03:16Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Quoting Armin Ronacher</title>
-    <link href="https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:bab7b4bab5ccc8e9</id>
-    <published>2026-05-24T18:46:53Z</published>
-    <updated>2026-05-24T18:46:53Z</updated>
-    <content type="html">&lt;p&gt;The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clan&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;ai_commentary&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="ai_commentary"/>
+    <title>Anthropic’s restricted Claude Mythos model may be coming to Claude Code</title>
+    <link href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/" rel="alternate"/>
+    <id>urn:ai-security-digest:6c515531e3517348</id>
+    <published>2026-05-25T17:07:33Z</published>
+    <updated>2026-05-25T17:07:33Z</updated>
+    <content type="html">&lt;p&gt;AnthropicがClaude Codeに、4月に発表されたセキュリティリスクの高い制限付きモデル「Mythos」の一般公開を準備していることが明らかになった。このモデルはプライベート・パブリックソフトウェアに重大なセキュリティリスクをもたらす可能性があるとされている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="model-safety"/>
+    <category term="vulnerability"/>
+    <category term="tool"/>
     <source>
-      <title>Simon Willison's Weblog</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign</title>
-    <link href="https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/" rel="alternate"/>
-    <id>urn:ai-security-digest:0eb501df97cbed5f</id>
-    <published>2026-05-24T14:12:32Z</published>
-    <updated>2026-05-24T14:12:32Z</updated>
-    <content type="html">&lt;p&gt;A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="news"/>
+    <title>The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems</title>
+    <link href="https://arxiv.org/abs/2605.22842" rel="alternate"/>
+    <id>urn:ai-security-digest:37563a1808824e3d</id>
+    <published>2026-05-25T04:00:00Z</published>
+    <updated>2026-05-25T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;マルチエージェントAIパイプラインにおいて、メモリ層への攻撃がモデル障害と区別がつかない振る舞いを引き起こす「Misattribution Gap」という構造的失敗を特定した研究。攻撃者がメモリ層を悪用してエージェントの誤動作を引き起こす「Semantic Norm Drift（SND）」という新たな脅威経路を形式化している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
     <source>
-      <title>Bleeping Computer</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>PoisonForge: Task-Level Targeted Poisoning Benchmark for Instruction-Tuned LLMs</title>
+    <link href="https://arxiv.org/abs/2605.23168" rel="alternate"/>
+    <id>urn:ai-security-digest:53beeabaaf297e2f</id>
+    <published>2026-05-25T04:00:00Z</published>
+    <updated>2026-05-25T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;命令チューニング済みLLMに対するタスクレベルのデータポイズニング攻撃を体系的に評価するベンチマーク「PoisonForge」を提案した研究。未検証データセットでのファインチューニング時に、少数の細工されたデータを混入することでモデル出力を操作できる脅威を4つの次元でパラメータ化している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="evaluation"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection</title>
+    <link href="https://arxiv.org/abs/2605.23175" rel="alternate"/>
+    <id>urn:ai-security-digest:898b43b551a3955b</id>
+    <published>2026-05-25T04:00:00Z</published>
+    <updated>2026-05-25T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;プロプライエタリLLMの知的財産保護を目的として、意味的歪みを最小限に抑えたロバストな透かし技術を提案した研究。敵対的攻撃や代替モデルによる複製に対する耐性を持ち、既存手法が抱えるファクト不整合や意味歪みの問題を改善している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Prompt Overflow: What the Guardrail Inspects Is Not What the Model Infers</title>
+    <link href="https://arxiv.org/abs/2605.23196" rel="alternate"/>
+    <id>urn:ai-security-digest:104773c0f3647805</id>
+    <published>2026-05-25T04:00:00Z</published>
+    <updated>2026-05-25T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMへの入力を検査するガードレールモデルが、長大なプロンプトをトランケーションや分割処理する際に生じるセキュリティ上の盲点を突く「Prompt Overflow」攻撃を発見した研究。ガードレールが検査する内容とLLM本体が推論する内容に乖離が生じることで、プロンプトインジェクション防御を迂回できることを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="vulnerability"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

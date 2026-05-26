@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Anthropic’s restricted Claude Mythos model may be coming to Claude Code",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-25T17:07:33+00:00",
+    "summary_ja": "AnthropicがClaude Codeに、4月に発表されたセキュリティリスクの高い制限付きモデル「Mythos」の一般公開を準備していることが明らかになった。このモデルはプライベート・パブリックソフトウェアに重大なセキュリティリスクをもたらす可能性があるとされている。",
+    "tags": [
+      "model-safety",
+      "vulnerability",
+      "tool"
+    ]
+  },
+  {
+    "title": "The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems",
+    "link": "https://arxiv.org/abs/2605.22842",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-25T04:00:00+00:00",
+    "summary_ja": "マルチエージェントAIパイプラインにおいて、メモリ層への攻撃がモデル障害と区別がつかない振る舞いを引き起こす「Misattribution Gap」という構造的失敗を特定した研究。攻撃者がメモリ層を悪用してエージェントの誤動作を引き起こす「Semantic Norm Drift（SND）」という新たな脅威経路を形式化している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "PoisonForge: Task-Level Targeted Poisoning Benchmark for Instruction-Tuned LLMs",
+    "link": "https://arxiv.org/abs/2605.23168",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-25T04:00:00+00:00",
+    "summary_ja": "命令チューニング済みLLMに対するタスクレベルのデータポイズニング攻撃を体系的に評価するベンチマーク「PoisonForge」を提案した研究。未検証データセットでのファインチューニング時に、少数の細工されたデータを混入することでモデル出力を操作できる脅威を4つの次元でパラメータ化している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "evaluation",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection",
+    "link": "https://arxiv.org/abs/2605.23175",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-25T04:00:00+00:00",
+    "summary_ja": "プロプライエタリLLMの知的財産保護を目的として、意味的歪みを最小限に抑えたロバストな透かし技術を提案した研究。敵対的攻撃や代替モデルによる複製に対する耐性を持ち、既存手法が抱えるファクト不整合や意味歪みの問題を改善している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Prompt Overflow: What the Guardrail Inspects Is Not What the Model Infers",
+    "link": "https://arxiv.org/abs/2605.23196",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-05-25T04:00:00+00:00",
+    "summary_ja": "LLMへの入力を検査するガードレールモデルが、長大なプロンプトをトランケーションや分割処理する際に生じるセキュリティ上の盲点を突く「Prompt Overflow」攻撃を発見した研究。ガードレールが検査する内容とLLM本体が推論する内容に乖離が生じることで、プロンプトインジェクション防御を迂回できることを示している。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]

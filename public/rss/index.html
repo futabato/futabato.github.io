@@ -51,28 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年05月25日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">2件</span>
+    <span class="current-date" id="current-date">2026年05月26日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>05/24</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
+            <time>05/25</time>
+            <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/May/24/armin-ronacher/#atom-everything" target="_blank" rel="noopener">Quoting Armin Ronacher</a></h3>
-          <p>The most frustrating failure mode right now is that people submit issues that are not in their own voice. They contain an observed problem somewhere, but it has been thrown into a clanker and the clan</p>
-          <div class="tags"><span class="tag">ai_commentary</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/" target="_blank" rel="noopener">Anthropic’s restricted Claude Mythos model may be coming to Claude Code</a></h3>
+          <p>AnthropicがClaude Codeに、4月に発表されたセキュリティリスクの高い制限付きモデル「Mythos」の一般公開を準備していることが明らかになった。このモデルはプライベート・パブリックソフトウェアに重大なセキュリティリスクをもたらす可能性があるとされている。</p>
+          <div class="tags"><span class="tag">model-safety</span> <span class="tag">vulnerability</span> <span class="tag">tool</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>05/24</time>
-            <span class="source">Bleeping Computer</span>
+            <time>05/25</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/" target="_blank" rel="noopener">Ghost CMS SQL injection flaw exploited in large-scale ClickFix campaign</a></h3>
-          <p>A large-scale campaign is exploiting a critical SQL injection vulnerability (CVE-2026-26980) in Ghost CMS to inject malicious JavaScript code that triggers ClickFix attack flows. [...]</p>
-          <div class="tags"><span class="tag">news</span></div>
+          <h3><a href="https://arxiv.org/abs/2605.22842" target="_blank" rel="noopener">The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems</a></h3>
+          <p>マルチエージェントAIパイプラインにおいて、メモリ層への攻撃がモデル障害と区別がつかない振る舞いを引き起こす「Misattribution Gap」という構造的失敗を特定した研究。攻撃者がメモリ層を悪用してエージェントの誤動作を引き起こす「Semantic Norm Drift（SND）」という新たな脅威経路を形式化している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/25</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2605.23168" target="_blank" rel="noopener">PoisonForge: Task-Level Targeted Poisoning Benchmark for Instruction-Tuned LLMs</a></h3>
+          <p>命令チューニング済みLLMに対するタスクレベルのデータポイズニング攻撃を体系的に評価するベンチマーク「PoisonForge」を提案した研究。未検証データセットでのファインチューニング時に、少数の細工されたデータを混入することでモデル出力を操作できる脅威を4つの次元でパラメータ化している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">evaluation</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/25</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2605.23175" target="_blank" rel="noopener">Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection</a></h3>
+          <p>プロプライエタリLLMの知的財産保護を目的として、意味的歪みを最小限に抑えたロバストな透かし技術を提案した研究。敵対的攻撃や代替モデルによる複製に対する耐性を持ち、既存手法が抱えるファクト不整合や意味歪みの問題を改善している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/25</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2605.23196" target="_blank" rel="noopener">Prompt Overflow: What the Guardrail Inspects Is Not What the Model Infers</a></h3>
+          <p>LLMへの入力を検査するガードレールモデルが、長大なプロンプトをトランケーションや分割処理する際に生じるセキュリティ上の盲点を突く「Prompt Overflow」攻撃を発見した研究。ガードレールが検査する内容とLLM本体が推論する内容に乖離が生じることで、プロンプトインジェクション防御を迂回できることを示している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
         </article>
   </main>
   <footer>
