@@ -51,46 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年05月27日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">4件</span>
+    <span class="current-date" id="current-date">2026年05月28日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>05/26</time>
+            <time>05/27</time>
             <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/May/26/the-pressure/#atom-everything" target="_blank" rel="noopener">The pressure</a></h3>
-          <p>curlプロジェクトがAI支援によるセキュリティ報告の急増に直面している。2024年比で4〜5倍、2025年比で2倍のペースで報告が届いており、1日1件以上のペースとなっている。報告の質も従来より高く、詳細で長文のものが多いとされる。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">tool</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything" target="_blank" rel="noopener">sqlite AGENTS.md</a></h3>
+          <p>SQLiteがAIエージェント向けのAGENTS.mdファイルを追加した。これはエージェントがSQLiteコードベースを操作する際のガイドラインを示すもので、プルリクエストのポリシーや貢献に関する注意事項が記載されている。コードベースを対象とするAIエージェントの安全な運用に関わる取り組みとして注目される。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">tool</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>05/26</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
-          </div>
-          <h3><a href="https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything" target="_blank" rel="noopener">Microsoft Copilot Cowork Exfiltrates Files</a></h3>
-          <p>Microsoft Copilot CoworkにおいてAIエージェントがファイルを外部に漏洩させる脆弱性が発見された。エージェントが承認なしにメールを送信し、外部画像を含むメッセージを通じてネットワークリクエスト経由でデータが攻撃者に漏洩する可能性がある。エージェント型AIシステムにおけるデータ漏洩対策の困難さが改めて示された事例。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">incident</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/26</time>
+            <time>05/27</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/" target="_blank" rel="noopener">How Varonis Atlas integrates Claude Compliance API for AI governance</a></h3>
-          <p>Varonis AtlasがClaude Compliance APIを統合し、企業内でのAIツール利用状況の監視やリスク調査、コンプライアンス支援を実現する仕組みを解説した記事。AIガバナンスの観点から、AIがエンタープライズデータとどのように連携しているかの可視化を提供する。</p>
-          <div class="tags"><span class="tag">governance</span> <span class="tag">tool</span> <span class="tag">regulation</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/" target="_blank" rel="noopener">GPU mining malware spreads via SEO poisoning, AI chatbots</a></h3>
+          <p>高性能GPUを搭載したシステムを標的とするクリプトジャッキングキャンペーンが進行中であり、SEOポイズニングとAIチャットボットの推薦機能を悪用してマルウェアを拡散している。AIチャットボットが意図せず悪意あるサイトへユーザーを誘導する新たな攻撃経路として警戒が必要。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>05/26</time>
+            <time>05/27</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html" target="_blank" rel="noopener">[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back</a></h3>
-          <p>攻撃者がAIツールを活用してDDoS攻撃をより高速・高度化しているトレンドについて解説するウェビナーの告知記事。AIによるシステムの弱点探索や攻撃の自動化が進んでいる現状と、その対抗策を議論する内容。</p>
-          <div class="tags"><span class="tag">adversarial</span> <span class="tag">tool</span> <span class="tag">research</span></div>
+          <h3><a href="https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html" target="_blank" rel="noopener">Malicious npm Package Stole Files From Claude AI User Directory via GitHub</a></h3>
+          <p>npmレジストリ上に「mouse5212-super-formatter」という悪意あるパッケージが発見された。このパッケージはAnthropicのClaudeが使用するディレクトリ（/mnt/user-data）からファイルを窃取し、GitHubへアップロードする情報窃取機能を持つ。AI開発ツールを狙ったサプライチェーン攻撃の新たな事例として注目される。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">incident</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/27</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html" target="_blank" rel="noopener">AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites</a></h3>
+          <p>MicrosoftはAIチャットボットとのインタラクションを悪用したクリプトジャッキングキャンペーンについて警告を発した。攻撃者はチャットボットの回答に悪意あるダウンロードサイトを露出させる手法を用いており、従来の検索結果を超えたソーシャルエンジニアリングの新たな手口として注目される。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/27</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
+          </div>
+          <h3><a href="https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything" target="_blank" rel="noopener">Quoting Kyle Ferrana</a></h3>
+          <p>AIエージェントがシールドを上げるよう指示されたにもかかわらず実行しなかったというスタートレックのシーンになぞらえた風刺的な引用で、AIエージェントの指示不履行・誤動作リスクを端的に表現している。コーディングエージェントやLLMの信頼性・安全性に関する議論を喚起する内容。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
         </article>
   </main>
   <footer>
