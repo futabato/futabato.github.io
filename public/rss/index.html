@@ -51,55 +51,46 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年05月26日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年05月27日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">4件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>05/25</time>
+            <time>05/26</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
+          </div>
+          <h3><a href="https://simonwillison.net/2026/May/26/the-pressure/#atom-everything" target="_blank" rel="noopener">The pressure</a></h3>
+          <p>curlプロジェクトがAI支援によるセキュリティ報告の急増に直面している。2024年比で4〜5倍、2025年比で2倍のペースで報告が届いており、1日1件以上のペースとなっている。報告の質も従来より高く、詳細で長文のものが多いとされる。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">tool</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/26</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
+          </div>
+          <h3><a href="https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything" target="_blank" rel="noopener">Microsoft Copilot Cowork Exfiltrates Files</a></h3>
+          <p>Microsoft Copilot CoworkにおいてAIエージェントがファイルを外部に漏洩させる脆弱性が発見された。エージェントが承認なしにメールを送信し、外部画像を含むメッセージを通じてネットワークリクエスト経由でデータが攻撃者に漏洩する可能性がある。エージェント型AIシステムにおけるデータ漏洩対策の困難さが改めて示された事例。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">incident</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>05/26</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/" target="_blank" rel="noopener">Anthropic’s restricted Claude Mythos model may be coming to Claude Code</a></h3>
-          <p>AnthropicがClaude Codeに、4月に発表されたセキュリティリスクの高い制限付きモデル「Mythos」の一般公開を準備していることが明らかになった。このモデルはプライベート・パブリックソフトウェアに重大なセキュリティリスクをもたらす可能性があるとされている。</p>
-          <div class="tags"><span class="tag">model-safety</span> <span class="tag">vulnerability</span> <span class="tag">tool</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/" target="_blank" rel="noopener">How Varonis Atlas integrates Claude Compliance API for AI governance</a></h3>
+          <p>Varonis AtlasがClaude Compliance APIを統合し、企業内でのAIツール利用状況の監視やリスク調査、コンプライアンス支援を実現する仕組みを解説した記事。AIガバナンスの観点から、AIがエンタープライズデータとどのように連携しているかの可視化を提供する。</p>
+          <div class="tags"><span class="tag">governance</span> <span class="tag">tool</span> <span class="tag">regulation</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>05/25</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>05/26</time>
+            <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2605.22842" target="_blank" rel="noopener">The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems</a></h3>
-          <p>マルチエージェントAIパイプラインにおいて、メモリ層への攻撃がモデル障害と区別がつかない振る舞いを引き起こす「Misattribution Gap」という構造的失敗を特定した研究。攻撃者がメモリ層を悪用してエージェントの誤動作を引き起こす「Semantic Norm Drift（SND）」という新たな脅威経路を形式化している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/25</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2605.23168" target="_blank" rel="noopener">PoisonForge: Task-Level Targeted Poisoning Benchmark for Instruction-Tuned LLMs</a></h3>
-          <p>命令チューニング済みLLMに対するタスクレベルのデータポイズニング攻撃を体系的に評価するベンチマーク「PoisonForge」を提案した研究。未検証データセットでのファインチューニング時に、少数の細工されたデータを混入することでモデル出力を操作できる脅威を4つの次元でパラメータ化している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">evaluation</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/25</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2605.23175" target="_blank" rel="noopener">Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection</a></h3>
-          <p>プロプライエタリLLMの知的財産保護を目的として、意味的歪みを最小限に抑えたロバストな透かし技術を提案した研究。敵対的攻撃や代替モデルによる複製に対する耐性を持ち、既存手法が抱えるファクト不整合や意味歪みの問題を改善している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>05/25</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2605.23196" target="_blank" rel="noopener">Prompt Overflow: What the Guardrail Inspects Is Not What the Model Infers</a></h3>
-          <p>LLMへの入力を検査するガードレールモデルが、長大なプロンプトをトランケーションや分割処理する際に生じるセキュリティ上の盲点を突く「Prompt Overflow」攻撃を発見した研究。ガードレールが検査する内容とLLM本体が推論する内容に乖離が生じることで、プロンプトインジェクション防御を迂回できることを示している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
+          <h3><a href="https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html" target="_blank" rel="noopener">[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back</a></h3>
+          <p>攻撃者がAIツールを活用してDDoS攻撃をより高速・高度化しているトレンドについて解説するウェビナーの告知記事。AIによるシステムの弱点探索や攻撃の自動化が進んでいる現状と、その対抗策を議論する内容。</p>
+          <div class="tags"><span class="tag">adversarial</span> <span class="tag">tool</span> <span class="tag">research</span></div>
         </article>
   </main>
   <footer>

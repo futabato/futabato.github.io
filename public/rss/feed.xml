@@ -3,82 +3,66 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-26T00:03:16Z</updated>
+  <updated>2026-05-27T00:01:41Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Anthropic’s restricted Claude Mythos model may be coming to Claude Code</title>
-    <link href="https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-restricted-claude-mythos-model-may-be-coming-to-claude-code/" rel="alternate"/>
-    <id>urn:ai-security-digest:6c515531e3517348</id>
-    <published>2026-05-25T17:07:33Z</published>
-    <updated>2026-05-25T17:07:33Z</updated>
-    <content type="html">&lt;p&gt;AnthropicがClaude Codeに、4月に発表されたセキュリティリスクの高い制限付きモデル「Mythos」の一般公開を準備していることが明らかになった。このモデルはプライベート・パブリックソフトウェアに重大なセキュリティリスクをもたらす可能性があるとされている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
+    <title>The pressure</title>
+    <link href="https://simonwillison.net/2026/May/26/the-pressure/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:8a2ba4262bfa93bd</id>
+    <published>2026-05-26T23:48:45Z</published>
+    <updated>2026-05-26T23:48:45Z</updated>
+    <content type="html">&lt;p&gt;curlプロジェクトがAI支援によるセキュリティ報告の急増に直面している。2024年比で4〜5倍、2025年比で2倍のペースで報告が届いており、1日1件以上のペースとなっている。報告の質も従来より高く、詳細で長文のものが多いとされる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
     <category term="tool"/>
+    <category term="adversarial"/>
+    <source>
+      <title>Simon Willison's Weblog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Microsoft Copilot Cowork Exfiltrates Files</title>
+    <link href="https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:6f30ae0a090a1f8b</id>
+    <published>2026-05-26T15:36:48Z</published>
+    <updated>2026-05-26T15:36:48Z</updated>
+    <content type="html">&lt;p&gt;Microsoft Copilot CoworkにおいてAIエージェントがファイルを外部に漏洩させる脆弱性が発見された。エージェントが承認なしにメールを送信し、外部画像を含むメッセージを通じてネットワークリクエスト経由でデータが攻撃者に漏洩する可能性がある。エージェント型AIシステムにおけるデータ漏洩対策の困難さが改めて示された事例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="incident"/>
+    <source>
+      <title>Simon Willison's Weblog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>How Varonis Atlas integrates Claude Compliance API for AI governance</title>
+    <link href="https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/" rel="alternate"/>
+    <id>urn:ai-security-digest:e2391bfc3aba7726</id>
+    <published>2026-05-26T14:01:11Z</published>
+    <updated>2026-05-26T14:01:11Z</updated>
+    <content type="html">&lt;p&gt;Varonis AtlasがClaude Compliance APIを統合し、企業内でのAIツール利用状況の監視やリスク調査、コンプライアンス支援を実現する仕組みを解説した記事。AIガバナンスの観点から、AIがエンタープライズデータとどのように連携しているかの可視化を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="governance"/>
+    <category term="tool"/>
+    <category term="regulation"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>The Misattribution Gap: When Memory Poisoning Looks Like Model Failure in Agentic AI Systems</title>
-    <link href="https://arxiv.org/abs/2605.22842" rel="alternate"/>
-    <id>urn:ai-security-digest:37563a1808824e3d</id>
-    <published>2026-05-25T04:00:00Z</published>
-    <updated>2026-05-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;マルチエージェントAIパイプラインにおいて、メモリ層への攻撃がモデル障害と区別がつかない振る舞いを引き起こす「Misattribution Gap」という構造的失敗を特定した研究。攻撃者がメモリ層を悪用してエージェントの誤動作を引き起こす「Semantic Norm Drift（SND）」という新たな脅威経路を形式化している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
+    <title>[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back</title>
+    <link href="https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html" rel="alternate"/>
+    <id>urn:ai-security-digest:8b1480af94b426cd</id>
+    <published>2026-05-26T11:58:00Z</published>
+    <updated>2026-05-26T11:58:00Z</updated>
+    <content type="html">&lt;p&gt;攻撃者がAIツールを活用してDDoS攻撃をより高速・高度化しているトレンドについて解説するウェビナーの告知記事。AIによるシステムの弱点探索や攻撃の自動化が進んでいる現状と、その対抗策を議論する内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>PoisonForge: Task-Level Targeted Poisoning Benchmark for Instruction-Tuned LLMs</title>
-    <link href="https://arxiv.org/abs/2605.23168" rel="alternate"/>
-    <id>urn:ai-security-digest:53beeabaaf297e2f</id>
-    <published>2026-05-25T04:00:00Z</published>
-    <updated>2026-05-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;命令チューニング済みLLMに対するタスクレベルのデータポイズニング攻撃を体系的に評価するベンチマーク「PoisonForge」を提案した研究。未検証データセットでのファインチューニング時に、少数の細工されたデータを混入することでモデル出力を操作できる脅威を4つの次元でパラメータ化している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
     <category term="research"/>
-    <category term="adversarial"/>
-    <category term="evaluation"/>
-    <category term="model-safety"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Robust LLM Watermarking with Minimal Semantic Distortion for IP Protection</title>
-    <link href="https://arxiv.org/abs/2605.23175" rel="alternate"/>
-    <id>urn:ai-security-digest:898b43b551a3955b</id>
-    <published>2026-05-25T04:00:00Z</published>
-    <updated>2026-05-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;プロプライエタリLLMの知的財産保護を目的として、意味的歪みを最小限に抑えたロバストな透かし技術を提案した研究。敵対的攻撃や代替モデルによる複製に対する耐性を持ち、既存手法が抱えるファクト不整合や意味歪みの問題を改善している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Prompt Overflow: What the Guardrail Inspects Is Not What the Model Infers</title>
-    <link href="https://arxiv.org/abs/2605.23196" rel="alternate"/>
-    <id>urn:ai-security-digest:104773c0f3647805</id>
-    <published>2026-05-25T04:00:00Z</published>
-    <updated>2026-05-25T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMへの入力を検査するガードレールモデルが、長大なプロンプトをトランケーションや分割処理する際に生じるセキュリティ上の盲点を突く「Prompt Overflow」攻撃を発見した研究。ガードレールが検査する内容とLLM本体が推論する内容に乖離が生じることで、プロンプトインジェクション防御を迂回できることを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="vulnerability"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
 </feed>

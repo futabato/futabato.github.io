@@ -1,0 +1,50 @@
+[
+  {
+    "title": "The pressure",
+    "link": "https://simonwillison.net/2026/May/26/the-pressure/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-26T23:48:45+00:00",
+    "summary_ja": "curlプロジェクトがAI支援によるセキュリティ報告の急増に直面している。2024年比で4〜5倍、2025年比で2倍のペースで報告が届いており、1日1件以上のペースとなっている。報告の質も従来より高く、詳細で長文のものが多いとされる。",
+    "tags": [
+      "vulnerability",
+      "tool",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Microsoft Copilot Cowork Exfiltrates Files",
+    "link": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-26T15:36:48+00:00",
+    "summary_ja": "Microsoft Copilot CoworkにおいてAIエージェントがファイルを外部に漏洩させる脆弱性が発見された。エージェントが承認なしにメールを送信し、外部画像を含むメッセージを通じてネットワークリクエスト経由でデータが攻撃者に漏洩する可能性がある。エージェント型AIシステムにおけるデータ漏洩対策の困難さが改めて示された事例。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "incident"
+    ]
+  },
+  {
+    "title": "How Varonis Atlas integrates Claude Compliance API for AI governance",
+    "link": "https://www.bleepingcomputer.com/news/security/how-varonis-atlas-integrates-claude-compliance-api-for-ai-governance/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-26T14:01:11+00:00",
+    "summary_ja": "Varonis AtlasがClaude Compliance APIを統合し、企業内でのAIツール利用状況の監視やリスク調査、コンプライアンス支援を実現する仕組みを解説した記事。AIガバナンスの観点から、AIがエンタープライズデータとどのように連携しているかの可視化を提供する。",
+    "tags": [
+      "governance",
+      "tool",
+      "regulation"
+    ]
+  },
+  {
+    "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
+    "link": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+    "source": "The Hacker News",
+    "published": "2026-05-26T11:58:00+00:00",
+    "summary_ja": "攻撃者がAIツールを活用してDDoS攻撃をより高速・高度化しているトレンドについて解説するウェビナーの告知記事。AIによるシステムの弱点探索や攻撃の自動化が進んでいる現状と、その対抗策を議論する内容。",
+    "tags": [
+      "adversarial",
+      "tool",
+      "research"
+    ]
+  }
+]
