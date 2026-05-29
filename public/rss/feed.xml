@@ -3,80 +3,38 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-05-27T23:59:15Z</updated>
+  <updated>2026-05-29T00:08:41Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>sqlite AGENTS.md</title>
-    <link href="https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:79b4bf4594434f95</id>
-    <published>2026-05-27T23:44:37Z</published>
-    <updated>2026-05-27T23:44:37Z</updated>
-    <content type="html">&lt;p&gt;SQLiteがAIエージェント向けのAGENTS.mdファイルを追加した。これはエージェントがSQLiteコードベースを操作する際のガイドラインを示すもので、プルリクエストのポリシーや貢献に関する注意事項が記載されている。コードベースを対象とするAIエージェントの安全な運用に関わる取り組みとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <category term="tool"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>GPU mining malware spreads via SEO poisoning, AI chatbots</title>
-    <link href="https://www.bleepingcomputer.com/news/security/gpu-mining-malware-spreads-via-seo-poisoning-ai-chatbots/" rel="alternate"/>
-    <id>urn:ai-security-digest:9de9573a785a13d4</id>
-    <published>2026-05-27T21:31:25Z</published>
-    <updated>2026-05-27T21:31:25Z</updated>
-    <content type="html">&lt;p&gt;高性能GPUを搭載したシステムを標的とするクリプトジャッキングキャンペーンが進行中であり、SEOポイズニングとAIチャットボットの推薦機能を悪用してマルウェアを拡散している。AIチャットボットが意図せず悪意あるサイトへユーザーを誘導する新たな攻撃経路として警戒が必要。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>GreyVibe hackers use ChatGPT, Gemini to power cyberattacks</title>
+    <link href="https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/" rel="alternate"/>
+    <id>urn:ai-security-digest:c40f0d28bfe51d09</id>
+    <published>2026-05-28T22:24:49Z</published>
+    <updated>2026-05-28T22:24:49Z</updated>
+    <content type="html">&lt;p&gt;ロシア系と見られる脅威クラスター「GreyVibe」が、ChatGPTやGeminiを活用してAI生成の誘い文句を作成し、ウクライナの組織を標的としたサイバー攻撃を展開している。カスタムマルウェアツール群と組み合わせることで、攻撃の精度と規模を高めていることが報告されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
     <category term="adversarial"/>
-    <category term="model-safety"/>
+    <category term="tool"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Malicious npm Package Stole Files From Claude AI User Directory via GitHub</title>
-    <link href="https://thehackernews.com/2026/05/malicious-npm-package-stole-files-from.html" rel="alternate"/>
-    <id>urn:ai-security-digest:715bedbcfc42f741</id>
-    <published>2026-05-27T15:44:29Z</published>
-    <updated>2026-05-27T15:44:29Z</updated>
-    <content type="html">&lt;p&gt;npmレジストリ上に「mouse5212-super-formatter」という悪意あるパッケージが発見された。このパッケージはAnthropicのClaudeが使用するディレクトリ（/mnt/user-data）からファイルを窃取し、GitHubへアップロードする情報窃取機能を持つ。AI開発ツールを狙ったサプライチェーン攻撃の新たな事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <title>ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More</title>
+    <link href="https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html" rel="alternate"/>
+    <id>urn:ai-security-digest:ef06d61235dad0a6</id>
+    <published>2026-05-28T13:33:16Z</published>
+    <updated>2026-05-28T13:33:16Z</updated>
+    <content type="html">&lt;p&gt;ThreatsDay Bulletinにて、Claude向けセキュリティプラグインに関する話題を含む複数の脅威情報がまとめられている。AzureでのPrivilege Escalation、MFAバイパス手法など多様なセキュリティトピックが取り上げられており、AIエージェントやLLMに関連するセキュリティ動向も含まれる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
     <category term="vulnerability"/>
-    <category term="incident"/>
-    <category term="agent-security"/>
+    <category term="tool"/>
     <source>
       <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites</title>
-    <link href="https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html" rel="alternate"/>
-    <id>urn:ai-security-digest:7f2826815512ed17</id>
-    <published>2026-05-27T07:45:52Z</published>
-    <updated>2026-05-27T07:45:52Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftはAIチャットボットとのインタラクションを悪用したクリプトジャッキングキャンペーンについて警告を発した。攻撃者はチャットボットの回答に悪意あるダウンロードサイトを露出させる手法を用いており、従来の検索結果を超えたソーシャルエンジニアリングの新たな手口として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="adversarial"/>
-    <category term="agent-security"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Quoting Kyle Ferrana</title>
-    <link href="https://simonwillison.net/2026/May/27/kyle-ferrana/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:5afefdf1a1abc15f</id>
-    <published>2026-05-27T06:41:43Z</published>
-    <updated>2026-05-27T06:41:43Z</updated>
-    <content type="html">&lt;p&gt;AIエージェントがシールドを上げるよう指示されたにもかかわらず実行しなかったというスタートレックのシーンになぞらえた風刺的な引用で、AIエージェントの指示不履行・誤動作リスクを端的に表現している。コーディングエージェントやLLMの信頼性・安全性に関する議論を喚起する内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
 </feed>

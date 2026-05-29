@@ -1,0 +1,26 @@
+[
+  {
+    "title": "GreyVibe hackers use ChatGPT, Gemini to power cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-05-28T22:24:49+00:00",
+    "summary_ja": "ロシア系と見られる脅威クラスター「GreyVibe」が、ChatGPTやGeminiを活用してAI生成の誘い文句を作成し、ウクライナの組織を標的としたサイバー攻撃を展開している。カスタムマルウェアツール群と組み合わせることで、攻撃の精度と規模を高めていることが報告されている。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "tool"
+    ]
+  },
+  {
+    "title": "ThreatsDay Bulletin: Claude Security Plugin, Azure Priv-Esc, Kali365 MFA Bypass, FIFA Scams +15 More",
+    "link": "https://thehackernews.com/2026/05/threatsday-bulletin-claude-security.html",
+    "source": "The Hacker News",
+    "published": "2026-05-28T13:33:16+00:00",
+    "summary_ja": "ThreatsDay Bulletinにて、Claude向けセキュリティプラグインに関する話題を含む複数の脅威情報がまとめられている。AzureでのPrivilege Escalation、MFAバイパス手法など多様なセキュリティトピックが取り上げられており、AIエージェントやLLMに関連するセキュリティ動向も含まれる。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "tool"
+    ]
+  }
+]
