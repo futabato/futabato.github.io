@@ -1,0 +1,14 @@
+[
+  {
+    "title": "How we contain Claude across products",
+    "link": "https://simonwillison.net/2026/May/30/how-we-contain-claude/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-05-30T21:36:24+00:00",
+    "summary_ja": "AnthropicがClaude.ai、Claude Code、Coworkなどの各製品におけるClaudeのサンドボックス技術の詳細を公開した。プロセスサンドボックス、VM、ファイルシステム境界、エグレス制御などを組み合わせてエージェントの行動範囲を制限する仕組みが解説されており、AIエージェントの安全な封じ込め手法として注目される。",
+    "tags": [
+      "agent-security",
+      "model-safety",
+      "tool"
+    ]
+  }
+]
