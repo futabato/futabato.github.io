@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
+    "link": "https://simonwillison.net/2026/Jun/1/hackers-simply-asked-meta-ai/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-06-01T21:14:47+00:00",
+    "summary_ja": "ハッカーがMeta AIのサポートボットに対して単純な自然言語の指示を送るだけで、著名なInstagramアカウントへのアクセス権を奪取することに成功した。Meta AIがサポートシステムと直接連携していたことで、アカウントのメールアドレス変更が実行されてしまうという深刻な脆弱性が悪用された。AIエージェントの権限設計とセキュリティ境界の重要性を示す事例として注目されている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: New Linux Flaw, PAN-OS Exploit, AI-Powered Attacks, OAuth Phishing and More",
+    "link": "https://thehackernews.com/2026/06/weekly-recap-new-linux-flaw-pan-os.html",
+    "source": "The Hacker News",
+    "published": "2026-06-01T13:59:54+00:00",
+    "summary_ja": "週次セキュリティまとめ記事の中で、AIを活用した攻撃手法の台頭が取り上げられており、AIが攻撃者の参入障壁を下げている現状が指摘されている。Linux脆弱性やPAN-OSエクスプロイト、OAuthフィッシングなど複数の脅威と並んで、AI活用型攻撃が主要トピックとして位置づけられている。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
+    "link": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
+    "source": "The Hacker News",
+    "published": "2026-06-01T09:31:15+00:00",
+    "summary_ja": "OpenAI Codexの開発者を標的としたサプライチェーン攻撃が発覚し、npmパッケージ「codexui-android」を通じてOpenAI Codexの認証トークンが窃取されていた。週あたり29,000件以上のダウンロードを誇る正規ツールを装った悪意あるパッケージで、AIツールの開発者エコシステムを狙った攻撃として警戒が必要。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "The Surface You Test Is Not the Surface That Breaks",
+    "link": "https://arxiv.org/abs/2605.30454",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-01T04:00:00+00:00",
+    "summary_ja": "ツール拡張型LLMエージェントにおけるプロンプトインジェクション攻撃の評価手法に関する研究論文。ツール出力だけでなくツール定義（description）も攻撃チャネルとなり得ることを示し、単一の攻撃成功率では脆弱性を正確に評価できないという問題を指摘している。より包括的な評価フレームワークの必要性を提唱する新規性の高い研究。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Escaping the Linearity Trap: Manifold Detours for Black-Box Adversarial Attacks on Singing Audio Deepfake Detection",
+    "link": "https://arxiv.org/abs/2605.30366",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-01T04:00:00+00:00",
+    "summary_ja": "歌声ディープフェイク検出システム（SVDD）に対するブラックボックス敵対的攻撃手法を提案した研究。SSL（自己教師あり学習）ベースの検出器が持つ「見かけ上の堅牢性」の誤解を明らかにし、多様体上の迂回経路を利用した新たな攻撃手法の有効性を実証している。AIによる音声偽造検出の信頼性に関わる重要な知見。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
