@@ -1,0 +1,62 @@
+[
+  {
+    "title": "AI-built ransomware toolkit automates EDR evasion, AD discovery",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-built-ransomware-toolkit-automates-edr-evasion-ad-discovery/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-02T20:01:20+00:00",
+    "summary_ja": "脅威アクターがAIを用いて構築したランサムウェア攻撃ツールキットが確認された。このツールキットはActive Directoryの自動探索機能を持ち、エンドポイント検出・応答（EDR）ソリューションの回避を自動化するなど、AIによる攻撃の高度化を示している。",
+    "tags": [
+      "adversarial",
+      "tool",
+      "incident"
+    ]
+  },
+  {
+    "title": "White House unveils pared-back AI executive order",
+    "link": "https://therecord.media/white-house-unveils-ai-executive-order",
+    "source": "The Record by Recorded Future",
+    "published": "2026-06-02T18:43:00+00:00",
+    "summary_ja": "ホワイトハウスが新たなAI大統領令を発表した。連邦政府のAIモデルへのアクセスに対して機密保持、サイバーセキュリティ、インサイダーリスク対策などの適切な保護措置を求める内容が含まれており、AI政策の方向性を示す重要な動向となっている。",
+    "tags": [
+      "policy",
+      "regulation",
+      "governance"
+    ]
+  },
+  {
+    "title": "Microsoft Build 2026: Securing code, agents, and models across the development lifecycle",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/02/microsoft-build-2026-securing-code-agents-and-models-across-the-development-lifecycle/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-02T17:15:18+00:00",
+    "summary_ja": "Microsoft Build 2026において、コード・エージェント・モデルの開発ライフサイクル全体にわたるセキュリティ確保に向けたMDASHおよび新セキュリティ機能が発表された。AIエージェントやモデルを安全に開発・運用するための具体的な取り組みが示されている。",
+    "tags": [
+      "agent-security",
+      "model-safety",
+      "tool"
+    ]
+  },
+  {
+    "title": "Instagram users locked out after Meta AI abused to steal accounts",
+    "link": "https://www.bleepingcomputer.com/news/security/instagram-users-locked-out-after-meta-ai-abused-to-steal-accounts/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-02T15:47:33+00:00",
+    "summary_ja": "攻撃者がMetaのAI搭載サポートツールを悪用し、正規のアカウント所有者になりすますことで複数のInstagramユーザーのアカウントを乗っ取る事件が発生した。AIを用いたソーシャルエンジニアリング攻撃の新たな手口として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Why the browser is now the front line for AI security",
+    "link": "https://www.bleepingcomputer.com/news/security/why-the-browser-is-now-the-front-line-for-ai-security/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-02T14:30:40+00:00",
+    "summary_ja": "AIを活用した攻撃の増加とシャドーAIの採用拡大により、ブラウザが新たなAIセキュリティの最前線となっている。ブラウザの可視性が脅威検出とAIガバナンスの両面で重要性を増しているとの分析が示されている。",
+    "tags": [
+      "governance",
+      "adversarial",
+      "tool"
+    ]
+  }
+]
