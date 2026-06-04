@@ -1,0 +1,62 @@
+[
+  {
+    "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
+    "link": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html",
+    "source": "The Hacker News",
+    "published": "2026-06-03T19:11:15+00:00",
+    "summary_ja": "WhatsAppやSlackなどの通知を悪用することで、Android上のGoogle Gemini音声アシスタントを乗っ取れる脆弱性が発見された。悪意あるアプリなしに、毒入り通知一つでGeminiの長期記憶を汚染したり、偽メッセージを送信させたりすることが可能であった。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
+    "link": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+    "source": "The Hacker News",
+    "published": "2026-06-03T14:56:46+00:00",
+    "summary_ja": "Metasploit作者のHD Mooreが登壇するウェビナーで、AIが従来よりも高速にエクスプロイトを生成する現状が議論される。ゼロデイへの対応が追いつかない中、AIによる攻撃の加速という脅威を踏まえたネットワーク防御戦略の重要性が強調されている。",
+    "tags": [
+      "adversarial",
+      "tool",
+      "research"
+    ]
+  },
+  {
+    "title": "Google adds Android protection against AI deepfake scam calls",
+    "link": "https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-03T09:02:11+00:00",
+    "summary_ja": "Googleは、詐欺師がAIを使ってユーザーの知人になりすます通話を検知・警告する新しいAndroidセキュリティ機能を導入した。AIディープフェイク詐欺電話に対する保護機能として、利用者をリアルタイムで守ることを目的としている。",
+    "tags": [
+      "model-safety",
+      "tool",
+      "incident"
+    ]
+  },
+  {
+    "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
+    "link": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+    "source": "The Hacker News",
+    "published": "2026-06-03T08:33:35+00:00",
+    "summary_ja": "NGINX、Apache、IIS、Envoy、CloudflareなどのWebサーバーに影響するリモートDoS脆弱性「HTTP/2 Bomb」が発見された。注目すべき点として、この脆弱性はOpenAI CodexがHTTP/2の脆弱なチェーンを連結することで発見されており、AIによる脆弱性探索の実例として業界の注目を集めている。",
+    "tags": [
+      "vulnerability",
+      "research",
+      "tool"
+    ]
+  },
+  {
+    "title": "【終了】ガバメントAIで試用する国内大規模言語モデル（LLM）の公募について",
+    "link": "https://www.digital.go.jp/news/1b093bba-a4c8-4001-8a92-ff3667a69198",
+    "source": "デジタル庁",
+    "published": "2026-06-03T06:00:00+00:00",
+    "summary_ja": "デジタル庁が、ガバメントAIで試用する国内大規模言語モデル（LLM）の公募を実施した。政府機関におけるAI活用推進とその安全性・ガバナンスに関わる日本の政策動向を示す重要な取り組みである。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  }
+]
