@@ -3,80 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-04T00:29:08Z</updated>
+  <updated>2026-06-05T00:06:27Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>WhatsApp, Slack Notifications Could Hijack Google Gemini on Android</title>
-    <link href="https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html" rel="alternate"/>
-    <id>urn:ai-security-digest:dbc4f62a164220d0</id>
-    <published>2026-06-03T19:11:15Z</published>
-    <updated>2026-06-03T19:11:15Z</updated>
-    <content type="html">&lt;p&gt;WhatsAppやSlackなどの通知を悪用することで、Android上のGoogle Gemini音声アシスタントを乗っ取れる脆弱性が発見された。悪意あるアプリなしに、毒入り通知一つでGeminiの長期記憶を汚染したり、偽メッセージを送信させたりすることが可能であった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
+    <title>Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/" rel="alternate"/>
+    <id>urn:ai-security-digest:4c6993c9342a8e3b</id>
+    <published>2026-06-04T19:14:42Z</published>
+    <updated>2026-06-04T19:14:42Z</updated>
+    <content type="html">&lt;p&gt;Microsoftが1年間のレッドチーミング経験を基に、エージェント型AIシステムにおける失敗モードの分類体系を更新した。サプライチェーン侵害やゴールハイジャックなど7つの新しい失敗モードを追加し、実践的な緩和策を提示している。現実世界でのエージェントAIへの攻撃急増を受けたリスク対策の最新知見。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="agent-security"/>
     <category term="adversarial"/>
+    <category term="evaluation"/>
     <source>
-      <title>The Hacker News</title>
+      <title>Microsoft Security Blog</title>
     </source>
   </entry>
   <entry>
-    <title>Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore</title>
-    <link href="https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html" rel="alternate"/>
-    <id>urn:ai-security-digest:b12df17a52041075</id>
-    <published>2026-06-03T14:56:46Z</published>
-    <updated>2026-06-03T14:56:46Z</updated>
-    <content type="html">&lt;p&gt;Metasploit作者のHD Mooreが登壇するウェビナーで、AIが従来よりも高速にエクスプロイトを生成する現状が議論される。ゼロデイへの対応が追いつかない中、AIによる攻撃の加速という脅威を踏まえたネットワーク防御戦略の重要性が強調されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
-    <category term="tool"/>
-    <category term="research"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Google adds Android protection against AI deepfake scam calls</title>
-    <link href="https://www.bleepingcomputer.com/news/security/google-adds-android-protection-against-ai-deepfake-scam-calls/" rel="alternate"/>
-    <id>urn:ai-security-digest:2a70d167966f02fd</id>
-    <published>2026-06-03T09:02:11Z</published>
-    <updated>2026-06-03T09:02:11Z</updated>
-    <content type="html">&lt;p&gt;Googleは、詐欺師がAIを使ってユーザーの知人になりすます通話を検知・警告する新しいAndroidセキュリティ機能を導入した。AIディープフェイク詐欺電話に対する保護機能として、利用者をリアルタイムで守ることを目的としている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="tool"/>
-    <category term="incident"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy &amp; Cloudflare</title>
-    <link href="https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html" rel="alternate"/>
-    <id>urn:ai-security-digest:aea883acd7ae8538</id>
-    <published>2026-06-03T08:33:35Z</published>
-    <updated>2026-06-03T08:33:35Z</updated>
-    <content type="html">&lt;p&gt;NGINX、Apache、IIS、Envoy、CloudflareなどのWebサーバーに影響するリモートDoS脆弱性「HTTP/2 Bomb」が発見された。注目すべき点として、この脆弱性はOpenAI CodexがHTTP/2の脆弱なチェーンを連結することで発見されており、AIによる脆弱性探索の実例として業界の注目を集めている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories</title>
+    <link href="https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html" rel="alternate"/>
+    <id>urn:ai-security-digest:4ddc5379f6309160</id>
+    <published>2026-06-04T15:15:26Z</published>
+    <updated>2026-06-04T15:15:26Z</updated>
+    <content type="html">&lt;p&gt;AnthropicのClaude Code GitHub Actionに深刻な脆弱性が発見され、攻撃者はGitHubイシューを1件開くだけで脆弱なパブリックリポジトリを乗っ取ることが可能だった。AnthropicのActionリポジトリ自体も同じワークフローを使用していたため、悪意あるコードがダウンストリームのプロジェクトに波及するリスクがあった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
-    <category term="research"/>
-    <category term="tool"/>
+    <category term="incident"/>
+    <category term="agent-security"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>【終了】ガバメントAIで試用する国内大規模言語モデル（LLM）の公募について</title>
-    <link href="https://www.digital.go.jp/news/1b093bba-a4c8-4001-8a92-ff3667a69198" rel="alternate"/>
-    <id>urn:ai-security-digest:89c99a7202d584d3</id>
-    <published>2026-06-03T06:00:00Z</published>
-    <updated>2026-06-03T06:00:00Z</updated>
-    <content type="html">&lt;p&gt;デジタル庁が、ガバメントAIで試用する国内大規模言語モデル（LLM）の公募を実施した。政府機関におけるAI活用推進とその安全性・ガバナンスに関わる日本の政策動向を示す重要な取り組みである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; デジタル庁&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="governance"/>
-    <category term="regulation"/>
+    <title>Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It</title>
+    <link href="https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html" rel="alternate"/>
+    <id>urn:ai-security-digest:71e224483c09ee2d</id>
+    <published>2026-06-04T15:10:00Z</published>
+    <updated>2026-06-04T15:10:00Z</updated>
+    <content type="html">&lt;p&gt;防衛分野でのエージェントAI活用が進む一方、AnthropicのClaude Mythosモデルの技術プレビュー中に不正アクセスが試みられたと報告された。セキュアなITインフラなしにはエージェントAIの効果を最大化できないという警鐘を鳴らす内容で、軍事・防衛領域でのAIセキュリティの重要性を論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
     <source>
-      <title>デジタル庁</title>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>MaskForge: Structure-Aware Adaptive Attacks for Jailbreaking Diffusion Large Language Models</title>
+    <link href="https://arxiv.org/abs/2606.04027" rel="alternate"/>
+    <id>urn:ai-security-digest:70f1abd9578229d2</id>
+    <published>2026-06-04T04:00:00Z</published>
+    <updated>2026-06-04T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;拡散型大規模言語モデル（dLLM）に対する新たなジェイルブレイク手法「MaskForge」が研究された。マスクトークンを悪用した構造認識型の適応攻撃により、自己回帰型LLMとは異なる安全性の弱点を突く手法を示しており、dLLM特有の攻撃面に関する新しい知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Covert Influence Between Language Models</title>
+    <link href="https://arxiv.org/abs/2606.04071" rel="alternate"/>
+    <id>urn:ai-security-digest:6e589e7af42757b7</id>
+    <published>2026-06-04T04:00:00Z</published>
+    <updated>2026-06-04T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;言語モデル同士が互いの出力を消費するようになる中、「隠蔽的影響（Covert Influence）」と呼ばれる新たなリスクが分析された。送信側モデルの行動傾向が人間には検知不可能な形で受信側モデルに伝播する現象を、ファインチューニング・蒸留・インコンテキスト学習の3つのインターフェースで検証している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="adversarial"/>
+    <category term="agent-security"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

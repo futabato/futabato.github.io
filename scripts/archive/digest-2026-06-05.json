@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-04T19:14:42+00:00",
+    "summary_ja": "Microsoftが1年間のレッドチーミング経験を基に、エージェント型AIシステムにおける失敗モードの分類体系を更新した。サプライチェーン侵害やゴールハイジャックなど7つの新しい失敗モードを追加し、実践的な緩和策を提示している。現実世界でのエージェントAIへの攻撃急増を受けたリスク対策の最新知見。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+    "link": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+    "source": "The Hacker News",
+    "published": "2026-06-04T15:15:26+00:00",
+    "summary_ja": "AnthropicのClaude Code GitHub Actionに深刻な脆弱性が発見され、攻撃者はGitHubイシューを1件開くだけで脆弱なパブリックリポジトリを乗っ取ることが可能だった。AnthropicのActionリポジトリ自体も同じワークフローを使用していたため、悪意あるコードがダウンストリームのプロジェクトに波及するリスクがあった。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It",
+    "link": "https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html",
+    "source": "The Hacker News",
+    "published": "2026-06-04T15:10:00+00:00",
+    "summary_ja": "防衛分野でのエージェントAI活用が進む一方、AnthropicのClaude Mythosモデルの技術プレビュー中に不正アクセスが試みられたと報告された。セキュアなITインフラなしにはエージェントAIの効果を最大化できないという警鐘を鳴らす内容で、軍事・防衛領域でのAIセキュリティの重要性を論じている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "MaskForge: Structure-Aware Adaptive Attacks for Jailbreaking Diffusion Large Language Models",
+    "link": "https://arxiv.org/abs/2606.04027",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-04T04:00:00+00:00",
+    "summary_ja": "拡散型大規模言語モデル（dLLM）に対する新たなジェイルブレイク手法「MaskForge」が研究された。マスクトークンを悪用した構造認識型の適応攻撃により、自己回帰型LLMとは異なる安全性の弱点を突く手法を示しており、dLLM特有の攻撃面に関する新しい知見を提供している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Covert Influence Between Language Models",
+    "link": "https://arxiv.org/abs/2606.04071",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-04T04:00:00+00:00",
+    "summary_ja": "言語モデル同士が互いの出力を消費するようになる中、「隠蔽的影響（Covert Influence）」と呼ばれる新たなリスクが分析された。送信側モデルの行動傾向が人間には検知不可能な形で受信側モデルに伝播する現象を、ファインチューニング・蒸留・インコンテキスト学習の3つのインターフェースで検証している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "adversarial",
+      "agent-security"
+    ]
+  }
+]
