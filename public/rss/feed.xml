@@ -3,80 +3,81 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-05T00:06:27Z</updated>
+  <updated>2026-06-06T00:04:12Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Updating the taxonomy of failure modes in agentic AI systems: What a year of red teaming taught us</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/06/04/updating-taxonomy-failure-modes-agentic-ai-systems-year-red-teaming-taught-us/" rel="alternate"/>
-    <id>urn:ai-security-digest:4c6993c9342a8e3b</id>
-    <published>2026-06-04T19:14:42Z</published>
-    <updated>2026-06-04T19:14:42Z</updated>
-    <content type="html">&lt;p&gt;Microsoftが1年間のレッドチーミング経験を基に、エージェント型AIシステムにおける失敗モードの分類体系を更新した。サプライチェーン侵害やゴールハイジャックなど7つの新しい失敗モードを追加し、実践的な緩和策を提示している。現実世界でのエージェントAIへの攻撃急増を受けたリスク対策の最新知見。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <title>Securing CI/CD in an agentic world: Claude Code Github action case</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/" rel="alternate"/>
+    <id>urn:ai-security-digest:84cc70ac4590dac6</id>
+    <published>2026-06-05T16:46:47Z</published>
+    <updated>2026-06-05T16:46:47Z</updated>
+    <content type="html">&lt;p&gt;MicrosoftのThreat Intelligenceチームが、Claude Code GitHub Actionにおけるプロンプトインジェクションの経路を特定した。特定条件下でワークフローのシークレットへのアクセスが可能となるこの攻撃チェーンについて、Anthropicへの責任ある開示プロセスと緩和策、AIを活用したCI/CDワークフローのセキュリティ強化指針を解説している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
     <category term="agent-security"/>
     <category term="adversarial"/>
-    <category term="evaluation"/>
     <source>
       <title>Microsoft Security Blog</title>
     </source>
   </entry>
   <entry>
-    <title>Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories</title>
-    <link href="https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html" rel="alternate"/>
-    <id>urn:ai-security-digest:4ddc5379f6309160</id>
-    <published>2026-06-04T15:15:26Z</published>
-    <updated>2026-06-04T15:15:26Z</updated>
-    <content type="html">&lt;p&gt;AnthropicのClaude Code GitHub Actionに深刻な脆弱性が発見され、攻撃者はGitHubイシューを1件開くだけで脆弱なパブリックリポジトリを乗っ取ることが可能だった。AnthropicのActionリポジトリ自体も同じワークフローを使用していたため、悪意あるコードがダウンストリームのプロジェクトに波及するリスクがあった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Agentic AI Is Transforming Defense, But Only Secure IT Infrastructure Will Maximize It</title>
-    <link href="https://thehackernews.com/2026/06/agentic-ai-is-transforming-defense-but.html" rel="alternate"/>
-    <id>urn:ai-security-digest:71e224483c09ee2d</id>
-    <published>2026-06-04T15:10:00Z</published>
-    <updated>2026-06-04T15:10:00Z</updated>
-    <content type="html">&lt;p&gt;防衛分野でのエージェントAI活用が進む一方、AnthropicのClaude Mythosモデルの技術プレビュー中に不正アクセスが試みられたと報告された。セキュアなITインフラなしにはエージェントAIの効果を最大化できないという警鐘を鳴らす内容で、軍事・防衛領域でのAIセキュリティの重要性を論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>MaskForge: Structure-Aware Adaptive Attacks for Jailbreaking Diffusion Large Language Models</title>
-    <link href="https://arxiv.org/abs/2606.04027" rel="alternate"/>
-    <id>urn:ai-security-digest:70f1abd9578229d2</id>
-    <published>2026-06-04T04:00:00Z</published>
-    <updated>2026-06-04T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;拡散型大規模言語モデル（dLLM）に対する新たなジェイルブレイク手法「MaskForge」が研究された。マスクトークンを悪用した構造認識型の適応攻撃により、自己回帰型LLMとは異なる安全性の弱点を突く手法を示しており、dLLM特有の攻撃面に関する新しい知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Domain-Conditioned Safety in Frontier Computer-Using Agents: A 793-Episode Browser Benchmark, a Coding-Domain Cross-Reference, and a Reproducibility Audit of Recent Red-Teaming</title>
+    <link href="https://arxiv.org/abs/2606.05233" rel="alternate"/>
+    <id>urn:ai-security-digest:767926f74f1f7737</id>
+    <published>2026-06-05T04:00:00Z</published>
+    <updated>2026-06-05T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;コンピュータ操作エージェント（CUA）に対するプロンプトインジェクション攻撃の再現性を検証した研究で、793エピソード・24タスクからなる公開ベンチマーク「CUA-HandCrafted」を公開した。先行研究で報告された42〜98%の攻撃成功率が、現在のフロンティアモデルに対して依然として有効かどうかを検証しており、エージェントセキュリティの評価手法として重要な知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="evaluation"/>
+    <category term="agent-security"/>
     <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Search-Time Contamination in Deep Research Agents: Measuring Performance Inflation in Public Benchmark Evaluation</title>
+    <link href="https://arxiv.org/abs/2606.05241" rel="alternate"/>
+    <id>urn:ai-security-digest:fd4ba8556749c698</id>
+    <published>2026-06-05T04:00:00Z</published>
+    <updated>2026-06-05T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;ウェブ検索を行うディープリサーチエージェントが推論中に公開ベンチマークの回答を検索・取得することで性能評価が水増しされる「Search-Time Contamination（STC）」という新たな問題を体系的に研究した論文。LLM評価の公正性・再現性に関わる重大な課題を提起しており、ベンチマーク評価の信頼性に疑問を投げかけている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
+    <category term="agent-security"/>
     <category term="model-safety"/>
     <source>
       <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>Covert Influence Between Language Models</title>
-    <link href="https://arxiv.org/abs/2606.04071" rel="alternate"/>
-    <id>urn:ai-security-digest:6e589e7af42757b7</id>
-    <published>2026-06-04T04:00:00Z</published>
-    <updated>2026-06-04T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;言語モデル同士が互いの出力を消費するようになる中、「隠蔽的影響（Covert Influence）」と呼ばれる新たなリスクが分析された。送信側モデルの行動傾向が人間には検知不可能な形で受信側モデルに伝播する現象を、ファインチューニング・蒸留・インコンテキスト学習の3つのインターフェースで検証している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <title>From Attack Simulation to SIEM Rule: Deterministic Detection-as-Code Synthesis with Probe-Level Traceability</title>
+    <link href="https://arxiv.org/abs/2606.05252" rel="alternate"/>
+    <id>urn:ai-security-digest:bf199cbebe780649</id>
+    <published>2026-06-05T04:00:00Z</published>
+    <updated>2026-06-05T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;攻撃シミュレーション（BAS）の結果から、LLMを用いてSIEM向けのSigma検出ルールを自動生成するフレームワークを提案した研究。プローブレベルのトレーサビリティを持つ決定論的なDetection-as-Codeの合成により、セキュリティチームの手作業を削減することを目指している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="tool"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Willing but Unable: Separating Refusal from Capability in Code LLMs via Abliteration</title>
+    <link href="https://arxiv.org/abs/2606.05396" rel="alternate"/>
+    <id>urn:ai-security-digest:7be5b84f552f4285</id>
+    <published>2026-06-05T04:00:00Z</published>
+    <updated>2026-06-05T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;命令チューニング済みのコードLLMに対してアブリタレーション（abliteration）技術を適用し、安全性のための拒否挙動と実際の能力を分離することで、脆弱なコードの大規模生成を可能にするかを検証した研究。学習ベースの脆弱性検出における教師データ不足の解決策として提案されているが、LLMの安全機構の迂回可能性というリスクも示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
     <category term="model-safety"/>
     <category term="adversarial"/>
-    <category term="agent-security"/>
+    <category term="vulnerability"/>
     <source>
       <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
