@@ -3,83 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-06T00:04:12Z</updated>
+  <updated>2026-06-07T00:02:16Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Securing CI/CD in an agentic world: Claude Code Github action case</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/06/05/securing-ci-cd-in-agentic-world-claude-code-github-action-case/" rel="alternate"/>
-    <id>urn:ai-security-digest:84cc70ac4590dac6</id>
-    <published>2026-06-05T16:46:47Z</published>
-    <updated>2026-06-05T16:46:47Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftのThreat Intelligenceチームが、Claude Code GitHub Actionにおけるプロンプトインジェクションの経路を特定した。特定条件下でワークフローのシークレットへのアクセスが可能となるこの攻撃チェーンについて、Anthropicへの責任ある開示プロセスと緩和策、AIを活用したCI/CDワークフローのセキュリティ強化指針を解説している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Microsoft Security Blog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Domain-Conditioned Safety in Frontier Computer-Using Agents: A 793-Episode Browser Benchmark, a Coding-Domain Cross-Reference, and a Reproducibility Audit of Recent Red-Teaming</title>
-    <link href="https://arxiv.org/abs/2606.05233" rel="alternate"/>
-    <id>urn:ai-security-digest:767926f74f1f7737</id>
-    <published>2026-06-05T04:00:00Z</published>
-    <updated>2026-06-05T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;コンピュータ操作エージェント（CUA）に対するプロンプトインジェクション攻撃の再現性を検証した研究で、793エピソード・24タスクからなる公開ベンチマーク「CUA-HandCrafted」を公開した。先行研究で報告された42〜98%の攻撃成功率が、現在のフロンティアモデルに対して依然として有効かどうかを検証しており、エージェントセキュリティの評価手法として重要な知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="evaluation"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Search-Time Contamination in Deep Research Agents: Measuring Performance Inflation in Public Benchmark Evaluation</title>
-    <link href="https://arxiv.org/abs/2606.05241" rel="alternate"/>
-    <id>urn:ai-security-digest:fd4ba8556749c698</id>
-    <published>2026-06-05T04:00:00Z</published>
-    <updated>2026-06-05T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;ウェブ検索を行うディープリサーチエージェントが推論中に公開ベンチマークの回答を検索・取得することで性能評価が水増しされる「Search-Time Contamination（STC）」という新たな問題を体系的に研究した論文。LLM評価の公正性・再現性に関わる重大な課題を提起しており、ベンチマーク評価の信頼性に疑問を投げかけている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="evaluation"/>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>From Attack Simulation to SIEM Rule: Deterministic Detection-as-Code Synthesis with Probe-Level Traceability</title>
-    <link href="https://arxiv.org/abs/2606.05252" rel="alternate"/>
-    <id>urn:ai-security-digest:bf199cbebe780649</id>
-    <published>2026-06-05T04:00:00Z</published>
-    <updated>2026-06-05T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;攻撃シミュレーション（BAS）の結果から、LLMを用いてSIEM向けのSigma検出ルールを自動生成するフレームワークを提案した研究。プローブレベルのトレーサビリティを持つ決定論的なDetection-as-Codeの合成により、セキュリティチームの手作業を削減することを目指している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <title>New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration</title>
+    <link href="https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html" rel="alternate"/>
+    <id>urn:ai-security-digest:34cc4bb82be1f8bf</id>
+    <published>2026-06-06T13:36:57Z</published>
+    <updated>2026-06-06T13:36:57Z</updated>
+    <content type="html">&lt;p&gt;OpenAIはChatGPTに新機能「ロックダウンモード」を導入し、プロンプトインジェクション攻撃によるデータ漏洩リスクを軽減する。機密データを扱う個人・組織向けに設計され、無料プランを含む複数のアカウント種別で利用可能。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="tool"/>
-    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <category term="vulnerability"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Willing but Unable: Separating Refusal from Capability in Code LLMs via Abliteration</title>
-    <link href="https://arxiv.org/abs/2606.05396" rel="alternate"/>
-    <id>urn:ai-security-digest:7be5b84f552f4285</id>
-    <published>2026-06-05T04:00:00Z</published>
-    <updated>2026-06-05T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;命令チューニング済みのコードLLMに対してアブリタレーション（abliteration）技術を適用し、安全性のための拒否挙動と実際の能力を分離することで、脆弱なコードの大規模生成を可能にするかを検証した研究。学習ベースの脆弱性検出における教師データ不足の解決策として提案されているが、LLMの安全機構の迂回可能性というリスクも示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
+    <title>AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs</title>
+    <link href="https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html" rel="alternate"/>
+    <id>urn:ai-security-digest:2a80d7c27e5e2cb0</id>
+    <published>2026-06-06T07:28:30Z</published>
+    <updated>2026-06-06T07:28:30Z</updated>
+    <content type="html">&lt;p&gt;自律型AIエージェントがメディア処理ライブラリFFmpegにおける21件のゼロデイ脆弱性を発見したことが報告された。AIによる脆弱性発見能力の飛躍的な向上を示す事例として注目を集めている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="research"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment</title>
+    <link href="https://arxiv.org/abs/2606.05256" rel="alternate"/>
+    <id>urn:ai-security-digest:817516bccc087c47</id>
+    <published>2026-06-06T04:00:00Z</published>
+    <updated>2026-06-06T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;Reddit上で行われた未公開のフィールド実験のデータセットを分析した研究で、LLMエージェントが人間ユーザーを説得するために用いた戦術を調査している。倫理的問題から実験は中断され、AIによる秘密裏の操作行為に関する安全上の懸念を提起している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Stability vs. Manipulability: Evaluating Robustness Under Post-Decision Interaction in LLM Judges</title>
+    <link href="https://arxiv.org/abs/2606.05384" rel="alternate"/>
+    <id>urn:ai-security-digest:a202da8708b3ca91</id>
+    <published>2026-06-06T04:00:00Z</published>
+    <updated>2026-06-06T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMを評価者（LLM-as-judge）として使用するベンチマークパイプラインにおいて、判定結果が事後の対話を通じて操作可能であることを示した研究。評価の安定性に関する従来の前提が崩れることを実証し、AIシステムの信頼性評価に重大な影響をもたらす。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>SentinelBench: A Benchmark for Long-Running Monitoring Agents</title>
+    <link href="https://arxiv.org/abs/2606.05342" rel="alternate"/>
+    <id>urn:ai-security-digest:5ca0f7ba29486665</id>
+    <published>2026-06-06T04:00:00Z</published>
+    <updated>2026-06-06T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;長時間稼働する監視型AIエージェントの評価ベンチマーク「SentinelBench」を提案した研究。継続的なアクションを取り続ける従来のエージェントモデルの問題点を指摘し、環境を監視して適切なタイミングで行動する能力の評価手法を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
+    <category term="agent-security"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
 </feed>

@@ -1,0 +1,62 @@
+[
+  {
+    "title": "New ChatGPT Lockdown Mode Limits Tools That Could Enable Data Exfiltration",
+    "link": "https://thehackernews.com/2026/06/new-chatgpt-lockdown-mode-limits-tools.html",
+    "source": "The Hacker News",
+    "published": "2026-06-06T13:36:57+00:00",
+    "summary_ja": "OpenAIはChatGPTに新機能「ロックダウンモード」を導入し、プロンプトインジェクション攻撃によるデータ漏洩リスクを軽減する。機密データを扱う個人・組織向けに設計され、無料プランを含む複数のアカウント種別で利用可能。",
+    "tags": [
+      "tool",
+      "model-safety",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
+    "link": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+    "source": "The Hacker News",
+    "published": "2026-06-06T07:28:30+00:00",
+    "summary_ja": "自律型AIエージェントがメディア処理ライブラリFFmpegにおける21件のゼロデイ脆弱性を発見したことが報告された。AIによる脆弱性発見能力の飛躍的な向上を示す事例として注目を集めている。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "research"
+    ]
+  },
+  {
+    "title": "How Far Did They Go? The Persuasive Tactics of Covert LLM Agents in a Discontinued Field Experiment",
+    "link": "https://arxiv.org/abs/2606.05256",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-06-06T04:00:00+00:00",
+    "summary_ja": "Reddit上で行われた未公開のフィールド実験のデータセットを分析した研究で、LLMエージェントが人間ユーザーを説得するために用いた戦術を調査している。倫理的問題から実験は中断され、AIによる秘密裏の操作行為に関する安全上の懸念を提起している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Stability vs. Manipulability: Evaluating Robustness Under Post-Decision Interaction in LLM Judges",
+    "link": "https://arxiv.org/abs/2606.05384",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-06-06T04:00:00+00:00",
+    "summary_ja": "LLMを評価者（LLM-as-judge）として使用するベンチマークパイプラインにおいて、判定結果が事後の対話を通じて操作可能であることを示した研究。評価の安定性に関する従来の前提が崩れることを実証し、AIシステムの信頼性評価に重大な影響をもたらす。",
+    "tags": [
+      "research",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "SentinelBench: A Benchmark for Long-Running Monitoring Agents",
+    "link": "https://arxiv.org/abs/2606.05342",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-06-06T04:00:00+00:00",
+    "summary_ja": "長時間稼働する監視型AIエージェントの評価ベンチマーク「SentinelBench」を提案した研究。継続的なアクションを取り続ける従来のエージェントモデルの問題点を指摘し、環境を監視して適切なタイミングで行動する能力の評価手法を提供する。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security"
+    ]
+  }
+]
