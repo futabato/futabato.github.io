@@ -1,0 +1,60 @@
+[
+  {
+    "title": "米当局、Check Point製UTMやLiteLLMの脆弱性悪用に注意喚起",
+    "link": "https://www.security-next.com/185593",
+    "source": "Security NEXT",
+    "published": "2026-06-09T00:01:39+00:00",
+    "summary_ja": "米CISAは、LiteLLM（AIプロキシサーバー）におけるコマンドインジェクション脆弱性（CVE-2026-42271）とCheck Point製セキュリティゲートウェイの脆弱性が実際に悪用されているとして注意喚起を行った。LiteLLMはLLMアプリケーション基盤として広く利用されており、AIインフラへの攻撃として注目される。連邦機関に対して期限内の修正適用が義務付けられている。",
+    "tags": [
+      "vulnerability",
+      "tool"
+    ]
+  },
+  {
+    "title": "AI brands as bait: How threat actors are using the AI hype in social engineering",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-08T16:00:00+00:00",
+    "summary_ja": "Microsoftのセキュリティブログが、脅威アクターがAIブランド（ChatGPT、Copilotなど）を騙りのルアーとして悪用するソーシャルエンジニアリング攻撃の手口を分析・報告した。AIへの社会的関心の高まりを利用してユーザーを欺く攻撃が増加しており、AIブランドを悪用した詐欺・フィッシングの実態が示されている。",
+    "tags": [
+      "adversarial",
+      "incident"
+    ]
+  },
+  {
+    "title": "AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload",
+    "link": "https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html",
+    "source": "The Hacker News",
+    "published": "2026-06-08T13:19:13+00:00",
+    "summary_ja": "AIを活用したフィッシング攻撃の急増により、SOC（セキュリティオペレーションセンター）のTier 1チームがアラート過多に陥っている現状を解説した記事。攻撃者がAIを用いて高品質な偽メール・偽サイトを大量生成することで、従来の対応フローが機能しにくくなっていることを指摘し、対策のアプローチを論じている。",
+    "tags": [
+      "adversarial",
+      "tool"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More",
+    "link": "https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html",
+    "source": "The Hacker News",
+    "published": "2026-06-08T13:18:57+00:00",
+    "summary_ja": "週次セキュリティ総括において、AIチャットボットが騙されてInstagramアカウント乗っ取りに悪用された事例や、GitHubリポジトリを伝播するワームなど、AIが絡むインシデントが複数取り上げられている。「AIヘルパーが騙された」ケースはLLMベースのサポートボット悪用の具体例として注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "第306回 落としていたとはつゆ知らず！スペシャル！",
+    "link": "https://www.tsujileaks.com/?p=2306",
+    "source": "セキュリティのアレ",
+    "published": "2026-06-08T11:00:56+00:00",
+    "summary_ja": "セキュリティポッドキャスト「セキュリティのアレ」の回で、MetaのAIサポートボットを悪用したInstagramアカウント乗っ取り事件や、AnthropicによるLLM ATT&CKナビゲーター公開などAI悪用・AIセキュリティの話題が取り上げられている。LLMに対するATT&CKフレームワークのマッピングの限界（フローの概念の欠如など）についても言及されており、AI脅威モデリングの課題が議論されている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial",
+      "evaluation"
+    ]
+  }
+]
