@@ -1,0 +1,39 @@
+[
+  {
+    "title": "OpenClaw AI agent found falling for phishing attacks, spills user data",
+    "link": "https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-09T21:20:20+00:00",
+    "summary_ja": "OpenClawメールエージェントがフィッシング攻撃に対して脆弱であることが判明。様々な設定プロファイルでのシミュレーションにより、人間のユーザーを騙す手法と同様の攻撃に対してエージェントが容易に騙され、ユーザーデータを漏洩することが示された。AIエージェントのフィッシング耐性に関する重要なセキュリティ上の問題を提起している。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "Reconstructing AI activity in investigations",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-09T17:35:06+00:00",
+    "summary_ja": "MicrosoftがMicrosoft 365 CopilotおよびAzure AIサービスにおけるAIアクティビティの調査・再構築手法を解説するセキュリティプレイブックを公開。テレメトリ駆動のアプローチを用いてセキュリティチームがイベントを再構築し、データ露出を評価し、潜在的な脅威を迅速に検出できるよう支援する。AI利用に関するインシデントレスポンス体制の整備に向けた実践的なガイダンスとなっている。",
+    "tags": [
+      "tool",
+      "incident",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models",
+    "link": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-06-09T11:59:03+00:00",
+    "summary_ja": "トロント大学の研究者が、ローカルホストのオープンウェイトLLMを活用して自律的にネットワークを横断・感染する自己複製型AIワームのPoC（概念実証）を構築・実証した。商用AIサービスを使用せずにターゲットごとに攻撃戦略を生成・自己複製する能力を持つこのワームは、AIを悪用したサイバー攻撃の新たな脅威として重大な警鐘を鳴らす研究成果である。",
+    "tags": [
+      "research",
+      "adversarial",
+      "vulnerability",
+      "model-safety"
+    ]
+  }
+]

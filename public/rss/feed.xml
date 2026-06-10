@@ -3,78 +3,53 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-09T00:03:17Z</updated>
+  <updated>2026-06-10T00:10:12Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>米当局、Check Point製UTMやLiteLLMの脆弱性悪用に注意喚起</title>
-    <link href="https://www.security-next.com/185593" rel="alternate"/>
-    <id>urn:ai-security-digest:1953c21db8c35042</id>
-    <published>2026-06-09T00:01:39Z</published>
-    <updated>2026-06-09T00:01:39Z</updated>
-    <content type="html">&lt;p&gt;米CISAは、LiteLLM（AIプロキシサーバー）におけるコマンドインジェクション脆弱性（CVE-2026-42271）とCheck Point製セキュリティゲートウェイの脆弱性が実際に悪用されているとして注意喚起を行った。LiteLLMはLLMアプリケーション基盤として広く利用されており、AIインフラへの攻撃として注目される。連邦機関に対して期限内の修正適用が義務付けられている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Security NEXT&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>OpenClaw AI agent found falling for phishing attacks, spills user data</title>
+    <link href="https://www.bleepingcomputer.com/news/security/openclaw-ai-agent-found-falling-for-phishing-attacks-spills-user-data/" rel="alternate"/>
+    <id>urn:ai-security-digest:1bd063fb2c47430e</id>
+    <published>2026-06-09T21:20:20Z</published>
+    <updated>2026-06-09T21:20:20Z</updated>
+    <content type="html">&lt;p&gt;OpenClawメールエージェントがフィッシング攻撃に対して脆弱であることが判明。様々な設定プロファイルでのシミュレーションにより、人間のユーザーを騙す手法と同様の攻撃に対してエージェントが容易に騙され、ユーザーデータを漏洩することが示された。AIエージェントのフィッシング耐性に関する重要なセキュリティ上の問題を提起している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
     <category term="vulnerability"/>
-    <category term="tool"/>
+    <category term="incident"/>
     <source>
-      <title>Security NEXT</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>AI brands as bait: How threat actors are using the AI hype in social engineering</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/06/08/ai-brands-as-bait-how-threat-actors-are-using-the-ai-hype-in-social-engineering/" rel="alternate"/>
-    <id>urn:ai-security-digest:5276370775218bda</id>
-    <published>2026-06-08T16:00:00Z</published>
-    <updated>2026-06-08T16:00:00Z</updated>
-    <content type="html">&lt;p&gt;Microsoftのセキュリティブログが、脅威アクターがAIブランド（ChatGPT、Copilotなど）を騙りのルアーとして悪用するソーシャルエンジニアリング攻撃の手口を分析・報告した。AIへの社会的関心の高まりを利用してユーザーを欺く攻撃が増加しており、AIブランドを悪用した詐欺・フィッシングの実態が示されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
+    <title>Reconstructing AI activity in investigations</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/06/09/reconstructing-ai-activity-investigations/" rel="alternate"/>
+    <id>urn:ai-security-digest:fff4a92874bc040f</id>
+    <published>2026-06-09T17:35:06Z</published>
+    <updated>2026-06-09T17:35:06Z</updated>
+    <content type="html">&lt;p&gt;MicrosoftがMicrosoft 365 CopilotおよびAzure AIサービスにおけるAIアクティビティの調査・再構築手法を解説するセキュリティプレイブックを公開。テレメトリ駆動のアプローチを用いてセキュリティチームがイベントを再構築し、データ露出を評価し、潜在的な脅威を迅速に検出できるよう支援する。AI利用に関するインシデントレスポンス体制の整備に向けた実践的なガイダンスとなっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
     <category term="incident"/>
+    <category term="agent-security"/>
     <source>
       <title>Microsoft Security Blog</title>
     </source>
   </entry>
   <entry>
-    <title>AI Phishing Is Crushing SOCs with Alert Volume: How to Reduce Tier 1 Overload</title>
-    <link href="https://thehackernews.com/2026/06/ai-phishing-is-crushing-socs-with-alert.html" rel="alternate"/>
-    <id>urn:ai-security-digest:4b6c8ea3c5caecf6</id>
-    <published>2026-06-08T13:19:13Z</published>
-    <updated>2026-06-08T13:19:13Z</updated>
-    <content type="html">&lt;p&gt;AIを活用したフィッシング攻撃の急増により、SOC（セキュリティオペレーションセンター）のTier 1チームがアラート過多に陥っている現状を解説した記事。攻撃者がAIを用いて高品質な偽メール・偽サイトを大量生成することで、従来の対応フローが機能しにくくなっていることを指摘し、対策のアプローチを論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Researchers Build Self-Replicating AI Worm That Operates Entirely on Local, Open-Weight Models</title>
+    <link href="https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html" rel="alternate"/>
+    <id>urn:ai-security-digest:b533fe5a2c217920</id>
+    <published>2026-06-09T11:59:03Z</published>
+    <updated>2026-06-09T11:59:03Z</updated>
+    <content type="html">&lt;p&gt;トロント大学の研究者が、ローカルホストのオープンウェイトLLMを活用して自律的にネットワークを横断・感染する自己複製型AIワームのPoC（概念実証）を構築・実証した。商用AIサービスを使用せずにターゲットごとに攻撃戦略を生成・自己複製する能力を持つこのワームは、AIを悪用したサイバー攻撃の新たな脅威として重大な警鐘を鳴らす研究成果である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="adversarial"/>
-    <category term="tool"/>
+    <category term="vulnerability"/>
+    <category term="model-safety"/>
     <source>
       <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>⚡ Weekly Recap: Instagram Account Hacks, Android Zero-Day, GitHub Worm and More</title>
-    <link href="https://thehackernews.com/2026/06/weekly-recap-instagram-account-hacks.html" rel="alternate"/>
-    <id>urn:ai-security-digest:2bde8178b07d031b</id>
-    <published>2026-06-08T13:18:57Z</published>
-    <updated>2026-06-08T13:18:57Z</updated>
-    <content type="html">&lt;p&gt;週次セキュリティ総括において、AIチャットボットが騙されてInstagramアカウント乗っ取りに悪用された事例や、GitHubリポジトリを伝播するワームなど、AIが絡むインシデントが複数取り上げられている。「AIヘルパーが騙された」ケースはLLMベースのサポートボット悪用の具体例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>第306回 落としていたとはつゆ知らず！スペシャル！</title>
-    <link href="https://www.tsujileaks.com/?p=2306" rel="alternate"/>
-    <id>urn:ai-security-digest:1e3ed96142434015</id>
-    <published>2026-06-08T11:00:56Z</published>
-    <updated>2026-06-08T11:00:56Z</updated>
-    <content type="html">&lt;p&gt;セキュリティポッドキャスト「セキュリティのアレ」の回で、MetaのAIサポートボットを悪用したInstagramアカウント乗っ取り事件や、AnthropicによるLLM ATT&amp;amp;CKナビゲーター公開などAI悪用・AIセキュリティの話題が取り上げられている。LLMに対するATT&amp;amp;CKフレームワークのマッピングの限界（フローの概念の欠如など）についても言及されており、AI脅威モデリングの課題が議論されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; セキュリティのアレ&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <category term="evaluation"/>
-    <source>
-      <title>セキュリティのアレ</title>
     </source>
   </entry>
 </feed>
