@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Path traversal flaw in AI dev platform Langflow exploited in attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/path-traversal-flaw-in-ai-dev-platform-langflow-exploited-in-attacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-10T21:23:44+00:00",
+    "summary_ja": "AI開発プラットフォームLangflowにおけるパストラバーサルの脆弱性CVE-2026-5027が攻撃者に積極的に悪用されており、露出したサーバーへの任意ファイル書き込みが可能となっている。重大度の高いこの脆弱性はAIアプリケーション開発基盤を直接標的にしており、AIインフラのセキュリティリスクとして注目される。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "Turn specs into evals for any agent with ASSERT",
+    "link": "https://commandline.microsoft.com/assert-written-intent-executable-evals/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-10T16:00:00+00:00",
+    "summary_ja": "MicrosoftがAIモデルとエージェントの評価を自動化するオープンソースフレームワーク「ASSERT」を公開した。自然言語で記述された動作要件を実行可能な評価テストに変換することで、AIエージェントの振る舞いを体系的に検証・回帰テストできる。AIエージェントの安全性評価手法として実用的な新ツールとなる。",
+    "tags": [
+      "tool",
+      "evaluation",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Quoting Jeremy Howard",
+    "link": "https://simonwillison.net/2026/Jun/10/jeremy-howard/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-06-10T15:23:34+00:00",
+    "summary_ja": "Jeremy Howardが、再帰的なAI自己改善を抑制するための政策提案を発表した。トップランクモデルを持つラボ自身はそのモデルをフロンティアAI研究に使用できないようにする一方、他者はアクセス可能にするという非対称ルールにより、フロンティアの進行を止めつつ権力の不均衡も防ぐと主張している。AnthropicがAI安全についての逆の選択をしているとも指摘している。",
+    "tags": [
+      "governance",
+      "policy",
+      "regulation"
+    ]
+  },
+  {
+    "title": "Unpatched Langflow Flaw CVE-2026-5027 Exploited for Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/06/unpatched-langflow-flaw-cve-2026-5027.html",
+    "source": "The Hacker News",
+    "published": "2026-06-10T15:00:59+00:00",
+    "summary_ja": "AIアプリケーション構築向けオープンソースプラットフォームLangflowの未修正の脆弱性CVE-2026-5027（CVSSスコア8.8）が実際の攻撃で悪用されていることがVulnCheckの調査で明らかになった。パストラバーサルによって認証なしでRCEが可能となる深刻な問題であり、AI開発ツールのサプライチェーンリスクを示している。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
+    "link": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html",
+    "source": "The Hacker News",
+    "published": "2026-06-10T07:37:59+00:00",
+    "summary_ja": "AnthropicがClaude Fable 5を一般公開し、同時にサイバーセーフガードを解除した研究者向け限定版「Claude Mythos 5」を別製品として展開するという異例の二層構造リリースを行った。安全性分類器の有無でモデルを分けるこのアプローチは、強力なAIのセキュリティ研究への活用と悪用防止を両立させる新たなモデル安全性戦略として注目される。",
+    "tags": [
+      "model-safety",
+      "governance",
+      "regulation"
+    ]
+  }
+]
