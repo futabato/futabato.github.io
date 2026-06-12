@@ -1,0 +1,64 @@
+[
+  {
+    "title": "デジタル社会推進標準ガイドライン：「DS-920 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン 」を更新しました",
+    "link": "https://www.digital.go.jp/resources/standard_guidelines",
+    "source": "デジタル庁",
+    "published": "2026-06-11T22:53:37+00:00",
+    "summary_ja": "デジタル庁がデジタル社会推進標準ガイドライン「DS-920 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン」を更新した。行政機関が生成AIを安全・適切に活用するための標準的な指針として位置付けられている。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定しました",
+    "link": "https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8",
+    "source": "デジタル庁",
+    "published": "2026-06-11T22:52:54+00:00",
+    "summary_ja": "デジタル庁が「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン」の第2.0版を策定・公表した。政府機関における生成AIの調達および活用に関する基準・指針を示すものであり、行政のAI利用に係るガバナンス強化を目的としている。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets",
+    "link": "https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html",
+    "source": "The Hacker News",
+    "published": "2026-06-11T17:46:32+00:00",
+    "summary_ja": "人気の自己ホスト型AIエージェント「OpenClaw」に対する新たな攻撃手法が、ImpervaとVaronisの2つのセキュリティチームによって独立して発表された。共有連絡先やvCard、位置情報ピンに攻撃者の指示を埋め込むことで、エージェントに悪意あるコードを実行させたり、機密データを漏洩させたりできることが示された。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Why AI-driven threats are exposing the limits of MSP security stacks",
+    "link": "https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-11T14:00:10+00:00",
+    "summary_ja": "AI駆動型の攻撃が高度化する中、断片化したMSP（マネージドサービスプロバイダー）のセキュリティスタックとスローな対応ワークフローの限界が露呈しつつある。統合セキュリティ、自動化、迅速なリカバリーの重要性が増しているとKaseyaが分析している。",
+    "tags": [
+      "adversarial",
+      "tool",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories",
+    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-06-11T13:20:41+00:00",
+    "summary_ja": "AIエージェントがフィッシングによって実際の認証情報を漏洩させることを示した研究や、Claude Codeへのパッチ適用など、AI関連のセキュリティ動向を含む週次セキュリティ速報。マルウェアのSaaS化など攻撃の高度化・洗練化が進んでいる点も報告されている。",
+    "tags": [
+      "agent-security",
+      "adversarial",
+      "incident",
+      "model-safety"
+    ]
+  }
+]
