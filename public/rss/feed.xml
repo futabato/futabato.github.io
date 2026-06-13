@@ -3,48 +3,19 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-12T00:17:06Z</updated>
+  <updated>2026-06-13T00:18:17Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>デジタル社会推進標準ガイドライン：「DS-920 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン 」を更新しました</title>
-    <link href="https://www.digital.go.jp/resources/standard_guidelines" rel="alternate"/>
-    <id>urn:ai-security-digest:939308874ea2afaf</id>
-    <published>2026-06-11T22:53:37Z</published>
-    <updated>2026-06-11T22:53:37Z</updated>
-    <content type="html">&lt;p&gt;デジタル庁がデジタル社会推進標準ガイドライン「DS-920 行政の進化と革新のための生成AIの調達・利活用に係るガイドライン」を更新した。行政機関が生成AIを安全・適切に活用するための標準的な指針として位置付けられている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; デジタル庁&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="governance"/>
-    <category term="regulation"/>
-    <source>
-      <title>デジタル庁</title>
-    </source>
-  </entry>
-  <entry>
-    <title>「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定しました</title>
-    <link href="https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8" rel="alternate"/>
-    <id>urn:ai-security-digest:9bcb7beaaad3d292</id>
-    <published>2026-06-11T22:52:54Z</published>
-    <updated>2026-06-11T22:52:54Z</updated>
-    <content type="html">&lt;p&gt;デジタル庁が「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン」の第2.0版を策定・公表した。政府機関における生成AIの調達および活用に関する基準・指針を示すものであり、行政のAI利用に係るガバナンス強化を目的としている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; デジタル庁&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="governance"/>
-    <category term="regulation"/>
-    <source>
-      <title>デジタル庁</title>
-    </source>
-  </entry>
-  <entry>
-    <title>New Attacks Trick OpenClaw AI Agent Into Running Code and Leaking Secrets</title>
-    <link href="https://thehackernews.com/2026/06/new-attacks-trick-openclaw-ai-agent.html" rel="alternate"/>
-    <id>urn:ai-security-digest:0826b044b06cf7c9</id>
-    <published>2026-06-11T17:46:32Z</published>
-    <updated>2026-06-11T17:46:32Z</updated>
-    <content type="html">&lt;p&gt;人気の自己ホスト型AIエージェント「OpenClaw」に対する新たな攻撃手法が、ImpervaとVaronisの2つのセキュリティチームによって独立して発表された。共有連絡先やvCard、位置情報ピンに攻撃者の指示を埋め込むことで、エージェントに悪意あるコードを実行させたり、機密データを漏洩させたりできることが示された。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <title>Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code</title>
+    <link href="https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html" rel="alternate"/>
+    <id>urn:ai-security-digest:f5ac281a312586bc</id>
+    <published>2026-06-12T12:04:33Z</published>
+    <updated>2026-06-12T12:04:33Z</updated>
+    <content type="html">&lt;p&gt;AIコーディングエージェントを悪用する新たな攻撃手法「Agentjacking」が報告された。オープンソースのエラー追跡ツール「Sentry」を悪用した偽のエラーレポートを通じて、AIエージェントに任意のコードを実行させることができる。Tenet Securityの研究者によって発見されたこの手法は、AIエージェントが開発者環境で動作する際の新たなリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
     <category term="agent-security"/>
     <category term="adversarial"/>
@@ -53,32 +24,60 @@
     </source>
   </entry>
   <entry>
-    <title>Why AI-driven threats are exposing the limits of MSP security stacks</title>
-    <link href="https://www.bleepingcomputer.com/news/security/why-ai-driven-threats-are-exposing-the-limits-of-msp-security-stacks/" rel="alternate"/>
-    <id>urn:ai-security-digest:1017c919b048f36a</id>
-    <published>2026-06-11T14:00:10Z</published>
-    <updated>2026-06-11T14:00:10Z</updated>
-    <content type="html">&lt;p&gt;AI駆動型の攻撃が高度化する中、断片化したMSP（マネージドサービスプロバイダー）のセキュリティスタックとスローな対応ワークフローの限界が露呈しつつある。統合セキュリティ、自動化、迅速なリカバリーの重要性が増しているとKaseyaが分析している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
-    <category term="tool"/>
-    <category term="model-safety"/>
+    <title>LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution</title>
+    <link href="https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html" rel="alternate"/>
+    <id>urn:ai-security-digest:b65eff504a63626a</id>
+    <published>2026-06-12T09:50:36Z</published>
+    <updated>2026-06-12T09:50:36Z</updated>
+    <content type="html">&lt;p&gt;マルチエージェントAIアプリケーション構築フレームワーク「LangGraph」において、リモートコード実行につながる重大な脆弱性チェーンを含む3件のセキュリティ欠陥が開示された。SQLインジェクションを含むこの脆弱性は既にパッチが適用されているが、自己ホスト型のAIエージェントシステムが深刻なリスクにさらされていたことが明らかになった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="research"/>
     <source>
-      <title>Bleeping Computer</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>ThreatsDay Bulletin: Worm Code Leaked, AI Agent Phished, Claude Code Patch + 28 New Stories</title>
-    <link href="https://thehackernews.com/2026/06/threatsday-bulletin-worm-code-leaked-ai.html" rel="alternate"/>
-    <id>urn:ai-security-digest:a22c3f1dabbfdb92</id>
-    <published>2026-06-11T13:20:41Z</published>
-    <updated>2026-06-11T13:20:41Z</updated>
-    <content type="html">&lt;p&gt;AIエージェントがフィッシングによって実際の認証情報を漏洩させることを示した研究や、Claude Codeへのパッチ適用など、AI関連のセキュリティ動向を含む週次セキュリティ速報。マルウェアのSaaS化など攻撃の高度化・洗練化が進んでいる点も報告されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
+    <title>「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定しました</title>
+    <link href="https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8" rel="alternate"/>
+    <id>urn:ai-security-digest:9bcb7beaaad3d292</id>
+    <published>2026-06-12T06:00:00Z</published>
+    <updated>2026-06-12T06:00:00Z</updated>
+    <content type="html">&lt;p&gt;デジタル庁が「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン（第2.0版）」を策定・公表した。行政機関における生成AIの調達および活用に関する指針を更新したもので、政府のAIガバナンス強化に向けた取り組みの一環である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; デジタル庁&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="policy"/>
+    <category term="governance"/>
+    <category term="regulation"/>
+    <source>
+      <title>デジタル庁</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Influence Factors on RAG Poisoning</title>
+    <link href="https://arxiv.org/abs/2606.12469" rel="alternate"/>
+    <id>urn:ai-security-digest:4f28dc722565ea14</id>
+    <published>2026-06-12T04:00:00Z</published>
+    <updated>2026-06-12T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;RAG（検索拡張生成）システムにおけるポイズニング攻撃の影響要因を分析した研究論文。外部知識ソースへの依存が、悪意あるドキュメントによる検索プロセスや出力結果の操作という脆弱性をもたらすことを示し、完全要因実験によってRAGシステムのポイズニング耐性を検証している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="adversarial"/>
-    <category term="incident"/>
     <category term="model-safety"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems</title>
+    <link href="https://arxiv.org/abs/2606.12703" rel="alternate"/>
+    <id>urn:ai-security-digest:4ff3932987fe317e</id>
+    <published>2026-06-12T04:00:00Z</published>
+    <updated>2026-06-12T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;永続的メモリを持つLLMエージェントシステムを標的とした新たな攻撃面「マルチセッションメモリポイズニング（MSMP）」を定義し、その認証済み防御手法「SMSR」を提案した研究。攻撃者が通常チャネルのみを通じて悪意あるメモリを注入し、将来のユーザーへの応答を操作できることを示すとともに、既存防御の限界を明らかにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

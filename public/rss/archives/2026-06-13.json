@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
+    "link": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html",
+    "source": "The Hacker News",
+    "published": "2026-06-12T12:04:33+00:00",
+    "summary_ja": "AIコーディングエージェントを悪用する新たな攻撃手法「Agentjacking」が報告された。オープンソースのエラー追跡ツール「Sentry」を悪用した偽のエラーレポートを通じて、AIエージェントに任意のコードを実行させることができる。Tenet Securityの研究者によって発見されたこの手法は、AIエージェントが開発者環境で動作する際の新たなリスクを示している。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
+    "link": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html",
+    "source": "The Hacker News",
+    "published": "2026-06-12T09:50:36+00:00",
+    "summary_ja": "マルチエージェントAIアプリケーション構築フレームワーク「LangGraph」において、リモートコード実行につながる重大な脆弱性チェーンを含む3件のセキュリティ欠陥が開示された。SQLインジェクションを含むこの脆弱性は既にパッチが適用されているが、自己ホスト型のAIエージェントシステムが深刻なリスクにさらされていたことが明らかになった。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "research"
+    ]
+  },
+  {
+    "title": "「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定しました",
+    "link": "https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8",
+    "source": "デジタル庁",
+    "published": "2026-06-12T06:00:00+00:00",
+    "summary_ja": "デジタル庁が「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン（第2.0版）」を策定・公表した。行政機関における生成AIの調達および活用に関する指針を更新したもので、政府のAIガバナンス強化に向けた取り組みの一環である。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "Influence Factors on RAG Poisoning",
+    "link": "https://arxiv.org/abs/2606.12469",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-12T04:00:00+00:00",
+    "summary_ja": "RAG（検索拡張生成）システムにおけるポイズニング攻撃の影響要因を分析した研究論文。外部知識ソースへの依存が、悪意あるドキュメントによる検索プロセスや出力結果の操作という脆弱性をもたらすことを示し、完全要因実験によってRAGシステムのポイズニング耐性を検証している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems",
+    "link": "https://arxiv.org/abs/2606.12703",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-12T04:00:00+00:00",
+    "summary_ja": "永続的メモリを持つLLMエージェントシステムを標的とした新たな攻撃面「マルチセッションメモリポイズニング（MSMP）」を定義し、その認証済み防御手法「SMSR」を提案した研究。攻撃者が通常チャネルのみを通じて悪意あるメモリを注入し、将来のユーザーへの応答を操作できることを示すとともに、既存防御の限界を明らかにしている。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety",
+      "adversarial"
+    ]
+  }
+]
