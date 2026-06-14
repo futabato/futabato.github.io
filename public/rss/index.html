@@ -51,55 +51,37 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年06月13日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年06月14日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">3件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>06/12</time>
+            <time>06/13</time>
+            <span class="source">Bleeping Computer</span>
+          </div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/" target="_blank" rel="noopener">US Gov asks Anthropic to ban &#x27;foreign national&#x27; access to Fable, Mythos</a></h3>
+          <p>米国政府がAnthropicに対し、外国籍の人物によるFable 5およびMythos 5へのアクセスを禁止するよう命令した。Anthropicは命令に従い両モデルを世界中で一時停止したが、根拠となったジェイルブレイクは限定的であり、同等の能力は他でも広く利用可能だと異議を唱えている。</p>
+          <div class="tags"><span class="tag">policy</span> <span class="tag">regulation</span> <span class="tag">governance</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>06/13</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html" target="_blank" rel="noopener">Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code</a></h3>
-          <p>AIコーディングエージェントを悪用する新たな攻撃手法「Agentjacking」が報告された。オープンソースのエラー追跡ツール「Sentry」を悪用した偽のエラーレポートを通じて、AIエージェントに任意のコードを実行させることができる。Tenet Securityの研究者によって発見されたこの手法は、AIエージェントが開発者環境で動作する際の新たなリスクを示している。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html" target="_blank" rel="noopener">U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals</a></h3>
+          <p>米国政府が国家安全保障上の懸念を理由に、AnthropicのAIモデルClaude Fable 5およびMythos 5への外国籍ユーザーのアクセス停止を命令した。Anthropicは午後5時21分に指令を受け、コンプライアンス確保のため全顧客向けに両モデルを突然無効化すると発表した。</p>
+          <div class="tags"><span class="tag">policy</span> <span class="tag">regulation</span> <span class="tag">governance</span> <span class="tag">model-safety</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>06/12</time>
-            <span class="source">The Hacker News</span>
+            <time>06/13</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html" target="_blank" rel="noopener">LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution</a></h3>
-          <p>マルチエージェントAIアプリケーション構築フレームワーク「LangGraph」において、リモートコード実行につながる重大な脆弱性チェーンを含む3件のセキュリティ欠陥が開示された。SQLインジェクションを含むこの脆弱性は既にパッチが適用されているが、自己ホスト型のAIエージェントシステムが深刻なリスクにさらされていたことが明らかになった。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">research</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>06/12</time>
-            <span class="source">デジタル庁</span>
-          </div>
-          <h3><a href="https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8" target="_blank" rel="noopener">「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定しました</a></h3>
-          <p>デジタル庁が「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン（第2.0版）」を策定・公表した。行政機関における生成AIの調達および活用に関する指針を更新したもので、政府のAIガバナンス強化に向けた取り組みの一環である。</p>
-          <div class="tags"><span class="tag">policy</span> <span class="tag">governance</span> <span class="tag">regulation</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>06/12</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2606.12469" target="_blank" rel="noopener">Influence Factors on RAG Poisoning</a></h3>
-          <p>RAG（検索拡張生成）システムにおけるポイズニング攻撃の影響要因を分析した研究論文。外部知識ソースへの依存が、悪意あるドキュメントによる検索プロセスや出力結果の操作という脆弱性をもたらすことを示し、完全要因実験によってRAGシステムのポイズニング耐性を検証している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>06/12</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2606.12703" target="_blank" rel="noopener">SMSR: Certified Defence Against Runtime Memory Poisoning in Persistent LLM Agent Systems</a></h3>
-          <p>永続的メモリを持つLLMエージェントシステムを標的とした新たな攻撃面「マルチセッションメモリポイズニング（MSMP）」を定義し、その認証済み防御手法「SMSR」を提案した研究。攻撃者が通常チャネルのみを通じて悪意あるメモリを注入し、将来のユーザーへの応答を操作できることを示すとともに、既存防御の限界を明らかにしている。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything" target="_blank" rel="noopener">Statement on the US government directive to suspend access to Fable 5 and Mythos 5</a></h3>
+          <p>米国政府がAnthropicに対し輸出管理指令を発令し、国内外を問わず外国籍の人物によるFable 5およびMythos 5へのアクセスを停止するよう命じた。この措置により、外国籍のAnthropic従業員も含む全ての外国籍ユーザーが対象となり、Anthropicは事実上すべての顧客向けに両モデルを無効化せざるを得ない状況となった。</p>
+          <div class="tags"><span class="tag">policy</span> <span class="tag">regulation</span> <span class="tag">governance</span> <span class="tag">model-safety</span></div>
         </article>
   </main>
   <footer>
