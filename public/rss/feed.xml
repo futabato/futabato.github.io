@@ -3,55 +3,81 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-14T00:06:05Z</updated>
+  <updated>2026-06-16T00:28:35Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>US Gov asks Anthropic to ban 'foreign national' access to Fable, Mythos</title>
-    <link href="https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/" rel="alternate"/>
-    <id>urn:ai-security-digest:4cbfecd7aeebcf0a</id>
-    <published>2026-06-13T10:01:32Z</published>
-    <updated>2026-06-13T10:01:32Z</updated>
-    <content type="html">&lt;p&gt;米国政府がAnthropicに対し、外国籍の人物によるFable 5およびMythos 5へのアクセスを禁止するよう命令した。Anthropicは命令に従い両モデルを世界中で一時停止したが、根拠となったジェイルブレイクは限定的であり、同等の能力は他でも広く利用可能だと異議を唱えている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
+    <title>DOJ seizes CFAKE, SOCFAKE deepfake nude sites under TAKE IT DOWN Act</title>
+    <link href="https://www.bleepingcomputer.com/news/security/doj-seizes-cfake-socfake-deepfake-nude-sites-under-take-it-down-act/" rel="alternate"/>
+    <id>urn:ai-security-digest:ceff0c94a2f78e28</id>
+    <published>2026-06-15T21:56:55Z</published>
+    <updated>2026-06-15T21:56:55Z</updated>
+    <content type="html">&lt;p&gt;米司法省は、TAKE IT DOWN法に基づき、AIが生成した非合意のヌード画像・動画を掲載していたCFAKE.comおよびSOCFAKE.comのドメインを押収した。これは同法施行後初めて公表されたドメイン差し押さえ事例とみられる。ディープフェイク技術の悪用に対する法的規制の執行が本格化していることを示す重要な動向である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
     <category term="regulation"/>
-    <category term="governance"/>
-    <category term="model-safety"/>
+    <category term="policy"/>
+    <category term="incident"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals</title>
-    <link href="https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html" rel="alternate"/>
-    <id>urn:ai-security-digest:27dc7af05e05b72c</id>
-    <published>2026-06-13T05:42:50Z</published>
-    <updated>2026-06-13T05:42:50Z</updated>
-    <content type="html">&lt;p&gt;米国政府が国家安全保障上の懸念を理由に、AnthropicのAIモデルClaude Fable 5およびMythos 5への外国籍ユーザーのアクセス停止を命令した。Anthropicは午後5時21分に指令を受け、コンプライアンス確保のため全顧客向けに両モデルを突然無効化すると発表した。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="regulation"/>
-    <category term="governance"/>
-    <category term="model-safety"/>
+    <title>LiteLLM Vulnerability Chain Lets Low-Privilege Users Take Over AI Gateway Servers</title>
+    <link href="https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html" rel="alternate"/>
+    <id>urn:ai-security-digest:a4843d5dd1c5e2f1</id>
+    <published>2026-06-15T16:39:01Z</published>
+    <updated>2026-06-15T16:39:01Z</updated>
+    <content type="html">&lt;p&gt;オープンソースのAIゲートウェイ「LiteLLM」に3つの脆弱性を連鎖させることで、低権限ユーザーがサーバーの完全な管理者権限を取得しリモートコード実行が可能になることが判明した。LiteLLMは100以上のモデルプロバイダーへのAPIキーを管理しており、サーバー乗っ取りによってこれらの機密情報が漏洩するリスクがある。AIインフラのセキュリティにおける重大な脆弱性事例である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="tool"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Statement on the US government directive to suspend access to Fable 5 and Mythos 5</title>
-    <link href="https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:e464b7a63a6a0397</id>
-    <published>2026-06-13T01:01:50Z</published>
-    <updated>2026-06-13T01:01:50Z</updated>
-    <content type="html">&lt;p&gt;米国政府がAnthropicに対し輸出管理指令を発令し、国内外を問わず外国籍の人物によるFable 5およびMythos 5へのアクセスを停止するよう命じた。この措置により、外国籍のAnthropic従業員も含む全ての外国籍ユーザーが対象となり、Anthropicは事実上すべての顧客向けに両モデルを無効化せざるを得ない状況となった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>One-Click Microsoft 365 Copilot Flaw Could Have Let Attackers Steal Emails, Files, and MFA Codes</title>
+    <link href="https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html" rel="alternate"/>
+    <id>urn:ai-security-digest:c87e9ab186a4fe66</id>
+    <published>2026-06-15T15:09:05Z</published>
+    <updated>2026-06-15T15:09:05Z</updated>
+    <content type="html">&lt;p&gt;Microsoft 365 CopilotのEnterprise Searchに存在する3つの脆弱性を連鎖させた「SearchLeak」攻撃により、攻撃者が1クリックでメール・カレンダー・ファイル・MFAコードを窃取できる欠陥が発見された。正規のmicrosoft.comドメインを使用するため、従来のフィッシング対策やURLフィルタリングでは検出が困難であった。AI搭載のビジネスツールにおける新たな攻撃ベクターとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>&quot;They screwed us&quot;: Personality clashes sent Anthropic's models offline</title>
+    <link href="https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:9c479ecb98939c02</id>
+    <published>2026-06-15T14:57:33Z</published>
+    <updated>2026-06-15T14:57:33Z</updated>
+    <content type="html">&lt;p&gt;米国政府の輸出規制をめぐるAnthropicと政府との対立について、内部関係者の証言をもとにした詳細な経緯が報告されている。AnthropicのFrontier Red TeamリードやHead of Safeguardsらが関与する舞台裏の動向が明らかになっており、AI安全性ガバナンスと政府規制の緊張関係を示す重要な事例である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
     <category term="policy"/>
-    <category term="regulation"/>
     <category term="governance"/>
     <category term="model-safety"/>
+    <category term="regulation"/>
     <source>
       <title>Simon Willison's Weblog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Vibe coders are gonna vibe code: How CISOs are tackling code sprawl</title>
+    <link href="https://www.bleepingcomputer.com/news/security/vibe-coders-are-gonna-vibe-code-how-cisos-are-tackling-code-sprawl/" rel="alternate"/>
+    <id>urn:ai-security-digest:7a91f906e188d235</id>
+    <published>2026-06-15T14:01:11Z</published>
+    <updated>2026-06-15T14:01:11Z</updated>
+    <content type="html">&lt;p&gt;従業員がセキュリティ部門の監督外でAIツールを使ってオートメーション・エージェント・アプリを構築する「バイブコーディング」が増加しており、CISOたちがAI起因のコードスプロールとシャドーツーリングへの対応に苦慮している。組織内のAI利用ガバナンスの欠如がセキュリティリスクを高めているとして、現場の対応策が解説されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="governance"/>
+    <category term="agent-security"/>
+    <category term="policy"/>
+    <source>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
 </feed>
