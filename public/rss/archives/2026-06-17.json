@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
+    "link": "https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-16T21:54:50+00:00",
+    "summary_ja": "JetBrainsマーケットプレイスで少なくとも15件の悪意あるプラグインが発見され、開発者のAI APIキー（OpenAI、Anthropicなど）を窃取するよう設計されていた。AIツールの普及に伴い、APIキーを標的にしたサプライチェーン型攻撃が増加していることを示す事例。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting",
+    "link": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html",
+    "source": "The Hacker News",
+    "published": "2026-06-16T19:05:41+00:00",
+    "summary_ja": "Google Cloud Vertex AI SDKのPython実装に「Pickle in the Middle」と呼ばれる脆弱性が発見され、攻撃者が被害者のMLモデルアップロードを乗っ取り、Googleのサービングインフラ内でコードを実行できることが判明した。Palo Alto Networks Unit 42がGoogleのバグバウンティプログラムを通じて報告し、野生での悪用は確認されていない。",
+    "tags": [
+      "vulnerability",
+      "research",
+      "tool"
+    ]
+  },
+  {
+    "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+    "link": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-06-16T05:20:29+00:00",
+    "summary_ja": "AIモデル「Fable 5」が輸出規制の対象となった経緯について、研究者が既知のCVEを含むコードのセキュリティレビューをAIに依頼したところ拒否されたため「ジェイルブレイク」とみなされた事例を解説。AIの過剰な安全制限が実際のサイバー防衛研究を阻害しているという批判的視点から政策・規制の課題を論じている。",
+    "tags": [
+      "policy",
+      "regulation",
+      "model-safety",
+      "governance"
+    ]
+  }
+]
