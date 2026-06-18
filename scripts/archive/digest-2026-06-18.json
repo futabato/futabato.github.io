@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Beyond the benchmark: Advancing security at AI speed",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-17T19:30:00+00:00",
+    "summary_ja": "MicrosoftはエージェントによるAI脆弱性検出システム「MDASH」の進化について解説。Windows、Azure、IDシステムなど実際の業務ワークフローに統合されており、AIを活用したセキュリティ強化の最前線を紹介している。",
+    "tags": [
+      "tool",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "AI is accelerating cyberattacks—here’s how to stay ahead",
+    "link": "https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-17T17:00:00+00:00",
+    "summary_ja": "MicrosoftがAIによって加速するサイバー攻撃の脅威と、それに対抗するためのID・セキュリティシグナルの統合アプローチを解説。AIを悪用した攻撃の防止・検知・対応を高速化する手法を紹介している。",
+    "tags": [
+      "adversarial",
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats",
+    "link": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-06-17T13:51:58+00:00",
+    "summary_ja": "JetBrains Marketplaceで15件の悪意あるプラグインが発見され、AIプロバイダーのAPIキーを窃取する攻撃キャンペーンが明らかになった。DeepSeekなどのLLMを利用したAIコーディングアシスタントを装っており、Chrome拡張機能によるチャットボット会話の傍受も確認されている。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "144 Mastra npm Packages Compromised via Hijacked Contributor Account",
+    "link": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html",
+    "source": "The Hacker News",
+    "published": "2026-06-17T07:38:24+00:00",
+    "summary_ja": "AIアプリケーション構築フレームワーク「Mastra」に関連する144件のnpmパッケージがサプライチェーン攻撃により侵害された。コントリビューターアカウントの乗っ取りを通じて悪意あるコードが埋め込まれており、AI開発ツールを標的とした攻撃として注目される。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Securing Multi-Agent GIS Systems: Risk Evaluation and Prompt Hardening Optimization",
+    "link": "https://arxiv.org/abs/2606.17092",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-17T04:00:00+00:00",
+    "summary_ja": "地理情報システム（GIS）と連携するマルチエージェントAIシステムのセキュリティリスクを評価するフレームワークを提案。リスク特定・評価・緩和のプロセスを整備し、プロンプトハードニング最適化によりエージェントへの攻撃を防御する手法を検証している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "evaluation"
+    ]
+  }
+]

@@ -51,37 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年06月17日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">3件</span>
+    <span class="current-date" id="current-date">2026年06月18日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>06/16</time>
-            <span class="source">Bleeping Computer</span>
+            <time>06/17</time>
+            <span class="source">Microsoft Security Blog</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/malicious-jetbrains-marketplace-plugins-steal-ai-api-keys-from-developers/" target="_blank" rel="noopener">Malicious JetBrains Marketplace plugins steal AI API keys from developers</a></h3>
-          <p>JetBrainsマーケットプレイスで少なくとも15件の悪意あるプラグインが発見され、開発者のAI APIキー（OpenAI、Anthropicなど）を窃取するよう設計されていた。AIツールの普及に伴い、APIキーを標的にしたサプライチェーン型攻撃が増加していることを示す事例。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/06/17/beyond-the-benchmark-advancing-security-at-ai-speed/" target="_blank" rel="noopener">Beyond the benchmark: Advancing security at AI speed</a></h3>
+          <p>MicrosoftはエージェントによるAI脆弱性検出システム「MDASH」の進化について解説。Windows、Azure、IDシステムなど実際の業務ワークフローに統合されており、AIを活用したセキュリティ強化の最前線を紹介している。</p>
+          <div class="tags"><span class="tag">tool</span> <span class="tag">agent-security</span> <span class="tag">vulnerability</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>06/16</time>
+            <time>06/17</time>
+            <span class="source">Microsoft Security Blog</span>
+          </div>
+          <h3><a href="https://techcommunity.microsoft.com/blog/microsoft-entra-blog/ai-is-accelerating-cyberattacks%E2%80%94here%E2%80%99s-how-to-stay-ahead/4528592" target="_blank" rel="noopener">AI is accelerating cyberattacks—here’s how to stay ahead</a></h3>
+          <p>MicrosoftがAIによって加速するサイバー攻撃の脅威と、それに対抗するためのID・セキュリティシグナルの統合アプローチを解説。AIを悪用した攻撃の防止・検知・対応を高速化する手法を紹介している。</p>
+          <div class="tags"><span class="tag">adversarial</span> <span class="tag">tool</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>06/17</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html" target="_blank" rel="noopener">Google Vertex AI SDK Flaw Let Attackers Hijack Model Uploads via Bucket Squatting</a></h3>
-          <p>Google Cloud Vertex AI SDKのPython実装に「Pickle in the Middle」と呼ばれる脆弱性が発見され、攻撃者が被害者のMLモデルアップロードを乗っ取り、Googleのサービングインフラ内でコードを実行できることが判明した。Palo Alto Networks Unit 42がGoogleのバグバウンティプログラムを通じて報告し、野生での悪用は確認されていない。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">research</span> <span class="tag">tool</span></div>
+          <h3><a href="https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html" target="_blank" rel="noopener">Malicious JetBrains Plugins Steal AI API Keys as Chrome Extensions Capture Chatbot Chats</a></h3>
+          <p>JetBrains Marketplaceで15件の悪意あるプラグインが発見され、AIプロバイダーのAPIキーを窃取する攻撃キャンペーンが明らかになった。DeepSeekなどのLLMを利用したAIコーディングアシスタントを装っており、Chrome拡張機能によるチャットボット会話の傍受も確認されている。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span> <span class="tag">model-safety</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>06/16</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
+            <time>06/17</time>
+            <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything" target="_blank" rel="noopener">The Fable 5 Export Controls Harm US Cyber Defense</a></h3>
-          <p>AIモデル「Fable 5」が輸出規制の対象となった経緯について、研究者が既知のCVEを含むコードのセキュリティレビューをAIに依頼したところ拒否されたため「ジェイルブレイク」とみなされた事例を解説。AIの過剰な安全制限が実際のサイバー防衛研究を阻害しているという批判的視点から政策・規制の課題を論じている。</p>
-          <div class="tags"><span class="tag">policy</span> <span class="tag">regulation</span> <span class="tag">model-safety</span> <span class="tag">governance</span></div>
+          <h3><a href="https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html" target="_blank" rel="noopener">144 Mastra npm Packages Compromised via Hijacked Contributor Account</a></h3>
+          <p>AIアプリケーション構築フレームワーク「Mastra」に関連する144件のnpmパッケージがサプライチェーン攻撃により侵害された。コントリビューターアカウントの乗っ取りを通じて悪意あるコードが埋め込まれており、AI開発ツールを標的とした攻撃として注目される。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>06/17</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2606.17092" target="_blank" rel="noopener">Securing Multi-Agent GIS Systems: Risk Evaluation and Prompt Hardening Optimization</a></h3>
+          <p>地理情報システム（GIS）と連携するマルチエージェントAIシステムのセキュリティリスクを評価するフレームワークを提案。リスク特定・評価・緩和のプロセスを整備し、プロンプトハードニング最適化によりエージェントへの攻撃を防御する手法を検証している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">evaluation</span></div>
         </article>
   </main>
   <footer>
