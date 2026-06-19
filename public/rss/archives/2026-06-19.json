@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Orphaned AI Agents: How to Find Hidden Access Risks Inside Your Network",
+    "link": "https://thehackernews.com/2026/06/orphaned-ai-agents-how-to-find-hidden.html",
+    "source": "The Hacker News",
+    "published": "2026-06-18T15:33:49+00:00",
+    "summary_ja": "企業内で稼働するAIエージェントの「孤立化」リスクに焦点を当てた記事。担当者が退職した後も動き続けるAIツールや過剰な権限が放置されることで、ネットワーク内に隠れたアクセスリスクが生じている実態を解説している。セキュリティチームがAIエージェントの認可状況を即座に把握できない企業が多い現状に警鐘を鳴らす。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "governance"
+    ]
+  },
+  {
+    "title": "ThreatsDay Bulletin: Claude Chat Abuse, NastyC2 npm Packages, Device-Code Phishing + 25 More Stories",
+    "link": "https://thehackernews.com/2026/06/threatsday-bulletin-claude-chat-abuse.html",
+    "source": "The Hacker News",
+    "published": "2026-06-18T15:27:54+00:00",
+    "summary_ja": "今週のセキュリティ脅威をまとめたバレティンで、ClaudeのAIチャットリンクがマルウェア配信経路として悪用された事例を含む複数のインシデントを報告している。AIツールやクラウドエージェントが攻撃者に悪用されるケースが増加しており、AIの悪用が現実の脅威として顕在化している。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "agent-security"
+    ]
+  }
+]
