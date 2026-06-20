@@ -1,0 +1,64 @@
+[
+  {
+    "title": "AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution",
+    "link": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html",
+    "source": "The Hacker News",
+    "published": "2026-06-19T15:30:47+00:00",
+    "summary_ja": "Microsoftの研究者が「AutoJack」と名付けられたエクスプロイトチェーンを詳述。AIブラウジングエージェントを悪意あるWebページに誘導するだけで、JavaScriptがローカルの特権サービスにアクセスしホスト上でリモートコード実行が可能になる。認証情報不要、ユーザー操作も不要という深刻な脆弱性で、AIエージェントのセキュリティリスクを示す重要な研究。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial",
+      "research"
+    ]
+  },
+  {
+    "title": "Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way",
+    "link": "https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-19T13:10:19+00:00",
+    "summary_ja": "AIエージェントはデータアクセス、ワークフロー起動、コードデプロイなど重要なビジネスシステムと連携するにもかかわらず、ほとんどの組織でID・ガバナンス管理の対象として扱われていない現状を指摘。AIエージェントを新たなアイデンティティとして捉え直すセキュリティ管理の必要性を論じている。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "tool"
+    ]
+  },
+  {
+    "title": "Forget Data Leakage: Shadow AI's Real Threat Is Access Control",
+    "link": "https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html",
+    "source": "The Hacker News",
+    "published": "2026-06-19T10:30:00+00:00",
+    "summary_ja": "シャドーAIの脅威がデータ漏洩からアクセス制御の問題へとシフトしていることを解説。従業員が未承認のAIツールに機密データを貼り付ける問題から、AIが過剰な権限でシステムにアクセスするリスクへと本質的な脅威が変化しており、新たなセキュリティアプローチが必要とされている。",
+    "tags": [
+      "governance",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定しました",
+    "link": "https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8",
+    "source": "デジタル庁",
+    "published": "2026-06-19T06:00:00+00:00",
+    "summary_ja": "日本のデジタル庁が「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン（第2.0版）」を策定・公表。行政機関における生成AIの安全な調達・運用に関する指針を更新したもので、AI利活用の政策・規制動向として重要な文書。",
+    "tags": [
+      "policy",
+      "regulation",
+      "governance"
+    ]
+  },
+  {
+    "title": "Secure Coding Drift in LLM-Assisted Post-Quantum Cryptography Development: A Gamified Fix",
+    "link": "https://arxiv.org/abs/2606.19474",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-19T04:00:00+00:00",
+    "summary_ja": "LLMを活用したポスト量子暗号（PQC）実装開発において、LLMが頻繁に安全でない、または最適でないコードを生成する「セキュアコーディングドリフト」問題を分析。この課題に対処するゲーミフィケーションを用いた修正アプローチを提案する研究論文。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
