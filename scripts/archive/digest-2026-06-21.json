@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Microsoft links Mastra AI supply chain attack to North Korean hackers",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-20T14:09:19+00:00",
+    "summary_ja": "マイクロソフトは、140以上のnpmパッケージを侵害したMastra AIサプライチェーン攻撃を、北朝鮮のハッキンググループ「Sapphire Sleet（BlueNoroff）」に帰属させた。AIツールのエコシステムを標的にしたサプライチェーン攻撃として、開発者コミュニティへの深刻なリスクを示す重大なインシデントである。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+    "link": "https://arxiv.org/abs/2606.19464",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-06-20T04:00:00+00:00",
+    "summary_ja": "LLMを駆使した自律型エージェントAIシステムに対して、実行時ガバナンスのための「義務論的ポリシー（Deontic Policies）」フレームワークを提案した研究。エージェントのツール呼び出しやデータ操作、組織横断的な連携に伴うセキュリティ・プライバシー・コンプライアンス上のリスクに対処する新しいアプローチを示している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "governance",
+      "policy"
+    ]
+  },
+  {
+    "title": "Emergent Alignment",
+    "link": "https://arxiv.org/abs/2606.19527",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-06-20T04:00:00+00:00",
+    "summary_ja": "LLMが自身の出力の倫理的な問題を自律的に検知・修正できるかを研究した論文。DPO（Direct Preference Optimization）を活用した「良心ステップ」を組み込み、モデルを非倫理的な出力から遠ざけるオンライン整合技術を提案している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
+    "link": "https://arxiv.org/abs/2606.19494",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-06-20T04:00:00+00:00",
+    "summary_ja": "複数のLLMエージェントが複数ラウンドにわたって議論・回答を修正し合うマルチエージェント審議において、「隠れたアンカー」が集団意思決定に与える影響を分析した研究。群衆効果や内部信念の相互作用がLLMエージェントの判断を歪める可能性を示し、エージェントシステムの安全性・信頼性に関わる知見を提供している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Analyzing the Narration Gap in LLM-Solver Loops",
+    "link": "https://arxiv.org/abs/2606.19588",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-06-20T04:00:00+00:00",
+    "summary_ja": "SATやSMTソルバーをLLM推論パイプラインに組み込む際に生じる「ナレーションギャップ」を分析した研究。ソルバーが保証する健全性（soundness）がLLMとの相互作用の中で失われるリスクを指摘しており、安全・セキュリティクリティカルな用途におけるLLMエージェントの信頼性問題として重要な示唆を持つ。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety",
+      "evaluation"
+    ]
+  }
+]

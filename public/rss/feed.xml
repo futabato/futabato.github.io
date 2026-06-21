@@ -3,82 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-20T00:06:42Z</updated>
+  <updated>2026-06-21T00:03:36Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>AutoJack Attack Lets One Web Page Hijack AI Agent for Host Code Execution</title>
-    <link href="https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html" rel="alternate"/>
-    <id>urn:ai-security-digest:d79c0ae88029c37e</id>
-    <published>2026-06-19T15:30:47Z</published>
-    <updated>2026-06-19T15:30:47Z</updated>
-    <content type="html">&lt;p&gt;Microsoftの研究者が「AutoJack」と名付けられたエクスプロイトチェーンを詳述。AIブラウジングエージェントを悪意あるWebページに誘導するだけで、JavaScriptがローカルの特権サービスにアクセスしホスト上でリモートコード実行が可能になる。認証情報不要、ユーザー操作も不要という深刻な脆弱性で、AIエージェントのセキュリティリスクを示す重要な研究。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Microsoft links Mastra AI supply chain attack to North Korean hackers</title>
+    <link href="https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/" rel="alternate"/>
+    <id>urn:ai-security-digest:2e719dabd7c34129</id>
+    <published>2026-06-20T14:09:19Z</published>
+    <updated>2026-06-20T14:09:19Z</updated>
+    <content type="html">&lt;p&gt;マイクロソフトは、140以上のnpmパッケージを侵害したMastra AIサプライチェーン攻撃を、北朝鮮のハッキンググループ「Sapphire Sleet（BlueNoroff）」に帰属させた。AIツールのエコシステムを標的にしたサプライチェーン攻撃として、開発者コミュニティへの深刻なリスクを示す重大なインシデントである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
     <category term="vulnerability"/>
     <category term="agent-security"/>
-    <category term="adversarial"/>
-    <category term="research"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Every AI Agent Is an Identity. Most Organizations Don't Treat Them That Way</title>
-    <link href="https://www.bleepingcomputer.com/news/security/every-ai-agent-is-an-identity-most-organizations-dont-treat-them-that-way/" rel="alternate"/>
-    <id>urn:ai-security-digest:7997b5e0e198901b</id>
-    <published>2026-06-19T13:10:19Z</published>
-    <updated>2026-06-19T13:10:19Z</updated>
-    <content type="html">&lt;p&gt;AIエージェントはデータアクセス、ワークフロー起動、コードデプロイなど重要なビジネスシステムと連携するにもかかわらず、ほとんどの組織でID・ガバナンス管理の対象として扱われていない現状を指摘。AIエージェントを新たなアイデンティティとして捉え直すセキュリティ管理の必要性を論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <category term="tool"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Forget Data Leakage: Shadow AI's Real Threat Is Access Control</title>
-    <link href="https://thehackernews.com/2026/06/forget-data-leakage-shadow-ais-real.html" rel="alternate"/>
-    <id>urn:ai-security-digest:267e4db129f61c9f</id>
-    <published>2026-06-19T10:30:00Z</published>
-    <updated>2026-06-19T10:30:00Z</updated>
-    <content type="html">&lt;p&gt;シャドーAIの脅威がデータ漏洩からアクセス制御の問題へとシフトしていることを解説。従業員が未承認のAIツールに機密データを貼り付ける問題から、AIが過剰な権限でシステムにアクセスするリスクへと本質的な脅威が変化しており、新たなセキュリティアプローチが必要とされている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Deontic Policies for Runtime Governance of Agentic AI Systems</title>
+    <link href="https://arxiv.org/abs/2606.19464" rel="alternate"/>
+    <id>urn:ai-security-digest:2fee3d084618ca8a</id>
+    <published>2026-06-20T04:00:00Z</published>
+    <updated>2026-06-20T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMを駆使した自律型エージェントAIシステムに対して、実行時ガバナンスのための「義務論的ポリシー（Deontic Policies）」フレームワークを提案した研究。エージェントのツール呼び出しやデータ操作、組織横断的な連携に伴うセキュリティ・プライバシー・コンプライアンス上のリスクに対処する新しいアプローチを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
     <category term="governance"/>
+    <category term="policy"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Emergent Alignment</title>
+    <link href="https://arxiv.org/abs/2606.19527" rel="alternate"/>
+    <id>urn:ai-security-digest:3ee7b9ab2c933b83</id>
+    <published>2026-06-20T04:00:00Z</published>
+    <updated>2026-06-20T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMが自身の出力の倫理的な問題を自律的に検知・修正できるかを研究した論文。DPO（Direct Preference Optimization）を活用した「良心ステップ」を組み込み、モデルを非倫理的な出力から遠ざけるオンライン整合技術を提案している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Hidden Anchors in Multi-Agent LLM Deliberation</title>
+    <link href="https://arxiv.org/abs/2606.19494" rel="alternate"/>
+    <id>urn:ai-security-digest:0d33fa55dddfc97c</id>
+    <published>2026-06-20T04:00:00Z</published>
+    <updated>2026-06-20T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;複数のLLMエージェントが複数ラウンドにわたって議論・回答を修正し合うマルチエージェント審議において、「隠れたアンカー」が集団意思決定に与える影響を分析した研究。群衆効果や内部信念の相互作用がLLMエージェントの判断を歪める可能性を示し、エージェントシステムの安全性・信頼性に関わる知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Analyzing the Narration Gap in LLM-Solver Loops</title>
+    <link href="https://arxiv.org/abs/2606.19588" rel="alternate"/>
+    <id>urn:ai-security-digest:f4e5369d370d83ef</id>
+    <published>2026-06-20T04:00:00Z</published>
+    <updated>2026-06-20T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;SATやSMTソルバーをLLM推論パイプラインに組み込む際に生じる「ナレーションギャップ」を分析した研究。ソルバーが保証する健全性（soundness）がLLMとの相互作用の中で失われるリスクを指摘しており、安全・セキュリティクリティカルな用途におけるLLMエージェントの信頼性問題として重要な示唆を持つ。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="agent-security"/>
     <category term="model-safety"/>
+    <category term="evaluation"/>
     <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>「行政の進化と革新のための生成AIの調達·利活用に係るガイドライン（第2.0版）」を策定しました</title>
-    <link href="https://www.digital.go.jp/news/decb64eb-f26e-41cb-8d37-f3dd173108b8" rel="alternate"/>
-    <id>urn:ai-security-digest:9bcb7beaaad3d292</id>
-    <published>2026-06-19T06:00:00Z</published>
-    <updated>2026-06-19T06:00:00Z</updated>
-    <content type="html">&lt;p&gt;日本のデジタル庁が「行政の進化と革新のための生成AIの調達・利活用に係るガイドライン（第2.0版）」を策定・公表。行政機関における生成AIの安全な調達・運用に関する指針を更新したもので、AI利活用の政策・規制動向として重要な文書。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; デジタル庁&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="regulation"/>
-    <category term="governance"/>
-    <source>
-      <title>デジタル庁</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Secure Coding Drift in LLM-Assisted Post-Quantum Cryptography Development: A Gamified Fix</title>
-    <link href="https://arxiv.org/abs/2606.19474" rel="alternate"/>
-    <id>urn:ai-security-digest:ff4b70c4c0014015</id>
-    <published>2026-06-19T04:00:00Z</published>
-    <updated>2026-06-19T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMを活用したポスト量子暗号（PQC）実装開発において、LLMが頻繁に安全でない、または最適でないコードを生成する「セキュアコーディングドリフト」問題を分析。この課題に対処するゲーミフィケーションを用いた修正アプローチを提案する研究論文。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="vulnerability"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
 </feed>
