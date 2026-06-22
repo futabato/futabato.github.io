@@ -3,82 +3,22 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-21T00:03:36Z</updated>
+  <updated>2026-06-22T00:08:39Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Microsoft links Mastra AI supply chain attack to North Korean hackers</title>
-    <link href="https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/" rel="alternate"/>
-    <id>urn:ai-security-digest:2e719dabd7c34129</id>
-    <published>2026-06-20T14:09:19Z</published>
-    <updated>2026-06-20T14:09:19Z</updated>
-    <content type="html">&lt;p&gt;マイクロソフトは、140以上のnpmパッケージを侵害したMastra AIサプライチェーン攻撃を、北朝鮮のハッキンググループ「Sapphire Sleet（BlueNoroff）」に帰属させた。AIツールのエコシステムを標的にしたサプライチェーン攻撃として、開発者コミュニティへの深刻なリスクを示す重大なインシデントである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
+    <title>Temporary Cloudflare Accounts for AI agents</title>
+    <link href="https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:ed140b4e4c38f7b0</id>
+    <published>2026-06-21T22:01:04Z</published>
+    <updated>2026-06-21T22:01:04Z</updated>
+    <content type="html">&lt;p&gt;Temporary Cloudflare Accounts for AI agents The announcement says this is &amp;quot;for AI agents&amp;quot; but (as is pretty common these days) the AI hook isn&amp;#x27;t really necessary, this is an interesting feature for ev&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;ai_commentary&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="ai_commentary"/>
     <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Deontic Policies for Runtime Governance of Agentic AI Systems</title>
-    <link href="https://arxiv.org/abs/2606.19464" rel="alternate"/>
-    <id>urn:ai-security-digest:2fee3d084618ca8a</id>
-    <published>2026-06-20T04:00:00Z</published>
-    <updated>2026-06-20T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMを駆使した自律型エージェントAIシステムに対して、実行時ガバナンスのための「義務論的ポリシー（Deontic Policies）」フレームワークを提案した研究。エージェントのツール呼び出しやデータ操作、組織横断的な連携に伴うセキュリティ・プライバシー・コンプライアンス上のリスクに対処する新しいアプローチを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <category term="policy"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Emergent Alignment</title>
-    <link href="https://arxiv.org/abs/2606.19527" rel="alternate"/>
-    <id>urn:ai-security-digest:3ee7b9ab2c933b83</id>
-    <published>2026-06-20T04:00:00Z</published>
-    <updated>2026-06-20T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMが自身の出力の倫理的な問題を自律的に検知・修正できるかを研究した論文。DPO（Direct Preference Optimization）を活用した「良心ステップ」を組み込み、モデルを非倫理的な出力から遠ざけるオンライン整合技術を提案している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Hidden Anchors in Multi-Agent LLM Deliberation</title>
-    <link href="https://arxiv.org/abs/2606.19494" rel="alternate"/>
-    <id>urn:ai-security-digest:0d33fa55dddfc97c</id>
-    <published>2026-06-20T04:00:00Z</published>
-    <updated>2026-06-20T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;複数のLLMエージェントが複数ラウンドにわたって議論・回答を修正し合うマルチエージェント審議において、「隠れたアンカー」が集団意思決定に与える影響を分析した研究。群衆効果や内部信念の相互作用がLLMエージェントの判断を歪める可能性を示し、エージェントシステムの安全性・信頼性に関わる知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Analyzing the Narration Gap in LLM-Solver Loops</title>
-    <link href="https://arxiv.org/abs/2606.19588" rel="alternate"/>
-    <id>urn:ai-security-digest:f4e5369d370d83ef</id>
-    <published>2026-06-20T04:00:00Z</published>
-    <updated>2026-06-20T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;SATやSMTソルバーをLLM推論パイプラインに組み込む際に生じる「ナレーションギャップ」を分析した研究。ソルバーが保証する健全性（soundness）がLLMとの相互作用の中で失われるリスクを指摘しており、安全・セキュリティクリティカルな用途におけるLLMエージェントの信頼性問題として重要な示唆を持つ。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
 </feed>
