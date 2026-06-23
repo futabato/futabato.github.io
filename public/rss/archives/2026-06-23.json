@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Guarding AI memory",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-22T19:07:28+00:00",
+    "summary_ja": "AIが記憶・保持する情報を攻撃者が標的にするリスクについて、Microsoftがセキュリティ上の脅威と防御手法を解説した記事。AIメモリに対する新たな攻撃ベクターとその対策が詳述されており、LLMやAIエージェントのセキュリティに直接関わる内容。",
+    "tags": [
+      "agent-security",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Microsoft fixes AutoGen Studio flaw that enabled code execution",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-22T17:28:57+00:00",
+    "summary_ja": "MicrosoftのAIエージェント開発プラットフォーム「AutoGen Studio」に、悪意あるWebページを訪問するだけでエージェントが任意のコマンドを実行させられる脆弱性チェーン「AutoJack」が発見・修正された。AIエージェントを悪用した任意コード実行という新たな攻撃手法として注目される。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants",
+    "link": "https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html",
+    "source": "The Hacker News",
+    "published": "2026-06-22T16:13:28+00:00",
+    "summary_ja": "オープンソースのAIエージェントワークフロープラットフォーム「Dify」に4件の脆弱性（DifyTap）が発見され、認証なしに他テナントのAIチャット内容を盗み見られる可能性がある。GitHubで14万6千以上のスターを持つ広く使われているプラットフォームのクロステナント情報漏洩リスクが明らかになった。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "research"
+    ]
+  },
+  {
+    "title": "Stop Your Legacy Infrastructure from Hijacking Your AI Agents",
+    "link": "https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html",
+    "source": "The Hacker News",
+    "published": "2026-06-22T11:58:00+00:00",
+    "summary_ja": "レガシーインフラがAIエージェントへの攻撃経路として悪用されるリスクについて、Gartner Security & Risk Management Summitでの講演内容をもとに解説した記事。71%の組織がAIエージェントを試験導入する中、セキュリティプログラムが追いついていない実態と対策が論じられている。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific",
+    "link": "https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html",
+    "source": "The Hacker News",
+    "published": "2026-06-22T06:06:53+00:00",
+    "summary_ja": "INTERPOLのレポートがアジア太平洋地域におけるフィッシング、ランサムウェア、AIを悪用した詐欺の急増を警告している。急速なデジタル化とAI技術の普及が組織犯罪ネットワークに活用されており、地域間のサイバーセキュリティ成熟度の格差が脅威を拡大させている。",
+    "tags": [
+      "incident",
+      "policy",
+      "governance"
+    ]
+  }
+]

@@ -51,19 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年06月22日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">1件</span>
+    <span class="current-date" id="current-date">2026年06月23日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>06/21</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
+            <time>06/22</time>
+            <span class="source">Microsoft Security Blog</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything" target="_blank" rel="noopener">Temporary Cloudflare Accounts for AI agents</a></h3>
-          <p>Temporary Cloudflare Accounts for AI agents The announcement says this is &quot;for AI agents&quot; but (as is pretty common these days) the AI hook isn&#x27;t really necessary, this is an interesting feature for ev</p>
-          <div class="tags"><span class="tag">ai_commentary</span></div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/06/22/guarding-ai-memory/" target="_blank" rel="noopener">Guarding AI memory</a></h3>
+          <p>AIが記憶・保持する情報を攻撃者が標的にするリスクについて、Microsoftがセキュリティ上の脅威と防御手法を解説した記事。AIメモリに対する新たな攻撃ベクターとその対策が詳述されており、LLMやAIエージェントのセキュリティに直接関わる内容。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>06/22</time>
+            <span class="source">Bleeping Computer</span>
+          </div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/microsoft-fixes-autogen-studio-flaw-that-enabled-code-execution/" target="_blank" rel="noopener">Microsoft fixes AutoGen Studio flaw that enabled code execution</a></h3>
+          <p>MicrosoftのAIエージェント開発プラットフォーム「AutoGen Studio」に、悪意あるWebページを訪問するだけでエージェントが任意のコマンドを実行させられる脆弱性チェーン「AutoJack」が発見・修正された。AIエージェントを悪用した任意コード実行という新たな攻撃手法として注目される。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>06/22</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/06/researchers-detail-difytap-flaws-in.html" target="_blank" rel="noopener">Researchers Detail DifyTap Flaws in Dify That Could Expose AI Chats Across Tenants</a></h3>
+          <p>オープンソースのAIエージェントワークフロープラットフォーム「Dify」に4件の脆弱性（DifyTap）が発見され、認証なしに他テナントのAIチャット内容を盗み見られる可能性がある。GitHubで14万6千以上のスターを持つ広く使われているプラットフォームのクロステナント情報漏洩リスクが明らかになった。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">research</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>06/22</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/06/stop-your-legacy-infrastructure-from.html" target="_blank" rel="noopener">Stop Your Legacy Infrastructure from Hijacking Your AI Agents</a></h3>
+          <p>レガシーインフラがAIエージェントへの攻撃経路として悪用されるリスクについて、Gartner Security &amp; Risk Management Summitでの講演内容をもとに解説した記事。71%の組織がAIエージェントを試験導入する中、セキュリティプログラムが追いついていない実態と対策が論じられている。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>06/22</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/06/interpol-warns-phishing-ransomware-and.html" target="_blank" rel="noopener">INTERPOL Warns Phishing, Ransomware, and AI Scams Are Rising Across Asia-Pacific</a></h3>
+          <p>INTERPOLのレポートがアジア太平洋地域におけるフィッシング、ランサムウェア、AIを悪用した詐欺の急増を警告している。急速なデジタル化とAI技術の普及が組織犯罪ネットワークに活用されており、地域間のサイバーセキュリティ成熟度の格差が脅威を拡大させている。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">policy</span> <span class="tag">governance</span></div>
         </article>
   </main>
   <footer>
