@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Five Eyes agencies sound alarm about AI’s threat to cybersecurity",
+    "link": "https://therecord.media/five-eyes-alert-artificial-intelligence",
+    "source": "The Record by Recorded Future",
+    "published": "2026-06-23T18:45:00+00:00",
+    "summary_ja": "ファイブアイズ（五カ国情報同盟）が、AIがサイバーセキュリティに与える脅威について共同警告を発した。「タイムラインは数年ではなく数ヶ月だ」と警告しており、AIを悪用したサイバー攻撃の脅威が差し迫っていることを強調している。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents",
+    "link": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html",
+    "source": "The Hacker News",
+    "published": "2026-06-23T15:16:43+00:00",
+    "summary_ja": "セキュリティ企業AIRが偽のAIエージェントスキルを作成し、スキルマーケットプレイスとInstagram広告経由で約26,000のエージェントに到達したと報告した。テストしたすべてのスキルセキュリティスキャナーが安全と判定しており、AIエージェントのサプライチェーンにおける深刻な脆弱性を示している。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Agentic AI: The Weapon That No Longer Needs a Warrior",
+    "link": "https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html",
+    "source": "The Hacker News",
+    "published": "2026-06-23T11:30:00+00:00",
+    "summary_ja": "AIエージェントが「武器として人間の操作を必要としない」自律的な脅威アクターになりつつある状況を論じた記事。攻撃者とターゲットの距離が拡大し、人間の判断なしに攻撃を実行できるエージェントAIの安全保障上の含意を考察している。",
+    "tags": [
+      "agent-security",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "BELLS-O: Evaluating the Operational Trade-offs of LLM Supervision Systems",
+    "link": "https://arxiv.org/abs/2606.20668",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-23T04:00:00+00:00",
+    "summary_ja": "LLM監視システム（入出力モデレーションフィルターやジェイルブレイク検出器）の運用上のトレードオフを評価する独立ベンチマーク「BELLS-O」を提案した研究。コストや遅延を含む実用的な観点から既存のガードレールと汎用LLMを比較評価する初の体系的な試みである。",
+    "tags": [
+      "evaluation",
+      "model-safety",
+      "research"
+    ]
+  }
+]
