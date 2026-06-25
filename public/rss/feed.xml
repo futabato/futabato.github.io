@@ -3,64 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-23T23:54:00Z</updated>
+  <updated>2026-06-25T00:08:27Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Five Eyes agencies sound alarm about AI’s threat to cybersecurity</title>
-    <link href="https://therecord.media/five-eyes-alert-artificial-intelligence" rel="alternate"/>
-    <id>urn:ai-security-digest:9bbbfd24805238c1</id>
-    <published>2026-06-23T18:45:00Z</published>
-    <updated>2026-06-23T18:45:00Z</updated>
-    <content type="html">&lt;p&gt;ファイブアイズ（五カ国情報同盟）が、AIがサイバーセキュリティに与える脅威について共同警告を発した。「タイムラインは数年ではなく数ヶ月だ」と警告しており、AIを悪用したサイバー攻撃の脅威が差し迫っていることを強調している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="governance"/>
-    <category term="regulation"/>
-    <source>
-      <title>The Record by Recorded Future</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Fake AI Agent Skill Passed Security Scans and Reportedly Reached 26,000 Agents</title>
-    <link href="https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security.html" rel="alternate"/>
-    <id>urn:ai-security-digest:6dc2501726f3c67e</id>
-    <published>2026-06-23T15:16:43Z</published>
-    <updated>2026-06-23T15:16:43Z</updated>
-    <content type="html">&lt;p&gt;セキュリティ企業AIRが偽のAIエージェントスキルを作成し、スキルマーケットプレイスとInstagram広告経由で約26,000のエージェントに到達したと報告した。テストしたすべてのスキルセキュリティスキャナーが安全と判定しており、AIエージェントのサプライチェーンにおける深刻な脆弱性を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Dawn of the Apex Agentic Adversary</title>
+    <link href="https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html" rel="alternate"/>
+    <id>urn:ai-security-digest:576c889a980f66ab</id>
+    <published>2026-06-24T11:30:00Z</published>
+    <updated>2026-06-24T11:30:00Z</updated>
+    <content type="html">&lt;p&gt;AIエージェントが攻撃者として活用されることで、サイバー脅威が「人間のスピード」を超えた新たな段階に入りつつあることを論じた記事。CVEの発見からエクスプロイトまでのサイクルが劇的に短縮され、従来の防御モデルが通用しなくなるリスクを警告している。AIエージェントを悪用した自律的なサイバー攻撃の台頭をセキュリティ業界の重大な転換点として捉えている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="agent-security"/>
-    <category term="vulnerability"/>
     <category term="adversarial"/>
+    <category term="vulnerability"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Agentic AI: The Weapon That No Longer Needs a Warrior</title>
-    <link href="https://thehackernews.com/2026/06/agentic-ai-weapon-that-no-longer-needs.html" rel="alternate"/>
-    <id>urn:ai-security-digest:0ddb654234182a1b</id>
-    <published>2026-06-23T11:30:00Z</published>
-    <updated>2026-06-23T11:30:00Z</updated>
-    <content type="html">&lt;p&gt;AIエージェントが「武器として人間の操作を必要としない」自律的な脅威アクターになりつつある状況を論じた記事。攻撃者とターゲットの距離が拡大し、人間の判断なしに攻撃を実行できるエージェントAIの安全保障上の含意を考察している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Cryptographic certificates of validity for trustworthy AI</title>
+    <link href="https://arxiv.org/abs/2606.23768" rel="alternate"/>
+    <id>urn:ai-security-digest:6a1caaa79212bb9e</id>
+    <published>2026-06-24T04:00:00Z</published>
+    <updated>2026-06-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;エージェント型AIシステムの信頼性を担保するための「暗号学的妥当性証明書」を提案した研究論文。正確性やポリシー条件を論理述語として形式化し、簡潔な暗号証明システム（ゼロ知識証明を含む）を用いてその条件の充足を証明する手法を提示している。ソースコードの形式検証と実行時監視の中間的な選択肢として位置付けられる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="agent-security"/>
-    <category term="adversarial"/>
     <category term="model-safety"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>BELLS-O: Evaluating the Operational Trade-offs of LLM Supervision Systems</title>
-    <link href="https://arxiv.org/abs/2606.20668" rel="alternate"/>
-    <id>urn:ai-security-digest:84d451d9e0b5ae49</id>
-    <published>2026-06-23T04:00:00Z</published>
-    <updated>2026-06-23T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLM監視システム（入出力モデレーションフィルターやジェイルブレイク検出器）の運用上のトレードオフを評価する独立ベンチマーク「BELLS-O」を提案した研究。コストや遅延を含む実用的な観点から既存のガードレールと汎用LLMを比較評価する初の体系的な試みである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <title>PixJail: Self-Evolving Paper-to-Pipeline Reproduction for Text-to-Image Jailbreak Evaluation</title>
+    <link href="https://arxiv.org/abs/2606.24081" rel="alternate"/>
+    <id>urn:ai-security-digest:c085d8202920ffe4</id>
+    <published>2026-06-24T04:00:00Z</published>
+    <updated>2026-06-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;Text-to-Image（T2I）モデルに対するジェイルブレイク手法を評価するための自己進化型ベンチマーク「PixJail」を提案した研究。プロンプト変換・画像生成・安全フィルタリング・マルチモーダル判定など複数段階からなるパイプライン全体を評価対象とし、既存研究の再現性・比較困難性の問題に対処している。T2I安全性評価の標準化に向けた重要な取り組みである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="evaluation"/>
     <category term="model-safety"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking</title>
+    <link href="https://arxiv.org/abs/2606.24163" rel="alternate"/>
+    <id>urn:ai-security-digest:cc275bc60ee67380</id>
+    <published>2026-06-24T04:00:00Z</published>
+    <updated>2026-06-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLM出力の出所確認を目的とした多ビットウォーターマーキング手法「CORE-BREW」を提案した研究。従来のハード決定復号に頼るECCベース手法の限界を克服し、トークンレベルの信頼度情報を活用したソフト復号により編集耐性と厳密な偽陽性制御を両立している。LLMコンテンツの真正性検証という観点からモデルセキュリティに貢献する研究である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="model-safety"/>
+    <category term="tool"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees</title>
+    <link href="https://arxiv.org/abs/2606.24322" rel="alternate"/>
+    <id>urn:ai-security-digest:aa6c7448a7399449</id>
+    <published>2026-06-24T04:00:00Z</published>
+    <updated>2026-06-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMエージェントの長期記憶機構に対するメモリポイズニング攻撃を詳細に分析し、非可鍛性・起源拘束型の権限管理による防御手法を提案した研究。過去セッションで保存された悪意あるコンテンツが将来の決済・設定変更・データ漏洩などの重大な行動を誘導できる脆弱性を対象としており、機械検証による形式的な安全保証も提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <category term="vulnerability"/>
     <source>
       <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>

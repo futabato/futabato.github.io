@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Dawn of the Apex Agentic Adversary",
+    "link": "https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html",
+    "source": "The Hacker News",
+    "published": "2026-06-24T11:30:00+00:00",
+    "summary_ja": "AIエージェントが攻撃者として活用されることで、サイバー脅威が「人間のスピード」を超えた新たな段階に入りつつあることを論じた記事。CVEの発見からエクスプロイトまでのサイクルが劇的に短縮され、従来の防御モデルが通用しなくなるリスクを警告している。AIエージェントを悪用した自律的なサイバー攻撃の台頭をセキュリティ業界の重大な転換点として捉えている。",
+    "tags": [
+      "agent-security",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Cryptographic certificates of validity for trustworthy AI",
+    "link": "https://arxiv.org/abs/2606.23768",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-24T04:00:00+00:00",
+    "summary_ja": "エージェント型AIシステムの信頼性を担保するための「暗号学的妥当性証明書」を提案した研究論文。正確性やポリシー条件を論理述語として形式化し、簡潔な暗号証明システム（ゼロ知識証明を含む）を用いてその条件の充足を証明する手法を提示している。ソースコードの形式検証と実行時監視の中間的な選択肢として位置付けられる。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "PixJail: Self-Evolving Paper-to-Pipeline Reproduction for Text-to-Image Jailbreak Evaluation",
+    "link": "https://arxiv.org/abs/2606.24081",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-24T04:00:00+00:00",
+    "summary_ja": "Text-to-Image（T2I）モデルに対するジェイルブレイク手法を評価するための自己進化型ベンチマーク「PixJail」を提案した研究。プロンプト変換・画像生成・安全フィルタリング・マルチモーダル判定など複数段階からなるパイプライン全体を評価対象とし、既存研究の再現性・比較困難性の問題に対処している。T2I安全性評価の標準化に向けた重要な取り組みである。",
+    "tags": [
+      "research",
+      "evaluation",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking",
+    "link": "https://arxiv.org/abs/2606.24163",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-24T04:00:00+00:00",
+    "summary_ja": "LLM出力の出所確認を目的とした多ビットウォーターマーキング手法「CORE-BREW」を提案した研究。従来のハード決定復号に頼るECCベース手法の限界を克服し、トークンレベルの信頼度情報を活用したソフト復号により編集耐性と厳密な偽陽性制御を両立している。LLMコンテンツの真正性検証という観点からモデルセキュリティに貢献する研究である。",
+    "tags": [
+      "research",
+      "model-safety",
+      "tool"
+    ]
+  },
+  {
+    "title": "Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees",
+    "link": "https://arxiv.org/abs/2606.24322",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-24T04:00:00+00:00",
+    "summary_ja": "LLMエージェントの長期記憶機構に対するメモリポイズニング攻撃を詳細に分析し、非可鍛性・起源拘束型の権限管理による防御手法を提案した研究。過去セッションで保存された悪意あるコンテンツが将来の決済・設定変更・データ漏洩などの重大な行動を誘導できる脆弱性を対象としており、機械検証による形式的な安全保証も提供している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "vulnerability"
+    ]
+  }
+]
