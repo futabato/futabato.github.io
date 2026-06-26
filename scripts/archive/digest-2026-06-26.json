@@ -1,0 +1,26 @@
+[
+  {
+    "title": "AI and Liability",
+    "link": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-06-25T22:28:46+00:00",
+    "summary_ja": "ブルース・シュナイアーが、GoogleのAI概要における誤りに対してGoogleに責任を認めたドイツの判決を取り上げ、AIエージェントはそれを展開する企業の代理人として法的に扱われるべきと論じている。AI企業が「AIの誤り」を免責の口実にすることへの警鐘を鳴らす重要な議論である。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "New macOS malware embeds fake errors to confuse AI analysis tools",
+    "link": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-25T16:23:19+00:00",
+    "summary_ja": "「Gaslight」と名付けられた新たなmacOSマルウェアが、AI支援のマルウェア解析ツールを混乱させるために、プロンプトインジェクション文字列や偽のデバッグデータを実行ファイル内に埋め込む手法を使用していることが発見された。AIによるセキュリティ分析を意図的に欺く新しい攻撃手法として注目される。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "incident"
+    ]
+  }
+]

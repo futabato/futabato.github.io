@@ -51,55 +51,28 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年06月25日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年06月26日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">2件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>06/24</time>
-            <span class="source">The Hacker News</span>
+            <time>06/25</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/06/dawn-of-apex-agentic-adversary.html" target="_blank" rel="noopener">Dawn of the Apex Agentic Adversary</a></h3>
-          <p>AIエージェントが攻撃者として活用されることで、サイバー脅威が「人間のスピード」を超えた新たな段階に入りつつあることを論じた記事。CVEの発見からエクスプロイトまでのサイクルが劇的に短縮され、従来の防御モデルが通用しなくなるリスクを警告している。AIエージェントを悪用した自律的なサイバー攻撃の台頭をセキュリティ業界の重大な転換点として捉えている。</p>
-          <div class="tags"><span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">vulnerability</span></div>
+          <h3><a href="https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything" target="_blank" rel="noopener">AI and Liability</a></h3>
+          <p>ブルース・シュナイアーが、GoogleのAI概要における誤りに対してGoogleに責任を認めたドイツの判決を取り上げ、AIエージェントはそれを展開する企業の代理人として法的に扱われるべきと論じている。AI企業が「AIの誤り」を免責の口実にすることへの警鐘を鳴らす重要な議論である。</p>
+          <div class="tags"><span class="tag">policy</span> <span class="tag">governance</span> <span class="tag">regulation</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>06/24</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>06/25</time>
+            <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2606.23768" target="_blank" rel="noopener">Cryptographic certificates of validity for trustworthy AI</a></h3>
-          <p>エージェント型AIシステムの信頼性を担保するための「暗号学的妥当性証明書」を提案した研究論文。正確性やポリシー条件を論理述語として形式化し、簡潔な暗号証明システム（ゼロ知識証明を含む）を用いてその条件の充足を証明する手法を提示している。ソースコードの形式検証と実行時監視の中間的な選択肢として位置付けられる。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>06/24</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2606.24081" target="_blank" rel="noopener">PixJail: Self-Evolving Paper-to-Pipeline Reproduction for Text-to-Image Jailbreak Evaluation</a></h3>
-          <p>Text-to-Image（T2I）モデルに対するジェイルブレイク手法を評価するための自己進化型ベンチマーク「PixJail」を提案した研究。プロンプト変換・画像生成・安全フィルタリング・マルチモーダル判定など複数段階からなるパイプライン全体を評価対象とし、既存研究の再現性・比較困難性の問題に対処している。T2I安全性評価の標準化に向けた重要な取り組みである。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>06/24</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2606.24163" target="_blank" rel="noopener">CORE-BREW: LLR-Based Soft Decoding for Robust Multi-Bit LLM Watermarking</a></h3>
-          <p>LLM出力の出所確認を目的とした多ビットウォーターマーキング手法「CORE-BREW」を提案した研究。従来のハード決定復号に頼るECCベース手法の限界を克服し、トークンレベルの信頼度情報を活用したソフト復号により編集耐性と厳密な偽陽性制御を両立している。LLMコンテンツの真正性検証という観点からモデルセキュリティに貢献する研究である。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">tool</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>06/24</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2606.24322" target="_blank" rel="noopener">Securing LLM-Agent Long-Term Memory Against Poisoning: Non-Malleable, Origin-Bound Authority with Machine-Checked Guarantees</a></h3>
-          <p>LLMエージェントの長期記憶機構に対するメモリポイズニング攻撃を詳細に分析し、非可鍛性・起源拘束型の権限管理による防御手法を提案した研究。過去セッションで保存された悪意あるコンテンツが将来の決済・設定変更・データ漏洩などの重大な行動を誘導できる脆弱性を対象としており、機械検証による形式的な安全保証も提供している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">vulnerability</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/" target="_blank" rel="noopener">New macOS malware embeds fake errors to confuse AI analysis tools</a></h3>
+          <p>「Gaslight」と名付けられた新たなmacOSマルウェアが、AI支援のマルウェア解析ツールを混乱させるために、プロンプトインジェクション文字列や偽のデバッグデータを実行ファイル内に埋め込む手法を使用していることが発見された。AIによるセキュリティ分析を意図的に欺く新しい攻撃手法として注目される。</p>
+          <div class="tags"><span class="tag">adversarial</span> <span class="tag">vulnerability</span> <span class="tag">incident</span></div>
         </article>
   </main>
   <footer>
