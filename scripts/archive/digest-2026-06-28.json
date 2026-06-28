@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Clean GitHub repo tricks AI coding agents into running malware",
+    "link": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-27T14:22:36+00:00",
+    "summary_ja": "一見無害なGitHubリポジトリを利用し、AIコーディングエージェントにマルウェアを実行させる新たな攻撃手法が報告された。悪意あるペイロードはセキュリティスキャナー、AIエージェント、人間のレビューアいずれにも検出されず、エージェントベースの開発ツールに対する深刻なリスクを示している。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "adversarial"
+    ]
+  }
+]
