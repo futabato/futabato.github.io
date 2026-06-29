@@ -3,24 +3,23 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-06-28T00:01:06Z</updated>
+  <updated>2026-06-29T00:05:19Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Clean GitHub repo tricks AI coding agents into running malware</title>
-    <link href="https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/" rel="alternate"/>
-    <id>urn:ai-security-digest:de56754b14d8a74b</id>
-    <published>2026-06-27T14:22:36Z</published>
-    <updated>2026-06-27T14:22:36Z</updated>
-    <content type="html">&lt;p&gt;一見無害なGitHubリポジトリを利用し、AIコーディングエージェントにマルウェアを実行させる新たな攻撃手法が報告された。悪意あるペイロードはセキュリティスキャナー、AIエージェント、人間のレビューアいずれにも検出されず、エージェントベースの開発ツールに対する深刻なリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Quoting Jon Udell</title>
+    <link href="https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:968fc5e2f5c07411</id>
+    <published>2026-06-28T21:57:41Z</published>
+    <updated>2026-06-28T21:57:41Z</updated>
+    <content type="html">&lt;p&gt;Jon UdellによるAIエージェントと人間の協働に関する考察を引用。「ループの中の人間」という表現はAIに主権を譲渡するニュアンスがあるとして批判し、人間主導のプロセスにエージェントを招き入れるという視点への転換を提唱している。エージェント型ソフトウェア開発における人間の制御と透明性の重要性を論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
     <category term="agent-security"/>
-    <category term="vulnerability"/>
-    <category term="adversarial"/>
+    <category term="governance"/>
     <source>
-      <title>Bleeping Computer</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
 </feed>

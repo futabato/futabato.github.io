@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Quoting Jon Udell",
+    "link": "https://simonwillison.net/2026/Jun/28/jon-udell/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-06-28T21:57:41+00:00",
+    "summary_ja": "Jon UdellによるAIエージェントと人間の協働に関する考察を引用。「ループの中の人間」という表現はAIに主権を譲渡するニュアンスがあるとして批判し、人間主導のプロセスにエージェントを招き入れるという視点への転換を提唱している。エージェント型ソフトウェア開発における人間の制御と透明性の重要性を論じている。",
+    "tags": [
+      "agent-security",
+      "governance"
+    ]
+  }
+]
