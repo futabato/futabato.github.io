@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Malicious Perplexity Chrome Extension Intercepted Searches and Address Bar Input",
+    "link": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html",
+    "source": "The Hacker News",
+    "published": "2026-06-29T18:40:09+00:00",
+    "summary_ja": "AIサーチエンジン「Perplexity」を騙る悪意あるChromeExtensionが発見され、ユーザーの検索クエリやアドレスバーへの入力を攻撃者のサーバーに送信していたことがMicrosoftにより報告された。AIブランドを悪用してユーザーを騙す新たな攻撃手法であり、Googleは報告を受けてストアから当該拡張機能を削除した。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "tool"
+    ]
+  },
+  {
+    "title": "Agentic AI Has an Identity Problem and Attackers Know It",
+    "link": "https://www.bleepingcomputer.com/news/security/agentic-ai-has-an-identity-problem-and-attackers-know-it/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-29T14:01:11+00:00",
+    "summary_ja": "AIエージェントは企業システム内でデータアクセスやワークフロー実行などの特権的な操作を行うが、そのアイデンティティ管理が不十分であることが攻撃者に悪用されている。エンタープライズセキュリティにおいて、AIエージェントの特権IDガバナンスの重要性が高まっていることを解説した記事。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "governance"
+    ]
+  },
+  {
+    "title": "When the Aggregator Cheats: Data-Free Backdoors in Federated LLM-based QA Systems",
+    "link": "https://arxiv.org/abs/2606.27511",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-29T04:00:00+00:00",
+    "summary_ja": "医療・法律・メンタルヘルスなどのセンシティブな分野に展開されるLLMベースのQAシステムにおいて、フェデレーテッドラーニングの集約サーバー（クラウド事業者）が悪意ある行為者となった場合のバックドア攻撃の脆弱性を研究した論文。生データを共有せずに学習できるFLの安全性前提を覆す新たな脅威モデルを提示している。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "On the Inseparability of Instructions and Data in Shared-Embedding Sequence Models",
+    "link": "https://arxiv.org/abs/2606.27567",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-29T04:00:00+00:00",
+    "summary_ja": "プロンプトインジェクションはLLM統合アプリケーションの最大のセキュリティリスクであるが、本論文は共有埋め込みアーキテクチャにおいて完全なプロンプトインジェクション防止が数学的に不可能であることを証明した。制御とデータの分離が強制されない限り、既存の防御策はすべて破られ得るという根本的な限界を示している。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "AdvScan: Black-Box Adversarial Example Detection at Runtime through Power Analysis",
+    "link": "https://arxiv.org/abs/2606.27704",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-06-29T04:00:00+00:00",
+    "summary_ja": "エッジデバイス上のTinyMLモデルを対象とした敵対的サンプル攻撃を、ブラックボックス環境でも電力解析によりリアルタイム検出する手法「AdvScan」を提案した研究。モデルへの内部アクセスや追加の前処理を必要とせず、安全・セキュリティクリティカルな組み込みアプリケーションへの適用を想定している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "tool",
+      "evaluation"
+    ]
+  }
+]
