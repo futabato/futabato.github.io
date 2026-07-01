@@ -1,0 +1,65 @@
+[
+  {
+    "title": "New BioShocking attack manipulates AI browser into data theft",
+    "link": "https://www.bleepingcomputer.com/news/security/new-bioshocking-attack-manipulates-ai-browser-into-data-theft/",
+    "source": "Bleeping Computer",
+    "published": "2026-06-30T21:50:24+00:00",
+    "summary_ja": "「BioShocking」と呼ばれる新たなプロンプトインジェクション攻撃が発見された。AIブラウザを騙して危険な操作をフィクションの一部として認識させ、安全ガードレールを回避してデータ窃取を引き起こす可能性がある。AI搭載ブラウザのセキュリティに対する新たな脅威として注目される。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Microsoft Warns Poisoned MCP Tool Descriptions Can Make AI Agents Leak Data",
+    "link": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html",
+    "source": "The Hacker News",
+    "published": "2026-06-30T17:46:07+00:00",
+    "summary_ja": "Microsoftの研究により、攻撃者がMCP（Model Context Protocol）のツール説明を汚染するだけでAIエージェントを操作し、企業データを外部に漏洩させられることが示された。エージェントは正常な動作をしているように見えるため、デフォルト設定ではアラートが発生しないリスクがある。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Securing AI agents: When AI tools move from reading to acting",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/06/30/securing-ai-agents-ai-tools-move-from-reading-acting/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-06-30T15:57:11+00:00",
+    "summary_ja": "MicrosoftセキュリティブログがMCPツールポイズニング攻撃の詳細を解説し、信頼されたAIエージェントがデータ損失の制御経路として悪用される手口を分析した。脅威アクターがツール説明を操作して不正アクションを引き起こす手法と、その検出・封じ込め・防止策が紹介されている。",
+    "tags": [
+      "agent-security",
+      "adversarial",
+      "vulnerability",
+      "tool"
+    ]
+  },
+  {
+    "title": "Langflow RCE Exploited to Deploy Monero Miner on Exposed AI App Endpoints",
+    "link": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html",
+    "source": "The Hacker News",
+    "published": "2026-06-30T15:47:20+00:00",
+    "summary_ja": "AIアプリ開発フレームワーク「Langflow」の深刻なRCE脆弱性（CVE-2026-33017、CVSSスコア9.3）が実際に悪用され、Monero採掘マルウェアが展開されている。公開されたAIアプリエンドポイントを標的とした攻撃が継続中であり、AIインフラに対する実被害として重要性が高い。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "GuardFall Exposes Open-Source AI Coding Agents to Decades-Old Shell Injection Risks",
+    "link": "https://thehackernews.com/2026/06/guardfall-exposes-open-source-ai-coding.html",
+    "source": "The Hacker News",
+    "published": "2026-06-30T14:26:15+00:00",
+    "summary_ja": "Adversa AIの新研究「GuardFall」により、オープンソースのAIコーディングエージェント11種中10種が、数十年前から知られるシェルインジェクション手法でセーフティチェックを回避できることが判明した。AIエージェントの安全機構の根本的な脆弱性を示す重要な研究成果である。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  }
+]
