@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Webinar: Why traditional email security is no longer enough",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-why-traditional-email-security-is-no-longer-enough/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-01T16:54:22+00:00",
+    "summary_ja": "現代のフィッシングやビジネスメール詐欺が信頼済みIDや正規ビジネスワークフローを悪用することで従来の防御をすり抜けている現状を解説するウェビナー。行動AIを活用した検知・対応の自動化が従来型メールセキュリティの限界を補う手段として紹介されている。",
+    "tags": [
+      "tool",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Critical Cursor Flaws Could Let Prompt Injection Escape Sandbox and Run Commands",
+    "link": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html",
+    "source": "The Hacker News",
+    "published": "2026-07-01T14:42:54+00:00",
+    "summary_ja": "AIコードエディタ「Cursor」に2件の重大な脆弱性（CVE-2026-50548/50549、CVSS 9.8）が発見された。プロンプトインジェクションによりサンドボックスを脱出し、開発者のPC上で任意コマンドを実行できる。ユーザーによる操作を必要とせず、通常のプロンプトだけで攻撃が成立する点が特に危険とされる。",
+    "tags": [
+      "vulnerability",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "US lifts export controls on Anthropic’s frontier cybersecurity AI models",
+    "link": "https://therecord.media/us-lifts-export-controls-anthropic-cyber-models",
+    "source": "The Record by Recorded Future",
+    "published": "2026-07-01T13:16:00+00:00",
+    "summary_ja": "米国政府がAnthropicのフロンティアサイバーセキュリティAIモデルに対する輸出規制を解除した。Anthropicと政府との間で複数の合意が成立したことを受けた措置であり、高度なAIモデルの国際的な流通に関する政策動向として注目される。",
+    "tags": [
+      "policy",
+      "regulation",
+      "governance"
+    ]
+  },
+  {
+    "title": "AI-Generated Browser Ransomware Abuses Chromium API on Windows and Android",
+    "link": "https://thehackernews.com/2026/07/ai-generated-browser-ransomware-abuses.html",
+    "source": "The Hacker News",
+    "published": "2026-07-01T12:59:19+00:00",
+    "summary_ja": "DeepSeekを使って生成されたマルウェアが、ChromiumのAPIを悪用してWindowsおよびAndroid上でブラウザ内完結型ランサムウェアとして動作する事例が初めて報告された。フロンティアAIモデルが実用的な攻撃コードを自律的に生成した初の記録事例とされ、AI生成マルウェアの脅威の現実化を示す。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Phantom Squatting Uses AI-Hallucinated Domains for Phishing and Malware",
+    "link": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html",
+    "source": "The Hacker News",
+    "published": "2026-07-01T07:20:51+00:00",
+    "summary_ja": "LLMが存在しないドメイン名を幻覚（ハルシネーション）として生成する性質を悪用し、攻撃者がそのドメインを先取り登録してフィッシングやマルウェア配布に使用する「ファントムスクワッティング」と呼ばれる新手法をPalo Alto Networks Unit 42が報告した。AIツールが誘導するトラフィックを捕捉できるため、実害が既に確認されている。",
+    "tags": [
+      "adversarial",
+      "research",
+      "model-safety"
+    ]
+  }
+]
