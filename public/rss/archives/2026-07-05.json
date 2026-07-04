@@ -1,0 +1,14 @@
+[
+  {
+    "title": "JadePuffer ransomware used AI agent to automate entire attack",
+    "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-04T14:16:38+00:00",
+    "summary_ja": "研究者らが、LLMエージェントによって攻撃全体が完全に自動化された初めてのランサムウェア事例「JadePuffer」を確認した。大規模言語モデルがサイバー攻撃の実行主体となる新たな脅威の時代の到来を示す事例として注目されている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "research"
+    ]
+  }
+]

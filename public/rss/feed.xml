@@ -3,81 +3,24 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-04T00:04:41Z</updated>
+  <updated>2026-07-04T23:59:27Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Cognitive Firewall: A Proactive, Zero-Trust, Multi-Gate Framework for LLM Safety</title>
-    <link href="https://arxiv.org/abs/2607.01277" rel="alternate"/>
-    <id>urn:ai-security-digest:86d6da503341d374</id>
-    <published>2026-07-03T04:00:00Z</published>
-    <updated>2026-07-03T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMは複数ターンの会話にわたって有害な意図を分散させることで、既存の安全対策を回避できる。本論文では、対話全体を通じて累積的な意図の検出や権限の検証を行うプロアクティブなランタイム安全フレームワーク「Cognitive Firewall」を提案している。マルチゲートのゼロトラストアーキテクチャによりLLMの安全性を高める新しいアプローチを示す。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
+    <title>JadePuffer ransomware used AI agent to automate entire attack</title>
+    <link href="https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/" rel="alternate"/>
+    <id>urn:ai-security-digest:8fa0fcbc82e1ebb2</id>
+    <published>2026-07-04T14:16:38Z</published>
+    <updated>2026-07-04T14:16:38Z</updated>
+    <content type="html">&lt;p&gt;研究者らが、LLMエージェントによって攻撃全体が完全に自動化された初めてのランサムウェア事例「JadePuffer」を確認した。大規模言語モデルがサイバー攻撃の実行主体となる新たな脅威の時代の到来を示す事例として注目されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
     <category term="agent-security"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Overthink-Triggered Slowdown Attacks on LVLM-Based Robotic Systems</title>
-    <link href="https://arxiv.org/abs/2607.01518" rel="alternate"/>
-    <id>urn:ai-security-digest:09d2091e83a99e3b</id>
-    <published>2026-07-03T04:00:00Z</published>
-    <updated>2026-07-03T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;大規模視覚言語モデル（LVLM）を搭載したロボットシステムに対する新たな攻撃手法として、意図的に「過剰思考」を誘発してモデルの推論時間を極端に引き延ばす「スローダウン攻撃」を示した研究。攻撃者がロボットの意思決定を遅延させることで、安全性に関わる深刻な被害を引き起こせることを実証している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="adversarial"/>
-    <category term="agent-security"/>
-    <category term="vulnerability"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>From Forgeries to Foundation Models: A Systematic Survey of Identity Document Attack and Detection</title>
-    <link href="https://arxiv.org/abs/2607.01442" rel="alternate"/>
-    <id>urn:ai-security-digest:fff44953e2d03c2b</id>
-    <published>2026-07-03T04:00:00Z</published>
-    <updated>2026-07-03T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;生成AIツールの普及により、身分証明書の偽造が高精度かつ技術的に容易となり、攻撃面が大幅に拡大していることを体系的に調査したサーベイ論文。物理的な提示攻撃、デジタル注入、完全生成合成という三つの攻撃経路と、ファウンデーションモデルを活用した検出手法の現状と課題を整理している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Embedding Inference Attack</title>
-    <link href="https://arxiv.org/abs/2607.01276" rel="alternate"/>
-    <id>urn:ai-security-digest:6a4d3b7abd39fb25</id>
-    <published>2026-07-03T04:00:00Z</published>
-    <updated>2026-07-03T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;APIの背後に隠された埋め込みモデルに対して、攻撃者がモデルを知らないブラックボックス設定下でも推論攻撃が可能であることを示した研究。現代の情報検索システムにおける埋め込みモデルのセキュリティリスクを新たな視点から明らかにし、APIベースのAIサービスの脆弱性を浮き彫りにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="vulnerability"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Pmeta-TLA: Backdoor Attacks for Speech Classification Models via Meta-Learning with Timbre Leakage Attack</title>
-    <link href="https://arxiv.org/abs/2607.01702" rel="alternate"/>
-    <id>urn:ai-security-digest:90ca37043abb062e</id>
-    <published>2026-07-03T04:00:00Z</published>
-    <updated>2026-07-03T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;音声分類モデルに対するバックドア攻撃の新手法として、メタ学習と音色漏洩を組み合わせた「Pmeta-TLA」を提案した研究。既存の音声トリガーが深層ニューラルネットワークの防御機構に検出されやすい弱点を突き、より検出困難な攻撃手法を実証している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
 </feed>
