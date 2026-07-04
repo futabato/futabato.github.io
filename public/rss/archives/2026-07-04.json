@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Cognitive Firewall: A Proactive, Zero-Trust, Multi-Gate Framework for LLM Safety",
+    "link": "https://arxiv.org/abs/2607.01277",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-03T04:00:00+00:00",
+    "summary_ja": "LLMは複数ターンの会話にわたって有害な意図を分散させることで、既存の安全対策を回避できる。本論文では、対話全体を通じて累積的な意図の検出や権限の検証を行うプロアクティブなランタイム安全フレームワーク「Cognitive Firewall」を提案している。マルチゲートのゼロトラストアーキテクチャによりLLMの安全性を高める新しいアプローチを示す。",
+    "tags": [
+      "research",
+      "model-safety",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Overthink-Triggered Slowdown Attacks on LVLM-Based Robotic Systems",
+    "link": "https://arxiv.org/abs/2607.01518",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-03T04:00:00+00:00",
+    "summary_ja": "大規模視覚言語モデル（LVLM）を搭載したロボットシステムに対する新たな攻撃手法として、意図的に「過剰思考」を誘発してモデルの推論時間を極端に引き延ばす「スローダウン攻撃」を示した研究。攻撃者がロボットの意思決定を遅延させることで、安全性に関わる深刻な被害を引き起こせることを実証している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "From Forgeries to Foundation Models: A Systematic Survey of Identity Document Attack and Detection",
+    "link": "https://arxiv.org/abs/2607.01442",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-03T04:00:00+00:00",
+    "summary_ja": "生成AIツールの普及により、身分証明書の偽造が高精度かつ技術的に容易となり、攻撃面が大幅に拡大していることを体系的に調査したサーベイ論文。物理的な提示攻撃、デジタル注入、完全生成合成という三つの攻撃経路と、ファウンデーションモデルを活用した検出手法の現状と課題を整理している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Embedding Inference Attack",
+    "link": "https://arxiv.org/abs/2607.01276",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-03T04:00:00+00:00",
+    "summary_ja": "APIの背後に隠された埋め込みモデルに対して、攻撃者がモデルを知らないブラックボックス設定下でも推論攻撃が可能であることを示した研究。現代の情報検索システムにおける埋め込みモデルのセキュリティリスクを新たな視点から明らかにし、APIベースのAIサービスの脆弱性を浮き彫りにしている。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Pmeta-TLA: Backdoor Attacks for Speech Classification Models via Meta-Learning with Timbre Leakage Attack",
+    "link": "https://arxiv.org/abs/2607.01702",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-03T04:00:00+00:00",
+    "summary_ja": "音声分類モデルに対するバックドア攻撃の新手法として、メタ学習と音色漏洩を組み合わせた「Pmeta-TLA」を提案した研究。既存の音声トリガーが深層ニューラルネットワークの防御機構に検出されやすい弱点を突き、より検出困難な攻撃手法を実証している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "vulnerability"
+    ]
+  }
+]
