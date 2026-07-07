@@ -1,0 +1,39 @@
+[
+  {
+    "title": "Software Is Now Written at the Speed of Thought. Security Isn't.",
+    "link": "https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-06T14:00:10+00:00",
+    "summary_ja": "AIによってソフトウェア開発の速度が飛躍的に向上している一方、セキュリティの意思決定が行われる従来の「間」が失われつつあるという課題を論じた記事。AIがコード生成を自動化することで、セキュリティレビューや設計上の安全判断が省略されるリスクが高まっている。",
+    "tags": [
+      "research",
+      "model-safety",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More",
+    "link": "https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html",
+    "source": "The Hacker News",
+    "published": "2026-07-06T13:01:14+00:00",
+    "summary_ja": "週次セキュリティまとめ記事で、AIエージェントが不正な指示を信頼してしまう「AI Agent Tricks」を含む複数のインシデントを取り上げている。プロキシボットネット、ブラウザランサムウェアなど多様な脅威の中で、AIシステムへの不正命令注入が今週の注目トピックの一つとして挙げられている。",
+    "tags": [
+      "agent-security",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing",
+    "link": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html",
+    "source": "The Hacker News",
+    "published": "2026-07-06T06:33:56+00:00",
+    "summary_ja": "香港科技大学の研究者が、AIコーディングエージェント向けの悪意あるスキル（プラグイン）を静的スキャナーから回避させる「SkillCloak」手法を発表した。自己展開型パッキングを用いることで、テスト対象の全スキャナーを90%以上の確率で回避することに成功しており、同チームはランタイム検知器も開発している。",
+    "tags": [
+      "agent-security",
+      "adversarial",
+      "research",
+      "vulnerability"
+    ]
+  }
+]
