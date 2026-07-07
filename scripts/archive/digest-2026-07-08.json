@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots",
+    "link": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html",
+    "source": "The Hacker News",
+    "published": "2026-07-07T16:37:33+00:00",
+    "summary_ja": "セキュリティ企業Varonisが、Google Dialogflow CXにおける重大な脆弱性を発見した。編集権限を持つ攻撃者が同一Google Cloudプロジェクト内の他のチャットボットエージェントを乗っ取り、ライブ会話の盗み見やユーザーデータの窃取、攻撃者が作成したメッセージの送信が可能になる恐れがあった。現在は修正済みとなっている。",
+    "tags": [
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Britain plans to build autonomous AI 'Cyber Shield' to defend nation",
+    "link": "https://therecord.media/britain-plans-autonomous-ai-cyber-shield",
+    "source": "The Record by Recorded Future",
+    "published": "2026-07-07T15:31:00+00:00",
+    "summary_ja": "英国政府は、AIを活用した自律型サイバー防衛システム「Cyber Shield」の構築を計画している。NCSCは、攻撃者が機械的なスピードと大規模スケールで攻撃を行う脅威に対応するため、AIによる自動防御能力が不可欠だとしている。",
+    "tags": [
+      "policy",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data",
+    "link": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html",
+    "source": "The Hacker News",
+    "published": "2026-07-07T14:04:50+00:00",
+    "summary_ja": "Noma Securityの研究者が、GitHubのパブリックリポジトリにIssueを投稿するだけで、GitHub Agentワークフローをトリガーしてプライベートリポジトリの内容を漏洩させられることを実証した。攻撃者は認証情報なしでも組織のプライベートデータへアクセスできる可能性があり、AIエージェントのアクセス権設計の重要性を示している。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants",
+    "link": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html",
+    "source": "The Hacker News",
+    "published": "2026-07-07T13:27:09+00:00",
+    "summary_ja": "Sand Security Researchチームが、エンタープライズ向け生成AIプラットフォーム「Writer」においてクロステナント侵害につながる重大なセッション分離の脆弱性（WriteOut）を発見・開示した。外部の攻撃者がワンクリックで任意のWriter AIエージェントを乗っ取れる可能性があり、既にパッチが適用されている。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Webinar tomorrow: Why modern email attacks require a new approach to defense",
+    "link": "https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-07T12:12:20+00:00",
+    "summary_ja": "高度なフィッシングやビジネスメール詐欺（BEC）、アカウント乗っ取り攻撃に対抗するために、行動AIを活用した新たなメール防御アプローチを解説するウェビナーの案内。自動調査・対応ワークフローによるアラート疲労の軽減についても触れている。",
+    "tags": [
+      "tool",
+      "adversarial"
+    ]
+  }
+]

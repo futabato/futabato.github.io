@@ -51,37 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年07月07日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">3件</span>
+    <span class="current-date" id="current-date">2026年07月08日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>07/06</time>
+            <time>07/07</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html" target="_blank" rel="noopener">Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots</a></h3>
+          <p>セキュリティ企業Varonisが、Google Dialogflow CXにおける重大な脆弱性を発見した。編集権限を持つ攻撃者が同一Google Cloudプロジェクト内の他のチャットボットエージェントを乗っ取り、ライブ会話の盗み見やユーザーデータの窃取、攻撃者が作成したメッセージの送信が可能になる恐れがあった。現在は修正済みとなっている。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/07</time>
+            <span class="source">The Record by Recorded Future</span>
+          </div>
+          <h3><a href="https://therecord.media/britain-plans-autonomous-ai-cyber-shield" target="_blank" rel="noopener">Britain plans to build autonomous AI &#x27;Cyber Shield&#x27; to defend nation</a></h3>
+          <p>英国政府は、AIを活用した自律型サイバー防衛システム「Cyber Shield」の構築を計画している。NCSCは、攻撃者が機械的なスピードと大規模スケールで攻撃を行う脅威に対応するため、AIによる自動防御能力が不可欠だとしている。</p>
+          <div class="tags"><span class="tag">policy</span> <span class="tag">tool</span> <span class="tag">governance</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/07</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html" target="_blank" rel="noopener">Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data</a></h3>
+          <p>Noma Securityの研究者が、GitHubのパブリックリポジトリにIssueを投稿するだけで、GitHub Agentワークフローをトリガーしてプライベートリポジトリの内容を漏洩させられることを実証した。攻撃者は認証情報なしでも組織のプライベートデータへアクセスできる可能性があり、AIエージェントのアクセス権設計の重要性を示している。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/07</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html" target="_blank" rel="noopener">Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants</a></h3>
+          <p>Sand Security Researchチームが、エンタープライズ向け生成AIプラットフォーム「Writer」においてクロステナント侵害につながる重大なセッション分離の脆弱性（WriteOut）を発見・開示した。外部の攻撃者がワンクリックで任意のWriter AIエージェントを乗っ取れる可能性があり、既にパッチが適用されている。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/07</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/" target="_blank" rel="noopener">Software Is Now Written at the Speed of Thought. Security Isn&#x27;t.</a></h3>
-          <p>AIによってソフトウェア開発の速度が飛躍的に向上している一方、セキュリティの意思決定が行われる従来の「間」が失われつつあるという課題を論じた記事。AIがコード生成を自動化することで、セキュリティレビューや設計上の安全判断が省略されるリスクが高まっている。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">vulnerability</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>07/06</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html" target="_blank" rel="noopener">⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More</a></h3>
-          <p>週次セキュリティまとめ記事で、AIエージェントが不正な指示を信頼してしまう「AI Agent Tricks」を含む複数のインシデントを取り上げている。プロキシボットネット、ブラウザランサムウェアなど多様な脅威の中で、AIシステムへの不正命令注入が今週の注目トピックの一つとして挙げられている。</p>
-          <div class="tags"><span class="tag">agent-security</span> <span class="tag">incident</span> <span class="tag">adversarial</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>07/06</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html" target="_blank" rel="noopener">SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing</a></h3>
-          <p>香港科技大学の研究者が、AIコーディングエージェント向けの悪意あるスキル（プラグイン）を静的スキャナーから回避させる「SkillCloak」手法を発表した。自己展開型パッキングを用いることで、テスト対象の全スキャナーを90%以上の確率で回避することに成功しており、同チームはランタイム検知器も開発している。</p>
-          <div class="tags"><span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">research</span> <span class="tag">vulnerability</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/" target="_blank" rel="noopener">Webinar tomorrow: Why modern email attacks require a new approach to defense</a></h3>
+          <p>高度なフィッシングやビジネスメール詐欺（BEC）、アカウント乗っ取り攻撃に対抗するために、行動AIを活用した新たなメール防御アプローチを解説するウェビナーの案内。自動調査・対応ワークフローによるアラート疲労の軽減についても触れている。</p>
+          <div class="tags"><span class="tag">tool</span> <span class="tag">adversarial</span></div>
         </article>
   </main>
   <footer>

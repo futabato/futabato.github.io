@@ -3,53 +3,78 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-07T00:04:55Z</updated>
+  <updated>2026-07-07T23:55:31Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Software Is Now Written at the Speed of Thought. Security Isn't.</title>
-    <link href="https://www.bleepingcomputer.com/news/security/software-is-now-written-at-the-speed-of-thought-security-isnt/" rel="alternate"/>
-    <id>urn:ai-security-digest:9e8832c90503c76f</id>
-    <published>2026-07-06T14:00:10Z</published>
-    <updated>2026-07-06T14:00:10Z</updated>
-    <content type="html">&lt;p&gt;AIによってソフトウェア開発の速度が飛躍的に向上している一方、セキュリティの意思決定が行われる従来の「間」が失われつつあるという課題を論じた記事。AIがコード生成を自動化することで、セキュリティレビューや設計上の安全判断が省略されるリスクが高まっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
+    <title>Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots</title>
+    <link href="https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html" rel="alternate"/>
+    <id>urn:ai-security-digest:4a3aefd50bae8a4a</id>
+    <published>2026-07-07T16:37:33Z</published>
+    <updated>2026-07-07T16:37:33Z</updated>
+    <content type="html">&lt;p&gt;セキュリティ企業Varonisが、Google Dialogflow CXにおける重大な脆弱性を発見した。編集権限を持つ攻撃者が同一Google Cloudプロジェクト内の他のチャットボットエージェントを乗っ取り、ライブ会話の盗み見やユーザーデータの窃取、攻撃者が作成したメッセージの送信が可能になる恐れがあった。現在は修正済みとなっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Britain plans to build autonomous AI 'Cyber Shield' to defend nation</title>
+    <link href="https://therecord.media/britain-plans-autonomous-ai-cyber-shield" rel="alternate"/>
+    <id>urn:ai-security-digest:077b55e160886f7d</id>
+    <published>2026-07-07T15:31:00Z</published>
+    <updated>2026-07-07T15:31:00Z</updated>
+    <content type="html">&lt;p&gt;英国政府は、AIを活用した自律型サイバー防衛システム「Cyber Shield」の構築を計画している。NCSCは、攻撃者が機械的なスピードと大規模スケールで攻撃を行う脅威に対応するため、AIによる自動防御能力が不可欠だとしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="policy"/>
+    <category term="tool"/>
+    <category term="governance"/>
+    <source>
+      <title>The Record by Recorded Future</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data</title>
+    <link href="https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html" rel="alternate"/>
+    <id>urn:ai-security-digest:3d9df116e5edd7c5</id>
+    <published>2026-07-07T14:04:50Z</published>
+    <updated>2026-07-07T14:04:50Z</updated>
+    <content type="html">&lt;p&gt;Noma Securityの研究者が、GitHubのパブリックリポジトリにIssueを投稿するだけで、GitHub Agentワークフローをトリガーしてプライベートリポジトリの内容を漏洩させられることを実証した。攻撃者は認証情報なしでも組織のプライベートデータへアクセスできる可能性があり、AIエージェントのアクセス権設計の重要性を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants</title>
+    <link href="https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html" rel="alternate"/>
+    <id>urn:ai-security-digest:2a81d9b7c9192c38</id>
+    <published>2026-07-07T13:27:09Z</published>
+    <updated>2026-07-07T13:27:09Z</updated>
+    <content type="html">&lt;p&gt;Sand Security Researchチームが、エンタープライズ向け生成AIプラットフォーム「Writer」においてクロステナント侵害につながる重大なセッション分離の脆弱性（WriteOut）を発見・開示した。外部の攻撃者がワンクリックで任意のWriter AIエージェントを乗っ取れる可能性があり、既にパッチが適用されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Webinar tomorrow: Why modern email attacks require a new approach to defense</title>
+    <link href="https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/" rel="alternate"/>
+    <id>urn:ai-security-digest:46c8c5f2acb880df</id>
+    <published>2026-07-07T12:12:20Z</published>
+    <updated>2026-07-07T12:12:20Z</updated>
+    <content type="html">&lt;p&gt;高度なフィッシングやビジネスメール詐欺（BEC）、アカウント乗っ取り攻撃に対抗するために、行動AIを活用した新たなメール防御アプローチを解説するウェビナーの案内。自動調査・対応ワークフローによるアラート疲労の軽減についても触れている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
+    <category term="adversarial"/>
     <source>
       <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>⚡ Weekly Recap: Proxy Botnets, Browser Ransomware, AI Agent Tricks, Fake PoC Malware and More</title>
-    <link href="https://thehackernews.com/2026/07/monday-recap-proxy-botnets-browser.html" rel="alternate"/>
-    <id>urn:ai-security-digest:cd04d93b37a55539</id>
-    <published>2026-07-06T13:01:14Z</published>
-    <updated>2026-07-06T13:01:14Z</updated>
-    <content type="html">&lt;p&gt;週次セキュリティまとめ記事で、AIエージェントが不正な指示を信頼してしまう「AI Agent Tricks」を含む複数のインシデントを取り上げている。プロキシボットネット、ブラウザランサムウェアなど多様な脅威の中で、AIシステムへの不正命令注入が今週の注目トピックの一つとして挙げられている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="incident"/>
-    <category term="adversarial"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>SkillCloak Lets Malicious AI Agent Skills Evade Static Scanners with Self-Extracting Packing</title>
-    <link href="https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html" rel="alternate"/>
-    <id>urn:ai-security-digest:5ab4c1aa49300eca</id>
-    <published>2026-07-06T06:33:56Z</published>
-    <updated>2026-07-06T06:33:56Z</updated>
-    <content type="html">&lt;p&gt;香港科技大学の研究者が、AIコーディングエージェント向けの悪意あるスキル（プラグイン）を静的スキャナーから回避させる「SkillCloak」手法を発表した。自己展開型パッキングを用いることで、テスト対象の全スキャナーを90%以上の確率で回避することに成功しており、同チームはランタイム検知器も開発している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <category term="research"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>The Hacker News</title>
     </source>
   </entry>
 </feed>
