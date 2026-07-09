@@ -3,76 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-07T23:55:31Z</updated>
+  <updated>2026-07-09T00:06:19Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Rogue Agent Flaw Could Have Let Attackers Hijack Google Dialogflow CX Chatbots</title>
-    <link href="https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html" rel="alternate"/>
-    <id>urn:ai-security-digest:4a3aefd50bae8a4a</id>
-    <published>2026-07-07T16:37:33Z</published>
-    <updated>2026-07-07T16:37:33Z</updated>
-    <content type="html">&lt;p&gt;セキュリティ企業Varonisが、Google Dialogflow CXにおける重大な脆弱性を発見した。編集権限を持つ攻撃者が同一Google Cloudプロジェクト内の他のチャットボットエージェントを乗っ取り、ライブ会話の盗み見やユーザーデータの窃取、攻撃者が作成したメッセージの送信が可能になる恐れがあった。現在は修正済みとなっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
+    <title>AI Coding Agents Found Triggering Endpoint Security Rules Built to Catch Attackers</title>
+    <link href="https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html" rel="alternate"/>
+    <id>urn:ai-security-digest:7bc0e8327020ee0f</id>
+    <published>2026-07-08T17:02:12Z</published>
+    <updated>2026-07-08T17:02:12Z</updated>
+    <content type="html">&lt;p&gt;SophosがエンドポイントセキュリティデータをAI分析したところ、Claude CodeやCursorなどのAIコーディングエージェントが、ブラウザ認証情報の復号化や資格情報ストアの列挙など、攻撃者の振る舞いと酷似した動作を行い、セキュリティ検知ルールを誤作動させていることが判明した。エージェント自体は悪意を持たないものの、行動ベースのエンジンには攻撃と区別がつかない点が課題となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="agent-security"/>
+    <category term="vulnerability"/>
+    <category term="research"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Britain plans to build autonomous AI 'Cyber Shield' to defend nation</title>
-    <link href="https://therecord.media/britain-plans-autonomous-ai-cyber-shield" rel="alternate"/>
-    <id>urn:ai-security-digest:077b55e160886f7d</id>
-    <published>2026-07-07T15:31:00Z</published>
-    <updated>2026-07-07T15:31:00Z</updated>
-    <content type="html">&lt;p&gt;英国政府は、AIを活用した自律型サイバー防衛システム「Cyber Shield」の構築を計画している。NCSCは、攻撃者が機械的なスピードと大規模スケールで攻撃を行う脅威に対応するため、AIによる自動防御能力が不可欠だとしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
+    <title>Protecting Microsoft at AI speed: How SFI proactively hardens our cloud</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/07/08/protecting-microsoft-at-ai-speed-how-sfi-proactively-hardens-our-cloud/" rel="alternate"/>
+    <id>urn:ai-security-digest:8ee9324ec58bbe31</id>
+    <published>2026-07-08T17:00:00Z</published>
+    <updated>2026-07-08T17:00:00Z</updated>
+    <content type="html">&lt;p&gt;MicrosoftがSecure Future Initiative（SFI）の一環として、AIを活用してクラウドサービスのセキュリティ要件への継続的な準拠評価と強化を行う取り組みを紹介した。AIの速度でセキュリティ監視・強化を実施することで、大規模なクラウドインフラの防御を自動化・高度化するアプローチを解説している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
     <category term="tool"/>
     <category term="governance"/>
+    <category term="policy"/>
     <source>
-      <title>The Record by Recorded Future</title>
+      <title>Microsoft Security Blog</title>
     </source>
   </entry>
   <entry>
-    <title>Public GitHub Issue Could Trick GitHub Agentic Workflows Into Leaking Private Repo Data</title>
-    <link href="https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html" rel="alternate"/>
-    <id>urn:ai-security-digest:3d9df116e5edd7c5</id>
-    <published>2026-07-07T14:04:50Z</published>
-    <updated>2026-07-07T14:04:50Z</updated>
-    <content type="html">&lt;p&gt;Noma Securityの研究者が、GitHubのパブリックリポジトリにIssueを投稿するだけで、GitHub Agentワークフローをトリガーしてプライベートリポジトリの内容を漏洩させられることを実証した。攻撃者は認証情報なしでも組織のプライベートデータへアクセスできる可能性があり、AIエージェントのアクセス権設計の重要性を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
+    <title>New HalluSquatting Attack Could Trick AI Coding Assistants Into Installing Botnet Malware</title>
+    <link href="https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html" rel="alternate"/>
+    <id>urn:ai-security-digest:84ad29f7ff7b2c12</id>
+    <published>2026-07-08T15:07:24Z</published>
+    <updated>2026-07-08T15:07:24Z</updated>
+    <content type="html">&lt;p&gt;AIコーディングアシスタントが存在しないパッケージ名をハルシネーションで生成する性質を悪用した新しい攻撃手法「HalluSquatting」が研究者らにより報告された。攻撃者はAIが繰り返し生成する架空のパッケージ名を事前に登録しておき、ユーザーのシステムにマルウェア（ボットネット含む）をインストールさせることが可能となる。AIサプライチェーンを標的とした新たな脅威として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="adversarial"/>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="vulnerability"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Writer AI Flaw Could Let Agent Previews Leak Session Tokens Across Tenants</title>
-    <link href="https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html" rel="alternate"/>
-    <id>urn:ai-security-digest:2a81d9b7c9192c38</id>
-    <published>2026-07-07T13:27:09Z</published>
-    <updated>2026-07-07T13:27:09Z</updated>
-    <content type="html">&lt;p&gt;Sand Security Researchチームが、エンタープライズ向け生成AIプラットフォーム「Writer」においてクロステナント侵害につながる重大なセッション分離の脆弱性（WriteOut）を発見・開示した。外部の攻撃者がワンクリックで任意のWriter AIエージェントを乗っ取れる可能性があり、既にパッチが適用されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
+    <title>3 Ways AI Powers Service Desk Attacks and How to Prevent Them</title>
+    <link href="https://www.bleepingcomputer.com/news/security/3-ways-ai-powers-service-desk-attacks-and-how-to-prevent-them/" rel="alternate"/>
+    <id>urn:ai-security-digest:40347b9593cfb1bb</id>
+    <published>2026-07-08T14:01:11Z</published>
+    <updated>2026-07-08T14:01:11Z</updated>
+    <content type="html">&lt;p&gt;AIがサービスデスクへのなりすまし攻撃をより説得力があり、パーソナライズされた形で大規模に可能にする3つの手法についてSpecops Softwareが解説した。AIによる音声・テキストの巧妙な模倣がソーシャルエンジニアリングの脅威を高めており、オンボーディングや本人確認プロセスの強化といった実践的な対策も紹介されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="adversarial"/>
+    <category term="research"/>
     <category term="model-safety"/>
     <source>
-      <title>The Hacker News</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Webinar tomorrow: Why modern email attacks require a new approach to defense</title>
-    <link href="https://www.bleepingcomputer.com/news/security/webinar-tomorrow-why-modern-email-attacks-require-a-new-approach-to-defense/" rel="alternate"/>
-    <id>urn:ai-security-digest:46c8c5f2acb880df</id>
-    <published>2026-07-07T12:12:20Z</published>
-    <updated>2026-07-07T12:12:20Z</updated>
-    <content type="html">&lt;p&gt;高度なフィッシングやビジネスメール詐欺（BEC）、アカウント乗っ取り攻撃に対抗するために、行動AIを活用した新たなメール防御アプローチを解説するウェビナーの案内。自動調査・対応ワークフローによるアラート疲労の軽減についても触れている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="adversarial"/>
+    <title>CISA orders feds to prioritize patching Langflow auth bypass flaw</title>
+    <link href="https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/" rel="alternate"/>
+    <id>urn:ai-security-digest:15ffdd0151ee1741</id>
+    <published>2026-07-08T09:58:11Z</published>
+    <updated>2026-07-08T09:58:11Z</updated>
+    <content type="html">&lt;p&gt;米CISAが、AIエージェント構築用ビジュアルフレームワーク「Langflow」の認証バイパス脆弱性について、連邦機関に期限を設けて緊急パッチ適用を命令した。この脆弱性は既に積極的に悪用されており、AIインフラを標的とした攻撃への対応として政府レベルでの対処が求められている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="policy"/>
+    <category term="agent-security"/>
+    <category term="regulation"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
