@@ -3,80 +3,77 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-10T00:01:51Z</updated>
+  <updated>2026-07-10T23:57:41Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>自動で恐喝まで遂行するエージェント型ランサムの観測事例についてまとめてみた</title>
-    <link href="https://piyolog.hatenadiary.jp/entry/2026/07/10/082142" rel="alternate"/>
-    <id>urn:ai-security-digest:7b8cd55419c79a0c</id>
-    <published>2026-07-09T23:21:42Z</published>
-    <updated>2026-07-09T23:21:42Z</updated>
-    <content type="html">&lt;p&gt;SysdigのThreat Research Teamが、LLMエージェントが人間の介在なしに初期侵入から恐喝までを自律的に完遂した攻撃活動「JadePuffer」を報告した。これはLLMが単独で恐喝オペレーションを完遂した初の文書化事例とされており、エージェント型AIを悪用した新たな脅威の出現を示している。ただし観測はSysdig単独によるものであり、第三者による独立検証はまだ行われていない。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; piyolog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>piyolog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs</title>
-    <link href="https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html" rel="alternate"/>
-    <id>urn:ai-security-digest:107733d883d24ed3</id>
-    <published>2026-07-09T18:38:49Z</published>
-    <updated>2026-07-09T18:38:49Z</updated>
-    <content type="html">&lt;p&gt;Datadog Security Labsが、休眠状態のGitHubアカウントを悪用して企業のGitHub組織・リポジトリ・ユーザー情報を自動で列挙する複数の攻撃キャンペーンを警告している。攻撃者は数年前から存在する「ゴーストアカウント」や侵害されたOAuthトークンを利用し、正規ユーザーに偽装しながら偵察活動を行っている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
+    <title>Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws</title>
+    <link href="https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html" rel="alternate"/>
+    <id>urn:ai-security-digest:fafcd912b165396d</id>
+    <published>2026-07-10T14:19:50Z</published>
+    <updated>2026-07-10T14:19:50Z</updated>
+    <content type="html">&lt;p&gt;AIパーソナルアシスタント「OpenClaw」に3つの高深刻度脆弱性が発見され、WhatsAppを経由してホストシステムへの攻撃チェーンが成立することが実証された。これらの脆弱性により、認証情報の窃取、権限昇格、任意コード実行が可能となる。現在はパッチが適用済みだが、AIアシスタントのソフトウェアに対する攻撃手法として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
-    <category term="adversarial"/>
+    <category term="incident"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Microsoft expects more Windows security updates from AI-discovered flaws</title>
-    <link href="https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/" rel="alternate"/>
-    <id>urn:ai-security-digest:7aa47b4e15decb86</id>
-    <published>2026-07-09T17:00:00Z</published>
-    <updated>2026-07-09T17:00:00Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftはAIを活用した脆弱性発見の取り組みを強化しており、今後Windowsのセキュリティ更新プログラムが増加すると予告している。AIによる自動コード解析が従来の手動レビューでは見逃されていた脆弱性を発見しており、ソフトウェアセキュリティにおけるAI活用の新たな局面を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="tool"/>
-    <category term="research"/>
+    <title>The Replicant in Your Directory: AI Agents and the Identity Security Gap</title>
+    <link href="https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/" rel="alternate"/>
+    <id>urn:ai-security-digest:f0d2bd0b4396707d</id>
+    <published>2026-07-10T14:00:10Z</published>
+    <updated>2026-07-10T14:00:10Z</updated>
+    <content type="html">&lt;p&gt;AIエージェントの普及により非人間アイデンティティ（NHI）が急増し、組織のID管理に深刻なギャップが生じていることが指摘されている。AIエージェントがエンタープライズの攻撃対象領域を拡大させており、可視性の向上とアイデンティティガバナンスの強化が急務とされている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="governance"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>未成年者らのグループによる快活CLUBへの不正アクセスについてまとめてみた</title>
-    <link href="https://piyolog.hatenadiary.jp/entry/2026/07/09/222807" rel="alternate"/>
-    <id>urn:ai-security-digest:58047b49f044d31b</id>
-    <published>2026-07-09T13:28:07Z</published>
-    <updated>2026-07-09T13:28:07Z</updated>
-    <content type="html">&lt;p&gt;快活CLUBへの不正アクセス事件において、10代を中心とする未成年者グループがChatGPTを悪用して攻撃プログラムを自作し、729万件の会員情報漏えいを引き起こしたことが明らかになった。生成AIが攻撃ツール作成に悪用された国内の具体的事例として、複数の未成年者が逮捕・書類送致されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; piyolog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
+    <title>Controllability-Aware Adversarial Examples Against LLM-Based Network Traffic Classifiers</title>
+    <link href="https://arxiv.org/abs/2607.07739" rel="alternate"/>
+    <id>urn:ai-security-digest:5bafa006f52833a4</id>
+    <published>2026-07-10T04:00:00Z</published>
+    <updated>2026-07-10T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMをネットワーク侵入検知分類器として活用する際の敵対的堅牢性を検証した研究。フロー特性を制御可能性によって分類し、現実的な攻撃者制約下でのブラックボックス転移フレームワークを提案している。LLMベースのセキュリティ分類器に対する攻撃手法の新たな知見を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="adversarial"/>
-    <category term="model-safety"/>
+    <category term="evaluation"/>
     <source>
-      <title>piyolog</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>EU takes member states to court over unimplemented cybersecurity law</title>
-    <link href="https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2" rel="alternate"/>
-    <id>urn:ai-security-digest:2e2c6f6536dc79b9</id>
-    <published>2026-07-09T13:10:02Z</published>
-    <updated>2026-07-09T13:10:02Z</updated>
-    <content type="html">&lt;p&gt;EUが、NIS2サイバーセキュリティ指令の国内法化を20ヶ月以上遅延しているアイルランド、スペイン、フランス、オランダを提訴した。NIS2は重要インフラのサイバーセキュリティ強化を義務付ける規制であり、加盟国の対応遅延に対してEUが法的措置で圧力をかける姿勢を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="regulation"/>
-    <category term="policy"/>
-    <category term="governance"/>
+    <title>Forensic Schema for Psychological Manipulation in Cyber Fraud: LLM-Driven Victim Reports Analysis</title>
+    <link href="https://arxiv.org/abs/2607.07751" rel="alternate"/>
+    <id>urn:ai-security-digest:aa4b34a26db7c636</id>
+    <published>2026-07-10T04:00:00Z</published>
+    <updated>2026-07-10T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;サイバー詐欺における心理的操作手法を分析するためのフォレンジックスキーマを構築し、LLMを活用して約1万件の被害者レポートを自動アノテーションする手法を提案した研究。11の操作指標と暗号資産証拠フィールドを追加し、既存の分類体系を大幅に拡張している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="tool"/>
     <source>
-      <title>The Record by Recorded Future</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents</title>
+    <link href="https://arxiv.org/abs/2607.07774" rel="alternate"/>
+    <id>urn:ai-security-digest:b688b726957d054f</id>
+    <published>2026-07-10T04:00:00Z</published>
+    <updated>2026-07-10T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMエージェントが攻撃的セキュリティ業務（ペネトレーションテスト等）を行う際に、スコープ外のツール呼び出しを実行前に検出・遮断するゲーティングシステム「ScopeJudge」を提案した研究。ユーザーの意図をリアルタイムに推論し、エンゲージメント境界の逸脱を防ぐことで、AIエージェントの安全な運用を実現する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

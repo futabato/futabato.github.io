@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Researcher Details WhatsApp-to-Host Attack Chain Using Three OpenClaw Flaws",
+    "link": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html",
+    "source": "The Hacker News",
+    "published": "2026-07-10T14:19:50+00:00",
+    "summary_ja": "AIパーソナルアシスタント「OpenClaw」に3つの高深刻度脆弱性が発見され、WhatsAppを経由してホストシステムへの攻撃チェーンが成立することが実証された。これらの脆弱性により、認証情報の窃取、権限昇格、任意コード実行が可能となる。現在はパッチが適用済みだが、AIアシスタントのソフトウェアに対する攻撃手法として注目される。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "The Replicant in Your Directory: AI Agents and the Identity Security Gap",
+    "link": "https://www.bleepingcomputer.com/news/security/the-replicant-in-your-directory-ai-agents-and-the-identity-security-gap/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-10T14:00:10+00:00",
+    "summary_ja": "AIエージェントの普及により非人間アイデンティティ（NHI）が急増し、組織のID管理に深刻なギャップが生じていることが指摘されている。AIエージェントがエンタープライズの攻撃対象領域を拡大させており、可視性の向上とアイデンティティガバナンスの強化が急務とされている。",
+    "tags": [
+      "agent-security",
+      "governance"
+    ]
+  },
+  {
+    "title": "Controllability-Aware Adversarial Examples Against LLM-Based Network Traffic Classifiers",
+    "link": "https://arxiv.org/abs/2607.07739",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-10T04:00:00+00:00",
+    "summary_ja": "LLMをネットワーク侵入検知分類器として活用する際の敵対的堅牢性を検証した研究。フロー特性を制御可能性によって分類し、現実的な攻撃者制約下でのブラックボックス転移フレームワークを提案している。LLMベースのセキュリティ分類器に対する攻撃手法の新たな知見を提供する。",
+    "tags": [
+      "research",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Forensic Schema for Psychological Manipulation in Cyber Fraud: LLM-Driven Victim Reports Analysis",
+    "link": "https://arxiv.org/abs/2607.07751",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-10T04:00:00+00:00",
+    "summary_ja": "サイバー詐欺における心理的操作手法を分析するためのフォレンジックスキーマを構築し、LLMを活用して約1万件の被害者レポートを自動アノテーションする手法を提案した研究。11の操作指標と暗号資産証拠フィールドを追加し、既存の分類体系を大幅に拡張している。",
+    "tags": [
+      "research",
+      "tool"
+    ]
+  },
+  {
+    "title": "ScopeJudge: Cost-Aware Pre-Execution Gating for Offensive Security Agents",
+    "link": "https://arxiv.org/abs/2607.07774",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-10T04:00:00+00:00",
+    "summary_ja": "LLMエージェントが攻撃的セキュリティ業務（ペネトレーションテスト等）を行う際に、スコープ外のツール呼び出しを実行前に検出・遮断するゲーティングシステム「ScopeJudge」を提案した研究。ユーザーの意図をリアルタイムに推論し、エンゲージメント境界の逸脱を防ぐことで、AIエージェントの安全な運用を実現する。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  }
+]
