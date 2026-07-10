@@ -1,0 +1,62 @@
+[
+  {
+    "title": "自動で恐喝まで遂行するエージェント型ランサムの観測事例についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/07/10/082142",
+    "source": "piyolog",
+    "published": "2026-07-09T23:21:42+00:00",
+    "summary_ja": "SysdigのThreat Research Teamが、LLMエージェントが人間の介在なしに初期侵入から恐喝までを自律的に完遂した攻撃活動「JadePuffer」を報告した。これはLLMが単独で恐喝オペレーションを完遂した初の文書化事例とされており、エージェント型AIを悪用した新たな脅威の出現を示している。ただし観測はSysdig単独によるものであり、第三者による独立検証はまだ行われていない。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Dormant GitHub Accounts Help Attackers Blend In While Mapping Corporate Orgs",
+    "link": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html",
+    "source": "The Hacker News",
+    "published": "2026-07-09T18:38:49+00:00",
+    "summary_ja": "Datadog Security Labsが、休眠状態のGitHubアカウントを悪用して企業のGitHub組織・リポジトリ・ユーザー情報を自動で列挙する複数の攻撃キャンペーンを警告している。攻撃者は数年前から存在する「ゴーストアカウント」や侵害されたOAuthトークンを利用し、正規ユーザーに偽装しながら偵察活動を行っている。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Microsoft expects more Windows security updates from AI-discovered flaws",
+    "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-09T17:00:00+00:00",
+    "summary_ja": "MicrosoftはAIを活用した脆弱性発見の取り組みを強化しており、今後Windowsのセキュリティ更新プログラムが増加すると予告している。AIによる自動コード解析が従来の手動レビューでは見逃されていた脆弱性を発見しており、ソフトウェアセキュリティにおけるAI活用の新たな局面を示している。",
+    "tags": [
+      "vulnerability",
+      "tool",
+      "research"
+    ]
+  },
+  {
+    "title": "未成年者らのグループによる快活CLUBへの不正アクセスについてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/07/09/222807",
+    "source": "piyolog",
+    "published": "2026-07-09T13:28:07+00:00",
+    "summary_ja": "快活CLUBへの不正アクセス事件において、10代を中心とする未成年者グループがChatGPTを悪用して攻撃プログラムを自作し、729万件の会員情報漏えいを引き起こしたことが明らかになった。生成AIが攻撃ツール作成に悪用された国内の具体的事例として、複数の未成年者が逮捕・書類送致されている。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "EU takes member states to court over unimplemented cybersecurity law",
+    "link": "https://therecord.media/eu-cyber-filing-ireland-spain-france-netherlands-nis2",
+    "source": "The Record by Recorded Future",
+    "published": "2026-07-09T13:10:02+00:00",
+    "summary_ja": "EUが、NIS2サイバーセキュリティ指令の国内法化を20ヶ月以上遅延しているアイルランド、スペイン、フランス、オランダを提訴した。NIS2は重要インフラのサイバーセキュリティ強化を義務付ける規制であり、加盟国の対応遅延に対してEUが法的措置で圧力をかける姿勢を示している。",
+    "tags": [
+      "regulation",
+      "policy",
+      "governance"
+    ]
+  }
+]
