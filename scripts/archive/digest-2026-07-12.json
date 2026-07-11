@@ -1,0 +1,62 @@
+[
+  {
+    "title": "'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets",
+    "link": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-11T09:03:57+00:00",
+    "summary_ja": "「Ghostcommit」と名付けられた新たな攻撃手法では、PNG画像内にプロンプトインジェクションを隠蔽し、AIコードレビューエージェント（CodeRabbitやBugbot）を欺いてリポジトリの機密情報（.envファイルの内容など）を窃取できることが実証された。AIエージェントが画像ファイルを開かない盲点を突いた手法であり、コーディングエージェントのセキュリティ上の重大なリスクを示している。",
+    "tags": [
+      "adversarial",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
+    "link": "https://arxiv.org/abs/2607.07760",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-07-11T04:00:00+00:00",
+    "summary_ja": "人間とLLMが混在する高密度な情報コミュニケーション環境において、情報の歪曲・捏造・戦略的省略などが生じる「敵対的社会認識論（ASE）」の枠組みを提唱した研究。LLMが証言・推論・信頼の連鎖に組み込まれた場合の情報操作リスクを分析しており、AIの社会的安全性に関する重要な視点を提供している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Alignment Plausibility: A New Standard for Assuring AI in Healthcare",
+    "link": "https://arxiv.org/abs/2607.07766",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-07-11T04:00:00+00:00",
+    "summary_ja": "ヘルスケア分野におけるLLMの安全性保証に関する研究で、「アラインメント妥当性（Alignment Plausibility）」という新基準を提案している。精神的健康支援に用いられるLLMがアテンションエコノミーの商業的目標に引きずられ、依存性助長など長期的・潜在的なリスクを生じさせている点を指摘し、より包括的な安全性評価の必要性を論じている。",
+    "tags": [
+      "model-safety",
+      "evaluation",
+      "governance"
+    ]
+  },
+  {
+    "title": "Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning",
+    "link": "https://arxiv.org/abs/2607.07859",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-07-11T04:00:00+00:00",
+    "summary_ja": "強化学習エージェントのアライメント研究において、人間のデモンストレーションとフィードバックを組み合わせたオフラインエージェントアライメント手法「フィードバック操作正則化（FMR）」を提案した論文。既存の多段階パイプラインの限界を克服し、AIエージェントが人間の価値観に沿った行動を学習するための新しいアプローチを示している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Persona Cartography: Charting Language Model Personality Traits in Weight Space",
+    "link": "https://arxiv.org/abs/2607.07916",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-07-11T04:00:00+00:00",
+    "summary_ja": "LLMの「ペルソナ」（繰り返し現れる行動パターン）を重み空間上でOCEANフレームワークを用いてマッピング・制御する手法を提案した研究。ペルソナがモデルの汎化性と安全性に影響を与えることを指摘しており、LLMの安全性や制御可能性に関する新たな評価・管理ツールとして注目される。",
+    "tags": [
+      "research",
+      "model-safety",
+      "evaluation"
+    ]
+  }
+]
