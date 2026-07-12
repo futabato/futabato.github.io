@@ -3,80 +3,22 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-11T23:52:21Z</updated>
+  <updated>2026-07-12T23:50:35Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>'Ghostcommit' hides prompt injection in images to fool AI agents, steal secrets</title>
-    <link href="https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/" rel="alternate"/>
-    <id>urn:ai-security-digest:23c14337daef23d0</id>
-    <published>2026-07-11T09:03:57Z</published>
-    <updated>2026-07-11T09:03:57Z</updated>
-    <content type="html">&lt;p&gt;「Ghostcommit」と名付けられた新たな攻撃手法では、PNG画像内にプロンプトインジェクションを隠蔽し、AIコードレビューエージェント（CodeRabbitやBugbot）を欺いてリポジトリの機密情報（.envファイルの内容など）を窃取できることが実証された。AIエージェントが画像ファイルを開かない盲点を突いた手法であり、コーディングエージェントのセキュリティ上の重大なリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
-    <category term="agent-security"/>
-    <category term="vulnerability"/>
+    <title>sqlite-utils 4.1.1</title>
+    <link href="https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:61cb7400ca6e7254</id>
+    <published>2026-07-12T20:55:30Z</published>
+    <updated>2026-07-12T20:55:30Z</updated>
+    <content type="html">&lt;p&gt;Release: sqlite-utils 4.1.1 table.transform() now raises a TransactionError if called while a transaction is open with PRAGMAforeign_keys enabled and the table is referenced by foreign keys with destr&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;ai_commentary&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="ai_commentary"/>
     <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Adversarial Social Epistemology for Assemblies of Humans and Large Language Models</title>
-    <link href="https://arxiv.org/abs/2607.07760" rel="alternate"/>
-    <id>urn:ai-security-digest:a3c336c85b325b49</id>
-    <published>2026-07-11T04:00:00Z</published>
-    <updated>2026-07-11T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;人間とLLMが混在する高密度な情報コミュニケーション環境において、情報の歪曲・捏造・戦略的省略などが生じる「敵対的社会認識論（ASE）」の枠組みを提唱した研究。LLMが証言・推論・信頼の連鎖に組み込まれた場合の情報操作リスクを分析しており、AIの社会的安全性に関する重要な視点を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Alignment Plausibility: A New Standard for Assuring AI in Healthcare</title>
-    <link href="https://arxiv.org/abs/2607.07766" rel="alternate"/>
-    <id>urn:ai-security-digest:e0eaaa235049b5f4</id>
-    <published>2026-07-11T04:00:00Z</published>
-    <updated>2026-07-11T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;ヘルスケア分野におけるLLMの安全性保証に関する研究で、「アラインメント妥当性（Alignment Plausibility）」という新基準を提案している。精神的健康支援に用いられるLLMがアテンションエコノミーの商業的目標に引きずられ、依存性助長など長期的・潜在的なリスクを生じさせている点を指摘し、より包括的な安全性評価の必要性を論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
-    <category term="governance"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Feedback Manipulation Regularization: Enabling Offline Agent Alignment for Imitation Learning</title>
-    <link href="https://arxiv.org/abs/2607.07859" rel="alternate"/>
-    <id>urn:ai-security-digest:fcac9eaf7081d410</id>
-    <published>2026-07-11T04:00:00Z</published>
-    <updated>2026-07-11T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;強化学習エージェントのアライメント研究において、人間のデモンストレーションとフィードバックを組み合わせたオフラインエージェントアライメント手法「フィードバック操作正則化（FMR）」を提案した論文。既存の多段階パイプラインの限界を克服し、AIエージェントが人間の価値観に沿った行動を学習するための新しいアプローチを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Persona Cartography: Charting Language Model Personality Traits in Weight Space</title>
-    <link href="https://arxiv.org/abs/2607.07916" rel="alternate"/>
-    <id>urn:ai-security-digest:671c33c0b44b68ab</id>
-    <published>2026-07-11T04:00:00Z</published>
-    <updated>2026-07-11T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMの「ペルソナ」（繰り返し現れる行動パターン）を重み空間上でOCEANフレームワークを用いてマッピング・制御する手法を提案した研究。ペルソナがモデルの汎化性と安全性に影響を与えることを指摘しており、LLMの安全性や制御可能性に関する新たな評価・管理ツールとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
 </feed>

@@ -1,0 +1,12 @@
+[
+  {
+    "title": "sqlite-utils 4.1.1",
+    "link": "https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-12T20:55:30+00:00",
+    "summary_ja": "Release: sqlite-utils 4.1.1 table.transform() now raises a TransactionError if called while a transaction is open with PRAGMAforeign_keys enabled and the table is referenced by foreign keys with destr",
+    "tags": [
+      "ai_commentary"
+    ]
+  }
+]
