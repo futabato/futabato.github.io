@@ -3,22 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-12T23:50:35Z</updated>
+  <updated>2026-07-13T23:51:57Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>sqlite-utils 4.1.1</title>
-    <link href="https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:61cb7400ca6e7254</id>
-    <published>2026-07-12T20:55:30Z</published>
-    <updated>2026-07-12T20:55:30Z</updated>
-    <content type="html">&lt;p&gt;Release: sqlite-utils 4.1.1 table.transform() now raises a TransactionError if called while a transaction is open with PRAGMAforeign_keys enabled and the table is referenced by foreign keys with destr&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;ai_commentary&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="ai_commentary"/>
+    <title>New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email</title>
+    <link href="https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html" rel="alternate"/>
+    <id>urn:ai-security-digest:b686c465336853b9</id>
+    <published>2026-07-13T13:49:48Z</published>
+    <updated>2026-07-13T13:49:48Z</updated>
+    <content type="html">&lt;p&gt;AIエージェントのメモリ機能を悪用する新たな攻撃手法「MemGhost」が発見された。攻撃者は1通のメールを通じてAIアシスタントに偽の「記憶」を永続的に植え付け、その後のセッションでエージェントの回答を密かに誘導できる。ユーザーは改ざんに気づかないまま、操作された情報を受け取り続ける危険性がある。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
     <source>
-      <title>Simon Willison's Weblog</title>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory</title>
+    <link href="https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html" rel="alternate"/>
+    <id>urn:ai-security-digest:af8ae50feb023e74</id>
+    <published>2026-07-13T11:02:33Z</published>
+    <updated>2026-07-13T11:02:33Z</updated>
+    <content type="html">&lt;p&gt;未知の脅威アクターがAI生成と疑われるPowerShellスクリプトを使用してActive Directoryの列挙を行ったインシデントが報告された。いわゆる「バイブコーディング」による攻撃スクリプトがドメインコントローラーの特定やユーザー・コンピューター情報の収集に利用されており、攻撃者がAIを活用した侵害手法を実戦投入している実態が浮き彫りになった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <category term="tool"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Proof-of-Continuity: A Temporal Model for Authority Propagation in Distributed Systems and AI Agents</title>
+    <link href="https://arxiv.org/abs/2607.08906" rel="alternate"/>
+    <id>urn:ai-security-digest:14322d1ab40c5f66</id>
+    <published>2026-07-13T04:00:00Z</published>
+    <updated>2026-07-13T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;分散システムおよびAIエージェントにおける権限伝播の時間的整合性を保証する新しいモデル「Proof-of-Continuity」を提案する研究論文。トークンや資格情報の「所持」だけでは離散的な実行チェーン上での権限の因果関係を保証できないと主張し、AIエージェントが複数ステップにまたがる処理を行う際の認可モデルの脆弱性に対処する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="governance"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>RaMark: Radioactive Watermarking for Generated Tabular Data</title>
+    <link href="https://arxiv.org/abs/2607.09000" rel="alternate"/>
+    <id>urn:ai-security-digest:4cb4f4b2dab78649</id>
+    <published>2026-07-13T04:00:00Z</published>
+    <updated>2026-07-13T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;生成AIが作成した表形式データの所有権検証を可能にするウォーターマーキング手法「RaMark」を提案する研究。既存の手法が再学習攻撃（敵対者がウォーターマーク済みデータで生成モデルを再訓練し透かしを除去する攻撃）に対して脆弱である問題に対処し、放射性ウォーターマークとして再学習後も追跡可能な新手法を実現する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Secret Scanner Agent: Extracting Secrets and Access Context from Unstructured Documents</title>
+    <link href="https://arxiv.org/abs/2607.09011" rel="alternate"/>
+    <id>urn:ai-security-digest:c2eabdc590717c8a</id>
+    <published>2026-07-13T04:00:00Z</published>
+    <updated>2026-07-13T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMを活用したAIエージェントが、メールやチャット履歴・インシデントノートなどの非構造化ドキュメントから漏洩した認証情報とそのアクセス先（アカウント、データベース、クラウドリソース等）を自動的に抽出する「Secret Scanner Agent」を提案する研究。正規表現ベースの従来ツールでは検出困難なコンテキスト情報も含めて特定できる点が新しく、インシデントレスポンスの効率化に貢献する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="tool"/>
+    <category term="agent-security"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

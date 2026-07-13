@@ -51,19 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年07月13日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">1件</span>
+    <span class="current-date" id="current-date">2026年07月14日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>07/12</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
+            <time>07/13</time>
+            <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Jul/12/sqlite-utils/#atom-everything" target="_blank" rel="noopener">sqlite-utils 4.1.1</a></h3>
-          <p>Release: sqlite-utils 4.1.1 table.transform() now raises a TransactionError if called while a transaction is open with PRAGMAforeign_keys enabled and the table is referenced by foreign keys with destr</p>
-          <div class="tags"><span class="tag">ai_commentary</span></div>
+          <h3><a href="https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html" target="_blank" rel="noopener">New MemGhost Attack Plants Persistent False Memories in AI Agents Through One Email</a></h3>
+          <p>AIエージェントのメモリ機能を悪用する新たな攻撃手法「MemGhost」が発見された。攻撃者は1通のメールを通じてAIアシスタントに偽の「記憶」を永続的に植え付け、その後のセッションでエージェントの回答を密かに誘導できる。ユーザーは改ざんに気づかないまま、操作された情報を受け取り続ける危険性がある。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/13</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html" target="_blank" rel="noopener">Attacker Uses Suspected AI-Generated PowerShell Script to Map Active Directory</a></h3>
+          <p>未知の脅威アクターがAI生成と疑われるPowerShellスクリプトを使用してActive Directoryの列挙を行ったインシデントが報告された。いわゆる「バイブコーディング」による攻撃スクリプトがドメインコントローラーの特定やユーザー・コンピューター情報の収集に利用されており、攻撃者がAIを活用した侵害手法を実戦投入している実態が浮き彫りになった。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">tool</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/13</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2607.08906" target="_blank" rel="noopener">Proof-of-Continuity: A Temporal Model for Authority Propagation in Distributed Systems and AI Agents</a></h3>
+          <p>分散システムおよびAIエージェントにおける権限伝播の時間的整合性を保証する新しいモデル「Proof-of-Continuity」を提案する研究論文。トークンや資格情報の「所持」だけでは離散的な実行チェーン上での権限の因果関係を保証できないと主張し、AIエージェントが複数ステップにまたがる処理を行う際の認可モデルの脆弱性に対処する。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">governance</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/13</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2607.09000" target="_blank" rel="noopener">RaMark: Radioactive Watermarking for Generated Tabular Data</a></h3>
+          <p>生成AIが作成した表形式データの所有権検証を可能にするウォーターマーキング手法「RaMark」を提案する研究。既存の手法が再学習攻撃（敵対者がウォーターマーク済みデータで生成モデルを再訓練し透かしを除去する攻撃）に対して脆弱である問題に対処し、放射性ウォーターマークとして再学習後も追跡可能な新手法を実現する。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/13</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2607.09011" target="_blank" rel="noopener">Secret Scanner Agent: Extracting Secrets and Access Context from Unstructured Documents</a></h3>
+          <p>LLMを活用したAIエージェントが、メールやチャット履歴・インシデントノートなどの非構造化ドキュメントから漏洩した認証情報とそのアクセス先（アカウント、データベース、クラウドリソース等）を自動的に抽出する「Secret Scanner Agent」を提案する研究。正規表現ベースの従来ツールでは検出困難なコンテキスト情報も含めて特定できる点が新しく、インシデントレスポンスの効率化に貢献する。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">tool</span> <span class="tag">agent-security</span></div>
         </article>
   </main>
   <footer>
