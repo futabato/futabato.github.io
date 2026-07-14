@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Microsoft Patches a Record 570 Security Flaws",
+    "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+    "source": "Krebs on Security",
+    "published": "2026-07-14T19:22:42+00:00",
+    "summary_ja": "Microsoftが記録的な570件のセキュリティ脆弱性にパッチを適用した。同社はこの急増する脆弱性発見数の背景にAIによる支援があると説明しており、AIが脆弱性発見プロセスに与える影響が注目される。",
+    "tags": [
+      "vulnerability",
+      "tool"
+    ]
+  }
+]
