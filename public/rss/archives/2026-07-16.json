@@ -1,0 +1,62 @@
+[
+  {
+    "title": "TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development",
+    "link": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html",
+    "source": "The Hacker News",
+    "published": "2026-07-15T18:43:08+00:00",
+    "summary_ja": "LLMの支援を受けて開発されたとみられるIoTボットネットフレームワーク「TuxBot v3 Evolution」の詳細が公開された。AIがボットネットコードの生成リクエストに応じた一方で安全免責文を付加しており、LLMが悪意あるコード開発に悪用される新たな脅威トレンドを示している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "incident"
+    ]
+  },
+  {
+    "title": "Google Gemini CLI abused as a hacking agent, malware botnet operator",
+    "link": "https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-15T18:33:48+00:00",
+    "summary_ja": "ロシア語話者の脅威アクターがGoogleのオープンソースAIツール「Gemini CLI」をハッキングエージェントおよびボットネット運用に悪用した事例が報告された。AIエージェントが実際の攻撃インフラとして活用された具体的なインシデントとして注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "How I tricked Claude into leaking your deepest, darkest secrets",
+    "link": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-15T14:21:54+00:00",
+    "summary_ja": "ClaudeのWeb取得ツールにおけるデータ外部流出攻撃の脆弱性が研究者によって発見された。プロンプトインジェクションと組み合わせた「致死的な三連攻撃」により、ユーザーの過去の会話記憶などプライベートデータが外部に漏洩するリスクが示された。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "We built a vulnerability vending machine: AI tokens in, zero-days out",
+    "link": "https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-15T14:01:11+00:00",
+    "summary_ja": "セキュリティ企業Intruderが、コードスライシングとLLMを組み合わせた「脆弱性自動発見マシン」を構築し、WordPressプラグインの未知のゼロデイ脆弱性を自動的に発見・実証した。LLMを活用した自動脆弱性探索の有効性と危険性を同時に示す研究事例。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "research"
+    ]
+  },
+  {
+    "title": "Cross-Cutting Security Analysis of LLM-Generated Code via Metamorphic Testing and Association Rule Mining",
+    "link": "https://arxiv.org/abs/2607.12089",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-15T04:00:00+00:00",
+    "summary_ja": "LLMが生成するコードにはセキュリティ脆弱性が頻出するという問題に対し、メタモルフィックテストと関連ルールマイニングを組み合わせた新しい評価フレームワークを提案した研究。脆弱性が複数の関心領域にまたがる「クロスカッティング」な構造を持つことを明らかにしている。",
+    "tags": [
+      "research",
+      "evaluation",
+      "vulnerability"
+    ]
+  }
+]
