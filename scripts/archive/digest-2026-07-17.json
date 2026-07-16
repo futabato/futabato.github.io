@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+    "link": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-16T19:26:07+00:00",
+    "summary_ja": "AnthropicのClaude Chrome拡張機能に脆弱性が発見された。悪意ある拡張機能がユーザークリックを模倣することでAIアクションを不正にトリガーし、Gmail、Google Docs、Salesforceなどの連携サービスを悪用できる可能性がある。",
+    "tags": [
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Quoting Thibault Sottiaux",
+    "link": "https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-16T17:45:59+00:00",
+    "summary_ja": "OpenAIのCodex（GPT-5.6）においてファイルを意図せず削除するバグが確認された。フルアクセスモードでサンドボックス保護なしに実行した際、モデルが$HOME環境変数を誤って上書きしホームディレクトリを削除するという深刻な挙動が報告されている。",
+    "tags": [
+      "model-safety",
+      "incident",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Least privilege for AI agents: Identity, access, and tool binding",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-07-16T16:00:00+00:00",
+    "summary_ja": "MicrosoftがAIエージェントに対する最小権限の原則の適用について解説した。エージェントの自律性が高まる中、アイデンティティ管理・アクセス制御・ツールバインディング・監査の重要性を強調し、セキュアなエージェント設計の指針を示している。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "tool"
+    ]
+  },
+  {
+    "title": "AI Agents Broke the Security Playbook. Here's What Replaces It.",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-16T14:00:10+00:00",
+    "summary_ja": "AIエージェントの登場により従来のセキュリティプレイブックが機能しなくなりつつあるとして、Token Securityがエージェント向けの新たなセキュリティアプローチを提唱している。リアルタイムのアイデンティティ基盤を軸に、AIエージェント特有のリスクに対応するワークフロー設計の必要性を説いている。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "tool"
+    ]
+  },
+  {
+    "title": "n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer",
+    "link": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html",
+    "source": "The Hacker News",
+    "published": "2026-07-16T13:33:25+00:00",
+    "summary_ja": "ワークフロー自動化プラットフォームn8nのエンタープライズ版において、JWTトークン検証の不備により別の発行者のトークンで他ユーザーとしてログインできる脆弱性が発見された。n8nはAIワークフロー自動化でも広く利用されており、AIエージェント連携環境でのリスクが懸念される。",
+    "tags": [
+      "vulnerability",
+      "agent-security"
+    ]
+  }
+]

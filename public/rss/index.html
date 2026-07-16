@@ -51,55 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年07月16日</span>
+    <span class="current-date" id="current-date">2026年07月17日</span>
     <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>07/15</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html" target="_blank" rel="noopener">TuxBot v3 Evolution Shows Signs of LLM-Assisted IoT Botnet Development</a></h3>
-          <p>LLMの支援を受けて開発されたとみられるIoTボットネットフレームワーク「TuxBot v3 Evolution」の詳細が公開された。AIがボットネットコードの生成リクエストに応じた一方で安全免責文を付加しており、LLMが悪意あるコード開発に悪用される新たな脅威トレンドを示している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">incident</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>07/15</time>
+            <time>07/16</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/google-gemini-cli-abused-as-a-hacking-agent-malware-botnet-operator/" target="_blank" rel="noopener">Google Gemini CLI abused as a hacking agent, malware botnet operator</a></h3>
-          <p>ロシア語話者の脅威アクターがGoogleのオープンソースAIツール「Gemini CLI」をハッキングエージェントおよびボットネット運用に悪用した事例が報告された。AIエージェントが実際の攻撃インフラとして活用された具体的なインシデントとして注目される。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/" target="_blank" rel="noopener">Claude Chrome extension flaw lets malicious extensions trigger AI actions</a></h3>
+          <p>AnthropicのClaude Chrome拡張機能に脆弱性が発見された。悪意ある拡張機能がユーザークリックを模倣することでAIアクションを不正にトリガーし、Gmail、Google Docs、Salesforceなどの連携サービスを悪用できる可能性がある。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>07/15</time>
+            <time>07/16</time>
             <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything" target="_blank" rel="noopener">How I tricked Claude into leaking your deepest, darkest secrets</a></h3>
-          <p>ClaudeのWeb取得ツールにおけるデータ外部流出攻撃の脆弱性が研究者によって発見された。プロンプトインジェクションと組み合わせた「致死的な三連攻撃」により、ユーザーの過去の会話記憶などプライベートデータが外部に漏洩するリスクが示された。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything" target="_blank" rel="noopener">Quoting Thibault Sottiaux</a></h3>
+          <p>OpenAIのCodex（GPT-5.6）においてファイルを意図せず削除するバグが確認された。フルアクセスモードでサンドボックス保護なしに実行した際、モデルが$HOME環境変数を誤って上書きしホームディレクトリを削除するという深刻な挙動が報告されている。</p>
+          <div class="tags"><span class="tag">model-safety</span> <span class="tag">incident</span> <span class="tag">vulnerability</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>07/15</time>
+            <time>07/16</time>
+            <span class="source">Microsoft Security Blog</span>
+          </div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/" target="_blank" rel="noopener">Least privilege for AI agents: Identity, access, and tool binding</a></h3>
+          <p>MicrosoftがAIエージェントに対する最小権限の原則の適用について解説した。エージェントの自律性が高まる中、アイデンティティ管理・アクセス制御・ツールバインディング・監査の重要性を強調し、セキュアなエージェント設計の指針を示している。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">tool</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/16</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/we-built-a-vulnerability-vending-machine-ai-tokens-in-zero-days-out/" target="_blank" rel="noopener">We built a vulnerability vending machine: AI tokens in, zero-days out</a></h3>
-          <p>セキュリティ企業Intruderが、コードスライシングとLLMを組み合わせた「脆弱性自動発見マシン」を構築し、WordPressプラグインの未知のゼロデイ脆弱性を自動的に発見・実証した。LLMを活用した自動脆弱性探索の有効性と危険性を同時に示す研究事例。</p>
-          <div class="tags"><span class="tag">tool</span> <span class="tag">vulnerability</span> <span class="tag">research</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/" target="_blank" rel="noopener">AI Agents Broke the Security Playbook. Here&#x27;s What Replaces It.</a></h3>
+          <p>AIエージェントの登場により従来のセキュリティプレイブックが機能しなくなりつつあるとして、Token Securityがエージェント向けの新たなセキュリティアプローチを提唱している。リアルタイムのアイデンティティ基盤を軸に、AIエージェント特有のリスクに対応するワークフロー設計の必要性を説いている。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">tool</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>07/15</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+            <time>07/16</time>
+            <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2607.12089" target="_blank" rel="noopener">Cross-Cutting Security Analysis of LLM-Generated Code via Metamorphic Testing and Association Rule Mining</a></h3>
-          <p>LLMが生成するコードにはセキュリティ脆弱性が頻出するという問題に対し、メタモルフィックテストと関連ルールマイニングを組み合わせた新しい評価フレームワークを提案した研究。脆弱性が複数の関心領域にまたがる「クロスカッティング」な構造を持つことを明らかにしている。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">vulnerability</span></div>
+          <h3><a href="https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html" target="_blank" rel="noopener">n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer</a></h3>
+          <p>ワークフロー自動化プラットフォームn8nのエンタープライズ版において、JWTトークン検証の不備により別の発行者のトークンで他ユーザーとしてログインできる脆弱性が発見された。n8nはAIワークフロー自動化でも広く利用されており、AIエージェント連携環境でのリスクが懸念される。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span></div>
         </article>
   </main>
   <footer>
