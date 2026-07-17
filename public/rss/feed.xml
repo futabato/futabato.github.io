@@ -3,78 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-16T23:56:02Z</updated>
+  <updated>2026-07-17T23:50:08Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Claude Chrome extension flaw lets malicious extensions trigger AI actions</title>
-    <link href="https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/" rel="alternate"/>
-    <id>urn:ai-security-digest:f6538113513daf94</id>
-    <published>2026-07-16T19:26:07Z</published>
-    <updated>2026-07-16T19:26:07Z</updated>
-    <content type="html">&lt;p&gt;AnthropicのClaude Chrome拡張機能に脆弱性が発見された。悪意ある拡張機能がユーザークリックを模倣することでAIアクションを不正にトリガーし、Gmail、Google Docs、Salesforceなどの連携サービスを悪用できる可能性がある。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Quoting Thibault Sottiaux</title>
-    <link href="https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:d8ca3e3a6045eb55</id>
-    <published>2026-07-16T17:45:59Z</published>
-    <updated>2026-07-16T17:45:59Z</updated>
-    <content type="html">&lt;p&gt;OpenAIのCodex（GPT-5.6）においてファイルを意図せず削除するバグが確認された。フルアクセスモードでサンドボックス保護なしに実行した際、モデルが$HOME環境変数を誤って上書きしホームディレクトリを削除するという深刻な挙動が報告されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/" rel="alternate"/>
+    <id>urn:ai-security-digest:b5cc18577058715f</id>
+    <published>2026-07-17T16:00:00Z</published>
+    <updated>2026-07-17T16:00:00Z</updated>
+    <content type="html">&lt;p&gt;MicrosoftがBlack Hat USA 2026において、AIの信頼性防御とサプライチェーン攻撃に関する研究・セキュリティ体験を発表予定であることを告知したブログ記事。AI時代のセキュリティ課題に対するMicrosoftの取り組みや最新の研究成果が共有される見込みである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
     <category term="model-safety"/>
-    <category term="incident"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Least privilege for AI agents: Identity, access, and tool binding</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/" rel="alternate"/>
-    <id>urn:ai-security-digest:75f2a6e6f9f3a9da</id>
-    <published>2026-07-16T16:00:00Z</published>
-    <updated>2026-07-16T16:00:00Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftがAIエージェントに対する最小権限の原則の適用について解説した。エージェントの自律性が高まる中、アイデンティティ管理・アクセス制御・ツールバインディング・監査の重要性を強調し、セキュアなエージェント設計の指針を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <category term="tool"/>
     <source>
       <title>Microsoft Security Blog</title>
     </source>
   </entry>
   <entry>
-    <title>AI Agents Broke the Security Playbook. Here's What Replaces It.</title>
-    <link href="https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/" rel="alternate"/>
-    <id>urn:ai-security-digest:4b23d25aad46ff57</id>
-    <published>2026-07-16T14:00:10Z</published>
-    <updated>2026-07-16T14:00:10Z</updated>
-    <content type="html">&lt;p&gt;AIエージェントの登場により従来のセキュリティプレイブックが機能しなくなりつつあるとして、Token Securityがエージェント向けの新たなセキュリティアプローチを提唱している。リアルタイムのアイデンティティ基盤を軸に、AIエージェント特有のリスクに対応するワークフロー設計の必要性を説いている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <category term="tool"/>
+    <title>Quoting Kimi K3</title>
+    <link href="https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything" rel="alternate"/>
+    <id>urn:ai-security-digest:3293d2845978c618</id>
+    <published>2026-07-17T13:43:53Z</published>
+    <updated>2026-07-17T13:43:53Z</updated>
+    <content type="html">&lt;p&gt;中国のAIモデル「Kimi K3」がシステムプロンプトの漏洩を拒否した際の応答を紹介した短報。LLMがシステムプロンプト保護のためにどのような振る舞いをするかという、モデルの安全性・情報保護挙動に関する事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="model-safety"/>
+    <category term="adversarial"/>
     <source>
-      <title>Bleeping Computer</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
   <entry>
-    <title>n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer</title>
-    <link href="https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html" rel="alternate"/>
-    <id>urn:ai-security-digest:ae03488274cf3725</id>
-    <published>2026-07-16T13:33:25Z</published>
-    <updated>2026-07-16T13:33:25Z</updated>
-    <content type="html">&lt;p&gt;ワークフロー自動化プラットフォームn8nのエンタープライズ版において、JWTトークン検証の不備により別の発行者のトークンで他ユーザーとしてログインできる脆弱性が発見された。n8nはAIワークフロー自動化でも広く利用されており、AIエージェント連携環境でのリスクが懸念される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation</title>
+    <link href="https://arxiv.org/abs/2607.14493" rel="alternate"/>
+    <id>urn:ai-security-digest:22c2778e05e463fb</id>
+    <published>2026-07-17T04:00:00Z</published>
+    <updated>2026-07-17T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMをSOC（セキュリティオペレーションセンター）のログ分析に活用するシステムが、パッシブプロンプトインジェクション攻撃に対して脆弱であることを実証した研究。攻撃者がネットワークログ内に悪意あるプロンプトを埋め込むことでLLMの分析結果を汚染できることを示し、その緩和策も評価している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="vulnerability"/>
+    <category term="adversarial"/>
     <category term="agent-security"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems</title>
+    <link href="https://arxiv.org/abs/2607.14611" rel="alternate"/>
+    <id>urn:ai-security-digest:6c58da338048bfb1</id>
+    <published>2026-07-17T04:00:00Z</published>
+    <updated>2026-07-17T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;メモリ機能を持つエージェント型AIシステムにおけるプロンプトインジェクションリスクを評価した研究。永続的なメモリファイルや知識ベースに悪意ある命令を埋め込むことで将来の動作に影響を与える新たな攻撃面を分析し、メモリベースのエージェントシステムの安全性上の課題を明らかにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Fully Automated End-to-End Adversary Emulation from MITRE ATT\&amp;CK Based Cyber Threat Intelligence Using LLMs</title>
+    <link href="https://arxiv.org/abs/2607.14566" rel="alternate"/>
+    <id>urn:ai-security-digest:8ed5349bfac3b517</id>
+    <published>2026-07-17T04:00:00Z</published>
+    <updated>2026-07-17T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;MITRE ATT&amp;amp;CKフレームワークに基づくCTIレポートからLLMを用いて敵対的エミュレーションを完全自動化するエンドツーエンドフレームワークを提案した研究。プレイブックの生成・実行・失敗回復を単一ワークフローで統合し、従来手法を大幅に上回る自動化を実現している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="tool"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

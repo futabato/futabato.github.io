@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-07-17T16:00:00+00:00",
+    "summary_ja": "MicrosoftがBlack Hat USA 2026において、AIの信頼性防御とサプライチェーン攻撃に関する研究・セキュリティ体験を発表予定であることを告知したブログ記事。AI時代のセキュリティ課題に対するMicrosoftの取り組みや最新の研究成果が共有される見込みである。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Quoting Kimi K3",
+    "link": "https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-17T13:43:53+00:00",
+    "summary_ja": "中国のAIモデル「Kimi K3」がシステムプロンプトの漏洩を拒否した際の応答を紹介した短報。LLMがシステムプロンプト保護のためにどのような振る舞いをするかという、モデルの安全性・情報保護挙動に関する事例として注目される。",
+    "tags": [
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation",
+    "link": "https://arxiv.org/abs/2607.14493",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-17T04:00:00+00:00",
+    "summary_ja": "LLMをSOC（セキュリティオペレーションセンター）のログ分析に活用するシステムが、パッシブプロンプトインジェクション攻撃に対して脆弱であることを実証した研究。攻撃者がネットワークログ内に悪意あるプロンプトを埋め込むことでLLMの分析結果を汚染できることを示し、その緩和策も評価している。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems",
+    "link": "https://arxiv.org/abs/2607.14611",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-17T04:00:00+00:00",
+    "summary_ja": "メモリ機能を持つエージェント型AIシステムにおけるプロンプトインジェクションリスクを評価した研究。永続的なメモリファイルや知識ベースに悪意ある命令を埋め込むことで将来の動作に影響を与える新たな攻撃面を分析し、メモリベースのエージェントシステムの安全性上の課題を明らかにしている。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "agent-security",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Fully Automated End-to-End Adversary Emulation from MITRE ATT\\&CK Based Cyber Threat Intelligence Using LLMs",
+    "link": "https://arxiv.org/abs/2607.14566",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-17T04:00:00+00:00",
+    "summary_ja": "MITRE ATT&CKフレームワークに基づくCTIレポートからLLMを用いて敵対的エミュレーションを完全自動化するエンドツーエンドフレームワークを提案した研究。プレイブックの生成・実行・失敗回復を単一ワークフローで統合し、従来手法を大幅に上回る自動化を実現している。",
+    "tags": [
+      "research",
+      "tool",
+      "adversarial"
+    ]
+  }
+]

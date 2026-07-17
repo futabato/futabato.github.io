@@ -51,55 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年07月17日</span>
+    <span class="current-date" id="current-date">2026年07月18日</span>
     <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>07/16</time>
-            <span class="source">Bleeping Computer</span>
-          </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/" target="_blank" rel="noopener">Claude Chrome extension flaw lets malicious extensions trigger AI actions</a></h3>
-          <p>AnthropicのClaude Chrome拡張機能に脆弱性が発見された。悪意ある拡張機能がユーザークリックを模倣することでAIアクションを不正にトリガーし、Gmail、Google Docs、Salesforceなどの連携サービスを悪用できる可能性がある。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>07/16</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
-          </div>
-          <h3><a href="https://simonwillison.net/2026/Jul/16/bad-codex-bug/#atom-everything" target="_blank" rel="noopener">Quoting Thibault Sottiaux</a></h3>
-          <p>OpenAIのCodex（GPT-5.6）においてファイルを意図せず削除するバグが確認された。フルアクセスモードでサンドボックス保護なしに実行した際、モデルが$HOME環境変数を誤って上書きしホームディレクトリを削除するという深刻な挙動が報告されている。</p>
-          <div class="tags"><span class="tag">model-safety</span> <span class="tag">incident</span> <span class="tag">vulnerability</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>07/16</time>
+            <time>07/17</time>
             <span class="source">Microsoft Security Blog</span>
           </div>
-          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/07/16/least-privilege-for-ai-agents-identity-access-and-tool-binding/" target="_blank" rel="noopener">Least privilege for AI agents: Identity, access, and tool binding</a></h3>
-          <p>MicrosoftがAIエージェントに対する最小権限の原則の適用について解説した。エージェントの自律性が高まる中、アイデンティティ管理・アクセス制御・ツールバインディング・監査の重要性を強調し、セキュアなエージェント設計の指針を示している。</p>
-          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">tool</span></div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/07/17/microsoft-at-black-hat-usa-2026-defending-trust-in-the-age-of-ai-and-supply-chain-attacks/" target="_blank" rel="noopener">Microsoft at Black Hat USA 2026: Defending trust in the age of AI and supply chain attacks</a></h3>
+          <p>MicrosoftがBlack Hat USA 2026において、AIの信頼性防御とサプライチェーン攻撃に関する研究・セキュリティ体験を発表予定であることを告知したブログ記事。AI時代のセキュリティ課題に対するMicrosoftの取り組みや最新の研究成果が共有される見込みである。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>07/16</time>
-            <span class="source">Bleeping Computer</span>
+            <time>07/17</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/ai-agents-broke-the-security-playbook-heres-what-replaces-it/" target="_blank" rel="noopener">AI Agents Broke the Security Playbook. Here&#x27;s What Replaces It.</a></h3>
-          <p>AIエージェントの登場により従来のセキュリティプレイブックが機能しなくなりつつあるとして、Token Securityがエージェント向けの新たなセキュリティアプローチを提唱している。リアルタイムのアイデンティティ基盤を軸に、AIエージェント特有のリスクに対応するワークフロー設計の必要性を説いている。</p>
-          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">tool</span></div>
+          <h3><a href="https://simonwillison.net/2026/Jul/17/kimi-k3/#atom-everything" target="_blank" rel="noopener">Quoting Kimi K3</a></h3>
+          <p>中国のAIモデル「Kimi K3」がシステムプロンプトの漏洩を拒否した際の応答を紹介した短報。LLMがシステムプロンプト保護のためにどのような振る舞いをするかという、モデルの安全性・情報保護挙動に関する事例として注目される。</p>
+          <div class="tags"><span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>07/16</time>
-            <span class="source">The Hacker News</span>
+            <time>07/17</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html" target="_blank" rel="noopener">n8n Token Exchange Flaw Could Let Attackers Log In as Users From Another Issuer</a></h3>
-          <p>ワークフロー自動化プラットフォームn8nのエンタープライズ版において、JWTトークン検証の不備により別の発行者のトークンで他ユーザーとしてログインできる脆弱性が発見された。n8nはAIワークフロー自動化でも広く利用されており、AIエージェント連携環境でのリスクが懸念される。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span></div>
+          <h3><a href="https://arxiv.org/abs/2607.14493" target="_blank" rel="noopener">Context Contamination in LLM Analysis of Network Security Logs: Poison with Passive Prompt Injection and Mitigation Evaluation</a></h3>
+          <p>LLMをSOC（セキュリティオペレーションセンター）のログ分析に活用するシステムが、パッシブプロンプトインジェクション攻撃に対して脆弱であることを実証した研究。攻撃者がネットワークログ内に悪意あるプロンプトを埋め込むことでLLMの分析結果を汚染できることを示し、その緩和策も評価している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/17</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2607.14611" target="_blank" rel="noopener">Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems</a></h3>
+          <p>メモリ機能を持つエージェント型AIシステムにおけるプロンプトインジェクションリスクを評価した研究。永続的なメモリファイルや知識ベースに悪意ある命令を埋め込むことで将来の動作に影響を与える新たな攻撃面を分析し、メモリベースのエージェントシステムの安全性上の課題を明らかにしている。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">evaluation</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>07/17</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2607.14566" target="_blank" rel="noopener">Fully Automated End-to-End Adversary Emulation from MITRE ATT\&amp;CK Based Cyber Threat Intelligence Using LLMs</a></h3>
+          <p>MITRE ATT&amp;CKフレームワークに基づくCTIレポートからLLMを用いて敵対的エミュレーションを完全自動化するエンドツーエンドフレームワークを提案した研究。プレイブックの生成・実行・失敗回復を単一ワークフローで統合し、従来手法を大幅に上回る自動化を実現している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">tool</span> <span class="tag">adversarial</span></div>
         </article>
   </main>
   <footer>
