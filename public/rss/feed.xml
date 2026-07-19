@@ -3,22 +3,46 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-18T23:50:58Z</updated>
+  <updated>2026-07-19T23:53:47Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>The Future of Age Verification: Your Face Never Leaves Your Device</title>
-    <link href="https://www.bleepingcomputer.com/news/security/the-future-of-age-verification-your-face-never-leaves-your-device/" rel="alternate"/>
-    <id>urn:ai-security-digest:b012516806d74631</id>
-    <published>2026-07-18T13:15:24Z</published>
-    <updated>2026-07-18T13:15:24Z</updated>
-    <content type="html">&lt;p&gt;As age verification laws expand worldwide, organizations face growing pressure to protect users&amp;#x27; privacy while meeting regulatory requirements. Incode explains how on-device age estimation verifies ag&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution</title>
+    <link href="https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html" rel="alternate"/>
+    <id>urn:ai-security-digest:89f3cdde9df9a892</id>
+    <published>2026-07-19T20:42:49Z</published>
+    <updated>2026-07-19T20:42:49Z</updated>
+    <content type="html">&lt;p&gt;F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
     <category term="news"/>
     <source>
-      <title>Bleeping Computer</title>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware</title>
+    <link href="https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html" rel="alternate"/>
+    <id>urn:ai-security-digest:3eace55fa61213fc</id>
+    <published>2026-07-19T13:30:55Z</published>
+    <updated>2026-07-19T13:30:55Z</updated>
+    <content type="html">&lt;p&gt;Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="news"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access</title>
+    <link href="https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html" rel="alternate"/>
+    <id>urn:ai-security-digest:ef3919eea15f184f</id>
+    <published>2026-07-19T13:18:56Z</published>
+    <updated>2026-07-19T13:18:56Z</updated>
+    <content type="html">&lt;p&gt;A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public dis&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="news"/>
+    <source>
+      <title>The Hacker News</title>
     </source>
   </entry>
 </feed>
