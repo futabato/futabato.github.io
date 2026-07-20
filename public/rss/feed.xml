@@ -3,44 +3,78 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-19T23:53:47Z</updated>
+  <updated>2026-07-20T23:57:07Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Critical NGINX Vulnerability Can Crash Workers and May Allow Remote Code Execution</title>
-    <link href="https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html" rel="alternate"/>
-    <id>urn:ai-security-digest:89f3cdde9df9a892</id>
-    <published>2026-07-19T20:42:49Z</published>
-    <updated>2026-07-19T20:42:49Z</updated>
-    <content type="html">&lt;p&gt;F5 has shipped fixes for a critical nginx flaw that lets a remote, unauthenticated attacker trigger a heap buffer overflow in the worker process with crafted HTTP requests. CVE-2026-42533 was patched &lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="news"/>
+    <title>Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes</title>
+    <link href="https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/" rel="alternate"/>
+    <id>urn:ai-security-digest:1179d4e88192baac</id>
+    <published>2026-07-20T21:14:42Z</published>
+    <updated>2026-07-20T21:14:42Z</updated>
+    <content type="html">&lt;p&gt;Cursor、Codex、Gemini CLI、Antigravityなど主要AIコーディングツールのサンドボックス脱出脆弱性が研究者によって発見された。AIエージェントが書き出したファイルをホスト側の信頼されたツールが実行することで脱出が可能となり、複数のCVEが割り当てられパッチが提供されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <category term="research"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>JadePuffer agentic attacks now target AI model data with ransomware</title>
+    <link href="https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/" rel="alternate"/>
+    <id>urn:ai-security-digest:f57be79927466e20</id>
+    <published>2026-07-20T21:08:02Z</published>
+    <updated>2026-07-20T21:08:02Z</updated>
+    <content type="html">&lt;p&gt;自律型AIエージェント「JadePuffer」がEncForgeと呼ばれるカスタムマルウェアを搭載し、AIの訓練データセット・ベクターデータベース・モデルチェックポイントなどのAI資産を標的としたランサムウェア攻撃を行うようになった。AIインフラそのものを狙う新たな脅威として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Hugging Face warns an autonomous AI agent hacked its network</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/" rel="alternate"/>
+    <id>urn:ai-security-digest:ff8863423d2dbc06</id>
+    <published>2026-07-20T11:56:28Z</published>
+    <updated>2026-07-20T11:56:28Z</updated>
+    <content type="html">&lt;p&gt;AIモデルリポジトリ大手のHugging Faceが、自律型AIエージェントシステムを用いた攻撃者によって本番インフラに不正アクセスされ、内部データセットや認証情報が流出したと公表した。AIがサイバー攻撃の手段として悪用された重大インシデントとして業界に衝撃を与えている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Mythos Didn't Break Your Security Program. Your Exposure Window Could.</title>
+    <link href="https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html" rel="alternate"/>
+    <id>urn:ai-security-digest:e55af3cb9ea6ea84</id>
+    <published>2026-07-20T11:30:00Z</published>
+    <updated>2026-07-20T11:30:00Z</updated>
+    <content type="html">&lt;p&gt;AnthropicのAIシステム「Mythos」が脆弱性発見を大規模に加速させることへの懸念を論じた記事。CVEの爆発的増加や攻撃者による悪用よりも、露出ウィンドウの長さこそが真のリスクであると指摘し、AI駆動の脆弱性発見が防御側に与える構造的課題を分析している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="evaluation"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>UAC-0145 Uses ClickFix CAPTCHAs to Infect Ukrainian Devices wih Malware</title>
-    <link href="https://thehackernews.com/2026/07/uac-0145-uses-clickfix-captchas-to.html" rel="alternate"/>
-    <id>urn:ai-security-digest:3eace55fa61213fc</id>
-    <published>2026-07-19T13:30:55Z</published>
-    <updated>2026-07-19T13:30:55Z</updated>
-    <content type="html">&lt;p&gt;Russian state-sponsored threat actors have been observed leveraging the infamous ClickFix strategy to trick Ukrainian targets into infecting their own machines with data-stealing malware. According to&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="news"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>SonicWall SMA Zero-Days Exploited Before Disclosure to Gain Root Access</title>
-    <link href="https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html" rel="alternate"/>
-    <id>urn:ai-security-digest:ef3919eea15f184f</id>
-    <published>2026-07-19T13:18:56Z</published>
-    <updated>2026-07-19T13:18:56Z</updated>
-    <content type="html">&lt;p&gt;A previously undocumented threat actor has been attributed to the exploitation of recently disclosed SonicWall Secure Mobile Access (SMA) 1000 series VPN appliances as zero-days prior their public dis&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;news&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="news"/>
+    <title>Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs</title>
+    <link href="https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html" rel="alternate"/>
+    <id>urn:ai-security-digest:3fb4b35d6d4d9f84</id>
+    <published>2026-07-20T09:07:11Z</published>
+    <updated>2026-07-20T09:07:11Z</updated>
+    <content type="html">&lt;p&gt;ロシア語話者の脅威アクター「bandcampro」がGoogle Gemini CLIを活用してボットネットの運用を自動化し、パスワードクラックや住宅用プロキシ設定などの攻撃作業をAIに委託していたことが判明した。200件以上のGemini CLIセッションログの分析により、AIツールが実際の攻撃オペレーションに組み込まれている実態が明らかになった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <category term="agent-security"/>
     <source>
       <title>The Hacker News</title>
     </source>

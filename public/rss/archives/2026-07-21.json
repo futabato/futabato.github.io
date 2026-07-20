@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Cursor, Codex, Gemini CLI, Antigravity hit by sandbox escapes",
+    "link": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-20T21:14:42+00:00",
+    "summary_ja": "Cursor、Codex、Gemini CLI、Antigravityなど主要AIコーディングツールのサンドボックス脱出脆弱性が研究者によって発見された。AIエージェントが書き出したファイルをホスト側の信頼されたツールが実行することで脱出が可能となり、複数のCVEが割り当てられパッチが提供されている。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "research"
+    ]
+  },
+  {
+    "title": "JadePuffer agentic attacks now target AI model data with ransomware",
+    "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-20T21:08:02+00:00",
+    "summary_ja": "自律型AIエージェント「JadePuffer」がEncForgeと呼ばれるカスタムマルウェアを搭載し、AIの訓練データセット・ベクターデータベース・モデルチェックポイントなどのAI資産を標的としたランサムウェア攻撃を行うようになった。AIインフラそのものを狙う新たな脅威として注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Hugging Face warns an autonomous AI agent hacked its network",
+    "link": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-20T11:56:28+00:00",
+    "summary_ja": "AIモデルリポジトリ大手のHugging Faceが、自律型AIエージェントシステムを用いた攻撃者によって本番インフラに不正アクセスされ、内部データセットや認証情報が流出したと公表した。AIがサイバー攻撃の手段として悪用された重大インシデントとして業界に衝撃を与えている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Mythos Didn't Break Your Security Program. Your Exposure Window Could.",
+    "link": "https://thehackernews.com/2026/07/mythos-didnt-break-your-security.html",
+    "source": "The Hacker News",
+    "published": "2026-07-20T11:30:00+00:00",
+    "summary_ja": "AnthropicのAIシステム「Mythos」が脆弱性発見を大規模に加速させることへの懸念を論じた記事。CVEの爆発的増加や攻撃者による悪用よりも、露出ウィンドウの長さこそが真のリスクであると指摘し、AI駆動の脆弱性発見が防御側に与える構造的課題を分析している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Russian-Speaking Hacker Uses Google Gemini CLI to Control Botnet of Eight Dental Clinic PCs",
+    "link": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html",
+    "source": "The Hacker News",
+    "published": "2026-07-20T09:07:11+00:00",
+    "summary_ja": "ロシア語話者の脅威アクター「bandcampro」がGoogle Gemini CLIを活用してボットネットの運用を自動化し、パスワードクラックや住宅用プロキシ設定などの攻撃作業をAIに委託していたことが判明した。200件以上のGemini CLIセッションログの分析により、AIツールが実際の攻撃オペレーションに組み込まれている実態が明らかになった。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "agent-security"
+    ]
+  }
+]
