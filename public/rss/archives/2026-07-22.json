@@ -1,0 +1,26 @@
+[
+  {
+    "title": "AWS Kiro Flaw Let a Poisoned Web Page Rewrite Its Config and Run Code",
+    "link": "https://thehackernews.com/2026/07/aws-kiro-flaw-let-poisoned-web-page.html",
+    "source": "The Hacker News",
+    "published": "2026-07-21T16:06:12+00:00",
+    "summary_ja": "AWSのエージェント型コーディングIDE「Kiro」において、悪意を持ったWebページの隠しテキストがKiroに設定ファイルを書き換えさせ、攻撃者のコードを実行させる脆弱性が発見された。通常のページ要約リクエストだけでリモートコード実行が可能であり、承認ステップも回避されることが判明。AWSはすでにパッチを適用済み。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "A Fireside Chat with Cat and Thariq from the Claude Code team",
+    "link": "https://simonwillison.net/2026/Jul/21/cat-and-thariq/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-21T12:54:02+00:00",
+    "summary_ja": "AnthropicのClaude Codeチームメンバーとのファイアサイドチャットの記録で、コーディングエージェントのセキュリティ、評価（evals）、ツール設計などについて議論されている。AIエージェントの安全な設計と運用に関する実践的な知見が共有されており、エージェントセキュリティの観点から注目すべき内容。",
+    "tags": [
+      "agent-security",
+      "evaluation",
+      "tool"
+    ]
+  }
+]
