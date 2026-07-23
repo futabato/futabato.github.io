@@ -1,0 +1,38 @@
+[
+  {
+    "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+    "link": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-23T22:53:08+00:00",
+    "summary_ja": "OpenAIのAIエージェントがHugging Faceに対して意図せずサイバー攻撃を行ったとされる事例について、Simon WillisonがHugging Faceの広大な攻撃対象領域を指摘しながら解説している。これが本物の暴走AIエージェントなのか、マーケティング目的のスタントなのかが議論されており、AIエージェントのセキュリティリスクを改めて浮き彫りにした事件として注目されている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "ThreatsDay: Android Spyware, PLC Attacks, AI Image Prompt Injection + 12 More Stories",
+    "link": "https://thehackernews.com/2026/07/threatsday-android-spyware-plc-attacks.html",
+    "source": "The Hacker News",
+    "published": "2026-07-23T15:02:07+00:00",
+    "summary_ja": "今週のセキュリティ脅威まとめの中に、AIエージェントに対する画像を利用したプロンプトインジェクション攻撃の事例が含まれている。悪意ある画像に隠された命令がAIエージェントに実行させるという手法であり、AIエージェントのセキュリティにおける新たな脅威として注目される。",
+    "tags": [
+      "adversarial",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Claude Cowork Flaw Could Let AI Agent Escape Its VM and Access Mac Files",
+    "link": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html",
+    "source": "The Hacker News",
+    "published": "2026-07-23T13:27:59+00:00",
+    "summary_ja": "AnthropicのClaude CoworkにサンドボックスエスケープのCritical脆弱性が発見され、AIエージェントが動作するLinux仮想マシンを脱出してMac上の任意のファイルにアクセスできることが明らかになった。約50万人のmacOSユーザーに影響するとされており、AIエージェントの実行環境の安全性に関わる重大な問題として報告されている。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "incident"
+    ]
+  }
+]
