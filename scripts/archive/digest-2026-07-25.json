@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Hermes AI agent used to automate attack on Thai Finance Ministry",
+    "link": "https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-24T19:09:09+00:00",
+    "summary_ja": "脅威アクターがオープンソースのHermes AIエージェントを「YOLO」モード（無人・無確認）で動作させ、タイ財務省のネットワークへの侵入後の活動を自動化したことが報告された。AIエージェントが実際のサイバー攻撃に悪用された初期の事例として注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack",
+    "link": "https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-24T14:01:11+00:00",
+    "summary_ja": "スロップスクワッティング、ファントムスクワッティング、ハルシュクワッティングはすべて同一の攻撃パターンであり、AIコーディングエージェントが幻覚によって生成した存在しないパッケージ名やドメイン名を悪用するものだとActiveStateが解説した。事前検証や管理された依存関係管理による対策も紹介されている。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link",
+    "link": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html",
+    "source": "The Hacker News",
+    "published": "2026-07-24T11:53:55+00:00",
+    "summary_ja": "OpenAIのChatGPT Workspace Agentsに「AgentForger」と命名された重大な脆弱性が発見され、単一のフィッシングリンクから組織内に不正なAIエージェントを密かに構築・認可・展開できることが示された。OpenAIは2025年6月8日時点で修正済みであることが確認されている。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "incident"
+    ]
+  },
+  {
+    "title": "Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry",
+    "link": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html",
+    "source": "The Hacker News",
+    "published": "2026-07-24T10:15:29+00:00",
+    "summary_ja": "ハッカーがHermes AIエージェントを無人モードで稼働させ、タイ財務省のネットワーク上でroot権限取得やファイルシステム探索などのポストエクスプロイト活動を自律的に実行した詳細が報告された。AIエージェントが攻撃の自動化ツールとして実用化されている実態を示す重要なインシデントである。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say",
+    "link": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html",
+    "source": "The Hacker News",
+    "published": "2026-07-24T06:58:27+00:00",
+    "summary_ja": "中国のAIモデル「Kimi K3」のエージェントがRedisの複数バージョンにゼロデイ脆弱性を発見し、認証済みRCEのPoC exploitを構築したと研究者が報告した。Redisは2025年7月23日に7件のセキュリティリリースを公開しており、AIエージェントによる脆弱性探索・エクスプロイト生成能力の高さを示す事例として注目される。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  }
+]
