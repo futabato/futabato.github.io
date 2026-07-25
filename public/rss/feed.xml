@@ -3,81 +3,52 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-07-25T00:00:22Z</updated>
+  <updated>2026-07-25T23:57:29Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Hermes AI agent used to automate attack on Thai Finance Ministry</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hermes-ai-agent-used-to-automate-attack-on-thai-finance-ministry/" rel="alternate"/>
-    <id>urn:ai-security-digest:d3aafaf0b39734ab</id>
-    <published>2026-07-24T19:09:09Z</published>
-    <updated>2026-07-24T19:09:09Z</updated>
-    <content type="html">&lt;p&gt;脅威アクターがオープンソースのHermes AIエージェントを「YOLO」モード（無人・無確認）で動作させ、タイ財務省のネットワークへの侵入後の活動を自動化したことが報告された。AIエージェントが実際のサイバー攻撃に悪用された初期の事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Slopsquatting, Phantom Domains, and HalluSquatting Are the Same AI Attack</title>
-    <link href="https://www.bleepingcomputer.com/news/security/slopsquatting-phantom-domains-and-hallusquatting-are-the-same-ai-attack/" rel="alternate"/>
-    <id>urn:ai-security-digest:29cf8850175497ec</id>
-    <published>2026-07-24T14:01:11Z</published>
-    <updated>2026-07-24T14:01:11Z</updated>
-    <content type="html">&lt;p&gt;スロップスクワッティング、ファントムスクワッティング、ハルシュクワッティングはすべて同一の攻撃パターンであり、AIコーディングエージェントが幻覚によって生成した存在しないパッケージ名やドメイン名を悪用するものだとActiveStateが解説した。事前検証や管理された依存関係管理による対策も紹介されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>ChatGPT AgentForger Flaw Could Deploy Rogue Workspace Agents via a Phishing Link</title>
-    <link href="https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html" rel="alternate"/>
-    <id>urn:ai-security-digest:d43d2a88720f40da</id>
-    <published>2026-07-24T11:53:55Z</published>
-    <updated>2026-07-24T11:53:55Z</updated>
-    <content type="html">&lt;p&gt;OpenAIのChatGPT Workspace Agentsに「AgentForger」と命名された重大な脆弱性が発見され、単一のフィッシングリンクから組織内に不正なAIエージェントを密かに構築・認可・展開できることが示された。OpenAIは2025年6月8日時点で修正済みであることが確認されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="incident"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Hacker Runs Hermes AI Agent Unattended for Post-Exploitation at Thai Finance Ministry</title>
-    <link href="https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html" rel="alternate"/>
-    <id>urn:ai-security-digest:8239526967df147a</id>
-    <published>2026-07-24T10:15:29Z</published>
-    <updated>2026-07-24T10:15:29Z</updated>
-    <content type="html">&lt;p&gt;ハッカーがHermes AIエージェントを無人モードで稼働させ、タイ財務省のネットワーク上でroot権限取得やファイルシステム探索などのポストエクスプロイト活動を自律的に実行した詳細が報告された。AIエージェントが攻撃の自動化ツールとして実用化されている実態を示す重要なインシデントである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Kimi K3 Agents Found Redis Zero-Days and Built RCE Exploit, Researchers Say</title>
-    <link href="https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html" rel="alternate"/>
-    <id>urn:ai-security-digest:6d85941f139ee717</id>
-    <published>2026-07-24T06:58:27Z</published>
-    <updated>2026-07-24T06:58:27Z</updated>
-    <content type="html">&lt;p&gt;中国のAIモデル「Kimi K3」のエージェントがRedisの複数バージョンにゼロデイ脆弱性を発見し、認証済みRCEのPoC exploitを構築したと研究者が報告した。Redisは2025年7月23日に7件のセキュリティリリースを公開しており、AIエージェントによる脆弱性探索・エクスプロイト生成能力の高さを示す事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Knowledge Injection Exists in MoE? Exploring Expert-Aware Contrast Decoding in MoE for Mitigating LLMs'Hallucinations</title>
+    <link href="https://arxiv.org/abs/2607.20426" rel="alternate"/>
+    <id>urn:ai-security-digest:ad16fc0803ff3c0f</id>
+    <published>2026-07-25T04:00:00Z</published>
+    <updated>2026-07-25T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMのハルシネーション（幻覚）を軽減するための新手法として、Mixture-of-Experts（MoE）モデルにおけるエキスパート対応コントラストデコーディングを提案した研究。従来のコントラストデコーディングはトランスフォーマーベースモデルにのみ適用されていたが、本研究はMoEフレームワークにも拡張し、LLMの信頼性向上に貢献する。AIの安全性・信頼性に関わる重要な基礎研究である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CL (Computation and Language)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <category term="evaluation"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CL (Computation and Language)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>More Is Not More: What Matters for Diversity in LLM Opinions?</title>
+    <link href="https://arxiv.org/abs/2607.20429" rel="alternate"/>
+    <id>urn:ai-security-digest:0e539157d855a485</id>
+    <published>2026-07-25T04:00:00Z</published>
+    <updated>2026-07-25T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMが合成サーベイや世論予測などに活用される中、モデル出力における意見の均質化（ホモジナイゼーション）という系統的な問題を分析した研究。多様性を高めるための各種介入手法を比較評価し、LLMが人間の多様な意見を適切に代表できるかというバイアス・安全性の観点から重要な知見を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CL (Computation and Language)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.CL (Computation and Language)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Position: Natural Language Should Not Fully Replace Formal Languages</title>
+    <link href="https://arxiv.org/abs/2607.20432" rel="alternate"/>
+    <id>urn:ai-security-digest:461769f06cbf4935</id>
+    <published>2026-07-25T04:00:00Z</published>
+    <updated>2026-07-25T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMの普及に伴い「自然言語がプログラミング言語などの形式言語を完全に代替できる」という主張が増える中、自然言語の本質的な不確定性・曖昧性を理由にその限界を論じたポジションペーパー。形式的フレームワークを用いてLLMへの過度な依存に警鐘を鳴らしており、AIシステムの安全性・信頼性設計に関わる議論として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CL (Computation and Language)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="governance"/>
+    <source>
+      <title>arXiv cs.CL (Computation and Language)</title>
     </source>
   </entry>
 </feed>
