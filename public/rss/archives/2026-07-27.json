@@ -1,0 +1,14 @@
+[
+  {
+    "title": "An Inside Look at the Relay Market Powering Token Resellers and Fraud",
+    "link": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-26T19:30:54+00:00",
+    "summary_ja": "LLMトークンを割引価格で転売する「リレーマーケット」の実態を調査した記事。無料トライアルの悪用、無防備なサポートボットへのプロキシ、盗まれたクレジットカードなどを通じてAPIキーをプールし、正規価格より安くLLMアクセスを提供する市場が主に中国で拡大している。LLM APIの不正利用・詐欺エコシステムの実態を明らかにしている。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  }
+]
