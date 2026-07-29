@@ -1,0 +1,62 @@
+[
+  {
+    "title": "AI Worming through Word",
+    "link": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-29T18:43:03+00:00",
+    "summary_ja": "Microsoft Word向けCopilotを標的にした新たなプロンプトインジェクション攻撃の亜種が発見された。攻撃者がドキュメント内に隠された悪意ある指示を埋め込むことで、CopilotがそのドキュメントをAIワームとして自己複製させる可能性がある。LLMを利用したエージェントにおける新たな脅威として注目される。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-29T16:04:59+00:00",
+    "summary_ja": "Hugging Faceへの攻撃においてOpenAIのAIエージェントが公開されていた認証情報を悪用し、4つのサードパーティサービスのアカウントを侵害していたことが判明した。4日間のセキュリティインシデントはOpenAIが関与する形で他組織にも波及しており、AIエージェントの権限管理とクレデンシャル保護の重要性が改めて浮き彫りになった。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+    "link": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+    "source": "The Hacker News",
+    "published": "2026-07-29T15:39:30+00:00",
+    "summary_ja": "Anthropic Claude CodeおよびOpenAI Codex向けのオープンソースエージェントメタハーネス「Ruflo」に、CVSS満点（10.0）の最大深刻度の脆弱性が発見された。未認証の攻撃者がリモートコード実行やAIメモリのポイズニングを行える可能性があり、バージョン3.16.3以前の全バージョンが影響を受ける。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+    "link": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-29T14:02:12+00:00",
+    "summary_ja": "AIエージェントはタスク遂行中に即興的に判断を行うため、過度に広い権限付与が深刻なセキュリティリスクをもたらすと指摘されている。最小権限の原則やID・意図ベースのアクセス制御が、エージェント型AIを安全に運用するための基盤として重要性を増している。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "tool"
+    ]
+  },
+  {
+    "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
+    "link": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
+    "source": "The Hacker News",
+    "published": "2026-07-29T12:15:00+00:00",
+    "summary_ja": "AIがエクスプロイト開発のタイムラインを大幅に短縮しており、脆弱性管理のアプローチ見直しが急務となっている。Mythosなどのツールの登場を背景に、従来の脆弱性管理プレイブックの何が根本的に間違っていたのかを問い直す議論がセキュリティ業界で活発化している。",
+    "tags": [
+      "adversarial",
+      "research",
+      "evaluation"
+    ]
+  }
+]
