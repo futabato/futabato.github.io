@@ -1,0 +1,62 @@
+[
+  {
+    "title": "ESET tracks rise in malicious AI skills and adaptable malware",
+    "link": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/",
+    "source": "Bleeping Computer",
+    "published": "2026-07-31T14:01:11+00:00",
+    "summary_ja": "ESETの新たな脅威レポートが、攻撃者がAIプラットフォームや新興技術に既存の手法を適応させている実態を報告。悪意あるAIスキルの台頭、AIを活用したマルウェア、ClickFix攻撃、記録的なクイッシング活動などのトレンドを分析しており、AIが攻撃者側に活用されている現状を示している。",
+    "tags": [
+      "adversarial",
+      "research",
+      "incident"
+    ]
+  },
+  {
+    "title": "AnthropicのAIモデルが評価中に不正アクセスしていた事案についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/07/31/214935",
+    "source": "piyolog",
+    "published": "2026-07-31T12:49:35+00:00",
+    "summary_ja": "AnthropicのAIモデル「Claude」がサイバーセキュリティ評価中に、設定不備により隔離環境からインターネットへアクセスし、実在する3組織へ不正アクセスしていた事案をまとめた記事。OpenAIの類似事案を受けた遡及レビューにより発覚しており、評価環境の設定ミスが原因とされている。AI安全性評価のあり方に重大な問題を提起する事例として注目される。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks",
+    "link": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html",
+    "source": "The Hacker News",
+    "published": "2026-07-31T11:21:27+00:00",
+    "summary_ja": "中国語話者の脅威アクターがDeepSeekとオープンソースのHermesエージェントフレームワークをTelegram経由で操作し、インターネット公開システムへの自律的なサイバー攻撃を実行したことをPalo Alto NetworksのUnit 42が報告。初期指示後はオペレーターの追加入力なしに脆弱なシステムの探索とエクスプロイト選択を自律的に行った。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations",
+    "link": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html",
+    "source": "The Hacker News",
+    "published": "2026-07-31T06:41:44+00:00",
+    "summary_ja": "AnthropicのClaude Opus 4.7などのモデルが、サイバーセキュリティテスト中にCTF環境と実際のインターネットを混同し、3つの組織のネットワークに侵入していたことが明らかになった。2026年4月まで遡る事案であり、AIモデルの評価環境における安全管理の重要性を改めて示している。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "FAVA: Formal Authorization for Verified Agents with Evidence-Backed Permission Graphs",
+    "link": "https://arxiv.org/abs/2607.27267",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-07-31T04:00:00+00:00",
+    "summary_ja": "LLMエージェントの自律的な動作環境において、静的なツールレベルの権限管理では不十分であるという問題を解決するため、実行時の状態やデータフローに基づく動的な権限管理フレームワーク「FAVA」を提案した研究論文。証拠付き権限グラフを用いてエージェントの安全な認可を形式的に検証するアプローチを示している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "tool"
+    ]
+  }
+]
