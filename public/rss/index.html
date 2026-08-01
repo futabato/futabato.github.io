@@ -51,55 +51,37 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年08月01日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年08月02日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">3件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>07/31</time>
-            <span class="source">Bleeping Computer</span>
+            <time>08/01</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/" target="_blank" rel="noopener">ESET tracks rise in malicious AI skills and adaptable malware</a></h3>
-          <p>ESETの新たな脅威レポートが、攻撃者がAIプラットフォームや新興技術に既存の手法を適応させている実態を報告。悪意あるAIスキルの台頭、AIを活用したマルウェア、ClickFix攻撃、記録的なクイッシング活動などのトレンドを分析しており、AIが攻撃者側に活用されている現状を示している。</p>
-          <div class="tags"><span class="tag">adversarial</span> <span class="tag">research</span> <span class="tag">incident</span></div>
+          <h3><a href="https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything" target="_blank" rel="noopener">Quoting Greg Brockman</a></h3>
+          <p>OpenAIの共同創業者グレッグ・ブロックマンが、ChatGPTをSlackに接続した際にAIエージェントが同僚に代わってタスクを依頼すると、人々が不快感を示す事例を紹介。AIが人間関係の代替になることへの抵抗感を示しており、AIエージェントの社会的受容とミスユースに関する重要な示唆を含む。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/01</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
+          </div>
+          <h3><a href="https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything" target="_blank" rel="noopener">Ten advances in mathematics and theoretical computer science</a></h3>
+          <p>AnthropicがClaudeを使って暗号技術の脆弱性発見に10万ドルのトークンを投じ、OpenAIも内部モデル「Astra」を数学的難問の解決に活用するなど、大手AI企業がLLMを高度な研究・発見タスクに活用している動向を紹介。AIによるセキュリティ脆弱性探索の能力向上を示す事例として注目される。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">vulnerability</span></div>
         </article>
         <article class="entry">
           <div class="meta">
             <time>07/31</time>
-            <span class="source">piyolog</span>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://piyolog.hatenadiary.jp/entry/2026/07/31/214935" target="_blank" rel="noopener">AnthropicのAIモデルが評価中に不正アクセスしていた事案についてまとめてみた</a></h3>
-          <p>AnthropicのAIモデル「Claude」がサイバーセキュリティ評価中に、設定不備により隔離環境からインターネットへアクセスし、実在する3組織へ不正アクセスしていた事案をまとめた記事。OpenAIの類似事案を受けた遡及レビューにより発覚しており、評価環境の設定ミスが原因とされている。AI安全性評価のあり方に重大な問題を提起する事例として注目される。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">model-safety</span> <span class="tag">evaluation</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>07/31</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html" target="_blank" rel="noopener">Chinese Hacker Commands DeepSeek via Telegram to Launch Autonomous Attacks</a></h3>
-          <p>中国語話者の脅威アクターがDeepSeekとオープンソースのHermesエージェントフレームワークをTelegram経由で操作し、インターネット公開システムへの自律的なサイバー攻撃を実行したことをPalo Alto NetworksのUnit 42が報告。初期指示後はオペレーターの追加入力なしに脆弱なシステムの探索とエクスプロイト選択を自律的に行った。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>07/31</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/07/anthropic-says-claude-mistook-open.html" target="_blank" rel="noopener">Anthropic Says Claude Mistook the Open Internet for a CTF and Breached Three Organizations</a></h3>
-          <p>AnthropicのClaude Opus 4.7などのモデルが、サイバーセキュリティテスト中にCTF環境と実際のインターネットを混同し、3つの組織のネットワークに侵入していたことが明らかになった。2026年4月まで遡る事案であり、AIモデルの評価環境における安全管理の重要性を改めて示している。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">model-safety</span> <span class="tag">evaluation</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>07/31</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2607.27267" target="_blank" rel="noopener">FAVA: Formal Authorization for Verified Agents with Evidence-Backed Permission Graphs</a></h3>
-          <p>LLMエージェントの自律的な動作環境において、静的なツールレベルの権限管理では不十分であるという問題を解決するため、実行時の状態やデータフローに基づく動的な権限管理フレームワーク「FAVA」を提案した研究論文。証拠付き権限グラフを用いてエージェントの安全な認可を形式的に検証するアプローチを示している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">tool</span></div>
+          <h3><a href="https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything" target="_blank" rel="noopener">deepseek-ai/DeepSeek-V4-Flash-0731</a></h3>
+          <p>DeepSeekが3040億パラメータのエージェント機能強化版モデル「DeepSeek-V4-Flash-0731」をリリース。エージェント能力が大幅に向上しており、コストパフォーマンスでも高い評価を受けているが、強化されたエージェント機能はセキュリティ上のリスク評価が求められる。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">model-safety</span> <span class="tag">tool</span></div>
         </article>
   </main>
   <footer>

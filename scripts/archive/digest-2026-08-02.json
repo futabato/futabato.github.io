@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Quoting Greg Brockman",
+    "link": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-01T22:29:44+00:00",
+    "summary_ja": "OpenAIの共同創業者グレッグ・ブロックマンが、ChatGPTをSlackに接続した際にAIエージェントが同僚に代わってタスクを依頼すると、人々が不快感を示す事例を紹介。AIが人間関係の代替になることへの抵抗感を示しており、AIエージェントの社会的受容とミスユースに関する重要な示唆を含む。",
+    "tags": [
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Ten advances in mathematics and theoretical computer science",
+    "link": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-01T20:34:49+00:00",
+    "summary_ja": "AnthropicがClaudeを使って暗号技術の脆弱性発見に10万ドルのトークンを投じ、OpenAIも内部モデル「Astra」を数学的難問の解決に活用するなど、大手AI企業がLLMを高度な研究・発見タスクに活用している動向を紹介。AIによるセキュリティ脆弱性探索の能力向上を示す事例として注目される。",
+    "tags": [
+      "research",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+    "link": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-07-31T23:59:44+00:00",
+    "summary_ja": "DeepSeekが3040億パラメータのエージェント機能強化版モデル「DeepSeek-V4-Flash-0731」をリリース。エージェント能力が大幅に向上しており、コストパフォーマンスでも高い評価を受けているが、強化されたエージェント機能はセキュリティ上のリスク評価が求められる。",
+    "tags": [
+      "agent-security",
+      "model-safety",
+      "tool"
+    ]
+  }
+]
