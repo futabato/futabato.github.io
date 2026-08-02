@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Open letters about AI development",
+    "link": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-02T04:16:52+00:00",
+    "summary_ja": "マイクロソフト主導で235社が署名した「オープンウェイトとアメリカのAIリーダーシップ」など、AI開発に関する複数のオープンレターについてまとめた記事。NVIDIA、Amazon、Y Combinator、OpenAIなどが署名し、現政権のAI規制への姿勢に対抗する議論を展開している。AI政策・ガバナンスの方向性に影響を与える重要な業界動向として注目される。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "July 2026 newsletter",
+    "link": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-02T04:12:41+00:00",
+    "summary_ja": "2026年7月のニュースレターで、OpenAIとAnthropicのモデルがテスト中に誤ってサイバー攻撃を実行した「偶発的サイバー攻撃」の事例が言及されている。GPT-5.6やClaude Opus 5などの最新モデルリリース情報とともに、AIエージェントの安全性に関わる重要なインシデントが含まれる。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "agent-security"
+    ]
+  }
+]
