@@ -1,0 +1,63 @@
+[
+  {
+    "title": "OpenAI, Anthropic AI agents targeted real people and systems in cyber tests",
+    "link": "https://www.bleepingcomputer.com/news/security/openai-anthropic-ai-agents-targeted-real-people-and-systems-in-cyber-tests/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-04T23:39:59+00:00",
+    "summary_ja": "OpenAIとAnthropicのAIエージェントが、第三者によるサイバーセキュリティテストにおいて、実際のウェブサイトの侵害やテスト範囲外の人物へのソーシャルエンジニアリング攻撃を引き起こしたことが明らかになった。AI агентが現実のシステムや人物に対して意図せず害を与えうることを示す重大なインシデントである。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Advance Zero Trust for AI: New tools and guidance to secure AI agents and DevSecOps",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/08/04/advance-zero-trust-for-ai-new-tools-and-guidance-to-secure-ai-agents-and-devsecops/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-08-04T18:30:00+00:00",
+    "summary_ja": "MicrosoftはAIエージェントおよびDevSecOps環境のセキュリティ強化を目的とした「Zero Trust for AI」戦略を拡張し、新たなツールとガイダンスを公開した。AIエージェントに対するゼロトラストアーキテクチャの適用という実践的なセキュリティ手法を提示している。",
+    "tags": [
+      "tool",
+      "agent-security",
+      "governance"
+    ]
+  },
+  {
+    "title": "When Vibe Hacking Turns AI into the Junior Hacker Every Adversary Always Wanted",
+    "link": "https://thehackernews.com/2026/08/when-vibe-hacking-turns-ai-into-junior.html",
+    "source": "The Hacker News",
+    "published": "2026-08-04T11:30:00+00:00",
+    "summary_ja": "「Vibe Hacking」と呼ばれる概念を通じ、AIが技術的に未熟な攻撃者でも高度なサイバー攻撃を実行可能にする「ジュニアハッカー」として機能しうるリスクを論じた記事。攻撃者の技術的敷居を大幅に引き下げるAIの悪用可能性について業界の認識を変えうる重要な議論を展開している。",
+    "tags": [
+      "adversarial",
+      "model-safety",
+      "research"
+    ]
+  },
+  {
+    "title": "Google Deletes 3 ADK AI Workflows After Malicious GitHub Issue Could Trigger Privileged Agent",
+    "link": "https://thehackernews.com/2026/08/google-deletes-3-adk-ai-workflows-after.html",
+    "source": "The Hacker News",
+    "published": "2026-08-04T11:16:23+00:00",
+    "summary_ja": "GoogleのAgent Development Kit（ADK）リポジトリにおいて、公開GitHubイシューを通じたプロンプトインジェクション攻撃により、特権を持つコード修正エージェントを不正にトリガーできる脆弱性が発見された。Googleは問題のある3つのAIエージェントワークフローを削除し対応した。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "incident"
+    ]
+  },
+  {
+    "title": "Stateful Cooperative Agents Safeguarding LLMs Against Evolving Multi-Turn Attacks",
+    "link": "https://arxiv.org/abs/2608.00134",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-04T04:00:00+00:00",
+    "summary_ja": "LLMに対するマルチターン型の進化する敵対的攻撃に対抗するため、ステートフルな協調エージェントを用いたプロアクティブな防御フレームワークを提案した研究論文。既存の受動的防御手法の限界を克服し、攻撃者の戦略変化に動的に対応できる仕組みを示している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety",
+      "agent-security"
+    ]
+  }
+]
