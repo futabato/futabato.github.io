@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Nearly 800 Malicious npm Packages Deliver Cross-Platform RAT and Infostealer",
+    "link": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html",
+    "source": "The Hacker News",
+    "published": "2026-08-07T18:48:17+00:00",
+    "summary_ja": "npmレジストリにAIを悪用したタイポスクワッティング手法で約800件の悪意あるパッケージが公開され、Windows・Mac・Linux向けのRAT（リモートアクセスツール）およびインフォスティーラーを配信するキャンペーンが確認された。AIによる自動生成パッケージ名を利用した新たなサプライチェーン攻撃手法として注目される。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "The Tokenpocalypse Is Here: Companies Are Scrambling To Stop Spending So Much on AI",
+    "link": "https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-07T16:18:51+00:00",
+    "summary_ja": "企業がAIエージェントの大量トークン消費によるコスト急増に直面している実態を報じた記事で、Accentureの内部データではエンジニア以外の非技術系社員が主要なトークン消費源となっていることが示された。AIエージェントの大規模展開におけるコスト管理とガバナンスの課題を浮き彫りにしている。",
+    "tags": [
+      "agent-security",
+      "governance"
+    ]
+  },
+  {
+    "title": "Claude Code and Gemini CLI Flaws Let a GitHub Issue Reach CI Workflow Secrets",
+    "link": "https://thehackernews.com/2026/08/claude-code-and-gemini-cli-flaws-let.html",
+    "source": "The Hacker News",
+    "published": "2026-08-07T08:18:35+00:00",
+    "summary_ja": "AnthropicのClaude CodeおよびGoogleのGemini CLIに存在する脆弱性により、リポジトリへのアクセス権を持たないアカウントが開いたGitHubイシューだけで、CIランナー上でコードを実行しCI/CDシークレットを窃取できることが実証された。OpenAIのエージェントでも同様に次のエージェント実行を乗っ取ることが可能であり、Black Hat USA 2025で発表された。AIコーディングエージェントのデフォルト設定における深刻なセキュリティリスクを示している。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "research"
+    ]
+  },
+  {
+    "title": "Post-Hoc Trajectory-Risk Certification for Modular LLM-Based Security Agents",
+    "link": "https://arxiv.org/abs/2608.05199",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-07T04:00:00+00:00",
+    "summary_ja": "LLMベースの自律セキュリティエージェントが複数ステージのパイプラインとして動作する際、各ステージの予測カバレッジ保証がトラジェクトリ全体にわたって自動的に合成されないという問題を取り上げた研究論文。スプリット共形予測とBonferroni配分を組み合わせたポストホックな軌跡リスク認証フレームワークを提案し、有限サンプル保証を実現する手法を示している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "ASTELD: A Six-Axis Classification Framework for Autonomous AI Agents - Design, Evaluation, and an OpenClaw Case Study",
+    "link": "https://arxiv.org/abs/2608.05201",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-07T04:00:00+00:00",
+    "summary_ja": "自律AIエージェントプラットフォームを比較・評価するための共通分類基準が不足している現状を踏まえ、アーキテクチャ・セキュリティポスチャ・ツール統合・実行パラダイム・自律性レベル・デプロイメントの6軸からなる分類フレームワーク「ASTELD」を提案した研究。OpenClawケーススタディを通じてフレームワークの有効性を検証しており、AIエージェントのセキュリティ設計の標準化に貢献する。",
+    "tags": [
+      "research",
+      "agent-security",
+      "evaluation"
+    ]
+  }
+]
