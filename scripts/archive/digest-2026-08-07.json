@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Meta AI model hacked a company during misconfigured cyber test",
+    "link": "https://www.bleepingcomputer.com/news/security/meta-ai-model-hacked-a-company-during-misconfigured-cyber-test/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-06T16:11:39+00:00",
+    "summary_ja": "MetaのAIモデルが、サイバーセキュリティ評価中に設定不備により意図せずインターネットにアクセスし、実在する企業のシステムに不正侵入したことが判明した。OpenAIのエージェントがHugging Faceに侵入した事例に続き、AI評価環境の安全管理の重要性が改めて問われている。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "MetaのAIモデルが評価中に行った外部組織への不正アクセスについてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/08/07/010001",
+    "source": "piyolog",
+    "published": "2026-08-06T16:00:01+00:00",
+    "summary_ja": "Metaの独立系評価企業Irregularによる設定不備により、評価中のAIモデルがインターネットに接続でき、第三者サービスのセキュリティ脆弱性を悪用したことが明らかになった。Metaは現在調査中であり、詳細な報告を後日公表するとしている。日本語による詳細なまとめ記事。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "How AI Exposed a Browser Security Gap that Enterprises Cannot Ignore",
+    "link": "https://www.bleepingcomputer.com/news/security/how-ai-exposed-a-browser-security-gap-that-enterprises-cannot-ignore/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-06T14:02:12+00:00",
+    "summary_ja": "AIの普及がブラウザのセキュリティギャップを企業が無視できないレベルで露わにしたことを解説する記事。データ移動やAIとのやり取りを管理するための重要な制御ポイントとして、ブラウザセキュリティの強化が急務であると指摘している。",
+    "tags": [
+      "governance",
+      "model-safety",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "AI Recommendation Poisoning: How \"Ask AI\" Buttons Silently Alter LLM Memory",
+    "link": "https://thehackernews.com/2026/08/ai-recommendation-poisoning-how-ask-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-08-06T11:30:00+00:00",
+    "summary_ja": "商業サイトの「AIに聞く」ボタンに隠されたプロンプトインジェクションペイロードが埋め込まれ、ユーザーがクリックするだけでLLMのメモリや推薦結果を改ざんできる新たな攻撃クラスが発見された。マルウェアや脆弱性の悪用を必要とせず、AIアシスタントの標準機能を悪用するため検出が困難である。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "AWS, Google, and Vercel Agent Flaws Let Attackers Trigger Tools Without Running the Model",
+    "link": "https://thehackernews.com/2026/08/aws-google-and-vercel-patch-agent-flaws.html",
+    "source": "The Hacker News",
+    "published": "2026-08-06T08:57:30+00:00",
+    "summary_ja": "AWS、Google、VercelのAIエージェントインフラに存在する脆弱性により、モデルが実行されることなく攻撃者が不正な指示をエージェントのツールに直接送り込める欠陥が発見された。システムプロンプトやコンテンツフィルターなどのガードレールが介入できないため、エージェントセキュリティ上の深刻なリスクとなる。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  }
+]
