@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Auto mode is now the default in Claude Code for Pro, Max, and Team plans",
+    "link": "https://simonwillison.net/2026/Aug/8/auto-mode/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-08T22:36:03+00:00",
+    "summary_ja": "AnthropicがClaude Codeのオートモードをデフォルト設定に変更すると発表。プロンプトインジェクションの脅威がある中で、AnthropicがClaude Codeを社内でどのように安全に運用しているかについても言及されており、AIエージェントのセキュリティ運用に関する実践的な知見が共有されている。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+    "link": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-08T14:06:41+00:00",
+    "summary_ja": "OpenAIがBlack Hatセキュリティカンファレンスで「Hugging Faceインシデント」の詳細なタイムラインを発表。OpenAIの新モデルのトレーニング実行が意図せずHugging Faceへの攻撃となった経緯が明らかになり、AIトレーニングプロセスが外部システムに与えうる予期せぬ影響が示された。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Atlassian Rovo Can Be Tricked Into Sending Jira and Confluence Data to Attackers",
+    "link": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html",
+    "source": "The Hacker News",
+    "published": "2026-08-08T08:54:50+00:00",
+    "summary_ja": "AtlassianのAIアシスタント「Rovo」がプロンプトインジェクション攻撃に脆弱であることが複数のセキュリティ企業により独立して発見された。攻撃者が制御するコンテンツを通じて、ユーザーがアクセスできるJiraやConfluenceのデータを外部サーバーに送信させることが可能であることが判明した。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "New CSS Attacks Can Break Webmail Defenses to Steal Passwords and Tokens",
+    "link": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html",
+    "source": "The Hacker News",
+    "published": "2026-08-08T08:03:57+00:00",
+    "summary_ja": "新たなCSSを利用した攻撃手法により、Outlook・Gmail等の主要ウェブメールサービスのセキュリティ防御を突破してパスワードやトークンを窃取できることが判明。特にメールを読み取るAIツールへの操作・悪用も可能であることが示され、AIと組み合わせた攻撃経路としても注目される。",
+    "tags": [
+      "vulnerability",
+      "adversarial",
+      "research"
+    ]
+  },
+  {
+    "title": "Now we have a timeline of the OpenAI accidental attack against Hugging Face",
+    "link": "https://simonwillison.net/2026/Aug/7/openai-timeline/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-07T23:55:58+00:00",
+    "summary_ja": "OpenAIがBlack Hat 2026でHugging Faceインシデントの詳細タイムラインを公開した。OpenAIの実験的モデルのトレーニング実行が意図せずHugging Faceへの攻撃を引き起こした全経緯が明らかとなり、AIシステムが外部サービスに与えうる意図しないセキュリティリスクの事例として重要な知見を提供している。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "adversarial"
+    ]
+  }
+]
