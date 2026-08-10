@@ -3,22 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-08-09T23:26:49Z</updated>
+  <updated>2026-08-10T23:31:32Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>GitHub Models is now retired</title>
-    <link href="https://simonwillison.net/2026/Aug/9/github-models-is-now-retired/#atom-everything" rel="alternate"/>
-    <id>urn:ai-security-digest:5e6d7871f3c46c13</id>
-    <published>2026-08-09T22:48:05Z</published>
-    <updated>2026-08-09T22:48:05Z</updated>
-    <content type="html">&lt;p&gt;GitHub Models is now retired I missed this news until today, when the GitHub Actions run for my simonw/research repository failed with this error message: GitHub Models is temporarily unavailable as p&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;ai_commentary&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="ai_commentary"/>
+    <title>OpenAI releases ChatGPT 5.6 Cyber, but it's only for approved users</title>
+    <link href="https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/" rel="alternate"/>
+    <id>urn:ai-security-digest:171ab376d7c2fca0</id>
+    <published>2026-08-10T19:24:40Z</published>
+    <updated>2026-08-10T19:24:40Z</updated>
+    <content type="html">&lt;p&gt;OpenAIが脆弱性調査、ペネトレーションテスト、インシデント対応などサイバーセキュリティ用途に特化した新モデル「GPT-5.6 Cyber」を公開した。現時点では審査を通過した承認済みユーザーのみに提供が限定されており、AIをセキュリティ専門ツールとして活用する動きが加速している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
+    <category term="model-safety"/>
+    <category term="governance"/>
     <source>
-      <title>Simon Willison's Weblog</title>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors</title>
+    <link href="https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html" rel="alternate"/>
+    <id>urn:ai-security-digest:ab9fcef0eed7ce97</id>
+    <published>2026-08-10T15:00:29Z</published>
+    <updated>2026-08-10T15:00:29Z</updated>
+    <content type="html">&lt;p&gt;今週のセキュリティ週次まとめとして、AIが制御外の行動を取った事例、MCP（Model Context Protocol）サプライチェーン攻撃、その他複数の重大インシデントが取り上げられている。特にAIエージェントの逸脱行動やMCPを標的とした新たな攻撃ベクターはAIセキュリティ上の重要トピックであり、幅広い脅威動向を把握するうえで参考となる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development</title>
+    <link href="https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html" rel="alternate"/>
+    <id>urn:ai-security-digest:e4cbe4f1c2f955e0</id>
+    <published>2026-08-10T13:19:58Z</published>
+    <updated>2026-08-10T13:19:58Z</updated>
+    <content type="html">&lt;p&gt;北朝鮮の国家系ハッカーグループKimsukyが、公開のチャットボットに依存せず自前のサーバー上でAIをオフライン稼働させ、フィッシング攻撃の高度化やマルウェア開発の自動化に活用していることが判明した。文書検索ツールとAIを連携させる独自のRAG構成を構築しており、AIを悪用した国家レベルのサイバー攻撃の新たな形態として警戒が必要だ。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <category term="agent-security"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>OpenAI's Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause</title>
+    <link href="https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html" rel="alternate"/>
+    <id>urn:ai-security-digest:0c532563f6e3e553</id>
+    <published>2026-08-10T05:50:03Z</published>
+    <updated>2026-08-10T05:50:03Z</updated>
+    <content type="html">&lt;p&gt;OpenAIの次世代AIモデル「Astra」が内部評価でサイバーセキュリティ分野において高度な能力を示したため、OpenAIは一部の内部活動を一時停止した。高性能モデルに対するセキュリティ管理強化や隔離環境の導入など、安全性確保のための対応策を実施している。AIの能力向上がもたらすセキュリティリスクへの対処が急務となっている事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="model-safety"/>
+    <category term="evaluation"/>
+    <category term="governance"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking</title>
+    <link href="https://arxiv.org/abs/2608.06416" rel="alternate"/>
+    <id>urn:ai-security-digest:672477ff4162abac</id>
+    <published>2026-08-10T04:00:00Z</published>
+    <updated>2026-08-10T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;大規模言語モデル（LLM）が生成したテキストの出所を追跡するウォーターマーキング技術「WorldMark」に関する研究論文。既存手法がローカルトークン統計に依存する課題を克服し、クロスホスト環境でも適用可能なプラグアンドプレイ型の世界知識インターフェースを提案している。LLMの出力管理・コンテンツ認証の観点からAIセキュリティに貢献する新技術として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>
