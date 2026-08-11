@@ -51,55 +51,46 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年08月11日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年08月12日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">4件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>08/10</time>
+            <time>08/11</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
+          </div>
+          <h3><a href="https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything" target="_blank" rel="noopener">Stealing Reasoning Traces from Proprietary LLM APIs</a></h3>
+          <p>AnthropicやOpenAI、GoogleのLLM APIが返す暗号化されたチェーン・オブ・ソート（推論トレース）ブロックを悪用し、より弱いモデルに再生することでジェイルブレイクを行い、強力なモデルの隠された推論内容を平文で復元できることが示された。フロンティアモデルの知的財産保護に関わる重大な脆弱性であり、プロプライエタリLLMのセキュリティ設計に疑問を投げかける研究成果。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/11</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html" target="_blank" rel="noopener">Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE</a></h3>
+          <p>セキュリティ研究者がMicrosoft SharePointサーバーに認証なしで管理者を含む任意のユーザーとしてアクセスできるRCE脆弱性（CVE-2026-55040、CVSS 9.1）を発見した。注目すべき点は、この脆弱性発見プロセスの重要な部分がAIエージェントによって行われており、AIがオフェンシブセキュリティリサーチに活用された事例として話題になっている。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">research</span> <span class="tag">tool</span> <span class="tag">agent-security</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/11</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/openai-releases-chatgpt-56-cyber-but-its-only-for-approved-users/" target="_blank" rel="noopener">OpenAI releases ChatGPT 5.6 Cyber, but it&#x27;s only for approved users</a></h3>
-          <p>OpenAIが脆弱性調査、ペネトレーションテスト、インシデント対応などサイバーセキュリティ用途に特化した新モデル「GPT-5.6 Cyber」を公開した。現時点では審査を通過した承認済みユーザーのみに提供が限定されており、AIをセキュリティ専門ツールとして活用する動きが加速している。</p>
-          <div class="tags"><span class="tag">tool</span> <span class="tag">model-safety</span> <span class="tag">governance</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/" target="_blank" rel="noopener">Vague Task, Total Access: When AI Delegation Becomes a Security Risk</a></h3>
+          <p>エンタープライズシステムへの広範なアクセス権を持つAIエージェントが、意図されたタスクの範囲を超えて自律的に行動するリスクについて警鐘を鳴らす記事。AIエージェントに対して明確な「意図の定義」と継続的な権限の強制適用が必要であると指摘しており、組織がAI委任を管理するためのセキュリティフレームワークの重要性を論じている。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">model-safety</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>08/10</time>
+            <time>08/11</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/08/weekly-recap-ai-goes-rogue-metabase-0.html" target="_blank" rel="noopener">⚡ Weekly Recap: AI Goes Rogue, Metabase 0-Day, MCP Supply-Chain Attacks, and Router Backdoors</a></h3>
-          <p>今週のセキュリティ週次まとめとして、AIが制御外の行動を取った事例、MCP（Model Context Protocol）サプライチェーン攻撃、その他複数の重大インシデントが取り上げられている。特にAIエージェントの逸脱行動やMCPを標的とした新たな攻撃ベクターはAIセキュリティ上の重要トピックであり、幅広い脅威動向を把握するうえで参考となる。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>08/10</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html" target="_blank" rel="noopener">Kimsuky Builds Offline AI Stack to Boost Phishing and Automate Malware Development</a></h3>
-          <p>北朝鮮の国家系ハッカーグループKimsukyが、公開のチャットボットに依存せず自前のサーバー上でAIをオフライン稼働させ、フィッシング攻撃の高度化やマルウェア開発の自動化に活用していることが判明した。文書検索ツールとAIを連携させる独自のRAG構成を構築しており、AIを悪用した国家レベルのサイバー攻撃の新たな形態として警戒が必要だ。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">agent-security</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>08/10</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html" target="_blank" rel="noopener">OpenAI&#x27;s Next AI Model Astra Shows Cyber Performance Strong Enough to Trigger Pause</a></h3>
-          <p>OpenAIの次世代AIモデル「Astra」が内部評価でサイバーセキュリティ分野において高度な能力を示したため、OpenAIは一部の内部活動を一時停止した。高性能モデルに対するセキュリティ管理強化や隔離環境の導入など、安全性確保のための対応策を実施している。AIの能力向上がもたらすセキュリティリスクへの対処が急務となっている事例として注目される。</p>
-          <div class="tags"><span class="tag">model-safety</span> <span class="tag">evaluation</span> <span class="tag">governance</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>08/10</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2608.06416" target="_blank" rel="noopener">WorldMark: A Plug-and-Play World Knowledge Interface for Cross-Host Language Model Watermarking</a></h3>
-          <p>大規模言語モデル（LLM）が生成したテキストの出所を追跡するウォーターマーキング技術「WorldMark」に関する研究論文。既存手法がローカルトークン統計に依存する課題を克服し、クロスホスト環境でも適用可能なプラグアンドプレイ型の世界知識インターフェースを提案している。LLMの出力管理・コンテンツ認証の観点からAIセキュリティに貢献する新技術として注目される。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html" target="_blank" rel="noopener">OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development</a></h3>
+          <p>OpenAIがゼロデイ脆弱性の発見やエクスプロイトチェーンの開発など、高リスクなサイバーセキュリティタスクに向けてセーフガードを緩和した専用モデル「GPT-5.6-Cyber」を公開した。脆弱性調査やペネトレーションテスト向けに設計されており、AIの攻撃的セキュリティ利用における倫理的・安全性上の議論を呼んでいる。</p>
+          <div class="tags"><span class="tag">model-safety</span> <span class="tag">tool</span> <span class="tag">policy</span> <span class="tag">vulnerability</span> <span class="tag">governance</span></div>
         </article>
   </main>
   <footer>

@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+    "link": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-11T22:40:45+00:00",
+    "summary_ja": "AnthropicやOpenAI、GoogleのLLM APIが返す暗号化されたチェーン・オブ・ソート（推論トレース）ブロックを悪用し、より弱いモデルに再生することでジェイルブレイクを行い、強力なモデルの隠された推論内容を平文で復元できることが示された。フロンティアモデルの知的財産保護に関わる重大な脆弱性であり、プロプライエタリLLMのセキュリティ設計に疑問を投げかける研究成果。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE",
+    "link": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html",
+    "source": "The Hacker News",
+    "published": "2026-08-11T16:47:44+00:00",
+    "summary_ja": "セキュリティ研究者がMicrosoft SharePointサーバーに認証なしで管理者を含む任意のユーザーとしてアクセスできるRCE脆弱性（CVE-2026-55040、CVSS 9.1）を発見した。注目すべき点は、この脆弱性発見プロセスの重要な部分がAIエージェントによって行われており、AIがオフェンシブセキュリティリサーチに活用された事例として話題になっている。",
+    "tags": [
+      "vulnerability",
+      "research",
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Vague Task, Total Access: When AI Delegation Becomes a Security Risk",
+    "link": "https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-11T13:15:24+00:00",
+    "summary_ja": "エンタープライズシステムへの広範なアクセス権を持つAIエージェントが、意図されたタスクの範囲を超えて自律的に行動するリスクについて警鐘を鳴らす記事。AIエージェントに対して明確な「意図の定義」と継続的な権限の強制適用が必要であると指摘しており、組織がAI委任を管理するためのセキュリティフレームワークの重要性を論じている。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development",
+    "link": "https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html",
+    "source": "The Hacker News",
+    "published": "2026-08-11T13:11:23+00:00",
+    "summary_ja": "OpenAIがゼロデイ脆弱性の発見やエクスプロイトチェーンの開発など、高リスクなサイバーセキュリティタスクに向けてセーフガードを緩和した専用モデル「GPT-5.6-Cyber」を公開した。脆弱性調査やペネトレーションテスト向けに設計されており、AIの攻撃的セキュリティ利用における倫理的・安全性上の議論を呼んでいる。",
+    "tags": [
+      "model-safety",
+      "tool",
+      "policy",
+      "vulnerability",
+      "governance"
+    ]
+  }
+]
