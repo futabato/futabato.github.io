@@ -1,0 +1,61 @@
+[
+  {
+    "title": "LLM生成によるとみられる多数の虚偽CVE登録についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/08/13/073841",
+    "source": "piyolog",
+    "published": "2026-08-12T22:38:41+00:00",
+    "summary_ja": "GitHubユーザーがLLMで生成したとみられる虚偽の脆弱性アドバイザリを大量投稿し、そのうち複数がCVEレコードとして登録・公開された。技術的に成立しない偽情報がNVDやGitHub Advisory Databaseに取り込まれ、MITREが却下するまでの間、セキュリティエコシステムに混乱をもたらした。LLMを悪用した脆弱性データベース汚染という新たな脅威を示す事例として注目される。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "Quoting Florian Herrengt",
+    "link": "https://simonwillison.net/2026/Aug/12/florian-herrengt/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-12T15:08:47+00:00",
+    "summary_ja": "開発現場でAIへの過度な依存が進む中、バグ修正や機能の仕組みの把握までAIに委ねるようになり、誰もコードの実態を理解しない状況が生まれているという問題提起。AIが自信を持って誤情報を提示しても検証できない開発者の実態を描いており、AIアシスト開発のリスクと安全性への示唆を含む。",
+    "tags": [
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In",
+    "link": "https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-12T14:01:11+00:00",
+    "summary_ja": "北朝鮮系の偽装リモートワーカーが採用プロセスの隙をついて組織に侵入する手口が報告されており、AI生成のなりすましや偽造書類が悪用されるリスクが高まっている。生体認証やドキュメント検証によるアイデンティティ確認の重要性が示されており、AIを用いた社会工学的攻撃への対策として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Microsoft’s massive Patch Tuesday releases continue as AI reshapes bug discovery",
+    "link": "https://therecord.media/microsoft-massive-patch-tuesday-releases-continue-ai",
+    "source": "The Record by Recorded Future",
+    "published": "2026-08-12T12:38:00+00:00",
+    "summary_ja": "MicrosoftのPatch Tuesdayにおけるパッチ件数が、AI支援による脆弱性発見の普及により、従来の約5倍規模に膨らんでいることが明らかになった。AIが脆弱性リサーチを加速させることでセキュリティ対応コストや規模に大きな変化をもたらしていることを示している。",
+    "tags": [
+      "vulnerability",
+      "tool",
+      "research"
+    ]
+  },
+  {
+    "title": "Shaping the NVD for the Future: We Need Your Feedback on AI-Enabled Vulnerability Management",
+    "link": "https://www.nist.gov/blogs/cybersecurity-insights/shaping-nvd-future-we-need-your-feedback-ai-enabled-vulnerability",
+    "source": "NIST Cybersecurity",
+    "published": "2026-08-12T12:00:00+00:00",
+    "summary_ja": "NISTが、NVD（国家脆弱性データベース）のAI活用による脆弱性管理の高度化に向けてパブリックフィードバックを募集している。AIによる脆弱性データの自動処理・分析をNVDの将来像として検討しており、セキュリティ基盤インフラへのAI統合という政策・ガバナンス上の重要な動向である。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  }
+]

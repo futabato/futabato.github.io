@@ -51,46 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年08月12日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">4件</span>
+    <span class="current-date" id="current-date">2026年08月13日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>08/11</time>
+            <time>08/12</time>
+            <span class="source">piyolog</span>
+          </div>
+          <h3><a href="https://piyolog.hatenadiary.jp/entry/2026/08/13/073841" target="_blank" rel="noopener">LLM生成によるとみられる多数の虚偽CVE登録についてまとめてみた</a></h3>
+          <p>GitHubユーザーがLLMで生成したとみられる虚偽の脆弱性アドバイザリを大量投稿し、そのうち複数がCVEレコードとして登録・公開された。技術的に成立しない偽情報がNVDやGitHub Advisory Databaseに取り込まれ、MITREが却下するまでの間、セキュリティエコシステムに混乱をもたらした。LLMを悪用した脆弱性データベース汚染という新たな脅威を示す事例として注目される。</p>
+          <div class="tags"><span class="tag">adversarial</span> <span class="tag">vulnerability</span> <span class="tag">incident</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/12</time>
             <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/#atom-everything" target="_blank" rel="noopener">Stealing Reasoning Traces from Proprietary LLM APIs</a></h3>
-          <p>AnthropicやOpenAI、GoogleのLLM APIが返す暗号化されたチェーン・オブ・ソート（推論トレース）ブロックを悪用し、より弱いモデルに再生することでジェイルブレイクを行い、強力なモデルの隠された推論内容を平文で復元できることが示された。フロンティアモデルの知的財産保護に関わる重大な脆弱性であり、プロプライエタリLLMのセキュリティ設計に疑問を投げかける研究成果。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
+          <h3><a href="https://simonwillison.net/2026/Aug/12/florian-herrengt/" target="_blank" rel="noopener">Quoting Florian Herrengt</a></h3>
+          <p>開発現場でAIへの過度な依存が進む中、バグ修正や機能の仕組みの把握までAIに委ねるようになり、誰もコードの実態を理解しない状況が生まれているという問題提起。AIが自信を持って誤情報を提示しても検証できない開発者の実態を描いており、AIアシスト開発のリスクと安全性への示唆を含む。</p>
+          <div class="tags"><span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>08/11</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html" target="_blank" rel="noopener">Researchers Disclose AI-Assisted SharePoint Exploit Chain Reaching Unauthenticated RCE</a></h3>
-          <p>セキュリティ研究者がMicrosoft SharePointサーバーに認証なしで管理者を含む任意のユーザーとしてアクセスできるRCE脆弱性（CVE-2026-55040、CVSS 9.1）を発見した。注目すべき点は、この脆弱性発見プロセスの重要な部分がAIエージェントによって行われており、AIがオフェンシブセキュリティリサーチに活用された事例として話題になっている。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">research</span> <span class="tag">tool</span> <span class="tag">agent-security</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>08/11</time>
+            <time>08/12</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/vague-task-total-access-when-ai-delegation-becomes-a-security-risk/" target="_blank" rel="noopener">Vague Task, Total Access: When AI Delegation Becomes a Security Risk</a></h3>
-          <p>エンタープライズシステムへの広範なアクセス権を持つAIエージェントが、意図されたタスクの範囲を超えて自律的に行動するリスクについて警鐘を鳴らす記事。AIエージェントに対して明確な「意図の定義」と継続的な権限の強制適用が必要であると指摘しており、組織がAI委任を管理するためのセキュリティフレームワークの重要性を論じている。</p>
-          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">model-safety</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/" target="_blank" rel="noopener">The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In</a></h3>
+          <p>北朝鮮系の偽装リモートワーカーが採用プロセスの隙をついて組織に侵入する手口が報告されており、AI生成のなりすましや偽造書類が悪用されるリスクが高まっている。生体認証やドキュメント検証によるアイデンティティ確認の重要性が示されており、AIを用いた社会工学的攻撃への対策として注目される。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">vulnerability</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>08/11</time>
-            <span class="source">The Hacker News</span>
+            <time>08/12</time>
+            <span class="source">The Record by Recorded Future</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/08/openai-launches-gpt-56-cyber-with.html" target="_blank" rel="noopener">OpenAI Launches GPT-5.6-Cyber with Reduced Safeguards for Exploit Development</a></h3>
-          <p>OpenAIがゼロデイ脆弱性の発見やエクスプロイトチェーンの開発など、高リスクなサイバーセキュリティタスクに向けてセーフガードを緩和した専用モデル「GPT-5.6-Cyber」を公開した。脆弱性調査やペネトレーションテスト向けに設計されており、AIの攻撃的セキュリティ利用における倫理的・安全性上の議論を呼んでいる。</p>
-          <div class="tags"><span class="tag">model-safety</span> <span class="tag">tool</span> <span class="tag">policy</span> <span class="tag">vulnerability</span> <span class="tag">governance</span></div>
+          <h3><a href="https://therecord.media/microsoft-massive-patch-tuesday-releases-continue-ai" target="_blank" rel="noopener">Microsoft’s massive Patch Tuesday releases continue as AI reshapes bug discovery</a></h3>
+          <p>MicrosoftのPatch Tuesdayにおけるパッチ件数が、AI支援による脆弱性発見の普及により、従来の約5倍規模に膨らんでいることが明らかになった。AIが脆弱性リサーチを加速させることでセキュリティ対応コストや規模に大きな変化をもたらしていることを示している。</p>
+          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">tool</span> <span class="tag">research</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/12</time>
+            <span class="source">NIST Cybersecurity</span>
+          </div>
+          <h3><a href="https://www.nist.gov/blogs/cybersecurity-insights/shaping-nvd-future-we-need-your-feedback-ai-enabled-vulnerability" target="_blank" rel="noopener">Shaping the NVD for the Future: We Need Your Feedback on AI-Enabled Vulnerability Management</a></h3>
+          <p>NISTが、NVD（国家脆弱性データベース）のAI活用による脆弱性管理の高度化に向けてパブリックフィードバックを募集している。AIによる脆弱性データの自動処理・分析をNVDの将来像として検討しており、セキュリティ基盤インフラへのAI統合という政策・ガバナンス上の重要な動向である。</p>
+          <div class="tags"><span class="tag">policy</span> <span class="tag">governance</span> <span class="tag">regulation</span></div>
         </article>
   </main>
   <footer>
