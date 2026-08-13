@@ -3,79 +3,38 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-08-12T23:37:18Z</updated>
+  <updated>2026-08-13T23:37:08Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>LLM生成によるとみられる多数の虚偽CVE登録についてまとめてみた</title>
-    <link href="https://piyolog.hatenadiary.jp/entry/2026/08/13/073841" rel="alternate"/>
-    <id>urn:ai-security-digest:69dc66273aaf3e3f</id>
-    <published>2026-08-12T22:38:41Z</published>
-    <updated>2026-08-12T22:38:41Z</updated>
-    <content type="html">&lt;p&gt;GitHubユーザーがLLMで生成したとみられる虚偽の脆弱性アドバイザリを大量投稿し、そのうち複数がCVEレコードとして登録・公開された。技術的に成立しない偽情報がNVDやGitHub Advisory Databaseに取り込まれ、MITREが却下するまでの間、セキュリティエコシステムに混乱をもたらした。LLMを悪用した脆弱性データベース汚染という新たな脅威を示す事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; piyolog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="adversarial"/>
+    <title>Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion</title>
+    <link href="https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/" rel="alternate"/>
+    <id>urn:ai-security-digest:93f55ea09cbb214e</id>
+    <published>2026-08-13T14:00:10Z</published>
+    <updated>2026-08-13T14:00:10Z</updated>
+    <content type="html">&lt;p&gt;AIコーディングツールは、未検証またはハルシネーションによる誤ったオープンソース依存関係を、従来のセキュリティレビューが追いつけない速度で導入するリスクがある。組織は開発パイプラインに入る前の選定段階でパッケージを管理・ガバナンスすることが重要だと指摘されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
-    <category term="incident"/>
-    <source>
-      <title>piyolog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Quoting Florian Herrengt</title>
-    <link href="https://simonwillison.net/2026/Aug/12/florian-herrengt/" rel="alternate"/>
-    <id>urn:ai-security-digest:46642bc6105696ed</id>
-    <published>2026-08-12T15:08:47Z</published>
-    <updated>2026-08-12T15:08:47Z</updated>
-    <content type="html">&lt;p&gt;開発現場でAIへの過度な依存が進む中、バグ修正や機能の仕組みの把握までAIに委ねるようになり、誰もコードの実態を理解しない状況が生まれているという問題提起。AIが自信を持って誤情報を提示しても検証できない開発者の実態を描いており、AIアシスト開発のリスクと安全性への示唆を含む。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>The Threat Hiding in Your Hiring Process: How Fake Remote Workers Get In</title>
-    <link href="https://www.bleepingcomputer.com/news/security/the-threat-hiding-in-your-hiring-process-how-fake-remote-workers-get-in/" rel="alternate"/>
-    <id>urn:ai-security-digest:e767b9f5f3248f80</id>
-    <published>2026-08-12T14:01:11Z</published>
-    <updated>2026-08-12T14:01:11Z</updated>
-    <content type="html">&lt;p&gt;北朝鮮系の偽装リモートワーカーが採用プロセスの隙をついて組織に侵入する手口が報告されており、AI生成のなりすましや偽造書類が悪用されるリスクが高まっている。生体認証やドキュメント検証によるアイデンティティ確認の重要性が示されており、AIを用いた社会工学的攻撃への対策として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="adversarial"/>
-    <category term="vulnerability"/>
+    <category term="tool"/>
+    <category term="agent-security"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Microsoft’s massive Patch Tuesday releases continue as AI reshapes bug discovery</title>
-    <link href="https://therecord.media/microsoft-massive-patch-tuesday-releases-continue-ai" rel="alternate"/>
-    <id>urn:ai-security-digest:31a5be72e2477849</id>
-    <published>2026-08-12T12:38:00Z</published>
-    <updated>2026-08-12T12:38:00Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftのPatch Tuesdayにおけるパッチ件数が、AI支援による脆弱性発見の普及により、従来の約5倍規模に膨らんでいることが明らかになった。AIが脆弱性リサーチを加速させることでセキュリティ対応コストや規模に大きな変化をもたらしていることを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="tool"/>
+    <title>Agent Safety Should Be a Runtime Contract</title>
+    <link href="https://arxiv.org/abs/2608.11274" rel="alternate"/>
+    <id>urn:ai-security-digest:1be11a53bf34a240</id>
+    <published>2026-08-13T04:00:00Z</published>
+    <updated>2026-08-13T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;現在主流のAI安全性アプローチ（RLHF・DPO・Constitutional AI等による訓練時の安全性付与）は、コード実行やファイル操作・メッセージ送信・データベース変更を行う自律エージェントには構造的に不十分であると論じる研究。エージェントの安全性はサンドボックスや監査ログなどを用いたランタイム契約として実行環境側で強制すべきと主張している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
     <source>
-      <title>The Record by Recorded Future</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Shaping the NVD for the Future: We Need Your Feedback on AI-Enabled Vulnerability Management</title>
-    <link href="https://www.nist.gov/blogs/cybersecurity-insights/shaping-nvd-future-we-need-your-feedback-ai-enabled-vulnerability" rel="alternate"/>
-    <id>urn:ai-security-digest:e8fd23c1732f8eda</id>
-    <published>2026-08-12T12:00:00Z</published>
-    <updated>2026-08-12T12:00:00Z</updated>
-    <content type="html">&lt;p&gt;NISTが、NVD（国家脆弱性データベース）のAI活用による脆弱性管理の高度化に向けてパブリックフィードバックを募集している。AIによる脆弱性データの自動処理・分析をNVDの将来像として検討しており、セキュリティ基盤インフラへのAI統合という政策・ガバナンス上の重要な動向である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; NIST Cybersecurity&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
-    <category term="governance"/>
-    <category term="regulation"/>
-    <source>
-      <title>NIST Cybersecurity</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>

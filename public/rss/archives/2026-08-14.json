@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion",
+    "link": "https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-13T14:00:10+00:00",
+    "summary_ja": "AIコーディングツールは、未検証またはハルシネーションによる誤ったオープンソース依存関係を、従来のセキュリティレビューが追いつけない速度で導入するリスクがある。組織は開発パイプラインに入る前の選定段階でパッケージを管理・ガバナンスすることが重要だと指摘されている。",
+    "tags": [
+      "vulnerability",
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Agent Safety Should Be a Runtime Contract",
+    "link": "https://arxiv.org/abs/2608.11274",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-13T04:00:00+00:00",
+    "summary_ja": "現在主流のAI安全性アプローチ（RLHF・DPO・Constitutional AI等による訓練時の安全性付与）は、コード実行やファイル操作・メッセージ送信・データベース変更を行う自律エージェントには構造的に不十分であると論じる研究。エージェントの安全性はサンドボックスや監査ログなどを用いたランタイム契約として実行環境側で強制すべきと主張している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  }
+]
