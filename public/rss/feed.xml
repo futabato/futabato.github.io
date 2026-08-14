@@ -3,36 +3,78 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-08-13T23:37:08Z</updated>
+  <updated>2026-08-14T23:17:47Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion</title>
-    <link href="https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/" rel="alternate"/>
-    <id>urn:ai-security-digest:93f55ea09cbb214e</id>
-    <published>2026-08-13T14:00:10Z</published>
-    <updated>2026-08-13T14:00:10Z</updated>
-    <content type="html">&lt;p&gt;AIコーディングツールは、未検証またはハルシネーションによる誤ったオープンソース依存関係を、従来のセキュリティレビューが追いつけない速度で導入するリスクがある。組織は開発パイプラインに入る前の選定段階でパッケージを管理・ガバナンスすることが重要だと指摘されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <title>AIが生成した脆弱性修正パッチの品質検証結果についてまとめてみた</title>
+    <link href="https://piyolog.hatenadiary.jp/entry/2026/08/15/075403" rel="alternate"/>
+    <id>urn:ai-security-digest:ccbe957626051741</id>
+    <published>2026-08-14T22:54:03Z</published>
+    <updated>2026-08-14T22:54:03Z</updated>
+    <content type="html">&lt;p&gt;1PasswordのOff-by-1 Labsが、LLMが生成する脆弱性修正パッチの品質を実在する6件のCVEで検証した結果を公表。完全に修正できた割合は限定的であり、修正の過程で新たな脆弱性を作り込む事例も確認された。AIによる自動パッチ生成の限界と危険性を示す重要な研究成果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; piyolog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="vulnerability"/>
-    <category term="tool"/>
-    <category term="agent-security"/>
+    <category term="evaluation"/>
     <source>
-      <title>Bleeping Computer</title>
+      <title>piyolog</title>
     </source>
   </entry>
   <entry>
-    <title>Agent Safety Should Be a Runtime Contract</title>
-    <link href="https://arxiv.org/abs/2608.11274" rel="alternate"/>
-    <id>urn:ai-security-digest:1be11a53bf34a240</id>
-    <published>2026-08-13T04:00:00Z</published>
-    <updated>2026-08-13T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;現在主流のAI安全性アプローチ（RLHF・DPO・Constitutional AI等による訓練時の安全性付与）は、コード実行やファイル操作・メッセージ送信・データベース変更を行う自律エージェントには構造的に不十分であると論じる研究。エージェントの安全性はサンドボックスや監査ログなどを用いたランタイム契約として実行環境側で強制すべきと主張している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks</title>
+    <link href="https://arxiv.org/abs/2608.12713" rel="alternate"/>
+    <id>urn:ai-security-digest:4bb2e1bc358b863e</id>
+    <published>2026-08-14T04:00:00Z</published>
+    <updated>2026-08-14T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLM生成テキストの透かし（ウォーターマーク）に関する新手法を提案。既存の頑健なウォーターマークは「piggyback spoofing」という脆弱性を持つことを指摘し、頑健なシグナルと脆弱なシグナルを同時埋め込むことで出所追跡と改ざん検出を両立する新方式を提案している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>PIPES: Securing Agent Perception with Provenance and Priors</title>
+    <link href="https://arxiv.org/abs/2608.12789" rel="alternate"/>
+    <id>urn:ai-security-digest:d94fe7852e58a567</id>
+    <published>2026-08-14T04:00:00Z</published>
+    <updated>2026-08-14T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;ツール使用型AIエージェントが外部データを消費する際の信頼モデルの欠如を悪用した「状態汚染攻撃」を示し、その対策としてPIPESフレームワークを提案。各ツール応答の出所と事前知識を活用してエージェントの知覚を保護するアプローチを提示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
     <category term="agent-security"/>
-    <category term="model-safety"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Labels Are Not Endpoints: Treatment Leakage and Construct Validity in MCP Agent Security Evaluation</title>
+    <link href="https://arxiv.org/abs/2608.12880" rel="alternate"/>
+    <id>urn:ai-security-digest:6b41d6afe6712200</id>
+    <published>2026-08-14T04:00:00Z</published>
+    <updated>2026-08-14T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;ツール使用型エージェントのMCPセキュリティ評価において、ラベルが行動的事実と同一視されることで生じる「トリートメントリーケージ」問題を指摘。10,200件の実行ログを分析し、評価ベンチマーク自体に構造的な測定妥当性の欠陥があることを実証した。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Adversarial Robustness in Smishing Detection: A Comparative Analysis of Adversarial Fragility in Classical vs. Transformer-Based Detection Systems</title>
+    <link href="https://arxiv.org/abs/2608.12889" rel="alternate"/>
+    <id>urn:ai-security-digest:228cb42e575ae5f9</id>
+    <published>2026-08-14T04:00:00Z</published>
+    <updated>2026-08-14T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;スミッシング（SMS詐欺）検出システムに対する敵対的攻撃の頑健性を、古典的機械学習モデルとTransformerベースモデルで比較分析。文字難読化やクロスリンガルコードスイッチングなどの攻撃手法に対するモデル間の脆弱性の差異を評価している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="evaluation"/>
     <source>
       <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>

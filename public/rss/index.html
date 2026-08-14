@@ -51,28 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年08月14日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">2件</span>
+    <span class="current-date" id="current-date">2026年08月15日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>08/13</time>
-            <span class="source">Bleeping Computer</span>
+            <time>08/14</time>
+            <span class="source">piyolog</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/who-vets-ais-code-the-scale-challenge-facing-open-source-ingestion/" target="_blank" rel="noopener">Who Vets AI’s Code? The Scale Challenge Facing Open Source Ingestion</a></h3>
-          <p>AIコーディングツールは、未検証またはハルシネーションによる誤ったオープンソース依存関係を、従来のセキュリティレビューが追いつけない速度で導入するリスクがある。組織は開発パイプラインに入る前の選定段階でパッケージを管理・ガバナンスすることが重要だと指摘されている。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">tool</span> <span class="tag">agent-security</span></div>
+          <h3><a href="https://piyolog.hatenadiary.jp/entry/2026/08/15/075403" target="_blank" rel="noopener">AIが生成した脆弱性修正パッチの品質検証結果についてまとめてみた</a></h3>
+          <p>1PasswordのOff-by-1 Labsが、LLMが生成する脆弱性修正パッチの品質を実在する6件のCVEで検証した結果を公表。完全に修正できた割合は限定的であり、修正の過程で新たな脆弱性を作り込む事例も確認された。AIによる自動パッチ生成の限界と危険性を示す重要な研究成果。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">evaluation</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>08/13</time>
+            <time>08/14</time>
             <span class="source">arXiv cs.CR (Cryptography and Security)</span>
           </div>
-          <h3><a href="https://arxiv.org/abs/2608.11274" target="_blank" rel="noopener">Agent Safety Should Be a Runtime Contract</a></h3>
-          <p>現在主流のAI安全性アプローチ（RLHF・DPO・Constitutional AI等による訓練時の安全性付与）は、コード実行やファイル操作・メッセージ送信・データベース変更を行う自律エージェントには構造的に不十分であると論じる研究。エージェントの安全性はサンドボックスや監査ログなどを用いたランタイム契約として実行環境側で強制すべきと主張している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
+          <h3><a href="https://arxiv.org/abs/2608.12713" target="_blank" rel="noopener">Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks</a></h3>
+          <p>LLM生成テキストの透かし（ウォーターマーク）に関する新手法を提案。既存の頑健なウォーターマークは「piggyback spoofing」という脆弱性を持つことを指摘し、頑健なシグナルと脆弱なシグナルを同時埋め込むことで出所追跡と改ざん検出を両立する新方式を提案している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/14</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2608.12789" target="_blank" rel="noopener">PIPES: Securing Agent Perception with Provenance and Priors</a></h3>
+          <p>ツール使用型AIエージェントが外部データを消費する際の信頼モデルの欠如を悪用した「状態汚染攻撃」を示し、その対策としてPIPESフレームワークを提案。各ツール応答の出所と事前知識を活用してエージェントの知覚を保護するアプローチを提示している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/14</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2608.12880" target="_blank" rel="noopener">Labels Are Not Endpoints: Treatment Leakage and Construct Validity in MCP Agent Security Evaluation</a></h3>
+          <p>ツール使用型エージェントのMCPセキュリティ評価において、ラベルが行動的事実と同一視されることで生じる「トリートメントリーケージ」問題を指摘。10,200件の実行ログを分析し、評価ベンチマーク自体に構造的な測定妥当性の欠陥があることを実証した。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">evaluation</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/14</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2608.12889" target="_blank" rel="noopener">Adversarial Robustness in Smishing Detection: A Comparative Analysis of Adversarial Fragility in Classical vs. Transformer-Based Detection Systems</a></h3>
+          <p>スミッシング（SMS詐欺）検出システムに対する敵対的攻撃の頑健性を、古典的機械学習モデルとTransformerベースモデルで比較分析。文字難読化やクロスリンガルコードスイッチングなどの攻撃手法に対するモデル間の脆弱性の差異を評価している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">evaluation</span></div>
         </article>
   </main>
   <footer>

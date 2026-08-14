@@ -1,0 +1,62 @@
+[
+  {
+    "title": "AIが生成した脆弱性修正パッチの品質検証結果についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/08/15/075403",
+    "source": "piyolog",
+    "published": "2026-08-14T22:54:03+00:00",
+    "summary_ja": "1PasswordのOff-by-1 Labsが、LLMが生成する脆弱性修正パッチの品質を実在する6件のCVEで検証した結果を公表。完全に修正できた割合は限定的であり、修正の過程で新たな脆弱性を作り込む事例も確認された。AIによる自動パッチ生成の限界と危険性を示す重要な研究成果。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Tracing Provenance and Detecting Tampering with Complementary LLM Watermarks",
+    "link": "https://arxiv.org/abs/2608.12713",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-14T04:00:00+00:00",
+    "summary_ja": "LLM生成テキストの透かし（ウォーターマーク）に関する新手法を提案。既存の頑健なウォーターマークは「piggyback spoofing」という脆弱性を持つことを指摘し、頑健なシグナルと脆弱なシグナルを同時埋め込むことで出所追跡と改ざん検出を両立する新方式を提案している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "PIPES: Securing Agent Perception with Provenance and Priors",
+    "link": "https://arxiv.org/abs/2608.12789",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-14T04:00:00+00:00",
+    "summary_ja": "ツール使用型AIエージェントが外部データを消費する際の信頼モデルの欠如を悪用した「状態汚染攻撃」を示し、その対策としてPIPESフレームワークを提案。各ツール応答の出所と事前知識を活用してエージェントの知覚を保護するアプローチを提示している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Labels Are Not Endpoints: Treatment Leakage and Construct Validity in MCP Agent Security Evaluation",
+    "link": "https://arxiv.org/abs/2608.12880",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-14T04:00:00+00:00",
+    "summary_ja": "ツール使用型エージェントのMCPセキュリティ評価において、ラベルが行動的事実と同一視されることで生じる「トリートメントリーケージ」問題を指摘。10,200件の実行ログを分析し、評価ベンチマーク自体に構造的な測定妥当性の欠陥があることを実証した。",
+    "tags": [
+      "research",
+      "agent-security",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Adversarial Robustness in Smishing Detection: A Comparative Analysis of Adversarial Fragility in Classical vs. Transformer-Based Detection Systems",
+    "link": "https://arxiv.org/abs/2608.12889",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-14T04:00:00+00:00",
+    "summary_ja": "スミッシング（SMS詐欺）検出システムに対する敵対的攻撃の頑健性を、古典的機械学習モデルとTransformerベースモデルで比較分析。文字難読化やクロスリンガルコードスイッチングなどの攻撃手法に対するモデル間の脆弱性の差異を評価している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "evaluation"
+    ]
+  }
+]
