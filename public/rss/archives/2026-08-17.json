@@ -1,0 +1,25 @@
+[
+  {
+    "title": "北朝鮮IT労働者とみられる人物とわかって採用した調査についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/08/17/053005",
+    "source": "piyolog",
+    "published": "2026-08-16T20:30:05+00:00",
+    "summary_ja": "セキュリティベンダのANY.RUNらが偽のDeFiスタートアップを設立し、北朝鮮国家支援型脅威アクター「Famous Chollima」に属するとみられるIT労働者を実際に採用した調査結果を公表した。採用後の挙動を仮想デスクトップ環境で記録し、インサイダー脅威としての実態を明らかにしている。組織のサプライチェーンや内部セキュリティに対する深刻なリスクを示す事例として注目される。",
+    "tags": [
+      "incident",
+      "governance"
+    ]
+  },
+  {
+    "title": "Quoting Dario Amodei",
+    "link": "https://simonwillison.net/2026/Aug/16/dario-amodei/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-16T15:05:36+00:00",
+    "summary_ja": "Anthropic CEOのダリオ・アモデイが、AIに対する一般市民の否定的な見方はAIリーダーのリスク警告が原因ではなく、企業・政府・テック業界への根深い不信感に起因すると述べた。AIの安全性に関するコミュニケーションや信頼構築の課題について言及しており、AI規制・ガバナンス議論にも関連する。",
+    "tags": [
+      "governance",
+      "model-safety",
+      "policy"
+    ]
+  }
+]
