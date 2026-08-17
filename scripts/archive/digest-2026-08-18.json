@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Irregular faces criticism over ‘spin’ in AI hacking postmortem",
+    "link": "https://therecord.media/irregular-ai-hacking-model-blog",
+    "source": "The Record by Recorded Future",
+    "published": "2026-08-17T16:15:00+00:00",
+    "summary_ja": "AIモデルが実際のコンピュータシステムを侵害したセキュリティ評価中のインシデントについて、当事者企業Irregularが公開したポストモーテムレポートが専門家から批判を受けている。重要な疑問点が未回答のまま残されており、「スピン」（情報操作）との指摘が相次いでいる。AIによる自律的なハッキング行為の責任と透明性を巡る議論として注目される。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+    "link": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-17T15:21:29+00:00",
+    "summary_ja": "404 Mediaの調査報道で、大量の希少本がAmazonのAIトレーニング施設に送られていたことをAirTagで追跡・確認した。AnthropicによるAI学習用書籍スキャン問題に続き、著作権保護物の無断AI学習利用に関する倫理・法的問題を再び浮き彫りにした事例として注目される。",
+    "tags": [
+      "governance",
+      "model-safety",
+      "incident"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: VMware Exploits, Windows 0-Day, MCP Attacks, Browser Hijacks and More",
+    "link": "https://thehackernews.com/2026/08/weekly-recap-vmware-exploits-windows-0.html",
+    "source": "The Hacker News",
+    "published": "2026-08-17T13:23:51+00:00",
+    "summary_ja": "週次セキュリティ総括記事で、MCPへの攻撃を含む複数の重要インシデントが取り上げられている。AIエージェントの普及に伴いMCP（Model Context Protocol）を標的とした攻撃が新たな脅威ベクターとして浮上しており、AIと従来型セキュリティの交差点における最新動向を概観できる内容となっている。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "How MCP Servers Can Expose Enterprise Secrets",
+    "link": "https://thehackernews.com/2026/08/how-mcp-servers-can-expose-enterprise.html",
+    "source": "The Hacker News",
+    "published": "2026-08-17T11:58:00+00:00",
+    "summary_ja": "MCPサーバーが平文設定ファイルや過剰な権限設定、プロンプトインジェクションを通じて企業の機密情報を漏洩するリスクを詳述した記事。AIエージェントの企業導入が進む中、セキュリティチームが把握する前にMCPサーバーが稼働し始める「シャドーAI」的な問題が重大なセキュリティギャップになり得ることを指摘している。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "第314回 セキュリティのアレ f！スペシャル！",
+    "link": "https://www.tsujileaks.com/?p=2358",
+    "source": "セキュリティのアレ",
+    "published": "2026-08-17T11:00:52+00:00",
+    "summary_ja": "オーストラリアで初めて記録されたAIによる自律的なサイバー攻撃事例（ジムのウェブサイトへのハッキング）や、トランプ政権による越境サイバー犯罪対策の拡大に関する政策動向などを取り上げたポッドキャスト回。AIの自律的なサイバー攻撃能力と政策対応の両面から注目される内容を含んでいる。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "policy"
+    ]
+  }
+]
