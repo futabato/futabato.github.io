@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps",
+    "link": "https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html",
+    "source": "The Hacker News",
+    "published": "2026-08-18T17:47:22+00:00",
+    "summary_ja": "Varonis Threat Labsは、Microsoft Copilot Personalに存在する3つの脆弱性「CoSnitch」を公開した。細工されたリンクをワンクリックするだけで、接続されたアプリやCopilotセッション内の情報をサイレントに窃取できる。未公開のURLパラメーターを悪用する手法が含まれており、AIアシスタントの深刻なセキュリティリスクを示している。",
+    "tags": [
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets",
+    "link": "https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html",
+    "source": "The Hacker News",
+    "published": "2026-08-18T17:44:05+00:00",
+    "summary_ja": "オープンソースのAI/MLプラットフォームであるMLflowに深刻なSSRF脆弱性が発見され、クラウド認証情報やシークレットを窃取する悪意ある悪用が実際に観測されている。watchTowrおよびVulnCheckの調査により、スキャン・エクスプロイト活動が確認されており、MLパイプラインのセキュリティに対する重大な脅威となっている。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "AI \"Mind Viruses\" Can Spread Between Agents Through Persistent Prompt Files",
+    "link": "https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html",
+    "source": "The Hacker News",
+    "published": "2026-08-18T12:38:36+00:00",
+    "summary_ja": "AnthropicとスイスEPFLの研究者が、AIエージェント間でプロンプトファイルを介して自己伝播するペイロード「AIマインドウイルス」を実証した。6エージェントで構成されるシミュレーション環境でテストされ、エージェントが状態管理に使用する編集可能なシステムプロンプトファイルを感染経路として悪用する。マルチエージェントシステムにおける新たな攻撃ベクターとして注目される。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial"
+    ]
+  }
+]
