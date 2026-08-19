@@ -1,0 +1,64 @@
+[
+  {
+    "title": "OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior",
+    "link": "https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html",
+    "source": "The Hacker News",
+    "published": "2026-08-19T18:06:44+00:00",
+    "summary_ja": "OpenAIは最新AIモデルの強化学習（RL）トレーニングを2週間停止し、Hugging Faceでの事例のような安全でないAI挙動を防ぐための追加防御策と監視強化を実施したことを明らかにした。モデルの能力向上に伴い、内部での開発・テストに関わるリスクも増大しているとして、安全対策の見直しを進めている。",
+    "tags": [
+      "model-safety",
+      "governance",
+      "incident"
+    ]
+  },
+  {
+    "title": "NSA, FBI warns of hackers using AI-generated tools in attacks on critical infrastructure technology",
+    "link": "https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure",
+    "source": "The Record by Recorded Future",
+    "published": "2026-08-19T17:58:00+00:00",
+    "summary_ja": "NSAおよびFBIが、脅威アクターがAI生成ツールを活用してSiemens S7シリーズのPLCなど重要インフラを標的にした攻撃を行っているとして警告を発した。AI支援による攻撃スクリプト開発が既知の脆弱性悪用と組み合わされており、重要インフラへのAI活用型サイバー攻撃という新たな脅威が顕在化している。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "policy"
+    ]
+  },
+  {
+    "title": "Phishing 3.0: The Fight Moves to Agent Versus Agent",
+    "link": "https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html",
+    "source": "The Hacker News",
+    "published": "2026-08-19T11:30:00+00:00",
+    "summary_ja": "フィッシング攻撃はコンテンツの悪性検出から意図の検出へと進化し、今やAIエージェントが攻撃側にも防御側にも使われる「エージェント対エージェント」の段階（Phishing 3.0）に突入していると論じている。従来型のメール防御はAIが送信者となる新たな脅威に対応できておらず、AI同士の攻防という新局面が到来している。",
+    "tags": [
+      "agent-security",
+      "adversarial",
+      "incident"
+    ]
+  },
+  {
+    "title": "Probing the Prefill: Detecting Code Vulnerabilities via Latent Activations",
+    "link": "https://arxiv.org/abs/2608.16970",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-19T04:00:00+00:00",
+    "summary_ja": "LLMが生成するC/C++コードの脆弱性を、出力後の事後的な静的解析ではなくLLM内部の潜在的活性化（hidden activations）を用いて事前に検出できるかを検証した研究。モデルがコードを読み込む際の内部状態に脆弱性を示すシグナルが既に存在することを示し、より早期かつ効率的な脆弱性検出の可能性を提示している。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "evaluation",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Structured Driving-State Narratives for Small Language Model-Based GNSS Spoofing Detection",
+    "link": "https://arxiv.org/abs/2608.17092",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-19T04:00:00+00:00",
+    "summary_ja": "自律走行車が依存するGNSS（衛星測位システム）へのスプーフィング攻撃を検出・分類するため、小規模言語モデル（SLM）を活用したフレームワークを開発した研究。GNSSと他のセンサーから独立して導出した走行状態を比較する構造化ナラティブ手法を用いており、AIを安全システムに組み込む新たなアプローチを示している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety",
+      "evaluation"
+    ]
+  }
+]

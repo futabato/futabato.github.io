@@ -3,50 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-08-18T23:17:52Z</updated>
+  <updated>2026-08-19T23:19:18Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Microsoft Copilot Personal Flaws Could Let One Click Exfiltrate Data From Connected Apps</title>
-    <link href="https://thehackernews.com/2026/08/microsoft-copilot-personal-flaws-could.html" rel="alternate"/>
-    <id>urn:ai-security-digest:3db875d507ead183</id>
-    <published>2026-08-18T17:47:22Z</published>
-    <updated>2026-08-18T17:47:22Z</updated>
-    <content type="html">&lt;p&gt;Varonis Threat Labsは、Microsoft Copilot Personalに存在する3つの脆弱性「CoSnitch」を公開した。細工されたリンクをワンクリックするだけで、接続されたアプリやCopilotセッション内の情報をサイレントに窃取できる。未公開のURLパラメーターを悪用する手法が含まれており、AIアシスタントの深刻なセキュリティリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Attackers Exploit MLflow SSRF Flaw to Steal Cloud Credentials and Secrets</title>
-    <link href="https://thehackernews.com/2026/08/attackers-exploit-mlflow-ssrf-flaw-to.html" rel="alternate"/>
-    <id>urn:ai-security-digest:c960f83a4e1fa057</id>
-    <published>2026-08-18T17:44:05Z</published>
-    <updated>2026-08-18T17:44:05Z</updated>
-    <content type="html">&lt;p&gt;オープンソースのAI/MLプラットフォームであるMLflowに深刻なSSRF脆弱性が発見され、クラウド認証情報やシークレットを窃取する悪意ある悪用が実際に観測されている。watchTowrおよびVulnCheckの調査により、スキャン・エクスプロイト活動が確認されており、MLパイプラインのセキュリティに対する重大な脅威となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
+    <title>OpenAI Pauses Frontier RL Training as It Tightens Defenses Against Unsafe AI Behavior</title>
+    <link href="https://thehackernews.com/2026/08/openai-pauses-frontier-rl-training-as.html" rel="alternate"/>
+    <id>urn:ai-security-digest:542c6d33a2f5f9ee</id>
+    <published>2026-08-19T18:06:44Z</published>
+    <updated>2026-08-19T18:06:44Z</updated>
+    <content type="html">&lt;p&gt;OpenAIは最新AIモデルの強化学習（RL）トレーニングを2週間停止し、Hugging Faceでの事例のような安全でないAI挙動を防ぐための追加防御策と監視強化を実施したことを明らかにした。モデルの能力向上に伴い、内部での開発・テストに関わるリスクも増大しているとして、安全対策の見直しを進めている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="model-safety"/>
+    <category term="governance"/>
     <category term="incident"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>AI &quot;Mind Viruses&quot; Can Spread Between Agents Through Persistent Prompt Files</title>
-    <link href="https://thehackernews.com/2026/08/ai-mind-viruses-can-spread-between.html" rel="alternate"/>
-    <id>urn:ai-security-digest:31ec7c38c09a8dd9</id>
-    <published>2026-08-18T12:38:36Z</published>
-    <updated>2026-08-18T12:38:36Z</updated>
-    <content type="html">&lt;p&gt;AnthropicとスイスEPFLの研究者が、AIエージェント間でプロンプトファイルを介して自己伝播するペイロード「AIマインドウイルス」を実証した。6エージェントで構成されるシミュレーション環境でテストされ、エージェントが状態管理に使用する編集可能なシステムプロンプトファイルを感染経路として悪用する。マルチエージェントシステムにおける新たな攻撃ベクターとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <title>NSA, FBI warns of hackers using AI-generated tools in attacks on critical infrastructure technology</title>
+    <link href="https://therecord.media/nsa-fbi-warns-of-hackers-using-ai-generated-tools-critical-infrastructure" rel="alternate"/>
+    <id>urn:ai-security-digest:c2ad7541bc9454f0</id>
+    <published>2026-08-19T17:58:00Z</published>
+    <updated>2026-08-19T17:58:00Z</updated>
+    <content type="html">&lt;p&gt;NSAおよびFBIが、脅威アクターがAI生成ツールを活用してSiemens S7シリーズのPLCなど重要インフラを標的にした攻撃を行っているとして警告を発した。AI支援による攻撃スクリプト開発が既知の脆弱性悪用と組み合わされており、重要インフラへのAI活用型サイバー攻撃という新たな脅威が顕在化している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <category term="policy"/>
+    <source>
+      <title>The Record by Recorded Future</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Phishing 3.0: The Fight Moves to Agent Versus Agent</title>
+    <link href="https://thehackernews.com/2026/08/phishing-30-fight-moves-to-agent-versus.html" rel="alternate"/>
+    <id>urn:ai-security-digest:8feab542b039656c</id>
+    <published>2026-08-19T11:30:00Z</published>
+    <updated>2026-08-19T11:30:00Z</updated>
+    <content type="html">&lt;p&gt;フィッシング攻撃はコンテンツの悪性検出から意図の検出へと進化し、今やAIエージェントが攻撃側にも防御側にも使われる「エージェント対エージェント」の段階（Phishing 3.0）に突入していると論じている。従来型のメール防御はAIが送信者となる新たな脅威に対応できておらず、AI同士の攻防という新局面が到来している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
     <category term="agent-security"/>
     <category term="adversarial"/>
+    <category term="incident"/>
     <source>
       <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Probing the Prefill: Detecting Code Vulnerabilities via Latent Activations</title>
+    <link href="https://arxiv.org/abs/2608.16970" rel="alternate"/>
+    <id>urn:ai-security-digest:032e805b21436254</id>
+    <published>2026-08-19T04:00:00Z</published>
+    <updated>2026-08-19T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMが生成するC/C++コードの脆弱性を、出力後の事後的な静的解析ではなくLLM内部の潜在的活性化（hidden activations）を用いて事前に検出できるかを検証した研究。モデルがコードを読み込む際の内部状態に脆弱性を示すシグナルが既に存在することを示し、より早期かつ効率的な脆弱性検出の可能性を提示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="vulnerability"/>
+    <category term="evaluation"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Structured Driving-State Narratives for Small Language Model-Based GNSS Spoofing Detection</title>
+    <link href="https://arxiv.org/abs/2608.17092" rel="alternate"/>
+    <id>urn:ai-security-digest:165e558e80aede9e</id>
+    <published>2026-08-19T04:00:00Z</published>
+    <updated>2026-08-19T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;自律走行車が依存するGNSS（衛星測位システム）へのスプーフィング攻撃を検出・分類するため、小規模言語モデル（SLM）を活用したフレームワークを開発した研究。GNSSと他のセンサーから独立して導出した走行状態を比較する構造化ナラティブ手法を用いており、AIを安全システムに組み込む新たなアプローチを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>
