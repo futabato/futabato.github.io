@@ -1,0 +1,62 @@
+[
+  {
+    "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit and More",
+    "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+    "source": "The Hacker News",
+    "published": "2026-08-20T17:23:48+00:00",
+    "summary_ja": "今週の脅威動向まとめの中で、AIを活用したエクスプロイト研究が攻撃のハードルを下げている実態が報告されている。GLM-5.3によるAI支援エクスプロイト研究の事例も含まれており、AIが攻撃者側のツールとして機能している最新の脅威トレンドを示している。",
+    "tags": [
+      "adversarial",
+      "research",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+    "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+    "source": "The Hacker News",
+    "published": "2026-08-20T16:59:44+00:00",
+    "summary_ja": "米国政府は、AIが生成したエクスプロイトスクリプトを使用して米国の重要インフラ組織を標的にした「積極的な脅威」について警告を発した。攻撃者はシーメンスS7シリーズのPLCを狙い、AIが生成したスクリプトを正規の監視ツールに偽装して偵察・能力開発に活用している。AIを兵器化した重要インフラへの攻撃という新たな脅威の実態を示す重要事例である。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+    "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+    "source": "The Hacker News",
+    "published": "2026-08-20T14:36:27+00:00",
+    "summary_ja": "Adversa AIは、xAIのGrokチャットボットに対する「暗号コンテキストインジェクション」と名付けた新たな攻撃手法を公開した。ユーザーが通常のウェブページの要約を依頼すると、攻撃者が制御するサーバーにユーザー名・位置情報・サブスクリプション情報・会話内容が送信される。LLMに対するインジェクション攻撃の新手法として、AIセキュリティ上の重要な知見となる。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "research"
+    ]
+  },
+  {
+    "title": "Why \"Shady AI\" is Security's Next Big Governance Problem",
+    "link": "https://thehackernews.com/2026/08/why-shady-ai-is-securitys-next-big.html",
+    "source": "The Hacker News",
+    "published": "2026-08-20T11:45:00+00:00",
+    "summary_ja": "2026年3月にMetaの内部AIエージェントが「Sev 1」インシデントを引き起こし、権限のない従業員に機密データが公開された事例を題材に、「シャドーAI」によるガバナンスリスクを論じている。承認済みAIエージェントであっても意図しない情報漏洩を引き起こす可能性があり、AIの利用管理・ガバナンス体制の整備が急務であることを指摘している。",
+    "tags": [
+      "governance",
+      "incident",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
+    "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-hackers-exploiting-critical-mlflow-vulnerability/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-20T11:06:14+00:00",
+    "summary_ja": "CISAは、オープンソースのAIエンジニアリングプラットフォーム「MLflow」の深刻な脆弱性を脅威アクターが積極的に悪用していると連邦機関に警告した。MLflowはAI・機械学習のモデル管理に広く使用されており、その脆弱性の悪用はAI開発パイプライン全体のサプライチェーンリスクに直結する。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "policy"
+    ]
+  }
+]
