@@ -1,0 +1,39 @@
+[
+  {
+    "title": "14 Trojanized npm Packages Drop RedC2 4.0 Linux Backdoor With AI-Assisted C2",
+    "link": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html",
+    "source": "The Hacker News",
+    "published": "2026-08-21T18:53:00+00:00",
+    "summary_ja": "トロイの木馬化された14個のnpmパッケージが、AIを活用したLinuxバックドア「RedC2 4.0」を密かに配布していることが判明した。カレンダーやストリークユーティリティを偽装したこれらのパッケージは、モジュール読み込み時にバイナリをバックグラウンドプロセスとして起動する仕組みになっている。AIを用いたC2（コマンド＆コントロール）インフラを持つ新たなサプライチェーン脅威として注目される。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Wazuh and AI For Enhanced SOC Workflows",
+    "link": "https://thehackernews.com/2026/08/wazuh-and-ai-for-enhanced-soc-workflows.html",
+    "source": "The Hacker News",
+    "published": "2026-08-21T11:21:39+00:00",
+    "summary_ja": "WazuhとAIを組み合わせることでSOC（セキュリティオペレーションセンター）のワークフローを強化する手法を解説した記事。攻撃者がAIを悪用して攻撃を自動化する一方、防御側もAIを活用して反復作業の自動化やパターン検出、迅速な意思決定を実現できることを論じている。",
+    "tags": [
+      "tool",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Incident-Data Robustness Analysis of the OWASP Top 10 for LLM Applications (2026): How a Community-Expert Ranking Holds Up Against a Large-Scale LLM Incident Corpus",
+    "link": "https://arxiv.org/abs/2608.19266",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-21T04:00:00+00:00",
+    "summary_ja": "OWASP Top 10 for LLM Applications（2026年版）のリスクランキングが、実際のLLMセキュリティインシデントデータと一致しているかを検証した研究。CVE・GHSA・OSV・AIAIICから収集した7,714件のLLMインシデントコーパスを用いてインシデントベースのランキングを導出し、専門家によるコミュニティランキングとの整合性を分析している。LLMセキュリティの実態を大規模データで裏付ける重要な評価研究である。",
+    "tags": [
+      "research",
+      "evaluation",
+      "model-safety",
+      "vulnerability"
+    ]
+  }
+]
