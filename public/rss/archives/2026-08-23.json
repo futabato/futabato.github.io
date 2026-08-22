@@ -1,0 +1,13 @@
+[
+  {
+    "title": "More than just code review",
+    "link": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-22T15:56:54+00:00",
+    "summary_ja": "コーディングエージェントを生産的に活用するためには、変更指示を的確に行い、その結果を正確に検証するスキルが重要であると論じている。コードの全行レビューだけが検証手段ではなく、より効果的な方法があることを指摘している。",
+    "tags": [
+      "agent-security",
+      "tool"
+    ]
+  }
+]
