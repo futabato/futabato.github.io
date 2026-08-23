@@ -3,21 +3,20 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-08-22T23:17:01Z</updated>
+  <updated>2026-08-23T23:19:03Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>More than just code review</title>
-    <link href="https://simonwillison.net/2026/Aug/22/more-than-just-code-review/" rel="alternate"/>
-    <id>urn:ai-security-digest:d548c978bd4efd13</id>
-    <published>2026-08-22T15:56:54Z</published>
-    <updated>2026-08-22T15:56:54Z</updated>
-    <content type="html">&lt;p&gt;コーディングエージェントを生産的に活用するためには、変更指示を的確に行い、その結果を正確に検証するスキルが重要であると論じている。コードの全行レビューだけが検証手段ではなく、より効果的な方法があることを指摘している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="tool"/>
+    <title>Quoting Drew Breunig</title>
+    <link href="https://simonwillison.net/2026/Aug/23/drew-breunig/" rel="alternate"/>
+    <id>urn:ai-security-digest:71343321c7660b7a</id>
+    <published>2026-08-23T19:55:30Z</published>
+    <updated>2026-08-23T19:55:30Z</updated>
+    <content type="html">&lt;p&gt;Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;ai_commentary&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="ai_commentary"/>
     <source>
       <title>Simon Willison's Weblog</title>
     </source>
