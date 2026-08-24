@@ -1,0 +1,62 @@
+[
+  {
+    "title": "The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk",
+    "link": "https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html",
+    "source": "The Hacker News",
+    "published": "2026-08-24T11:30:00+00:00",
+    "summary_ja": "企業内のAI利用者上位5%にあたる「AIスーパーアダプター」が、未検証のAIツールを重要業務に組み込むことで重大なセキュリティリスクをもたらしているとするAkamaiの新研究を紹介。ChatGPTやClaudeを日常利用する一般社員よりも、AIを業務プロセスに深く統合した少数のユーザーの方がリスクが大きいと指摘している。企業のAIガバナンス戦略に示唆を与える内容である。",
+    "tags": [
+      "research",
+      "governance",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit",
+    "link": "https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html",
+    "source": "The Hacker News",
+    "published": "2026-08-24T08:08:31+00:00",
+    "summary_ja": "中国語話者のサイバー犯罪グループ「UAT-10147」がAIを活用してWindowsおよびLinux Webサーバーへの攻撃を大規模化していることが判明。EDRバイパス機能を持つバックドア「SPECTRE」とLinuxルートキットを展開しており、教育・メディア・テクノロジー・ゲーム分野を標的にしている。AIが攻撃者側の能力を増幅させている実例として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "AEGIS: Preventing Cross-Domain Resource Abuse in MCP",
+    "link": "https://arxiv.org/abs/2608.20481",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-24T04:00:00+00:00",
+    "summary_ja": "Model Context Protocol（MCP）におけるクロスドメインリソース乱用を防ぐフレームワーク「AEGIS」を提案した研究。攻撃者や悪意あるエージェントがMCPツールを悪用してエージェントベースアプリケーションのサービス品質を低下させる問題に対処する。LLMエージェントのセキュリティ強化に向けた新たなアプローチを示している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "aiXamine: Unified Black-Box Evaluation of Cross-Dimensional Trade-offs in LLM Safety, Security, and Privacy",
+    "link": "https://arxiv.org/abs/2608.20554",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-24T04:00:00+00:00",
+    "summary_ja": "LLMの安全性・セキュリティ・プライバシーを統合的にブラックボックス評価するプラットフォーム「aiXamine」を紹介する研究。既存の評価フレームワークが各次元を独立して評価するため見逃してきたクロスディメンションの失敗パターン（例：安全性スコアが高くても無害なクエリを多数拒否する問題）を検出できる。LLMの信頼性評価における重要な新知見を提供する。",
+    "tags": [
+      "research",
+      "evaluation",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Beyond End-to-End Success: Diagnosing Failures in Long-Horizon Security LLM Agents",
+    "link": "https://arxiv.org/abs/2608.20563",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-24T04:00:00+00:00",
+    "summary_ja": "長期タスクを実行するセキュリティLLMエージェントの失敗を診断するための方法論を提案した研究。最終的なタスク成否だけでは解釈が困難な失敗パターンを、チェックポイントを用いて分析・分類する手法を提示している。エージェントの能力評価の精度向上に貢献する新しい診断フレームワークである。",
+    "tags": [
+      "research",
+      "agent-security",
+      "evaluation"
+    ]
+  }
+]

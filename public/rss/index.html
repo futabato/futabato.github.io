@@ -51,19 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年08月24日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">1件</span>
+    <span class="current-date" id="current-date">2026年08月25日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>08/23</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
+            <time>08/24</time>
+            <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Aug/23/drew-breunig/" target="_blank" rel="noopener">Quoting Drew Breunig</a></h3>
-          <p>Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems.</p>
-          <div class="tags"><span class="tag">ai_commentary</span></div>
+          <h3><a href="https://thehackernews.com/2026/08/the-outsized-shadow-why-5-of-ai-users.html" target="_blank" rel="noopener">The Outsized Shadow: Why 5% of AI Users Are Your Biggest Security Risk</a></h3>
+          <p>企業内のAI利用者上位5%にあたる「AIスーパーアダプター」が、未検証のAIツールを重要業務に組み込むことで重大なセキュリティリスクをもたらしているとするAkamaiの新研究を紹介。ChatGPTやClaudeを日常利用する一般社員よりも、AIを業務プロセスに深く統合した少数のユーザーの方がリスクが大きいと指摘している。企業のAIガバナンス戦略に示唆を与える内容である。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">governance</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/24</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/08/uat-10147-uses-ai-to-scale-server.html" target="_blank" rel="noopener">UAT-10147 Uses AI to Scale Server Attacks, Deploys SPECTRE With EDR Bypass and Linux Rootkit</a></h3>
+          <p>中国語話者のサイバー犯罪グループ「UAT-10147」がAIを活用してWindowsおよびLinux Webサーバーへの攻撃を大規模化していることが判明。EDRバイパス機能を持つバックドア「SPECTRE」とLinuxルートキットを展開しており、教育・メディア・テクノロジー・ゲーム分野を標的にしている。AIが攻撃者側の能力を増幅させている実例として注目される。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">vulnerability</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/24</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2608.20481" target="_blank" rel="noopener">AEGIS: Preventing Cross-Domain Resource Abuse in MCP</a></h3>
+          <p>Model Context Protocol（MCP）におけるクロスドメインリソース乱用を防ぐフレームワーク「AEGIS」を提案した研究。攻撃者や悪意あるエージェントがMCPツールを悪用してエージェントベースアプリケーションのサービス品質を低下させる問題に対処する。LLMエージェントのセキュリティ強化に向けた新たなアプローチを示している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">vulnerability</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/24</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2608.20554" target="_blank" rel="noopener">aiXamine: Unified Black-Box Evaluation of Cross-Dimensional Trade-offs in LLM Safety, Security, and Privacy</a></h3>
+          <p>LLMの安全性・セキュリティ・プライバシーを統合的にブラックボックス評価するプラットフォーム「aiXamine」を紹介する研究。既存の評価フレームワークが各次元を独立して評価するため見逃してきたクロスディメンションの失敗パターン（例：安全性スコアが高くても無害なクエリを多数拒否する問題）を検出できる。LLMの信頼性評価における重要な新知見を提供する。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/24</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2608.20563" target="_blank" rel="noopener">Beyond End-to-End Success: Diagnosing Failures in Long-Horizon Security LLM Agents</a></h3>
+          <p>長期タスクを実行するセキュリティLLMエージェントの失敗を診断するための方法論を提案した研究。最終的なタスク成否だけでは解釈が困難な失敗パターンを、チェックポイントを用いて分析・分類する手法を提示している。エージェントの能力評価の精度向上に貢献する新しい診断フレームワークである。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">evaluation</span></div>
         </article>
   </main>
   <footer>
