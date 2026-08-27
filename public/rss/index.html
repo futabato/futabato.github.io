@@ -51,37 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年08月26日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">3件</span>
+    <span class="current-date" id="current-date">2026年08月27日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>08/25</time>
-            <span class="source">Bleeping Computer</span>
+            <time>08/27</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/anonymouskit-phaas-uses-voice-ai-agents-to-phish-iphone-passcodes/" target="_blank" rel="noopener">AnonyMousKIT PhaaS uses voice AI agents to phish iPhone passcodes</a></h3>
-          <p>「AnonyMousKIT」と呼ばれる新たなPhishing-as-a-Service（PhaaS）プラットフォームが発見された。このプラットフォームはAI音声エージェントを活用し、盗まれたAppleデバイスのパスコード取得やアクティベーションロック解除を自動化する。AIを悪用したフィッシング攻撃の高度化・自動化を示す事例として注目される。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://arxiv.org/abs/2608.24957" target="_blank" rel="noopener">ToolMinimize: Auditing and Rewriting LLM Agent Tool Calls to Minimize Privacy Exposure</a></h3>
+          <p>LLMエージェントがツール呼び出し時に不必要なプライバシーセンシティブデータを過剰共有する問題を調査。GPT-4o、Claude 3.5 Sonnet、Llama-3.3-70Bの3モデルで81〜88%のツール呼び出しに不要な個人データが含まれることを実証し、監査・書き換えシステム「ToolMinimize」を提案。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">vulnerability</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>08/25</time>
-            <span class="source">The Hacker News</span>
+            <time>08/27</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/08/a-malicious-webpage-could-poison-your.html" target="_blank" rel="noopener">A Malicious Webpage Could Poison Your Local AI Model Behind NVIDIA NemoClaw</a></h3>
-          <p>NVIDIA NemoClaw（Ollamaを利用したAIエージェント基盤）に、攻撃者が制御するウェブページから未認証でローカルのOllamaインスタンスを乗っ取り、モデル内に隠し命令（プロンプトインジェクション）を埋め込める脆弱性が発見された。Oasis Securityが発見しNVIDIAのProduct Security Incident Responseチームへ報告済み。AIエージェントのサプライチェーンにおける深刻なリスクを示している。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://arxiv.org/abs/2608.25321" target="_blank" rel="noopener">LLMscope: Extracting LLM Assets from Edge AI Chips via Optical Probing</a></h3>
+          <p>エッジAIチップ上で動作するLLMの推論中に、レーザー電圧イメージングによる光学的サイドチャネル攻撃でモデルパラメータや中間状態（埋め込み、アテンション、MLP重み）を抽出できることを実証。LLMのエッジ展開における新たな物理的脆弱性を明らかにした研究。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>08/25</time>
-            <span class="source">The Hacker News</span>
+            <time>08/27</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/08/marimo-notebook-flaw-could-run-mcp.html" target="_blank" rel="noopener">Marimo Notebook Flaw Could Run MCP Commands Before Cells Execute in Edit Mode</a></h3>
-          <p>Marimoノートブックソフトウェアに高深刻度の脆弱性が発見され、修正が行われた。攻撃者が細工したノートブックを開くだけで、Model Context Protocol（MCP）コマンドがセル実行前にローカルサブプロセスとして実行される可能性がある。MCP（AIエージェントのツール連携プロトコル）を悪用した攻撃ベクターとして新たな脅威を示す事例。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://arxiv.org/abs/2608.25490" target="_blank" rel="noopener">MMJailBench: A Factorized Benchmark for Disentangling Multimodal Jailbreak Vulnerabilities</a></h3>
+          <p>マルチモーダルLLM（MLLM）のジェイルブレイク脆弱性を要因ごとに分解・評価するベンチマーク「MMJailBench」を提案。有害な意図、プロンプト構成、視覚的意味論、指示キャリアを切り分けることで、脆弱性の具体的な発生源を特定できるようにする。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/27</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2608.25697" target="_blank" rel="noopener">LMSM: LLM Security Framework Inspired by Linux Security Modules</a></h3>
+          <p>Linuxセキュリティモジュール（LSM）の設計思想にインスパイアされたLLMセキュリティフレームワーク「LMSM」を提案。悪意あるプロンプトによるバイパスに対し、モデル内部の解釈可能性シグナルを統一的なセキュリティ制御として活用する仕組みを構築する。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">tool</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>08/27</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2608.25711" target="_blank" rel="noopener">Reassembling Distributed Risk: Trajectory-Conditioned Action Generation for Multi-Turn Agent Safety</a></h3>
+          <p>ツール使用型LLMエージェントに対するマルチターン分解攻撃（有害な目的を複数の無害に見えるリクエストに分散させる手法）のリスクを検討し、累積した行動軌跡から危険性を検出する防御手法を提案。エージェントの長期的な安全性評価に新たな視点を提供する。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
         </article>
   </main>
   <footer>

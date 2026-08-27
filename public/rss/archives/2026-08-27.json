@@ -1,0 +1,65 @@
+[
+  {
+    "title": "ToolMinimize: Auditing and Rewriting LLM Agent Tool Calls to Minimize Privacy Exposure",
+    "link": "https://arxiv.org/abs/2608.24957",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-27T04:00:00+00:00",
+    "summary_ja": "LLMエージェントがツール呼び出し時に不必要なプライバシーセンシティブデータを過剰共有する問題を調査。GPT-4o、Claude 3.5 Sonnet、Llama-3.3-70Bの3モデルで81〜88%のツール呼び出しに不要な個人データが含まれることを実証し、監査・書き換えシステム「ToolMinimize」を提案。",
+    "tags": [
+      "research",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "LLMscope: Extracting LLM Assets from Edge AI Chips via Optical Probing",
+    "link": "https://arxiv.org/abs/2608.25321",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-27T04:00:00+00:00",
+    "summary_ja": "エッジAIチップ上で動作するLLMの推論中に、レーザー電圧イメージングによる光学的サイドチャネル攻撃でモデルパラメータや中間状態（埋め込み、アテンション、MLP重み）を抽出できることを実証。LLMのエッジ展開における新たな物理的脆弱性を明らかにした研究。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "MMJailBench: A Factorized Benchmark for Disentangling Multimodal Jailbreak Vulnerabilities",
+    "link": "https://arxiv.org/abs/2608.25490",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-27T04:00:00+00:00",
+    "summary_ja": "マルチモーダルLLM（MLLM）のジェイルブレイク脆弱性を要因ごとに分解・評価するベンチマーク「MMJailBench」を提案。有害な意図、プロンプト構成、視覚的意味論、指示キャリアを切り分けることで、脆弱性の具体的な発生源を特定できるようにする。",
+    "tags": [
+      "research",
+      "evaluation",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "LMSM: LLM Security Framework Inspired by Linux Security Modules",
+    "link": "https://arxiv.org/abs/2608.25697",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-27T04:00:00+00:00",
+    "summary_ja": "Linuxセキュリティモジュール（LSM）の設計思想にインスパイアされたLLMセキュリティフレームワーク「LMSM」を提案。悪意あるプロンプトによるバイパスに対し、モデル内部の解釈可能性シグナルを統一的なセキュリティ制御として活用する仕組みを構築する。",
+    "tags": [
+      "research",
+      "model-safety",
+      "tool",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Reassembling Distributed Risk: Trajectory-Conditioned Action Generation for Multi-Turn Agent Safety",
+    "link": "https://arxiv.org/abs/2608.25711",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-27T04:00:00+00:00",
+    "summary_ja": "ツール使用型LLMエージェントに対するマルチターン分解攻撃（有害な目的を複数の無害に見えるリクエストに分散させる手法）のリスクを検討し、累積した行動軌跡から危険性を検出する防御手法を提案。エージェントの長期的な安全性評価に新たな視点を提供する。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
