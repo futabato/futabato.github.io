@@ -1,0 +1,66 @@
+[
+  {
+    "title": "ADeptS-Bench: Measuring the Trustworthiness of Computer Use Agents Across Devices",
+    "link": "https://arxiv.org/abs/2608.26204",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-28T04:00:00+00:00",
+    "summary_ja": "モバイル・デスクトップアプリを操作するComputer Use Agent（CUA）の信頼性を評価するベンチマーク「ADeptS-Bench」を提案。安全性と有用性の両面から、曖昧な指示に対するエージェントの安全な動作を評価する。AIエージェントのトラストワーシネス評価における包括的なフレームワークを提供する。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "How Do LLM Agents Actually Get the Flag? Trace-Level Provenance for Agentic Offensive Security Evaluation",
+    "link": "https://arxiv.org/abs/2608.26237",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-28T04:00:00+00:00",
+    "summary_ja": "CTFベンチマークを用いたLLMエージェントの攻撃的セキュリティ能力評価において、単純な成否判定では実際の脆弱性攻略と記憶想起・推測を混同する問題を指摘。エージェントの行動軌跡（トレース）を詳細に分析するプロビナンス手法を提案し、評価の精度向上を図る。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Unsaid, Unsafe? Implicit Security Obligations in LLM-Based RTL Code Generation",
+    "link": "https://arxiv.org/abs/2608.26588",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-28T04:00:00+00:00",
+    "summary_ja": "LLMが生成するRTL（レジスタ転送レベル）コードのセキュリティ問題を調査し、ハードウェア設計向けのセキュリティベンチマーク「SECRTL-GEN」を構築。ソフトウェアと異なりシリコンに焼き付けると修正不可能なため、LLM生成ハードウェアコードの安全性確保の重要性を強調する。",
+    "tags": [
+      "research",
+      "evaluation",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "PLCBench: Can Autonomous LLM Agents Turn PLC Access into Sustained Physical Impact?",
+    "link": "https://arxiv.org/abs/2608.26882",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-28T04:00:00+00:00",
+    "summary_ja": "LLMエージェントがPLC（プログラマブルロジックコントローラ）へのネットワークアクセスを通じて産業制御システムに持続的な物理的被害をもたらせるかを評価するベンチマーク「PLCBench」を提案。自律型AIエージェントによる産業インフラへの攻撃リスクを定量的に評価する新たな研究。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "The Guard That Cried Wolf: How Scary Words Make Agent Guardrails Refuse Legitimate Actions",
+    "link": "https://arxiv.org/abs/2608.27009",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-08-28T04:00:00+00:00",
+    "summary_ja": "LLMエージェントのガードレールが「危険な言葉」を含む正当なリクエストを過剰に拒否してしまう「過剰安全性」問題を指摘。承認済みタスクが誤って拒絶されることでエージェントの実用展開が妨げられる現象を分析し、評価手法の必要性を論じる。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety",
+      "evaluation"
+    ]
+  }
+]

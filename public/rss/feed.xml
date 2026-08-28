@@ -3,81 +3,82 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-08-27T04:12:39Z</updated>
+  <updated>2026-08-28T06:44:57Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>ToolMinimize: Auditing and Rewriting LLM Agent Tool Calls to Minimize Privacy Exposure</title>
-    <link href="https://arxiv.org/abs/2608.24957" rel="alternate"/>
-    <id>urn:ai-security-digest:4da627e071acca6b</id>
-    <published>2026-08-27T04:00:00Z</published>
-    <updated>2026-08-27T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMエージェントがツール呼び出し時に不必要なプライバシーセンシティブデータを過剰共有する問題を調査。GPT-4o、Claude 3.5 Sonnet、Llama-3.3-70Bの3モデルで81〜88%のツール呼び出しに不要な個人データが含まれることを実証し、監査・書き換えシステム「ToolMinimize」を提案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>LLMscope: Extracting LLM Assets from Edge AI Chips via Optical Probing</title>
-    <link href="https://arxiv.org/abs/2608.25321" rel="alternate"/>
-    <id>urn:ai-security-digest:9e0bd29fcf49f4ce</id>
-    <published>2026-08-27T04:00:00Z</published>
-    <updated>2026-08-27T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;エッジAIチップ上で動作するLLMの推論中に、レーザー電圧イメージングによる光学的サイドチャネル攻撃でモデルパラメータや中間状態（埋め込み、アテンション、MLP重み）を抽出できることを実証。LLMのエッジ展開における新たな物理的脆弱性を明らかにした研究。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="vulnerability"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>MMJailBench: A Factorized Benchmark for Disentangling Multimodal Jailbreak Vulnerabilities</title>
-    <link href="https://arxiv.org/abs/2608.25490" rel="alternate"/>
-    <id>urn:ai-security-digest:3d07c35e756079ca</id>
-    <published>2026-08-27T04:00:00Z</published>
-    <updated>2026-08-27T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;マルチモーダルLLM（MLLM）のジェイルブレイク脆弱性を要因ごとに分解・評価するベンチマーク「MMJailBench」を提案。有害な意図、プロンプト構成、視覚的意味論、指示キャリアを切り分けることで、脆弱性の具体的な発生源を特定できるようにする。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>ADeptS-Bench: Measuring the Trustworthiness of Computer Use Agents Across Devices</title>
+    <link href="https://arxiv.org/abs/2608.26204" rel="alternate"/>
+    <id>urn:ai-security-digest:35ee6332633424a8</id>
+    <published>2026-08-28T04:00:00Z</published>
+    <updated>2026-08-28T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;モバイル・デスクトップアプリを操作するComputer Use Agent（CUA）の信頼性を評価するベンチマーク「ADeptS-Bench」を提案。安全性と有用性の両面から、曖昧な指示に対するエージェントの安全な動作を評価する。AIエージェントのトラストワーシネス評価における包括的なフレームワークを提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
     <category term="evaluation"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
+    <category term="agent-security"/>
     <source>
       <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>LMSM: LLM Security Framework Inspired by Linux Security Modules</title>
-    <link href="https://arxiv.org/abs/2608.25697" rel="alternate"/>
-    <id>urn:ai-security-digest:591aed57cb8f420e</id>
-    <published>2026-08-27T04:00:00Z</published>
-    <updated>2026-08-27T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;Linuxセキュリティモジュール（LSM）の設計思想にインスパイアされたLLMセキュリティフレームワーク「LMSM」を提案。悪意あるプロンプトによるバイパスに対し、モデル内部の解釈可能性シグナルを統一的なセキュリティ制御として活用する仕組みを構築する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <title>How Do LLM Agents Actually Get the Flag? Trace-Level Provenance for Agentic Offensive Security Evaluation</title>
+    <link href="https://arxiv.org/abs/2608.26237" rel="alternate"/>
+    <id>urn:ai-security-digest:755a75b4f5390023</id>
+    <published>2026-08-28T04:00:00Z</published>
+    <updated>2026-08-28T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;CTFベンチマークを用いたLLMエージェントの攻撃的セキュリティ能力評価において、単純な成否判定では実際の脆弱性攻略と記憶想起・推測を混同する問題を指摘。エージェントの行動軌跡（トレース）を詳細に分析するプロビナンス手法を提案し、評価の精度向上を図る。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="model-safety"/>
-    <category term="tool"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Reassembling Distributed Risk: Trajectory-Conditioned Action Generation for Multi-Turn Agent Safety</title>
-    <link href="https://arxiv.org/abs/2608.25711" rel="alternate"/>
-    <id>urn:ai-security-digest:cb9bcbfc753ebecc</id>
-    <published>2026-08-27T04:00:00Z</published>
-    <updated>2026-08-27T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;ツール使用型LLMエージェントに対するマルチターン分解攻撃（有害な目的を複数の無害に見えるリクエストに分散させる手法）のリスクを検討し、累積した行動軌跡から危険性を検出する防御手法を提案。エージェントの長期的な安全性評価に新たな視点を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <category term="evaluation"/>
     <category term="agent-security"/>
     <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Unsaid, Unsafe? Implicit Security Obligations in LLM-Based RTL Code Generation</title>
+    <link href="https://arxiv.org/abs/2608.26588" rel="alternate"/>
+    <id>urn:ai-security-digest:a6915d8cca090e04</id>
+    <published>2026-08-28T04:00:00Z</published>
+    <updated>2026-08-28T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMが生成するRTL（レジスタ転送レベル）コードのセキュリティ問題を調査し、ハードウェア設計向けのセキュリティベンチマーク「SECRTL-GEN」を構築。ソフトウェアと異なりシリコンに焼き付けると修正不可能なため、LLM生成ハードウェアコードの安全性確保の重要性を強調する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
+    <category term="vulnerability"/>
     <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>PLCBench: Can Autonomous LLM Agents Turn PLC Access into Sustained Physical Impact?</title>
+    <link href="https://arxiv.org/abs/2608.26882" rel="alternate"/>
+    <id>urn:ai-security-digest:545a9f82a310c6e8</id>
+    <published>2026-08-28T04:00:00Z</published>
+    <updated>2026-08-28T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMエージェントがPLC（プログラマブルロジックコントローラ）へのネットワークアクセスを通じて産業制御システムに持続的な物理的被害をもたらせるかを評価するベンチマーク「PLCBench」を提案。自律型AIエージェントによる産業インフラへの攻撃リスクを定量的に評価する新たな研究。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>The Guard That Cried Wolf: How Scary Words Make Agent Guardrails Refuse Legitimate Actions</title>
+    <link href="https://arxiv.org/abs/2608.27009" rel="alternate"/>
+    <id>urn:ai-security-digest:7a10f5083e8a472e</id>
+    <published>2026-08-28T04:00:00Z</published>
+    <updated>2026-08-28T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMエージェントのガードレールが「危険な言葉」を含む正当なリクエストを過剰に拒否してしまう「過剰安全性」問題を指摘。承認済みタスクが誤って拒絶されることでエージェントの実用展開が妨げられる現象を分析し、評価手法の必要性を論じる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
+    <category term="evaluation"/>
     <source>
       <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
