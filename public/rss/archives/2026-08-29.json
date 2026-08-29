@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Just a rumour of a bug is enough to find a security exploit these days",
+    "link": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-28T22:12:02+00:00",
+    "summary_ja": "OCamlコンパイラのパッチ議論が共有されてからわずか10分以内にエクスプロイト試行が観測されたという事例を報告した記事。AIによる脆弱性発見の高速化が背景にあるとされており、パッチ公開前後のウィンドウが極めて短くなっている現状を警告している。",
+    "tags": [
+      "vulnerability",
+      "research",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-28T14:00:10+00:00",
+    "summary_ja": "AIが脆弱性の発見を加速させており、従来の脆弱性管理・修正プロセスが追いつかなくなっている実態を解説した記事。防御側が複数のインテリジェンスソースを組み合わせ、より迅速な対応を行う必要性を論じている。AIがセキュリティの攻撃・防御両面に与える影響を考察した重要な内容。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "tool"
+    ]
+  },
+  {
+    "title": "Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth",
+    "link": "https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html",
+    "source": "The Hacker News",
+    "published": "2026-08-28T12:07:24+00:00",
+    "summary_ja": "ヒューマノイドロボット「Unitree G1 EDU」に2件の独立したルートRCEチェーン脆弱性が発見され、Bluetooth Low Energy経由でのリモートコード実行も可能であることが明らかになった。AIを活用した物理ロボットのセキュリティリスクを示す事例として、AI搭載デバイスのセキュリティ上の重要性を提起している。",
+    "tags": [
+      "vulnerability",
+      "research",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL",
+    "link": "https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html",
+    "source": "The Hacker News",
+    "published": "2026-08-28T11:20:32+00:00",
+    "summary_ja": "ServiceNowのAIプラットフォームにCVSSスコア10.0の最大深刻度脆弱性が3件発見され、未認証攻撃者によるコード実行やSQLインジェクションが可能な状態であることが判明した。同社はホスト型インスタンスへのセキュリティアップデートを展開し、パートナーおよびセルフホスト顧客にもパッチを提供している。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "ServiceNow warns of three max severity security vulnerabilities",
+    "link": "https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-28T10:29:42+00:00",
+    "summary_ja": "ServiceNowがAIプラットフォームに存在する最大深刻度の脆弱性3件に対するセキュリティパッチをリリースした。コードインジェクション、SQLインジェクション、権限昇格攻撃に悪用される可能性があり、AIプラットフォームそのものが攻撃対象となっている点で注目される。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  }
+]

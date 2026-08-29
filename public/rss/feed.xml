@@ -3,84 +3,78 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-08-28T06:44:57Z</updated>
+  <updated>2026-08-29T04:00:36Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>ADeptS-Bench: Measuring the Trustworthiness of Computer Use Agents Across Devices</title>
-    <link href="https://arxiv.org/abs/2608.26204" rel="alternate"/>
-    <id>urn:ai-security-digest:35ee6332633424a8</id>
-    <published>2026-08-28T04:00:00Z</published>
-    <updated>2026-08-28T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;モバイル・デスクトップアプリを操作するComputer Use Agent（CUA）の信頼性を評価するベンチマーク「ADeptS-Bench」を提案。安全性と有用性の両面から、曖昧な指示に対するエージェントの安全な動作を評価する。AIエージェントのトラストワーシネス評価における包括的なフレームワークを提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="evaluation"/>
-    <category term="agent-security"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>How Do LLM Agents Actually Get the Flag? Trace-Level Provenance for Agentic Offensive Security Evaluation</title>
-    <link href="https://arxiv.org/abs/2608.26237" rel="alternate"/>
-    <id>urn:ai-security-digest:755a75b4f5390023</id>
-    <published>2026-08-28T04:00:00Z</published>
-    <updated>2026-08-28T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;CTFベンチマークを用いたLLMエージェントの攻撃的セキュリティ能力評価において、単純な成否判定では実際の脆弱性攻略と記憶想起・推測を混同する問題を指摘。エージェントの行動軌跡（トレース）を詳細に分析するプロビナンス手法を提案し、評価の精度向上を図る。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="evaluation"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Unsaid, Unsafe? Implicit Security Obligations in LLM-Based RTL Code Generation</title>
-    <link href="https://arxiv.org/abs/2608.26588" rel="alternate"/>
-    <id>urn:ai-security-digest:a6915d8cca090e04</id>
-    <published>2026-08-28T04:00:00Z</published>
-    <updated>2026-08-28T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMが生成するRTL（レジスタ転送レベル）コードのセキュリティ問題を調査し、ハードウェア設計向けのセキュリティベンチマーク「SECRTL-GEN」を構築。ソフトウェアと異なりシリコンに焼き付けると修正不可能なため、LLM生成ハードウェアコードの安全性確保の重要性を強調する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="evaluation"/>
+    <title>Just a rumour of a bug is enough to find a security exploit these days</title>
+    <link href="https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/" rel="alternate"/>
+    <id>urn:ai-security-digest:983102b3ea3b4340</id>
+    <published>2026-08-28T22:12:02Z</published>
+    <updated>2026-08-28T22:12:02Z</updated>
+    <content type="html">&lt;p&gt;OCamlコンパイラのパッチ議論が共有されてからわずか10分以内にエクスプロイト試行が観測されたという事例を報告した記事。AIによる脆弱性発見の高速化が背景にあるとされており、パッチ公開前後のウィンドウが極めて短くなっている現状を警告している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>PLCBench: Can Autonomous LLM Agents Turn PLC Access into Sustained Physical Impact?</title>
-    <link href="https://arxiv.org/abs/2608.26882" rel="alternate"/>
-    <id>urn:ai-security-digest:545a9f82a310c6e8</id>
-    <published>2026-08-28T04:00:00Z</published>
-    <updated>2026-08-28T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMエージェントがPLC（プログラマブルロジックコントローラ）へのネットワークアクセスを通じて産業制御システムに持続的な物理的被害をもたらせるかを評価するベンチマーク「PLCBench」を提案。自律型AIエージェントによる産業インフラへの攻撃リスクを定量的に評価する新たな研究。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="evaluation"/>
-    <category term="agent-security"/>
     <category term="adversarial"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
   <entry>
-    <title>The Guard That Cried Wolf: How Scary Words Make Agent Guardrails Refuse Legitimate Actions</title>
-    <link href="https://arxiv.org/abs/2608.27009" rel="alternate"/>
-    <id>urn:ai-security-digest:7a10f5083e8a472e</id>
-    <published>2026-08-28T04:00:00Z</published>
-    <updated>2026-08-28T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMエージェントのガードレールが「危険な言葉」を含む正当なリクエストを過剰に拒否してしまう「過剰安全性」問題を指摘。承認済みタスクが誤って拒絶されることでエージェントの実用展開が妨げられる現象を分析し、評価手法の必要性を論じる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <title>AI Is Accelerating Vulnerability Discovery. Can Defenders Keep Up?</title>
+    <link href="https://www.bleepingcomputer.com/news/security/ai-is-accelerating-vulnerability-discovery-can-defenders-keep-up/" rel="alternate"/>
+    <id>urn:ai-security-digest:abb490193a804ef4</id>
+    <published>2026-08-28T14:00:10Z</published>
+    <updated>2026-08-28T14:00:10Z</updated>
+    <content type="html">&lt;p&gt;AIが脆弱性の発見を加速させており、従来の脆弱性管理・修正プロセスが追いつかなくなっている実態を解説した記事。防御側が複数のインテリジェンスソースを組み合わせ、より迅速な対応を行う必要性を論じている。AIがセキュリティの攻撃・防御両面に与える影響を考察した重要な内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
+    <category term="vulnerability"/>
+    <category term="tool"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Two Unitree G1 EDU Humanoid Robot Flaws Enable Root RCE, One Starts Over Bluetooth</title>
+    <link href="https://thehackernews.com/2026/08/two-unitree-g1-edu-humanoid-robot-flaws.html" rel="alternate"/>
+    <id>urn:ai-security-digest:6d2eb85116012530</id>
+    <published>2026-08-28T12:07:24Z</published>
+    <updated>2026-08-28T12:07:24Z</updated>
+    <content type="html">&lt;p&gt;ヒューマノイドロボット「Unitree G1 EDU」に2件の独立したルートRCEチェーン脆弱性が発見され、Bluetooth Low Energy経由でのリモートコード実行も可能であることが明らかになった。AIを活用した物理ロボットのセキュリティリスクを示す事例として、AI搭載デバイスのセキュリティ上の重要性を提起している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Three CVSS 10.0 ServiceNow Flaws Could Let Unauthenticated Attackers Execute Code and SQL</title>
+    <link href="https://thehackernews.com/2026/08/three-cvss-100-servicenow-flaws-could.html" rel="alternate"/>
+    <id>urn:ai-security-digest:1510fb277d3c7983</id>
+    <published>2026-08-28T11:20:32Z</published>
+    <updated>2026-08-28T11:20:32Z</updated>
+    <content type="html">&lt;p&gt;ServiceNowのAIプラットフォームにCVSSスコア10.0の最大深刻度脆弱性が3件発見され、未認証攻撃者によるコード実行やSQLインジェクションが可能な状態であることが判明した。同社はホスト型インスタンスへのセキュリティアップデートを展開し、パートナーおよびセルフホスト顧客にもパッチを提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="incident"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>ServiceNow warns of three max severity security vulnerabilities</title>
+    <link href="https://www.bleepingcomputer.com/news/security/servicenow-warns-of-three-max-severity-security-vulnerabilities/" rel="alternate"/>
+    <id>urn:ai-security-digest:d78fd3b9a03a8b41</id>
+    <published>2026-08-28T10:29:42Z</published>
+    <updated>2026-08-28T10:29:42Z</updated>
+    <content type="html">&lt;p&gt;ServiceNowがAIプラットフォームに存在する最大深刻度の脆弱性3件に対するセキュリティパッチをリリースした。コードインジェクション、SQLインジェクション、権限昇格攻撃に悪用される可能性があり、AIプラットフォームそのものが攻撃対象となっている点で注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="incident"/>
+    <source>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
 </feed>
