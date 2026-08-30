@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Introducing Hy4 Preview",
+    "link": "https://simonwillison.net/2026/Aug/29/hy4/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-08-29T23:53:13+00:00",
+    "summary_ja": "テンセントが新しいオープンウェイトLLM「Hy4 Preview」を公開した。総パラメータ数770B、アクティブパラメータ49B、コンテキストウィンドウ1Mトークンという大規模モデルで、前世代のHy3から大幅に規模が拡大している。チャットテンプレートの構造分析など、モデルの能力理解に向けた取り組みも紹介されている。",
+    "tags": [
+      "research",
+      "tool",
+      "model-safety"
+    ]
+  }
+]
