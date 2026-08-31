@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Anthropic warns infostealer malware is hijacking Claude sessions to drain usage",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-warns-infostealer-malware-is-hijacking-claude-sessions-to-drain-usage/",
+    "source": "Bleeping Computer",
+    "published": "2026-08-30T14:30:25+00:00",
+    "summary_ja": "Anthropicは、一部のClaudeユーザーのPCにインフォスティーラーマルウェアが感染し、アクティブなClaudeログインセッションが盗まれていることを警告した。攻撃者はこれにより不正にアカウントへアクセスし、利用枠を消費するなどの被害が発生している。AIサービスのセッションハイジャックという新たな脅威として注目される。",
+    "tags": [
+      "incident",
+      "vulnerability"
+    ]
+  }
+]
