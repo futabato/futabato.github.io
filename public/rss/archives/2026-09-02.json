@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Codex bundles LibreOffice",
+    "link": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-09-01T19:03:01+00:00",
+    "summary_ja": "OpenAIのCodexデスクトップアプリ（現ChatGPT）がキャッシュフォルダにPython、Node.js、LibreOfficeなど合計1.7GBもの大規模なランタイム環境をバンドルしていることが発見された。AIエージェントが実行するローカル環境の透明性やアタックサーフェス拡大の観点から注目される。",
+    "tags": [
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "Critical Langflow flaw exploited to steal OpenAI and AWS keys",
+    "link": "https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-01T17:54:22+00:00",
+    "summary_ja": "AIアプリケーション構築フレームワーク「Langflow」に存在する未認証リモートコード実行脆弱性（CVE-2026-0768）が攻撃者に悪用され、OpenAIやAWSの認証情報・トークン・キーが窃取されている。AI開発基盤を狙った重大な脆弱性悪用事例として注目される。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "tool"
+    ]
+  },
+  {
+    "title": "Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure",
+    "link": "https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html",
+    "source": "The Hacker News",
+    "published": "2026-09-01T17:53:11+00:00",
+    "summary_ja": "JFrog Artifactoryに存在する認証バイパスの重大脆弱性（CVE-2026-82329、CVSSスコア9.8）が公開からわずか数日で悪用され、管理者トークンが不正に生成される攻撃が確認された。AIパイプラインを含むソフトウェアサプライチェーンの重要インフラとして広く利用されているArtifactoryへの攻撃であり、AI開発環境のセキュリティにも影響しうる。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "ランサムウェアグループによるCursorの悪用についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/09/02/022540",
+    "source": "piyolog",
+    "published": "2026-09-01T17:25:40+00:00",
+    "summary_ja": "ランサムウェアグループ「Aur0ra」がAIコーディングツール「Cursor」のエージェント機能を悪用し、安全フィルターをソーシャルエンジニアリング的手法で回避しながら攻撃を実行していたことが明らかになった。AIエージェントの安全制御機構を意図的にバイパスした実攻撃事例として重要性が高い。",
+    "tags": [
+      "agent-security",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Cyber risk from frontier AI poses ‘most immediate concern’ to global financial system, watchdog warns",
+    "link": "https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance",
+    "source": "The Record by Recorded Future",
+    "published": "2026-09-01T12:28:00+00:00",
+    "summary_ja": "金融安定理事会（FSB）議長のアンドリュー・ベイリー氏が、フロンティアAIに起因するサイバーリスクを「世界の金融システムに対する最も差し迫った懸念」と警告した。複数の金融機関や共有技術基盤が同時に混乱するシナリオへの備えを金融機関とテクノロジープロバイダーに求めている。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  }
+]

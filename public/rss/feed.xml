@@ -3,84 +3,78 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-09-01T01:36:12Z</updated>
+  <updated>2026-09-02T00:47:36Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Securing Claude Code: The New Compliance API, Local Visibility, and Identity Governance</title>
-    <link href="https://thehackernews.com/2026/08/securing-claude-code-new-compliance-api.html" rel="alternate"/>
-    <id>urn:ai-security-digest:dd23bc750fd60566</id>
-    <published>2026-08-31T11:31:47Z</published>
-    <updated>2026-08-31T11:31:47Z</updated>
-    <content type="html">&lt;p&gt;AnthropicのAIコーディングエージェント「Claude Code」に対して、新たなCompliance APIエンドポイントがセキュリティチームへの可視性を提供する。エージェントがファイル読み取り・シェルコマンド実行・MCPツール呼び出しを行う中で、アクティビティログだけでは正当なアクセスかを判断できないという課題も指摘されている。AIエージェントのアイデンティティガバナンスと監視が重要な課題として浮上している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Codex bundles LibreOffice</title>
+    <link href="https://simonwillison.net/2026/Sep/1/codex-libreoffice/" rel="alternate"/>
+    <id>urn:ai-security-digest:86d3bc7092b6e9c6</id>
+    <published>2026-09-01T19:03:01Z</published>
+    <updated>2026-09-01T19:03:01Z</updated>
+    <content type="html">&lt;p&gt;OpenAIのCodexデスクトップアプリ（現ChatGPT）がキャッシュフォルダにPython、Node.js、LibreOfficeなど合計1.7GBもの大規模なランタイム環境をバンドルしていることが発見された。AIエージェントが実行するローカル環境の透明性やアタックサーフェス拡大の観点から注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
     <category term="agent-security"/>
     <category term="tool"/>
-    <category term="governance"/>
+    <source>
+      <title>Simon Willison's Weblog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Critical Langflow flaw exploited to steal OpenAI and AWS keys</title>
+    <link href="https://www.bleepingcomputer.com/news/security/critical-langflow-flaw-exploited-to-steal-openai-and-aws-keys/" rel="alternate"/>
+    <id>urn:ai-security-digest:7de4b68209c1337a</id>
+    <published>2026-09-01T17:54:22Z</published>
+    <updated>2026-09-01T17:54:22Z</updated>
+    <content type="html">&lt;p&gt;AIアプリケーション構築フレームワーク「Langflow」に存在する未認証リモートコード実行脆弱性（CVE-2026-0768）が攻撃者に悪用され、OpenAIやAWSの認証情報・トークン・キーが窃取されている。AI開発基盤を狙った重大な脆弱性悪用事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="incident"/>
+    <category term="tool"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Attackers Exploit Critical JFrog Artifactory Flaw to Mint Admin Tokens Days After Disclosure</title>
+    <link href="https://thehackernews.com/2026/09/attackers-exploit-critical-jfrog.html" rel="alternate"/>
+    <id>urn:ai-security-digest:5d60f3c3ebe6483c</id>
+    <published>2026-09-01T17:53:11Z</published>
+    <updated>2026-09-01T17:53:11Z</updated>
+    <content type="html">&lt;p&gt;JFrog Artifactoryに存在する認証バイパスの重大脆弱性（CVE-2026-82329、CVSSスコア9.8）が公開からわずか数日で悪用され、管理者トークンが不正に生成される攻撃が確認された。AIパイプラインを含むソフトウェアサプライチェーンの重要インフラとして広く利用されているArtifactoryへの攻撃であり、AI開発環境のセキュリティにも影響しうる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="incident"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>ROPE: Routed Origin Policy Enforcement against Indirect Prompt Injection</title>
-    <link href="https://arxiv.org/abs/2608.27496" rel="alternate"/>
-    <id>urn:ai-security-digest:2c561faf7ee91231</id>
-    <published>2026-08-31T04:00:00Z</published>
-    <updated>2026-08-31T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;ツール使用型LLMエージェントへの間接プロンプトインジェクション（IPI）攻撃に対抗するため、ROPE（Routed Origin Policy Enforcement）と呼ばれる新しいシステムレベルの防御手法を提案する研究。エージェントが読み込むコンテンツに埋め込まれた悪意ある指示を、情報フロー制御とタスク条件付きツールスクリーニングにより防御する。エージェントの自律化が進む中で、セキュリティ設計の重要性を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <title>ランサムウェアグループによるCursorの悪用についてまとめてみた</title>
+    <link href="https://piyolog.hatenadiary.jp/entry/2026/09/02/022540" rel="alternate"/>
+    <id>urn:ai-security-digest:79e049edad1517e2</id>
+    <published>2026-09-01T17:25:40Z</published>
+    <updated>2026-09-01T17:25:40Z</updated>
+    <content type="html">&lt;p&gt;ランサムウェアグループ「Aur0ra」がAIコーディングツール「Cursor」のエージェント機能を悪用し、安全フィルターをソーシャルエンジニアリング的手法で回避しながら攻撃を実行していたことが明らかになった。AIエージェントの安全制御機構を意図的にバイパスした実攻撃事例として重要性が高い。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; piyolog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="agent-security"/>
+    <category term="incident"/>
     <category term="adversarial"/>
-    <category term="vulnerability"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>piyolog</title>
     </source>
   </entry>
   <entry>
-    <title>Circuit Discovery Helps Detect LLM Jailbreaking: A Mechanistic Interpretability Study</title>
-    <link href="https://arxiv.org/abs/2608.27504" rel="alternate"/>
-    <id>urn:ai-security-digest:4588585d9d4ae8da</id>
-    <published>2026-08-31T04:00:00Z</published>
-    <updated>2026-08-31T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;安全アライメント済みLLMがジェイルブレイク攻撃に対してなぜ脆弱なのかを、回路発見（Circuit Discovery）による機械論的解釈可能性アプローチで分析した研究。LLaMA-2-7B-chatを対象に、敵対的プロンプト処理の内部メカニズムを解明し、ジェイルブレイク検出への応用可能性を示す。安全性訓練の限界を内部構造から理解する新たな知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
-    <category term="evaluation"/>
+    <title>Cyber risk from frontier AI poses ‘most immediate concern’ to global financial system, watchdog warns</title>
+    <link href="https://therecord.media/cyber-risk-from-frontier-ai-most-immediate-concern-to-global-finance" rel="alternate"/>
+    <id>urn:ai-security-digest:67bd350c0cebb57c</id>
+    <published>2026-09-01T12:28:00Z</published>
+    <updated>2026-09-01T12:28:00Z</updated>
+    <content type="html">&lt;p&gt;金融安定理事会（FSB）議長のアンドリュー・ベイリー氏が、フロンティアAIに起因するサイバーリスクを「世界の金融システムに対する最も差し迫った懸念」と警告した。複数の金融機関や共有技術基盤が同時に混乱するシナリオへの備えを金融機関とテクノロジープロバイダーに求めている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="policy"/>
+    <category term="governance"/>
+    <category term="regulation"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Fully Unleashing the Multimodal Attacker: Meta-Adaptive Jailbreaking of Vision-Language Models</title>
-    <link href="https://arxiv.org/abs/2608.27531" rel="alternate"/>
-    <id>urn:ai-security-digest:303a9a2b44bfbd3b</id>
-    <published>2026-08-31T04:00:00Z</published>
-    <updated>2026-08-31T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;大規模ビジョン言語モデル（VLM）に対するマルチモーダルジェイルブレイク攻撃を強化する新手法「MAMJ（Meta-Adaptive Multimodal Jailbreaking）」を提案する研究。既存攻撃が静的なテンプレートや固定戦略に依存する中、攻撃者自体をメタ適応的に最適化することで、より汎用的かつ強力な攻撃を実現する。マルチモーダルAIの安全性評価に重大な示唆を与える。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Can Tainted Pixels Expose Deepfake Videos?</title>
-    <link href="https://arxiv.org/abs/2608.27492" rel="alternate"/>
-    <id>urn:ai-security-digest:30aa015c8ac87809</id>
-    <published>2026-08-31T04:00:00Z</published>
-    <updated>2026-08-31T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;ディープフェイク動画に対して、事前にノイズを付加することでAIによる顔操作を困難にするプロアクティブな防御手法「Tainted Pixels」を提案する研究。既存のディープフェイク対策が事後検出に留まる中、公開済み動画を黒箱操作ツールから事前保護するアプローチを提示する。人間の知覚への影響も評価対象としている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Record by Recorded Future</title>
     </source>
   </entry>
 </feed>
