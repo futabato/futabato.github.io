@@ -1,0 +1,60 @@
+[
+  {
+    "title": "Google, Anthropic, and OpenAI Unveil Cyber AI Models, Safeguards, and Access Programs",
+    "link": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+    "source": "The Hacker News",
+    "published": "2026-09-02T18:27:49+00:00",
+    "summary_ja": "Google、Anthropic、OpenAIの3社が、サイバーセキュリティ特化型AIモデルや安全策、アクセスプログラムを相次いで発表した。GoogleはGemini 3.8 Flash Cyberを発表し、政府や医療機関などの重要インフラ防御者に早期アクセスを提供する「Fairwindプログラム」を開始した。AIをサイバー防衛に活用する取り組みが主要AI企業間で加速している。",
+    "tags": [
+      "tool",
+      "model-safety",
+      "policy"
+    ]
+  },
+  {
+    "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+    "link": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-09-02T14:16:42+00:00",
+    "summary_ja": "AnthropicがClaude消費者向けアプリケーションのシステムプロンプトを公開しており、その最新版では楽曲歌詞の再現を強く制限する内容が追加されていることが確認された。Anthropicは現在のプロンプトだけでなく過去の変更履歴も公開しており、モデルの安全性・行動制御の透明性確保の取り組みとして注目される。",
+    "tags": [
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code",
+    "link": "https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html",
+    "source": "The Hacker News",
+    "published": "2026-09-02T14:06:59+00:00",
+    "summary_ja": "Manifold Securityが、Claude、Codex、Cursorなど7つのコマンドライン型AIコーディングエージェントにわたる8件の脆弱性を公開した。悪意あるGit設定ファイルを通じて、エージェントが開発者のマシン上でサンドボックス外のコードを承認プロンプトなしに実行させられる攻撃手法であり、発表時点で4件は未修正のままである。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "CISA Adds Seven Known Exploited Vulnerabilities to Catalog",
+    "link": "https://www.cisa.gov/news-events/alerts/2026/09/02/cisa-adds-seven-known-exploited-vulnerabilities-catalog",
+    "source": "CISA Alerts",
+    "published": "2026-09-02T12:00:00+00:00",
+    "summary_ja": "CISAが新たに7件の脆弱性をKEVカタログに追加したが、その中にBerriAI LiteLLMの不適切な認証脆弱性（CVE-2026-59822）が含まれており、LLMインフラへの実際の攻撃が確認されている。AIバックエンドとして広く使用されるLLMプロキシツールへの攻撃が現実の脅威となっていることを示す。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "How to Secure Enterprise AI: From Adoption to Incident Readiness",
+    "link": "https://thehackernews.com/2026/09/how-to-secure-enterprise-ai-from.html",
+    "source": "The Hacker News",
+    "published": "2026-09-02T11:30:00+00:00",
+    "summary_ja": "企業がAIを大規模導入する際のセキュリティリスク管理からインシデント対応準備までの包括的なベストプラクティスを解説したeBookが公開された。SygniaのCISOサーベイ2026によれば、AIのビジネス価値は自明となった一方で、サイバーリスクを制御しながらスケールさせることが最大の課題とされている。",
+    "tags": [
+      "governance",
+      "policy",
+      "model-safety"
+    ]
+  }
+]
