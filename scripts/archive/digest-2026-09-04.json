@@ -1,0 +1,38 @@
+[
+  {
+    "title": "ASCII smuggling crosses over from AI prompt injection to phishing evasion",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/03/ascii-smuggling-crosses-over-from-ai-prompt-injection-to-phishing-evasion/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-09-03T16:00:00+00:00",
+    "summary_ja": "AIモデルへのプロンプトインジェクションに使われていたASCIIスマグリング手法（不可視のUnicode文字でAIへの指示を隠す技術）が、フィッシングメールのフィルター回避にも転用されていることをMicrosoftが報告。AI向け攻撃手法が一般的なサイバー攻撃へと拡散している新たなトレンドを示す重要な事例。",
+    "tags": [
+      "adversarial",
+      "vulnerability",
+      "research"
+    ]
+  },
+  {
+    "title": "Preparing for the Post-Quantum Era: A Call to Action",
+    "link": "https://www.cisa.gov/resources-tools/resources/preparing-post-quantum-era-call-action",
+    "source": "CISA Alerts",
+    "published": "2026-09-03T12:00:00+00:00",
+    "summary_ja": "CISAとG7サイバーセキュリティワーキンググループが、量子コンピューティングの脅威に備えポスト量子暗号（PQC）への移行を促す共同文書を公表。政府・組織に対し、認証システムや重要資産を守るための具体的な5つの優先事項を示している。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "Shai-Hulud's Reach Just Grew to 469 Credential Locations. Here's What That Means",
+    "link": "https://thehackernews.com/2026/09/shai-huluds-reach-just-grew-to-469.html",
+    "source": "The Hacker News",
+    "published": "2026-09-03T10:36:39+00:00",
+    "summary_ja": "GitGuardianの研究者が、インフォスティーラーワーム「Shai-Hulud」の新変種がAIツールの設定ファイルを含む469か所で認証情報を探索するよう進化したことを発見。以前の変種の189か所から大幅に増加しており、攻撃者がAI開発環境やCI/CDツールを重要な標的として認識していることを示している。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "adversarial"
+    ]
+  }
+]
