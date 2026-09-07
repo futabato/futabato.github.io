@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Research acceleration: The view inside OpenAI",
+    "link": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-09-06T23:57:40+00:00",
+    "summary_ja": "OpenAIの内部からの視点として、再帰的自己改善（RSI）と呼ばれる新たなAGIの取り組みが紹介されている。2026年はエージェント型エンジニアリングが本格化した年とされ、OpenAIの研究チームがコーディングエージェントを活用している実態が明かされている。AIの自律的な能力拡張に関する安全性や制御の観点から注目すべき動向である。",
+    "tags": [
+      "research",
+      "agent-security",
+      "model-safety"
+    ]
+  }
+]
