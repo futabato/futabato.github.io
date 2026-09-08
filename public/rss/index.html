@@ -51,19 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年09月07日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">1件</span>
+    <span class="current-date" id="current-date">2026年09月08日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>09/06</time>
-            <span class="source">Simon Willison&#x27;s Weblog</span>
+            <time>09/07</time>
+            <span class="source">サイバーセキュリティ.com</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/" target="_blank" rel="noopener">Research acceleration: The view inside OpenAI</a></h3>
-          <p>OpenAIの内部からの視点として、再帰的自己改善（RSI）と呼ばれる新たなAGIの取り組みが紹介されている。2026年はエージェント型エンジニアリングが本格化した年とされ、OpenAIの研究チームがコーディングエージェントを活用している実態が明かされている。AIの自律的な能力拡張に関する安全性や制御の観点から注目すべき動向である。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
+          <h3><a href="https://cybersecurity-jp.com/news/116443" target="_blank" rel="noopener">RIZAP担当者が個人情報を生成AIに入力　地方職員共済組合の726人に漏えいの可能性</a></h3>
+          <p>業務委託先のRIZAP担当者が、地方職員共済組合の組合員726人分の個人情報を外部の生成AIサービスに入力し、情報漏えいの可能性が生じたと発表された。生成AIへの業務データ入力に起因する情報漏えいインシデントであり、AIサービス利用時のデータ管理ポリシーの重要性を示す事例。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/07</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2609.04382" target="_blank" rel="noopener">Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys</a></h3>
+          <p>分割LLM学習システムにおけるプライバシー評価の欠陥を指摘した研究。信頼済みローカルノードが返す出力勾配が、デコイ行のマスキングを無効化し、未テストの観測可能チャネルを通じてプライバシーリークを引き起こすことを示した。プライバシー評価が合格した状態でも実質的な情報漏えいが起こりうるという重要な知見。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/07</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2609.04410" target="_blank" rel="noopener">Engineered Persuasion: Evaluating Personalized Pretexts in LLM-Generated Spear Phishing</a></h3>
+          <p>LLMが職場の詳細情報を活用してパーソナライズされたスピアフィッシングメールを低コストで生成できることを、180人の参加者を用いた実験で評価した研究。情報の累積レベルが高まるほどフィッシングメールの信憑性への影響が変化することが示され、AI生成フィッシングの脅威を定量的に分析している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">evaluation</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/07</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2609.04474" target="_blank" rel="noopener">Nebulon Enterprise Simulated Threats for Phishing Research (NEST-Phish): A Synthetic Enterprise Phishing Email Dataset for Behavioral and Machine-Learning Research</a></h3>
+          <p>AIを活用したフィッシング研究向けに、架空企業「Nebulon」を舞台とした合成エンタープライズフィッシングメールデータセット「NEST-Phish」を公開した研究。機械学習モデルの訓練や行動分析に活用できる解釈可能なフィッシング特徴量を備えており、公開可能な現実的フィッシングデータセットの不足を補うことを目指す。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">tool</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/07</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2609.04475" target="_blank" rel="noopener">Client-Side Probing of Deleted Ridge Statistics in Federated Unlearning</a></h3>
+          <p>連合学習における「忘却（Unlearning）」機能のプライバシーリークを示した研究。効率化のためにコンパクトな加算サマリーを用いるシステムでは、悪意あるクライアントが返却された分類器を利用して削除済みデータの特徴量サマリーを復元できることを実証した。連合アンラーニングの安全性設計に重大な示唆を与える。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
         </article>
   </main>
   <footer>

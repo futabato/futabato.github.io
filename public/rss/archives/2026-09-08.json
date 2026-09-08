@@ -1,0 +1,61 @@
+[
+  {
+    "title": "RIZAP担当者が個人情報を生成AIに入力　地方職員共済組合の726人に漏えいの可能性",
+    "link": "https://cybersecurity-jp.com/news/116443",
+    "source": "サイバーセキュリティ.com",
+    "published": "2026-09-07T08:05:02+00:00",
+    "summary_ja": "業務委託先のRIZAP担当者が、地方職員共済組合の組合員726人分の個人情報を外部の生成AIサービスに入力し、情報漏えいの可能性が生じたと発表された。生成AIへの業務データ入力に起因する情報漏えいインシデントであり、AIサービス利用時のデータ管理ポリシーの重要性を示す事例。",
+    "tags": [
+      "incident",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys",
+    "link": "https://arxiv.org/abs/2609.04382",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-07T04:00:00+00:00",
+    "summary_ja": "分割LLM学習システムにおけるプライバシー評価の欠陥を指摘した研究。信頼済みローカルノードが返す出力勾配が、デコイ行のマスキングを無効化し、未テストの観測可能チャネルを通じてプライバシーリークを引き起こすことを示した。プライバシー評価が合格した状態でも実質的な情報漏えいが起こりうるという重要な知見。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Engineered Persuasion: Evaluating Personalized Pretexts in LLM-Generated Spear Phishing",
+    "link": "https://arxiv.org/abs/2609.04410",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-07T04:00:00+00:00",
+    "summary_ja": "LLMが職場の詳細情報を活用してパーソナライズされたスピアフィッシングメールを低コストで生成できることを、180人の参加者を用いた実験で評価した研究。情報の累積レベルが高まるほどフィッシングメールの信憑性への影響が変化することが示され、AI生成フィッシングの脅威を定量的に分析している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Nebulon Enterprise Simulated Threats for Phishing Research (NEST-Phish): A Synthetic Enterprise Phishing Email Dataset for Behavioral and Machine-Learning Research",
+    "link": "https://arxiv.org/abs/2609.04474",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-07T04:00:00+00:00",
+    "summary_ja": "AIを活用したフィッシング研究向けに、架空企業「Nebulon」を舞台とした合成エンタープライズフィッシングメールデータセット「NEST-Phish」を公開した研究。機械学習モデルの訓練や行動分析に活用できる解釈可能なフィッシング特徴量を備えており、公開可能な現実的フィッシングデータセットの不足を補うことを目指す。",
+    "tags": [
+      "research",
+      "tool",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Client-Side Probing of Deleted Ridge Statistics in Federated Unlearning",
+    "link": "https://arxiv.org/abs/2609.04475",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-07T04:00:00+00:00",
+    "summary_ja": "連合学習における「忘却（Unlearning）」機能のプライバシーリークを示した研究。効率化のためにコンパクトな加算サマリーを用いるシステムでは、悪意あるクライアントが返却された分類器を利用して削除済みデータの特徴量サマリーを復元できることを実証した。連合アンラーニングの安全性設計に重大な示唆を与える。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
