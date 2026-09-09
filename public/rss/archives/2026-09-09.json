@@ -1,0 +1,63 @@
+[
+  {
+    "title": "OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-08T14:40:32+00:00",
+    "summary_ja": "OpenAIはGPT-6 Astraがゼロデイ脆弱性を発見できる「Critical level」のサイバーセキュリティ能力を持つ初のモデルであると発表した。一方で、その高度な能力ゆえに監視・モニタリングが困難になるという安全性上の懸念も同時に指摘されている。AIの攻撃能力と安全性管理のトレードオフが改めて問われる重要な事例である。",
+    "tags": [
+      "model-safety",
+      "vulnerability",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account",
+    "link": "https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html",
+    "source": "The Hacker News",
+    "published": "2026-09-08T14:19:17+00:00",
+    "summary_ja": "Check Point Researchは、ChatGPTの会話中に埋め込まれた単一の指示によって、ユーザーのGmailデータが攻撃者の別アカウントへ送信されるプロンプトインジェクション脆弱性を実証した。ユーザーには通常通りの応答を返しながら隠密に動作するという手口で、LLMのエージェント連携における深刻なリスクを示している。",
+    "tags": [
+      "vulnerability",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours",
+    "link": "https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html",
+    "source": "The Hacker News",
+    "published": "2026-09-08T13:48:16+00:00",
+    "summary_ja": "金銭目的の攻撃グループが自律型マルチエージェントAIフレームワークを活用し、6時間以内に大規模なクレデンシャル窃取キャンペーンを実施したことをGoogle Threat Intelligence Groupが観測・報告した。AIを悪用した攻撃の自動化・高速化が現実の脅威として顕在化しており、防御側への深刻な示唆を含む。",
+    "tags": [
+      "agent-security",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies",
+    "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a",
+    "source": "CISA Alerts",
+    "published": "2026-09-08T12:00:00+00:00",
+    "summary_ja": "CISAは、中国系AI企業が米国AIモデルの独自機能・能力を大規模な知識蒸留（ナレッジディスティレーション）によって組織的に搾取していると警告するアドバイザリを発表した。これは正規技術の悪用による知的財産侵害であり、国家安全保障上の脅威として位置づけられている。",
+    "tags": [
+      "policy",
+      "governance",
+      "incident"
+    ]
+  },
+  {
+    "title": "Project Glasswingと日本国内の状況についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/09/08/164128",
+    "source": "piyolog",
+    "published": "2026-09-08T07:41:28+00:00",
+    "summary_ja": "AnthropicがClaude Mythos Previewを活用してソフトウェア脆弱性発見を目的とする「Project Glasswing」を発足させ、AWS・Google・Microsoftなど12以上の主要組織が参画した。日本国内でも自民党・金融庁・経済産業省が相次いで対応を進め、政府の対策パッケージや金融機関向け要請につながるなど、フロンティアAIの防御的活用に関する国際的・国内的な政策動向が急速に展開している。",
+    "tags": [
+      "policy",
+      "vulnerability",
+      "governance",
+      "regulation"
+    ]
+  }
+]

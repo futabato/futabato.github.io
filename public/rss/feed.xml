@@ -3,79 +3,81 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-09-08T00:53:35Z</updated>
+  <updated>2026-09-09T01:01:19Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>RIZAP担当者が個人情報を生成AIに入力　地方職員共済組合の726人に漏えいの可能性</title>
-    <link href="https://cybersecurity-jp.com/news/116443" rel="alternate"/>
-    <id>urn:ai-security-digest:d9f92a7d402c432b</id>
-    <published>2026-09-07T08:05:02Z</published>
-    <updated>2026-09-07T08:05:02Z</updated>
-    <content type="html">&lt;p&gt;業務委託先のRIZAP担当者が、地方職員共済組合の組合員726人分の個人情報を外部の生成AIサービスに入力し、情報漏えいの可能性が生じたと発表された。生成AIへの業務データ入力に起因する情報漏えいインシデントであり、AIサービス利用時のデータ管理ポリシーの重要性を示す事例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; サイバーセキュリティ.com&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
+    <title>OpenAI says GPT-6 Astra can find zero-days, but is also harder to monitor</title>
+    <link href="https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-6-astra-can-find-zero-days-but-is-also-harder-to-monitor/" rel="alternate"/>
+    <id>urn:ai-security-digest:a96d08506a53d9e9</id>
+    <published>2026-09-08T14:40:32Z</published>
+    <updated>2026-09-08T14:40:32Z</updated>
+    <content type="html">&lt;p&gt;OpenAIはGPT-6 Astraがゼロデイ脆弱性を発見できる「Critical level」のサイバーセキュリティ能力を持つ初のモデルであると発表した。一方で、その高度な能力ゆえに監視・モニタリングが困難になるという安全性上の懸念も同時に指摘されている。AIの攻撃能力と安全性管理のトレードオフが改めて問われる重要な事例である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
     <category term="model-safety"/>
-    <source>
-      <title>サイバーセキュリティ.com</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Privacy Failure in Split-LLM Training, The Returned Gradient Nullifies the Decoys</title>
-    <link href="https://arxiv.org/abs/2609.04382" rel="alternate"/>
-    <id>urn:ai-security-digest:4691a500c6e7d430</id>
-    <published>2026-09-07T04:00:00Z</published>
-    <updated>2026-09-07T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;分割LLM学習システムにおけるプライバシー評価の欠陥を指摘した研究。信頼済みローカルノードが返す出力勾配が、デコイ行のマスキングを無効化し、未テストの観測可能チャネルを通じてプライバシーリークを引き起こすことを示した。プライバシー評価が合格した状態でも実質的な情報漏えいが起こりうるという重要な知見。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Engineered Persuasion: Evaluating Personalized Pretexts in LLM-Generated Spear Phishing</title>
-    <link href="https://arxiv.org/abs/2609.04410" rel="alternate"/>
-    <id>urn:ai-security-digest:e056b8c325e95b30</id>
-    <published>2026-09-07T04:00:00Z</published>
-    <updated>2026-09-07T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMが職場の詳細情報を活用してパーソナライズされたスピアフィッシングメールを低コストで生成できることを、180人の参加者を用いた実験で評価した研究。情報の累積レベルが高まるほどフィッシングメールの信憑性への影響が変化することが示され、AI生成フィッシングの脅威を定量的に分析している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="adversarial"/>
+    <category term="vulnerability"/>
     <category term="evaluation"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Nebulon Enterprise Simulated Threats for Phishing Research (NEST-Phish): A Synthetic Enterprise Phishing Email Dataset for Behavioral and Machine-Learning Research</title>
-    <link href="https://arxiv.org/abs/2609.04474" rel="alternate"/>
-    <id>urn:ai-security-digest:f55a809bc2f7277f</id>
-    <published>2026-09-07T04:00:00Z</published>
-    <updated>2026-09-07T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;AIを活用したフィッシング研究向けに、架空企業「Nebulon」を舞台とした合成エンタープライズフィッシングメールデータセット「NEST-Phish」を公開した研究。機械学習モデルの訓練や行動分析に活用できる解釈可能なフィッシング特徴量を備えており、公開可能な現実的フィッシングデータセットの不足を補うことを目指す。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="tool"/>
+    <title>ChatGPT Flaw Let a Planted Prompt Send a Victim's Gmail Data to Another Account</title>
+    <link href="https://thehackernews.com/2026/09/chatgpt-flaw-let-planted-prompt-send.html" rel="alternate"/>
+    <id>urn:ai-security-digest:7233e2d9b1b1aaba</id>
+    <published>2026-09-08T14:19:17Z</published>
+    <updated>2026-09-08T14:19:17Z</updated>
+    <content type="html">&lt;p&gt;Check Point Researchは、ChatGPTの会話中に埋め込まれた単一の指示によって、ユーザーのGmailデータが攻撃者の別アカウントへ送信されるプロンプトインジェクション脆弱性を実証した。ユーザーには通常通りの応答を返しながら隠密に動作するという手口で、LLMのエージェント連携における深刻なリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
     <category term="adversarial"/>
+    <category term="agent-security"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Client-Side Probing of Deleted Ridge Statistics in Federated Unlearning</title>
-    <link href="https://arxiv.org/abs/2609.04475" rel="alternate"/>
-    <id>urn:ai-security-digest:19ef98d50201b00a</id>
-    <published>2026-09-07T04:00:00Z</published>
-    <updated>2026-09-07T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;連合学習における「忘却（Unlearning）」機能のプライバシーリークを示した研究。効率化のためにコンパクトな加算サマリーを用いるシステムでは、悪意あるクライアントが返却された分類器を利用して削除済みデータの特徴量サマリーを復元できることを実証した。連合アンラーニングの安全性設計に重大な示唆を与える。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
+    <title>Autonomous AI Agents Compromise Thousands of Credentials in Under Six Hours</title>
+    <link href="https://thehackernews.com/2026/09/autonomous-ai-agents-compromise.html" rel="alternate"/>
+    <id>urn:ai-security-digest:c096727d1faeeea2</id>
+    <published>2026-09-08T13:48:16Z</published>
+    <updated>2026-09-08T13:48:16Z</updated>
+    <content type="html">&lt;p&gt;金銭目的の攻撃グループが自律型マルチエージェントAIフレームワークを活用し、6時間以内に大規模なクレデンシャル窃取キャンペーンを実施したことをGoogle Threat Intelligence Groupが観測・報告した。AIを悪用した攻撃の自動化・高速化が現実の脅威として顕在化しており、防御側への深刻な示唆を含む。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="incident"/>
     <category term="adversarial"/>
-    <category term="model-safety"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>China-Based Artificial Intelligence Companies Conducting Industrial-Scale Distillation Campaigns Against U.S. AI Companies</title>
+    <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-251a" rel="alternate"/>
+    <id>urn:ai-security-digest:cffee32c5fe965c9</id>
+    <published>2026-09-08T12:00:00Z</published>
+    <updated>2026-09-08T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;CISAは、中国系AI企業が米国AIモデルの独自機能・能力を大規模な知識蒸留（ナレッジディスティレーション）によって組織的に搾取していると警告するアドバイザリを発表した。これは正規技術の悪用による知的財産侵害であり、国家安全保障上の脅威として位置づけられている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; CISA Alerts&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="policy"/>
+    <category term="governance"/>
+    <category term="incident"/>
+    <source>
+      <title>CISA Alerts</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Project Glasswingと日本国内の状況についてまとめてみた</title>
+    <link href="https://piyolog.hatenadiary.jp/entry/2026/09/08/164128" rel="alternate"/>
+    <id>urn:ai-security-digest:f238dfc4c0097134</id>
+    <published>2026-09-08T07:41:28Z</published>
+    <updated>2026-09-08T07:41:28Z</updated>
+    <content type="html">&lt;p&gt;AnthropicがClaude Mythos Previewを活用してソフトウェア脆弱性発見を目的とする「Project Glasswing」を発足させ、AWS・Google・Microsoftなど12以上の主要組織が参画した。日本国内でも自民党・金融庁・経済産業省が相次いで対応を進め、政府の対策パッケージや金融機関向け要請につながるなど、フロンティアAIの防御的活用に関する国際的・国内的な政策動向が急速に展開している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; piyolog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="policy"/>
+    <category term="vulnerability"/>
+    <category term="governance"/>
+    <category term="regulation"/>
+    <source>
+      <title>piyolog</title>
     </source>
   </entry>
 </feed>
