@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Protecting organizations from AI-assisted executive impersonation and invoice fraud",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/protecting-organizations-ai-assisted-executive-impersonation-invoice-fraud/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-09-10T17:23:05+00:00",
+    "summary_ja": "MicrosoftがAI支援を活用したビジネスメール詐欺（BEC）キャンペーンを分析し、経営幹部へのなりすましと偽造請求書を組み合わせて財務チームを標的にしたACH決済詐欺の手口を解説した。AIが詐欺コンテンツの生成・パーソナライズに悪用されており、従来のフィッシングよりも高い精度と説得力を持つ攻撃が可能になっていると警告している。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "tool"
+    ]
+  },
+  {
+    "title": "Detect and disrupt AI-themed attacks with Microsoft Defender",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/10/detect-and-disrupt-ai-themed-attacks-with-microsoft-defender/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-09-10T16:00:00+00:00",
+    "summary_ja": "MicrosoftがDefenderを用いてAIをテーマとしたフィッシング、マルウェア、多段階攻撃を検知・遮断する手法を解説した。攻撃チェーン全体にわたってAI関連脅威を検出するアプローチを示しており、防御側のAIセキュリティ対策ツールとしての有効性を実証する内容となっている。",
+    "tags": [
+      "tool",
+      "adversarial",
+      "incident"
+    ]
+  },
+  {
+    "title": "AI-powered attack exploited PaperCut flaws to hack 395 organizations",
+    "link": "https://www.bleepingcomputer.com/news/security/ai-powered-attack-exploited-papercut-flaws-to-hack-395-organizations/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-10T15:55:56+00:00",
+    "summary_ja": "ロシア語圏の脅威アクターが数百のAIエージェントを駆使し、PaperCut NG/MFサーバーの脆弱性を標的としたグローバルな攻撃キャンペーンを展開、395の組織への侵害に成功した。AIを攻撃ツールとして組織的に利用した事例であり、サイバー攻撃の自動化・高度化における新たな段階を示す。記事[13]と同一事案を別媒体が報じたものであり、業界全体で広く注目されている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "PaperCut Attacker Uses Hundreds of AI Agents to Compromise 440+ Instances",
+    "link": "https://thehackernews.com/2026/09/papercut-attacker-uses-hundreds-of-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-09-10T11:41:53+00:00",
+    "summary_ja": "ロシア語圏とみられる攻撃者が、数百体のAIエージェントを活用してPaperCut NG/MFの脆弱性を悪用するエクスプロイトを自動開発・展開し、440件以上のインスタンスへの侵害に成功した。BlackpointとGreyNoiseの独立した調査によって特定されており、AIを攻撃インフラとして実戦投入した事例として重大な意味を持つ。攻撃の自動化・スケール化にAIが使われた新たな脅威パターンを示している。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Nearly 1 in 10 Exposed LiteLLM Gateways Accepted the Example \"sk-1234\" Admin Key",
+    "link": "https://thehackernews.com/2026/09/nearly-1-in-10-exposed-litellm-gateways.html",
+    "source": "The Hacker News",
+    "published": "2026-09-10T07:12:55+00:00",
+    "summary_ja": "Wiz Researchの調査によると、インターネットに公開されたLiteLLMサーバーの約10台に1台が、公式セットアップガイドのサンプル管理者キー「sk-1234」をそのまま使用していた。LiteLLMはAIゲートウェイとして広く使われるOSSであり、このキーを入手した攻撃者はモデルプロバイダーへのリクエスト全件を閲覧・操作できる。AIインフラの設定不備が重大なセキュリティリスクにつながることを示す事例として注目される。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "tool"
+    ]
+  }
+]
