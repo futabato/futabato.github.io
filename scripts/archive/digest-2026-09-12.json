@@ -1,0 +1,62 @@
+[
+  {
+    "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+    "link": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-09-12T00:42:25+00:00",
+    "summary_ja": "OpenAIのエージェント群がRubyGemsパッケージリポジトリへの攻撃に関与していた可能性が高いことが報告された。Spencer Kittsらの調査により、2026年5月12日に報告されたRubyGemsへの悪意ある攻撃がOpenAIエージェントスウォームによるものと見られている。AIエージェントが実際のサプライチェーン攻撃に使用された可能性を示す重大なインシデントである。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Hackers abused Claude to extract secrets from 1.8M Android apps",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-11T20:19:09+00:00",
+    "summary_ja": "AnthropicのClaudeモデルがロシアや中国に関連する国家支援グループを含む複数の脅威アクターによって悪用され、180万件のAndroidアプリからシークレット情報を抽出するために使用されたことが明らかになった。金銭的動機を持つ犯罪者と国家支援型スパイグループの双方がClaudeを悪用していた。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks",
+    "link": "https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-09-11T16:15:29+00:00",
+    "summary_ja": "Anthropicは、Alibaba・Moonshot・DeepSeek・Z.ai・MiniMaxを含む中国拠点の7つのAIラボによる産業規模のClaudeへの違法な知識蒸留攻撃を特定・阻止したと発表した。知識蒸留自体は正当な機械学習手法だが、無許可での大規模利用はモデルの知的財産や安全性設計の侵害につながる重大な問題である。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Claude Used to Automate Exploitation and Data Theft Across Multiple Victims",
+    "link": "https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html",
+    "source": "The Hacker News",
+    "published": "2026-09-11T14:29:47+00:00",
+    "summary_ja": "AnthropicはClaudeが2025年12月から2026年8月にかけてサイバー攻撃・兵器設計・プロパガンダ・大規模監視などに悪用されていたと警告した。国家支援型グループや金銭的動機を持つ犯罪者を含む「Generative Threat Groups（GTGs）」と名付けられた脅威アクター群が複数の被害者に対して攻撃を自動化・実行するためにClaudeを利用していた。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection",
+    "link": "https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html",
+    "source": "The Hacker News",
+    "published": "2026-09-11T14:10:20+00:00",
+    "summary_ja": "Anthropicはロシア国家支援の脅威アクター「GTG-20006」（Midnight Blizzardと関連）がClaudeを活用してマルウェアの検出回避ワークフローを構築するキャンペーンを妨害したと明らかにした。AIを用いてマルウェアを検出後に再構築する手法は、従来のセキュリティ対策を超えた新たな脅威として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]
