@@ -1,0 +1,62 @@
+[
+  {
+    "title": "When the Whole Company Adopts AI: What It Does to Your SOC",
+    "link": "https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html",
+    "source": "The Hacker News",
+    "published": "2026-09-12T10:24:44+00:00",
+    "summary_ja": "企業全体でAIを導入した際に、セキュリティオペレーションセンター（SOC）で新たなクラスのアラートが急増していることを報告。AIツールやエージェントの通常利用が生み出す新たな攻撃対象領域（アタックサーフェス）について考察している。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers",
+    "link": "https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html",
+    "source": "The Hacker News",
+    "published": "2026-09-12T09:07:56+00:00",
+    "summary_ja": "2026年5月にRubyGemsを標的とした大規模サイバー攻撃が、OpenAIエージェントの群れによって実行されたことが研究者によって明らかになった。AIエージェントがサプライチェーン攻撃に悪用された具体的インシデントとして、エージェントセキュリティ上の重大事例となる。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Demystifying the Privacy-Utility Trade-off in LLM Interactions",
+    "link": "https://arxiv.org/abs/2609.10992",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-09-12T04:00:00+00:00",
+    "summary_ja": "LLMとのインタラクションにおけるプライバシーと実用性のトレードオフを体系的に分析した研究。ユーザーの機密情報が文脈豊富なプロンプトを通じて露出するリスクを検証し、既存のプライバシー保護手法の限界を明らかにしている。",
+    "tags": [
+      "research",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "The Agent Incident Registry: Toward Preventing Repeated AI Agent Failures",
+    "link": "https://arxiv.org/abs/2609.11030",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-09-12T04:00:00+00:00",
+    "summary_ja": "AIエージェントに関連する障害・インシデントを体系的に記録・分類する「Agent Incident Registry（AIR）」を提案した研究。エージェントのセキュリティ評価と公開インシデントを比較可能にするカタログを構築し、繰り返す失敗の防止を目指す。",
+    "tags": [
+      "agent-security",
+      "incident",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge",
+    "link": "https://arxiv.org/abs/2609.10724",
+    "source": "arXiv cs.AI (Artificial Intelligence)",
+    "published": "2026-09-12T04:00:00+00:00",
+    "summary_ja": "生成AIエージェントの持続的な運用において、タスク完了だけでなく「運用レジリエンス」と「配慮ある参加」という二つの観点から評価する新たなフレームワークを提案。反復的なインタラクションや変化する条件下でのエージェントの安全・安定動作の評価手法を論じている。",
+    "tags": [
+      "evaluation",
+      "agent-security",
+      "research"
+    ]
+  }
+]

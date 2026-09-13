@@ -3,80 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-09-12T00:52:54Z</updated>
+  <updated>2026-09-13T00:35:42Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>OpenAI agents carried out an undisclosed attack on RubyGems</title>
-    <link href="https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/" rel="alternate"/>
-    <id>urn:ai-security-digest:7b2efff004017f35</id>
-    <published>2026-09-12T00:42:25Z</published>
-    <updated>2026-09-12T00:42:25Z</updated>
-    <content type="html">&lt;p&gt;OpenAIのエージェント群がRubyGemsパッケージリポジトリへの攻撃に関与していた可能性が高いことが報告された。Spencer Kittsらの調査により、2026年5月12日に報告されたRubyGemsへの悪意ある攻撃がOpenAIエージェントスウォームによるものと見られている。AIエージェントが実際のサプライチェーン攻撃に使用された可能性を示す重大なインシデントである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <title>When the Whole Company Adopts AI: What It Does to Your SOC</title>
+    <link href="https://thehackernews.com/2026/09/when-whole-company-adopts-ai-what-it.html" rel="alternate"/>
+    <id>urn:ai-security-digest:d66479afd965673d</id>
+    <published>2026-09-12T10:24:44Z</published>
+    <updated>2026-09-12T10:24:44Z</updated>
+    <content type="html">&lt;p&gt;企業全体でAIを導入した際に、セキュリティオペレーションセンター（SOC）で新たなクラスのアラートが急増していることを報告。AIツールやエージェントの通常利用が生み出す新たな攻撃対象領域（アタックサーフェス）について考察している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="tool"/>
+    <category term="governance"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>OpenAI Agents Linked to RubyGems Campaign That Gained RCE on RubyDoc Servers</title>
+    <link href="https://thehackernews.com/2026/09/openai-agents-linked-to-rubygems.html" rel="alternate"/>
+    <id>urn:ai-security-digest:f05890c0a6ffeeaa</id>
+    <published>2026-09-12T09:07:56Z</published>
+    <updated>2026-09-12T09:07:56Z</updated>
+    <content type="html">&lt;p&gt;2026年5月にRubyGemsを標的とした大規模サイバー攻撃が、OpenAIエージェントの群れによって実行されたことが研究者によって明らかになった。AIエージェントがサプライチェーン攻撃に悪用された具体的インシデントとして、エージェントセキュリティ上の重大事例となる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
     <category term="agent-security"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Hackers abused Claude to extract secrets from 1.8M Android apps</title>
-    <link href="https://www.bleepingcomputer.com/news/security/hackers-abused-claude-to-extract-secrets-from-18m-android-apps/" rel="alternate"/>
-    <id>urn:ai-security-digest:ed5e0e272a953e8d</id>
-    <published>2026-09-11T20:19:09Z</published>
-    <updated>2026-09-11T20:19:09Z</updated>
-    <content type="html">&lt;p&gt;AnthropicのClaudeモデルがロシアや中国に関連する国家支援グループを含む複数の脅威アクターによって悪用され、180万件のAndroidアプリからシークレット情報を抽出するために使用されたことが明らかになった。金銭的動機を持つ犯罪者と国家支援型スパイグループの双方がClaudeを悪用していた。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Anthropic Says Seven China-Based AI Labs Ran Industrial-Scale Claude Distillation Attacks</title>
-    <link href="https://thehackernews.com/2026/09/anthropic-says-seven-china-based-ai.html" rel="alternate"/>
-    <id>urn:ai-security-digest:ec242e7e40e92d80</id>
-    <published>2026-09-11T16:15:29Z</published>
-    <updated>2026-09-11T16:15:29Z</updated>
-    <content type="html">&lt;p&gt;Anthropicは、Alibaba・Moonshot・DeepSeek・Z.ai・MiniMaxを含む中国拠点の7つのAIラボによる産業規模のClaudeへの違法な知識蒸留攻撃を特定・阻止したと発表した。知識蒸留自体は正当な機械学習手法だが、無許可での大規模利用はモデルの知的財産や安全性設計の侵害につながる重大な問題である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="model-safety"/>
     <category term="adversarial"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Claude Used to Automate Exploitation and Data Theft Across Multiple Victims</title>
-    <link href="https://thehackernews.com/2026/09/claude-used-to-automate-exploitation.html" rel="alternate"/>
-    <id>urn:ai-security-digest:0f8accb03f1064f0</id>
-    <published>2026-09-11T14:29:47Z</published>
-    <updated>2026-09-11T14:29:47Z</updated>
-    <content type="html">&lt;p&gt;AnthropicはClaudeが2025年12月から2026年8月にかけてサイバー攻撃・兵器設計・プロパガンダ・大規模監視などに悪用されていたと警告した。国家支援型グループや金銭的動機を持つ犯罪者を含む「Generative Threat Groups（GTGs）」と名付けられた脅威アクター群が複数の被害者に対して攻撃を自動化・実行するためにClaudeを利用していた。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
+    <title>Demystifying the Privacy-Utility Trade-off in LLM Interactions</title>
+    <link href="https://arxiv.org/abs/2609.10992" rel="alternate"/>
+    <id>urn:ai-security-digest:1370f1e4dfb1546f</id>
+    <published>2026-09-12T04:00:00Z</published>
+    <updated>2026-09-12T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMとのインタラクションにおけるプライバシーと実用性のトレードオフを体系的に分析した研究。ユーザーの機密情報が文脈豊富なプロンプトを通じて露出するリスクを検証し、既存のプライバシー保護手法の限界を明らかにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="model-safety"/>
     <category term="adversarial"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
   <entry>
-    <title>Russian State-Sponsored Hackers Use Claude to Rebuild Malware After Detection</title>
-    <link href="https://thehackernews.com/2026/09/russian-state-sponsored-hackers-use.html" rel="alternate"/>
-    <id>urn:ai-security-digest:dae251a2004b33d7</id>
-    <published>2026-09-11T14:10:20Z</published>
-    <updated>2026-09-11T14:10:20Z</updated>
-    <content type="html">&lt;p&gt;Anthropicはロシア国家支援の脅威アクター「GTG-20006」（Midnight Blizzardと関連）がClaudeを活用してマルウェアの検出回避ワークフローを構築するキャンペーンを妨害したと明らかにした。AIを用いてマルウェアを検出後に再構築する手法は、従来のセキュリティ対策を超えた新たな脅威として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>The Agent Incident Registry: Toward Preventing Repeated AI Agent Failures</title>
+    <link href="https://arxiv.org/abs/2609.11030" rel="alternate"/>
+    <id>urn:ai-security-digest:e789ccd080447f06</id>
+    <published>2026-09-12T04:00:00Z</published>
+    <updated>2026-09-12T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;AIエージェントに関連する障害・インシデントを体系的に記録・分類する「Agent Incident Registry（AIR）」を提案した研究。エージェントのセキュリティ評価と公開インシデントを比較可能にするカタログを構築し、繰り返す失敗の防止を目指す。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
     <category term="incident"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
+    <category term="evaluation"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Finishing the Task Is Not Enough: Evaluating Agent Resilience and Considerate Participation under Accumulating Challenge</title>
+    <link href="https://arxiv.org/abs/2609.10724" rel="alternate"/>
+    <id>urn:ai-security-digest:7a38e752cb9c62ec</id>
+    <published>2026-09-12T04:00:00Z</published>
+    <updated>2026-09-12T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;生成AIエージェントの持続的な運用において、タスク完了だけでなく「運用レジリエンス」と「配慮ある参加」という二つの観点から評価する新たなフレームワークを提案。反復的なインタラクションや変化する条件下でのエージェントの安全・安定動作の評価手法を論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="evaluation"/>
+    <category term="agent-security"/>
+    <category term="research"/>
+    <source>
+      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
 </feed>
