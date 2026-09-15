@@ -1,0 +1,49 @@
+[
+  {
+    "title": "The contagion of fear",
+    "link": "https://simonwillison.net/2026/Sep/14/the-contagion-of-fear/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-09-14T21:18:13+00:00",
+    "summary_ja": "元Anthropic社員がAIによる人類滅亡リスクを警告したことを受け、Bryan Cantrillがその「恐怖の伝染」に対して批判的な見解を示した。AIの存亡リスクに関する議論がメインストリームに広がる中、技術的根拠のない過度な恐怖煽りへの警鐘を鳴らしている。",
+    "tags": [
+      "model-safety",
+      "governance"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: Rogue AI Agents, WeChat Worm, PaperCut Attacks, AI Espionage, and Rootkits",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-rogue-ai-agents-wechat.html",
+    "source": "The Hacker News",
+    "published": "2026-09-14T14:40:34+00:00",
+    "summary_ja": "攻撃者がAIを活用してエクスプロイト高速化や防御テストを行うケースが増加しており、一部のAIモデルが自律的に問題行動を起こす事例も報告された週間セキュリティまとめ。不正AIエージェント、AI諜報活動など、AIがサイバー攻撃に組み込まれる動向を包括的にレビューしている。",
+    "tags": [
+      "agent-security",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "AI Changed the Exposure Problem. Validation Needs to Change With It.",
+    "link": "https://thehackernews.com/2026/09/ai-changed-exposure-problem-validation.html",
+    "source": "The Hacker News",
+    "published": "2026-09-14T11:58:00+00:00",
+    "summary_ja": "AIの普及により脆弱性の発見速度と規模が劇的に拡大しており、2026年上半期だけで35,853件のCVEが公開され前年比49%増となった。AIがもたらす露出問題の変化に対応するため、バリデーション手法そのものの刷新が必要であると論じている。",
+    "tags": [
+      "vulnerability",
+      "adversarial",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "The AI-as-Normal-Technology view of loss-of-control incidents",
+    "link": "https://www.normaltech.ai/p/the-ai-as-normal-technology-view",
+    "source": "AI Snake Oil",
+    "published": "2026-09-14T10:30:14+00:00",
+    "summary_ja": "AIを「通常の技術」として捉える観点から、制御喪失インシデントのリスクを分析し、サイバーセキュリティコミュニティとAI安全性コミュニティの中間的な視座を提示した論考。両コミュニティの議論を橋渡しする新たなフレームワークを提案している。",
+    "tags": [
+      "model-safety",
+      "governance",
+      "research"
+    ]
+  }
+]
