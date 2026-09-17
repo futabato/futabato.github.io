@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Key lawmaker suggests action on AI safety legislation will wait until 2027",
+    "link": "https://therecord.media/frontier-act-ai-bill-house-brett-guthrie",
+    "source": "The Record by Recorded Future",
+    "published": "2026-09-16T21:07:00+00:00",
+    "summary_ja": "米国下院エネルギー・商業委員会のブレット・ガスリー委員長は、AI安全性法案「FRONTIER Act」の審議は2027年まで持ち越される可能性を示唆した。拙速な立法を避けるため、慎重に取り組む姿勢を示しており、AI規制の進展が大幅に遅れる見通しとなっている。",
+    "tags": [
+      "policy",
+      "regulation",
+      "governance"
+    ]
+  },
+  {
+    "title": "Spain's data agency gets first report of AI-powered data breach",
+    "link": "https://www.bleepingcomputer.com/news/security/spains-data-agency-gets-first-report-of-ai-powered-data-breach/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-16T17:26:41+00:00",
+    "summary_ja": "スペインのデータ保護機関（AEPD）が、LLMを搭載したAIエージェントを用いたとされるデータ侵害の報告を初めて受理した。AIエージェントが実際のサイバー攻撃に悪用された事例として注目されており、AI活用型攻撃の新たな脅威を示している。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "One Extension Could Hijack AI Assistants Across Chrome, Comet, Edge, Opera Neon and Claude",
+    "link": "https://thehackernews.com/2026/09/one-extension-could-hijack-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-09-16T14:36:44+00:00",
+    "summary_ja": "セキュリティ研究者が、単一の悪意あるブラウザ拡張機能によってChrome、Edge、Opera Neon、Comet、ClaudeなどChromiumベースの5製品に組み込まれたAIアシスタントを乗っ取れることを実証した。拡張機能がインストールされると、各製品の組み込みAIをワンクリックで制御可能になる深刻な脆弱性が明らかになった。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Attacker Hijacks AI Coding Assistant Session, Spreads Shai-Hulud Across About 100 Repositories",
+    "link": "https://thehackernews.com/2026/09/attacker-hijacks-ai-coding-assistant.html",
+    "source": "The Hacker News",
+    "published": "2026-09-16T13:37:07+00:00",
+    "summary_ja": "Mandiantの報告によると、攻撃者がSaaSプロバイダーのAIコーディングアシスタントのセッションを乗っ取り、約100件の内部コードリポジトリにワーム「Shai-Hulud」を拡散させた。攻撃者はAIアシスタントにポイズニングされたソフトウェアを推奨させ、リポジトリのシークレットやソースコードを窃取するという新手の手口を用いた。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Threat Intelligence Alone Won't Close the Exploitation Gap",
+    "link": "https://thehackernews.com/2026/09/threat-intelligence-alone-wont-close.html",
+    "source": "The Hacker News",
+    "published": "2026-09-16T11:15:48+00:00",
+    "summary_ja": "攻撃者がAI支援による脆弱性悪用を活用し、露出から侵害までの時間を大幅に短縮していると報告されている。脅威インテリジェンスだけでは急速に進化するAI活用型攻撃に対応しきれない実態が指摘されており、防御側のセキュリティプログラムの再構築が求められている。",
+    "tags": [
+      "adversarial",
+      "research"
+    ]
+  }
+]
