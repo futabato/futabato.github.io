@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation",
+    "link": "https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-09-18T12:47:04+00:00",
+    "summary_ja": "MicrosoftがAzure AI FoundryにおけるCVSSスコア10.0の最高深刻度の脆弱性（CVE-2026-85889）を修正した。この脆弱性は、認証なしで攻撃者がネットワーク経由で特権昇格を行える欠陥であり、顧客側での対応は不要とされている。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents",
+    "link": "https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html",
+    "source": "The Hacker News",
+    "published": "2026-09-18T11:01:01+00:00",
+    "summary_ja": "AIコーディングエージェント4製品に「Plugin4Shell」と呼ばれる脆弱性が発見された。プラグインリポジトリの管理者が、エージェントが特定バージョンにピン留めしていても悪意あるコードに差し替えられるサプライチェーン攻撃が可能となる。AnthropicとOpenAIはそれぞれ修正済みバージョンをリリースした。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer",
+    "link": "https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html",
+    "source": "The Hacker News",
+    "published": "2026-09-18T09:18:03+00:00",
+    "summary_ja": "npmパッケージレジストリを通じて配布されたJavaScriptベースの情報窃取マルウェア「PhantomRaven」の開発者がLLMを活用してマルウェアを作成したと高い信頼度で分析された。冗長なコメントやプレースホルダーコード、トークン統計分析パターンがその根拠とされており、LLMを悪用したマルウェア開発の新たな脅威を示している。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "PAPC: Platform Mediation for Privacy-Propagation Externalities in AI-Mediated Workflows",
+    "link": "https://arxiv.org/abs/2609.19226",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-18T04:00:00+00:00",
+    "summary_ja": "LLMエージェントが複数の主体のために動作するAI媒介ワークフローにおけるプライバシー伝播の外部性を分析した研究。メモリ書き込みやエージェント間メッセージなどが最終回答前にプライバシー漏洩を引き起こす「プライバシー伝播外部性」という失敗モードを定式化し、その対策としてプラットフォーム仲介型プライバシー制御（PAPC）を提案している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "governance"
+    ]
+  },
+  {
+    "title": "AUDITPLAN: Commit, Then Answer for Auditable Safety Alignment",
+    "link": "https://arxiv.org/abs/2609.19325",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-18T04:00:00+00:00",
+    "summary_ja": "LLMの安全性チューニングにおける既存手法の課題（最終回答のみの評価による不正確な安全性判断）を解決するため、「AUDITPLAN」という計画先行型の単一モデルアプローチを提案した研究。モデルが構造化された安全計画を先に出力してから回答することで、安全性推論の監査可能性と忠実性を向上させる。",
+    "tags": [
+      "research",
+      "model-safety",
+      "evaluation"
+    ]
+  }
+]
