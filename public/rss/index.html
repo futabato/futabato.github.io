@@ -51,55 +51,46 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年09月19日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年09月20日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">4件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>09/18</time>
+            <time>09/19</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html" target="_blank" rel="noopener">Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation</a></h3>
-          <p>MicrosoftがAzure AI FoundryにおけるCVSSスコア10.0の最高深刻度の脆弱性（CVE-2026-85889）を修正した。この脆弱性は、認証なしで攻撃者がネットワーク経由で特権昇格を行える欠陥であり、顧客側での対応は不要とされている。</p>
+          <h3><a href="https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html" target="_blank" rel="noopener">Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws</a></h3>
+          <p>セキュリティ企業HacktronのリサーチャーがAnthropicのClaude Opus 5を活用し、OpenAI社員のChatGPTおよびCodexアカウントを乗っ取り、内部コードリポジトリへのアクセスに成功した。公開ヘルプフォーラムのバグとOpenAIのログインシステムの脆弱性を連鎖させた攻撃で、AIが高度なセキュリティリサーチに活用された事例として注目される。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">incident</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/19</time>
+            <span class="source">Bleeping Computer</span>
+          </div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/" target="_blank" rel="noopener">BragJack attacks hijack AI browser agents through malicious extensions</a></h3>
+          <p>「BragJack」と名付けられた概念実証攻撃は、悪意のあるブラウザ拡張機能を通じてChrome・Edge・Opera NeonなどのAIブラウザエージェントを乗っ取ることができる。「Prompt Forcing」技術により2件のCVEが発行され、バグバウンティで2万ドル以上を獲得しており、AIエージェントのブラウザ統合におけるセキュリティリスクを示している。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">vulnerability</span> <span class="tag">adversarial</span> <span class="tag">research</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/19</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html" target="_blank" rel="noopener">Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild</a></h3>
+          <p>AIワークフロー自動化プラットフォーム「Orkes Conductor」に、認証なしでリモートコード実行が可能なCVSS 9.8の深刻な脆弱性（CVE-2026-58138）が発見され、野外で悪用されていることが確認された。AIパイプライン基盤となるオーケストレーションプラットフォームへの攻撃であり、AIシステムのサプライチェーンセキュリティ上の懸念を高めている。</p>
           <div class="tags"><span class="tag">vulnerability</span> <span class="tag">incident</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>09/18</time>
+            <time>09/19</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html" target="_blank" rel="noopener">Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents</a></h3>
-          <p>AIコーディングエージェント4製品に「Plugin4Shell」と呼ばれる脆弱性が発見された。プラグインリポジトリの管理者が、エージェントが特定バージョンにピン留めしていても悪意あるコードに差し替えられるサプライチェーン攻撃が可能となる。AnthropicとOpenAIはそれぞれ修正済みバージョンをリリースした。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>09/18</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html" target="_blank" rel="noopener">Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer</a></h3>
-          <p>npmパッケージレジストリを通じて配布されたJavaScriptベースの情報窃取マルウェア「PhantomRaven」の開発者がLLMを活用してマルウェアを作成したと高い信頼度で分析された。冗長なコメントやプレースホルダーコード、トークン統計分析パターンがその根拠とされており、LLMを悪用したマルウェア開発の新たな脅威を示している。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>09/18</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2609.19226" target="_blank" rel="noopener">PAPC: Platform Mediation for Privacy-Propagation Externalities in AI-Mediated Workflows</a></h3>
-          <p>LLMエージェントが複数の主体のために動作するAI媒介ワークフローにおけるプライバシー伝播の外部性を分析した研究。メモリ書き込みやエージェント間メッセージなどが最終回答前にプライバシー漏洩を引き起こす「プライバシー伝播外部性」という失敗モードを定式化し、その対策としてプラットフォーム仲介型プライバシー制御（PAPC）を提案している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">governance</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>09/18</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2609.19325" target="_blank" rel="noopener">AUDITPLAN: Commit, Then Answer for Auditable Safety Alignment</a></h3>
-          <p>LLMの安全性チューニングにおける既存手法の課題（最終回答のみの評価による不正確な安全性判断）を解決するため、「AUDITPLAN」という計画先行型の単一モデルアプローチを提案した研究。モデルが構造化された安全計画を先に出力してから回答することで、安全性推論の監査可能性と忠実性を向上させる。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">evaluation</span></div>
+          <h3><a href="https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html" target="_blank" rel="noopener">Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up</a></h3>
+          <p>GoogleのGeminiモデルが、イスラエル企業Irregularによるサイバーセキュリティ評価テスト中にドメイン設定の混同により、実在する企業のシステムへ意図せず侵入するインシデントが2026年5月に発生した。AIシステムが評価環境外の実システムに影響を与えた事例として、AIエージェントの安全な評価手法と制御の重要性を改めて示している。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">evaluation</span> <span class="tag">model-safety</span> <span class="tag">agent-security</span></div>
         </article>
   </main>
   <footer>

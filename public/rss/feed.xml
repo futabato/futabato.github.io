@@ -3,19 +3,49 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-09-19T00:56:09Z</updated>
+  <updated>2026-09-20T00:37:00Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Microsoft Patches CVSS 10.0 Azure AI Foundry Flaw Enabling Unauthorized Privilege Escalation</title>
-    <link href="https://thehackernews.com/2026/09/microsoft-patches-cvss-100-azure-ai.html" rel="alternate"/>
-    <id>urn:ai-security-digest:baffdffe14565b92</id>
-    <published>2026-09-18T12:47:04Z</published>
-    <updated>2026-09-18T12:47:04Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftがAzure AI FoundryにおけるCVSSスコア10.0の最高深刻度の脆弱性（CVE-2026-85889）を修正した。この脆弱性は、認証なしで攻撃者がネットワーク経由で特権昇格を行える欠陥であり、顧客側での対応は不要とされている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws</title>
+    <link href="https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html" rel="alternate"/>
+    <id>urn:ai-security-digest:cccf7b5fb8fe09a0</id>
+    <published>2026-09-19T18:36:53Z</published>
+    <updated>2026-09-19T18:36:53Z</updated>
+    <content type="html">&lt;p&gt;セキュリティ企業HacktronのリサーチャーがAnthropicのClaude Opus 5を活用し、OpenAI社員のChatGPTおよびCodexアカウントを乗っ取り、内部コードリポジトリへのアクセスに成功した。公開ヘルプフォーラムのバグとOpenAIのログインシステムの脆弱性を連鎖させた攻撃で、AIが高度なセキュリティリサーチに活用された事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="vulnerability"/>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>BragJack attacks hijack AI browser agents through malicious extensions</title>
+    <link href="https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/" rel="alternate"/>
+    <id>urn:ai-security-digest:fb9113f4b47af3f8</id>
+    <published>2026-09-19T14:56:31Z</published>
+    <updated>2026-09-19T14:56:31Z</updated>
+    <content type="html">&lt;p&gt;「BragJack」と名付けられた概念実証攻撃は、悪意のあるブラウザ拡張機能を通じてChrome・Edge・Opera NeonなどのAIブラウザエージェントを乗っ取ることができる。「Prompt Forcing」技術により2件のCVEが発行され、バグバウンティで2万ドル以上を獲得しており、AIエージェントのブラウザ統合におけるセキュリティリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="vulnerability"/>
+    <category term="adversarial"/>
+    <category term="research"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild</title>
+    <link href="https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html" rel="alternate"/>
+    <id>urn:ai-security-digest:c8cb9ca3b0db57d2</id>
+    <published>2026-09-19T08:18:54Z</published>
+    <updated>2026-09-19T08:18:54Z</updated>
+    <content type="html">&lt;p&gt;AIワークフロー自動化プラットフォーム「Orkes Conductor」に、認証なしでリモートコード実行が可能なCVSS 9.8の深刻な脆弱性（CVE-2026-58138）が発見され、野外で悪用されていることが確認された。AIパイプライン基盤となるオーケストレーションプラットフォームへの攻撃であり、AIシステムのサプライチェーンセキュリティ上の懸念を高めている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
     <category term="incident"/>
     <source>
@@ -23,59 +53,18 @@
     </source>
   </entry>
   <entry>
-    <title>Plugin4Shell Lets Repository Owners Swap Pinned Plugin Code Across Four AI Coding Agents</title>
-    <link href="https://thehackernews.com/2026/09/plugin4shell-lets-repository-owners.html" rel="alternate"/>
-    <id>urn:ai-security-digest:68651eea862d1332</id>
-    <published>2026-09-18T11:01:01Z</published>
-    <updated>2026-09-18T11:01:01Z</updated>
-    <content type="html">&lt;p&gt;AIコーディングエージェント4製品に「Plugin4Shell」と呼ばれる脆弱性が発見された。プラグインリポジトリの管理者が、エージェントが特定バージョンにピン留めしていても悪意あるコードに差し替えられるサプライチェーン攻撃が可能となる。AnthropicとOpenAIはそれぞれ修正済みバージョンをリリースした。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Claimed Bug Bounty Hunter Likely Used LLM to Build PhantomRaven npm Stealer</title>
-    <link href="https://thehackernews.com/2026/09/claimed-bug-bounty-hunter-likely-used.html" rel="alternate"/>
-    <id>urn:ai-security-digest:1963d1923e71383c</id>
-    <published>2026-09-18T09:18:03Z</published>
-    <updated>2026-09-18T09:18:03Z</updated>
-    <content type="html">&lt;p&gt;npmパッケージレジストリを通じて配布されたJavaScriptベースの情報窃取マルウェア「PhantomRaven」の開発者がLLMを活用してマルウェアを作成したと高い信頼度で分析された。冗長なコメントやプレースホルダーコード、トークン統計分析パターンがその根拠とされており、LLMを悪用したマルウェア開発の新たな脅威を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up</title>
+    <link href="https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html" rel="alternate"/>
+    <id>urn:ai-security-digest:02770abc3b2be73c</id>
+    <published>2026-09-19T07:51:34Z</published>
+    <updated>2026-09-19T07:51:34Z</updated>
+    <content type="html">&lt;p&gt;GoogleのGeminiモデルが、イスラエル企業Irregularによるサイバーセキュリティ評価テスト中にドメイン設定の混同により、実在する企業のシステムへ意図せず侵入するインシデントが2026年5月に発生した。AIシステムが評価環境外の実システムに影響を与えた事例として、AIエージェントの安全な評価手法と制御の重要性を改めて示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
-    <category term="adversarial"/>
-    <category term="model-safety"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>PAPC: Platform Mediation for Privacy-Propagation Externalities in AI-Mediated Workflows</title>
-    <link href="https://arxiv.org/abs/2609.19226" rel="alternate"/>
-    <id>urn:ai-security-digest:faeca8215ddb5409</id>
-    <published>2026-09-18T04:00:00Z</published>
-    <updated>2026-09-18T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMエージェントが複数の主体のために動作するAI媒介ワークフローにおけるプライバシー伝播の外部性を分析した研究。メモリ書き込みやエージェント間メッセージなどが最終回答前にプライバシー漏洩を引き起こす「プライバシー伝播外部性」という失敗モードを定式化し、その対策としてプラットフォーム仲介型プライバシー制御（PAPC）を提案している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>AUDITPLAN: Commit, Then Answer for Auditable Safety Alignment</title>
-    <link href="https://arxiv.org/abs/2609.19325" rel="alternate"/>
-    <id>urn:ai-security-digest:85ba3a7b3b9391c7</id>
-    <published>2026-09-18T04:00:00Z</published>
-    <updated>2026-09-18T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMの安全性チューニングにおける既存手法の課題（最終回答のみの評価による不正確な安全性判断）を解決するため、「AUDITPLAN」という計画先行型の単一モデルアプローチを提案した研究。モデルが構造化された安全計画を先に出力してから回答することで、安全性推論の監査可能性と忠実性を向上させる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
     <category term="evaluation"/>
+    <category term="model-safety"/>
+    <category term="agent-security"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
 </feed>

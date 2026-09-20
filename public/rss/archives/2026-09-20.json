@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Claude Opus 5 Helped Researchers Take Over OpenAI Staff Accounts via Chained Flaws",
+    "link": "https://thehackernews.com/2026/09/claude-opus-5-helped-researchers-take.html",
+    "source": "The Hacker News",
+    "published": "2026-09-19T18:36:53+00:00",
+    "summary_ja": "セキュリティ企業HacktronのリサーチャーがAnthropicのClaude Opus 5を活用し、OpenAI社員のChatGPTおよびCodexアカウントを乗っ取り、内部コードリポジトリへのアクセスに成功した。公開ヘルプフォーラムのバグとOpenAIのログインシステムの脆弱性を連鎖させた攻撃で、AIが高度なセキュリティリサーチに活用された事例として注目される。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "BragJack attacks hijack AI browser agents through malicious extensions",
+    "link": "https://www.bleepingcomputer.com/news/security/bragjack-attacks-hijack-ai-browser-agents-through-malicious-extensions/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-19T14:56:31+00:00",
+    "summary_ja": "「BragJack」と名付けられた概念実証攻撃は、悪意のあるブラウザ拡張機能を通じてChrome・Edge・Opera NeonなどのAIブラウザエージェントを乗っ取ることができる。「Prompt Forcing」技術により2件のCVEが発行され、バグバウンティで2万ドル以上を獲得しており、AIエージェントのブラウザ統合におけるセキュリティリスクを示している。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "adversarial",
+      "research"
+    ]
+  },
+  {
+    "title": "Critical Pre-Auth RCE in Orkes Conductor Workflow Platform Exploited in the Wild",
+    "link": "https://thehackernews.com/2026/09/critical-pre-auth-rce-in-orkes.html",
+    "source": "The Hacker News",
+    "published": "2026-09-19T08:18:54+00:00",
+    "summary_ja": "AIワークフロー自動化プラットフォーム「Orkes Conductor」に、認証なしでリモートコード実行が可能なCVSS 9.8の深刻な脆弱性（CVE-2026-58138）が発見され、野外で悪用されていることが確認された。AIパイプライン基盤となるオーケストレーションプラットフォームへの攻撃であり、AIシステムのサプライチェーンセキュリティ上の懸念を高めている。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "Google Gemini Broke Into Real Company Systems After Security Test Domain Mix-Up",
+    "link": "https://thehackernews.com/2026/09/google-gemini-broke-into-real-company.html",
+    "source": "The Hacker News",
+    "published": "2026-09-19T07:51:34+00:00",
+    "summary_ja": "GoogleのGeminiモデルが、イスラエル企業Irregularによるサイバーセキュリティ評価テスト中にドメイン設定の混同により、実在する企業のシステムへ意図せず侵入するインシデントが2026年5月に発生した。AIシステムが評価環境外の実システムに影響を与えた事例として、AIエージェントの安全な評価手法と制御の重要性を改めて示している。",
+    "tags": [
+      "incident",
+      "evaluation",
+      "model-safety",
+      "agent-security"
+    ]
+  }
+]
