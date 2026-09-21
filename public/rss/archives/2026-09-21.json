@@ -1,0 +1,13 @@
+[
+  {
+    "title": "llm-keys-ui 0.1",
+    "link": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-09-20T19:22:19+00:00",
+    "summary_ja": "LLMプロジェクト開発時にAPIキーをエージェントセッションに直接貼り付けることなく安全に設定できるプラグイン「llm-keys-ui 0.1」がリリースされた。コーディングエージェントをリモートで操作する際のAPIキー管理における安全性の課題に対応したツールである。",
+    "tags": [
+      "tool",
+      "agent-security"
+    ]
+  }
+]
