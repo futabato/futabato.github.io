@@ -51,19 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年09月21日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">1件</span>
+    <span class="current-date" id="current-date">2026年09月22日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>09/20</time>
+            <time>09/21</time>
             <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://simonwillison.net/2026/Sep/20/llm-keys-ui/" target="_blank" rel="noopener">llm-keys-ui 0.1</a></h3>
-          <p>LLMプロジェクト開発時にAPIキーをエージェントセッションに直接貼り付けることなく安全に設定できるプラグイン「llm-keys-ui 0.1」がリリースされた。コーディングエージェントをリモートで操作する際のAPIキー管理における安全性の課題に対応したツールである。</p>
-          <div class="tags"><span class="tag">tool</span> <span class="tag">agent-security</span></div>
+          <h3><a href="https://simonwillison.net/2026/Sep/21/jev/" target="_blank" rel="noopener">Jev introduces a new shape of LLM - System One, aka Decision Models</a></h3>
+          <p>TypeSafe AIが発表した新カテゴリのLLM「Jev」（System One / Decision Modelsとも呼ばれる）を紹介する記事。テキストを入力として受け取りながら、テキストではなく浮動小数点数による分類・評価・信頼スコアを出力するという新しいモデル形式であり、LLMアーキテクチャの新たな方向性を示している。</p>
+          <div class="tags"><span class="tag">tool</span> <span class="tag">model-safety</span> <span class="tag">research</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/21</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html" target="_blank" rel="noopener">⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks</a></h3>
+          <p>今週のセキュリティ動向まとめとして、Cisco のゼロデイ脆弱性、AIエージェントにおけるリモートコード実行（RCE）、ClickFix攻撃の急増、ブラウザハイジャックなどが報告された。特にAIエージェントを悪用したRCEの発見は、エージェントセキュリティの新たなリスクとして注目される。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">vulnerability</span> <span class="tag">incident</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/21</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2609.20884" target="_blank" rel="noopener">The Right Tool for the Job: On the Selection of Mitigations for GenAI Privacy Threats</a></h3>
+          <p>生成AI（GenAI）システムが引き起こすプライバシー脅威に対する緩和策の選定について論じた学術論文。GenAIは従来のプライバシーリスクを増幅させるだけでなく、無害に見える入力からユーザープロファイルを構築するような推論ベースの新たなリスクも生み出すと指摘している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/21</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2609.21020" target="_blank" rel="noopener">(Don&#x27;t) Trust, but (Don&#x27;t) Verify: Developers&#x27; Attention to Security in AI-Generated Code</a></h3>
+          <p>AIコーディングアシスタントが生成する安全でないコードに対して、開発者がどのように評価・信頼判断を行うかを調査した研究。開発者が脆弱性を見落とす傾向や、AIへの過度な信頼がセキュアな開発を妨げる構造的問題を明らかにしている。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">vulnerability</span> <span class="tag">evaluation</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>09/21</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2609.21081" target="_blank" rel="noopener">Loopjacking: Hijacking Human-in-the-Loop Approval</a></h3>
+          <p>AIエージェントにおけるヒューマン・イン・ザ・ループの承認機構を乗っ取る新たな攻撃手法「Loopjacking」を提案した学術論文。人間がAという操作として承認した内容が、実装上では異なる操作Bとして実行される脆弱性を体系的に分類・分析しており、エージェントセキュリティの重大な問題を示している。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span> <span class="tag">vulnerability</span></div>
         </article>
   </main>
   <footer>

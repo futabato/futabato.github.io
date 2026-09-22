@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Jev introduces a new shape of LLM - System One, aka Decision Models",
+    "link": "https://simonwillison.net/2026/Sep/21/jev/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-09-21T23:09:20+00:00",
+    "summary_ja": "TypeSafe AIが発表した新カテゴリのLLM「Jev」（System One / Decision Modelsとも呼ばれる）を紹介する記事。テキストを入力として受け取りながら、テキストではなく浮動小数点数による分類・評価・信頼スコアを出力するという新しいモデル形式であり、LLMアーキテクチャの新たな方向性を示している。",
+    "tags": [
+      "tool",
+      "model-safety",
+      "research"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: Cisco 0-Day, AI Agent RCE, ClickFix Attacks, ClickFix Surge, and Browser Hijacks",
+    "link": "https://thehackernews.com/2026/09/weekly-recap-cisco-0-day-ai-agent-rce.html",
+    "source": "The Hacker News",
+    "published": "2026-09-21T14:24:13+00:00",
+    "summary_ja": "今週のセキュリティ動向まとめとして、Cisco のゼロデイ脆弱性、AIエージェントにおけるリモートコード実行（RCE）、ClickFix攻撃の急増、ブラウザハイジャックなどが報告された。特にAIエージェントを悪用したRCEの発見は、エージェントセキュリティの新たなリスクとして注目される。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "The Right Tool for the Job: On the Selection of Mitigations for GenAI Privacy Threats",
+    "link": "https://arxiv.org/abs/2609.20884",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-21T04:00:00+00:00",
+    "summary_ja": "生成AI（GenAI）システムが引き起こすプライバシー脅威に対する緩和策の選定について論じた学術論文。GenAIは従来のプライバシーリスクを増幅させるだけでなく、無害に見える入力からユーザープロファイルを構築するような推論ベースの新たなリスクも生み出すと指摘している。",
+    "tags": [
+      "research",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "(Don't) Trust, but (Don't) Verify: Developers' Attention to Security in AI-Generated Code",
+    "link": "https://arxiv.org/abs/2609.21020",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-21T04:00:00+00:00",
+    "summary_ja": "AIコーディングアシスタントが生成する安全でないコードに対して、開発者がどのように評価・信頼判断を行うかを調査した研究。開発者が脆弱性を見落とす傾向や、AIへの過度な信頼がセキュアな開発を妨げる構造的問題を明らかにしている。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "Loopjacking: Hijacking Human-in-the-Loop Approval",
+    "link": "https://arxiv.org/abs/2609.21081",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-09-21T04:00:00+00:00",
+    "summary_ja": "AIエージェントにおけるヒューマン・イン・ザ・ループの承認機構を乗っ取る新たな攻撃手法「Loopjacking」を提案した学術論文。人間がAという操作として承認した内容が、実装上では異なる操作Bとして実行される脆弱性を体系的に分類・分析しており、エージェントセキュリティの重大な問題を示している。",
+    "tags": [
+      "research",
+      "agent-security",
+      "adversarial",
+      "vulnerability"
+    ]
+  }
+]
