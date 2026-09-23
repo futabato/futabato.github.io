@@ -1,0 +1,62 @@
+[
+  {
+    "title": "New ClosedQuorum Windows malware uses AI for attack decisions",
+    "link": "https://www.bleepingcomputer.com/news/security/new-closedquorum-windows-malware-uses-ai-for-attack-decisions/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-22T18:04:39+00:00",
+    "summary_ja": "「ClosedQuorum」と呼ばれる新たなWindowsマルウェアが、Google Gemini・DeepSeek・Qwen・Mistralなど複数のAIモデルを活用し、侵害後の攻撃行動を自律的に判断・実行することが判明した。AIを攻撃の意思決定に組み込んだマルウェアの登場は、脅威の高度化を示す重大な事例である。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Microsoft Takes Down EvilTokens Device-Code Phishing Service Tied to 12,000 Inbox Compromises",
+    "link": "https://thehackernews.com/2026/09/microsoft-takes-down-eviltokens-device.html",
+    "source": "The Hacker News",
+    "published": "2026-09-22T17:03:31+00:00",
+    "summary_ja": "Microsoftは、AIを攻撃チェーン全体に活用したフィッシング・アズ・ア・サービス「EvilTokens」のインフラをテイクダウンしたと発表した。同サービスは1万2000件以上の受信トレイ侵害に関与しており、OpenAIなどの企業も協力して摘発に至った。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Critical Bifrost AI Gateway Flaw Lets Attackers Run Commands Without Credentials",
+    "link": "https://thehackernews.com/2026/09/critical-bifrost-ai-gateway-flaw-lets.html",
+    "source": "The Hacker News",
+    "published": "2026-09-22T16:41:12+00:00",
+    "summary_ja": "オープンソースのAIゲートウェイ「Bifrost」に、認証なしで任意コマンドを実行できる深刻な脆弱性（CVE-2026-90898、CVSSスコア9.8）が発見された。20以上のLLMプロバイダーへのリクエストをルーティングするインフラが影響を受けるため、AIシステム全体のセキュリティリスクとして注目される。",
+    "tags": [
+      "vulnerability",
+      "tool",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Unmasking EvilTokens: Getting to the root of device code phishing",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/22/unmasking-eviltokens-getting-to-the-root-of-device-code-phishing/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-09-22T15:00:00+00:00",
+    "summary_ja": "MicrosoftのDigital Crimes Unit（DCU）が、AIを活用したデバイスコードフィッシング基盤「EvilTokens」の詳細な分析レポートを公開した。AIによる自動化されたルアー生成・インフラ管理・トークン窃取を組み合わせた高度なPhaaS（フィッシング・アズ・ア・サービス）の手口が解説されている。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "research"
+    ]
+  },
+  {
+    "title": "AI is set to help cyber attackers much more than defenders, says UK official",
+    "link": "https://therecord.media/ai-set-to-help-attackers-more-than-defenders",
+    "source": "The Record by Recorded Future",
+    "published": "2026-09-22T13:05:00+00:00",
+    "summary_ja": "英国のNCSC（国家サイバーセキュリティセンター）の最高技術責任者が、AIは防御側よりも攻撃側を大幅に有利にすると警告した。自動化された防御が攻撃の増加ペースに追いつけない可能性があるとし、AIがサイバー脅威のバランスを崩すリスクを指摘している。",
+    "tags": [
+      "policy",
+      "governance",
+      "adversarial"
+    ]
+  }
+]
