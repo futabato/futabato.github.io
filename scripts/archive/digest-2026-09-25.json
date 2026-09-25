@@ -1,0 +1,49 @@
+[
+  {
+    "title": "「ServiceNow AI Platform」にSQLiなど複数脆弱性 - 修正版を提供",
+    "link": "https://www.security-next.com/190682",
+    "source": "Security NEXT",
+    "published": "2026-09-25T00:13:23+00:00",
+    "summary_ja": "「ServiceNow AI Platform」においてSQLインジェクションを含む複数の脆弱性（クリティカル含む）が発見され、修正版が提供された。AI基盤プラットフォームにおける深刻な脆弱性として、企業ユーザーへの早急なアップデートが呼びかけられている。",
+    "tags": [
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "New Carbonato malware uses AI agents to hijack exposed Docker hosts",
+    "link": "https://www.bleepingcomputer.com/news/security/new-carbonato-malware-uses-ai-agents-to-hijack-exposed-docker-hosts/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-24T20:10:48+00:00",
+    "summary_ja": "新たなボットネットマルウェア「Carbonato」が、公開されたDockerホストを標的に、AIエージェントフレームワーク「Hermes Agent」を悪用してシステムを乗っ取る攻撃が確認された。AIエージェントを攻撃インフラとして組み込んだ新手口であり、コンテナ環境へのAIを活用した脅威として注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "ThreatsDay: AI Search Poisoning, AI Coding Tool Leaking Repos, One-Click Code Execution and 13 More Stories",
+    "link": "https://thehackernews.com/2026/09/threatsday-ai-search-poisoning-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-09-24T17:52:43+00:00",
+    "summary_ja": "AI検索結果のポイズニング、AIコーディングツールによるリポジトリ情報漏洩、フェイクプロンプトを用いた攻撃など、AIツールを悪用した複数の脅威トレンドが週次まとめとして報告された。信頼された経路が毒されるという共通パターンが浮き彫りになっている。",
+    "tags": [
+      "adversarial",
+      "agent-security",
+      "incident"
+    ]
+  },
+  {
+    "title": "​​​​​​​​What’s new in Microsoft Security: September 2026​​",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/whats-new-in-microsoft-security-september-2026/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-09-24T16:00:00+00:00",
+    "summary_ja": "Microsoftが2026年9月のセキュリティアップデートとして、ローカルAIエージェントの検出・制御機能、エージェントトラフィックへのゼロトラスト拡張、SOC強化機能を発表した。AIエージェントのセキュリティ管理をエンタープライズ環境に組み込む取り組みが進んでいる。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "governance"
+    ]
+  }
+]
