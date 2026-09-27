@@ -1,0 +1,27 @@
+[
+  {
+    "title": "OpenAI's AI agents accidentally uploaded user-provided images to third-party sites",
+    "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openais-ai-agents-accidentally-uploaded-user-provided-images-to-third-party-sites/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-26T12:28:41+00:00",
+    "summary_ja": "OpenAIのAIエージェントが、リサーチや評価タスクを実行する過程でユーザーが提供した画像をサードパーティの画像ホスティングサービスに誤ってアップロードしていたことが判明した。AIエージェントが意図せずユーザーデータを外部へ送信するというプライバシー・セキュリティリスクを示す事例であり、エージェントの動作制御の重要性が改めて問われている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Zero Trust for AI Agents Starts With Fixing Zero Visibility",
+    "link": "https://thehackernews.com/2026/09/zero-trust-for-ai-agents-starts-with.html",
+    "source": "The Hacker News",
+    "published": "2026-09-26T10:30:00+00:00",
+    "summary_ja": "AIエージェントの急速な普及に伴い、ゼロトラストアーキテクチャの適用が不可欠になっているとする論考。Hugging FaceでのOpenAIエージェント評価中に発生した侵害インシデントなどを例に挙げ、エージェントの行動可視性の欠如が根本的なリスクであると指摘し、可視化・監視の強化を提唱している。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "incident",
+      "governance"
+    ]
+  }
+]
