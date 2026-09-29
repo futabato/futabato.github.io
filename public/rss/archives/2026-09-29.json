@@ -1,0 +1,62 @@
+[
+  {
+    "title": "IAM for AI agents: A Practical Enterprise Framework",
+    "link": "https://thehackernews.com/2026/09/iam-for-ai-agent.html",
+    "source": "The Hacker News",
+    "published": "2026-09-28T18:20:38+00:00",
+    "summary_ja": "AIエージェントが企業システム上で委任権限を持って認証・ツール呼び出し・横断的操作を行う時代を迎え、従来のIAMの限界とAIエージェント向けのアイデンティティ制御アーキテクチャの必要性が論じられている。エージェントの挙動証跡やランタイム制御など、エンタープライズ向けの実践的なフレームワークが提示されている。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "tool"
+    ]
+  },
+  {
+    "title": "RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims",
+    "link": "https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html",
+    "source": "The Hacker News",
+    "published": "2026-09-28T17:38:33+00:00",
+    "summary_ja": "RatHatと呼ばれるAndroidバンキングトロイの木馬のマルウェア・アズ・ア・サービス基盤が、GoogleのGemini AIを活用して感染端末の中からより価値の高い被害者を自動識別していることが明らかになった。AIをサイバー犯罪の標的選定に悪用する事例として、LLMの攻撃的利用の新たな形態を示している。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "JadePuffer agentic AI attacks target Azure, destroy cloud resources",
+    "link": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-28T15:49:27+00:00",
+    "summary_ja": "JadePufferというランサムウェア攻撃者がAIエージェントを活用し、Azureテナントを標的に偵察・資格情報窃取・クラウドリソース破壊を行う攻撃キャンペーンを展開している。エージェント駆動型の攻撃手法はクラウドインフラに対する新たな脅威となっており、AIエージェントが攻撃ツールとして悪用される事例として注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking",
+    "link": "https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-28T14:00:10+00:00",
+    "summary_ja": "インフォスティーラーのログから8万以上の企業ドメインに紐づくAIアカウントの認証情報やセッションが漏洩していることが判明した。盗まれた会話内容の流出リスクに加え、LLMjacking（LLMサービスの不正利用）への悪用が深刻な問題として浮上しており、シャドーAIの拡大がセキュリティリスクを増大させている。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent",
+    "link": "https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html",
+    "source": "The Hacker News",
+    "published": "2026-09-28T11:46:00+00:00",
+    "summary_ja": "Carbonatoと呼ばれる新たなボットネットマルウェアが、露出したDockerデーモンを侵害してオープンソースのHermes AIエージェントフレームワークを展開していることが明らかになった。攻撃者はAIエージェントのペルソナファイルを書き換え、Telegram経由でタスクを受け付けるよう制御しており、AIフレームワークが攻撃インフラとして転用される新手法として警戒が必要だ。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  }
+]
