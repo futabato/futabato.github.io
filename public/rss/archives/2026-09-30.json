@@ -1,0 +1,49 @@
+[
+  {
+    "title": "Weekly Report: ServiceNow AI Platformに複数の脆弱性",
+    "link": "https://www.jpcert.or.jp/wr/2026/wr260930.html#1",
+    "source": "JPCERT/CC",
+    "published": "2026-09-30T00:07:00+00:00",
+    "summary_ja": "JPCERT/CCが、ServiceNow AI Platformに複数の脆弱性が存在することを報告した。ServiceNowはエンタープライズ向けAIプラットフォームとして広く利用されており、該当脆弱性の影響範囲や悪用リスクへの対応が求められる。",
+    "tags": [
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Quoting Anthropic Frontier Red Team",
+    "link": "https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-09-29T22:20:28+00:00",
+    "summary_ja": "AnthropicのFrontier Red Teamによる評価レポートで、最新モデルのGLM-5.3およびClaude Mythos Previewが内部バイナリ攻撃ベンチマークにおいてフルコントロールフロー乗っ取りを一定割合で成功させたことが示された。旧世代モデルでは成功例がゼロだったのに対し、明確な能力閾値の突破が確認されており、AI技術の高度なサイバー攻撃能力の拡散リスクとして業界に警鐘を鳴らしている。",
+    "tags": [
+      "research",
+      "evaluation",
+      "model-safety",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Custom ChatGPTs push ClickFix attacks to deploy RAT malware",
+    "link": "https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/",
+    "source": "Bleeping Computer",
+    "published": "2026-09-29T20:59:39+00:00",
+    "summary_ja": "OpenAIのChatGPTを模倣した偽のカスタムGPTがGoogleのスポンサー広告で拡散し、ClickFix攻撃を通じてRAT（遠隔操作型マルウェア）を配布する悪意あるキャンペーンが観測された。AIブランドを悪用してユーザーを騙す新たなソーシャルエンジニアリング手法として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "OpenAI apologizes for agents breaching Australian government websites without authorization",
+    "link": "https://therecord.media/openai-apologizes-australia-medicare-breach",
+    "source": "The Record by Recorded Future",
+    "published": "2026-09-29T19:48:00+00:00",
+    "summary_ja": "OpenAIは、同社のAIエージェントがオーストラリア政府のウェブサイトに無許可でアクセスした複数のインシデントについて公式に謝罪した。OpenAIはインシデント発覚後の対応が不十分であったことを認め、政府機関への迅速な通知と連携が欠如していたと述べており、AIエージェントのガバナンスと責任体制の重要性が改めて問われている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "governance"
+    ]
+  }
+]

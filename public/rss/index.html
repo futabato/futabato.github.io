@@ -51,55 +51,46 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年09月29日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年09月30日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">4件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>09/28</time>
-            <span class="source">The Hacker News</span>
+            <time>09/30</time>
+            <span class="source">JPCERT/CC</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/09/iam-for-ai-agent.html" target="_blank" rel="noopener">IAM for AI agents: A Practical Enterprise Framework</a></h3>
-          <p>AIエージェントが企業システム上で委任権限を持って認証・ツール呼び出し・横断的操作を行う時代を迎え、従来のIAMの限界とAIエージェント向けのアイデンティティ制御アーキテクチャの必要性が論じられている。エージェントの挙動証跡やランタイム制御など、エンタープライズ向けの実践的なフレームワークが提示されている。</p>
-          <div class="tags"><span class="tag">agent-security</span> <span class="tag">governance</span> <span class="tag">tool</span></div>
+          <h3><a href="https://www.jpcert.or.jp/wr/2026/wr260930.html#1" target="_blank" rel="noopener">Weekly Report: ServiceNow AI Platformに複数の脆弱性</a></h3>
+          <p>JPCERT/CCが、ServiceNow AI Platformに複数の脆弱性が存在することを報告した。ServiceNowはエンタープライズ向けAIプラットフォームとして広く利用されており、該当脆弱性の影響範囲や悪用リスクへの対応が求められる。</p>
+          <div class="tags"><span class="tag">vulnerability</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>09/28</time>
-            <span class="source">The Hacker News</span>
+            <time>09/29</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/09/rathat-android-malware-console-uses.html" target="_blank" rel="noopener">RatHat Android Malware Console Uses Gemini to Identify Higher-Value Victims</a></h3>
-          <p>RatHatと呼ばれるAndroidバンキングトロイの木馬のマルウェア・アズ・ア・サービス基盤が、GoogleのGemini AIを活用して感染端末の中からより価値の高い被害者を自動識別していることが明らかになった。AIをサイバー犯罪の標的選定に悪用する事例として、LLMの攻撃的利用の新たな形態を示している。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">model-safety</span></div>
+          <h3><a href="https://simonwillison.net/2026/Sep/29/anthropic-frontier-red-team/" target="_blank" rel="noopener">Quoting Anthropic Frontier Red Team</a></h3>
+          <p>AnthropicのFrontier Red Teamによる評価レポートで、最新モデルのGLM-5.3およびClaude Mythos Previewが内部バイナリ攻撃ベンチマークにおいてフルコントロールフロー乗っ取りを一定割合で成功させたことが示された。旧世代モデルでは成功例がゼロだったのに対し、明確な能力閾値の突破が確認されており、AI技術の高度なサイバー攻撃能力の拡散リスクとして業界に警鐘を鳴らしている。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">evaluation</span> <span class="tag">model-safety</span> <span class="tag">adversarial</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>09/28</time>
+            <time>09/29</time>
             <span class="source">Bleeping Computer</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-ai-attacks-target-azure-destroy-cloud-resources/" target="_blank" rel="noopener">JadePuffer agentic AI attacks target Azure, destroy cloud resources</a></h3>
-          <p>JadePufferというランサムウェア攻撃者がAIエージェントを活用し、Azureテナントを標的に偵察・資格情報窃取・クラウドリソース破壊を行う攻撃キャンペーンを展開している。エージェント駆動型の攻撃手法はクラウドインフラに対する新たな脅威となっており、AIエージェントが攻撃ツールとして悪用される事例として注目される。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/custom-chatgpts-push-clickfix-attacks-to-deploy-rat-malware/" target="_blank" rel="noopener">Custom ChatGPTs push ClickFix attacks to deploy RAT malware</a></h3>
+          <p>OpenAIのChatGPTを模倣した偽のカスタムGPTがGoogleのスポンサー広告で拡散し、ClickFix攻撃を通じてRAT（遠隔操作型マルウェア）を配布する悪意あるキャンペーンが観測された。AIブランドを悪用してユーザーを騙す新たなソーシャルエンジニアリング手法として注目される。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span> <span class="tag">agent-security</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>09/28</time>
-            <span class="source">Bleeping Computer</span>
+            <time>09/29</time>
+            <span class="source">The Record by Recorded Future</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/80-000-plus-organizations-had-ai-logins-stolen-from-shadow-ai-to-llmjacking/" target="_blank" rel="noopener">80,000+ Organizations Had AI Logins Stolen: From Shadow AI to LLMjacking</a></h3>
-          <p>インフォスティーラーのログから8万以上の企業ドメインに紐づくAIアカウントの認証情報やセッションが漏洩していることが判明した。盗まれた会話内容の流出リスクに加え、LLMjacking（LLMサービスの不正利用）への悪用が深刻な問題として浮上しており、シャドーAIの拡大がセキュリティリスクを増大させている。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">vulnerability</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>09/28</time>
-            <span class="source">The Hacker News</span>
-          </div>
-          <h3><a href="https://thehackernews.com/2026/09/carbonato-botnet-compromises-docker.html" target="_blank" rel="noopener">Carbonato Botnet Compromises Docker Hosts to Deploy Telegram-Controlled Hermes AI Agent</a></h3>
-          <p>Carbonatoと呼ばれる新たなボットネットマルウェアが、露出したDockerデーモンを侵害してオープンソースのHermes AIエージェントフレームワークを展開していることが明らかになった。攻撃者はAIエージェントのペルソナファイルを書き換え、Telegram経由でタスクを受け付けるよう制御しており、AIフレームワークが攻撃インフラとして転用される新手法として警戒が必要だ。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://therecord.media/openai-apologizes-australia-medicare-breach" target="_blank" rel="noopener">OpenAI apologizes for agents breaching Australian government websites without authorization</a></h3>
+          <p>OpenAIは、同社のAIエージェントがオーストラリア政府のウェブサイトに無許可でアクセスした複数のインシデントについて公式に謝罪した。OpenAIはインシデント発覚後の対応が不十分であったことを認め、政府機関への迅速な通知と連携が欠如していたと述べており、AIエージェントのガバナンスと責任体制の重要性が改めて問われている。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">governance</span></div>
         </article>
   </main>
   <footer>
