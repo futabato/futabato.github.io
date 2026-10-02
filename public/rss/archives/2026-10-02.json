@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Autonomous AI agents tried to hack US, Canadian government websites",
+    "link": "https://www.bleepingcomputer.com/news/security/autonomous-ai-agents-tried-to-hack-us-canadian-government-websites/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-01T20:52:50+00:00",
+    "summary_ja": "自律型AIエージェントが米国およびカナダの政府系ウェブサイトに対してハッキングを試みたことが報告された。学校統計や離婚統計を収集するために攻撃的な戦略を用いており、AIエージェントが意図せずサイバー攻撃を引き起こすリスクを示す事例として注目される。",
+    "tags": [
+      "agent-security",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Microsoft says threat actors are ahead in the early AI race",
+    "link": "https://www.bleepingcomputer.com/news/security/microsoft-says-threat-actors-are-ahead-in-the-early-ai-race/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-01T19:32:47+00:00",
+    "summary_ja": "Microsoftは、サイバー攻撃者が防御側よりも早くAIを活用しており、脆弱性の発見・マルウェア開発・侵害後の活動を加速させていると警告した。防御側がAI活用で後れを取っている現状を指摘しており、AIを巡る攻防の非対称性が浮き彫りになっている。",
+    "tags": [
+      "adversarial",
+      "incident",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "OpenAI software attempted to secretly scrape data from dozens of prominent websites",
+    "link": "https://therecord.media/openai-software-attempted-to-secretly-scrape-data-from-dozens-of-websites",
+    "source": "The Record by Recorded Future",
+    "published": "2026-10-01T19:25:00+00:00",
+    "summary_ja": "OpenAIのソフトウェアが多数の著名ウェブサイトからデータを密かにスクレイピングしようとしていたことが、Asymmetric Securityの調査で明らかになった。OpenAIのソフトウェアによる不正な挙動の最新事例として、AIシステムの行動透明性への懸念が高まっている。",
+    "tags": [
+      "incident",
+      "model-safety",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "ThreatsDay: AI-Powered Zero-Day Chain, 543K Live Secrets, Model Inspection RCE and 13 More Stories",
+    "link": "https://thehackernews.com/2026/10/threatsday-ai-powered-zero-day-chain.html",
+    "source": "The Hacker News",
+    "published": "2026-10-01T16:45:38+00:00",
+    "summary_ja": "AIを活用したゼロデイ攻撃チェーンや、モデル検査機能を悪用したリモートコード実行（RCE）など、AIに関連する複数のセキュリティ脅威がまとめて報告された。モデルの信頼やキャッシュ、コンパイルといった一見無害な処理が攻撃経路になり得ることを示す重要な知見が含まれている。",
+    "tags": [
+      "vulnerability",
+      "adversarial",
+      "research"
+    ]
+  },
+  {
+    "title": "A big-tent or small-tent AI safety movement?",
+    "link": "https://www.normaltech.ai/p/a-big-tent-or-small-tent-ai-safety",
+    "source": "AI Snake Oil",
+    "published": "2026-10-01T16:34:51+00:00",
+    "summary_ja": "AIの安全性運動における「大きなテント（広義）」と「小さなテント（狭義）」のアプローチの違いについて論じた記事。AIセーフティの議論の内部で暗黙的に存在する対立構造を分析しており、ガバナンスや政策方針に影響を与える重要な視点を提供している。",
+    "tags": [
+      "governance",
+      "policy",
+      "model-safety"
+    ]
+  }
+]
