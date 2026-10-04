@@ -1,0 +1,24 @@
+[
+  {
+    "title": "We're going to need default hard budget caps on pretty much everything",
+    "link": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-10-03T23:34:02+00:00",
+    "summary_ja": "AIコーディングエージェントや個人エージェントの普及に伴い、APIや従量課金サービスにデフォルトのハード予算上限を設けることの重要性を論じた記事。ソフトな警告メールではなく、上限到達時に即座にサービスを遮断するハードキャップが、エージェントによる意図しない過剰消費を防ぐために不可欠であると主張している。",
+    "tags": [
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations",
+    "link": "https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html",
+    "source": "The Hacker News",
+    "published": "2026-10-03T11:00:00+00:00",
+    "summary_ja": "2026年のサイバーセキュリティの現状を概観するレポートで、クラウドインフラの拡大、AIの活用、分散システムの複雑化がセキュリティのあり方を再編していることを解説している。AIを含む新技術環境における継続的な可視性とリスク対応の重要性が強調されている。",
+    "tags": [
+      "governance",
+      "evaluation"
+    ]
+  }
+]

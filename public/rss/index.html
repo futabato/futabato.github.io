@@ -51,55 +51,28 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年10月03日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
+    <span class="current-date" id="current-date">2026年10月04日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">2件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>10/02</time>
-            <span class="source">Bleeping Computer</span>
+            <time>10/03</time>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/gitlab-warns-of-critical-rce-vulnerability-in-ai-gateway-service/" target="_blank" rel="noopener">GitLab warns of critical RCE vulnerability in AI Gateway service</a></h3>
-          <p>GitLabは、AIゲートウェイサービスにおける重大なリモートコード実行（RCE）脆弱性を発見し、ユーザーに即時パッチ適用を警告した。攻撃者がこの脆弱性を悪用すると、脆弱なインスタンス上で任意のコマンドを実行できる可能性がある。AIインフラを直接標的とした重大な脆弱性として注目される。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">incident</span></div>
+          <h3><a href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/" target="_blank" rel="noopener">We&#x27;re going to need default hard budget caps on pretty much everything</a></h3>
+          <p>AIコーディングエージェントや個人エージェントの普及に伴い、APIや従量課金サービスにデフォルトのハード予算上限を設けることの重要性を論じた記事。ソフトな警告メールではなく、上限到達時に即座にサービスを遮断するハードキャップが、エージェントによる意図しない過剰消費を防ぐために不可欠であると主張している。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">tool</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>10/02</time>
+            <time>10/03</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/10/openai-parts-ways-with-three-safety.html" target="_blank" rel="noopener">OpenAI Parts Ways With Three Safety Researchers Over Sensitive Information Mishandling</a></h3>
-          <p>OpenAIは、機密情報の取り扱いに関する社内ポリシーに違反したとして、安全チームの3名のメンバーを解雇したと発表した。Wall Street Journalの報道によれば、対象者らは非公開情報を外部に漏洩させたとされる。AI安全性の研究・ガバナンス体制における内部管理の問題として業界から注目を集めている。</p>
-          <div class="tags"><span class="tag">model-safety</span> <span class="tag">governance</span> <span class="tag">incident</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>10/02</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2610.00093" target="_blank" rel="noopener">Safety in Self-Evolving Agents: A Survey</a></h3>
-          <p>LLMベースの自己進化型エージェントにおける安全性の問題を体系的に調査したサーベイ論文。モデルパラメータ、メモリ、ツール定義などを継続的に更新するエージェントは、従来の固定パラメータモデルとは異なる新たな安全性リスクをもたらすことを論じている。エージェントの自律的な学習と安全性の両立に向けた課題を整理している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>10/02</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2610.00125" target="_blank" rel="noopener">A Comprehensive Review of One-Pixel Attack: Research Status, Taxonomy, Applications, Regulation Policy and Future Directions</a></h3>
-          <p>ディープラーニングモデルに対する「ワンピクセル攻撃（OPA）」を包括的にレビューした論文で、医療診断・自動運転・生体認証などの領域における脆弱性を分析している。単一ピクセルの変更だけで高確率の誤分類を引き起こせるという敵対的攻撃の極端な例として、規制政策や将来の研究方向についても考察している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">evaluation</span></div>
-        </article>
-        <article class="entry">
-          <div class="meta">
-            <time>10/02</time>
-            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
-          </div>
-          <h3><a href="https://arxiv.org/abs/2610.00132" target="_blank" rel="noopener">The Cognitive Continuity Test: Verifying Governed State Transitions in Persistent AI Agents</a></h3>
-          <p>永続的なAIエージェントが信念の更新・メモリの統合・実行基盤の置き換えを行う際の状態遷移を検証するフレームワーク「Cognitive Continuity Test（CCT）」を提案した論文。スコープ付き権限・出所管理・意味論的述語などを用いて、正当に認可された状態遷移かどうかを保証するポリシー準拠の契約モデルを導入している。</p>
-          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">governance</span></div>
+          <h3><a href="https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html" target="_blank" rel="noopener">The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations</a></h3>
+          <p>2026年のサイバーセキュリティの現状を概観するレポートで、クラウドインフラの拡大、AIの活用、分散システムの複雑化がセキュリティのあり方を再編していることを解説している。AIを含む新技術環境における継続的な可視性とリスク対応の重要性が強調されている。</p>
+          <div class="tags"><span class="tag">governance</span> <span class="tag">evaluation</span></div>
         </article>
   </main>
   <footer>
