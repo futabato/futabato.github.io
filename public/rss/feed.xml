@@ -3,36 +3,23 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-10-04T02:21:47Z</updated>
+  <updated>2026-10-05T01:33:26Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>We're going to need default hard budget caps on pretty much everything</title>
-    <link href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/" rel="alternate"/>
-    <id>urn:ai-security-digest:345f1755705d282a</id>
-    <published>2026-10-03T23:34:02Z</published>
-    <updated>2026-10-03T23:34:02Z</updated>
-    <content type="html">&lt;p&gt;AIコーディングエージェントや個人エージェントの普及に伴い、APIや従量課金サービスにデフォルトのハード予算上限を設けることの重要性を論じた記事。ソフトな警告メールではなく、上限到達時に即座にサービスを遮断するハードキャップが、エージェントによる意図しない過剰消費を防ぐために不可欠であると主張している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>「GitLab AI Gateway」にサンドボックス回避の脆弱性 - コマンド実行のおそれ</title>
+    <link href="https://www.security-next.com/191010" rel="alternate"/>
+    <id>urn:ai-security-digest:cb9ce49425c7d368</id>
+    <published>2026-10-05T00:16:13Z</published>
+    <updated>2026-10-05T00:16:13Z</updated>
+    <content type="html">&lt;p&gt;GitLabは「GitLab AI Gateway」においてサンドボックス回避が可能な深刻な脆弱性を発見し、修正版をリリースした。この脆弱性を悪用されると、任意のコマンドが実行されるおそれがある。セルフホスト環境を利用するユーザーに対して早期のアップデートが呼びかけられている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Security NEXT&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
     <category term="agent-security"/>
-    <category term="tool"/>
     <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>The State of Cybersecurity in 2026: Key Segments, Insights, and Innovations</title>
-    <link href="https://thehackernews.com/2026/10/the-state-of-cybersecurity-in-2026key.html" rel="alternate"/>
-    <id>urn:ai-security-digest:71c997ccf55f908f</id>
-    <published>2026-10-03T11:00:00Z</published>
-    <updated>2026-10-03T11:00:00Z</updated>
-    <content type="html">&lt;p&gt;2026年のサイバーセキュリティの現状を概観するレポートで、クラウドインフラの拡大、AIの活用、分散システムの複雑化がセキュリティのあり方を再編していることを解説している。AIを含む新技術環境における継続的な可視性とリスク対応の重要性が強調されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="governance"/>
-    <category term="evaluation"/>
-    <source>
-      <title>The Hacker News</title>
+      <title>Security NEXT</title>
     </source>
   </entry>
 </feed>

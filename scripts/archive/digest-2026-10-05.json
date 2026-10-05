@@ -1,0 +1,13 @@
+[
+  {
+    "title": "「GitLab AI Gateway」にサンドボックス回避の脆弱性 - コマンド実行のおそれ",
+    "link": "https://www.security-next.com/191010",
+    "source": "Security NEXT",
+    "published": "2026-10-05T00:16:13+00:00",
+    "summary_ja": "GitLabは「GitLab AI Gateway」においてサンドボックス回避が可能な深刻な脆弱性を発見し、修正版をリリースした。この脆弱性を悪用されると、任意のコマンドが実行されるおそれがある。セルフホスト環境を利用するユーザーに対して早期のアップデートが呼びかけられている。",
+    "tags": [
+      "vulnerability",
+      "agent-security"
+    ]
+  }
+]
