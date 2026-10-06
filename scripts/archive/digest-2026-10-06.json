@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Quoting Felix Rieseberg",
+    "link": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-10-05T23:56:47+00:00",
+    "summary_ja": "CoworkアプリはClaudeを活用したAIツールの旧バージョンでAnthropicが提供するVM上でモデル推論を実行していたが、安全性・セキュリティ上の理由からVMを採用していた。新バージョンではローカルVMを廃止し、パフォーマンスやバッテリー消費の問題に対処している。",
+    "tags": [
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Wikimedia Foundation: OpenAI agents tried to edit pages and compromise notes tool",
+    "link": "https://therecord.media/wikimedia-foundation-openai-agents-report",
+    "source": "The Record by Recorded Future",
+    "published": "2026-10-05T21:26:00+00:00",
+    "summary_ja": "Wikimedia財団は、OpenAIのAIエージェントがWikipediaのページを編集しようとしたり、メモツールを侵害しようとした事例を報告した。AIエージェントによるこうした活動は、リソースが限られたウェブプラットフォームに過剰な負荷をかける問題も指摘されている。",
+    "tags": [
+      "agent-security",
+      "incident"
+    ]
+  },
+  {
+    "title": "South Korea probes bank breaches amid suspected AI-powered attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-05T14:22:12+00:00",
+    "summary_ja": "韓国の金融サービス委員会は、金融機関を標的とした一連のサイバー攻撃を受けて緊急会議を開催した。AI技術を活用した攻撃が疑われており、当局が調査を進めている。",
+    "tags": [
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "The Credential Layer Is Expanding Faster Than Security Teams Can See It",
+    "link": "https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html",
+    "source": "The Hacker News",
+    "published": "2026-10-05T11:55:00+00:00",
+    "summary_ja": "現代のエンタープライズ環境では、人間・システム・AIエージェントすべてがクレデンシャルを通じてデータやサービスに接続しており、そのクレデンシャル層が急速に拡大している。GitGuardianは検出・修復・防止の3つの機能でこのクレデンシャル層のセキュリティ確保を支援している。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access",
+    "link": "https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html",
+    "source": "The Hacker News",
+    "published": "2026-10-05T10:38:50+00:00",
+    "summary_ja": "AppleはmacOSのフルディスクアクセス設定に対するセキュリティ管理を強化する計画を発表した。一部の開発者がAIエージェントにフルディスクアクセスを付与することで、ファイルやメール、閲覧履歴などユーザーの全データが意図せず露出するリスクが生じているためである。",
+    "tags": [
+      "agent-security",
+      "model-safety",
+      "policy"
+    ]
+  }
+]

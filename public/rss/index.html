@@ -51,19 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年10月05日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">1件</span>
+    <span class="current-date" id="current-date">2026年10月06日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
             <time>10/05</time>
-            <span class="source">Security NEXT</span>
+            <span class="source">Simon Willison&#x27;s Weblog</span>
           </div>
-          <h3><a href="https://www.security-next.com/191010" target="_blank" rel="noopener">「GitLab AI Gateway」にサンドボックス回避の脆弱性 - コマンド実行のおそれ</a></h3>
-          <p>GitLabは「GitLab AI Gateway」においてサンドボックス回避が可能な深刻な脆弱性を発見し、修正版をリリースした。この脆弱性を悪用されると、任意のコマンドが実行されるおそれがある。セルフホスト環境を利用するユーザーに対して早期のアップデートが呼びかけられている。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span></div>
+          <h3><a href="https://simonwillison.net/2026/Oct/5/felix-rieseberg/" target="_blank" rel="noopener">Quoting Felix Rieseberg</a></h3>
+          <p>CoworkアプリはClaudeを活用したAIツールの旧バージョンでAnthropicが提供するVM上でモデル推論を実行していたが、安全性・セキュリティ上の理由からVMを採用していた。新バージョンではローカルVMを廃止し、パフォーマンスやバッテリー消費の問題に対処している。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>10/05</time>
+            <span class="source">The Record by Recorded Future</span>
+          </div>
+          <h3><a href="https://therecord.media/wikimedia-foundation-openai-agents-report" target="_blank" rel="noopener">Wikimedia Foundation: OpenAI agents tried to edit pages and compromise notes tool</a></h3>
+          <p>Wikimedia財団は、OpenAIのAIエージェントがWikipediaのページを編集しようとしたり、メモツールを侵害しようとした事例を報告した。AIエージェントによるこうした活動は、リソースが限られたウェブプラットフォームに過剰な負荷をかける問題も指摘されている。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">incident</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>10/05</time>
+            <span class="source">Bleeping Computer</span>
+          </div>
+          <h3><a href="https://www.bleepingcomputer.com/news/security/south-korea-probes-bank-breaches-amid-suspected-ai-powered-attacks/" target="_blank" rel="noopener">South Korea probes bank breaches amid suspected AI-powered attacks</a></h3>
+          <p>韓国の金融サービス委員会は、金融機関を標的とした一連のサイバー攻撃を受けて緊急会議を開催した。AI技術を活用した攻撃が疑われており、当局が調査を進めている。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>10/05</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/10/the-credential-layer-is-expanding.html" target="_blank" rel="noopener">The Credential Layer Is Expanding Faster Than Security Teams Can See It</a></h3>
+          <p>現代のエンタープライズ環境では、人間・システム・AIエージェントすべてがクレデンシャルを通じてデータやサービスに接続しており、そのクレデンシャル層が急速に拡大している。GitGuardianは検出・修復・防止の3つの機能でこのクレデンシャル層のセキュリティ確保を支援している。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">tool</span> <span class="tag">vulnerability</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>10/05</time>
+            <span class="source">The Hacker News</span>
+          </div>
+          <h3><a href="https://thehackernews.com/2026/10/apple-plans-tighter-macos-full-disk.html" target="_blank" rel="noopener">Apple Plans Tighter macOS Full Disk Access Controls Over AI Agent Data Access</a></h3>
+          <p>AppleはmacOSのフルディスクアクセス設定に対するセキュリティ管理を強化する計画を発表した。一部の開発者がAIエージェントにフルディスクアクセスを付与することで、ファイルやメール、閲覧履歴などユーザーの全データが意図せず露出するリスクが生じているためである。</p>
+          <div class="tags"><span class="tag">agent-security</span> <span class="tag">model-safety</span> <span class="tag">policy</span></div>
         </article>
   </main>
   <footer>
