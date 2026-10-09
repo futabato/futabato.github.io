@@ -3,78 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-10-08T02:27:24Z</updated>
+  <updated>2026-10-09T02:44:29Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>3 lessons from frontier AI vulnerability research</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/" rel="alternate"/>
-    <id>urn:ai-security-digest:88f938d50228b85d</id>
-    <published>2026-10-07T16:00:00Z</published>
-    <updated>2026-10-07T16:00:00Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftのFORGE Labが、フロンティアAIの脆弱性研究から得た3つの教訓を共有している。WindowsからLinuxカーネルに至るまで、脆弱性研究のスケールアップに関するAIセキュリティの知見をまとめたブログ記事。AI時代における脆弱性研究の方法論に新たな視点を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="vulnerability"/>
-    <category term="model-safety"/>
-    <source>
-      <title>Microsoft Security Blog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Unpatched Critical LMCache Flaw Lets Unauthenticated Attackers Run Code Remotely</title>
-    <link href="https://thehackernews.com/2026/10/unpatched-critical-lmcache-flaw-lets.html" rel="alternate"/>
-    <id>urn:ai-security-digest:4d160aba1a13f600</id>
-    <published>2026-10-07T15:34:53Z</published>
-    <updated>2026-10-07T15:34:53Z</updated>
-    <content type="html">&lt;p&gt;LLMサーバーの高速化に使用されるオープンソースソフトウェア「LMCache」に、未認証の攻撃者がリモートでコード実行可能なクリティカルな脆弱性が発見された。ZeroMQメッセージングライブラリを介したマルチプロセスモードに存在するこの脆弱性は、現時点で修正版が存在しない深刻な状況である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
+    <title>UAC-0099 Targets Ukrainian Government Personnel With ASHVEIN RAT Hiding Commands in HTML</title>
+    <link href="https://thehackernews.com/2026/10/uac-0099-targets-ukrainian-government.html" rel="alternate"/>
+    <id>urn:ai-security-digest:7624a715a1f8ab1f</id>
+    <published>2026-10-08T15:26:56Z</published>
+    <updated>2026-10-08T15:26:56Z</updated>
+    <content type="html">&lt;p&gt;ロシアと関連する脅威アクターUAC-0099が、AIセキュリティ企業TrendAIによって追跡されており、ウクライナ政府職員を標的に新型マルウェア「ASHVEIN」を用いた攻撃が確認された。HTMLにコマンドを隠蔽する手法を用いたこのキャンペーンは、Earth Sirrushとして分類されている。AIを活用した脅威インテリジェンス追跡との関連も注目される事例である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
     <category term="tool"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>PoeLLM Malware Infects 3,400+ Servers to Expand Crypto Mining Botnet</title>
-    <link href="https://thehackernews.com/2026/10/poellm-malware-infects-3400-servers-to.html" rel="alternate"/>
-    <id>urn:ai-security-digest:99a195ea89001c92</id>
-    <published>2026-10-07T15:33:51Z</published>
-    <updated>2026-10-07T15:33:51Z</updated>
-    <content type="html">&lt;p&gt;「PoeLLM」と呼ばれる新たなマルウェアファミリーが、公開されたAI・LLMインフラを標的にして暗号通貨マイナーを展開し、3,400台以上のサーバーに感染するボットネットを拡大している。金銭的動機によるこのキャンペーン「Canto Incognito」は、AIインフラが新たなサイバー攻撃の標的となっていることを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <title>ARTEX AI Pentesting Tool Used in Data Theft Attacks on South Korean Financial Firms</title>
+    <link href="https://thehackernews.com/2026/10/artex-ai-pentesting-tool-used-in-data.html" rel="alternate"/>
+    <id>urn:ai-security-digest:50bd0eed89791785</id>
+    <published>2026-10-08T14:12:34Z</published>
+    <updated>2026-10-08T14:12:34Z</updated>
+    <content type="html">&lt;p&gt;韓国の金融機関を標的とした攻撃キャンペーンで、AIペネトレーションテストツール「ARTEX」が悪用されてデータ窃取が行われたことが明らかになった。CrowdStrikeの調査によると、攻撃者はARTEXを活用して2026年9月下旬から10月初旬にかけて攻撃を実施し、情報流出につながった。AIツールが実際の攻撃インフラとして悪用された注目すべき事例である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
-    <category term="vulnerability"/>
+    <category term="tool"/>
     <category term="adversarial"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>PoeLLM malware infects exposed AI servers in cryptomining attacks</title>
-    <link href="https://www.bleepingcomputer.com/news/security/poellm-malware-infects-exposed-ai-servers-in-cryptomining-attacks/" rel="alternate"/>
-    <id>urn:ai-security-digest:3c3ca0f12e618495</id>
-    <published>2026-10-07T15:04:08Z</published>
-    <updated>2026-10-07T15:04:08Z</updated>
-    <content type="html">&lt;p&gt;公開されたAIサービスを標的とした暗号通貨マイニングキャンペーンが、PoeLLMマルウェアを使用して侵害されたサーバーをスキャナーおよびエクスプロイト拠点として悪用している。AIサーバーへの攻撃が実用的な犯罪インフラとして機能していることが明らかになった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <title>OAuth grants pile up faster than you can review them. Here's how to keep up.</title>
+    <link href="https://www.bleepingcomputer.com/news/security/oauth-grants-pile-up-faster-than-you-can-review-them-heres-how-to-keep-up/" rel="alternate"/>
+    <id>urn:ai-security-digest:f5b86e07d92b4477</id>
+    <published>2026-10-08T14:00:10Z</published>
+    <updated>2026-10-08T14:00:10Z</updated>
+    <content type="html">&lt;p&gt;SaaSアプリやAIエージェントとの連携に使われるOAuthグラントが急増しており、セキュリティチームのレビュー能力を超えるスピードで増加している。Klue社のデータ侵害事例を例に挙げ、放置されたOAuthグラントを悪用した攻撃リスクが高まっていることを解説している。AIエージェントが絡むOAuth管理の複雑化がセキュリティ上の新たな課題となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="vulnerability"/>
     <category term="incident"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Microsoft Teams to get support for third-party deepfake detection tools</title>
+    <link href="https://www.bleepingcomputer.com/news/security/microsoft-teams-to-add-third-party-deepfake-detection-impersonation-protection/" rel="alternate"/>
+    <id>urn:ai-security-digest:8807a125f475e333</id>
+    <published>2026-10-08T12:08:16Z</published>
+    <updated>2026-10-08T12:08:16Z</updated>
+    <content type="html">&lt;p&gt;MicrosoftはTeamsにサードパーティのディープフェイク検出ソリューションおよびなりすまし保護機能のサポートを近く導入すると発表した。ビデオ会議でのAI生成による偽装攻撃が現実の脅威となる中、プラットフォームレベルでの対策強化が進められている。AIを悪用したなりすましへの防御手段として業界の注目を集める動きである。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
+    <category term="model-safety"/>
     <category term="adversarial"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>The Sixth Voice of the CISO Data Shows Cyber Risk Has Moved Inside the Workflow</title>
-    <link href="https://thehackernews.com/2026/10/the-sixth-voice-of-ciso-data-shows.html" rel="alternate"/>
-    <id>urn:ai-security-digest:a1f84e38ce838d86</id>
-    <published>2026-10-07T11:57:05Z</published>
-    <updated>2026-10-07T11:57:05Z</updated>
-    <content type="html">&lt;p&gt;2026年版「Voice of the CISO」レポートが、AIガバナンス、人的リスク、取締役会の監視が実際の業務ワークフロー内で収束しつつあるという5年間のトレンドを明らかにした。サイバーリスクが組織のワークフロー内部へと移行しており、AIガバナンスが重要な課題として浮上している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="governance"/>
-    <category term="regulation"/>
+    <title>Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data</title>
+    <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a" rel="alternate"/>
+    <id>urn:ai-security-digest:bf1d7ae18b6dedec</id>
+    <published>2026-10-08T12:00:00Z</published>
+    <updated>2026-10-08T12:00:00Z</updated>
+    <content type="html">&lt;p&gt;CISAは、中国政府に関連するサイバー脅威アクターが自動スキャンツール・大規模ボットネット・手動の攻撃手法を組み合わせて米国の重要インフラを含む世界中の組織から機密データを窃取していると警告するアドバイザリを公開した。Integrity Technology Groupが関与しており、自動化ツールと人的操作のハイブリッド手法が特徴的である。政府機関による公式勧告として対応が求められる重要な情報である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; CISA Alerts&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="policy"/>
+    <category term="incident"/>
+    <category term="adversarial"/>
     <source>
-      <title>The Hacker News</title>
+      <title>CISA Alerts</title>
     </source>
   </entry>
 </feed>
