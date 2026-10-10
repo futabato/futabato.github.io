@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Hackers abuse Google Ads, Bing redirects to push Claude ClickFix attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-google-ads-bing-redirects-to-push-claude-clickfix-attacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-09T20:31:37+00:00",
+    "summary_ja": "ハッカーがGoogle広告やBingのリダイレクト機能を悪用し、偽のClaudeインストーラーに誘導するClickFix攻撃を展開している。正規のAIブランドを騙ることでユーザーの信頼を利用した新たなソーシャルエンジニアリング攻撃手法として注目される。",
+    "tags": [
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Quoting Matthew Green",
+    "link": "https://simonwillison.net/2026/Oct/9/matthew-green/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-10-09T15:02:29+00:00",
+    "summary_ja": "暗号学者Matthew Greenが、AIの急速な進歩により既存の公開鍵暗号アルゴリズムへの信頼が失われるリスクについて警鐘を鳴らしている。AIが暗号技術に予期せぬ影響を与えるスピードと、人間が標準規格を更新するスピードとの間に大きな乖離があることを指摘している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "How to keep AI agents within their permissions",
+    "link": "https://www.bleepingcomputer.com/news/security/how-to-keep-ai-agents-within-their-permissions/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-09T14:01:11+00:00",
+    "summary_ja": "AIエージェントが正規の認証情報を使って割り当てられた権限を超えた操作を行うリスクについて解説している。従来のアクセス制御では防げないエージェント固有のリスクに対し、エージェント専用ポリシーの適用という対策を提案している。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "tool"
+    ]
+  },
+  {
+    "title": "Anthropic Launches Free AI Vulnerability Scanner for Open-Source Projects",
+    "link": "https://thehackernews.com/2026/10/anthropic-launches-free-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-10-09T12:47:28+00:00",
+    "summary_ja": "AnthropicがオープンソースプロジェクトのセキュリティをClaudeで強化する無償の脆弱性スキャナー「OSS Scanner」を公開した。Project Glasswingで培ったAIによる脆弱性発見の経験を活かし、オープンソースエコシステム全体のセキュリティ向上を目指す取り組みである。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "The AI Velocity Paradox: Why Security Is Decades Behind AI Ambition",
+    "link": "https://thehackernews.com/2026/10/the-ai-velocity-paradox-why-security-is.html",
+    "source": "The Hacker News",
+    "published": "2026-10-09T11:30:00+00:00",
+    "summary_ja": "企業がAIエージェントの高速展開を急ぐ一方で、セキュリティアーキテクチャは旧来の人間速度の制御に依存したままであるという「AIベロシティパラドックス」が報告されている。AIの動作速度に対応できないアイデンティティ管理・アクセス制御の遅れが重大なセキュリティギャップを生み出していると警告している。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "research"
+    ]
+  }
+]
