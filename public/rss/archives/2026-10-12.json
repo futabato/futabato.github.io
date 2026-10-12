@@ -1,0 +1,22 @@
+[
+  {
+    "title": "手間いらずに不正アクセス、最大約445万人の宿泊予約情報が漏洩した可能性",
+    "link": "https://cybersecurity-jp.com/news/117185",
+    "source": "サイバーセキュリティ.com",
+    "published": "2026-10-11T12:38:31+00:00",
+    "summary_ja": "手間いらず株式会社は2026年10月9日、宿泊施設向け予約管理システム「TEMAIRAZU」への不正アクセスに関する調査状況を公表した。予約者の氏名や連絡先、宿泊日程などが第三者に閲覧または取得された可能性があり、対象者 […]",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "title": "P7 DarkSword iOS Exploit Kit Adds Crypto Wallet Data Theft and Remote Commands",
+    "link": "https://thehackernews.com/2026/10/p7-darksword-ios-exploit-kit-adds.html",
+    "source": "The Hacker News",
+    "published": "2026-10-11T04:24:34+00:00",
+    "summary_ja": "Cybersecurity researchers have disclosed details of a previously unseen variant of the DarkSword iOS exploit kit called P7 DarkSword. \"Compared with the variants we usually observe, P7 reduces its on-",
+    "tags": [
+      "news"
+    ]
+  }
+]
