@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Redesigning source control at Anthropic",
+    "link": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-10-13T23:00:06+00:00",
+    "summary_ja": "Anthropicが、AIコーディングエージェントの大規模活用により1日あたりのコード変更数が2,500件から30,000件超へ急増したことを受け、Gitに代わる独自のソース管理システムを開発・導入したことを解説した記事。AIエージェントによる開発プロセスの変革がインフラ設計にまで影響を与えている実態を示している。",
+    "tags": [
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "Sandbox vulnerability gives rogue AI agents a path to escape and leak data, research says",
+    "link": "https://therecord.media/sandbox-vulnerability-gives-rogue-ai-agents-path-out",
+    "source": "The Record by Recorded Future",
+    "published": "2026-10-13T16:18:00+00:00",
+    "summary_ja": "AIセキュリティスタートアップAIRの新研究により、Vercel Sandboxのネットワークフィルタリングの欠陥が発見された。この脆弱性により、不正なAIエージェントがサンドボックスから脱出し、承認されていないネットワーク外にデータを送信できる可能性がある。AIエージェントの隔離環境における安全性に重大な懸念を示す研究結果である。",
+    "tags": [
+      "research",
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Quoting Geoffrey Huntley",
+    "link": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-10-13T13:32:00+00:00",
+    "summary_ja": "AIコーディングエージェントが人間のコードレビューを経ずに直接コミットする環境において、プリコミットフックを用いてエージェントの挙動を制約・誘導する手法を紹介した引用記事。エージェントのコード生成を安全に制御するための実践的なアプローチとして注目される。",
+    "tags": [
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+    "link": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+    "source": "The Hacker News",
+    "published": "2026-10-13T11:57:06+00:00",
+    "summary_ja": "AIが偵察、脆弱性悪用、権限昇格を加速させることで、攻撃者がセキュリティチームの対応より速くシステム内を移動できるようになっている現状を取り上げたウェビナー告知。AIを活用した攻撃による権限昇格をランタイムID制御で阻止する手法について解説する。AIが攻撃側のツールとして悪用される脅威への対策を議論している。",
+    "tags": [
+      "adversarial",
+      "agent-security",
+      "tool"
+    ]
+  }
+]
