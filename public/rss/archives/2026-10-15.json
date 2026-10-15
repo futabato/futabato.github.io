@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Weekly Report: GitLab AI Gatewayに任意のコマンド実行の脆弱性",
+    "link": "https://www.jpcert.or.jp/wr/2026/wr261015.html#16",
+    "source": "JPCERT/CC",
+    "published": "2026-10-15T00:29:00+00:00",
+    "summary_ja": "GitLab AI Gatewayに任意のコマンド実行が可能な脆弱性が発見された。AIプラットフォームのゲートウェイコンポーネントに存在する深刻な脆弱性であり、早急なパッチ適用が求められる。",
+    "tags": [
+      "vulnerability",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+    "link": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-14T19:41:43+00:00",
+    "summary_ja": "FBIが北朝鮮のITワーカースキームに関与するラップトップファームをテキサス州で摘発し、2名を逮捕、14名を起訴した。北朝鮮のサイバー脅威グループFamous Chollimaによる遠隔IT就労スキームの一環であり、AIツールを悪用した身元詐称なども関連するとして注目されている。",
+    "tags": [
+      "incident",
+      "governance"
+    ]
+  },
+  {
+    "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+    "link": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-14T14:00:10+00:00",
+    "summary_ja": "AIエージェントを活用したペネトレーションテストの盲点と、それを補完する手法について解説した記事。AIによる自動侵入テストは複雑な攻撃経路を発見できる一方、安全制限やネットワーク上の制約から見落とされる脆弱性が存在することを指摘し、露出検証やブリーチシミュレーションとの組み合わせの重要性を論じている。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "research"
+    ]
+  },
+  {
+    "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+    "link": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+    "source": "The Hacker News",
+    "published": "2026-10-14T11:50:00+00:00",
+    "summary_ja": "クローン音声や合成動画を用いたディープフェイク攻撃が、決済詐欺やヘルプデスクのなりすましに実際に悪用されている。セキュリティチームが本番環境への影響なしに検証手順の弱点を発見するための、ディープフェイク対応訓練の実施手順を紹介している。",
+    "tags": [
+      "adversarial",
+      "incident",
+      "tool"
+    ]
+  },
+  {
+    "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+    "link": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+    "source": "The Hacker News",
+    "published": "2026-10-14T11:19:02+00:00",
+    "summary_ja": "セキュリティ企業XBOWの研究チームが、OpenAIの公開モデル（GPT-5.6 Sol）を活用したAIエージェントを用いて、わずか6日間でChrome完全チェーン exploit（25万ドル相当）を開発することに成功した。未知の脆弱性3件を連鎖させ、Webページ閲覧のみでWindowsマシン上でコード実行が可能な攻撃であり、AIによる脆弱性探索・攻撃自動化の脅威を実証している。",
+    "tags": [
+      "research",
+      "adversarial",
+      "agent-security",
+      "vulnerability"
+    ]
+  }
+]
