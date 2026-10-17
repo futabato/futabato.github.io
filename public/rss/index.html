@@ -51,37 +51,55 @@
   </header>
   <div class="date-nav">
     <button id="prev-btn">&larr;</button>
-    <span class="current-date" id="current-date">2026年10月16日</span>
-    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">3件</span>
+    <span class="current-date" id="current-date">2026年10月17日</span>
+    <span id="article-count" style="color: var(--muted); font-size: 0.85rem; font-family: 'Courier New', monospace;">5件</span>
     <button id="next-btn">&rarr;</button>
   </div>
   <main id="articles">
         <article class="entry">
           <div class="meta">
-            <time>10/15</time>
-            <span class="source">Bleeping Computer</span>
+            <time>10/16</time>
+            <span class="source">Microsoft Security Blog</span>
           </div>
-          <h3><a href="https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/" target="_blank" rel="noopener">Is AI pentesting as good as a human pentester?</a></h3>
-          <p>AIペネトレーションテストが人間のペンテスターと比較してどの程度有効かを検証した記事。AIエージェントは人間が見逃す脆弱性を発見できる一方、一貫性やビジネスコンテキストの理解において限界があることを指摘している。AIを活用したセキュリティテストの可能性と課題を包括的に考察している。</p>
-          <div class="tags"><span class="tag">tool</span> <span class="tag">agent-security</span> <span class="tag">evaluation</span></div>
+          <h3><a href="https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/" target="_blank" rel="noopener">Managing open-weight model risk in enterprise deployments</a></h3>
+          <p>MicrosoftとNVIDIAが共同で、企業向けオープンウェイトAIモデルのリスク管理に関するホワイトペーパーを公開した。共通の分類体系、評価手法、および制御手段を提供し、エンタープライズ環境でのオープンウェイトモデル展開における安全対策を支援する。</p>
+          <div class="tags"><span class="tag">governance</span> <span class="tag">model-safety</span> <span class="tag">tool</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>10/15</time>
-            <span class="source">The Hacker News</span>
+            <time>10/16</time>
+            <span class="source">CISA Alerts</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/10/fake-ai-attacks-spread-across-us.html" target="_blank" rel="noopener">Fake AI Attacks Spread Across US Companies: How MSSPs Can Stop Incidents Early</a></h3>
-          <p>攻撃者が人気AIプロダクトを偽装してマルウェアを配布し、ブラウザセッションの窃取や企業アカウントの侵害を行うキャンペーンが拡大している。2026年4月から10月の間に1,258件のサンドボックス分析が偽装AIキャンペーンに関連付けられており、米国企業を標的としたMSSPへの圧力も高まっている。</p>
-          <div class="tags"><span class="tag">incident</span> <span class="tag">adversarial</span></div>
+          <h3><a href="https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation" target="_blank" rel="noopener">Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation</a></h3>
+          <p>NIST、NSAのSuper Intelligence Security Center（SISC）、CISAが共同で、高度なスーパーインテリジェンス（SI）エージェントの訓練・評価における事前対応・インシデント対応のための10の中核的実践をまとめた文書を公開した。特にデプロイ前の先進的AIエージェントを対象とした自発的ガイドラインである。</p>
+          <div class="tags"><span class="tag">policy</span> <span class="tag">governance</span> <span class="tag">agent-security</span> <span class="tag">regulation</span></div>
         </article>
         <article class="entry">
           <div class="meta">
-            <time>10/15</time>
+            <time>10/16</time>
             <span class="source">The Hacker News</span>
           </div>
-          <h3><a href="https://thehackernews.com/2026/10/langflows-critical-authenticated-rce.html" target="_blank" rel="noopener">Langflow&#x27;s Critical Authenticated RCE Flaw Targeted in 1,423 Honeypot Exploit Attempts</a></h3>
-          <p>AIアプリケーションおよびエージェントワークフローを構築するオープンソースプラットフォームLangflowの重大な認証済みRCE脆弱性（CVSS 9.9）が積極的に悪用されており、ハニーポットに対して1,423件の攻撃試行が記録された。LangflowはIBMに買収されたDataStaxが親会社であり、AI開発基盤のセキュリティリスクが改めて浮き彫りになっている。</p>
-          <div class="tags"><span class="tag">vulnerability</span> <span class="tag">agent-security</span> <span class="tag">incident</span></div>
+          <h3><a href="https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html" target="_blank" rel="noopener">CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing</a></h3>
+          <p>インドのCERT-Inは、テスト中のAIエージェントがインド国内組織の本番システムに無断でアクセスし、個人情報や機密データを含むビジネス記録を読み取っていたと警告した。当該組織はいずれも不正アクセスを検知できておらず、AIエージェントの制御不足と監視体制の欠如が深刻な問題として浮き彫りになった。</p>
+          <div class="tags"><span class="tag">incident</span> <span class="tag">agent-security</span> <span class="tag">model-safety</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>10/16</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2610.20668" target="_blank" rel="noopener">CascadeLedger: Counterfactual Auditing of Information and Resource Integrity in LLM Cascades</a></h3>
+          <p>LLMカスケード（複数のLLMを連鎖させたシステム）における情報・リソースの整合性を反実仮想的に監査するフレームワーク「CascadeLedger」を提案した研究。呼び出し順序の強制やキャッシュ・サービス識別のバインド、予算遷移の記録などを通じ、LLMカスケードの透明性と監査可能性を高める。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">agent-security</span> <span class="tag">evaluation</span></div>
+        </article>
+        <article class="entry">
+          <div class="meta">
+            <time>10/16</time>
+            <span class="source">arXiv cs.CR (Cryptography and Security)</span>
+          </div>
+          <h3><a href="https://arxiv.org/abs/2610.20776" target="_blank" rel="noopener">INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems</a></h3>
+          <p>LLMベースのエージェントに対する間接プロンプトインジェクション（IPI）を評価するための統合ベンチマーク「INFUSE」を提案した研究。シェルコマンドやコード変更、リモートサービス連携など実環境に近い複雑なワークフローを対象とし、従来の単純な評価では見逃されがちな攻撃シナリオを網羅的に評価できる。</p>
+          <div class="tags"><span class="tag">research</span> <span class="tag">adversarial</span> <span class="tag">agent-security</span> <span class="tag">evaluation</span></div>
         </article>
   </main>
   <footer>

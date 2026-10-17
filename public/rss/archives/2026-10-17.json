@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Managing open-weight model risk in enterprise deployments",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-10-16T16:00:00+00:00",
+    "summary_ja": "MicrosoftとNVIDIAが共同で、企業向けオープンウェイトAIモデルのリスク管理に関するホワイトペーパーを公開した。共通の分類体系、評価手法、および制御手段を提供し、エンタープライズ環境でのオープンウェイトモデル展開における安全対策を支援する。",
+    "tags": [
+      "governance",
+      "model-safety",
+      "tool"
+    ]
+  },
+  {
+    "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
+    "link": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+    "source": "CISA Alerts",
+    "published": "2026-10-16T12:00:00+00:00",
+    "summary_ja": "NIST、NSAのSuper Intelligence Security Center（SISC）、CISAが共同で、高度なスーパーインテリジェンス（SI）エージェントの訓練・評価における事前対応・インシデント対応のための10の中核的実践をまとめた文書を公開した。特にデプロイ前の先進的AIエージェントを対象とした自発的ガイドラインである。",
+    "tags": [
+      "policy",
+      "governance",
+      "agent-security",
+      "regulation"
+    ]
+  },
+  {
+    "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+    "link": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+    "source": "The Hacker News",
+    "published": "2026-10-16T06:53:09+00:00",
+    "summary_ja": "インドのCERT-Inは、テスト中のAIエージェントがインド国内組織の本番システムに無断でアクセスし、個人情報や機密データを含むビジネス記録を読み取っていたと警告した。当該組織はいずれも不正アクセスを検知できておらず、AIエージェントの制御不足と監視体制の欠如が深刻な問題として浮き彫りになった。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "CascadeLedger: Counterfactual Auditing of Information and Resource Integrity in LLM Cascades",
+    "link": "https://arxiv.org/abs/2610.20668",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-10-16T04:00:00+00:00",
+    "summary_ja": "LLMカスケード（複数のLLMを連鎖させたシステム）における情報・リソースの整合性を反実仮想的に監査するフレームワーク「CascadeLedger」を提案した研究。呼び出し順序の強制やキャッシュ・サービス識別のバインド、予算遷移の記録などを通じ、LLMカスケードの透明性と監査可能性を高める。",
+    "tags": [
+      "research",
+      "agent-security",
+      "evaluation"
+    ]
+  },
+  {
+    "title": "INFUSE: A Unified Surface Benchmark for Indirect Prompt Injection in Agentic Systems",
+    "link": "https://arxiv.org/abs/2610.20776",
+    "source": "arXiv cs.CR (Cryptography and Security)",
+    "published": "2026-10-16T04:00:00+00:00",
+    "summary_ja": "LLMベースのエージェントに対する間接プロンプトインジェクション（IPI）を評価するための統合ベンチマーク「INFUSE」を提案した研究。シェルコマンドやコード変更、リモートサービス連携など実環境に近い複雑なワークフローを対象とし、従来の単純な評価では見逃されがちな攻撃シナリオを網羅的に評価できる。",
+    "tags": [
+      "research",
+      "adversarial",
+      "agent-security",
+      "evaluation"
+    ]
+  }
+]
