@@ -3,82 +3,23 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-10-18T00:36:18Z</updated>
+  <updated>2026-10-19T00:45:56Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models</title>
-    <link href="https://arxiv.org/abs/2610.20679" rel="alternate"/>
-    <id>urn:ai-security-digest:a61630d2e5679d80</id>
-    <published>2026-10-17T04:00:00Z</published>
-    <updated>2026-10-17T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;ビジョン言語モデル（VLM）の安全性防御において、有害入力と無害入力を分離するだけでは不十分であるという問題を指摘し、反事実的な隣接リスクフィールド（CNRF）という証拠に基づく選択的安全フレームワークを提案。文脈に合致した反事実ペアを活用し、リスクスコアの信頼性を高める手法を提示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="model-safety"/>
-    <category term="adversarial"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Evaluating Model Capabilities After Benchmark Saturation</title>
-    <link href="https://arxiv.org/abs/2610.20667" rel="alternate"/>
-    <id>urn:ai-security-digest:64ab9f94b7d65ce3</id>
-    <published>2026-10-17T04:00:00Z</published>
-    <updated>2026-10-17T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;AIベンチマークが飽和状態に達した後も、タスク解答の完全な記録（トランスクリプト）を活用することでモデル能力の差異化が可能かを検討した研究。AIの安全性評価やフロンティアポリシーへの情報提供という観点から、ベンチマーク飽和問題への実践的な対処法を探っている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="evaluation"/>
-    <category term="model-safety"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>A Multi-Tiered AI Accessibility Model (MAIAM): Proportionate Access and Capability Limits for Comprehensive Frontier AI Safety</title>
-    <link href="https://arxiv.org/abs/2610.20921" rel="alternate"/>
-    <id>urn:ai-security-digest:2f6017e5bedc2938</id>
-    <published>2026-10-17T04:00:00Z</published>
-    <updated>2026-10-17T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;フロンティアAIシステムの公開方法について、APIか重みの公開かという二項対立を超え、目的・安全性・能力に応じてアクセスを多段階に区分するMAIAM（多層AIアクセスモデル）を提案。AIガバナンスと安全性基準の観点から、能力制限とアクセス主体の管理を分離して議論している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;regulation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
+    <title>【特別企画】メッセージングセキュリティの最新動向がテーマ - JPAAWGが年次イベント</title>
+    <link href="https://www.security-next.com/191246" rel="alternate"/>
+    <id>urn:ai-security-digest:29bb3581ffd65208</id>
+    <published>2026-10-18T15:02:33Z</published>
+    <updated>2026-10-18T15:02:33Z</updated>
+    <content type="html">&lt;p&gt;JPAAWGの年次イベントにて、メッセージングセキュリティの最新動向が取り上げられた。2026年前半以降のAIの急速な進化により、メールやメッセージングを取り巻くセキュリティ環境が大きく変化しており、悪質化する攻撃へのグローバルな対応策が議論されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Security NEXT&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
     <category term="governance"/>
-    <category term="regulation"/>
-    <category term="model-safety"/>
     <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>ARIA: Runtime Inspection and Amendment for Multi-Agent Systems</title>
-    <link href="https://arxiv.org/abs/2610.20780" rel="alternate"/>
-    <id>urn:ai-security-digest:cffdb744dda380b1</id>
-    <published>2026-10-17T04:00:00Z</published>
-    <updated>2026-10-17T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;LLMベースのマルチエージェントシステムにおいて、エージェント間でエラーが伝播し修正不能になる問題に対処するため、実行中にリアルタイムで介入・修正を行うフレームワーク「ARIA」を提案。進行中のマルチエージェント実行における障害検出と修復ポリシーの学習を実現する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="tool"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Evolving Together, Failing Apart: The Skill-Policy Co-evolution Trap in Self-Improving Agents</title>
-    <link href="https://arxiv.org/abs/2610.20845" rel="alternate"/>
-    <id>urn:ai-security-digest:b1dcae23eaaccada</id>
-    <published>2026-10-17T04:00:00Z</published>
-    <updated>2026-10-17T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;自己改善型エージェントにおけるスキルとポリシーの共進化パラダイムにおいて、デプロイ後にスキルバンクが更新・変更された場合にポリシーが機能不全に陥る「スキル・ポリシー共進化トラップ」を発見・報告。エージェントの展開後のロバスト性と安全性に関わる新たなリスクを提示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
+      <title>Security NEXT</title>
     </source>
   </entry>
 </feed>
