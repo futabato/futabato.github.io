@@ -3,23 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-10-19T00:45:56Z</updated>
+  <updated>2026-10-20T01:32:02Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>【特別企画】メッセージングセキュリティの最新動向がテーマ - JPAAWGが年次イベント</title>
-    <link href="https://www.security-next.com/191246" rel="alternate"/>
-    <id>urn:ai-security-digest:29bb3581ffd65208</id>
-    <published>2026-10-18T15:02:33Z</published>
-    <updated>2026-10-18T15:02:33Z</updated>
-    <content type="html">&lt;p&gt;JPAAWGの年次イベントにて、メッセージングセキュリティの最新動向が取り上げられた。2026年前半以降のAIの急速な進化により、メールやメッセージングを取り巻くセキュリティ環境が大きく変化しており、悪質化する攻撃へのグローバルな対応策が議論されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Security NEXT&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <title>New paper: Emerging trends in AI agent evaluation</title>
+    <link href="https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent" rel="alternate"/>
+    <id>urn:ai-security-digest:16e6b86c29a3ee26</id>
+    <published>2026-10-19T20:11:55Z</published>
+    <updated>2026-10-19T20:11:55Z</updated>
+    <content type="html">&lt;p&gt;AIエージェントの評価に関する新論文が公開された。エージェント評価の手法、研究上の問いかけ、およびエコシステム全体の新興トレンドを体系的に分析している。AIエージェントの能力と安全性を正確に測定するための評価フレームワークの現状と課題を整理した重要な研究成果である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; AI Snake Oil&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
+    <category term="agent-security"/>
+    <source>
+      <title>AI Snake Oil</title>
+    </source>
+  </entry>
+  <entry>
+    <title>OpenCode hack exposes API keys amid AI distillation attacks</title>
+    <link href="https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/" rel="alternate"/>
+    <id>urn:ai-security-digest:60d2b62c6e40105b</id>
+    <published>2026-10-19T17:27:15Z</published>
+    <updated>2026-10-19T17:27:15Z</updated>
+    <content type="html">&lt;p&gt;オープンソースのAIコーディングプロジェクト「OpenCode」がセキュリティ侵害を受け、ユーザーが外部プロバイダーに使用していたAPIキーが流出した。AIの知識蒸留攻撃（distillation attacks）が横行する中でのインシデントとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
+    <category term="vulnerability"/>
+    <category term="adversarial"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More</title>
+    <link href="https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html" rel="alternate"/>
+    <id>urn:ai-security-digest:e6f76086848f718f</id>
+    <published>2026-10-19T14:14:07Z</published>
+    <updated>2026-10-19T14:14:07Z</updated>
+    <content type="html">&lt;p&gt;今週のセキュリティ週次まとめで、98件のゼロデイ脆弱性やAIエージェントの不正動作（Rogue AI Agents）など多岐にわたる重大インシデントが報告された。AIエージェントが攻撃経路として悪用される新たな脅威トレンドが含まれており、業界全体への影響が大きい。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="agent-security"/>
+    <category term="vulnerability"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Agents are your newest insiders. Security must move at their speed.</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/" rel="alternate"/>
+    <id>urn:ai-security-digest:b2187c28947ad4c6</id>
+    <published>2026-10-19T13:00:00Z</published>
+    <updated>2026-10-19T13:00:00Z</updated>
+    <content type="html">&lt;p&gt;Microsoftがエージェントを「組織内の新たなインサイダー」と位置づけ、AIエージェントのリスク管理に関するセキュリティブログを公開した。Microsoft 365 E7およびProject Perceptionを活用したエージェントリスクの封じ込めと継続的な保護適応の新機能が紹介されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="tool"/>
     <category term="governance"/>
     <source>
-      <title>Security NEXT</title>
+      <title>Microsoft Security Blog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic</title>
+    <link href="https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html" rel="alternate"/>
+    <id>urn:ai-security-digest:62badca6addc0ac9</id>
+    <published>2026-10-19T10:06:40Z</published>
+    <updated>2026-10-19T10:06:40Z</updated>
+    <content type="html">&lt;p&gt;偽のWeb3アクセラレーターが悪意あるnpmパッケージを介して情報窃取マルウェアとバックドアを配布するキャンペーンが確認された。AnthropicのClaudeやGoogle GeminiなどのAIサービスの無料クレジットを餌にしてAIエージェントのトラフィックを乗っ取る手口が用いられており、AIエコシステムを標的とした新たな攻撃手法として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <category term="agent-security"/>
+    <source>
+      <title>The Hacker News</title>
     </source>
   </entry>
 </feed>

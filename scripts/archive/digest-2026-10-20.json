@@ -1,0 +1,62 @@
+[
+  {
+    "title": "New paper: Emerging trends in AI agent evaluation",
+    "link": "https://www.normaltech.ai/p/new-paper-emerging-trends-in-ai-agent",
+    "source": "AI Snake Oil",
+    "published": "2026-10-19T20:11:55+00:00",
+    "summary_ja": "AIエージェントの評価に関する新論文が公開された。エージェント評価の手法、研究上の問いかけ、およびエコシステム全体の新興トレンドを体系的に分析している。AIエージェントの能力と安全性を正確に測定するための評価フレームワークの現状と課題を整理した重要な研究成果である。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "OpenCode hack exposes API keys amid AI distillation attacks",
+    "link": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-19T17:27:15+00:00",
+    "summary_ja": "オープンソースのAIコーディングプロジェクト「OpenCode」がセキュリティ侵害を受け、ユーザーが外部プロバイダーに使用していたAPIキーが流出した。AIの知識蒸留攻撃（distillation attacks）が横行する中でのインシデントとして注目される。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
+    "source": "The Hacker News",
+    "published": "2026-10-19T14:14:07+00:00",
+    "summary_ja": "今週のセキュリティ週次まとめで、98件のゼロデイ脆弱性やAIエージェントの不正動作（Rogue AI Agents）など多岐にわたる重大インシデントが報告された。AIエージェントが攻撃経路として悪用される新たな脅威トレンドが含まれており、業界全体への影響が大きい。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Agents are your newest insiders. Security must move at their speed.",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-10-19T13:00:00+00:00",
+    "summary_ja": "Microsoftがエージェントを「組織内の新たなインサイダー」と位置づけ、AIエージェントのリスク管理に関するセキュリティブログを公開した。Microsoft 365 E7およびProject Perceptionを活用したエージェントリスクの封じ込めと継続的な保護適応の新機能が紹介されている。",
+    "tags": [
+      "agent-security",
+      "tool",
+      "governance"
+    ]
+  },
+  {
+    "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
+    "link": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
+    "source": "The Hacker News",
+    "published": "2026-10-19T10:06:40+00:00",
+    "summary_ja": "偽のWeb3アクセラレーターが悪意あるnpmパッケージを介して情報窃取マルウェアとバックドアを配布するキャンペーンが確認された。AnthropicのClaudeやGoogle GeminiなどのAIサービスの無料クレジットを餌にしてAIエージェントのトラフィックを乗っ取る手口が用いられており、AIエコシステムを標的とした新たな攻撃手法として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "agent-security"
+    ]
+  }
+]
