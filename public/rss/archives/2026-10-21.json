@@ -1,0 +1,63 @@
+[
+  {
+    "title": "「Claude Agent SDK」に引数注入の脆弱性 - 修正版を公開",
+    "link": "https://www.security-next.com/191686",
+    "source": "Security NEXT",
+    "published": "2026-10-20T14:25:37+00:00",
+    "summary_ja": "AnthropicのPython向け開発キット「Claude Agent SDK」に引数注入の深刻な脆弱性が発見された。修正版がすでに公開されており、利用者はアップデートが推奨される。AIエージェント開発ツールのサプライチェーンセキュリティに関わる重要な問題。",
+    "tags": [
+      "vulnerability",
+      "agent-security",
+      "tool"
+    ]
+  },
+  {
+    "title": "DHS bans DeepSeek products across US federal civilian agencies",
+    "link": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-20T14:19:05+00:00",
+    "summary_ja": "米国土安全保障省（DHS）が、中国製AIモデル「DeepSeek」の製品を連邦民間機関全体で使用禁止とし、政府システムからの削除を命じた。AIセキュリティと国家安全保障上のリスクを踏まえた政策的措置として注目される。",
+    "tags": [
+      "policy",
+      "regulation",
+      "governance"
+    ]
+  },
+  {
+    "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+    "link": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+    "source": "The Hacker News",
+    "published": "2026-10-20T14:07:17+00:00",
+    "summary_ja": "中国語話者の脅威アクターが自律型AIエージェントを活用して1,200以上のウェブサイトへの侵入を試み、100社以上の企業サイトへの到達に成功したことが確認された。操作パネルが公開状態のまま放置されていたため、研究者がその攻撃活動をリアルタイムで観測できた。",
+    "tags": [
+      "agent-security",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "AIペネトレーションテスト基盤「Cairn」の公開パネルから見えた攻撃活動についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/10/20/205855",
+    "source": "piyolog",
+    "published": "2026-10-20T11:58:55+00:00",
+    "summary_ja": "オープンソースのAIペネトレーションテスト基盤「Cairn」の管理画面が公開状態で放置されていたことを利用し、セキュリティ企業NorForgeがAIエージェントによる実際の攻撃活動を観測・報告した。複数のAIエージェントが連携して標的の調査から侵入試行までを自律的に実行する様子が詳細に記録されている。",
+    "tags": [
+      "agent-security",
+      "adversarial",
+      "incident",
+      "tool"
+    ]
+  },
+  {
+    "title": "What Security Teams Can Do To Tame Wild Code",
+    "link": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+    "source": "The Hacker News",
+    "published": "2026-10-20T11:33:04+00:00",
+    "summary_ja": "従業員が組織の管理外でAIを活用したワークフローやエージェントを急速に構築・利用する「シャドーAI」の拡大に対し、セキュリティチームが取るべき対策を論じた記事。AIエージェントが機密データに接続されるリスクや、ガバナンス不在による組織的脅威について警鐘を鳴らしている。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "policy"
+    ]
+  }
+]
