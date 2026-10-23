@@ -1,0 +1,62 @@
+[
+  {
+    "title": "AIペネトレーションテスト基盤「Cairn」の作業ディレクトリから見えた攻撃活動についてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/10/23/065256",
+    "source": "piyolog",
+    "published": "2026-10-22T21:52:56+00:00",
+    "summary_ja": "セキュリティ企業VULONEが、オープンソースのAIペネトレーションテスト基盤「Cairn」を用いた攻撃者のサーバーが作業ディレクトリを無認証で公開していたことを発見した。ディレクトリには攻撃ツールや認証情報走査スクリプトなどが含まれており、アジアの政府機関・企業への攻撃記録も残されていた。AIエージェントが実際の攻撃インフラとして活用されている実態を示す重要な事例である。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+    "link": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-22T19:12:51+00:00",
+    "summary_ja": "LLM向けのオープンソースライブラリ「LiteLLM」のリリースパイプラインが侵害され、認証情報・シークレット・環境変数を窃取するマルウェアが仕込まれた悪意あるDockerイメージとPyPIパッケージが配布された。AIツールのサプライチェーンを標的にした攻撃として、AI開発エコシステムのセキュリティリスクを浮き彫りにしている。",
+    "tags": [
+      "incident",
+      "vulnerability",
+      "tool"
+    ]
+  },
+  {
+    "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+    "link": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+    "source": "The Hacker News",
+    "published": "2026-10-22T19:05:35+00:00",
+    "summary_ja": "組織内で誰も管理していないAIエージェントが、APIキーやDBパスワードを保持しながら内部システムにアクセスし続けているインサイダーリスクについて専門家が警鐘を鳴らしている。適切なアクセスレビューや監視体制がないままAIエージェントが普及する危険性を論じたウェビナーの紹介記事である。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Microsoft blames ConnectWise attacks on Chinese state hacker using ARTEX AI agents",
+    "link": "https://therecord.media/china-cyber-connectwise-ai",
+    "source": "The Record by Recorded Future",
+    "published": "2026-10-22T16:30:00+00:00",
+    "summary_ja": "Microsoftは、中国政府系ハッカーグループがARTEX AIエージェントを用いた自動化ツールにより、ITマネジメントソフトウェア企業ConnectWiseへのサプライチェーン攻撃を実施したと発表した。同グループは同様の手法でグローバルな攻撃活動を継続しており、AIエージェントが国家支援型サイバー攻撃に活用されている実態が明らかになった。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Machine speed attacks require machine speed detection and response",
+    "link": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-22T14:02:12+00:00",
+    "summary_ja": "攻撃者が認証情報窃取からデータ流出までを数分以内に完了させる「マシンスピード攻撃」が増加しており、GitHubトークン悪用・悪意あるAIインストーラー・MFAフィッシングなどの実例を交えて解説している。AIを悪用した高速攻撃に対抗するため、機械速度での検知・自動対応の重要性を訴えている。",
+    "tags": [
+      "adversarial",
+      "tool",
+      "research"
+    ]
+  }
+]
