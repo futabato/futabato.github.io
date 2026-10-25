@@ -3,81 +3,66 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-10-24T01:21:00Z</updated>
+  <updated>2026-10-25T00:46:59Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/10/23/inside-the-litellm-1-107-0-supply-chain-compromise-credential-theft-through-python-startup-hooks/" rel="alternate"/>
-    <id>urn:ai-security-digest:e59453f60e664209</id>
-    <published>2026-10-23T18:12:19Z</published>
-    <updated>2026-10-23T18:12:19Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftのThreat Intelligenceチームが、LiteLLM 1.107.0のサプライチェーン侵害を分析した報告。Pythonのスタートアップフックを悪用してクレデンシャルを窃取し、リモートコードをロードする手法が使われており、AI開発エコシステムを直接狙った攻撃として注目される。検出方法と緩和策も公開されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline</title>
+    <link href="https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html" rel="alternate"/>
+    <id>urn:ai-security-digest:c2f353f11fcac607</id>
+    <published>2026-10-24T11:03:33Z</published>
+    <updated>2026-10-24T11:03:33Z</updated>
+    <content type="html">&lt;p&gt;LLMプロキシライブラリ「LiteLLM」のマスターキーが公開GitHubリポジトリに誤ってコミットされ、攻撃者がそのキーを悪用してGitHubトークンを窃取し、悪意あるPythonパッケージをリリースパイプラインに注入した。AIインフラのサプライチェーンセキュリティに関わる重大インシデントである。LLMプラットフォームを標的としたサプライチェーン攻撃の実例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
     <category term="vulnerability"/>
-    <category term="tool"/>
+    <category term="agent-security"/>
     <source>
-      <title>Microsoft Security Blog</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions</title>
-    <link href="https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html" rel="alternate"/>
-    <id>urn:ai-security-digest:6fb95eceef2a89d9</id>
-    <published>2026-10-23T17:50:47Z</published>
-    <updated>2026-10-23T17:50:47Z</updated>
-    <content type="html">&lt;p&gt;ランサムウェアグループのアフィリエイトが「Phantom」と呼ばれるAIエージェントベースの自律的侵入フレームワークを活用して攻撃を実行していることが判明した。AIエージェントを攻撃インフラとして悪用する新たな脅威エコシステムの実態が明らかになっており、攻撃者側のAI活用として重大なインシデントといえる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
+    <title>Consistency Is Not Validity: Self-Rewarded Moral Argumentation Makes Language Models Decisive but Pliable</title>
+    <link href="https://arxiv.org/abs/2610.30349" rel="alternate"/>
+    <id>urn:ai-security-digest:72c024d61112cb20</id>
+    <published>2026-10-24T04:00:00Z</published>
+    <updated>2026-10-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMが道徳的判断に用いられる場面において、自己報酬型の論証強化学習を行うと、モデルが一貫性を持つものの外部からの説得に対して脆弱（pliable）になることを示した研究。AIの安全性・堅牢性に関わる問題であり、操作への耐性低下というリスクを示唆している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CL (Computation and Language)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
     <category term="adversarial"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CL (Computation and Language)</title>
     </source>
   </entry>
   <entry>
-    <title>You gave your AI agent access, but who is giving it orders?</title>
-    <link href="https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/" rel="alternate"/>
-    <id>urn:ai-security-digest:92749712f9150ad2</id>
-    <published>2026-10-23T14:00:10Z</published>
-    <updated>2026-10-23T14:00:10Z</updated>
-    <content type="html">&lt;p&gt;AIエージェントが悪意のあるメール・Webサイト・プラグインを通じて操作され、正規の権限を悪用してデータ窃取やファイル削除などを実行させられるリスクを解説している。Gen DigitalのAgent Trust Hubを通じたスキル検証・セキュア接続・ランタイム制御による防御手法が紹介されており、エージェントセキュリティの実践的な課題に踏み込んだ内容。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="vulnerability"/>
-    <category term="tool"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Critical x402 SDK Flaw Could Let Malicious APIs Drain AI Agents’ Token Balances</title>
-    <link href="https://thehackernews.com/2026/10/critical-x402-sdk-flaw-could-let.html" rel="alternate"/>
-    <id>urn:ai-security-digest:43513002b0c380e9</id>
-    <published>2026-10-23T08:35:45Z</published>
-    <updated>2026-10-23T08:35:45Z</updated>
-    <content type="html">&lt;p&gt;x402 SDKの脆弱性により、悪意のあるAPIがAIエージェントのトークン残高を全額引き出せることが判明した。AIエージェントが自律的に支払いに署名する仕組みを悪用するもので、エージェントの経済的リソースを標的にした新種の攻撃ベクターとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="incident"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Detecting AI Training in Datacentre Power</title>
-    <link href="https://arxiv.org/abs/2610.30182" rel="alternate"/>
-    <id>urn:ai-security-digest:6a62c29a660267be</id>
-    <published>2026-10-23T04:00:00Z</published>
-    <updated>2026-10-23T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;AIガバナンス協定の実効性を高めるため、監視対象のデータセンターにおける大規模モデルの学習実行をオペレーターを信頼せずに検出する手法を提案した研究。施設レベルの電力データにViterbiトラッキングを適用し、96%以上の検出率を達成しており、AI規制・ガバナンスの技術的基盤となりうる成果。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Rethinking the Evaluation of LLM Fact-Checkers</title>
+    <link href="https://arxiv.org/abs/2610.30504" rel="alternate"/>
+    <id>urn:ai-security-digest:32aabd49d035656f</id>
+    <published>2026-10-24T04:00:00Z</published>
+    <updated>2026-10-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMをファクトチェッカーとして評価する際の設計上の問題点を指摘し、日本語ベンチマーク「JSFactCheckBench」を提案した研究。評価の透明性・信頼性に関わる課題を扱っており、LLMの安全な運用に向けた評価基盤の整備に貢献する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CL (Computation and Language)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="governance"/>
-    <category term="policy"/>
     <category term="evaluation"/>
+    <category term="model-safety"/>
     <source>
-      <title>arXiv cs.CR (Cryptography and Security)</title>
+      <title>arXiv cs.CL (Computation and Language)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Behind Aggregate Scores: What Systematically Varying Arena-Hard's LLM Judge Reveals</title>
+    <link href="https://arxiv.org/abs/2610.30512" rel="alternate"/>
+    <id>urn:ai-security-digest:3406434191b50438</id>
+    <published>2026-10-24T04:00:00Z</published>
+    <updated>2026-10-24T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMジャッジの評価結果が集計スコアの背後で大きくばらつくことを実験的に示した研究。同一設定での繰り返しや指示変更によって個別の判定が大きく変化することを明らかにし、LLMベースの評価手法の信頼性に警鐘を鳴らす。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CL (Computation and Language)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CL (Computation and Language)</title>
     </source>
   </entry>
 </feed>
