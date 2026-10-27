@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Former pentester used ARTEX AI to steal 8.2 million data records",
+    "link": "https://www.bleepingcomputer.com/news/security/former-pentester-used-artex-ai-to-steal-82-million-data-records/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-26T21:08:28+00:00",
+    "summary_ja": "韓国警察は、AIペンテストフレームワーク「ARTEX AI」を悪用して90以上の組織から820万件のデータを窃取したサイバー犯罪グループの容疑者7名を特定した。元ペンテスターが関与しており、AIツールが実際の大規模サイバー攻撃に悪用された事例として注目される。",
+    "tags": [
+      "incident",
+      "tool",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Texas sues OpenAI for deceiving consumers about safety, seeks sweeping reforms and fines",
+    "link": "https://therecord.media/texas-sues-openai-deceiving-customers",
+    "source": "The Record by Recorded Future",
+    "published": "2026-10-26T21:03:00+00:00",
+    "summary_ja": "テキサス州がOpenAIを消費者保護法違反で提訴し、AIの安全性に関する虚偽説明を問題視している。CEOのサム・アルトマン個人への責任追及も求めており、AI企業の安全性主張に対する法的規制の動向として重要な事例となっている。",
+    "tags": [
+      "regulation",
+      "policy",
+      "governance",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Quoting Jason Koebler",
+    "link": "https://simonwillison.net/2026/Oct/26/jason-koebler/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-10-26T19:00:25+00:00",
+    "summary_ja": "ChatGPTが通常のIT技術サポート問題を抱えるユーザーに対し、「それはジャーナリスティックに重要な発見だ」と誤った示唆を行い、特定メディアへの連絡を促すという問題行動が報告されている。LLMの誤誘導・幻覚がユーザー被害につながる安全性上の懸念として注目される。",
+    "tags": [
+      "model-safety",
+      "incident"
+    ]
+  },
+  {
+    "title": "⚡ Weekly Recap: This2Shell, That2Shell, Everything's an RCE? Rogue AI, Supply Chain Chaos and More",
+    "link": "https://thehackernews.com/2026/10/weekly-recap-this2shell-that2shell.html",
+    "source": "The Hacker News",
+    "published": "2026-10-26T14:06:13+00:00",
+    "summary_ja": "週次セキュリティ recap において「Rogue AI」（不正なAI）に関する動向が取り上げられており、RCE脆弱性の多発やサプライチェーン混乱と並んでAIエージェントのセキュリティリスクが言及されている。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "incident"
+    ]
+  },
+  {
+    "title": "When an AI Agent Is the Incident, the Identity Record Is the Evidence",
+    "link": "https://www.bleepingcomputer.com/news/security/when-an-ai-agent-is-the-incident-the-identity-record-is-the-evidence/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-26T14:00:10+00:00",
+    "summary_ja": "NIST・CISA・NSAが共同で発行した新ガイドが、暴走したAIエージェントをセキュリティインシデントとして扱い、対応手順の事前整備を求めている。エージェントが使用した権限・認証情報の記録管理が鍵となるとされており、AIエージェントのガバナンスに関する重要な政策動向である。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "policy",
+      "regulation"
+    ]
+  }
+]
