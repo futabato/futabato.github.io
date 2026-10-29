@@ -1,0 +1,62 @@
+[
+  {
+    "title": "GitHub Octoverse 2026",
+    "link": "https://simonwillison.net/2026/Oct/28/github-octoverse-2026/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-10-28T16:45:23+00:00",
+    "summary_ja": "GitHub Octoverse 2026レポートによると、エージェント型AIエンジニアリングの台頭により2026年にマージされたプルリクエストが月2億2000万件と約3倍に急増した。AIエージェントがソフトウェア開発に与える影響規模が明確に示されており、セキュリティ上のリスク評価にも示唆を与える。",
+    "tags": [
+      "agent-security",
+      "research",
+      "governance"
+    ]
+  },
+  {
+    "title": "PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network",
+    "link": "https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html",
+    "source": "The Hacker News",
+    "published": "2026-10-28T16:02:45+00:00",
+    "summary_ja": "中国系脅威アクターによるAI支援攻撃の詳細が明らかになった。PHP2Shellの脆弱性を悪用し、AIを活用して25台のサーバーを侵害、米政府関連ネットワークにも侵入した。AIが攻撃の自動化・高度化に実際に利用されている事例として注目される。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-10-28T16:00:00+00:00",
+    "summary_ja": "MicrosoftセキュリティブログがエージェントAI時代におけるCISOの役割変化を論じている。AIエージェントの普及に伴い、アイデンティティ管理やデータガバナンスの強化、AI活用した脅威への防御近代化が経営レベルの優先事項となっていると指摘する。",
+    "tags": [
+      "agent-security",
+      "governance",
+      "tool"
+    ]
+  },
+  {
+    "title": "Even after PHP2Shell, blast radius matters more than a CVSS score",
+    "link": "https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-28T13:50:59+00:00",
+    "summary_ja": "PHP2Shell事例を通じ、CVSSスコアよりもサービスアカウント・APIキー・AIエージェントのアクセス範囲（ブラスト半径）を制限することの重要性を論じている。AIエージェントのアクセス権管理が侵害時の被害抑制に直結するという新たな視点を提供する。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "governance"
+    ]
+  },
+  {
+    "title": "Wazuh and AI for Enhanced SOC Workflows",
+    "link": "https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html",
+    "source": "The Hacker News",
+    "published": "2026-10-28T11:30:00+00:00",
+    "summary_ja": "WazuhとAIを組み合わせたSOCワークフロー強化について解説した記事。攻撃者側もAIを活用する現状を踏まえ、防御側もAIを活用して反復作業の自動化や脅威パターンの検出を高度化する手法を紹介している。",
+    "tags": [
+      "tool",
+      "adversarial",
+      "research"
+    ]
+  }
+]

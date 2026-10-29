@@ -3,78 +3,78 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-10-28T02:00:17Z</updated>
+  <updated>2026-10-29T02:04:34Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>OpenAI's GPT-6.1 Terra is safer overall, but shows more destructive-action flags in tests</title>
-    <link href="https://www.bleepingcomputer.com/news/artificial-intelligence/openais-gpt-61-terra-is-safer-overall-but-shows-more-destructive-action-flags-in-tests/" rel="alternate"/>
-    <id>urn:ai-security-digest:0c53a2da68d75c11</id>
-    <published>2026-10-27T22:43:27Z</published>
-    <updated>2026-10-27T22:43:27Z</updated>
-    <content type="html">&lt;p&gt;OpenAIのGPT-6.1 Terraは旧モデルと比較して全体的な安全性が向上しているものの、安全性テストにおいて破壊的行動に関するフラグが増加するという新たな問題が確認された。AIモデルの安全性評価において、改善と課題が同時に存在することを示す重要な報告。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="evaluation"/>
+    <title>GitHub Octoverse 2026</title>
+    <link href="https://simonwillison.net/2026/Oct/28/github-octoverse-2026/" rel="alternate"/>
+    <id>urn:ai-security-digest:e9a7a10b5a66f3aa</id>
+    <published>2026-10-28T16:45:23Z</published>
+    <updated>2026-10-28T16:45:23Z</updated>
+    <content type="html">&lt;p&gt;GitHub Octoverse 2026レポートによると、エージェント型AIエンジニアリングの台頭により2026年にマージされたプルリクエストが月2億2000万件と約3倍に急増した。AIエージェントがソフトウェア開発に与える影響規模が明確に示されており、セキュリティ上のリスク評価にも示唆を与える。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
     <category term="research"/>
+    <category term="governance"/>
     <source>
-      <title>Bleeping Computer</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
   <entry>
-    <title>CyberStrikeAI Uses 44 AI Agents to Automate Hacking Operations Against Japan Targets</title>
-    <link href="https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html" rel="alternate"/>
-    <id>urn:ai-security-digest:3f1af19eb7d09511</id>
-    <published>2026-10-27T18:26:46Z</published>
-    <updated>2026-10-27T18:26:46Z</updated>
-    <content type="html">&lt;p&gt;44のAIエージェントを活用して日本の組織を標的にしたサイバー攻撃「CyberStrikeAI」の詳細が公開された。AIが攻撃の主体または補助として機能しており、従来の脅威アクターとは異なる新たな攻撃手法として研究者が警鐘を鳴らしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
+    <title>PHP2Shell Attack Roots 25 Servers, Breaches U.S. Government-Affiliated Network</title>
+    <link href="https://thehackernews.com/2026/10/php2shell-attack-roots-25-servers.html" rel="alternate"/>
+    <id>urn:ai-security-digest:257599f0048efc91</id>
+    <published>2026-10-28T16:02:45Z</published>
+    <updated>2026-10-28T16:02:45Z</updated>
+    <content type="html">&lt;p&gt;中国系脅威アクターによるAI支援攻撃の詳細が明らかになった。PHP2Shellの脆弱性を悪用し、AIを活用して25台のサーバーを侵害、米政府関連ネットワークにも侵入した。AIが攻撃の自動化・高度化に実際に利用されている事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
+    <category term="adversarial"/>
+    <category term="vulnerability"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Warp discloses breach exposing AI agent logs, user telemetry data</title>
-    <link href="https://www.bleepingcomputer.com/news/security/warp-discloses-breach-exposing-ai-agent-logs-user-telemetry-data/" rel="alternate"/>
-    <id>urn:ai-security-digest:7c53fd735d31077d</id>
-    <published>2026-10-27T16:15:39Z</published>
-    <updated>2026-10-27T16:15:39Z</updated>
-    <content type="html">&lt;p&gt;ターミナル・開発環境ツール「Warp」がサードパーティベンダーへの攻撃を通じてAIエージェントの決定ログおよびユーザーテレメトリデータを侵害されたと発表した。AIエージェントが生成・保持するデータのセキュリティリスクを示すインシデントとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <title>The CISO’s evolving role: Protecting and defending in the agentic era</title>
+    <link href="https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/" rel="alternate"/>
+    <id>urn:ai-security-digest:9df20833f43de289</id>
+    <published>2026-10-28T16:00:00Z</published>
+    <updated>2026-10-28T16:00:00Z</updated>
+    <content type="html">&lt;p&gt;MicrosoftセキュリティブログがエージェントAI時代におけるCISOの役割変化を論じている。AIエージェントの普及に伴い、アイデンティティ管理やデータガバナンスの強化、AI活用した脅威への防御近代化が経営レベルの優先事項となっていると指摘する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
     <category term="agent-security"/>
-    <category term="incident"/>
+    <category term="governance"/>
+    <category term="tool"/>
+    <source>
+      <title>Microsoft Security Blog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Even after PHP2Shell, blast radius matters more than a CVSS score</title>
+    <link href="https://www.bleepingcomputer.com/news/security/even-after-php2shell-blast-radius-matters-more-than-a-cvss-score/" rel="alternate"/>
+    <id>urn:ai-security-digest:d79cee61ecb2f639</id>
+    <published>2026-10-28T13:50:59Z</published>
+    <updated>2026-10-28T13:50:59Z</updated>
+    <content type="html">&lt;p&gt;PHP2Shell事例を通じ、CVSSスコアよりもサービスアカウント・APIキー・AIエージェントのアクセス範囲（ブラスト半径）を制限することの重要性を論じている。AIエージェントのアクセス権管理が侵害時の被害抑制に直結するという新たな視点を提供する。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
     <category term="vulnerability"/>
+    <category term="governance"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Design Tenets for Agent Identity Management Systems</title>
-    <link href="https://www.nist.gov/blogs/cybersecurity-insights/design-tenets-agent-identity-management-systems" rel="alternate"/>
-    <id>urn:ai-security-digest:7e75b9009b3b0ccb</id>
-    <published>2026-10-27T12:00:00Z</published>
-    <updated>2026-10-27T12:00:00Z</updated>
-    <content type="html">&lt;p&gt;NISTがエージェント型AIのアイデンティティ管理システムに関する設計原則（Design Tenets）を公開した。大規模なエージェント展開に向けて、認証・認可を含むIAM（アイデンティティ・アクセス管理）の基本原則を定義しており、AIエージェントのセキュリティガバナンス整備に向けた重要な政策的取り組みとなる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; NIST Cybersecurity&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;governance&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="governance"/>
-    <category term="policy"/>
-    <source>
-      <title>NIST Cybersecurity</title>
-    </source>
-  </entry>
-  <entry>
-    <title>OpenAI Compaction Flaw Let Researchers Bypass Hidden Reasoning Protections</title>
-    <link href="https://thehackernews.com/2026/10/openai-compaction-flaw-let-researchers.html" rel="alternate"/>
-    <id>urn:ai-security-digest:c6fd9c70afae34ae</id>
-    <published>2026-10-27T08:22:43Z</published>
-    <updated>2026-10-27T08:22:43Z</updated>
-    <content type="html">&lt;p&gt;セキュリティ企業Xintが、OpenAIの長い会話を短縮する「コンパクション」機能の欠陥を利用して、本来暗号化されモデルの隠れた推論過程を平文で取り出す手法を実証した。OpenAIの推論モデルが持つ保護機能をバイパスできるこの脆弱性は、モデルの内部動作の安全性に関わる重大な発見である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="model-safety"/>
-    <category term="vulnerability"/>
+    <title>Wazuh and AI for Enhanced SOC Workflows</title>
+    <link href="https://thehackernews.com/2026/10/wazuh-and-ai-for-enhanced-soc-workflows.html" rel="alternate"/>
+    <id>urn:ai-security-digest:be06f9a5da472d1c</id>
+    <published>2026-10-28T11:30:00Z</published>
+    <updated>2026-10-28T11:30:00Z</updated>
+    <content type="html">&lt;p&gt;WazuhとAIを組み合わせたSOCワークフロー強化について解説した記事。攻撃者側もAIを活用する現状を踏まえ、防御側もAIを活用して反復作業の自動化や脅威パターンの検出を高度化する手法を紹介している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
     <category term="adversarial"/>
+    <category term="research"/>
     <source>
       <title>The Hacker News</title>
     </source>
