@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-10-29T16:00:00+00:00",
+    "summary_ja": "Microsoftの脅威インテリジェンスチームが、北朝鮮の脅威アクターによるAI活用の実態を追跡・分析したレポート。攻撃の速度と効率を高めるためにAIをどのように悪用しているかを詳述しており、脅威アクターのAI活用という広範なトレンドを反映している。",
+    "tags": [
+      "incident",
+      "adversarial",
+      "research"
+    ]
+  },
+  {
+    "title": "Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions",
+    "link": "https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html",
+    "source": "The Hacker News",
+    "published": "2026-10-29T15:57:05+00:00",
+    "summary_ja": "LinuxカーネルのTCPコードに存在するCVSSスコア9.8の重大な脆弱性（CVE-2026-98432）に関する報告。AnthropicのAIモデルがこの脆弱性を悪用するエクスプロイトを自動生成し、未認証のリモート攻撃者がrootとして任意のコマンドを実行できることを示したという点でAIセキュリティ上の重要な事例となっている。",
+    "tags": [
+      "vulnerability",
+      "research",
+      "model-safety"
+    ]
+  },
+  {
+    "title": "Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners",
+    "link": "https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html",
+    "source": "The Hacker News",
+    "published": "2026-10-29T15:20:29+00:00",
+    "summary_ja": "ChatGPTおよびClaudeを騙る偽デスクトップアプリを通じて、暗号通貨マイナーを含むマルウェア「Yoba」が配布されているキャンペーンが確認された。偽のGitHubプロジェクトを悪用してAIツールに見せかけた悪意のあるローダーを展開する手口が報告されている。",
+    "tags": [
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "3 Ways AI Agents Already Operate in Your Browser",
+    "link": "https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/",
+    "source": "Bleeping Computer",
+    "published": "2026-10-29T14:00:10+00:00",
+    "summary_ja": "AIエージェントがブラウザ内で認証済みセッションを操作し、企業アプリケーションや機密データにアクセスする3つの主要な動作パターンを解説した記事。従来のセキュリティツールではAIエージェントの活動を正規ユーザーと区別することが困難な点が指摘されており、エージェントセキュリティの課題を浮き彫りにしている。",
+    "tags": [
+      "agent-security",
+      "research",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities",
+    "link": "https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html",
+    "source": "The Hacker News",
+    "published": "2026-10-29T13:42:40+00:00",
+    "summary_ja": "GoogleがリリースしたGemini 4 Carbonが、脆弱性の発見・悪用・修正を評価するサイバーセキュリティ特化ベンチマーク（SEC-bench ProおよびExploitGym）で最高スコアを記録した。フロンティアモデルのサイバーセキュリティ能力評価における新たな基準を示す重要な事例である。",
+    "tags": [
+      "evaluation",
+      "research",
+      "vulnerability"
+    ]
+  }
+]
