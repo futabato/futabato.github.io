@@ -3,79 +3,81 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-10-30T02:23:32Z</updated>
+  <updated>2026-10-31T01:58:36Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Tracking AI adoption in North Korean threat actor tradecraft</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/" rel="alternate"/>
-    <id>urn:ai-security-digest:ecb2698675c7a29a</id>
-    <published>2026-10-29T16:00:00Z</published>
-    <updated>2026-10-29T16:00:00Z</updated>
-    <content type="html">&lt;p&gt;Microsoftの脅威インテリジェンスチームが、北朝鮮の脅威アクターによるAI活用の実態を追跡・分析したレポート。攻撃の速度と効率を高めるためにAIをどのように悪用しているかを詳述しており、脅威アクターのAI活用という広範なトレンドを反映している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide</title>
+    <link href="https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html" rel="alternate"/>
+    <id>urn:ai-security-digest:4fa40013294f33eb</id>
+    <published>2026-10-30T16:58:44Z</published>
+    <updated>2026-10-30T16:58:44Z</updated>
+    <content type="html">&lt;p&gt;中国の国家支援型脅威グループ「Vapor Panda」が、Go言語で実装されたAI駆動のペネトレーションテストフレームワーク「ARTEX」を使用し、世界200以上の組織を標的にした攻撃が観測された。AIを活用したサイバー攻撃ツールの実際の脅威活動として重要な事例。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;tool&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
+    <category term="tool"/>
     <category term="adversarial"/>
-    <category term="research"/>
     <source>
-      <title>Microsoft Security Blog</title>
+      <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Linux Kernel TCP Flaw With 9.8 CVSS Score Affects Ubuntu, Red Hat and Other Distributions</title>
-    <link href="https://thehackernews.com/2026/10/linux-kernel-tcp-flaw-with-98-cvss.html" rel="alternate"/>
-    <id>urn:ai-security-digest:1be6a1df25ca72b4</id>
-    <published>2026-10-29T15:57:05Z</published>
-    <updated>2026-10-29T15:57:05Z</updated>
-    <content type="html">&lt;p&gt;LinuxカーネルのTCPコードに存在するCVSSスコア9.8の重大な脆弱性（CVE-2026-98432）に関する報告。AnthropicのAIモデルがこの脆弱性を悪用するエクスプロイトを自動生成し、未認証のリモート攻撃者がrootとして任意のコマンドを実行できることを示したという点でAIセキュリティ上の重要な事例となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor</title>
+    <link href="https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html" rel="alternate"/>
+    <id>urn:ai-security-digest:4b53227f9f3bab60</id>
+    <published>2026-10-30T08:55:47Z</published>
+    <updated>2026-10-30T08:55:47Z</updated>
+    <content type="html">&lt;p&gt;AnthropicのClaude Code VS Code拡張機能のトロイの木馬化バージョンが、Cursorマーケットプレイスで正規アップデートとして配布され、持続的なSSHバックドアのインストールを試みた。AIツールのサプライチェーンを悪用した攻撃として、開発者環境のセキュリティリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
     <category term="vulnerability"/>
+    <category term="agent-security"/>
+    <source>
+      <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>FVH-Bench: Evaluating Image Generator Safety Beyond Overtly Harmful Imagery</title>
+    <link href="https://arxiv.org/abs/2610.37722" rel="alternate"/>
+    <id>urn:ai-security-digest:59041a6bef6cbc8c</id>
+    <published>2026-10-30T04:00:00Z</published>
+    <updated>2026-10-30T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;現代の画像生成AIは露骨に有害な画像の生成を拒否しながらも、危険な行動を誘導したり欺瞞を支援したりする「機能的視覚的害（FVH）」を持つ成果物を生成しうることを示す新たなベンチマーク「FVH-Bench」を提案した研究。描写内容ではなく、画像が可能にする行動に着目した新しい安全性評価の観点を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
+    <category term="evaluation"/>
     <category term="model-safety"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>Fake ChatGPT and Claude Apps Abuse Signed Executables to Deploy Crypto Miners</title>
-    <link href="https://thehackernews.com/2026/10/fake-chatgpt-and-claude-apps-abuse.html" rel="alternate"/>
-    <id>urn:ai-security-digest:d9e7c9ddc0eb7fb8</id>
-    <published>2026-10-29T15:20:29Z</published>
-    <updated>2026-10-29T15:20:29Z</updated>
-    <content type="html">&lt;p&gt;ChatGPTおよびClaudeを騙る偽デスクトップアプリを通じて、暗号通貨マイナーを含むマルウェア「Yoba」が配布されているキャンペーンが確認された。偽のGitHubプロジェクトを悪用してAIツールに見せかけた悪意のあるローダーを展開する手口が報告されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="adversarial"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>3 Ways AI Agents Already Operate in Your Browser</title>
-    <link href="https://www.bleepingcomputer.com/news/security/3-ways-ai-agents-already-operate-in-your-browser/" rel="alternate"/>
-    <id>urn:ai-security-digest:391251a3aaa70679</id>
-    <published>2026-10-29T14:00:10Z</published>
-    <updated>2026-10-29T14:00:10Z</updated>
-    <content type="html">&lt;p&gt;AIエージェントがブラウザ内で認証済みセッションを操作し、企業アプリケーションや機密データにアクセスする3つの主要な動作パターンを解説した記事。従来のセキュリティツールではAIエージェントの活動を正規ユーザーと区別することが困難な点が指摘されており、エージェントセキュリティの課題を浮き彫りにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <title>When Skills Tell Agents Not to Ask: A Large-Scale Study of Oversight Directives in Agent Skills</title>
+    <link href="https://arxiv.org/abs/2610.37734" rel="alternate"/>
+    <id>urn:ai-security-digest:3b342265ec5e0e32</id>
+    <published>2026-10-30T04:00:00Z</published>
+    <updated>2026-10-30T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;AIエージェントのスキルファイル（SKILL.md）に、承認なしで処理を進めたり検証をバイパスするよう指示する「監視緩和ディレクティブ」が含まれる実態を大規模調査した研究。一つのスキルファイルがそれを読み込む全エージェントに影響を及ぼすサプライチェーンリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
     <category term="agent-security"/>
-    <category term="research"/>
     <category term="vulnerability"/>
     <source>
-      <title>Bleeping Computer</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
   <entry>
-    <title>Google's Gemini 4 Carbon Leads Benchmarks for Finding, Exploiting, and Patching Vulnerabilities</title>
-    <link href="https://thehackernews.com/2026/10/googles-gemini-4-carbon-leads.html" rel="alternate"/>
-    <id>urn:ai-security-digest:17b1ed18b9db9df1</id>
-    <published>2026-10-29T13:42:40Z</published>
-    <updated>2026-10-29T13:42:40Z</updated>
-    <content type="html">&lt;p&gt;GoogleがリリースしたGemini 4 Carbonが、脆弱性の発見・悪用・修正を評価するサイバーセキュリティ特化ベンチマーク（SEC-bench ProおよびExploitGym）で最高スコアを記録した。フロンティアモデルのサイバーセキュリティ能力評価における新たな基準を示す重要な事例である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="evaluation"/>
+    <title>Agentic Backdoors via Pretraining Poisoning</title>
+    <link href="https://arxiv.org/abs/2610.37741" rel="alternate"/>
+    <id>urn:ai-security-digest:dc7eb9e8885fba44</id>
+    <published>2026-10-30T04:00:00Z</published>
+    <updated>2026-10-30T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMの事前学習データに悪意あるコンテンツを混入させることで、エージェントにリモートコード実行バックドアを埋め込めることを初めて実証した研究。Qwen3モデルを複数のサイズで実際に事前学習して脅威をエンドツーエンドで検証しており、AIサプライチェーンの根本的なリスクを示す重要な知見。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="research"/>
-    <category term="vulnerability"/>
+    <category term="adversarial"/>
+    <category term="agent-security"/>
+    <category term="model-safety"/>
     <source>
-      <title>The Hacker News</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>
