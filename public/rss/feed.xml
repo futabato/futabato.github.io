@@ -3,80 +3,24 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-11-01T01:48:56Z</updated>
+  <updated>2026-11-02T02:03:43Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>How We Took Over ChatGPT Accounts</title>
-    <link href="https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/" rel="alternate"/>
-    <id>urn:ai-security-digest:a181817ce8345f3a</id>
-    <published>2026-10-31T23:15:22Z</published>
-    <updated>2026-10-31T23:15:22Z</updated>
-    <content type="html">&lt;p&gt;セキュリティ研究企業Parameter Labsが、ChatGPTのHTMLプレビュー機能（旧Canvas）における複雑な攻撃チェーンを発見した。サンドボックス化されたiframe内の信頼されないコードがOpenAI APIと通信し、プライベートデータにアクセスできる脆弱性であり、OpenAIはこれをP1（最高深刻度）として修正した。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
+    <title>Quoting Kyle Kingsbury</title>
+    <link href="https://simonwillison.net/2026/Nov/1/kyle-kingsbury/" rel="alternate"/>
+    <id>urn:ai-security-digest:b72dc720cf78e393</id>
+    <published>2026-11-01T16:49:04Z</published>
+    <updated>2026-11-01T16:49:04Z</updated>
+    <content type="html">&lt;p&gt;LLMの普及により、ドキュメントやソフトウェアへの信頼が侵食されつつあるという問題を指摘した記事。成熟したシステムの品質指標が偽造しやすくなっており、メンテナーがソフトウェアの正確性を担保・証明する手段が問われている。AIが引き起こすソフトウェアサプライチェーンの信頼性低下について論じている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="model-safety"/>
     <category term="adversarial"/>
-    <category term="incident"/>
+    <category term="research"/>
     <source>
       <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Northflank security breach leads to abuse of customers' AI API keys</title>
-    <link href="https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/" rel="alternate"/>
-    <id>urn:ai-security-digest:a4df36c045ad0e87</id>
-    <published>2026-10-31T18:01:12Z</published>
-    <updated>2026-10-31T18:01:12Z</updated>
-    <content type="html">&lt;p&gt;クラウドアプリホスティングプラットフォームのNorthflankがセキュリティ侵害を受け、顧客のAI APIキーが不正利用される事態が発生した。同社は顧客に対してプラットフォーム上に保存されているすべての認証情報とシークレットのローテーションを呼びかけている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Chainalysis discloses data breach from &quot;offensive agentic techniques&quot;</title>
-    <link href="https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/" rel="alternate"/>
-    <id>urn:ai-security-digest:41cdd41993708079</id>
-    <published>2026-10-31T12:50:09Z</published>
-    <updated>2026-10-31T12:50:09Z</updated>
-    <content type="html">&lt;p&gt;ブロックチェーン分析企業Chainalysisが、攻撃者による「オフェンシブなエージェント的技法」を用いた内部システムへの不正アクセスを公表した。顧客の氏名・メールアドレス・ユーザーID・組織上の役割などが漏洩しており、AIエージェントが攻撃手段として実際に悪用されたインシデントとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats</title>
-    <link href="https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html" rel="alternate"/>
-    <id>urn:ai-security-digest:09f142bd2640f272</id>
-    <published>2026-10-31T05:33:41Z</published>
-    <updated>2026-10-31T05:33:41Z</updated>
-    <content type="html">&lt;p&gt;ChatGPTの共有リンクを悪用することで、攻撃者のコードをログイン済みセッション上で実行させ、プライベート会話を読み取れる脆弱性をParameter社が発見した。OpenAIのバグバウンティプログラムを通じて報告され、8日後にP1評価で修正された。記事[1]と同一の脆弱性をより詳細に報告したもの。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;vulnerability&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="adversarial"/>
-    <category term="incident"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Detecting Covert Collusion between AI Agents through Partner-Outsider Positive Listening</title>
-    <link href="https://arxiv.org/abs/2610.37849" rel="alternate"/>
-    <id>urn:ai-security-digest:fa47d733c17cb7ef</id>
-    <published>2026-10-31T04:00:00Z</published>
-    <updated>2026-10-31T04:00:00Z</updated>
-    <content type="html">&lt;p&gt;AIエージェント同士が無害に見えるメッセージを通じて秘密の取り決めで協調する「隠密共謀」を検出する手法「Partner-Outsider Positive Listening（PoPLi）」を提案した研究。メッセージの文言に対する反応の差異を行動テストとして活用することで、モニタリングをすり抜ける隠蔽的な協調を発見できるとしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.AI (Artificial Intelligence)&lt;/p&gt;&lt;p&gt;&lt;span class=&quot;tag&quot;&gt;research&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;agent-security&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;adversarial&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <category term="agent-security"/>
-    <category term="adversarial"/>
-    <category term="evaluation"/>
-    <source>
-      <title>arXiv cs.AI (Artificial Intelligence)</title>
     </source>
   </entry>
 </feed>

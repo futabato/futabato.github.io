@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Quoting Kyle Kingsbury",
+    "link": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-11-01T16:49:04+00:00",
+    "summary_ja": "LLMの普及により、ドキュメントやソフトウェアへの信頼が侵食されつつあるという問題を指摘した記事。成熟したシステムの品質指標が偽造しやすくなっており、メンテナーがソフトウェアの正確性を担保・証明する手段が問われている。AIが引き起こすソフトウェアサプライチェーンの信頼性低下について論じている。",
+    "tags": [
+      "model-safety",
+      "adversarial",
+      "research"
+    ]
+  }
+]
