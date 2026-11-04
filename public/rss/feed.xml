@@ -3,52 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-11-03T03:49:23Z</updated>
+  <updated>2026-11-04T02:53:12Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Chinese hackers use ARTEX AI in automated attacks against 200 orgs</title>
-    <link href="https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/" rel="alternate"/>
-    <id>urn:ai-security-digest:6c6aea21f91dfc2c</id>
-    <published>2026-11-02T21:40:14Z</published>
-    <updated>2026-11-02T21:40:14Z</updated>
-    <content type="html">&lt;p&gt;中国のハッカーがオープンソースのマルチエージェントAIペネトレーションテストフレームワーク「ARTEX」を使用し、14カ国200以上の組織に対して自動化された攻撃を実施した。AIエージェントが実際のサイバー攻撃に悪用された具体的な事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <title>WorkOS says attacker used ARTEX AI to breach internal sales app</title>
+    <link href="https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/" rel="alternate"/>
+    <id>urn:ai-security-digest:cf2ea752df828dba</id>
+    <published>2026-11-03T21:28:44Z</published>
+    <updated>2026-11-03T21:28:44Z</updated>
+    <content type="html">&lt;p&gt;開発者プラットフォームのWorkOSが、攻撃者にARTEX AIツールを悪用されて内部セールスアプリへの不正アクセスを受け、顧客の連絡先情報や通信サマリーが流出するデータ侵害が発生した。AIツールが攻撃の手段として利用された事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
+    <category term="adversarial"/>
     <category term="agent-security"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Google: LLMjacking attacks rack up $1 million in cloud AI charges</title>
+    <link href="https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/" rel="alternate"/>
+    <id>urn:ai-security-digest:bcfb2e41fbecf9d2</id>
+    <published>2026-11-03T18:51:04Z</published>
+    <updated>2026-11-03T18:51:04Z</updated>
+    <content type="html">&lt;p&gt;GoogleはLLMジャッキング攻撃に関する警告を発表した。攻撃者が企業のクラウドAIリソースを不正利用するこの手口により、一部組織では1日あたり10万ドル以上、累計100万ドルを超える不正クラウド利用料が発生している。APIキーのフィッシングや設定ミスを悪用した新たな脅威として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="vulnerability"/>
     <category term="adversarial"/>
     <source>
       <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers</title>
-    <link href="https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html" rel="alternate"/>
-    <id>urn:ai-security-digest:0bed561f10e179cb</id>
-    <published>2026-11-02T11:50:00Z</published>
-    <updated>2026-11-02T11:50:00Z</updated>
-    <content type="html">&lt;p&gt;AIエージェント・ワークフロー構築ツール「Langflow」に、未認証の攻撃者が認証をバイパスしてサーバー上で任意コードを実行できる2件の深刻な脆弱性が発見された。バージョン1.0.0から1.12.8までの全リリースが影響を受け、修正版は1.13.0のみとなっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Qwen 3.8 27B on my laptop can interpret model weights, too</title>
+    <link href="https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/" rel="alternate"/>
+    <id>urn:ai-security-digest:f1a111e72742f0df</id>
+    <published>2026-11-03T16:29:48Z</published>
+    <updated>2026-11-03T16:29:48Z</updated>
+    <content type="html">&lt;p&gt;最新の研究により、GPT-6 AstraなどのフロンティアLLMがニューラルネットワークの重みを直接読み書きできることが示された。LLMがモデルウェイトを解釈・改変できるというこの発見は、AIモデルの安全性や整合性に対する新たなリスクを示唆する画期的な知見である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;research&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="model-safety"/>
+    <category term="adversarial"/>
+    <source>
+      <title>Simon Willison's Weblog</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges</title>
+    <link href="https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html" rel="alternate"/>
+    <id>urn:ai-security-digest:c5631e1fe7c280d4</id>
+    <published>2026-11-03T15:41:53Z</published>
+    <updated>2026-11-03T15:41:53Z</updated>
+    <content type="html">&lt;p&gt;GoogleはLLMジャッキング攻撃について詳細な警告を発しており、攻撃者はフィッシングやソースコードリーク、設定ミスなどを通じてAPIキーを入手しLLMリソースを乗っ取る。企業が最大100万ドル規模のクラウド費用被害を受けるケースも報告されており、AI時代のリソースハイジャックとして深刻な脅威となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
     <category term="vulnerability"/>
-    <category term="agent-security"/>
-    <category term="tool"/>
     <source>
       <title>The Hacker News</title>
     </source>
   </entry>
   <entry>
-    <title>Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy</title>
-    <link href="https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html" rel="alternate"/>
-    <id>urn:ai-security-digest:bfff44c21cc75a58</id>
-    <published>2026-11-02T11:30:00Z</published>
-    <updated>2026-11-02T11:30:00Z</updated>
-    <content type="html">&lt;p&gt;250名以上のCISO・SOCリーダーへの調査によると、セキュリティチームの40%が既にAIを日常的に活用しており、56%がテスト中であることが明らかになった。SOCへのAIエージェント導入に向けた準備状況と成熟度評価の枠組みを提示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;evaluation&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="evaluation"/>
-    <category term="tool"/>
+    <title>UK school estate hit by 3AM ransomware in suspected AI-assisted attack</title>
+    <link href="https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/" rel="alternate"/>
+    <id>urn:ai-security-digest:4fc8c8ddd3ad60a0</id>
+    <published>2026-11-03T14:00:00Z</published>
+    <updated>2026-11-03T14:00:00Z</updated>
+    <content type="html">&lt;p&gt;英国の学校組織がAI支援が疑われる3AMランサムウェア攻撃を受け、管理外ホストを起点に約50台中37台のマシンが暗号化された。AIを活用した攻撃手法の高度化が示された事例として、ランサムウェアにおけるAI悪用の脅威が改めて浮き彫りになった。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
     <source>
-      <title>The Hacker News</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
 </feed>
