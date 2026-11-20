@@ -3,32 +3,19 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-11-19T03:57:35Z</updated>
+  <updated>2026-11-20T03:51:11Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam</title>
-    <link href="https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/" rel="alternate"/>
-    <id>urn:ai-security-digest:3208f46dd1690335</id>
-    <published>2026-11-18T20:49:32Z</published>
-    <updated>2026-11-18T20:49:32Z</updated>
-    <content type="html">&lt;p&gt;CoinbaseはAI生成のイーロン・マスクのディープフェイクを使ったフェイク仮想通貨プレゼント詐欺に対し、470万ドル相当の送金をブロックした。このライブストリームは50万人以上の視聴者を集めており、ディープフェイクを悪用した詐欺の規模と影響力の大きさを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="adversarial"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Lawmakers call on White House to develop defensive AI cyber systems</title>
-    <link href="https://therecord.media/ai-cyber-white-house" rel="alternate"/>
-    <id>urn:ai-security-digest:c60f36dda0d9577c</id>
-    <published>2026-11-18T19:00:00Z</published>
-    <updated>2026-11-18T19:00:00Z</updated>
-    <content type="html">&lt;p&gt;超党派の上院議員らが、AIを活用したサイバー脅威に対抗するための国家的な防衛AIサイバーシステム開発をホワイトハウスに要請した。最近のAI関連セキュリティインシデントを受けて、政府レベルでの対応強化を求めている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;policy&lt;/span&gt; &lt;span class="tag"&gt;governance&lt;/span&gt; &lt;span class="tag"&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Lawmakers launch new AI safety caucus amid rising security concerns</title>
+    <link href="https://therecord.media/lawmakers-launch-new-ai-safety-caucus" rel="alternate"/>
+    <id>urn:ai-security-digest:0bd143457a8b550b</id>
+    <published>2026-11-19T21:19:00Z</published>
+    <updated>2026-11-19T21:19:00Z</updated>
+    <content type="html">&lt;p&gt;米国議会議員らが、高まるセキュリティ懸念を背景に新たなAI安全性コーカスを立ち上げた。共和党員7名を含む26名の創設メンバーで構成されており、ホワイトハウスのAI規制反対姿勢の中でも超党派的な取り組みとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;policy&lt;/span&gt; &lt;span class="tag"&gt;governance&lt;/span&gt; &lt;span class="tag"&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
     <category term="policy"/>
     <category term="governance"/>
     <category term="regulation"/>
@@ -37,44 +24,45 @@
     </source>
   </entry>
   <entry>
-    <title>AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor</title>
-    <link href="https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html" rel="alternate"/>
-    <id>urn:ai-security-digest:e3f6e444c8dea912</id>
-    <published>2026-11-18T12:15:00Z</published>
-    <updated>2026-11-18T12:15:00Z</updated>
-    <content type="html">&lt;p&gt;AIペネトレーションテストベンダーを選定する際に確認すべき15の重要な質問をまとめたチェックリスト。AIペンテストツールの実際の有効性や品質の違い、特に認証済みフローやカバレッジにおけるギャップを評価するための実践的なガイドを提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;evaluation&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="evaluation"/>
+    <title>PostgreSQL 19 Released</title>
+    <link href="https://simonwillison.net/2026/Nov/19/postgresql-19/" rel="alternate"/>
+    <id>urn:ai-security-digest:a457925fbd609abe</id>
+    <published>2026-11-19T20:43:57Z</published>
+    <updated>2026-11-19T20:43:57Z</updated>
+    <content type="html">&lt;p&gt;PostgreSQL 19のリリースが通常より2ヶ月遅延したが、その主な原因はAIが報告した脆弱性の大量発生（「AI報告による脆弱性の大洪水」）への対応であった。AIツールによるソフトウェア脆弱性発見がOSSの開発・リリースサイクルに実際の影響を与え始めている事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
+    <category term="tool"/>
+    <category term="research"/>
     <source>
-      <title>The Hacker News</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
   <entry>
-    <title>CISA Adds Four Known Exploited Vulnerabilities to Catalog</title>
-    <link href="https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog" rel="alternate"/>
-    <id>urn:ai-security-digest:2bf6e3b53184cd10</id>
-    <published>2026-11-18T12:00:00Z</published>
-    <updated>2026-11-18T12:00:00Z</updated>
-    <content type="html">&lt;p&gt;CISAは新たに4件の既知の悪用脆弱性をカタログに追加した。中でもBerriAI製のLLMプロキシツール「LiteLLM」の脆弱性（CVE-2026-40217）が含まれており、AI関連インフラを標的とした実際の攻撃が確認されている点が注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; CISA Alerts&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
+    <title>ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories</title>
+    <link href="https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html" rel="alternate"/>
+    <id>urn:ai-security-digest:cc7a5715391457a2</id>
+    <published>2026-11-19T18:47:58Z</published>
+    <updated>2026-11-19T18:47:58Z</updated>
+    <content type="html">&lt;p&gt;GPT-6.2のジェイルブレイク脆弱性をはじめ、AIを悪用した攻撃手法の増加に関する週次脅威まとめ記事。AIが一部の攻撃をより容易にしている傾向が指摘されており、LLMのセキュリティリスクが改めて浮き彫りになっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
-    <category term="incident"/>
-    <source>
-      <title>CISA Alerts</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are</title>
-    <link href="https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html" rel="alternate"/>
-    <id>urn:ai-security-digest:1df2f3726abcb8b7</id>
-    <published>2026-11-18T11:03:57Z</published>
-    <updated>2026-11-18T11:03:57Z</updated>
-    <content type="html">&lt;p&gt;AIによるソフトウェア開発の加速が脆弱性リスクを増大させる中、AIペネトレーションテストの主要な課題としてデータプライバシーと本番環境の安全性が浮上している。攻撃者側もAIを活用し、エクスプロイトまでの時間が1日以下に短縮されており、AIを用いたセキュリティテストの必要性が高まっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;evaluation&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="evaluation"/>
+    <category term="adversarial"/>
     <category term="model-safety"/>
     <source>
       <title>The Hacker News</title>
+    </source>
+  </entry>
+  <entry>
+    <title>European Commission confirms cyberattack, says hackers used AI tool</title>
+    <link href="https://therecord.media/european-commission-confirms-cyberattack-using-ai" rel="alternate"/>
+    <id>urn:ai-security-digest:aa1a53ab0b9722f7</id>
+    <published>2026-11-19T15:15:00Z</published>
+    <updated>2026-11-19T15:15:00Z</updated>
+    <content type="html">&lt;p&gt;欧州委員会がサイバー攻撃を受けたことを公式に認め、攻撃者がオープンソースのAIハッキングプラットフォーム「ARTEX」を使用していたことが明らかになった。FBIも同プラットフォームが犯罪者および国家支援グループの双方に利用されていると警告しており、AIを活用したサイバー攻撃の深刻化が懸念される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="tool"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Record by Recorded Future</title>
     </source>
   </entry>
 </feed>
