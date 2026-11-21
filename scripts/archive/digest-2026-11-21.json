@@ -1,0 +1,65 @@
+[
+  {
+    "title": "US companies’ use of Chinese open weight AI draws rebuke from House chairmen",
+    "link": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+    "source": "The Record by Recorded Future",
+    "published": "2026-11-20T20:25:00+00:00",
+    "summary_ja": "米国下院国土安全保障委員会が、米国企業による中国製オープンウェイトAIモデルの利用について安全保障上の懸念を示す調査結果を発表した。コスト面での優位性から採用が進む中国製AIモデルがもたらすリスクに対して規制面からの対応が求められている。",
+    "tags": [
+      "policy",
+      "governance",
+      "regulation"
+    ]
+  },
+  {
+    "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+    "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+    "source": "Bleeping Computer",
+    "published": "2026-11-20T18:51:43+00:00",
+    "summary_ja": "カナダの通信大手Bell Canadaが「エージェント型」脅威アクターによるシステム侵害を受け、企業顧客データが窃取されたことを確認した。攻撃者自身が「エージェント型」と表現されており、AIエージェントを活用した新たな攻撃手法の事例として注目される。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+    "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+    "source": "Bleeping Computer",
+    "published": "2026-11-20T17:30:00+00:00",
+    "summary_ja": "オープンソースのAIペネトレーションテストフレームワーク「Cairn」を使って、脅威アクターが医療画像アプリケーションのゼロデイ脆弱性を発見し、サーバーを乗っ取った事例が報告された。AIツールが実際の攻撃に自律的に活用された初期事例として注目される。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university",
+    "link": "https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day",
+    "source": "The Record by Recorded Future",
+    "published": "2026-11-20T17:30:00+00:00",
+    "summary_ja": "中国系脅威アクターがオープンソースのAIペネトレーションテストツール「Cairn」を使用して2つの大学を持続的に攻撃し、うち1件ではゼロデイ脆弱性を発見した可能性があるとAmazonの研究者が報告した。国家関与の攻撃者によるAIツール悪用という観点から重大な事案。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "incident",
+      "adversarial"
+    ]
+  },
+  {
+    "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+    "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+    "source": "The Hacker News",
+    "published": "2026-11-20T16:58:16+00:00",
+    "summary_ja": "Androidマルウェアフレームワーク「Bazuka」がLLM（大規模言語モデル）を統合し、感染被害者の管理と大規模制御を実現していることが判明した。LLMをマルウェア運用に組み込むという新たな攻撃手法であり、AIを悪用したサイバー犯罪の新局面を示している。",
+    "tags": [
+      "vulnerability",
+      "incident",
+      "adversarial",
+      "model-safety"
+    ]
+  }
+]

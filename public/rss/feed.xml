@@ -3,19 +3,19 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-11-20T03:51:11Z</updated>
+  <updated>2026-11-21T03:43:58Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Lawmakers launch new AI safety caucus amid rising security concerns</title>
-    <link href="https://therecord.media/lawmakers-launch-new-ai-safety-caucus" rel="alternate"/>
-    <id>urn:ai-security-digest:0bd143457a8b550b</id>
-    <published>2026-11-19T21:19:00Z</published>
-    <updated>2026-11-19T21:19:00Z</updated>
-    <content type="html">&lt;p&gt;米国議会議員らが、高まるセキュリティ懸念を背景に新たなAI安全性コーカスを立ち上げた。共和党員7名を含む26名の創設メンバーで構成されており、ホワイトハウスのAI規制反対姿勢の中でも超党派的な取り組みとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;policy&lt;/span&gt; &lt;span class="tag"&gt;governance&lt;/span&gt; &lt;span class="tag"&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
+    <title>US companies’ use of Chinese open weight AI draws rebuke from House chairmen</title>
+    <link href="https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation" rel="alternate"/>
+    <id>urn:ai-security-digest:fc4544c70639fb7e</id>
+    <published>2026-11-20T20:25:00Z</published>
+    <updated>2026-11-20T20:25:00Z</updated>
+    <content type="html">&lt;p&gt;米国下院国土安全保障委員会が、米国企業による中国製オープンウェイトAIモデルの利用について安全保障上の懸念を示す調査結果を発表した。コスト面での優位性から採用が進む中国製AIモデルがもたらすリスクに対して規制面からの対応が求められている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;policy&lt;/span&gt; &lt;span class="tag"&gt;governance&lt;/span&gt; &lt;span class="tag"&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
     <category term="policy"/>
     <category term="governance"/>
     <category term="regulation"/>
@@ -24,45 +24,62 @@
     </source>
   </entry>
   <entry>
-    <title>PostgreSQL 19 Released</title>
-    <link href="https://simonwillison.net/2026/Nov/19/postgresql-19/" rel="alternate"/>
-    <id>urn:ai-security-digest:a457925fbd609abe</id>
-    <published>2026-11-19T20:43:57Z</published>
-    <updated>2026-11-19T20:43:57Z</updated>
-    <content type="html">&lt;p&gt;PostgreSQL 19のリリースが通常より2ヶ月遅延したが、その主な原因はAIが報告した脆弱性の大量発生（「AI報告による脆弱性の大洪水」）への対応であった。AIツールによるソフトウェア脆弱性発見がOSSの開発・リリースサイクルに実際の影響を与え始めている事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="tool"/>
-    <category term="research"/>
+    <title>Bell Canada says 'agentic' hacker stole enterprise customer data</title>
+    <link href="https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/" rel="alternate"/>
+    <id>urn:ai-security-digest:a1277bddeebe52e0</id>
+    <published>2026-11-20T18:51:43Z</published>
+    <updated>2026-11-20T18:51:43Z</updated>
+    <content type="html">&lt;p&gt;カナダの通信大手Bell Canadaが「エージェント型」脅威アクターによるシステム侵害を受け、企業顧客データが窃取されたことを確認した。攻撃者自身が「エージェント型」と表現されており、AIエージェントを活用した新たな攻撃手法の事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="incident"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
     <source>
-      <title>Simon Willison's Weblog</title>
+      <title>Bleeping Computer</title>
     </source>
   </entry>
   <entry>
-    <title>ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories</title>
-    <link href="https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html" rel="alternate"/>
-    <id>urn:ai-security-digest:cc7a5715391457a2</id>
-    <published>2026-11-19T18:47:58Z</published>
-    <updated>2026-11-19T18:47:58Z</updated>
-    <content type="html">&lt;p&gt;GPT-6.2のジェイルブレイク脆弱性をはじめ、AIを悪用した攻撃手法の増加に関する週次脅威まとめ記事。AIが一部の攻撃をより容易にしている傾向が指摘されており、LLMのセキュリティリスクが改めて浮き彫りになっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Hackers use autonomous AI tool Cairn to find zero-day, take over server</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/" rel="alternate"/>
+    <id>urn:ai-security-digest:209648e572bdea41</id>
+    <published>2026-11-20T17:30:00Z</published>
+    <updated>2026-11-20T17:30:00Z</updated>
+    <content type="html">&lt;p&gt;オープンソースのAIペネトレーションテストフレームワーク「Cairn」を使って、脅威アクターが医療画像アプリケーションのゼロデイ脆弱性を発見し、サーバーを乗っ取った事例が報告された。AIツールが実際の攻撃に自律的に活用された初期事例として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
     <category term="vulnerability"/>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Amazon says Chinese hackers used Cairn AI tool to discover apparent zero-day during attack on university</title>
+    <link href="https://therecord.media/amazon-research-cairn-ai-university-attacks-possible-zero-day" rel="alternate"/>
+    <id>urn:ai-security-digest:ea51260c28d0da92</id>
+    <published>2026-11-20T17:30:00Z</published>
+    <updated>2026-11-20T17:30:00Z</updated>
+    <content type="html">&lt;p&gt;中国系脅威アクターがオープンソースのAIペネトレーションテストツール「Cairn」を使用して2つの大学を持続的に攻撃し、うち1件ではゼロデイ脆弱性を発見した可能性があるとAmazonの研究者が報告した。国家関与の攻撃者によるAIツール悪用という観点から重大な事案。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
+    <category term="vulnerability"/>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <source>
+      <title>The Record by Recorded Future</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control</title>
+    <link href="https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html" rel="alternate"/>
+    <id>urn:ai-security-digest:0b4042589720c604</id>
+    <published>2026-11-20T16:58:16Z</published>
+    <updated>2026-11-20T16:58:16Z</updated>
+    <content type="html">&lt;p&gt;Androidマルウェアフレームワーク「Bazuka」がLLM（大規模言語モデル）を統合し、感染被害者の管理と大規模制御を実現していることが判明した。LLMをマルウェア運用に組み込むという新たな攻撃手法であり、AIを悪用したサイバー犯罪の新局面を示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="vulnerability"/>
+    <category term="incident"/>
     <category term="adversarial"/>
     <category term="model-safety"/>
     <source>
       <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>European Commission confirms cyberattack, says hackers used AI tool</title>
-    <link href="https://therecord.media/european-commission-confirms-cyberattack-using-ai" rel="alternate"/>
-    <id>urn:ai-security-digest:aa1a53ab0b9722f7</id>
-    <published>2026-11-19T15:15:00Z</published>
-    <updated>2026-11-19T15:15:00Z</updated>
-    <content type="html">&lt;p&gt;欧州委員会がサイバー攻撃を受けたことを公式に認め、攻撃者がオープンソースのAIハッキングプラットフォーム「ARTEX」を使用していたことが明らかになった。FBIも同プラットフォームが犯罪者および国家支援グループの双方に利用されていると警告しており、AIを活用したサイバー攻撃の深刻化が懸念される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="tool"/>
-    <category term="adversarial"/>
-    <source>
-      <title>The Record by Recorded Future</title>
     </source>
   </entry>
 </feed>
