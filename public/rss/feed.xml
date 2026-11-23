@@ -3,49 +3,21 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-11-22T02:47:54Z</updated>
+  <updated>2026-11-23T03:28:43Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>メルカリ、Notion AI委託先への不正アクセスで3,796名分の情報流出のおそれ</title>
-    <link href="https://cybersecurity-jp.com/news/118764" rel="alternate"/>
-    <id>urn:ai-security-digest:c9e855b2ecb6df32</id>
-    <published>2026-11-21T23:41:36Z</published>
-    <updated>2026-11-21T23:41:36Z</updated>
-    <content type="html">&lt;p&gt;メルカリは、Notion AIの処理を委託していたFireworks AIの環境が不正アクセスを受け、グループ利用記録の一部が流出した可能性があると発表した。影響を受けた対象は顧客・取引先を含む3,796名分に上る。AIサービスのサプライチェーンを介したインシデントとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; サイバーセキュリティ.com&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <title>OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms</title>
+    <link href="https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html" rel="alternate"/>
+    <id>urn:ai-security-digest:6d087c898942cc0c</id>
+    <published>2026-11-22T05:06:55Z</published>
+    <updated>2026-11-22T05:06:55Z</updated>
+    <content type="html">&lt;p&gt;AI推論プロバイダー3社において、攻撃者が数ヶ月にわたりユーザーのプロンプトを窃取していたことが判明した。被害を受けたプロバイダーは研究者から指摘されるまで侵害を把握しておらず、「ゼロデータ保持」と設定されたリクエストも含めてデータが盗まれていた。これを受け、AIリクエストのゲートウェイサービスであるOpenRouterは当該3社をプロバイダーリストから除外した。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
     <category term="vulnerability"/>
-    <source>
-      <title>サイバーセキュリティ.com</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</title>
-    <link href="https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html" rel="alternate"/>
-    <id>urn:ai-security-digest:31de93106fde76af</id>
-    <published>2026-11-21T11:03:17Z</published>
-    <updated>2026-11-21T11:03:17Z</updated>
-    <content type="html">&lt;p&gt;中国との関連が疑われる攻撃者が、自律型AIエージェントを使用してオープンソースの医療画像サーバー「MONAI Label」のゼロデイ脆弱性を発見し、大学サーバーへのroot権限アクセスを取得した。AIエージェントが実際の攻撃オペレーションに活用された事例として、Amazon Threat Intelligenceが報告した。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="vulnerability"/>
-    <category term="incident"/>
-    <category term="adversarial"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS</title>
-    <link href="https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html" rel="alternate"/>
-    <id>urn:ai-security-digest:c5410e0ea07b3ca7</id>
-    <published>2026-11-21T08:49:20Z</published>
-    <updated>2026-11-21T08:49:20Z</updated>
-    <content type="html">&lt;p&gt;Signalは、AIエージェントがプライベートチャットをスクリーンショット経由で読み取ることを防ぐため、AndroidおよびiOSでデフォルトでスクリーンショットを制限する機能を発表した。iOS 27や特定のAndroidバージョン上のエージェントシステムを検出して保護を適用するが、保護は「不完全」とも認めている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="agent-security"/>
-    <category term="tool"/>
     <category term="model-safety"/>
     <source>
       <title>The Hacker News</title>
