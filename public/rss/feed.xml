@@ -3,80 +3,80 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-11-24T06:42:46Z</updated>
+  <updated>2026-11-25T05:12:22Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>OpenAI and Cisco Unveil AI-Assisted Linux Security Tool to Block Exploits Before Patching</title>
-    <link href="https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html" rel="alternate"/>
-    <id>urn:ai-security-digest:b0d72916ebeceea8</id>
-    <published>2026-11-24T06:02:57Z</published>
-    <updated>2026-11-24T06:02:57Z</updated>
-    <content type="html">&lt;p&gt;OpenAIとCiscoが共同で、AIエージェントがLinuxシステムをリアルタイムで防御するオープンソースツール「Shirudo」を発表した。AIエージェントが動的なeBPFコントロールを記述し、パッチ適用前の脆弱性悪用からシステムを保護する仕組みで、防御側がパッチのテストと展開に要する時間を確保できる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="agent-security"/>
-    <category term="vulnerability"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Hackers Exploit N-able MailAssure Flaw While AI Agents Exploit MONAI Label Zero-Day</title>
-    <link href="https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html" rel="alternate"/>
-    <id>urn:ai-security-digest:d70285cdacc0c3a7</id>
-    <published>2026-11-24T06:02:45Z</published>
-    <updated>2026-11-24T06:02:45Z</updated>
-    <content type="html">&lt;p&gt;CISAがMONAI LabelのゼロデイをKEVカタログに追加したが、注目点はAIエージェントによるこの脆弱性の積極的な悪用が確認されていることだ。医療AI向けアノテーションフレームワークに存在するSSRF脆弱性がAIエージェントによって攻撃に利用されているとされ、AIシステムそのものが攻撃の起点となる新たなリスクを示している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Hacker News&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;incident&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="vulnerability"/>
-    <category term="agent-security"/>
+    <title>米CIAとODNIの非機密システムへの不正アクセスについてまとめてみた</title>
+    <link href="https://piyolog.hatenadiary.jp/entry/2026/11/25/120114" rel="alternate"/>
+    <id>urn:ai-security-digest:12c7d2c620e9d825</id>
+    <published>2026-11-25T03:01:14Z</published>
+    <updated>2026-11-25T03:01:14Z</updated>
+    <content type="html">&lt;p&gt;米CIAとODNIが使用するOSINT（公開情報）分析システムへの不正アクセスが発覚し、非機密情報の一部が露出したことが報じられた。対象システムは商用データセットやSNS投稿、衛星画像などを分析するもので、機密システムへの影響はなかったとされるが、情報機関のAI・データ分析基盤が標的となった点で注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; piyolog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
     <category term="incident"/>
-    <source>
-      <title>The Hacker News</title>
-    </source>
-  </entry>
-  <entry>
-    <title>フロンティアAI時代の通信事業におけるデータの保護・セキュリティの在り方に関する検討会（第3回）</title>
-    <link href="https://www.soumu.go.jp/main_sosiki/kenkyu/data_protection/02kiban18_02000522.html" rel="alternate"/>
-    <id>urn:ai-security-digest:b58df84c784a4320</id>
-    <published>2026-11-23T20:00:00Z</published>
-    <updated>2026-11-23T20:00:00Z</updated>
-    <content type="html">&lt;p&gt;総務省が「フロンティアAI時代の通信事業におけるデータの保護・セキュリティの在り方に関する検討会」の第3回会合を開催した。フロンティアAIの普及に伴う通信事業分野でのデータ保護とセキュリティのあり方について政府レベルでの議論が進められており、AI時代のガバナンス・規制形成の動向として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; 総務省&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;policy&lt;/span&gt; &lt;span class="tag"&gt;governance&lt;/span&gt; &lt;span class="tag"&gt;regulation&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="policy"/>
     <category term="governance"/>
-    <category term="regulation"/>
     <source>
-      <title>総務省</title>
+      <title>piyolog</title>
     </source>
   </entry>
   <entry>
-    <title>Signal blocks screenshots by Apple, Google operating systems to protect data from AI agents</title>
-    <link href="https://therecord.media/signal-no-screenshots-by-apple-google-operating-systems" rel="alternate"/>
-    <id>urn:ai-security-digest:2ee4674409e7413b</id>
-    <published>2026-11-23T18:37:00Z</published>
-    <updated>2026-11-23T18:37:00Z</updated>
-    <content type="html">&lt;p&gt;SignalがAppleのSiri AIおよびGoogleのGemini Intelligenceによるスクリーンショット取得をブロックする機能を実装した。OSに統合されたAIエージェントがプライベートな通信内容にアクセスするリスクが高まっているとして、AIエージェントからユーザーのプライバシーを守る防御手法として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;/p&gt;</content>
+    <title>Three LLM inflection points in twelve months</title>
+    <link href="https://simonwillison.net/2026/Nov/24/llm-inflection-points/" rel="alternate"/>
+    <id>urn:ai-security-digest:0b260d07579db847</id>
+    <published>2026-11-24T23:02:07Z</published>
+    <updated>2026-11-24T23:02:07Z</updated>
+    <content type="html">&lt;p&gt;過去12ヶ月におけるLLMとコーディングエージェントの能力に関する3つの重要な変曲点を分析したKeynoteの内容をまとめた記事。LLMの急速な進化がAIエージェントのセキュリティや安全性の評価にも影響を与えることを示唆しており、AI能力の急激な向上がもたらすリスクの文脈で重要な知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;research&lt;/span&gt; &lt;span class="tag"&gt;evaluation&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="evaluation"/>
     <category term="agent-security"/>
-    <category term="model-safety"/>
-    <category term="tool"/>
     <source>
-      <title>The Record by Recorded Future</title>
+      <title>Simon Willison's Weblog</title>
     </source>
   </entry>
   <entry>
-    <title>CrowdStrike to purchase Zscaler for $43.9 billion</title>
-    <link href="https://therecord.media/crowdstrike-zscaler" rel="alternate"/>
-    <id>urn:ai-security-digest:ac98d932f8273631</id>
-    <published>2026-11-23T17:14:00Z</published>
-    <updated>2026-11-23T17:14:00Z</updated>
-    <content type="html">&lt;p&gt;CrowdStrikeがZscalerを439億ドルで買収することを発表した。CrowdStrikeCEOは「世界最大のAIセーフティ・セキュリティ企業を目指す」と述べており、AIセキュリティ分野における大型業界再編として注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;governance&lt;/span&gt; &lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="governance"/>
+    <title>From Vulnerability Noise to Resilience: Rethinking Security in the AI Era</title>
+    <link href="https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/" rel="alternate"/>
+    <id>urn:ai-security-digest:1f0ade1a22806792</id>
+    <published>2026-11-24T15:01:11Z</published>
+    <updated>2026-11-24T15:01:11Z</updated>
+    <content type="html">&lt;p&gt;AI駆動型開発の普及によりソフトウェアサプライチェーンの複雑性が増し、セキュリティチームが実際のリスクの低い脆弱性ノイズに圧倒されている現状を解説している。ランタイム可視化、コンテナハードニング、自動修復を組み合わせることで脆弱性ノイズを削減しソフトウェアのレジリエンスを向上させるアプローチを提案している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;research&lt;/span&gt; &lt;/p&gt;</content>
     <category term="tool"/>
-    <category term="model-safety"/>
+    <category term="vulnerability"/>
+    <category term="research"/>
     <source>
-      <title>The Record by Recorded Future</title>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>New Shirudo tool uses AI to shield unpatched Linux systems from exploits</title>
+    <link href="https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/" rel="alternate"/>
+    <id>urn:ai-security-digest:5fdfc9b8efe4d534</id>
+    <published>2026-11-24T13:34:23Z</published>
+    <updated>2026-11-24T13:34:23Z</updated>
+    <content type="html">&lt;p&gt;OpenAIとCiscoが共同で、パッチ未適用のLinuxシステムを脆弱性悪用から保護するオープンソースAIセキュリティツール「Shirudo」を公開した。サービスを再起動せずに一時的なランタイム保護を展開し、管理者がパッチを適用する間のギャップを埋める仕組みを持つ。AIを活用した防御ツールとして注目される。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;research&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="tool"/>
+    <category term="vulnerability"/>
+    <category term="research"/>
+    <source>
+      <title>Bleeping Computer</title>
+    </source>
+  </entry>
+  <entry>
+    <title>AIペネトレーションテスト基盤「Cairn」が大学への攻撃で見つけたゼロデイについてまとめてみた</title>
+    <link href="https://piyolog.hatenadiary.jp/entry/2026/11/24/214547" rel="alternate"/>
+    <id>urn:ai-security-digest:3407440eae5ab9cc</id>
+    <published>2026-11-24T12:45:47Z</published>
+    <updated>2026-11-24T12:45:47Z</updated>
+    <content type="html">&lt;p&gt;AIペネトレーションテスト基盤「Cairn」を悪用した攻撃者が、大学のアプリケーションにゼロデイ脆弱性を発見し、サーバーの制御を奪取したことをAmazon Threat Intelligenceが公表した。攻撃者のCairnインスタンスが認証なしで公開状態に置かれており、AIエージェントによる攻撃の詳細な運用履歴が誰でも閲覧できる状態だった。AIエージェントが実際の攻撃インフラとして活用されている実例として重大な事例となっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; piyolog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="agent-security"/>
+    <category term="vulnerability"/>
+    <category term="incident"/>
+    <category term="adversarial"/>
+    <source>
+      <title>piyolog</title>
     </source>
   </entry>
 </feed>

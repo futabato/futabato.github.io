@@ -1,0 +1,62 @@
+[
+  {
+    "title": "米CIAとODNIの非機密システムへの不正アクセスについてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/11/25/120114",
+    "source": "piyolog",
+    "published": "2026-11-25T03:01:14+00:00",
+    "summary_ja": "米CIAとODNIが使用するOSINT（公開情報）分析システムへの不正アクセスが発覚し、非機密情報の一部が露出したことが報じられた。対象システムは商用データセットやSNS投稿、衛星画像などを分析するもので、機密システムへの影響はなかったとされるが、情報機関のAI・データ分析基盤が標的となった点で注目される。",
+    "tags": [
+      "incident",
+      "governance"
+    ]
+  },
+  {
+    "title": "Three LLM inflection points in twelve months",
+    "link": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-11-24T23:02:07+00:00",
+    "summary_ja": "過去12ヶ月におけるLLMとコーディングエージェントの能力に関する3つの重要な変曲点を分析したKeynoteの内容をまとめた記事。LLMの急速な進化がAIエージェントのセキュリティや安全性の評価にも影響を与えることを示唆しており、AI能力の急激な向上がもたらすリスクの文脈で重要な知見を提供している。",
+    "tags": [
+      "research",
+      "evaluation",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+    "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+    "source": "Bleeping Computer",
+    "published": "2026-11-24T15:01:11+00:00",
+    "summary_ja": "AI駆動型開発の普及によりソフトウェアサプライチェーンの複雑性が増し、セキュリティチームが実際のリスクの低い脆弱性ノイズに圧倒されている現状を解説している。ランタイム可視化、コンテナハードニング、自動修復を組み合わせることで脆弱性ノイズを削減しソフトウェアのレジリエンスを向上させるアプローチを提案している。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "research"
+    ]
+  },
+  {
+    "title": "New Shirudo tool uses AI to shield unpatched Linux systems from exploits",
+    "link": "https://www.bleepingcomputer.com/news/security/new-shirudo-tool-uses-ai-to-shield-unpatched-linux-systems-from-exploits/",
+    "source": "Bleeping Computer",
+    "published": "2026-11-24T13:34:23+00:00",
+    "summary_ja": "OpenAIとCiscoが共同で、パッチ未適用のLinuxシステムを脆弱性悪用から保護するオープンソースAIセキュリティツール「Shirudo」を公開した。サービスを再起動せずに一時的なランタイム保護を展開し、管理者がパッチを適用する間のギャップを埋める仕組みを持つ。AIを活用した防御ツールとして注目される。",
+    "tags": [
+      "tool",
+      "vulnerability",
+      "research"
+    ]
+  },
+  {
+    "title": "AIペネトレーションテスト基盤「Cairn」が大学への攻撃で見つけたゼロデイについてまとめてみた",
+    "link": "https://piyolog.hatenadiary.jp/entry/2026/11/24/214547",
+    "source": "piyolog",
+    "published": "2026-11-24T12:45:47+00:00",
+    "summary_ja": "AIペネトレーションテスト基盤「Cairn」を悪用した攻撃者が、大学のアプリケーションにゼロデイ脆弱性を発見し、サーバーの制御を奪取したことをAmazon Threat Intelligenceが公表した。攻撃者のCairnインスタンスが認証なしで公開状態に置かれており、AIエージェントによる攻撃の詳細な運用履歴が誰でも閲覧できる状態だった。AIエージェントが実際の攻撃インフラとして活用されている実例として重大な事例となっている。",
+    "tags": [
+      "agent-security",
+      "vulnerability",
+      "incident",
+      "adversarial"
+    ]
+  }
+]
