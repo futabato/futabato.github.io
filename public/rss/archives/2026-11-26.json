@@ -1,0 +1,61 @@
+[
+  {
+    "title": "Quoting Scott Aaronson",
+    "link": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+    "source": "Simon Willison's Weblog",
+    "published": "2026-11-25T23:26:32+00:00",
+    "summary_ja": "スコット・アーロンソンによる計算複雑性理論に関する見解を引用した記事で、AIが数学的真理の新たな大陸を切り開きつつあるという展望を述べている。AIが科学的発見に与える革命的影響を示唆する内容である。",
+    "tags": [
+      "research"
+    ]
+  },
+  {
+    "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+    "link": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+    "source": "The Record by Recorded Future",
+    "published": "2026-11-25T21:18:00+00:00",
+    "summary_ja": "MicrosoftはAIツール「Artex」が中国のSalt Typhoonなど複数の国家支援型ハッカーグループによって悪用されていると警告した。同ツールはネットワーク偵察や認証情報攻撃などの攻撃ワークフローを加速させるために使用されている。",
+    "tags": [
+      "tool",
+      "incident",
+      "agent-security"
+    ]
+  },
+  {
+    "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+    "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+    "source": "Bleeping Computer",
+    "published": "2026-11-25T19:39:31+00:00",
+    "summary_ja": "スイスとイタリアのサイバーセキュリティ機関が、AIエージェントによって自律的に駆動されるサイバー攻撃が重要インフラ組織を標的にしていると警告を発した。AIを活用した自動化攻撃の脅威が現実のものとなっている。",
+    "tags": [
+      "incident",
+      "agent-security",
+      "policy"
+    ]
+  },
+  {
+    "title": "What defenders need to know about ARTEX, the agentic AI framework threat actors abuse",
+    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/",
+    "source": "Microsoft Security Blog",
+    "published": "2026-11-25T18:09:06+00:00",
+    "summary_ja": "MicrosoftはAI駆動のペネトレーションテストフレームワーク「ARTEX」がStorm-0940やSalt Typhoonなど複数の脅威アクターによって悪用されている実態を詳述した。ネットワーク偵察、認証情報攻撃、Webアプリ攻撃の各フェーズでAIが活用されており、防御側が取るべき対策を解説している。",
+    "tags": [
+      "tool",
+      "adversarial",
+      "agent-security",
+      "vulnerability"
+    ]
+  },
+  {
+    "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+    "link": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+    "source": "The Record by Recorded Future",
+    "published": "2026-11-25T17:07:00+00:00",
+    "summary_ja": "オーストラリア議会は、大手テック企業に対して暴力的脅迫などの重大な被害をプラットフォーム上で事前に防ぐ義務を課す「デジタル注意義務法」を可決した。オンラインプロバイダーはユーザー保護のためのプロトコル整備が義務付けられる。",
+    "tags": [
+      "regulation",
+      "policy",
+      "governance"
+    ]
+  }
+]
