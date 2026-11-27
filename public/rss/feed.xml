@@ -3,79 +3,77 @@
   <title>AI Security Daily Digest</title>
   <subtitle>AIセキュリティに関する日次ニュースダイジェスト - 研究・ニュース・政策動向を自動収集・要約</subtitle>
   <id>https://futabato.github.io/rss/</id>
-  <updated>2026-11-26T04:41:25Z</updated>
+  <updated>2026-11-27T04:45:00Z</updated>
   <link rel="self" href="https://futabato.github.io/rss/feed.xml"/>
   <link rel="alternate" href="https://futabato.github.io/rss/"/>
   <author>
     <name>AI Security Digest Bot</name>
   </author>
   <entry>
-    <title>Quoting Scott Aaronson</title>
-    <link href="https://simonwillison.net/2026/Nov/25/scott-aaronson/" rel="alternate"/>
-    <id>urn:ai-security-digest:2ada6bc927bcede3</id>
-    <published>2026-11-25T23:26:32Z</published>
-    <updated>2026-11-25T23:26:32Z</updated>
-    <content type="html">&lt;p&gt;スコット・アーロンソンによる計算複雑性理論に関する見解を引用した記事で、AIが数学的真理の新たな大陸を切り開きつつあるという展望を述べている。AIが科学的発見に与える革命的影響を示唆する内容である。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Simon Willison&amp;#x27;s Weblog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;research&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="research"/>
-    <source>
-      <title>Simon Willison's Weblog</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Microsoft: China’s Salt Typhoon hackers are using Artex</title>
-    <link href="https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool" rel="alternate"/>
-    <id>urn:ai-security-digest:96063772354653dd</id>
-    <published>2026-11-25T21:18:00Z</published>
-    <updated>2026-11-25T21:18:00Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftはAIツール「Artex」が中国のSalt Typhoonなど複数の国家支援型ハッカーグループによって悪用されていると警告した。同ツールはネットワーク偵察や認証情報攻撃などの攻撃ワークフローを加速させるために使用されている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <source>
-      <title>The Record by Recorded Future</title>
-    </source>
-  </entry>
-  <entry>
-    <title>Italy and Switzerland warn of autonomous AI-driven cyberattacks</title>
-    <link href="https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/" rel="alternate"/>
-    <id>urn:ai-security-digest:bb8a3d866a040418</id>
-    <published>2026-11-25T19:39:31Z</published>
-    <updated>2026-11-25T19:39:31Z</updated>
-    <content type="html">&lt;p&gt;スイスとイタリアのサイバーセキュリティ機関が、AIエージェントによって自律的に駆動されるサイバー攻撃が重要インフラ組織を標的にしていると警告を発した。AIを活用した自動化攻撃の脅威が現実のものとなっている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Bleeping Computer&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;incident&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;policy&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="incident"/>
-    <category term="agent-security"/>
-    <category term="policy"/>
-    <source>
-      <title>Bleeping Computer</title>
-    </source>
-  </entry>
-  <entry>
-    <title>What defenders need to know about ARTEX, the agentic AI framework threat actors abuse</title>
-    <link href="https://www.microsoft.com/en-us/security/blog/2026/11/25/what-defenders-need-to-know-artex-agentic-ai-framework-threat-actors-abuse/" rel="alternate"/>
-    <id>urn:ai-security-digest:318243fd3323f274</id>
-    <published>2026-11-25T18:09:06Z</published>
-    <updated>2026-11-25T18:09:06Z</updated>
-    <content type="html">&lt;p&gt;MicrosoftはAI駆動のペネトレーションテストフレームワーク「ARTEX」がStorm-0940やSalt Typhoonなど複数の脅威アクターによって悪用されている実態を詳述した。ネットワーク偵察、認証情報攻撃、Webアプリ攻撃の各フェーズでAIが活用されており、防御側が取るべき対策を解説している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Microsoft Security Blog&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;tool&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="tool"/>
-    <category term="adversarial"/>
-    <category term="agent-security"/>
+    <title>AI向けストレージ基盤「NVIDIA AIStore」に複数の脆弱性</title>
+    <link href="https://www.security-next.com/193302" rel="alternate"/>
+    <id>urn:ai-security-digest:4c1bfd519f093aa5</id>
+    <published>2026-11-26T13:09:09Z</published>
+    <updated>2026-11-26T13:09:09Z</updated>
+    <content type="html">&lt;p&gt;NVIDIAがAIワークロード向けストレージ基盤「NVIDIA AIStore」に複数の脆弱性が存在するとしてセキュリティアドバイザリを公開した。AIインフラを支える基盤ソフトウェアに直接関わる脆弱性であり、AI環境のセキュリティ確保の観点から注意が必要。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; Security NEXT&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
     <category term="vulnerability"/>
     <source>
-      <title>Microsoft Security Blog</title>
+      <title>Security NEXT</title>
     </source>
   </entry>
   <entry>
-    <title>Australia passes tough legislation requiring big tech to preempt foreseeable harms</title>
-    <link href="https://therecord.media/australia-passes-online-safety-legislation-preempt-harms" rel="alternate"/>
-    <id>urn:ai-security-digest:f550841678a73ccc</id>
-    <published>2026-11-25T17:07:00Z</published>
-    <updated>2026-11-25T17:07:00Z</updated>
-    <content type="html">&lt;p&gt;オーストラリア議会は、大手テック企業に対して暴力的脅迫などの重大な被害をプラットフォーム上で事前に防ぐ義務を課す「デジタル注意義務法」を可決した。オンラインプロバイダーはユーザー保護のためのプロトコル整備が義務付けられる。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; The Record by Recorded Future&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;regulation&lt;/span&gt; &lt;span class="tag"&gt;policy&lt;/span&gt; &lt;span class="tag"&gt;governance&lt;/span&gt; &lt;/p&gt;</content>
-    <category term="regulation"/>
-    <category term="policy"/>
-    <category term="governance"/>
+    <title>Demystifying Real-world LLM Service Freeloading</title>
+    <link href="https://arxiv.org/abs/2611.33218" rel="alternate"/>
+    <id>urn:ai-security-digest:9e443cb55154381c</id>
+    <published>2026-11-26T05:00:00Z</published>
+    <updated>2026-11-26T05:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMウェブアプリや専用クライアントから無断で推論を転用し、独立したAPIとして提供する「LLMサービスフリーローディング（LSF）」の実態を体系的に調査した研究。513のオープンソースプロジェクトと64のLLMサービスにわたる1,588の推論パスを追跡し、その規模と仕組みを明らかにした。LLMサービスの不正利用・セキュリティリスクを定量的に示す重要な知見を提供している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;research&lt;/span&gt; &lt;span class="tag"&gt;vulnerability&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="vulnerability"/>
     <source>
-      <title>The Record by Recorded Future</title>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>RegionAlign: Manipulating Parameter Layouts for Localized Fault Injection on LLMs and VLMs</title>
+    <link href="https://arxiv.org/abs/2611.33370" rel="alternate"/>
+    <id>urn:ai-security-digest:bfd0114316e814e3</id>
+    <published>2026-11-26T05:00:00Z</published>
+    <updated>2026-11-26T05:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMおよびVLMに対する物理的なフォールトインジェクション攻撃を強化する手法「RegionAlign」を提案した研究。悪意あるプロバイダーがデプロイ前にモデルのパラメータレイアウトを操作し、脆弱なビットを特定メモリ領域に集中させることで、重みの値と正常動作を維持しながら攻撃効率を高めるサプライチェーン上の脅威を実証している。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;research&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;model-safety&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="model-safety"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Poisoning Self-Evolving Security Policies in LLM Agents</title>
+    <link href="https://arxiv.org/abs/2611.33385" rel="alternate"/>
+    <id>urn:ai-security-digest:955a12b2feff56ed</id>
+    <published>2026-11-26T05:00:00Z</published>
+    <updated>2026-11-26T05:00:00Z</updated>
+    <content type="html">&lt;p&gt;LLMエージェントの自己進化型防御機構（SED）そのものが攻撃対象となり得ることを示した研究。単一のプロンプトインジェクションを用いて防御ポリシーに過剰な制限を学習させ、正当なリクエストを拒否させるポイズニング攻撃を実証した。AgentDojoベンチマーク上での10回のテスト全てで攻撃が成功しており、エージェントセキュリティにおける深刻なリスクを浮き彫りにしている。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;research&lt;/span&gt; &lt;span class="tag"&gt;agent-security&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="agent-security"/>
+    <category term="adversarial"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
+    </source>
+  </entry>
+  <entry>
+    <title>Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection</title>
+    <link href="https://arxiv.org/abs/2611.33243" rel="alternate"/>
+    <id>urn:ai-security-digest:fe476665c693297e</id>
+    <published>2026-11-26T05:00:00Z</published>
+    <updated>2026-11-26T05:00:00Z</updated>
+    <content type="html">&lt;p&gt;マルウェア検知に用いられるMLモデルの敵対的堅牢性を系統的に評価するプラットフォーム「Adversarial AI Engine（AAIE）」を紹介した研究。EMBER2018データセットを用いたランダムフォレストへの転移攻撃で、シンプルなFGSMが最高52%の攻撃成功率を示すという直感に反する結果を得た。AIを活用したセキュリティ製品の脆弱性評価に重要な示唆を与える。&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Source:&lt;/strong&gt; arXiv cs.CR (Cryptography and Security)&lt;/p&gt;&lt;p&gt;&lt;span class="tag"&gt;research&lt;/span&gt; &lt;span class="tag"&gt;adversarial&lt;/span&gt; &lt;span class="tag"&gt;evaluation&lt;/span&gt; &lt;/p&gt;</content>
+    <category term="research"/>
+    <category term="adversarial"/>
+    <category term="evaluation"/>
+    <source>
+      <title>arXiv cs.CR (Cryptography and Security)</title>
     </source>
   </entry>
 </feed>
